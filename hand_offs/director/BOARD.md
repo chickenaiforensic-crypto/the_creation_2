@@ -19,4 +19,4 @@ absolute order. Protocol: `hand_offs/PROTOCOL.md` · Rules:
 2. All hand-offs are committed to the repo under `hand_offs/` (Handoff Isolation Rule — the director's folder is included).
 3. **Hand-offs issued by the Director live in `hand_offs/director/`. Team members' replies and outputs live in their own role folder.**
 4. Outside `hand_offs/`, the branch receives code work only, and only on the Director's order.
-5. Every summary and hand-off carries Role + Branch ID.
+5. Every relay message, summary, and hand-off carries Role + Branch ID — onscreen relays included.

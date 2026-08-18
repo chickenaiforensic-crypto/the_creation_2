@@ -96,3 +96,7 @@ An index of **data categories**:
 - Compute every count from the artifact bytes. Do not quote this hand-off's numbers as evidence.
 - Do **not** modify the stores, `MANIFEST.json`, `PIN.txt`, or approval cards.
 - Category-level only. Anything that looks like a category-level anomaly → flag it in the reply, don't expand scope.
+
+---
+
+**Sign-off — Role: Director 1 · Branch ID: `arena/01a01588-the-creation-2`**

@@ -17,6 +17,7 @@ registry is `hand_offs/director/BOARD.md`.
 | Replies | Same absolute sequence: `REPLY-01-…`, `REPLY-02-…`, … |
 | Registry | `hand_offs/director/BOARD.md` tracks who, when, status |
 | Embed | Every hand-off contains the fixed relay message, verbatim |
+| Sign-off | **Every relay, summary, and hand-off — including onscreen relay messages — carries Role + Branch ID** of the issuer |
 | Location | Hand-offs **issued by the Director** live in `hand_offs/director/` (with the board). Each team member's own replies and outputs live in **their role folder** (e.g. `hand_offs/auditor/REPLY-01-…`). All of it is committed to the repo |
 
 ## Fixed relay message
