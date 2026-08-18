@@ -14,6 +14,12 @@ absolute order. Protocol: `hand_offs/PROTOCOL.md` · Rules:
 
 **Next hand-off number: 03.** Never reused, never renumbered.
 
+## Director actions log
+
+| Date | Action | Commit |
+|---|---|---|
+| 2026-08-18 | **Old-team identity scrub** across tennis data (Director order): table `fetched_by`×190/`verified_by`×17/`repaired_by`×1 neutralized; store `capture_agent`×134 neutralized; AIRP-AUD3/AIRP-ENG3/AUD3/ENG3 citations and Engineer/Auditor-3 attributions removed (facts, dates, branch IDs, program names preserved). **Store digest changed `9b271a35…` → `ad0b261d…`**; table digest re-pinned; MANIFEST/PIN/KNOWN-GAPS/GS134 card all re-pinned and verified consistent | `9799e97` |
+
 ## Standing orders (from Director)
 
 1. Every hand-off contains the fixed relay message verbatim and a global sequence number.
