@@ -84,7 +84,7 @@ def verify_store(path, pin_rows, pin_md5, pin_sha256, c):
         return None
 
     # ---- structural checks (T-002 standard) ----
-    n_arith = n_dup = n_byte_dup = n_self = n_flag = n_marker = n_winner = 0
+    n_arith = n_dup = n_byte_dup = n_self = n_flag = n_marker = n_winner = n_wo_bad = 0
     n_null_tag = n_tag_date = n_no_prov = 0
     seen = set()
     bytes_seen = set()
@@ -110,6 +110,10 @@ def verify_store(path, pin_rows, pin_md5, pin_sha256, c):
         sc = r.get('score', '')
         if 'RET' in sc or 'Def.' in sc or ' DEF' in sc:
             n_marker += 1
+        # walkover integrity (T-003 D2 policy: W/O rows carry no set/game data)
+        if r.get('status') == 'walkover':
+            if sc.strip() != 'W/O' or r.get('setsA') or r.get('setsB') or r.get('gamesA') or r.get('gamesB'):
+                n_wo_bad += 1
         # status <-> flag coherence
         st = r.get('status')
         if st == 'retired' and not r.get('retired'):
@@ -155,6 +159,7 @@ def verify_store(path, pin_rows, pin_md5, pin_sha256, c):
     c.check('0 self-play rows', n_self == 0, f'{n_self} found')
     c.check('winner == "A" on all rows', n_winner == 0, f'{n_winner} violations')
     c.check('0 score-marker tokens (T-003 D3 policy)', n_marker == 0, f'{n_marker} found')
+    c.check('walkover rows are "W/O" with zero sets/games (T-003 D2 policy)', n_wo_bad == 0, f'{n_wo_bad} violations')
     c.check('0 status<->flag incoherences', n_flag == 0, f'{n_flag} found')
     c.check('forensic-null tag <-> empty date correspondence', n_null_tag == 0, f'{n_null_tag} mismatches')
     c.check('provenance + source on every row', n_no_prov == 0, f'{n_no_prov} missing')

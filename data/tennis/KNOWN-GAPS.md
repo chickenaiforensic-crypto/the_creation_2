@@ -39,6 +39,8 @@ Exactly **32 rows** have `date == ""`. All 32 are recovered Australian Open reco
 
 **T-003 update (2026-08-18):** the nine `completed`-status rows in this set were externally evidenced as retirements and relabeled `retired` (per-row source URLs in `provenance.retirement_evidence`, see §4). Current status mix: **retired 28 / completed 0 / walkover 4**. Year and tour breakdowns unchanged.
 
+**External-date resolution path (audit flight 2026-08-18, Auditor 1):** real-world dates for §3 rows exist in an accessible external source. Verified example: Tennis-Data.co.uk `2021/ausopen.csv` dates the forensic-null row Tomic–Sugita (AO 2021 R128, `3-6 6-1 4-1`, retired) at **08/02/2021**; the same source family is already cited per-row in the store (`tennis-data.co.uk results index`). **No dates were filled** — policy stands: never invent, never fill without a Director-authorized, per-row evidenced transaction in a future cycle. This paragraph documents the safe path only.
+
 Consumers that require a date must quarantine or explicitly allow these rows. Do not invent dates.
 
 ## 4. Incomplete terminal sets and source-status inconsistency
@@ -87,3 +89,14 @@ The v5 store applies the adjudicated canonical-name corrections and identity mer
 ## 10. Bare tiebreak notation (digits never invented)
 
 **419 rows** store-wide contain a `7-6`/`6-7` set with no tiebreak digits. **415 are QF rows** — consistent with the "restored QF round" provenance (17 of them Australian Open QFs) — plus 4 non-QF rows: Bogota 2026 WTA R32 (Riera–Janicijevic), Roland Garros 2026 WTA R128 (Frech–Ruse, retired), US Open 2022 ATP R128 (Moutet–Wawrinka, retired), US Open 2022 WTA R128 (Davis–Bronzetti, retired). Tiebreak point digits are unknown for these rows and must never be imputed.
+
+## 11. External reference source status (audit flight 2026-08-18)
+
+Recorded per the Senior Forensic Advisor directive so future verification cycles do not silently assume source availability:
+
+| Source | Status 2026-08-18 | Notes |
+|---|---|---|
+| Tennis Explorer | ✅ accessible | Corroborated the Adelaide 2023 split slice (final/SFs/QFs/R16 all match store bytes). |
+| Tennis-Data.co.uk | ✅ accessible | Per-competition CSVs; AO 2021 sample 5/5 exact vs store; carries dates for §3 rows (see §3 resolution path) and betting odds (store carries none, per PIN). |
+| Jeff Sackmann GitHub (`JeffSackmann/tennis_atp`) | ⛔ offline (404) | Repo and raw CSVs gone; community forks exist but are **not admissible** as reference without a Director ruling — a fork's integrity cannot be verified against the vanished original. **Official source limitation for this audit flight.** |
+| TennisViz | ⛔ not usable | Licensed B2B product, no public per-match dataset; additionally this store carries no shot-level fields, so shot-data checks are inapplicable to this schema. |
