@@ -2,10 +2,10 @@
 
 **Artifact:** `data/Data_Sports/data/tennis/master_store_tennis_SSoT.json`
 
-- **Master MD5:** `ad0b261dedc1ba58aea988f763f8f641`
-- **Master SHA-256:** `dc2fd01873e5b7ab25611913ed45fd18ee02dad809b958e75c612614e74696eb`
-- **Bytes:** 14,136,767
-- **Rows:** 17,285 (`count` field verified equal to `len(matches)`)
+- **Master MD5:** `fa273ca4d54563866e370a7178edc4fc`
+- **Master SHA-256:** `dfdd6dfdb7152052b19be4cd31df6c8ac0f133b9d48632608754d4766e6057fc`
+- **Bytes:** 14,139,463
+- **Rows:** 17,286 (`count` field verified equal to `len(matches)`)
 - **Distinct player names:** 932
 - **Date of approval:** 2026-08-17
 - **Issuing engineer:** branch `arena/01a01121-the-creation`
@@ -25,6 +25,7 @@
 |---|---|---:|
 | Gate 4 identity merge (Shang) | `06ceabb665c26e55b727f9d2aebac06b` | 17,151 |
 | **GS134 completeness append** | **`9b271a35139d8dd459c13aadf3554bfa`** | **17,285** |
+| T-003 remediation sweep | `fa273ca4d54563866e370a7178edc4fc` | 17,286 |
 
 ## What changed
 

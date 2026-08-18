@@ -23,11 +23,11 @@ custody records live under the top-level `quarantine/evidence/` tree — never u
 
 | Role | Manifest path | Rows | MD5 |
 |---|---|---:|---|
-| Active tennis SSoT | `tennis/master_store_tennis_SSoT.json` | 17,151 | `06ceabb665c26e55b727f9d2aebac06b` |
+| Active tennis SSoT | `tennis/master_store_tennis_SSoT.json` | 17,286 | `fa273ca4d54563866e370a7178edc4fc` |
 | Football verification target | `football/master_store_15767.json` | 15,767 | `bf2dd9b40e1dda6a4546394107f44a5a` |
 
 The tennis directory contains exactly one production store. Its current approval card is
-`tennis/APPROVAL-CARD-TENNIS-GATE4-FINAL-2026-08-17.md`. Read each sport's
+`tennis/APPROVAL-CARD-TENNIS-GS134-2026-08-17.md` (T-003 remediation 2026-08-18 appended to its transaction chain). Read each sport's
 `KNOWN-GAPS.md` before using its data. A matching hash proves that bytes are unchanged; it
 does not prove that the dataset is complete.
 

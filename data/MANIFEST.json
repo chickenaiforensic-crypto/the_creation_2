@@ -3,9 +3,9 @@
   "active_store": {
     "sport": "tennis",
     "path": "tennis/master_store_tennis_SSoT.json",
-    "rows": 17285,
-    "md5": "ad0b261dedc1ba58aea988f763f8f641",
-    "sha256": "dc2fd01873e5b7ab25611913ed45fd18ee02dad809b958e75c612614e74696eb"
+    "rows": 17286,
+    "md5": "fa273ca4d54563866e370a7178edc4fc",
+    "sha256": "dfdd6dfdb7152052b19be4cd31df6c8ac0f133b9d48632608754d4766e6057fc"
   },
   "verification_targets": {
     "football": {

@@ -1,11 +1,11 @@
 # KNOWN GAPS — `master_store_tennis_SSoT.json`
 
 - **Artifact:** `master_store_tennis_SSoT.json`
-- **MD5:** `ad0b261dedc1ba58aea988f763f8f641`
-- **SHA-256:** `dc2fd01873e5b7ab25611913ed45fd18ee02dad809b958e75c612614e74696eb`
-- **Rows:** 17,285
+- **MD5:** `fa273ca4d54563866e370a7178edc4fc`
+- **SHA-256:** `dfdd6dfdb7152052b19be4cd31df6c8ac0f133b9d48632608754d4766e6057fc`
+- **Rows:** 17,286
 - **Naming layer:** v5 canonical + Phase B remediation 2026-08-16 + GS134 completeness 2026-08-17
-- **Measured from:** the artifact bytes, 2026-08-17
+- **Measured from:** the artifact bytes, 2026-08-18 (T-003 remediation)
 
 The pin proves file identity. Residual defects below remain visible to downstream users.
 
@@ -43,24 +43,26 @@ Consumers that require a date must quarantine or explicitly allow these rows. Do
 
 Within the AO scope, 30 numeric score pairs are incomplete terminal sets. Twenty-one occur on records marked `retired`; nine occur on recovered records whose status metadata says `completed`. Phase Zero scores only physically completed sets and lists all 30 source rows in `phase_zero/AO_Phase_Zero_Run_Report.json`.
 
+**T-003 update (2026-08-18):** all nine completed-status rows were externally evidence-checked and relabeled `retired` (per-row source URLs recorded in `provenance.retirement_evidence`). The store now contains **0** completed-status incomplete terminal sets; the 30 rows remain listed in the Phase Zero report for history.
+
 ## 5. `winner` is `"A"` on every row
 
-All 17,285 records are winner-first normalized. `playerA` is therefore a storage convention, not a predictive feature. Randomize or symmetrize player orientation before any predictive training.
+All 17,286 records are winner-first normalized. `playerA` is therefore a storage convention, not a predictive feature. Randomize or symmetrize player orientation before any predictive training.
 
-## 6. Known score/default defects outside AO remain
+## 6. Score-marker history and the Otte–Rinderknech set score (resolved/clarified 2026-08-18)
 
-- Wimbledon 2021 R128, Otte vs Rinderknech, contains `13-12(2)` and is marked completed, although that set score does not match the tournament's final-set format.
-- Washington 2024 QF, Shelton vs Shapovalov, has score `7-6 6-6` and `defaulted: true` but no default marker in the score string. Marker casing is inconsistent elsewhere (`Def.` / `DEF`).
+- **Wimbledon 2021 R128, Otte vs Rinderknech, `13-12(2)`, marked completed: format-consistent, not a defect.** Wimbledon 2019–2021 played a 7-point tiebreak at **12-12** in the final set, so a `13-12(2)` fifth set is the correct rendering for the 2021 edition; the uniform 10-point tiebreak at 6-6 arrived only in 2022. The earlier §6 claim that this score "does not match the tournament's final-set format" was itself inaccurate and is withdrawn (PA-03).
+- **Marker policy (T-003 D3, Director's decision):** score strings carry pure set scores only. Retirement and default are conveyed exclusively by `status` + flags (`retired`, `defaulted`), never by tokens inside `score`. The 31 trailing `RET` tokens and 2 default tokens (`Def.`/`DEF`) that previously existed were stripped with set digits byte-preserved; a store-wide census now finds **0** marker tokens. This resolves both residual §6 items (the Washington 2024 missing-marker question — no marker is now expected anywhere — and the marker-casing inconsistency).
 
 ## 7. Field-level nulls remain
 
 | Field | Empty rows |
 |---|---:|
-| `duration_min` | 2,520 |
-| `rankA` | 426 |
-| `rankB` | 452 |
+| `duration_min` | 2,521 |
+| `rankA` | 427 |
+| `rankB` | 453 |
 
-No odds fields are present.
+No odds fields are present. (T-003 note: the added Dubai 2026 walkover row contributes one null to each census; the D3 marker strip changed none.)
 
 ## 8. Naming scope
 
@@ -70,3 +72,16 @@ The v5 store applies the adjudicated canonical-name corrections and identity mer
 
 - **Shang evidence record repaired** (§2.3): ATP `S0RE` is the primary live source (Class A, ID-addressed); the ITF `800559106` endpoint is retained as historical evidence only — it returns HTTP 404 and is stale. The record's `name_as_displayed`/`match_result` now agree with the captured evidence: the ITF page displayed the Western order `Juncheng Shang` (`display_order_variant`, not `exact`), while the canonical keeps the Director's legal-name order `Shang Juncheng`, composed exactly from the ATP structured fields `LastName="Shang"`/`FirstName="Juncheng"`.
 - **Evidence timestamps are local wall-clocks:** the fetching agent did not record a timezone and 74 values were mislabeled with a `Z` (UTC) suffix. Commit-bounded analysis proves they cannot be UTC (all were committed no later than 2026-08-17T09:08:09Z). The false `Z` suffixes were removed on 2026-08-17 with the wall-clock digits preserved; no offset is asserted without a record. Batch and transaction evidence carrying these values was relocated to `quarantine/evidence/`.
+
+## 9. Non-GS completeness (M-1/M-2) — measured 2026-08-18
+
+- **Walkover rows:** the 11,443 non-GS rows recorded **0 walkovers** before T-003; unplayed matches are silently absent outside GS. The single exception now on file is the **Dubai 2026 ATP final** (Medvedev d. Griekspoor W/O), added per T-003 D2 because a title match must be derivable from the bytes. All other non-GS walkovers remain unrecorded.
+- **Spine coverage** (R32→F where applicable; R16/QF/SF/F=8/4/2/1): M1000 **28/82** editions complete, ATP/WTA500 **44/81**, ATP/WTA250 **51/96**; **205 spine matches absent** across non-GS (103 + 51 + 51). No rows were invented.
+- **Late-entrant metric definition:** counting all present-round transitions except each edition's first (bye entry point), M1000 late entrants = **161**; including first transitions adds 1,766 bye events (= 1,927 total); spine-only counting gives 99. Record all three with this note to avoid re-derivation disputes.
+- **Worst editions:** WTA Miami 2022 (R32=12/R16=7), ATP Cincinnati 2023 (R32=13/R16=6).
+- **Season-start dates:** 48 rows carry a date in the calendar year before their `edition_year` (WTA Brisbane 2024: 8, Brisbane 2025: 22, WTA Auckland 2024: 1, Auckland 2025: 17). Correct reality for December starts — do not "fix".
+- **Adelaide:** the 2023 WTA rows are now correctly split into `Adelaide International 1` (29 rows, full R32→F) and `Adelaide International 2` (24 rows). Int'l 2 residual gaps, documented not invented: 2 R16 rows absent (R32 winners Alexandrova, Kvitova, Q. Zheng, V. Kudermetova have no R16 rows) and **0 SF rows** (QF winners Badosa and V. Kudermetova do not reappear before the F). **Adelaide International 2 2022 is absent entirely** (only Int'l 1 2022 is on file).
+
+## 10. Bare tiebreak notation (digits never invented)
+
+**419 rows** store-wide contain a `7-6`/`6-7` set with no tiebreak digits. **415 are QF rows** — consistent with the "restored QF round" provenance (17 of them Australian Open QFs) — plus 4 non-QF rows: Bogota 2026 WTA R32 (Riera–Janicijevic), Roland Garros 2026 WTA R128 (Frech–Ruse, retired), US Open 2022 ATP R128 (Moutet–Wawrinka, retired), US Open 2022 WTA R128 (Davis–Bronzetti, retired). Tiebreak point digits are unknown for these rows and must never be imputed.
