@@ -11,8 +11,9 @@ absolute order. Protocol: `hand_offs/PROTOCOL.md` · Rules:
 |---|---|---|---|---|---|
 | 01 | T-001 · Data category index (tennis tournaments, football competitions) | Auditor 1 | 2026-08-18 | ✅ **Completed & Director-verified** — REPLY-01 @ `ecf6c6a` (branch `arena/01a015bb-the-creation-2`); digests + all headline counts reproduced from bytes | `hand_offs/director/HANDOFF-01-2026-08-18-AUD1-DATA-INDEX.md` → `hand_offs/auditor/REPLY-01-2026-08-18-AUD1.md` |
 | 02 | T-002 · Tennis accuracy audit — one tournament type at a time; US Open year-by-year; auditing plan first | Auditor 1 | 2026-08-18 | ✅ **COMPLETED & Director-verified — T-002 CLOSED.** 305 editions / 17,285 rows across all 5 types; zero arithmetic defects; zero verified result discrepancies; pinned §3/§4/§6 reproduced byte-exact; new classes M-1 (0 WO non-GS), M-2 (205 spine absent), F-1 Adelaide merge, F-2 Dubai 2026 title, F-3, F-4 (48 season-start rows), O-1/O-2/O-3/O-5/D-NEW-1; 2 errata accepted; LE def resolved. Sweep recommendations queued (PA-04) awaiting Director's one-sweep order | `hand_offs/director/HANDOFF-02-2026-08-18-AUD1-TENNIS-AUDIT.md` → replies 02–08 |
+| 03 | T-003 · Tennis remediation sweep — fix the audited errors on the repo (Director's one-sweep order, tennis part) | **ENGINEER 5** (per fixed relay roster) | 2026-08-18 | 📨 Relayed — D1 Adelaide split · D2 Dubai 2026 F walkover row (+1 row → 17,286) · D3 strip RET/Def./DEF markers (33 scores) · D4 §4 nine rows evidence-or-note · D5 re-pin MANIFEST/PIN/KNOWN-GAPS/GS134/README + M-1/M-2 documentation; self-verification assertions required | `hand_offs/director/HANDOFF-03-2026-08-18-TENNIS-REMEDIATION.md` → `hand_offs/engineer/REPLY-03-…` |
 
-**Next hand-off number: 03.** Never reused, never renumbered.
+**Next hand-off number: 04.** Never reused, never renumbered.
 
 ## Director actions log
 
