@@ -10,7 +10,7 @@ absolute order. Protocol: `hand_offs/PROTOCOL.md` · Rules:
 | No | Task | To | Date | Status | Hand-off / Reply |
 |---|---|---|---|---|---|
 | 01 | T-001 · Data category index (tennis tournaments, football competitions) | Auditor 1 | 2026-08-18 | ✅ **Completed & Director-verified** — REPLY-01 @ `ecf6c6a` (branch `arena/01a015bb-the-creation-2`); digests + all headline counts reproduced from bytes | `hand_offs/director/HANDOFF-01-2026-08-18-AUD1-DATA-INDEX.md` → `hand_offs/auditor/REPLY-01-2026-08-18-AUD1.md` |
-| 02 | T-002 · Tennis accuracy audit — one tournament type at a time; US Open year-by-year; auditing plan first | Auditor 1 | 2026-08-18 | 🔄 **In progress** — Plan (Part A) + US Open 2021–2025 (Part B) delivered in REPLY-02 @ `4866996` (branch `arena/01a015bb-the-creation-2`); **Director-verified** (10×127 rows, round census, brackets, statuses, scores, 2025 F/SF vs external record all reproduce). Next per plan: **Australian Open** (incl. 32 forensic-null + 30 incomplete-terminal-set rows) → RG → Wimbledon → M1000 → 500s → 250s | `hand_offs/director/HANDOFF-02-2026-08-18-AUD1-TENNIS-AUDIT.md` → `hand_offs/auditor/REPLY-02-2026-08-18-AUD1.md` |
+| 02 | T-002 · Tennis accuracy audit — one tournament type at a time; US Open year-by-year; auditing plan first | Auditor 1 | 2026-08-18 | 🔄 **In progress** — US Open ✅ (Director-verified). **AO delivered + Director-verified** (1,524=254×6; §3 32 nulls byte-exact; §4 30=21ret+9comp byte-exact; D-NEW-1 Khachanov–Korda RET-marker miss; O-1 RET-suffix split; O-2 17 bare-TB QF rows; 12/12 finals match record incl. 2026). Next per plan: **Roland Garros** → Wimbledon → M1000 → 500s → 250s | `hand_offs/director/HANDOFF-02-2026-08-18-AUD1-TENNIS-AUDIT.md` → replies 02 (US Open), 03 (AO, control loop) |
 
 **Next hand-off number: 03.** Never reused, never renumbered.
 
@@ -19,6 +19,7 @@ absolute order. Protocol: `hand_offs/PROTOCOL.md` · Rules:
 | Date | Action | Commit |
 |---|---|---|
 | 2026-08-18 | **Old-team identity scrub** across tennis data (Director order): table `fetched_by`×190/`verified_by`×17/`repaired_by`×1 neutralized; store `capture_agent`×134 neutralized; AIRP-AUD3/AIRP-ENG3/AUD3/ENG3 citations and Engineer/Auditor-3 attributions removed (facts, dates, branch IDs, program names preserved). **Store digest changed `9b271a35…` → `ad0b261d…`**; table digest re-pinned; MANIFEST/PIN/KNOWN-GAPS/GS134 card all re-pinned and verified consistent | `9799e97` |
+| 2026-08-18 | **Consolidated all-known-gaps document created** (tennis pinned §1–§8 + new D-NEW-1/O-1/O-2 + T-001 flag + football F-1–F-4; Director-verified from bytes). **Held LOCAL per Director order — NOT committed** (`hand_offs/director/ALL-KNOWN-GAPS-AUDITOR-2026-08-18-LOCAL.md`, untracked) | — |
 
 ## Standing orders (from Director)
 
