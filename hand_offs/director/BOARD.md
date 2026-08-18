@@ -7,11 +7,12 @@ absolute order. Protocol: `hand_offs/PROTOCOL.md` · Rules:
 
 ## Absolute order registry
 
-| No | Task | To | Date | Status | Hand-off (Director's folder) | Deliverable |
-|---|---|---|---|---|---|---|
-| 01 | T-001 · Data category index (tennis tournaments, football competitions) | Auditor 1 | 2026-08-18 | 📨 Relayed | `hand_offs/director/HANDOFF-01-2026-08-18-AUD1-DATA-INDEX.md` | `hand_offs/auditor/REPLY-01-…` presented to control loop |
+| No | Task | To | Date | Status | Hand-off / Reply |
+|---|---|---|---|---|---|
+| 01 | T-001 · Data category index (tennis tournaments, football competitions) | Auditor 1 | 2026-08-18 | ✅ **Completed & Director-verified** — REPLY-01 @ `ecf6c6a` (branch `arena/01a015bb-the-creation-2`); digests + all headline counts reproduced from bytes | `hand_offs/director/HANDOFF-01-2026-08-18-AUD1-DATA-INDEX.md` → `hand_offs/auditor/REPLY-01-2026-08-18-AUD1.md` |
+| 02 | T-002 · Tennis accuracy audit — one tournament type at a time; US Open year-by-year; auditing plan first | Auditor 1 | 2026-08-18 | 📨 Relayed | `hand_offs/director/HANDOFF-02-2026-08-18-AUD1-TENNIS-AUDIT.md` → `hand_offs/auditor/REPLY-02-…` |
 
-**Next hand-off number: 02.** Never reused, never renumbered.
+**Next hand-off number: 03.** Never reused, never renumbered.
 
 ## Standing orders (from Director)
 
