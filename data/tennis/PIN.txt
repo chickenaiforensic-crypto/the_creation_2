@@ -1,0 +1,26 @@
+TENNIS SSoT LOCKDOWN — v5 canonical naming + Phase B remediation (identity forks closed) + store name corrections + Gate 4 store respells (190-name run certified) + complete Australian Open 2021-2026
+promoted on branch: arena/01a00db1-the-creation (Engineer 1 (New))
+upstream base: arena/01a00b25-the-creation @ b5ed13c (Engineer 2, Phase B + SS-3) — md5 ee16ac000670f02b378e97a7a91b19d7, synced unmodified before corrections
+predecessor artifact digest (pre-remediation SSoT): d4d2565574ddeef7138dc09627b8990e
+canonical path: data/Data_Sports/data/tennis/master_store_tennis_SSoT.json
+md5: 9b271a35139d8dd459c13aadf3554bfa
+sha256: eb2eeaf7ba504bbd83c459ca47eb0d09f63deade7de713db1cc4de72f36f5527
+bytes: 14136767
+rows: 17285
+schema: 3.0
+naming layer: v5 canonical + Phase B remediation 2026-08-16 (Engineer 2) + store corrections 2026-08-17 (Engineer 1 (New): Giulia Gatto-Monticone, En-Shuo Liang, Carla Suárez Navarro, Ylena In-Albon — 16 rows) + Gate 4 store respells 2026-08-17 (Engineer 1 (New): Diego Dedura-Palomero — 1 row, A-ITF 800569536) + Gate 4 identity merge 2026-08-17 (Juncheng Shang -> Shang Juncheng — 45 rows, ATP S0RE; 47 rows unified)
+Phase B detail (6 fork corrections: Abdullah Shelbayh, Anastasiia Sobolieva, Bethanie Mattek-Sands, Giorgia Pedone, Santiago Rodriguez Taverna, Yuriko Lily Miyazaki; 1 whitespace trim: Gianluca Cadenasso)
+player canonical name table entries: 1069
+player canonical name table sha256: 94ed4e45381ef529fb19e88a0f7921e873663aa3421bf4f72503490e36189225
+player canonical name table md5: 845e6f398196abdee78444c35d5b4b77
+canonical name table evidence repair 2026-08-17 (rev 1): Engineer 3 (New), branch arena/01a00f28-the-creation (AIRP-ENG3-PRISTINE-PURGE) — Shang record evidence-consistency repair per AIRP-AUD3 §2.3 (ATP S0RE promoted primary live source; ITF 800559106 retained historical, 404 stale; false-UTC timestamp labels corrected); store bytes unchanged from 4aebb73
+canonical name table evidence repair 2026-08-17 (rev 2): Engineer 3 (New), per TERMINAL SCRUB DIRECTIVE Task A — Unknown-Wall-Clock treatment applied to 29 table entries (3 x 05:20, 18 x 08:50, 8 x 09:30 wall-clocks post-dating their introducing commits 6a000c3/95d19cb/5c8acf5) plus 23 archived batch records (batch_1 x3, batch_7 x20); 52 instances total; 0 residual chronology defects verified; store bytes unchanged from 4aebb73
+AO: 254/254/254/254/254/254 = 1524 (2021-2026)
+fit pool AO 2021-2025 = 1270
+AO 2026 = 254 reserved holdout
+forensic null dates: 32 (all retained and tagged provenance.forensic_null=true)
+approval card: APPROVAL-CARD-TENNIS-GATE4-FINAL-2026-08-17.md (supersedes APPROVAL-CARD-TENNIS-GATE4-2026-08-17.md)
+canonical name table schema: 1.2 (alias_accepted enum; 190/190 verified, 0 needs_verification, 0 disputed)
+No odds.
+canonical name table evidence repair 2026-08-17 (rev 3): Engineer 3 (New), per TERMINAL SCRUB Sub-Batch 2 item 4 — fetched_at_note provenance corrected from global to per-record introducing commits (ATP 4aebb73; ITF 286ae1e); store bytes unchanged from 4aebb73
+canonical name table evidence repair 2026-08-17 (rev 4): Engineer 3 (New), per DIRECTOR — FINAL DOCUMENTATION REMEDIATION (GAPS A & B) — Task A: Unknown-Wall-Clock notes added to 33 canonical records + 1+19+13 archived batch copies (shadow-scrub gap; total de-Z'd scope 85 records); Task B: match_result 'exact'->'alias_accepted' landed on katerynabondarenko, samanthamurray, priskamadelynnugroho (Schema 1.2); store bytes unchanged from 4aebb73

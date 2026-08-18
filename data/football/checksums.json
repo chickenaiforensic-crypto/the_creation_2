@@ -1,0 +1,51 @@
+{
+  "total": 15767,
+  "md5": "bf2dd9b40e1dda6a4546394107f44a5a",
+  "sha256": "809075006b53842128e261f95eb094c38581c89ae75cc8294f333c32e4a76764",
+  "date_range": [
+    "2021-07-09",
+    "2026-08-09"
+  ],
+  "by_competition": {
+    "Czech First League": 1381,
+    "Czech Relegation Playoffs": 20,
+    "MOL Cup": 202,
+    "Russian Premier League": 1216,
+    "Russian Relegation Playoffs": 20,
+    "Russian Cup": 341,
+    "Russian Super Cup": 2,
+    "England Premier League": 1900,
+    "UEFA Champions League": 786,
+    "UEFA Conference League": 611,
+    "UEFA Europa League": 772,
+    "Scottish League Cup": 238,
+    "Scottish Premiership": 993,
+    "Scottish Premiership Relegation Round": 75,
+    "Scottish Premiership Championship Round": 65,
+    "Spain La Liga": 1900,
+    "Italy Serie A": 1900,
+    "Italy Relegation Playoffs": 1,
+    "Germany Bundesliga": 1530,
+    "Germany Relegation Playoffs": 10,
+    "France Ligue 1": 1678,
+    "France Relegation Playoffs": 8,
+    "Scottish Cup": 118
+  },
+  "by_year": {
+    "2021": 1672,
+    "2022": 2946,
+    "2023": 3267,
+    "2024": 3112,
+    "2025": 3203,
+    "2026": 1567
+  },
+  "by_compType": {
+    "domestic-league": 12638,
+    "other": 59,
+    "domestic-cup": 663,
+    "uefa-cl": 786,
+    "uefa-uecl": 611,
+    "uefa-el": 772,
+    "league-cup": 238
+  }
+}
