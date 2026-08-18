@@ -3,10 +3,10 @@ promoted on branch: arena/01a00db1-the-creation
 upstream base: arena/01a00b25-the-creation @ b5ed13c (Phase B + SS-3) — md5 ee16ac000670f02b378e97a7a91b19d7, synced unmodified before corrections
 predecessor artifact digest (pre-remediation SSoT): d4d2565574ddeef7138dc09627b8990e
 canonical path: data/Data_Sports/data/tennis/master_store_tennis_SSoT.json
-md5: ad0b261dedc1ba58aea988f763f8f641
-sha256: dc2fd01873e5b7ab25611913ed45fd18ee02dad809b958e75c612614e74696eb
-bytes: 14135427
-rows: 17285
+md5: fa273ca4d54563866e370a7178edc4fc
+sha256: dfdd6dfdb7152052b19be4cd31df6c8ac0f133b9d48632608754d4766e6057fc
+bytes: 14139463
+rows: 17286
 schema: 3.0
 naming layer: v5 canonical + Phase B remediation 2026-08-16 + store corrections 2026-08-17 (Giulia Gatto-Monticone, En-Shuo Liang, Carla Suárez Navarro, Ylena In-Albon — 16 rows) + Gate 4 store respells 2026-08-17 (Diego Dedura-Palomero — 1 row, A-ITF 800569536) + Gate 4 identity merge 2026-08-17 (Juncheng Shang -> Shang Juncheng — 45 rows, ATP S0RE; 47 rows unified)
 Phase B detail (6 fork corrections: Abdullah Shelbayh, Anastasiia Sobolieva, Bethanie Mattek-Sands, Giorgia Pedone, Santiago Rodriguez Taverna, Yuriko Lily Miyazaki; 1 whitespace trim: Gianluca Cadenasso)
@@ -26,3 +26,5 @@ canonical name table evidence repair 2026-08-17 (rev 3): per TERMINAL SCRUB Sub-
 canonical name table evidence repair 2026-08-17 (rev 4): per DIRECTOR — FINAL DOCUMENTATION REMEDIATION (GAPS A & B) — Task A: Unknown-Wall-Clock notes added to 33 canonical records + 1+19+13 archived batch copies (shadow-scrub gap; total de-Z'd scope 85 records); Task B: match_result 'exact'->'alias_accepted' landed on katerynabondarenko, samanthamurray, priskamadelynnugroho (Schema 1.2); store bytes unchanged from 4aebb73
 
 canonical name table team-identity scrub 2026-08-18: Director 1, branch arena/01a01588-the-creation-2 — old-team agent identities and person-coded IDs (AIRP-AUD*/AIRP-ENG*) neutralized from tennis data artifacts per Director order; factual content, dates, branch IDs and program names preserved; table entries 1069 unchanged; store rows 17,285 unchanged; store and table digests re-pinned above
+
+T-003 remediation 2026-08-18: Adelaide 2023 WTA split into Adelaide International 1 (29) + 2 (24); Dubai 2026 ATP F walkover row added (17,286 rows); RET/Def./DEF tokens stripped from 33 scores (31 RET + 2 Def); §4 nine rows evidence-checked per D4. Director order.
