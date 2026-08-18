@@ -1,21 +1,20 @@
-# HANDOFF-01 — Auditor 1 — Data Category Index
+# HANDOFF-04 — Auditor 1 — Doc errata on the Auditor's branch (T-004)
 
 | Field | Value |
 |---|---|
-| **Handoff No** | **01** (absolute order) |
-| **Task ID** | `T-001` |
+| **Handoff No** | **04** (absolute order) |
+| **Task ID** | `T-004` |
 | **From** | Director 1 |
 | **To** | Auditor 1 |
-| **Role (sign-off)** | Director 1 |
-| **Branch ID (sign-off)** | `arena/01a01588-the-creation-2` |
+| **Issuer sign-off** | **Role: Director 1 · Branch ID: `arena/01a01588-the-creation-2`** |
 | **Date** | 2026-08-18 |
-| **Priority** | Normal |
+| **Priority** | Normal (doc-only; no data files) |
 
 ---
 
 ⏳ **Submission Protocol**
 
-Log your completed findings inside the repository's hand-off folder for your role (e.g. `hand_offs/auditor/REPLY-01-…`). Present your clean list directly to this control loop.
+Log your completed findings inside the repository's hand-off folder for your role (e.g. `hand_offs/auditor/REPLY-04-…`). Present your clean list directly to this control loop.
 
 📢 **RELAY MESSAGE & CORE TEAM MANDATE**
 
@@ -53,49 +52,50 @@ Log your completed findings inside the repository's hand-off folder for your rol
 
 ---
 
-## Objective
+## Context
 
-An index of **data categories**:
+An independent monitor's verification report was received and **every claim
+Director-verified from bytes**. The T-003 data remediation is corroborated
+(zero falsehoods). The report also listed doc-level errata. Two of them live
+in **your branch's** files and are assigned to you. The Director-branch items
+were fixed by the Director directly.
 
-1. **Tennis** — which tournaments exist, etc.
-2. **Football** — which leagues/competitions exist, etc.
+## Fixes (doc-only, on your branch `arena/01a015bb-the-creation-2`)
 
-**Category level only.** No in-depth player-level (tennis) or team-level
-(football) detail.
+1. **REPLY-01 headers are wrong** (`hand_offs/auditor/REPLY-01-2026-08-18-AUD1.md`):
+   - Line 35 says `### ATP (34 tournaments, 9,419 rows)` — bytes said 33 ATP
+     tournaments even pre-sweep; post-T-003 the ATP row total is **9,420**.
+   - Line 73 says `### WTA (30 tournaments, 7,866 rows)` — post-T-003 the
+     Adelaide split makes it **31** WTA tournaments (7,866 rows unchanged).
+   - Fix: recompute both headers from the current store
+     (`fa273ca4d54563866e370a7178edc4fc`, 17,286 rows) and correct them to
+     **ATP: 33 tournaments, 9,420 rows** · **WTA: 31 tournaments, 7,866 rows**
+     (Director byte-verified). Keep the index tables as-is; add one line under
+     each header if needed: "post-T-003 store (Adelaide split; Dubai 2026
+     walkover row added)".
+2. **REPLY-02 C3 wording** (line 27): the duplicate check is applied
+   **per edition** (composite keys within an edition); the plan text says
+   "0 duplicate (round, playerA, playerB) keys" without saying so. Reword to:
+   "0 duplicate (round, playerA, playerB) keys within any edition; 0
+   byte-identical rows". Practice was correct; text was not.
+3. **`hand_offs/auditor/README.md` on your branch**: list all handoffs
+   (01 data index · 02 accuracy audit · 03 remediation) and replies 01–08,
+   matching the Director branch's copy. If your branch intentionally keeps
+   only its own deliverables, state that in one line instead — but then the
+   README must not claim to be the index of handoffs.
 
-## Scope IN
+## Not in scope
 
-- **Tennis** (from `data/tennis/master_store_tennis_SSoT.json` bytes): tournament names present, with `tour` (ATP/WTA), `tier`, `surface`, edition years, row counts per tournament. Cite `KNOWN-GAPS.md` markers (e.g. US Open 2026 absent) — reference, don't re-audit.
-- **Football** (from `data/football/master_store_15767.json` bytes): `competitionName` list with `compType`, country, date range, row counts per competition, plus admission status (ADMITTED / HOLD / BLOCKED-BY-INPUT) per `APPROVAL-CARD-FULLFOOTBALL-2026-08-11.md`.
+- No store, MANIFEST, PIN, KNOWN-GAPS, cards, or any data file may change.
+- Your historical replies stay intact except the two lines above (fix in
+  place; do not rewrite the rest — trail preservation).
 
-## Scope OUT
+## Deliverable
 
-- No per-player rankings, records, or name tables.
-- No per-team detail (identities, ratings, venues).
-- No odds/model commentary.
-
-## Source pointers
-
-| Artifact | Path |
-|---|---|
-| Tennis store (17,285 rows) | `data/tennis/master_store_tennis_SSoT.json` |
-| Football store (15,767 matches) | `data/football/master_store_15767.json` |
-| Manifest | `data/MANIFEST.json` |
-| Tennis pin/gaps | `data/tennis/PIN.txt`, `data/tennis/KNOWN-GAPS.md` |
-| Football gaps/checksums | `data/football/KNOWN-GAPS.md`, `data/football/checksums.json` |
-| Approval cards | `data/tennis/APPROVAL-CARD-TENNIS-GATE4-FINAL-2026-08-17.md`, `data/football/APPROVAL-CARD-FULLFOOTBALL-2026-08-11.md` |
-
-## Deliverable & submission
-
-1. Write the clean category list to **`hand_offs/auditor/REPLY-01-2026-08-18-AUD1.md`** — committed to the repo under `hand_offs/` (Handoff Isolation Rule).
-2. **Present it directly to the Director (this control loop).**
-3. Attach **Role** and **Branch ID** to your summary and hand-off (Sign-off Metadata Requirement).
-
-## Rules
-
-- Compute every count from the artifact bytes. Do not quote this hand-off's numbers as evidence.
-- Do **not** modify the stores, `MANIFEST.json`, `PIN.txt`, or approval cards.
-- Category-level only. Anything that looks like a category-level anomaly → flag it in the reply, don't expand scope.
+- Commit(s) on your branch; `hand_offs/auditor/REPLY-04-2026-08-18-AUD1.md`
+  listing each fix with before/after lines.
+- Present directly to the Director in this control loop.
+- **Sign-off: Role + Branch ID.**
 
 ---
 

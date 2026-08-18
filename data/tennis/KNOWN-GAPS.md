@@ -37,6 +37,8 @@ Exactly **32 rows** have `date == ""`. All 32 are recovered Australian Open reco
 - Tour: ATP = 27, WTA = 5
 - Status: retired = 19, completed = 9, walkover = 4
 
+**T-003 update (2026-08-18):** the nine `completed`-status rows in this set were externally evidenced as retirements and relabeled `retired` (per-row source URLs in `provenance.retirement_evidence`, see §4). Current status mix: **retired 28 / completed 0 / walkover 4**. Year and tour breakdowns unchanged.
+
 Consumers that require a date must quarantine or explicitly allow these rows. Do not invent dates.
 
 ## 4. Incomplete terminal sets and source-status inconsistency
@@ -76,7 +78,7 @@ The v5 store applies the adjudicated canonical-name corrections and identity mer
 ## 9. Non-GS completeness (M-1/M-2) — measured 2026-08-18
 
 - **Walkover rows:** the 11,443 non-GS rows recorded **0 walkovers** before T-003; unplayed matches are silently absent outside GS. The single exception now on file is the **Dubai 2026 ATP final** (Medvedev d. Griekspoor W/O), added per T-003 D2 because a title match must be derivable from the bytes. All other non-GS walkovers remain unrecorded.
-- **Spine coverage** (R32→F where applicable; R16/QF/SF/F=8/4/2/1): M1000 **28/82** editions complete, ATP/WTA500 **44/81**, ATP/WTA250 **51/96**; **205 spine matches absent** across non-GS (103 + 51 + 51). No rows were invented.
+- **Spine coverage** (R32→F where applicable; R16/QF/SF/F=8/4/2/1): M1000 **28/82** editions complete, ATP/WTA500 **45/82**, ATP/WTA250 **51/96**; **208 spine matches absent** across non-GS (103 + 54 + 51). No rows were invented. *(Post-T-003 recompute 2026-08-18: the Adelaide split adds one 500-level edition and four gaps — Int'l 2 lacks 2 R16 and 2 SF rows — while the added Dubai 2026 final closes one F gap: 81→82 editions, 51→54 absent, 205→208 total.)*
 - **Late-entrant metric definition:** counting all present-round transitions except each edition's first (bye entry point), M1000 late entrants = **161**; including first transitions adds 1,766 bye events (= 1,927 total); spine-only counting gives 99. Record all three with this note to avoid re-derivation disputes.
 - **Worst editions:** WTA Miami 2022 (R32=12/R16=7), ATP Cincinnati 2023 (R32=13/R16=6).
 - **Season-start dates:** 48 rows carry a date in the calendar year before their `edition_year` (WTA Brisbane 2024: 8, Brisbane 2025: 22, WTA Auckland 2024: 1, Auckland 2025: 17). Correct reality for December starts — do not "fix".
