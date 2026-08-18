@@ -10,7 +10,7 @@ absolute order. Protocol: `hand_offs/PROTOCOL.md` · Rules:
 | No | Task | To | Date | Status | Hand-off / Reply |
 |---|---|---|---|---|---|
 | 01 | T-001 · Data category index (tennis tournaments, football competitions) | Auditor 1 | 2026-08-18 | ✅ **Completed & Director-verified** — REPLY-01 @ `ecf6c6a` (branch `arena/01a015bb-the-creation-2`); digests + all headline counts reproduced from bytes | `hand_offs/director/HANDOFF-01-2026-08-18-AUD1-DATA-INDEX.md` → `hand_offs/auditor/REPLY-01-2026-08-18-AUD1.md` |
-| 02 | T-002 · Tennis accuracy audit — one tournament type at a time; US Open year-by-year; auditing plan first | Auditor 1 | 2026-08-18 | 🔄 **In progress** — US Open ✅ (Director-verified). **AO delivered + Director-verified** (1,524=254×6; §3 32 nulls byte-exact; §4 30=21ret+9comp byte-exact; D-NEW-1 Khachanov–Korda RET-marker miss; O-1 RET-suffix split; O-2 17 bare-TB QF rows; 12/12 finals match record incl. 2026). Next per plan: **Roland Garros** → Wimbledon → M1000 → 500s → 250s | `hand_offs/director/HANDOFF-02-2026-08-18-AUD1-TENNIS-AUDIT.md` → replies 02 (US Open), 03 (AO, control loop) |
+| 02 | T-002 · Tennis accuracy audit — one tournament type at a time; US Open year-by-year; auditing plan first | Auditor 1 | 2026-08-18 | 🔄 **In progress** — **GS type CLOSED: 46/46 editions Director-verified** (US Open ✅, AO ✅, RG ✅ incl. §2 restored SFs, Wimbledon ✅ incl. §6 row; all 46 finals match public record, 0 discrepancies; new findings O-1 rev2 RET census, O-3 2021-only long sets, O-5 W2026 nulls, PA-03 §6 wording — all byte-verified). **Next per plan: M1000** (ATP 9 + WTA 7, draw-size-aware census) → 500s → 250s | `hand_offs/director/HANDOFF-02-2026-08-18-AUD1-TENNIS-AUDIT.md` → replies 02 (US Open), 03 (AO), 04 (RG), 05 (Wimbledon + GS close-out, `2d85694`) |
 
 **Next hand-off number: 03.** Never reused, never renumbered.
 
@@ -36,3 +36,4 @@ absolute order. Protocol: `hand_offs/PROTOCOL.md` · Rules:
 |---|---|---|---|
 | PA-01 | Update system + documentation with verified data; fix everything else found by the audits | Director 2026-08-18 | ⏸ Parked until audits verify accuracy |
 | PA-02 | Correct stale tennis figures in `data/README.md` (17,151/`06ceabb6…` → current) | T-001 flag (Auditor 1, Director-confirmed) | ⏸ Parked — untouched until post-audit sweep |
+| PA-03 | KNOWN-GAPS §6 wording review: `13-12(2)` at Wimbledon 2021 is format-consistent (12-12 final-set TB era 2019–2021); data needs no change, register wording does | O-flag from Auditor 1 (GS close-out), Director-confirmed | ⏸ Parked — untouched until post-audit sweep |
