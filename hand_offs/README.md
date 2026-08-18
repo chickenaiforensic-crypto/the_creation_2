@@ -17,7 +17,7 @@ registry is `hand_offs/director/BOARD.md`.
 | Replies | Same absolute sequence: `REPLY-01-…`, `REPLY-02-…`, … |
 | Registry | `hand_offs/director/BOARD.md` tracks who, when, status |
 | Embed | Every hand-off contains the fixed relay message, verbatim |
-| Location | All hand-offs are committed to the repo under `hand_offs/` (every role, including `hand_offs/director/`) |
+| Location | Hand-offs **issued by the Director** live in `hand_offs/director/` (with the board). Each team member's own replies and outputs live in **their role folder** (e.g. `hand_offs/auditor/REPLY-01-…`). All of it is committed to the repo |
 
 ## Fixed relay message
 
@@ -72,11 +72,15 @@ Log your completed findings inside the repository's hand-off folder for your rol
 hand_offs/
 ├── README.md               this file — rules every agent must follow
 ├── PROTOCOL.md             canonical fixed relay message
-├── auditor/                Auditor hand-offs (HANDOFF-01-…, REPLY-01-…)
-├── engineer/               Engineer hand-offs
-├── others/                 Others hand-offs
-└── director/
-    └── BOARD.md            absolute-order registry + task status
+├── director/
+│   ├── BOARD.md            absolute-order registry + task status
+│   └── HANDOFF-01-…        hand-offs issued BY the Director
+├── auditor/                Auditor's own replies and outputs (REPLY-01-…)
+├── engineer/               Engineer's own replies and outputs
+└── others/                 Others' own replies and outputs
 ```
 
 All of the above is committed to the repo, including `hand_offs/director/`.
+A hand-off goes in the folder of the person who **wrote** it: the
+Director's hand-offs sit in `hand_offs/director/`, team members' replies
+sit in their own role folder.
