@@ -14,7 +14,7 @@
 
 ⏳ **Submission Protocol**
 
-Log your completed findings inside the repository's hand-off folder for your role (e.g. `hand_offs/auditor/REPLY-04-…`). Present your clean list directly to this control loop.
+Log your completed findings inside the repository's hand-off folder for your role (e.g. `hand_offs/auditor/REPLY-09-…`). Present your clean list directly to this control loop.
 
 📢 **RELAY MESSAGE & CORE TEAM MANDATE**
 
@@ -92,7 +92,7 @@ were fixed by the Director directly.
 
 ## Deliverable
 
-- Commit(s) on your branch; `hand_offs/auditor/REPLY-04-2026-08-18-AUD1.md`
+- Commit(s) on your branch; `hand_offs/auditor/REPLY-09-2026-08-18-AUD1.md`
   listing each fix with before/after lines.
 - Present directly to the Director in this control loop.
 - **Sign-off: Role + Branch ID.**
@@ -100,3 +100,8 @@ were fixed by the Director directly.
 ---
 
 **Sign-off — Role: Director 1 · Branch ID: `arena/01a01588-the-creation-2`**
+
+
+---
+
+**Amendment 2026-08-18 (Director):** the deliverable reply name is **REPLY-09-2026-08-18-AUD1.md**, not REPLY-04. REPLY-04 already exists on your branch as the Roland Garros unit of T-002. Absolute numbering is never reused; this collision was reported by the monitor and corrected before delivery.

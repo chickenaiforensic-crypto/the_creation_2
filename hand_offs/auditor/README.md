@@ -15,7 +15,7 @@ Director-issued hand-offs live in the **Director's folder**:
 
 ## Auditor replies (own folder)
 
-Replies keep the same numbering: `REPLY-01-…` … `REPLY-08-…` (T-001/T-002),
+Replies keep the same numbering: `REPLY-01-…` … `REPLY-08-…` (T-001/T-002), `REPLY-09-…` (T-004 errata),
 `hand_offs/engineer/REPLY-03-…` (T-003 execution). Every hand-off embeds the
 fixed relay message (`../PROTOCOL.md`). Full rules: `../README.md`. Registry:
 `../director/BOARD.md`.
