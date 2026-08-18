@@ -21,3 +21,11 @@ absolute order. Protocol: `hand_offs/PROTOCOL.md` · Rules:
 3. **Hand-offs issued by the Director live in `hand_offs/director/`. Team members' replies and outputs live in their own role folder.**
 4. Outside `hand_offs/`, the branch receives code work only, and only on the Director's order.
 5. Every relay message, summary, and hand-off carries Role + Branch ID — onscreen relays included.
+6. **Data freeze until verified:** no data information is used to update the system or documentation until the accuracy audits verify it. After verification, the Director orders one sweep: update system, documentation, and all other fixes. Audit findings are recorded, never fixed in-flight.
+
+## Queued — post-audit sweep (no handoff number until the Director orders it)
+
+| ID | Item | Source | Status |
+|---|---|---|---|
+| PA-01 | Update system + documentation with verified data; fix everything else found by the audits | Director 2026-08-18 | ⏸ Parked until audits verify accuracy |
+| PA-02 | Correct stale tennis figures in `data/README.md` (17,151/`06ceabb6…` → current) | T-001 flag (Auditor 1, Director-confirmed) | ⏸ Parked — untouched until post-audit sweep |
