@@ -25,6 +25,7 @@
 |---|---|---:|
 | Gate 4 identity merge (Shang) | `06ceabb665c26e55b727f9d2aebac06b` | 17,151 |
 | **GS134 completeness append** | **`9b271a35139d8dd459c13aadf3554bfa`** | **17,285** |
+| Old-team identity scrub (Director 1, 2026-08-18) | `ad0b261dedc1ba58aea988f763f8f641` | 17,285 |
 | T-003 remediation sweep | `fa273ca4d54563866e370a7178edc4fc` | 17,286 |
 
 ## What changed
