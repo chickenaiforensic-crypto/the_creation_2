@@ -8,7 +8,7 @@
 - **Rows:** 17,151 (`count` field verified equal to `len(matches)`)
 - **Distinct player names:** 932 (was 933 — one identity unified)
 - **Date of approval:** 2026-08-17
-- **Issuing engineer:** Engineer 1 (New), branch `arena/01a00db1-the-creation`
+- **Issuing engineer:** branch `arena/01a00db1-the-creation`
 - **Authority:** Director GATE 4 FINAL CLOSURE & "CLEAN HOUSE" COMMENCE 2026-08-17 §2.
 
 ## Transaction chain
@@ -48,7 +48,7 @@ consistent with both spellings carrying rank 89 in the same 2024 Atlanta week an
 **A-ITF caveat, disclosed:** the ITF URL recorded in `batch_8` for id `800559106` returned
 **HTTP 404** on re-fetch across `jt`/`mt` paths. A search index still lists that exact URL with the
 correct player, but **search-engine snippets are never acceptable as primary evidence**, so it was
-not relied upon. The merge rests on Class A ATP `S0RE`. **Auditor 1 action: re-resolve the A-ITF
+not relied upon. The merge rests on Class A ATP `S0RE`. **Auditor action: re-resolve the A-ITF
 profile for `800559106`.**
 
 ## Merge guards (new tool `apply_identity_merge.py`)

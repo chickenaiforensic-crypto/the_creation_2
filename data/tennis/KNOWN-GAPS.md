@@ -1,8 +1,8 @@
 # KNOWN GAPS — `master_store_tennis_SSoT.json`
 
 - **Artifact:** `master_store_tennis_SSoT.json`
-- **MD5:** `9b271a35139d8dd459c13aadf3554bfa`
-- **SHA-256:** `eb2eeaf7ba504bbd83c459ca47eb0d09f63deade7de713db1cc4de72f36f5527`
+- **MD5:** `ad0b261dedc1ba58aea988f763f8f641`
+- **SHA-256:** `dc2fd01873e5b7ab25611913ed45fd18ee02dad809b958e75c612614e74696eb`
 - **Rows:** 17,285
 - **Naming layer:** v5 canonical + Phase B remediation 2026-08-16 + GS134 completeness 2026-08-17
 - **Measured from:** the artifact bytes, 2026-08-17
@@ -64,9 +64,9 @@ No odds fields are present.
 
 ## 8. Naming scope
 
-The v5 store applies the adjudicated canonical-name corrections and identity merges. The accompanying `player_canonical_names.json` contains **1,069 entries** (874 adjudicated + 195 Phase B additions). The 190-name verification queue closed **190/190 verified, 0 needs_verification, 0 disputed** (certified by Auditor 1, 2026-08-17); Gate 4 applied the resulting store respells and the `Juncheng Shang → Shang Juncheng` identity merge (45 rows rewritten, 47 rows unified, ATP `S0RE` Class A evidence). This does not turn unverified non-AO spellings into official-name assertions; future name evidence must extend the table without silently forking identities.
+The v5 store applies the adjudicated canonical-name corrections and identity merges. The accompanying `player_canonical_names.json` contains **1,069 entries** (874 adjudicated + 195 Phase B additions). The 190-name verification queue closed **190/190 verified, 0 needs_verification, 0 disputed** (certified by the auditor, 2026-08-17); Gate 4 applied the resulting store respells and the `Juncheng Shang → Shang Juncheng` identity merge (45 rows rewritten, 47 rows unified, ATP `S0RE` Class A evidence). This does not turn unverified non-AO spellings into official-name assertions; future name evidence must extend the table without silently forking identities.
 
-### 8.1 Evidence provenance caveats (2026-08-17, Engineer 3 repair)
+### 8.1 Evidence provenance caveats (2026-08-17, repair)
 
-- **Shang evidence record repaired** (AIRP-AUD3 §2.3): ATP `S0RE` is the primary live source (Class A, ID-addressed); the ITF `800559106` endpoint is retained as historical evidence only — it returns HTTP 404 and is stale. The record's `name_as_displayed`/`match_result` now agree with the captured evidence: the ITF page displayed the Western order `Juncheng Shang` (`display_order_variant`, not `exact`), while the canonical keeps the Director's legal-name order `Shang Juncheng`, composed exactly from the ATP structured fields `LastName="Shang"`/`FirstName="Juncheng"`.
+- **Shang evidence record repaired** (§2.3): ATP `S0RE` is the primary live source (Class A, ID-addressed); the ITF `800559106` endpoint is retained as historical evidence only — it returns HTTP 404 and is stale. The record's `name_as_displayed`/`match_result` now agree with the captured evidence: the ITF page displayed the Western order `Juncheng Shang` (`display_order_variant`, not `exact`), while the canonical keeps the Director's legal-name order `Shang Juncheng`, composed exactly from the ATP structured fields `LastName="Shang"`/`FirstName="Juncheng"`.
 - **Evidence timestamps are local wall-clocks:** the fetching agent did not record a timezone and 74 values were mislabeled with a `Z` (UTC) suffix. Commit-bounded analysis proves they cannot be UTC (all were committed no later than 2026-08-17T09:08:09Z). The false `Z` suffixes were removed on 2026-08-17 with the wall-clock digits preserved; no offset is asserted without a record. Batch and transaction evidence carrying these values was relocated to `quarantine/evidence/`.

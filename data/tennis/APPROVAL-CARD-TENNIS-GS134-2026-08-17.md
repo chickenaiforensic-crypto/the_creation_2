@@ -2,13 +2,13 @@
 
 **Artifact:** `data/Data_Sports/data/tennis/master_store_tennis_SSoT.json`
 
-- **Master MD5:** `9b271a35139d8dd459c13aadf3554bfa`
-- **Master SHA-256:** `eb2eeaf7ba504bbd83c459ca47eb0d09f63deade7de713db1cc4de72f36f5527`
+- **Master MD5:** `ad0b261dedc1ba58aea988f763f8f641`
+- **Master SHA-256:** `dc2fd01873e5b7ab25611913ed45fd18ee02dad809b958e75c612614e74696eb`
 - **Bytes:** 14,136,767
 - **Rows:** 17,285 (`count` field verified equal to `len(matches)`)
 - **Distinct player names:** 932
 - **Date of approval:** 2026-08-17
-- **Issuing engineer:** Engineer 1, branch `arena/01a01121-the-creation`
+- **Issuing engineer:** branch `arena/01a01121-the-creation`
 - **Authority:** DIRECTOR — GREEN LIGHT: TENNIS SSoT MERGE AUTHORIZED, 2026-08-17.
 
 ## Composition

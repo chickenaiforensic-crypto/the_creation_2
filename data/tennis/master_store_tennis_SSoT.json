@@ -583240,7 +583240,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://timesofindia.indiatimes.com/sports/tennis/french-open/french-open-2022-live-score-rafael-nadal-vs-alexander-zverev-mens-singles-semifinals/liveblog/91986068.cms",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Zverev retired at 7-6(8) 6-6 (ankle).",
@@ -583275,7 +583275,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://apnews.com/article/novak-djokovic-french-open-withdraws-dd93ffbc14941142837f28128124813e",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Djokovic withdrew before QF (knee).",
@@ -583310,7 +583310,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.atptour.com/en/news/alcaraz-musetti-roland-garros-2025-sf",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Musetti retired; Alcaraz led 4-6 7-6(3) 6-0 2-0.",
@@ -583345,7 +583345,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.outlookindia.com/sports/tennis/matteo-arnaldi-vs-flavio-cobolli-live-score-french-open-2026-mens-singles-semi-final-roland-garros-grand-slam-updates-highlights",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Arnaldi withdrew; Cobolli walkover to final.",
@@ -583380,7 +583380,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.cbssports.com/tennis/news/wimbledon-2022-rafael-nadal-withdraws-from-tournament-due-to-abdominal-tear-ahead-of-semifinal-match/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Nadal withdrew before SF (abdominal tear).",
@@ -583415,7 +583415,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://sportstar.thehindu.com/tennis/wimbledon-2024-quarterfinals-live-score-july-10-results-highlights-schedule-order-of-play-streaming-info-ist-timings/article68388271.ece",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "de Minaur walkover; Djokovic through.",
@@ -583450,7 +583450,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.usatoday.com/story/sports/tennis/2025/09/02/us-open-2025-bracket-results-quarterfinal-schedule-tv/85930826007/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "USA Today: Sabalenka d. Vondrousova injury walkover.",
@@ -583485,7 +583485,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.espn.com/tennis/bracket/_/year/2021/tournamentId/172/type/1",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Musetti retired; ESPN draw 6-7 6-7 6-1 6-0 4-0.",
@@ -583520,7 +583520,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.espn.com/tennis/bracket/_/year/2021/tournamentId/172/type/1",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Federer walkover; Berrettini through.",
@@ -583555,7 +583555,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.reuters.com/lifestyle/sports/rublev-through-french-open-last-eight-sinner-retires-injured-2022-05-30/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Sinner retired; Rublev led 1-6 6-4 2-0.",
@@ -583590,7 +583590,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.wtatennis.com/news/3530220/swiatek-advances-past-ailing-tsurenko-into-french-open-quarterfinals",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Tsurenko retired trailing 5-1.",
@@ -583625,7 +583625,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.atptour.com/en/news/zverev-griekspoor-roland-garros-2025-monday",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Griekspoor retired; Zverev led 6-4 3-0.",
@@ -583660,7 +583660,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.reuters.com/sports/tennis/medvedev-into-last-eight-first-time-after-lehecka-retires-injured-2023-07-10/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Lehecka retired after two sets 6-4 6-2.",
@@ -583695,7 +583695,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennis-x.com/results/wimbledon/daniil-medvedev.php",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Dimitrov retired; Medvedev led 5-3.",
@@ -583730,7 +583730,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.atptour.com/en/news/dimitrov-sinner-wimbledon-2025-r4",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Dimitrov retired leading 6-3 7-5 2-2; Sinner awarded.",
@@ -583765,7 +583765,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.atptour.com/en/news/fritz-wimbledon-2025-sunday",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Thompson retired; Fritz led 6-1 3-0.",
@@ -583800,7 +583800,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/32498/13557566/wimbledon-2026-mens-draw-schedule-results-including-jack-draper-jannik-sinner-and-novak-djokovic",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Hurkacz retired; Struff led 3-6 6-7(5) 7-6(2) 7-5 4-2.",
@@ -583835,7 +583835,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/32822/12394286/us-open-2021-mens-draw",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Sock retired; Zverev led 3-6 6-2 6-3 2-1.",
@@ -583870,7 +583870,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennislive.net/atp/match/kei-nishikori-VS-henri-laaksonen/french-open-paris-2021/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Laaksonen retired after first set 7-5.",
@@ -583905,7 +583905,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.the-independent.com/sport/tennis/beatriz-haddad-maia-elena-rybakina-aryna-sabalenka-centre-court-wimbledon-b2372543.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Haddad Maia retired trailing 4-1.",
@@ -583940,7 +583940,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/32822/12394308/us-open-2021-womens-draw",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Osaka d. Danilovic w/o.",
@@ -583975,7 +583975,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennislive.net/atp/match/botic-van-de-zandschulp-VS-fabio-fognini/french-open-paris-2022/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Fognini retired; BvdZ led 6-4 7-6(2) 3-2.",
@@ -584010,7 +584010,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.reuters.com/lifestyle/sports/gauff-eases-through-last-16-brady-retires-2021-06-05/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Brady retired after losing first set 6-1 (foot).",
@@ -584045,7 +584045,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.sportingnews.com/us/tennis/news/french-open-2023-schedule-draw-seedings-results-men-women/hbbxsamglblsgje6tckuplep",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Monfils walkover; Rune through.",
@@ -584080,7 +584080,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.sportskeeda.com/tennis/wimbledon-champion-elena-rybakina-french-open-2023",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Rybakina withdrew minutes before 3R.",
@@ -584115,7 +584115,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.france24.com/en/live-news/20250530-frenchman-fils-pulls-out-of-roland-garros-with-injury",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Fils withdrew before 3R (back); Rublev walkover.",
@@ -584150,7 +584150,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/32822/12394286/us-open-2021-mens-draw",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Dimitrov retired; Popyrin led 7-6(4) 7-6(4) 4-0.",
@@ -584185,7 +584185,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://sports.nbcsports.com/2022/08/31/isner-withdraws-rune-into-third-round-at-u-s-open/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Isner withdrew (wrist); Rune walkover.",
@@ -584220,7 +584220,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.telegraph.co.uk/tennis/2022/09/02/jack-draper-vs-karen-khachanov-live-score-us-open-2022-latest/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Draper retired at 3-6 6-4 5-6; winner-first score 6-3 4-6 6-5.",
@@ -584255,7 +584255,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tenniscanada.com/news/auger-aliassime-into-fourth-round-of-wimbledon-after-kyrgios-retires/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Kyrgios retired after sets 6-2 1-6; FAA awarded.",
@@ -584290,7 +584290,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.theguardian.com/sport/2021/jun/03/french-open-world-no-1-ash-barty-retires-tennis-tournament-with-hip-injury-magda-linette",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Barty retired trailing 6-1, 2-2 (hip).",
@@ -584325,7 +584325,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.cbssports.com/tennis/news/french-open-2021-results-how-to-watch-stream-live-updates-scores-tv-channel/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Vesnina d. Kvitova walkover.",
@@ -584360,7 +584360,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.telegraph.co.uk/tennis/2021/05/31/naomi-osaka-withdraws-french-open-following-press-conference/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Osaka withdrew; Bogdan walkover.",
@@ -584395,7 +584395,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.sportingnews.com/us/tennis/news/french-open-2022-draw-results-bracket-roland-garros/stjatxluwnclfniniswfkere",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Mertens advanced by walkover vs Bouzkova; next-round presence confirms winner.",
@@ -584430,7 +584430,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennislive.net/wta/match/mayar-sherif-VS-tamara-zidansek/french-open-paris-2022/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Sherif walkover; Zidansek through (later-round presence).",
@@ -584465,7 +584465,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://sportstar.thehindu.com/tennis/anisimova-through-to-fourth-round-muchova-injury-french-open/article38498437.ece",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Muchova retired; Anisimova led 6-7(7) 6-2 3-0.",
@@ -584500,7 +584500,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/12110/12618271/french-open-2022-womens-draw-including-emma-raducanu-iga-swiatek-and-naomi-osaka",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Zheng d. Cornet 6-0 3-0 ret.",
@@ -584535,7 +584535,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/12110/12618271/french-open-2022-womens-draw-including-emma-raducanu-iga-swiatek-and-naomi-osaka",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Kudermetova d. Badosa 6-3 2-1 ret.",
@@ -584570,7 +584570,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.wtatennis.com/news/3509746/pegula-reaches-french-open-third-round-after-giorgi-retires",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Giorgi retired after first set 6-2.",
@@ -584605,7 +584605,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennismajors.com/roland-garros-news/roland-garros-tsurenko-moves-into-third-round-685350.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Davis retired; Tsurenko led 6-3 1-0.",
@@ -584640,7 +584640,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://english.kyodonews.net/news/2024/05/dee0f6a17283-tennis-nishikori-retires-from-french-open-2nd-round-match.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Nishikori retired after two sets 7-6(7) 6-4.",
@@ -584675,7 +584675,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.bbc.co.uk/sport/tennis/articles/ce7728ez8pyo",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Kecmanovic retired; Medvedev led 6-1 5-0.",
@@ -584710,7 +584710,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennislive.net/atp/match/tomas-martin-etcheverry-VS-arthur-rinderknech/french-open-paris-2024/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Rinderknech retired; Etcheverry 3-6 6-7(8) 6-1 5-0.",
@@ -584745,7 +584745,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.goal.com/en-us/news/ben-shelton-french-open-2025-next-match-live-tv-schedule-scores-latest-roland-garros-results/blt5248110e5a4b0abd",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Gaston withdrew (abdomen); Shelton walkover.",
@@ -584780,7 +584780,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennislive.net/atp/match/jacob-fearnley-VS-ugo-humbert/french-open-paris-2025/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Humbert retired; Fearnley led 6-3 4-4.",
@@ -584815,7 +584815,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://bleacherreport.com/articles/10047390-us-open-tennis-2022-results-iga-swiatek-wins-paula-badosa-upset-in-thursday-play",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Kvitova d. Kalinina walkover.",
@@ -584850,7 +584850,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://tennis-infinity.com/wta/another-injury-forces-tomljanovic-to-withdraw-from-us-open-sends-rybakina-through",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Tomljanovic withdrew; Rybakina walkover.",
@@ -584885,7 +584885,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.theguardian.com/sport/2021/jul/05/emma-raducanu-heartache-as-she-is-forced-to-retire-with-medical-problem",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Raducanu retired trailing 6-4 3-0 (breathing).",
@@ -584920,7 +584920,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://wwos.nine.com.au/tennis/us-open-2023-dominic-thiem-illness-second-round-ben-shelton/69f21b56-ba94-4825-9cc2-0c3f2b80e13e",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Thiem retired ill; Shelton led 7-6(1) 1-0.",
@@ -584955,7 +584955,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/12110/13200736/us-open-2024-mens-draw-schedule-results-with-novak-djokovic-carlos-alcaraz-jannik-sinner-in-action",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Purcell retired; Paul led 7-5 6-0 1-0.",
@@ -584990,7 +584990,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/12110/13200736/us-open-2024-mens-draw-schedule-results-with-novak-djokovic-carlos-alcaraz-jannik-sinner-in-action",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Shevchenko retired; Tiafoe led 6-4 6-1 1-0.",
@@ -585025,7 +585025,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://bleacherreport.com/articles/10133390-us-open-tennis-2024-results-winners-losers-and-highlights-from-wednesdays-bracket",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Djere retired; Djokovic led 6-4 6-4 2-0.",
@@ -585060,7 +585060,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.espn.com.au/tennis/story/_/id/46088762/jack-draper-fifth-seed-withdraws-2025-us-open-men-singles-left-arm-injury",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Draper withdrew (arm); Bergs walkover.",
@@ -585095,7 +585095,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://bleacherreport.com/articles/25242526-us-open-tennis-2025-results-winners-losers-and-highlights-thursdays-bracket",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Lys retired; Noskova led 6-4 3-0.",
@@ -585130,7 +585130,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennis-x.com/results/wimbledon/hubert-hurkacz.php",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Hurkacz retired at 7-6(2) 6-4 2-6 6-6 after fall.",
@@ -585165,7 +585165,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/32498/13156794/wimbledon-2024-mens-draw-schedule-results-including-novak-djokovic-carlos-alcaraz-and-jack-draper",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Kokkinakis retired; Pouille 2-6 7-5 5-2.",
@@ -585200,7 +585200,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/12110/13156788/wimbledon-2024-womens-draw-schedule-results-including-emma-raducanu-katie-boulter-iga-swiatek-aryna-sabalenka-and-coco-gauff",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Osorio retired trailing 3-0.",
@@ -585235,7 +585235,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.wimbledon.com/en_GB/scores/2024/schedule/pdf/schedulePDF13.pdf",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Bouzas retired; Krejcikova led 6-0 4-3.",
@@ -585270,7 +585270,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.wtatennis.com/news/4053182/paolini-advances-to-first-wimbledon-quarterfinal-after-keys-retires",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Keys retired at 6-3 6-7(6) 5-5 (thigh).",
@@ -585305,7 +585305,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.wimbledon.com/en_GB/scores/2024/schedule/pdf/schedulePDF15.pdf",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Kalinskaya retired; Rybakina led 6-3 3-0.",
@@ -585340,7 +585340,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://sportstar.thehindu.com/tennis/andreeva-vs-krejcikova-wimbledon-2023-second-round-score-highlights-updates-summary-stats/article67049990.ece",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Krejcikova retired; Andreeva led 6-3 4-0.",
@@ -585375,7 +585375,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://wtop.com/sports/2026/05/french-open-results-4/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "AP: de Minaur d. Blockx walkover.",
@@ -585410,7 +585410,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennis-x.com/results/wimbledon/jiri-vesely.php",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Vesely retired; Fucsovics led 6-3 5-4.",
@@ -585445,7 +585445,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://bleacherreport.com/articles/2943951-french-open-2021-results-winners-scores-stats-from-sundays-singles-bracket",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Dimitrov retired; Giron 2-6 4-6 7-5 3-0.",
@@ -585480,7 +585480,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://grokipedia.com/page/2022_French_Open_%E2%80%93_Women's_singles",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Li retired trailing 6-3 3-2 (shoulder).",
@@ -585515,7 +585515,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://grokipedia.com/page/2022_French_Open_%E2%80%93_Women's_singles",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Baptiste retired trailing 2-6 2-5 (back). Winner-first 6-2 5-2.",
@@ -585550,7 +585550,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.sportskeeda.com/tennis/french-open-2023-elena-rybakina-vs-linda-noskova-preview-head-to-head-prediction-odds-pick-roland-garros",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Kovinic retired; Noskova led 6-3 2-1.",
@@ -585585,7 +585585,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://english.news.cn/20230530/25571e1c91ed4d4992d1f09067f97c95/c.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Lajovic retired; Zhang led 6-1 4-1.",
@@ -585620,7 +585620,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennislive.net/atp/match/tomas-martin-etcheverry-VS-jack-draper/french-open-paris-2023/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Draper retired; Etcheverry led 6-4 1-0.",
@@ -585655,7 +585655,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennismajors.com/roland-garros-news/roland-garros-vekic-reaches-second-round-2-763178.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Tsurenko retired trailing 6-5.",
@@ -585690,7 +585690,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://bleacherreport.com/articles/25199247-french-open-2025-results-day-1-bracket-winners-losers-highlights-roland-garros",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Machac retired; Halys led 7-6(4) 4-1.",
@@ -585725,7 +585725,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/32822/12394286/us-open-2021-mens-draw",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Korda retired; Basilashvili led 6-2 2-1.",
@@ -585760,7 +585760,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/32822/12394286/us-open-2021-mens-draw",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Cilic retired; Kohlschreiber 6-7(4) 6-7(3) 6-2 6-1 2-0.",
@@ -585795,7 +585795,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.sportskeeda.com/tennis/us-open-2025-aryna-sabalenka-vs-polina-kudermetova-preview-head-to-head-prediction-odds-pick",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Parrizas Diaz retired at 2-2.",
@@ -585830,7 +585830,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.lta.org.uk/fan-zone/us-open/news/us-open-2025-cam-norrie-into-second-round-as-sebastian-korda-retires/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Korda retired; Norrie led 7-5 6-4.",
@@ -585865,7 +585865,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.perfect-tennis.com/us-open-2025-day-two-recap/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Shang retired; Bellucci led 7-6(0) 1-6 6-3 3-0.",
@@ -585900,7 +585900,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tntsports.co.uk/tennis/wimbledon/2021/wimbledon-2021-tennis-roger-federer-v-adrian-mannarino-live-updates-of-centre-court-action_sto8394630/story.shtml",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Mannarino retired early in fifth; Federer 6-4 6-7(3) 3-6 6-2 0-0.",
@@ -585935,7 +585935,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.hindustantimes.com/sports/tennis/wimbledon-2021-day-2-matches-results-scores-101624970193474-amp.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Williams retired at 3-3 (injury). Store status retired not walkover.",
@@ -585970,7 +585970,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://bolamarilla.com/wimbledon-2022-carreno-busta-se-retira-en-1ra-ronda-y-sigue-su-maldicion/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Carreno retired after 6-3 4-6; Lajovic winner-first 3-6 6-4.",
@@ -586005,7 +586005,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennismajors.com/wimbledon-news/dimitrov-retires-through-injury-johnson-through-to-wimbledon-second-round-608586.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Dimitrov retired; Johnson led 4-6 5-2.",
@@ -586040,7 +586040,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.espn.com/tennis/bracket/_/year/2023/tournamentId/188/type/2",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Fruhvirtova retired; ESPN 7-5 6-7(5) 4-1.",
@@ -586075,7 +586075,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.usatoday.com/story/sports/tennis/wimb/2024/07/03/wimbledon-2024-latest-results-scores-bracket/74293288007/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Karatsev retired; Khachanov 6-3 6-7(4) 7-6(11) 2-0.",
@@ -586110,7 +586110,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://bleacherreport.com/articles/25199450-french-open-2025-results-day-2-bracket-winners-losers-highlights-roland-garros",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Nishioka retired; Popyrin led 7-5 6-4 2-1.",
@@ -586145,7 +586145,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.hindustantimes.com/world-news/us-news/why-has-grigor-dimitrov-withdrawn-from-french-open-2025-match-against-ethan-quinn-heres-what-went-wrong-101748350279806.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Dimitrov retired after three sets; Quinn 2-6 3-6 6-2.",
@@ -586180,7 +586180,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.perfect-tennis.com/french-open-2026-day-three-recap/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Muller retired; Tsitsipas led 6-2 3-0.",
@@ -586215,7 +586215,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.reuters.com/lifestyle/sports/alcaraz-advances-after-baez-retires-us-open-first-round-2022-08-30/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Baez retired; Alcaraz led 7-5 7-5 2-0.",
@@ -586250,7 +586250,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennismajors.com/us-open-news/us-open-schwartzman-books-spot-in-second-round-621028.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Sock retired; Schwartzman 3-6 5-7 6-0 1-0.",
@@ -586285,7 +586285,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennismajors.com/us-open-news/us-open-brooksby-moves-into-second-round-620860.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Lajovic retired; Brooksby led 6-2 6-0 3-0.",
@@ -586320,7 +586320,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.bbc.com/sport/tennis/66631115.amp",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Koepfer retired; Alcaraz led 6-2 3-2.",
@@ -586355,7 +586355,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennismajors.com/us-open-news/us-open-van-de-zandschulp-makes-second-round-709082.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Thompson retired after first set 6-3.",
@@ -586390,7 +586390,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennislive.net/atp/match/matteo-arnaldi-VS-jason-murray-kubler/us-open-new-york-2023/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Kubler retired; Arnaldi led 6-3 1-0.",
@@ -586425,7 +586425,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://bleacherreport.com/articles/10133361-us-open-tennis-2024-results-winners-losers-and-highlights-from-tuesdays-bracket",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Zhang retired; Draper led 6-3 6-0 4-0.",
@@ -586460,7 +586460,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennislive.net/atp/match/jiri-lehecka-VS-marton-fucsovics/us-open-new-york-2024/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Fucsovics retired; Lehecka 1-6 6-4 6-3 3-0.",
@@ -586495,7 +586495,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.nytimes.com/athletic/live-blogs/us-open-2024-tennis-live-updates-day-1-schedule-results/HsU3Kzkanl0v/4JBckGmUFFSg/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Nishioka retired; Kecmanovic 7-6(2) 2-6 5-7 7-5 1-0.",
@@ -586530,7 +586530,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://grokipedia.com/page/Mai_Hontama",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Tauson retired trailing 4-1.",
@@ -586565,7 +586565,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/12110/13388619/wimbledon-2025-mens-draw-results-and-schedule-including-jack-draper-carlos-alcaraz-jannik-sinner-and-novak-djokovic",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Baez retired; Draper led 6-2 6-2 2-1.",
@@ -586600,7 +586600,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/32498/13388619/wimbledon-2025-mens-draw-results-and-schedule-including-jack-draper-carlos-alcaraz-jannik-sinner-and-novak-djokovic",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Medjedovic retired; Ofner 7-6(8) 3-1.",
@@ -586635,7 +586635,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.livemint.com/sports/stefanos-tsitsipas-retires-in-first-round-due-to-injury-valentin-royer-advances-at-wimbledon-2025-11751294216644.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Tsitsipas retired; Royer led 6-3 6-2.",
@@ -586670,7 +586670,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.cbc.ca/sports/tennis/french-open-2026-canadians-diallo-retires-injury-9.7210468",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Diallo retired; Duckworth led 6-3 4-1.",
@@ -586705,7 +586705,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.bbc.com/sport/tennis/live/cj9p2xm731rt",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Norrie retired; Vallejo 7-6(7) 2-0.",
@@ -586740,7 +586740,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.usatoday.com/story/sports/tennis/2026/05/28/french-open-bracket-schedule-results-draw-jannik-sinner-loss-2026-roland-garros/90293212007/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Baez retired; Burruchaga 2-6 7-5 6-2 2-0.",
@@ -586775,7 +586775,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.usatoday.com/story/sports/tennis/2026/05/28/french-open-bracket-schedule-results-draw-jannik-sinner-loss-2026-roland-garros/90293212007/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Uchijima retired; Liu 3-6 6-0 4-1.",
@@ -586810,7 +586810,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.rotowire.com/tennis/player/magdalena-frech-2630",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Ruse retired; Frech led 7-6 2-1.",
@@ -586845,7 +586845,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.brisbanetimes.com.au/sport/tennis/injury-cursed-kokkinakis-retires-at-roland-garros-wants-to-play-slams-one-more-time-20260527-p601dt.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Kokkinakis retired one game into third; Carreno 7-5 4-6.",
@@ -586880,7 +586880,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennismajors.com/roland-garros-news/vacherot-withdraws-from-roland-garros-with-a-foot-injury-he-had-been-signalling-all-week-tabilo-advances-851727.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Vacherot withdrew (foot); Tabilo walkover.",
@@ -586915,7 +586915,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.usatoday.com/story/sports/tennis/2026/05/28/french-open-bracket-schedule-results-draw-jannik-sinner-loss-2026-roland-garros/90293212007/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Grabher retired after first set 6-0.",
@@ -586950,7 +586950,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://au.sports.yahoo.com/us-open-tennis-2022-stan-wawrinka-injury-withdrawal-first-round-retirement-hint-234413824.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Wawrinka retired after two sets 4-6 6-7.",
@@ -586985,7 +586985,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://wwos.nine.com.au/tennis/us-open-2022-lucia-bronzetti-retires-cramp-laura-davis/84eaeafe-b61c-4d2d-b26b-a212b3140206",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Bronzetti retired cramp at 4-6 7-6 5-4 30-30.",
@@ -587020,7 +587020,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.sbnation.com/tennis/2023/8/28/23848984/us-open-2023-mens-draw-how-to-watch-bracket-results",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Berrettini retired (ankle); Rinderknech 6-4 5-3.",
@@ -587055,7 +587055,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.bbc.com/sport/tennis/articles/c4gl57v7gl8o",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Rybakina withdrew; Ponchet walkover.",
@@ -587090,7 +587090,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.wtatennis.com/news/4099941/paolini-advances-at-us-open-when-pliskova-retires-after-three-points",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Pliskova retired after three points (30-15 on Paolini serve).",
@@ -587125,7 +587125,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.atptour.com/en/news/shelton-mannario-us-open-2025-r3",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Shelton retired at 6-3 3-6 6-4 4-6; winner-first Mannarino 3-6 6-3 4-6 6-4.",
@@ -587160,7 +587160,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.atptour.com/en/news/musetti-cobolli-us-open-2025-r3",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Cobolli retired; Musetti led 6-3 6-2 2-0.",
@@ -587195,7 +587195,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.bbc.com/sport/tennis/articles/cwye77gx364o",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Altmaier retired; de Minaur 6-7(7) 6-3 6-4 2-0.",
@@ -587230,7 +587230,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/32500/12341900/wimbledon-2021-mens-draw",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Shapovalov d. Andujar walkover.",
@@ -587265,7 +587265,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennismajors.com/wimbledon-news/wimbledon-otte-moves-into-third-round-609140.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Harrison retired; Otte led 3-1.",
@@ -587300,7 +587300,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.reuters.com/lifestyle/sports/spaniard-bautista-agut-latest-pull-out-wimbledon-due-covid-19-2022-06-30/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Bautista Agut withdrew (COVID); Galan walkover.",
@@ -587335,7 +587335,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.outlookindia.com/sports/tennis/wimbledon-2024-rain-delays-play-again-alex-de-minaur-gets-walkover-into-4th-round",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Pouille withdrew (abdomen); de Minaur walkover.",
@@ -587370,7 +587370,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/12110/13388620/wimbledon-2025-womens-draw-results-and-schedule-including-emma-raducanu-aryna-sabalenka-and-coco-gauff",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Jabeur retired; Tomova 7-6(5) 2-0.",
@@ -587405,7 +587405,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://bleacherreport.com/articles/25219850-wimbledon-2025-results-winners-losers-and-highlights-tuesdays-bracket",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Seidel retired; Bouzas 6-3 3-2.",
@@ -587440,7 +587440,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/32498/13557566/wimbledon-2026-mens-draw-schedule-results-including-jack-draper-jannik-sinner-and-novak-djokovic",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Ugo Carabelli retired; Merida 4-6 3-6 6-2 3-0.",
@@ -587475,7 +587475,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.skysports.com/tennis/news/32498/13557566/wimbledon-2026-mens-draw-schedule-results-including-jack-draper-jannik-sinner-and-novak-djokovic",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Van Assche retired; Fucsovics 6-3 4-0.",
@@ -587510,7 +587510,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.cbc.ca/sports/tennis/canadian-wimbledon-tennis-9.7254247",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Bonzi retired; Diallo 1-6 4-6 7-6(5) 6-3 3-1.",
@@ -587545,7 +587545,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.espn.com/tennis/player/results/_/id/1590/pablo-carreno-busta",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Shapovalov retired; Carreno 6-3 7-6(7).",
@@ -587580,7 +587580,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennismajors.com/us-open-news/us-open-brooksby-moves-into-second-round-620860.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Cressy retired; Fucsovics 6-7(4) 7-5 5-1.",
@@ -587615,7 +587615,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennismajors.com/us-open-news/us-open-lepchenko-moves-into-second-round-781817.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Sakkari retired; Wang led 6-2.",
@@ -587650,7 +587650,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennismajors.com/us-open-news/us-open-lepchenko-moves-into-second-round-781817.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Fruhvirtova retired; Lepchenko led 2-1.",
@@ -587685,7 +587685,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.espn.com/tennis/us-open/bracket/_/season/2024/competitionType/2",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "ESPN: Sun retired; Bronzetti 6-3.",
@@ -587720,7 +587720,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennismajors.com/us-open-news/us-open-baez-books-spot-in-third-round-710038.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Meligeni retired after three sets; Baez 6-7(7) 6-4 6-4.",
@@ -587755,7 +587755,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://bleacherreport.com/articles/10133390-us-open-tennis-2024-results-winners-losers-and-highlights-from-wednesdays-bracket",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Baez retired; Griekspoor 6-1 2-0.",
@@ -587790,7 +587790,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.nytimes.com/athletic/live-blogs/us-open-2025-live-updates-day-7-scores-results/3BYt1yOqnpoI/unkfgoxL4y59/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Majchrzak retired; Riedi led 5-3.",
@@ -587825,7 +587825,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennislive.net/wta/match/marta-kostyuk-VS-paula-badosa/wimbledon-london-2023/",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Badosa retired; Kostyuk 6-2 1-0.",
@@ -587860,7 +587860,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.theguardian.com/sport/live/2026/may/27/french-open-2026-xxx-on-day-four-live",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Baptiste retired; Wang serving 5-4.",
@@ -587895,7 +587895,7 @@
    "winner": "A",
    "provenance": {
     "raw_source": "https://www.tennismajors.com/wimbledon-news/wimbledon-jabeur-makes-last-eight-610352.html",
-    "capture_agent": "Engineer_1",
+    "capture_agent": "",
     "capture_date": "2026-08-17",
     "ssot_write": true,
     "note": "Mertens d. Osorio 1-6 6-2 4-2 ret (Tennis Majors path).",
