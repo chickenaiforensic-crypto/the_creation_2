@@ -10,7 +10,7 @@ absolute order. Protocol: `hand_offs/PROTOCOL.md` · Rules:
 | No | Task | To | Date | Status | Hand-off / Reply |
 |---|---|---|---|---|---|
 | 01 | T-001 · Data category index (tennis tournaments, football competitions) | Auditor 1 | 2026-08-18 | ✅ **Completed & Director-verified** — REPLY-01 @ `ecf6c6a` (branch `arena/01a015bb-the-creation-2`); digests + all headline counts reproduced from bytes | `hand_offs/director/HANDOFF-01-2026-08-18-AUD1-DATA-INDEX.md` → `hand_offs/auditor/REPLY-01-2026-08-18-AUD1.md` |
-| 02 | T-002 · Tennis accuracy audit — one tournament type at a time; US Open year-by-year; auditing plan first | Auditor 1 | 2026-08-18 | 📨 Relayed | `hand_offs/director/HANDOFF-02-2026-08-18-AUD1-TENNIS-AUDIT.md` → `hand_offs/auditor/REPLY-02-…` |
+| 02 | T-002 · Tennis accuracy audit — one tournament type at a time; US Open year-by-year; auditing plan first | Auditor 1 | 2026-08-18 | 🔄 **In progress** — Plan (Part A) + US Open 2021–2025 (Part B) delivered in REPLY-02 @ `4866996` (branch `arena/01a015bb-the-creation-2`); **Director-verified** (10×127 rows, round census, brackets, statuses, scores, 2025 F/SF vs external record all reproduce). Next per plan: **Australian Open** (incl. 32 forensic-null + 30 incomplete-terminal-set rows) → RG → Wimbledon → M1000 → 500s → 250s | `hand_offs/director/HANDOFF-02-2026-08-18-AUD1-TENNIS-AUDIT.md` → `hand_offs/auditor/REPLY-02-2026-08-18-AUD1.md` |
 
 **Next hand-off number: 03.** Never reused, never renumbered.
 
