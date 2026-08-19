@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 57,
+  "total_editions": 61,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -741,6 +741,58 @@
       "match_count": 27,
       "checksum_sha256": "f94cae8dbba337dc82f1de60c20614aaa14f8a3ed4329cd391e01950e7030b5e",
       "file_path": "editions/Tokyo_WTA/2025.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "ATP",
+      "tier": "ATP500",
+      "year": "2022",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof: full 32-draw bracket (16 R32 matches = 32 players, no byes, all rounds exactly full after fix); Wikipedia 2022 Rakuten Japan Open records the event; Kyrgios QF W/O wire-documented",
+      "match_count": 31,
+      "checksum_sha256": "f292f038fa046d326cb93715a04039ade3dfae7a64a027bf1ccb5c84da14d469",
+      "file_path": "editions/Tokyo_ATP/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "ATP",
+      "tier": "ATP500",
+      "year": "2023",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof: full 32-draw bracket, complete on pull (16/8/4/2/1, R32 winners = R16 participants, no byes)",
+      "match_count": 31,
+      "checksum_sha256": "6a52703c63be10b534522ab36a137f55b02082b27521e35847c3d461c7009ff6",
+      "file_path": "editions/Tokyo_ATP/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "ATP",
+      "tier": "ATP500",
+      "year": "2024",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2024 Japan Open Tennis Championships - Singles infobox: Draw 32 (4Q/3WC), Seeds 8",
+      "match_count": 31,
+      "checksum_sha256": "d7d5a34323f57ed48eb829a877c65b6665c03394ccc5a9114f588321918f3e35",
+      "file_path": "editions/Tokyo_ATP/2024.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "ATP",
+      "tier": "ATP500",
+      "year": "2025",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof: full 32-draw bracket, complete on pull (16/8/4/2/1, no byes)",
+      "match_count": 31,
+      "checksum_sha256": "4c4b6680858f732041c79289aca91474d246eaa139f5e562f7dfddcef04b9094",
+      "file_path": "editions/Tokyo_ATP/2025.json",
       "gap_count": 0
     }
   ],
