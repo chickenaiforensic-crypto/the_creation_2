@@ -1,10 +1,10 @@
 {
   "description": "Gap report for the 20 closed_verified tennis editions migrated to this branch. Produced via round-transition ghost detection (R32-onward, byefree per validated M1000 method in phase1-audit/WORKORDER_Phase1_DrawSize_Gap_Audit.md Phase 1B). A gap = a player appearing in round N+1 with no traceable win recorded in round N within the same edition file.",
   "method": "For each edition, for each transition in [R32->R16, R16->QF, QF->SF, SF->F]: collect all playerA/playerB in round N+1; collect all winners (resolved via winner field + playerA/playerB) in round N; any round-N+1 participant absent from round-N winners is a gap. R64->R32 excluded uniformly (bye-affected at this draw depth, not a genuine gap) per the same exclusion applied to M1000 in Phase 1B.",
-  "editions_checked": 53,
-  "editions_clean": 53,
+  "editions_checked": 57,
+  "editions_clean": 57,
   "editions_with_gaps": 0,
-  "total_gap_instances": 67,
+  "total_gap_instances": 74,
   "gaps": [
     {
       "tournament": "Rotterdam",
@@ -809,9 +809,93 @@
       "file_path": "editions/Metz/2025.json",
       "status": "closed",
       "resolution": "Tennis Explorer Metz 2025: 05.11 16:05 R16 Altmaier d. Gaston 4-6 6-0 0-0, S 1-0 = Gaston retired at 0-0 in set 3 (match id 3066628). Added row: Daniel Altmaier d. Hugo Gaston 4-6 6-0 0-0 (retired), date 2025-11-05. Source: https://www.tennisexplorer.com/metz/2025/atp-men/"
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "WTA",
+      "year": "2022",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Naomi Osaka",
+      "gap_id": "TK001",
+      "folder": "Tokyo_WTA",
+      "file_path": "editions/Tokyo_WTA/2022.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Tokyo WTA 2022: 20.09 12:15 1R Osaka d. Saville 1-0, S 1-0 = Saville retired after one game (match id 2195522; TE draw list '1-0'). Corroborated: CNN/Reuters 2022-09-22 - Osaka 'advanced to the second round when her opponent Daria Saville suffered a knee injury'. Added row: Naomi Osaka d. Daria Saville 1-0 (retired), date 2022-09-20. Source: https://www.tennisexplorer.com/tokyo/2022/wta-women/"
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "WTA",
+      "year": "2022",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Beatriz Haddad Maia",
+      "gap_id": "TK002",
+      "folder": "Tokyo_WTA",
+      "file_path": "editions/Tokyo_WTA/2022.json",
+      "status": "closed",
+      "resolution": "Walkover confirmed by named sources (see row provenance). Added row: Beatriz Haddad Maia d. Naomi Osaka W/O, date 2022-09-22. Source: https://www.reuters.com/lifestyle/sports/osaka-pulls-out-tokyo-with-abdominal-pain-2022-09-22/"
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "WTA",
+      "year": "2024",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Leylah Fernandez",
+      "gap_id": "TK003",
+      "folder": "Tokyo_WTA",
+      "file_path": "editions/Tokyo_WTA/2024.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Tokyo WTA 2024: 21.10 10:30 1R Fernandez (8) d. Sasnovich (LL) 5-7 6-2 5-2, S 1-0 = Sasnovich retired at 2-5 in set 3 (match id 2752927; TE draw list '5-7, 6-2, 5-2'). Added row: Leylah Fernandez d. Aliaksandra Sasnovich 5-7 6-2 5-2 (retired), date 2024-10-21. Source: https://www.tennisexplorer.com/tokyo/2024/wta-women/"
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "WTA",
+      "year": "2024",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Bianca Andreescu",
+      "gap_id": "TK004",
+      "folder": "Tokyo_WTA",
+      "file_path": "editions/Tokyo_WTA/2024.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Tokyo WTA 2024: 23.10 10:40 R16 Andreescu d. Haddad Maia (2) 3-0, S 1-0 = Haddad Maia retired at 0-3 in set 1 (match id 2752201). Added row: Bianca Andreescu d. Beatriz Haddad Maia 3-0 (retired), date 2024-10-23. Source: https://www.tennisexplorer.com/tokyo/2024/wta-women/"
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "WTA",
+      "year": "2024",
+      "missing_round": "QF",
+      "player_no_traceable_win": "Diana Shnaider",
+      "gap_id": "TK005",
+      "folder": "Tokyo_WTA",
+      "file_path": "editions/Tokyo_WTA/2024.json",
+      "status": "closed",
+      "resolution": "Walkover confirmed by named sources (see row provenance). Added row: Diana Shnaider d. Sayaka Ishii W/O, date 2024-10-25. Source: https://www.tennismajors.com/wta-tour-news/tokyo-open-shnaider-reaches-last-four-792837.html"
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "WTA",
+      "year": "2025",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Karolina Muchova",
+      "gap_id": "TK006",
+      "folder": "Tokyo_WTA",
+      "file_path": "editions/Tokyo_WTA/2025.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Tokyo WTA 2025: 20.10 10:25 1R Muchova (8) d. Vondrousova 6-2 1-0, S 1-0 = Vondrousova retired in set 2 (match id 3048430; TE draw list '6-2, 1-0'). Added row: Karolina Muchova d. Marketa Vondrousova 6-2 1-0 (retired), date 2025-10-20. Source: https://www.tennisexplorer.com/tokyo/2025/wta-women/"
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "WTA",
+      "year": "2025",
+      "missing_round": "SF",
+      "player_no_traceable_win": "Linda Noskova",
+      "gap_id": "TK007",
+      "folder": "Tokyo_WTA",
+      "file_path": "editions/Tokyo_WTA/2025.json",
+      "status": "closed",
+      "resolution": "Walkover confirmed by named sources (see row provenance). Added row: Linda Noskova d. Elena Rybakina W/O, date 2025-10-25. Source: https://www.france24.com/en/live-news/20251025-rybakina-out-of-tokyo-semi-finals-with-injury"
     }
   ],
-  "gaps_closed": 67,
+  "gaps_closed": 74,
   "gaps_open": 0,
   "closure_note": "All 18 gaps closed 2026-08-19 (T-005, Auditor 1, arena/01a015bb-the-creation-2). Every gap proved to be a RETIREMENT match absent from the migration source - consistent with the store-wide M-1/retirement-exclusion pattern documented in T-002. Per-gap resolution fields below; no result was inferred, every row carries a named checkable source.",
   "cincinnati_wta_closure_note": "T-007 (2026-08-19, Auditor 1): 15/15 Cincinnati WTA gaps FIXED per HANDOFF-07+A1+A2 - 8 retirements + 7 walkovers, all with named checkable sources; pulled from claude_1 store a280b2fb; per-year gap check green before closed_verified_gapless.",
@@ -821,5 +905,6 @@
   "us_open_wta_note": "T-014 (2026-08-19, Auditor 1, user approval): US Open WTA 2021-2025 pulled from claude_1 a280b2fb after T-013 audit found ZERO gaps and ZERO errors - no modifications required. Declared limitation carried per no-imputation policy: 6 bare-tiebreak rows (5 restored-QF + 2022 R128 Davis-Bronzetti ret.). All 5 walkovers wire-corroborated in T-013.",
   "monastir_closure_note": "T-016 (2026-08-19, Auditor 1, standing audit->fix order): 3/3 Monastir WTA 250 gaps FIXED - all retirements (incl. MO003, a dropped SEMIFINAL); draw sizes Wikipedia-confirmed x3; coverage boundary documented: event existed 2022-2024 only. Dropped-row signature held for the 5th consecutive audited event.",
   "metz_closure_note": "T-017 (2026-08-19, Auditor 1, standing audit->fix order): 7/7 Metz ATP 250 gaps FIXED - 6 retirements + 1 walkover (Rublev abdominal pain, ATP official), incl. MZ001 where the retiring player was LEADING (Bergs 6-4 2-1 up, left-hip injury - TE + sport365/sports.fr double-sourced) and MZ003 a dropped SEMIFINAL (Bublik d. Wawrinka 2-1 ret.). 2021 complete on pull. Draw 28 confirmed per edition (Wikipedia infobox x3 + TE bracket x2); non-standard bye reassignments (LL/Q into vacated slots, 2024/2025) documented - byes carry no rows. Dropped-row signature held for the 6th consecutive audited event.",
-  "counter_note": "T-018 (2026-08-19, Auditor 1): header counters updated to cumulative program truth - previously stale at the original T-005 method-run values (20 checked / 18 instances) while the body had grown to 67 entries across T-005/007/008/010/016/017. Current: 53 editions in branch, all clean; 67 gap instances found across the program, 67 closed, 0 open. Correction also recorded: T-007 Cincinnati WTA prose said '8 retirements + 7 walkovers'; byte truth of rows C001-C015 is 7 retirements + 8 walkovers (rows were always correct; the prose label was transposed)."
+  "counter_note": "T-018 (2026-08-19, Auditor 1): header counters updated to cumulative program truth - previously stale at the original T-005 method-run values (20 checked / 18 instances) while the body had grown to 67 entries across T-005/007/008/010/016/017. Current: 53 editions in branch, all clean; 67 gap instances found across the program, 67 closed, 0 open. Correction also recorded: T-007 Cincinnati WTA prose said '8 retirements + 7 walkovers'; byte truth of rows C001-C015 is 7 retirements + 8 walkovers (rows were always correct; the prose label was transposed).",
+  "tokyo_wta_closure_note": "T-019 (2026-08-19, Auditor 1, standing audit->fix order): 7/7 Tokyo WTA 500 gaps FIXED - 5 retirements + 2 walkovers (Osaka abdominal/illness Reuters-CNN; Rybakina back AFP; Ishii abdominal TennisMajors/JapanTimes), incl. the Osaka chain (TK001 Saville knee retirement after one game + TK002 Osaka pre-R16 withdrawal) and a dropped SEMIFINAL (TK007, 3rd found). 2023 complete on pull. Draw 28 confirmed per edition; non-standard byes documented (2023 Guadalajara-SF byes per Wikipedia; 2024/2025 reassigned slots). Coverage boundary: no 2021 edition (event not held 2020-2021, COVID). Source-classification conflict flagged not altered: TE labels 2022 'indoors', store keeps uniform outdoor-hard. Dropped-row signature held for the 7th consecutive audited event."
 }

@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 53,
+  "total_editions": 57,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -689,6 +689,58 @@
       "match_count": 27,
       "checksum_sha256": "dea82a765af7b074732fad6a332cda03ede5b4919182b16edd0e701b801376cb",
       "file_path": "editions/Metz/2025.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "WTA",
+      "tier": "WTA500",
+      "year": "2022",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "TE 2022 bracket byte-read: 32 slots, 4 byes (seeds 1-4 Badosa/Garcia/Muguruza/Kudermetova) = draw 28. Note: TE header labels 2022 'indoors'; store keeps outdoor-hard classification consistently - source-classification conflict flagged, not altered",
+      "match_count": 27,
+      "checksum_sha256": "57f28b8e2fd2067684f8d804f0d30fa9284f12500e116003a6288eb3a71d5459",
+      "file_path": "editions/Tokyo_WTA/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "WTA",
+      "tier": "WTA500",
+      "year": "2023",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2023 Toray Pan Pacific Open - Singles infobox: Draw 28, Seeds 8; byes = top-2 seeds (Swiatek/Pegula) + Guadalajara semifinalists Sakkari and Garcia (Wikipedia-documented non-standard byes)",
+      "match_count": 27,
+      "checksum_sha256": "21e67c6e437b57936226dc40676e7ee864817a0ebc307ff2190e0e9cfb8c5e84",
+      "file_path": "editions/Tokyo_WTA/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "WTA",
+      "tier": "WTA500",
+      "year": "2024",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "TE 2024 bracket byte-read: 32 slots, 4 byes (Zheng/Haddad Maia/Kasatkina + Shnaider in reassigned slot) = draw 28",
+      "match_count": 27,
+      "checksum_sha256": "c26ed41c1b70bb814963edfaea72af2b9543f601d6ecef98a3b92d14adf8437c",
+      "file_path": "editions/Tokyo_WTA/2024.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Tokyo",
+      "tour": "WTA",
+      "tier": "WTA500",
+      "year": "2025",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "TE 2025 bracket byte-read: 32 slots, 4 byes (Bencic/Alexandrova/Noskova/Rybakina incl. reassigned slots) = draw 28",
+      "match_count": 27,
+      "checksum_sha256": "f94cae8dbba337dc82f1de60c20614aaa14f8a3ed4329cd391e01950e7030b5e",
+      "file_path": "editions/Tokyo_WTA/2025.json",
       "gap_count": 0
     }
   ],
