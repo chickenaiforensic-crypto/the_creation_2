@@ -1,3 +1,5 @@
+> **STATUS UPDATE (T-018, 2026-08-19): SUPERSEDED — all 3 gaps (MO001–MO003) were FIXED in T-016 under the standing audit→fix order.** Point-in-time T-015 record; current state: `gap_report.json` (MO entries: closed) and `editions/Monastir/`.
+
 # MONASTIR (WTA 250, "Jasmin Open") — AUDIT REPORT 2022–2024 — T-015
 
 **Role: AUDITOR 1 · Branch ID: `arena/01a015bb-the-creation-2` · 2026-08-19**

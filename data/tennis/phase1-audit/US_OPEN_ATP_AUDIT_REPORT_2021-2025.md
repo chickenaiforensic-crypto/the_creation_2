@@ -1,3 +1,5 @@
+> **STATUS UPDATE (T-018, 2026-08-19): EXECUTED — the slice was pulled in T-012 (`editions/US_Open/`) and the 4 J.J. Wolf rows renamed Jeffrey Wolf at pull.** Point-in-time T-011 record.
+
 # US OPEN (ATP, GRAND SLAM) — AUDIT REPORT 2021–2025 — T-011
 
 **Role: AUDITOR 1 · Branch ID: `arena/01a015bb-the-creation-2` · 2026-08-19**

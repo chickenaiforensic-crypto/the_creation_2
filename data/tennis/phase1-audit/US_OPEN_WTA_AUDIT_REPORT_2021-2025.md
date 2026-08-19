@@ -1,3 +1,5 @@
+> **STATUS UPDATE (T-018, 2026-08-19): EXECUTED — the slice was pulled unmodified in T-014 (`editions/US_Open_WTA/`).** Point-in-time T-013 record.
+
 # US OPEN (WTA, GRAND SLAM) — AUDIT REPORT 2021–2025 — T-013
 
 **Role: AUDITOR 1 · Branch ID: `arena/01a015bb-the-creation-2` · 2026-08-19**

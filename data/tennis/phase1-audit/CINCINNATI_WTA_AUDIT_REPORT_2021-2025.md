@@ -1,3 +1,5 @@
+> **STATUS UPDATE (T-018, 2026-08-19): SUPERSEDED — all 15 gaps were FIXED in T-007 (`editions/Cincinnati/`). Correction on record: the byte-true type split of C001–C015 is 7 retirements + 8 walkovers (T-007-era prose said 8+7; rows always correct).**
+
 # CINCINNATI WTA 1000 AUDIT REPORT — 2021–2025 (T-006)
 
 **Status: IN PROGRESS — Checkpoint 1 of 5 delivered (2021 complete; structural baseline complete for all five years).**

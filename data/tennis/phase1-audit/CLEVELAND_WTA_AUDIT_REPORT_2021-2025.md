@@ -1,3 +1,5 @@
+> **STATUS UPDATE (T-018, 2026-08-19): SUPERSEDED — all 8 gaps (CL001–CL008) were FIXED in T-010 under user authorization.** This document is the point-in-time T-009 audit record; current state lives in `gap_report.json` (CL entries: closed) and `editions/Cleveland/`.
+
 # CLEVELAND (WTA 250, "Tennis in the Land") — AUDIT REPORT 2021–2025 — T-009
 
 **Role: AUDITOR 1 · Branch ID: `arena/01a015bb-the-creation-2` · 2026-08-19**
