@@ -81,7 +81,23 @@ hand_offs/
 └── others/                 Others' own replies and outputs
 ```
 
-All of the above is committed to the repo, including `hand_offs/director/`.
-A hand-off goes in the folder of the person who **wrote** it: the
-Director's hand-offs sit in `hand_offs/director/`, team members' replies
-sit in their own role folder.
+## Onscreen relay format (Director's standard, 2026-08-19)
+
+Every relay shown onscreen to a team member uses the clean block format:
+
+```text
+📢 RELAY → <ROLE> · HANDOFF <NN>
+
+📍 Handoff file — <repo path> · read it fully before starting
+🎯 Task — one line
+▶ Start — numbered first steps (max 3)
+📋 Key items — bullets or compact tables, never wall-of-text
+📦 Deliver — checkpoint + final deliverable paths
+⚖️ Rules — binding standards, one line each
+✍️ Sign-off: Role + Branch ID
+```
+
+Rule: no paragraph of prose where a list or table works. One idea per line.
+Sign-off always attached.
+
+
