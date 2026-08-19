@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 61,
+  "total_editions": 64,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -793,6 +793,45 @@
       "match_count": 31,
       "checksum_sha256": "4c4b6680858f732041c79289aca91474d246eaa139f5e562f7dfddcef04b9094",
       "file_path": "editions/Tokyo_ATP/2025.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Draw 96 structural proof (32 R128 matches + 32 seed byes, all rounds full)",
+      "match_count": 95,
+      "checksum_sha256": "214931321c9d4a79f8551e367992fc6592e29cf340471edfbd17938383a1cd48",
+      "file_path": "editions/Shanghai_Masters/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Draw 96 structural proof (32 R128 matches + 32 seed byes, all rounds full)",
+      "match_count": 95,
+      "checksum_sha256": "f99cf9d1c8ece9975c00be6f076a84fc30c3dc95018d5d9c42aaf91b861847f7",
+      "file_path": "editions/Shanghai_Masters/2024.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Draw 96 structural proof (32 R128 matches + 32 seed byes, all rounds full)",
+      "match_count": 95,
+      "checksum_sha256": "0f0ad48b125755ab35c0c2275bdcc00651ad84ef5a1e08bacc67a0ffa8264f7d",
+      "file_path": "editions/Shanghai_Masters/2025.json",
       "gap_count": 0
     }
   ],

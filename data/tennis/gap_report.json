@@ -1,10 +1,10 @@
 {
   "description": "Gap report for the 20 closed_verified tennis editions migrated to this branch. Produced via round-transition ghost detection (R32-onward, byefree per validated M1000 method in phase1-audit/WORKORDER_Phase1_DrawSize_Gap_Audit.md Phase 1B). A gap = a player appearing in round N+1 with no traceable win recorded in round N within the same edition file.",
   "method": "For each edition, for each transition in [R32->R16, R16->QF, QF->SF, SF->F]: collect all playerA/playerB in round N+1; collect all winners (resolved via winner field + playerA/playerB) in round N; any round-N+1 participant absent from round-N winners is a gap. R64->R32 excluded uniformly (bye-affected at this draw depth, not a genuine gap) per the same exclusion applied to M1000 in Phase 1B.",
-  "editions_checked": 61,
-  "editions_clean": 61,
+  "editions_checked": 64,
+  "editions_clean": 64,
   "editions_with_gaps": 0,
-  "total_gap_instances": 76,
+  "total_gap_instances": 87,
   "gaps": [
     {
       "tournament": "Rotterdam",
@@ -917,9 +917,141 @@
       "file_path": "editions/Tokyo_ATP/2024.json",
       "status": "closed",
       "resolution": "Retirement: Fils led 6-7(5) 0-0 (i.e. Berrettini had won the only completed set) when Berrettini retired with abdominal discomfort after 81 minutes - Tennis Majors 2024-09-27 'Fils, ranked No 24, led 6-7(5), 0-0 when Berrettini pulled out due to discomfort in his abdomen area'; TennisTemple h2h confirms retirement after set 1. Third retire-while-not-trailing-winner row in program; stored truthfully with setsA 0, setsB 1. Added row: Arthur Fils d. Matteo Berrettini 6-7(5) 0-0 (retired), date 2024-09-27. Source: https://www.tennismajors.com/atp/japan-open-fils-books-spot-in-quarter-finals-787442.html"
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "year": "2023",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Daniel Evans",
+      "gap_id": "SH001",
+      "folder": "Shanghai_Masters",
+      "file_path": "editions/Shanghai_Masters/2023.json",
+      "status": "closed",
+      "resolution": "TE Shanghai 2023: 08.10 07:40 2R Evans (30) d. Kukushkin 6-2 3-0, S 1-0 = Kukushkin retired in set 2 (id 2471297). Added row: Daniel Evans d. Mikhail Kukushkin 6-2 3-0 (retired), date 2023-10-08. Source: https://www.tennisexplorer.com/shanghai/2023/atp-men/"
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "year": "2023",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Dusan Lajovic",
+      "gap_id": "SH002",
+      "folder": "Shanghai_Masters",
+      "file_path": "editions/Shanghai_Masters/2023.json",
+      "status": "closed",
+      "resolution": "TE Shanghai 2023: 06.10 06:40 2R Lajovic d. Griekspoor (23) 6-4 3-2, S 1-0 = Griekspoor retired in set 2 (id 2470699). Added row: Dusan Lajovic d. Tallon Griekspoor 6-4 3-2 (retired), date 2023-10-06. Source: https://www.tennisexplorer.com/shanghai/2023/atp-men/"
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "year": "2023",
+      "missing_round": "R128",
+      "player_no_traceable_win": "Yunchaokete Bu",
+      "gap_id": "SH003",
+      "folder": "Shanghai_Masters",
+      "file_path": "editions/Shanghai_Masters/2023.json",
+      "status": "closed",
+      "resolution": "TE Shanghai 2023: 04.10 06:40 1R Yunchaokete d. Kecmanovic 6-7(6) 6-2 2-1, S 1-0 = Kecmanovic retired in set 3 (id 2468609). Player name per store canonical form 'Yunchaokete Bu'. Added row: Yunchaokete Bu d. Miomir Kecmanovic 6-7(6) 6-2 2-1 (retired), date 2023-10-04. Source: https://www.tennisexplorer.com/shanghai/2023/atp-men/"
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "year": "2024",
+      "missing_round": "R128",
+      "player_no_traceable_win": "Yi Zhou",
+      "gap_id": "SH004",
+      "folder": "Shanghai_Masters",
+      "file_path": "editions/Shanghai_Masters/2024.json",
+      "status": "closed",
+      "resolution": "TE Shanghai 2024: 03.10 06:40 1R Zhou d. Nishioka 2-4, S 1-0 = Nishioka retired while LEADING 4-2 in set 1 (id 2735259); stored truthfully with winner behind. Added row: Yi Zhou d. Yoshihito Nishioka 2-4 (retired), date 2024-10-03. Source: https://www.tennisexplorer.com/shanghai/2024/atp-men/"
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R128",
+      "player_no_traceable_win": "Camilo Ugo Carabelli",
+      "gap_id": "SH005",
+      "folder": "Shanghai_Masters",
+      "file_path": "editions/Shanghai_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Shanghai 2025: 02.10 06:40 1R Ugo Carabelli d. Atmane 4-4, S 1-0 = Atmane retired at 4-4 in set 1 (id 3033767). Added row: Camilo Ugo Carabelli d. Terence Atmane 4-4 (retired), date 2025-10-02. Source: https://www.tennisexplorer.com/shanghai/2025/atp-men/"
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R128",
+      "player_no_traceable_win": "Dalibor Svrcina",
+      "gap_id": "SH006",
+      "folder": "Shanghai_Masters",
+      "file_path": "editions/Shanghai_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Shanghai 2025: 02.10 06:40 1R Svrcina d. Wu 7-5, S 1-0 = Wu retired after set 1 (id 3035659). Added row: Dalibor Svrcina d. Yibing Wu 7-5 (retired), date 2025-10-02. Source: https://www.tennisexplorer.com/shanghai/2025/atp-men/"
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R128",
+      "player_no_traceable_win": "Arthur Rinderknech",
+      "gap_id": "SH007",
+      "folder": "Shanghai_Masters",
+      "file_path": "editions/Shanghai_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Shanghai 2025: 02.10 13:35 1R Rinderknech d. Medjedovic 6-7(3) 1-0, S 1-0 = Medjedovic retired in set 2 having won set 1 (id 3033769); stored truthfully setsA 1 (unfinished-leading), setsB 1. Added row: Arthur Rinderknech d. Hamad Medjedovic 6-7(3) 1-0 (retired), date 2025-10-02. Source: https://www.tennisexplorer.com/shanghai/2025/atp-men/"
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Zizou Bergs",
+      "gap_id": "SH008",
+      "folder": "Shanghai_Masters",
+      "file_path": "editions/Shanghai_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Shanghai 2025: 03.10 14:00 2R Bergs d. Ruud (11) 3-6 7-5 4-1, S 1-0 = Ruud retired in set 3 (id 3036165). Added row: Zizou Bergs d. Casper Ruud 3-6 7-5 4-1 (retired), date 2025-10-03. Source: https://www.tennisexplorer.com/shanghai/2025/atp-men/"
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Gabriel Diallo",
+      "gap_id": "SH009",
+      "folder": "Shanghai_Masters",
+      "file_path": "editions/Shanghai_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Shanghai 2025: 05.10 06:40 3R Diallo (31) d. Goffin 3-0, S 1-0 = Goffin retired at 0-3 in set 1 (id 3037100). Closes claude_1 m1000 census entry (Diallo, UNRESOLVED). Added row: Gabriel Diallo d. David Goffin 3-0 (retired), date 2025-10-05. Source: https://www.tennisexplorer.com/shanghai/2025/atp-men/"
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Valentin Vacherot",
+      "gap_id": "SH010",
+      "folder": "Shanghai_Masters",
+      "file_path": "editions/Shanghai_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Shanghai 2025: 05.10 13:30 3R Vacherot d. Machac (20) 6-0 3-1, S 1-0 = Machac retired in set 2 (id 3037240) - a missing rung of eventual champion Vacherot's run. Closes claude_1 census entry (Vacherot, UNRESOLVED). Added row: Valentin Vacherot d. Tomas Machac 6-0 3-1 (retired), date 2025-10-05. Source: https://www.tennisexplorer.com/shanghai/2025/atp-men/"
+    },
+    {
+      "tournament": "Shanghai Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Tallon Griekspoor",
+      "gap_id": "SH011",
+      "folder": "Shanghai_Masters",
+      "file_path": "editions/Shanghai_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Shanghai 2025: 05.10 15:45 3R Griekspoor (27) d. Sinner (2) 6-7(3) 7-5 3-2, S 1-0 = Sinner retired with severe leg cramps in brutal humidity after 2h36 (id 3037634). Corroborated: Forbes 2025-10-06, Olympics.com 2025-10-05, India Today - all report 6-7(3) 7-5 3-2 exactly. Closes claude_1 census entry (Griekspoor, UNRESOLVED). Added row: Tallon Griekspoor d. Jannik Sinner 6-7(3) 7-5 3-2 (retired), date 2025-10-05. Source: https://www.tennisexplorer.com/shanghai/2025/atp-men/"
     }
   ],
-  "gaps_closed": 76,
+  "gaps_closed": 87,
   "gaps_open": 0,
   "closure_note": "All 18 gaps closed 2026-08-19 (T-005, Auditor 1, arena/01a015bb-the-creation-2). Every gap proved to be a RETIREMENT match absent from the migration source - consistent with the store-wide M-1/retirement-exclusion pattern documented in T-002. Per-gap resolution fields below; no result was inferred, every row carries a named checkable source.",
   "cincinnati_wta_closure_note": "T-007 (2026-08-19, Auditor 1): 15/15 Cincinnati WTA gaps FIXED per HANDOFF-07+A1+A2 - 8 retirements + 7 walkovers, all with named checkable sources; pulled from claude_1 store a280b2fb; per-year gap check green before closed_verified_gapless.",
@@ -931,5 +1063,6 @@
   "metz_closure_note": "T-017 (2026-08-19, Auditor 1, standing audit->fix order): 7/7 Metz ATP 250 gaps FIXED - 6 retirements + 1 walkover (Rublev abdominal pain, ATP official), incl. MZ001 where the retiring player was LEADING (Bergs 6-4 2-1 up, left-hip injury - TE + sport365/sports.fr double-sourced) and MZ003 a dropped SEMIFINAL (Bublik d. Wawrinka 2-1 ret.). 2021 complete on pull. Draw 28 confirmed per edition (Wikipedia infobox x3 + TE bracket x2); non-standard bye reassignments (LL/Q into vacated slots, 2024/2025) documented - byes carry no rows. Dropped-row signature held for the 6th consecutive audited event.",
   "counter_note": "T-018 (2026-08-19, Auditor 1): header counters updated to cumulative program truth - previously stale at the original T-005 method-run values (20 checked / 18 instances) while the body had grown to 67 entries across T-005/007/008/010/016/017. Current: 53 editions in branch, all clean; 67 gap instances found across the program, 67 closed, 0 open. Correction also recorded: T-007 Cincinnati WTA prose said '8 retirements + 7 walkovers'; byte truth of rows C001-C015 is 7 retirements + 8 walkovers (rows were always correct; the prose label was transposed).",
   "tokyo_wta_closure_note": "T-019 (2026-08-19, Auditor 1, standing audit->fix order): 7/7 Tokyo WTA 500 gaps FIXED - 5 retirements + 2 walkovers (Osaka abdominal/illness Reuters-CNN; Rybakina back AFP; Ishii abdominal TennisMajors/JapanTimes), incl. the Osaka chain (TK001 Saville knee retirement after one game + TK002 Osaka pre-R16 withdrawal) and a dropped SEMIFINAL (TK007, 3rd found). 2023 complete on pull. Draw 28 confirmed per edition; non-standard byes documented (2023 Guadalajara-SF byes per Wikipedia; 2024/2025 reassigned slots). Coverage boundary: no 2021 edition (event not held 2020-2021, COVID). Source-classification conflict flagged not altered: TE labels 2022 'indoors', store keeps uniform outdoor-hard. Dropped-row signature held for the 7th consecutive audited event.",
-  "tokyo_atp_closure_note": "T-020 (2026-08-19, Auditor 1, standing audit->fix order): 2/2 Tokyo ATP 500 gaps FIXED - 1 walkover (Kyrgios knee, minutes before QF vs Fritz, Tennis Majors/Daily Mail) + 1 retirement (Berrettini abdominal vs Fils, R16 2024, Fils trailing a set - stored truthfully setsA 0 setsB 1). 2023 and 2025 complete on pull. Draw 32 confirmed (Wikipedia 2024 infobox + structural full-bracket proof, no byes). Coverage: no 2021 edition (COVID). Dropped-row signature held for the 8th consecutive audited event."
+  "tokyo_atp_closure_note": "T-020 (2026-08-19, Auditor 1, standing audit->fix order): 2/2 Tokyo ATP 500 gaps FIXED - 1 walkover (Kyrgios knee, minutes before QF vs Fritz, Tennis Majors/Daily Mail) + 1 retirement (Berrettini abdominal vs Fils, R16 2024, Fils trailing a set - stored truthfully setsA 0 setsB 1). 2023 and 2025 complete on pull. Draw 32 confirmed (Wikipedia 2024 infobox + structural full-bracket proof, no byes). Coverage: no 2021 edition (COVID). Dropped-row signature held for the 8th consecutive audited event.",
+  "shanghai_closure_note": "T-021 (2026-08-19, Auditor 1, standing audit->fix order): 11/11 Shanghai Masters gaps FIXED - ALL retirements, 0 walkovers, incl. Sinner's famous cramps retirement vs Griekspoor (2025 R32, Forbes/Olympics/IndiaToday triple-corroborated), a missing rung of champion Vacherot's 2025 run, and two retire-while-leading losers (Nishioka 4-2 up; Medjedovic a set up) stored truthfully. claude_1's own m1000 census had flagged only 3 of the 11 (its R32-onward method is blind to R64/R128 layers) - all 3 now closed, plus 8 it could not see. 4 'J.J. Wolf' rows renamed 'Jeffrey Wolf' (2023 R128-R16 run). Draw 96 structural proof per edition; coverage: no 2020-2022 editions (COVID). Dropped-row signature held for the 9th consecutive audited event."
 }
