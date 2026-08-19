@@ -96,7 +96,7 @@ The data is gapless: 30/30 editions `closed_verified_gapless`, `gap_count 0`.
 
 Feed totals: **315 matches selected · 298 rated · 17 refused** · 145 players rated.
 
-| Year | Matches | Rated | Refused | Players | Engine #1 (rating) | Champion (rating) |
+| Year | Matches | Rated | Refused | Players rated | Engine #1 (rating) | Champion (rating) |
 |---|---|---:|---:|---:|---|---:|
 | 2021 | 55 | 55 | 0 | 56 | Zverev (+62) | Zverev (+62) |
 | 2022 | 55 | 54 | 1 | 56 | Coric (+70) | Coric (+70) |
@@ -129,7 +129,7 @@ tests, and documentation were removed from the branch.
 
 ### 2.6 Verification (how the auditors can check)
 
-- **Tests:** `cd engine && python3 -m unittest discover -s tests` → **48 tests green**
+- **Tests:** `cd engine && python3 -m unittest discover -s tests` → **41 tests green**
   (phase 0 math, adapter, compute, config, ratings table; fixtures in
   `config/test_data.json`, data-driven, no literals).
 - **Data integrity:** `MANIFEST.json` — 30 editions, 0 checksum/count errors.
@@ -156,4 +156,4 @@ tests, and documentation were removed from the branch.
 - `bbc154f` Score Calibrator (built).
 - `bc19f29` Calibrator → central analysis, calibration dropped (raw points used).
 - `7515afd`, `486a1c2`, `e0c0357` Data-inaccuracies register + context cleanup.
-- (pending) Calibrator fully removed; this Phase 0 document added.
+- `8e6310c` Calibrator fully removed; this Phase 0 document added.

@@ -9,6 +9,7 @@ sport means adding one adapter, no engine changes.
 ```text
 engine/
 ├── README.md
+├── PHASE-0.md               # Phase 0 document — what it is + everything done
 ├── config/                 # ALL values/names live here (zero-hardcoding)
 │   ├── rating_rules.json   # Phase 0 points table, sections, resolution rules
 │   ├── tennis_schema.json  # tennis match-row field names, score grammar
@@ -16,7 +17,11 @@ engine/
 │   ├── sports.json         # active adapter list (the plug point)
 │   ├── compute.json        # data root, manifest file, feed scope, default mutes
 │   ├── manifest_schema.json# MANIFEST.json + edition-file field names
+│   ├── position_rules.json # round → actual position/label mapping
 │   └── test_data.json      # test fixtures + expected outcomes
+├── reports/                # engine-rendered outputs
+│   ├── ratings_table_cincinnati_masters_2021.md
+│   └── ratings_tables_by_year.txt
 ├── sport_engine/
 │   ├── __init__.py
 │   ├── config.py           # config loader (fails loudly)
@@ -32,13 +37,15 @@ engine/
 │       ├── __init__.py
 │       ├── selection.py    # Filters + Mutes (pure selection logic)
 │       ├── data_source.py  # manifest-verified edition loading
-│       └── compute.py      # compute_ratings() orchestrator
+│       ├── compute.py      # compute_ratings() orchestrator
+│       └── ratings_table.py# per-year tables + render_table_text
 └── tests/
     ├── __init__.py
     ├── test_phase0.py
     ├── test_tennis_adapter.py
     ├── test_config.py
-    └── test_compute.py
+    ├── test_compute.py
+    └── test_ratings_table.py
 ```
 
 ## Phase map
@@ -165,6 +172,9 @@ to `6-4` (winner 10 pts, loser 4 pts), so totals are 20 / 8, rating `+12 / -12`.
   | `tennis_schema.json` | Tennis record field names, void flags, score grammar |
   | `football_schema.json` | Football adapter identity (stub) |
   | `sports.json` | Active adapter list (the plug point) |
+  | `compute.json` | Data root, manifest file, feed scope, default mutes |
+  | `manifest_schema.json` | MANIFEST.json + edition-file field names |
+  | `position_rules.json` | Round → actual position/label mapping |
   | `test_data.json` | Test fixtures + expected outcomes (tests are data-driven, no literals) |
 
 - Changing a rule = edit the config JSON, no code change.
