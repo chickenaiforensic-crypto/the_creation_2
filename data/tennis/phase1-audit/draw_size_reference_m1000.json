@@ -1,0 +1,513 @@
+{
+  "ATP|Indian Wells Masters|2021": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Indian Wells Masters|2022": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Indian Wells Masters|2023": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Indian Wells Masters|2024": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Indian Wells Masters|2025": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Indian Wells|2021": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Indian Wells|2022": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Indian Wells|2023": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Indian Wells|2024": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Indian Wells|2025": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Miami Masters|2021": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Miami Masters|2022": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Miami Masters|2023": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Miami Masters|2024": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Miami Masters|2025": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Miami|2021": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Miami|2022": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Miami|2023": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Miami|2024": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Miami|2025": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Monte Carlo Masters|2021": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Monte Carlo Masters|2022": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Monte Carlo Masters|2023": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Monte Carlo Masters|2024": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Monte Carlo Masters|2025": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Madrid Masters|2021": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Madrid Masters|2022": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Madrid Masters|2023": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Madrid Masters|2024": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Madrid Masters|2025": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Madrid|2021": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Madrid|2022": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Madrid|2023": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Madrid|2024": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Madrid|2025": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Rome Masters|2021": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Rome Masters|2022": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Rome Masters|2023": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Rome Masters|2024": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Rome Masters|2025": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Rome|2021": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Rome|2022": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Rome|2023": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Rome|2024": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Rome|2025": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Canada Masters|2021": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Canada Masters|2022": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Canada Masters|2023": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Canada Masters|2024": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Canada Masters|2025": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Toronto|2022": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Toronto|2024": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Montreal|2021": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Montreal|2023": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Montreal|2025": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Cincinnati Masters|2021": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Cincinnati Masters|2022": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Cincinnati Masters|2023": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Cincinnati Masters|2024": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Cincinnati Masters|2025": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Cincinnati|2021": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Cincinnati|2022": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Cincinnati|2023": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Cincinnati|2024": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "WTA|Cincinnati|2025": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Shanghai Masters|2023": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Shanghai Masters|2024": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Shanghai Masters|2025": {
+    "draw_size": 96,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": true,
+    "byes": 32,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Paris Masters|2021": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Paris Masters|2022": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Paris Masters|2023": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Paris Masters|2024": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  },
+  "ATP|Paris Masters|2025": {
+    "draw_size": 56,
+    "first_round": "R64",
+    "R32_is_bye_entry_round": false,
+    "byes": 8,
+    "source": "Wikipedia tournament-edition pages / ATP & WTA official tournament pages (verified 2026-08-19)"
+  }
+}

@@ -1,0 +1,837 @@
+{
+  "generated": "2026-08-19",
+  "method": "For every M1000 tournament-edition 2021-2025, for each round transition R32->R16->QF->SF->F, flag any player appearing in round N+1 whose winning match in round N is not present in the store. R64->R32 excluded (byes expected there, not gaps). Reproducible against commit b40331246285c7b88f364c13ea2a71ac26921ae6.",
+  "total_gap_instances": 92,
+  "editions_affected": 50,
+  "total_editions_checked": 73,
+  "gaps": [
+    {
+      "tour": "ATP",
+      "tournament": "Canada Masters",
+      "edition_year": "2021",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Hubert Hurkacz",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Canada Masters",
+      "edition_year": "2022",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Jack Draper",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Canada Masters",
+      "edition_year": "2023",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Jannik Sinner",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Canada Masters",
+      "edition_year": "2024",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Matteo Arnaldi",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Canada Masters",
+      "edition_year": "2024",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Sebastian Korda",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Canada Masters",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Alex de Minaur",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Canada Masters",
+      "edition_year": "2025",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Alexander Zverev",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Canada Masters",
+      "edition_year": "2025",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Andrey Rublev",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Cincinnati Masters",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Jannik Sinner",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Cincinnati Masters",
+      "edition_year": "2023",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Alexei Popyrin",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Cincinnati Masters",
+      "edition_year": "2023",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Novak Djokovic",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Cincinnati Masters",
+      "edition_year": "2023",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Adrian Mannarino",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Cincinnati Masters",
+      "edition_year": "2023",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Taylor Fritz",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Cincinnati Masters",
+      "edition_year": "2024",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Flavio Cobolli",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Cincinnati Masters",
+      "edition_year": "2024",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Jannik Sinner",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Cincinnati Masters",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Felix Auger-Aliassime",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Cincinnati Masters",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Luca Nardi",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Cincinnati Masters",
+      "edition_year": "2025",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Alexander Zverev",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Cincinnati Masters",
+      "edition_year": "2025",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Holger Rune",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Indian Wells Masters",
+      "edition_year": "2021",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Jannik Sinner",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Indian Wells Masters",
+      "edition_year": "2022",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Nick Kyrgios",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Indian Wells Masters",
+      "edition_year": "2023",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Carlos Alcaraz",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Indian Wells Masters",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Daniil Medvedev",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Madrid Masters",
+      "edition_year": "2021",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Alex de Minaur",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Madrid Masters",
+      "edition_year": "2022",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Alexander Zverev",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Madrid Masters",
+      "edition_year": "2022",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Novak Djokovic",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Madrid Masters",
+      "edition_year": "2024",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Felix Auger-Aliassime",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Madrid Masters",
+      "edition_year": "2024",
+      "missing_round": "SF",
+      "missing_opponent_in_round": "F",
+      "player_with_no_traceable_win": "Felix Auger-Aliassime",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Madrid Masters",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Jack Draper",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Madrid Masters",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Taylor Fritz",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Miami Masters",
+      "edition_year": "2023",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Daniil Medvedev",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Miami Masters",
+      "edition_year": "2025",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Jakub Mensik",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Monte Carlo Masters",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Pablo Carreno Busta",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Monte Carlo Masters",
+      "edition_year": "2023",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Jannik Sinner",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Monte Carlo Masters",
+      "edition_year": "2023",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Stefanos Tsitsipas",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Monte Carlo Masters",
+      "edition_year": "2023",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Holger Rune",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Paris Masters",
+      "edition_year": "2021",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Alexei Popyrin",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Paris Masters",
+      "edition_year": "2021",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Novak Djokovic",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Paris Masters",
+      "edition_year": "2023",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Daniel Altmaier",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Paris Masters",
+      "edition_year": "2023",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Alex de Minaur",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Paris Masters",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Daniil Medvedev",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Rome Masters",
+      "edition_year": "2021",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Kei Nishikori",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Rome Masters",
+      "edition_year": "2023",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Laslo Djere",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Rome Masters",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Casper Ruud",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Shanghai Masters",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Gabriel Diallo",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Shanghai Masters",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Tallon Griekspoor",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Shanghai Masters",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Valentin Vacherot",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Cincinnati",
+      "edition_year": "2021",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Jelena Ostapenko",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Cincinnati",
+      "edition_year": "2021",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Jessica Pegula",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Cincinnati",
+      "edition_year": "2021",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Belinda Bencic",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Cincinnati",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Alison Riske-Amritraj",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Cincinnati",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Aryna Sabalenka",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Cincinnati",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Shelby Rogers",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Cincinnati",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Veronika Kudermetova",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Cincinnati",
+      "edition_year": "2023",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Jasmine Paolini",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Cincinnati",
+      "edition_year": "2023",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Ons Jabeur",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Cincinnati",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Coco Gauff",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Cincinnati",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Iga Swiatek",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Indian Wells",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Veronika Kudermetova",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Indian Wells",
+      "edition_year": "2022",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Maria Sakkari",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Indian Wells",
+      "edition_year": "2023",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Aryna Sabalenka",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Indian Wells",
+      "edition_year": "2024",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Marta Kostyuk",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Madrid",
+      "edition_year": "2021",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Jessica Pegula",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Madrid",
+      "edition_year": "2021",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Belinda Bencic",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Madrid",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Elena Rybakina",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Miami",
+      "edition_year": "2021",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Anastasija Sevastova",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Miami",
+      "edition_year": "2021",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Naomi Osaka",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Miami",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Daria Saville",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Miami",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Linda Fruhvirtova",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Miami",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Lucia Bronzetti",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Miami",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Naomi Osaka",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Miami",
+      "edition_year": "2022",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Jessica Pegula",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Miami",
+      "edition_year": "2023",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Ekaterina Alexandrova",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Miami",
+      "edition_year": "2024",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Maria Sakkari",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Miami",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Aryna Sabalenka",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Miami",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Emma Raducanu",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Miami",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Jasmine Paolini",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Miami",
+      "edition_year": "2025",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Alexandra Eala",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Montreal",
+      "edition_year": "2021",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Coco Gauff",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Montreal",
+      "edition_year": "2023",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Jasmine Paolini",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Montreal",
+      "edition_year": "2023",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Sloane Stephens",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Rome",
+      "edition_year": "2021",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Angelique Kerber",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Rome",
+      "edition_year": "2021",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Ekaterina Alexandrova",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Rome",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Jessica Pegula",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Rome",
+      "edition_year": "2023",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Elena Rybakina",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Rome",
+      "edition_year": "2023",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Madison Keys",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Rome",
+      "edition_year": "2025",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Jelena Ostapenko",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Toronto",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Qinwen Zheng",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Toronto",
+      "edition_year": "2022",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Yulia Putintseva",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Toronto",
+      "edition_year": "2024",
+      "missing_round": "R32",
+      "missing_opponent_in_round": "R16",
+      "player_with_no_traceable_win": "Katie Boulter",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Toronto",
+      "edition_year": "2024",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Amanda Anisimova",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Toronto",
+      "edition_year": "2024",
+      "missing_round": "R16",
+      "missing_opponent_in_round": "QF",
+      "player_with_no_traceable_win": "Peyton Stearns",
+      "disposition": "UNRESOLVED - needs sourced match result"
+    }
+  ]
+}
