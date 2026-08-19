@@ -50,6 +50,9 @@ class Handler(BaseHTTPRequestHandler):
         self.send_response(code)
         self.send_header("Content-Type", ctype)
         self.send_header("Content-Length", str(len(body)))
+        # Dev server: never let the browser cache frontend assets or API JSON —
+        # a stale app.js hides new UI (e.g. the Ratings Compute button).
+        self.send_header("Cache-Control", "no-store, no-cache, must-revalidate")
         self.end_headers()
         self.wfile.write(body)
 
