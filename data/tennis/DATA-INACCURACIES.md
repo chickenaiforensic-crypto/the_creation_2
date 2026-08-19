@@ -1,6 +1,21 @@
 # DATA INACCURACIES — all games with missing data (2021–2025 scope)
 
-Single register of every match row in `data/tennis/editions/` that carries missing or incomplete data. All retired content is shown. These rows are excluded from engine rating (refused, never guessed) until attended to.
+Single register of every match row in `data/tennis/editions/` that the engine cannot
+rate, plus rows carrying an absent optional field.
+
+**What this is NOT:** this register is **not** a list of data errors or gaps. The branch
+is verified gapless — all 30 editions are `closed_verified_gapless`, `gap_count = 0`
+(MANIFEST.json). Every row below is a present, recorded match.
+
+**What this IS:**
+- **Void matches (58)** — retired / walkover / defaulted. Fully recorded results
+  (date, round, players, winner all present) with no finished set score. The engine
+  refuses to rate them by design — never guesses an unfinished score. Several of these
+  are rows the branch's own gap-closure work deliberately added (G001–G018).
+- **Completed matches with `duration_min` absent (114)** — `duration_min` is an
+  optional field; `DATA-RULES.md` and `build.py` do not require it.
+
+These rows are excluded from engine rating (refused, never guessed) until attended to.
 
 - **Retired:** 47 rows
 - **Walkover:** 10 rows
