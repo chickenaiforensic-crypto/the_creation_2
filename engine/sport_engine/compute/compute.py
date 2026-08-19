@@ -116,7 +116,7 @@ def _aggregate(rows: List[dict]) -> List[dict]:
 def _effective_filters(caller: Filters, feed_cfg: Mapping) -> Filters:
     """Feed scope (config) composes with caller filters: a category the caller left
     empty falls back to the feed's value; a category the caller set overrides it.
-    This keeps 'feed only Cincinnati Masters for now' true for every query."""
+    This keeps the configured feed scope true for every query."""
     feed = Filters.from_config(feed_cfg)
     return Filters(
         tournaments=caller.tournaments or feed.tournaments,
@@ -143,9 +143,9 @@ def compute_ratings(
 ) -> dict:
     """Compute Phase 0 ratings live over the configured data tree.
 
-    filters/mutes omitted -> defaults from engine/config/compute.json (feed scope:
-    Cincinnati Masters only; no default mutes). Explicit filters compose with the
-    feed scope; explicit mutes union the configured defaults.
+    filters/mutes omitted -> defaults from engine/config/compute.json (the configured
+    feed scope; no default mutes). Explicit filters compose with the feed scope;
+    explicit mutes union the configured defaults.
     """
     cfg = load_config("compute")
     mschema = load_config("manifest_schema")
