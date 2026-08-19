@@ -642,6 +642,24 @@
       "sinner": 4,
       "sinner_note": "R64 6-2 7-5 (+6) + R32 loss to Isner 5-7 7-6 6-4 (+2 -2 -2 = -2) = +4; hand-verified from data bytes"
     },
-    "feed": {"matches_selected": 315, "matches_rated": 298, "matches_refused": 17}
+    "feed": {"matches_selected": 315, "matches_rated": 298, "matches_refused": 17},
+    "percentage": {
+      "description": "H2H percentage fixtures — linear baseline, exponential disabled.",
+      "cases": [
+        {"label": "one-sided +58/-11", "points_a": 58, "points_b": -11, "pA_pct": 84.06, "pB_pct": 15.94},
+        {"label": "equal +10/-10", "points_a": 10, "points_b": -10, "pA_pct": 50.0, "pB_pct": 50.0},
+        {"label": "zero points", "points_a": 0, "points_b": 0, "pA_pct": null, "pB_pct": null},
+        {"label": "positive split +20/+10", "points_a": 20, "points_b": 10, "pA_pct": 66.67, "pB_pct": 33.33}
+      ],
+      "scaling": "linear",
+      "exponential_enabled": false,
+      "direct_encounters": {
+        "djokovic_alcaraz_tournaments": ["Cincinnati Masters", "US Open"],
+        "djokovic_alcaraz_tours": ["ATP"],
+        "expected_direct_count": 2,
+        "expected_points_a": -6,
+        "expected_points_b": 6
+      }
+    }
   }
 }

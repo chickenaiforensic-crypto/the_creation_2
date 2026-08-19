@@ -16,9 +16,10 @@ from pathlib import Path
 from typing import List, Optional
 
 from sport_engine.compute.compute import compute_ratings
+from sport_engine.compute.data_source import load_editions
 from sport_engine.compute.selection import Filters, Mutes
 from sport_engine.config import load_config
-from sport_engine.h2h.h2h import run_h2h
+from sport_engine.h2h.h2h import h2h_percentage, run_h2h
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 
@@ -35,29 +36,34 @@ def _field_names() -> dict:
     }
 
 
-def _available_options(filters: Filters) -> dict:
-    """Distinct selectable option lists from the feed data (tournament, tour,
-    tier, year, player). All names come from the data — nothing hardcoded."""
+def _available_options() -> dict:
+    """Distinct selectable option lists from the FULL dataset (tournament, tour,
+    tier, year, player) — independent of the feed scope, so the UI can constrain
+    or broaden the processed dataset. All names come from the data."""
+    cfg = load_config("compute")
+    mschema = load_config("manifest_schema")
     f = _field_names()
-    report = compute_ratings(filters=filters)
+    editions = load_editions(REPO_ROOT / cfg["data_root_relative_to_repo"],
+                             cfg["manifest_file"], mschema)
     tournaments = set()
     tours = set()
     tiers = set()
     years = set()
     players = set()
-    for m in report["matches"]:
-        tournaments.add(m["tournament"])
-        tours.add(m["tour"])
-        tiers.add(m["tier"])
-        years.add(m["year"])
-        players.add(m["player_a"])
-        players.add(m["player_b"])
+    for edition in editions:
+        for match in edition[mschema["edition_file_matches"]]:
+            tournaments.add(match.get(f["tournament"]))
+            tours.add(match.get(f["tour"]))
+            tiers.add(match.get(f["tier"]))
+            years.add(str(match.get(f["edition_year"])))
+            players.add(match.get(f["player_a"]))
+            players.add(match.get(f["player_b"]))
     return {
-        "tournaments": sorted(tournaments),
-        "tours": sorted(tours),
-        "tiers": sorted(tiers),
-        "years": sorted(years),
-        "players": sorted(players),
+        "tournaments": sorted(x for x in tournaments if x),
+        "tours": sorted(x for x in tours if x),
+        "tiers": sorted(x for x in tiers if x),
+        "years": sorted(x for x in years if x),
+        "players": sorted(x for x in players if x),
     }
 
 
@@ -67,7 +73,9 @@ def ui_manifest() -> dict:
     compute_cfg = load_config("compute")
 
     feed_filters = Filters.from_config(compute_cfg["feed"])
-    options = _available_options(feed_filters)
+    options = _available_options()  # full-dataset option lists
+    # the tournament filter control offers ALL tournaments in the data so the
+    # user can constrain OR broaden the processed dataset beyond the feed scope
 
     return {
         "app": ui["app"],
@@ -75,6 +83,8 @@ def ui_manifest() -> dict:
         "tabs": ui["tabs"],
         "entity_labels": ui["entity_labels"],
         "matchup_selector": ui["matchup_selector"],
+        "tournament_filter": ui["tournament_filter"],
+        "all_tournaments": options["tournaments"],
         "development_lock": sports_cfg["development_lock"],
         "prediction_vector": {
             "placeholder_label": ui["prediction_vector"]["placeholder_label"],
@@ -105,9 +115,7 @@ def ui_manifest() -> dict:
 
 def player_options() -> dict:
     ui = load_config("ui")
-    compute_cfg = load_config("compute")
-    feed_filters = Filters.from_config(compute_cfg["feed"])
-    options = _available_options(feed_filters)
+    options = _available_options()
     return {
         "players": options["players"],
         "tournaments": options["tournaments"],
@@ -178,6 +186,21 @@ def matchup_report(
         else:
             net += m["h2h_b"]
 
+    # H2H percentage — isolated historical profile of the explicit pair:
+    # only DIRECT pA-vs-pB encounters are aggregated (the standalone H2H module
+    # sums each player's rating points across those matches, then converts the
+    # absolute totals into a relative balance out of 100%, linear baseline).
+    direct = [
+        m
+        for m in encounters
+        if {m["player_a"], m["player_b"]} == {player_a, player_b}
+    ]
+    points_a = sum(m["h2h_a"] for m in direct if m["player_a"] == player_a)
+    points_a += sum(m["h2h_b"] for m in direct if m["player_b"] == player_a)
+    points_b = sum(m["h2h_b"] for m in direct if m["player_b"] == player_b)
+    points_b += sum(m["h2h_a"] for m in direct if m["player_a"] == player_b)
+    percentage = h2h_percentage(points_a, points_b)
+
     return {
         "matchup": {"player_a": player_a, "player_b": player_b},
         "scope": {
@@ -196,7 +219,11 @@ def matchup_report(
         "h2h": {
             "net_h2h_balance": net,
             "encounter_count": len(encounters),
+            "direct_encounter_count": len(direct),
             "encounters": encounters,
+            "direct_encounters": direct,
+            "percentage": percentage,
+            "percentage_label": ui["h2h"]["percentage_label"],
             "drilldown_title": ui["h2h"]["score_sheet_title"],
             "no_data_text": ui["h2h"]["no_data_text"],
         },

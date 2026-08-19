@@ -66,6 +66,32 @@ def _fields() -> dict:
     }
 
 
+def h2h_percentage(points_a: float, points_b: float) -> dict:
+    """Relative balance out of 100% from the total rating points gathered by each
+    player across their direct H2H encounters.
+
+    Linear constraint (current iteration, config h2h.json percentage): the
+    absolute point totals are converted into a share of 100%. An exponential
+    scaling expansion factor is planned (to prevent high-margin victories from
+    collapsing into close margins like 51%-49%) and remains DISABLED.
+    """
+    cfg = load_config("h2h")["percentage"]
+    scale = abs(points_a) + abs(points_b)
+    if scale == 0:
+        pA_pct = pB_pct = None
+    else:
+        pA_pct = round(abs(points_a) / scale * 100, 2)
+        pB_pct = round(100 - pA_pct, 2)
+    return {
+        "points_a": round(points_a, 2),
+        "points_b": round(points_b, 2),
+        "pA_pct": pA_pct,
+        "pB_pct": pB_pct,
+        "scaling": cfg.get("scaling", "linear"),
+        "exponential_enabled": bool(cfg.get("exponential_enabled", False)),
+    }
+
+
 def _refusal_reason(match: dict, f: dict) -> str:
     """Why a selected match is not rateable — mirrors the adapter's refusal
     logic using config names. Never invents a score; refuses and says why."""

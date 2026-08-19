@@ -63,6 +63,40 @@ class TestH2HReport(unittest.TestCase):
                 self.assertAlmostEqual(p["average"], p["game_difference"] / p["matches"])
 
 
+class TestH2HPercentage(unittest.TestCase):
+    """H2H percentage aggregation — linear baseline, exponential disabled."""
+
+    def test_percentage_cases(self):
+        from sport_engine.h2h.h2h import h2h_percentage
+
+        for case in _H2H["percentage"]["cases"]:
+            with self.subTest(case["label"]):
+                r = h2h_percentage(case["points_a"], case["points_b"])
+                self.assertAlmostEqual(r["pA_pct"], case["pA_pct"], places=2)
+                self.assertAlmostEqual(r["pB_pct"], case["pB_pct"], places=2)
+                self.assertEqual(r["scaling"], _H2H["percentage"]["scaling"])
+                self.assertEqual(r["exponential_enabled"],
+                                 _H2H["percentage"]["exponential_enabled"])
+
+    def test_report_percentage_direct_encounters(self):
+        from sport_engine.ui.api import matchup_report
+
+        pct = _H2H["percentage"]["direct_encounters"]
+        r = matchup_report(
+            "Novak Djokovic", "Carlos Alcaraz",
+            tournaments=pct["djokovic_alcaraz_tournaments"],
+            tours=pct["djokovic_alcaraz_tours"],
+        )
+        self.assertEqual(r["h2h"]["direct_encounter_count"],
+                         pct["expected_direct_count"])
+        self.assertEqual(r["h2h"]["percentage"]["points_a"],
+                         pct["expected_points_a"])
+        self.assertEqual(r["h2h"]["percentage"]["points_b"],
+                         pct["expected_points_b"])
+        self.assertEqual(r["h2h"]["percentage"]["scaling"], "linear")
+        self.assertFalse(r["h2h"]["percentage"]["exponential_enabled"])
+
+
 class TestTournamentContext(unittest.TestCase):
     """Tournament-aware tracking: H2H traces the specific tournament context for
     each individual player."""

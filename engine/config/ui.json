@@ -17,8 +17,13 @@
   },
   "matchup_selector": {
     "select_prefix": "— select",
+    "search_placeholder": "Type to search players",
     "swap_label": "Swap",
     "swap_title": "Swap A and B"
+  },
+  "tournament_filter": {
+    "label": "Tournament filter",
+    "all_option": "All tournaments (feed default)"
   },
   "prediction_vector": {
     "placeholder_label": "Prediction Vector",
@@ -29,6 +34,7 @@
   "h2h": {
     "title": "H2H Analysis",
     "summary_label": "Net H2H balance",
+    "percentage_label": "H2H percentage (direct encounters)",
     "drilldown_icon_label": "Open H2H drill-down",
     "drilldown_button_label": "H2H drill-down",
     "date_boundary_label": "From date",

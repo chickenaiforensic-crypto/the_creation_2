@@ -12,6 +12,7 @@ const state = {
   tournaments: [],
   years: [],
   tours: [],
+  tournamentFilter: "",
   fromDate: "",
   data: null,
 };
@@ -119,42 +120,53 @@ function renderTabs(m) {
   app.appendChild(bar);
 }
 
+function searchablePlayerInput(m, side) {
+  // searchable lookup: free-text input + datalist of every dataset player;
+  // choosing an entry loads that player into the side directly
+  const isTennis = state.sport === "Tennis";
+  const labels = m.entity_labels[state.sport] || {};
+  const label = side === "A" ? labels.a_label : (isTennis ? labels.b_label : labels.team_label);
+  const wrapper = el("div", { class: "side" });
+  wrapper.appendChild(el("label", { text: label }));
+  const input = el("input", {
+    type: "text",
+    list: "players-list",
+    placeholder: m.matchup_selector.search_placeholder,
+    value: side === "A" ? state.playerA : state.playerB,
+  });
+  const datalist = el("datalist", { id: "players-list" });
+  for (const p of m.options.players) datalist.appendChild(el("option", { value: p }));
+  wrapper.appendChild(input);
+  wrapper.appendChild(datalist);
+  input.addEventListener("change", () => {
+    const val = input.value.trim();
+    if (!m.options.players.includes(val)) return;
+    if (side === "A") state.playerA = val;
+    else state.playerB = val;
+    loadMatchup();
+  });
+  return wrapper;
+}
+
 function renderMatchupSelector(m) {
   const app = $("#app");
   const labels = m.entity_labels[state.sport] || {};
   const isTennis = state.sport === "Tennis";
   const aLabel = labels.a_label;
   const bLabel = isTennis ? labels.b_label : labels.team_label;
-  const prefix = m.matchup_selector.select_prefix;
 
   const panel = el("div", { class: "panel" });
   panel.appendChild(el("h2", { text: isTennis ? aLabel + " vs " + bLabel : "Team A vs Team B" }));
 
   const row = el("div", { class: "matchup-selector" });
-
-  const sideA = el("div", { class: "side" });
-  sideA.appendChild(el("label", { text: aLabel }));
-  const selA = el("select", {
-    id: "selA",
-    onchange: (e) => { state.playerA = e.target.value; loadMatchup(); },
-  }, selectOptions(m.options.players, [state.playerA], prefix + " " + aLabel + " —"));
-  sideA.appendChild(selA);
-
+  const sideA = searchablePlayerInput(m, "A");
   const swapBtn = el("button", {
     class: "swap-btn",
     title: m.matchup_selector.swap_title,
     text: m.matchup_selector.swap_label + " ⇄",
     onclick: swapPlayers,
   });
-
-  const sideB = el("div", { class: "side" });
-  sideB.appendChild(el("label", { text: bLabel }));
-  const selB = el("select", {
-    id: "selB",
-    onchange: (e) => { state.playerB = e.target.value; loadMatchup(); },
-  }, selectOptions(m.options.players, [state.playerB], prefix + " " + bLabel + " —"));
-  sideB.appendChild(selB);
-
+  const sideB = searchablePlayerInput(m, "B");
   row.appendChild(sideA);
   row.appendChild(swapBtn);
   row.appendChild(sideB);
@@ -228,6 +240,18 @@ function renderH2HPanel(m) {
     ]);
     panel.appendChild(bar);
 
+    if (h.percentage && h.percentage.pA_pct !== null && h.percentage.pA_pct !== undefined) {
+      const pct = el("div", { class: "h2h-percentage" }, [
+        el("div", { class: "k", text: ui.percentage_label + " — " + h.direct_encounter_count + " direct" }),
+        el("div", { class: "pct-row" }, [
+          el("span", { class: "pct-a", text: state.data.players.player_a.player + " " + h.percentage.pA_pct + "%" }),
+          el("span", { class: "pct-vs", text: " | " }),
+          el("span", { class: "pct-b", text: h.percentage.pB_pct + "% " + state.data.players.player_b.player }),
+        ]),
+      ]);
+      panel.appendChild(pct);
+    }
+
     const dd = el("div", { id: "drilldown", style: "display:none" });
     dd.appendChild(el("div", { class: "drilldown-title", text: ui.score_sheet_title }));
     const table = el("table", {});
@@ -255,12 +279,26 @@ function renderH2HPanel(m) {
   return panel;
 }
 
+function renderTournamentFilter(m) {
+  const app = $("#app");
+  const panel = el("div", { class: "panel" });
+  panel.appendChild(el("h2", { text: m.tournament_filter.label }));
+  const row = el("div", { class: "row" });
+  const sel = el("select", {
+    onchange: (e) => { state.tournamentFilter = e.target.value; loadMatchup(); },
+  }, selectOptions(m.all_tournaments, state.tournamentFilter ? [state.tournamentFilter] : [], m.tournament_filter.all_option));
+  row.appendChild(sel);
+  panel.appendChild(row);
+  app.appendChild(panel);
+}
+
 function renderDashboard(m) {
   const app = $("#app");
   if (!state.sport) {
     app.appendChild(el("div", { class: "panel", text: m.placeholders.select_sport }));
     return;
   }
+  renderTournamentFilter(m);
   renderMatchupSelector(m);
   renderPredictionVector(m);
   const grid = el("div", { class: "grid" });
@@ -349,7 +387,8 @@ async function loadMatchup() {
   if (!state.playerA || !state.playerB) return;
   const q = new URLSearchParams({ a: state.playerA, b: state.playerB });
   if (state.years.length) q.set("years", state.years.join(","));
-  if (state.tournaments.length) q.set("tournaments", state.tournaments.join(","));
+  const tourneyFilter = state.tournamentFilter || state.tournaments.join(",");
+  if (tourneyFilter) q.set("tournaments", tourneyFilter);
   if (state.tours.length) q.set("tours", state.tours.join(","));
   if (state.fromDate) q.set("from", state.fromDate);
   try {

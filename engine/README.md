@@ -173,6 +173,21 @@ driven by `config/ui.json`, `config/sports.json`, and live engine data).
   H2H encounters within a user-defined date boundary; outputs the net H2H
   balance and an interactive action icon opening a chronological drill-down
   table (date, players, score, per-side H2H, winner).
+- **H2H percentage aggregation (Phase 1 extension):** the standalone H2H module
+  aggregates the total rating points gathered by each player across their
+  DIRECT historical encounters and converts the absolute point totals into a
+  relative balance out of 100%. Linear baseline for this iteration
+  (`config/h2h.json` `percentage.scaling: "linear"`); the exponential scaling
+  expansion factor (to prevent high-margin victories collapsing into 51%-49%)
+  remains **disabled** (`exponential_enabled: false`).
+- **Targeted player search input:** the horizontal matchup selector uses
+  searchable inputs (datalist over the full 577-player dataset) — any explicit
+  pair can be loaded directly to generate its isolated H2H percentage profile.
+- **Tournament UI filter:** a global Tournament Filter dropdown on the active
+  view constrains or broadens the dataset feeding the ratings and H2H
+  computations — options are the full dataset (10 tournament names; US Open
+  ATP/WTA separated via the tours filter). "All tournaments" falls back to the
+  feed default (Cincinnati Masters).
 - **API:** `/api/ui`, `/api/options`, `/api/matchup?a=..&b=..&tours=..&tournaments=..&years=..&from=..`.
 - **Tour filter (approved):** US Open ATP/WTA are now selectable separately via
   the `tours` filter (e.g. `tours=ATP` vs `tours=WTA`), since both share the

@@ -52,12 +52,25 @@ select[multiple] { min-height: 96px; }
 .matchup-selector { display: flex; align-items: flex-end; gap: var(--space); }
 .matchup-selector .side { flex: 1 1 0; min-width: 0; }
 .matchup-selector .side label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+.matchup-selector .side input[type="text"] {
+  width: 100%; background: var(--panel2); color: var(--text); border: 1px solid var(--border);
+  border-radius: 8px; padding: 10px; font-size: 14px;
+}
+.matchup-selector .side input[type="text"]:focus { outline: 1px solid var(--accent); }
 .swap-btn {
   flex: 0 0 auto; background: var(--accent); color: #fff; border: none;
   border-radius: 8px; padding: 10px 14px; font-size: 14px; cursor: pointer;
   white-space: nowrap; margin-bottom: 0;
 }
 .swap-btn:hover { background: var(--accent2); }
+
+/* ---------- H2H percentage ---------- */
+.h2h-percentage { margin-top: var(--space-sm); background: var(--panel2); border: 1px solid var(--border); border-radius: 10px; padding: 12px; }
+.h2h-percentage .k { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 8px; }
+.h2h-percentage .pct-row { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 16px; font-weight: 700; }
+.h2h-percentage .pct-a { color: var(--green); }
+.h2h-percentage .pct-b { color: var(--red); }
+.h2h-percentage .pct-vs { color: var(--muted); font-weight: 400; }
 
 /* ---------- grid ---------- */
 .grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space); }
