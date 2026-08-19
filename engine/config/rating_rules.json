@@ -1,7 +1,8 @@
 {
-  "description": "Phase 0 rating rules — single source of truth for the rating math. Changing a rule means editing THIS file, never the code.",
-  "spec_reference": "Director Phase 0 spec, 2026-08-19",
+  "description": "Phase 0 rating rules — single source of truth for the rating math. Changing a rule means editing THIS file, never the code. Director answers 2026-08-19: (1) any set won by more than max_winner_games resolves to max_winner_games - resolved_loser_games (6-4) for the winner, regardless of how long a tiebreak lasted; (2) the 1x/2x/3x/4x values are section identifiers of the score, not multipliers.",
+  "spec_reference": "Director Phase 0 spec + answers, 2026-08-19",
   "max_winner_games": 6,
+  "resolved_loser_games": 4,
   "points_by_games": {
     "0": 2,
     "1": 2,
@@ -11,7 +12,7 @@
     "5": 7,
     "6": 10
   },
-  "tier_by_games": {
+  "section_by_games": {
     "0": "1x",
     "1": "1x",
     "2": "1x",

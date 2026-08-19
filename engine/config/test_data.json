@@ -13,7 +13,9 @@
     {"label": "7-5 resolves to 6-4", "input": [7, 5], "expected": [6, 4]},
     {"label": "6-2 unchanged", "input": [6, 2], "expected": [6, 2]},
     {"label": "8-6 steps down to 6-4", "input": [8, 6], "expected": [6, 4]},
-    {"label": "7-6 tiebreak resolves to 6-5", "input": [7, 6], "expected": [6, 5]},
+    {"label": "7-6 tiebreak resolves to 6-4 (winner always 6-4)", "input": [7, 6], "expected": [6, 4]},
+    {"label": "9-7 long tiebreak resolves to 6-4", "input": [9, 7], "expected": [6, 4]},
+    {"label": "10-9 long tiebreak resolves to 6-4", "input": [10, 9], "expected": [6, 4]},
     {"label": "reversed input keeps orientation", "input": [2, 6], "expected": [2, 6]}
   ],
   "rejected_sets": [
@@ -31,12 +33,12 @@
       "delta_b": -14
     },
     {
-      "label": "6-4 7-6 tiebreak",
+      "label": "6-4 7-6 tiebreak (7-6 resolves to 6-4)",
       "sets": [[6, 4], [7, 6]],
       "total_a": 20,
-      "total_b": 11,
-      "delta_a": 9,
-      "delta_b": -9
+      "total_b": 8,
+      "delta_a": 12,
+      "delta_b": -12
     },
     {
       "label": "6-3 3-6 6-4 dropped set (B wins middle)",
@@ -59,7 +61,7 @@
         "defaulted": false, "winner": "A"
       },
       "expected_sets": [[6, 4], [7, 6]],
-      "expected_totals": {"total_a": 20, "total_b": 11}
+      "expected_totals": {"total_a": 20, "total_b": 8}
     },
     {
       "label": "dubai 2021 completed two-set tiebreak second",

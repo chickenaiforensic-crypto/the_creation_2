@@ -20,7 +20,7 @@ class TestConfigStructure(unittest.TestCase):
         for games in range(max_games + 1):
             key = str(games)
             self.assertIn(key, r["points_by_games"])
-            self.assertIn(key, r["tier_by_games"])
+            self.assertIn(key, r["section_by_games"])
             self.assertGreaterEqual(r["points_by_games"][key], 0)
 
     def test_tennis_schema_structure(self):
@@ -58,8 +58,8 @@ class TestRulesCameFromConfig(unittest.TestCase):
             {int(k): int(v) for k, v in rules["points_by_games"].items()},
         )
         self.assertEqual(
-            phase0.TIER_LABEL,
-            {int(k): v for k, v in rules["tier_by_games"].items()},
+            phase0.SECTION_LABEL,
+            {int(k): v for k, v in rules["section_by_games"].items()},
         )
 
     def test_tennis_adapter_uses_config(self):

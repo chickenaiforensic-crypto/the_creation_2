@@ -4,10 +4,13 @@ Director spec (2026-08-19):
 
   pA vs pB, per-set game scores.
   1. Normalise each set: -1 on both sides until the higher side has
-     `max_winner_games` (6) games (7-5 resolves to 6-4). Orientation preserved.
+     `max_winner_games` (6) games. Any set won by more than max_winner_games
+     (7-5, 7-6, 8-6, 9-7, ...) resolves to 6-4 for the winner regardless of how
+     long a tiebreak lasted (Director answer, 2026-08-19). Orientation preserved.
   2. Points per player per set, from games won after normalisation
      (config `rating_rules.json`: 0-2 -> 2 (1x) ; 3-4 -> 4 (2x) ; 5 -> 7 (3x) ;
-     6 -> 10 (4x)).
+     6 -> 10 (4x)). The 1x/2x/3x/4x values are SECTION IDENTIFIERS of the score,
+     not multipliers (Director answer, 2026-08-19).
   3. Match totals = sum of per-set points.
   4. Rating: pA = totalA - totalB ; pB = totalB - totalA.
 
@@ -27,20 +30,32 @@ from sport_engine.config import load_config
 _RULES = load_config("rating_rules")
 
 MAX_WINNER_GAMES: int = int(_RULES["max_winner_games"])
+RESOLVED_LOSER_GAMES: int = int(_RULES["resolved_loser_games"])
 GAMES_TO_POINTS: Dict[int, int] = {int(k): int(v) for k, v in _RULES["points_by_games"].items()}
-TIER_LABEL: Dict[int, str] = {int(k): str(v) for k, v in _RULES["tier_by_games"].items()}
+SECTION_LABEL: Dict[int, str] = {int(k): str(v) for k, v in _RULES["section_by_games"].items()}
 
 
 def _validate_rules() -> None:
-    """Config must fully cover 0..MAX_WINNER_GAMES in both tables — fail loudly."""
+    """Config must fully cover 0..MAX_WINNER_GAMES in both tables and the resolved
+    loser games must be a valid rated score — fail loudly otherwise."""
     for games in range(0, MAX_WINNER_GAMES + 1):
         if games not in GAMES_TO_POINTS:
             raise ValueError(f"rating_rules.json missing points for {games} games")
-        if games not in TIER_LABEL:
-            raise ValueError(f"rating_rules.json missing tier for {games} games")
+        if games not in SECTION_LABEL:
+            raise ValueError(f"rating_rules.json missing section for {games} games")
     for games, points in GAMES_TO_POINTS.items():
         if points < 0:
             raise ValueError(f"rating_rules.json: negative points {points} for {games} games")
+    if not (0 <= RESOLVED_LOSER_GAMES < MAX_WINNER_GAMES):
+        raise ValueError(
+            f"rating_rules.json: resolved_loser_games {RESOLVED_LOSER_GAMES} must be "
+            f"in 0..{MAX_WINNER_GAMES - 1}"
+        )
+    if RESOLVED_LOSER_GAMES not in GAMES_TO_POINTS:
+        raise ValueError(
+            f"rating_rules.json: resolved_loser_games {RESOLVED_LOSER_GAMES} missing "
+            f"from points_by_games"
+        )
 
 
 _validate_rules()
@@ -56,14 +71,18 @@ def points_for_games(games: int) -> int:
     return GAMES_TO_POINTS[games]
 
 
-def tier_for_games(games: int) -> str:
+def section_for_games(games: int) -> str:
     if games < 0 or games > MAX_WINNER_GAMES:
         raise RatingError(f"games {games} outside 0..{MAX_WINNER_GAMES}")
-    return TIER_LABEL[games]
+    return SECTION_LABEL[games]
 
 
 def normalize_set(a: int, b: int) -> Tuple[int, int]:
     """Apply -1 to BOTH sides until the higher side has max_winner_games (6) games.
+
+    Any set that went beyond max_winner_games (7-5, 7-6, 8-6, 9-7, ...) resolves
+    to max_winner_games - resolved_loser_games (6-4) for the winner, regardless of
+    how long a tiebreak lasted (Director answer, 2026-08-19).
 
     Orientation is preserved (the higher side stays on its original side) so the
     caller can assign points to the correct player.
@@ -76,6 +95,11 @@ def normalize_set(a: int, b: int) -> Tuple[int, int]:
     na, nb = a - dec, b - dec
     if na < 0 or nb < 0:
         raise RatingError(f"set score cannot normalise to {MAX_WINNER_GAMES} games: {a}-{b}")
+    if dec > 0:  # set went beyond max_winner_games -> winner resolves to 6-4
+        if na > nb:
+            na, nb = MAX_WINNER_GAMES, RESOLVED_LOSER_GAMES
+        else:
+            nb, na = MAX_WINNER_GAMES, RESOLVED_LOSER_GAMES
     return na, nb
 
 
@@ -85,8 +109,8 @@ class SetRating:
     games_b: int
     points_a: int
     points_b: int
-    tier_a: str
-    tier_b: str
+    section_a: str
+    section_b: str
 
 
 @dataclass
@@ -121,8 +145,8 @@ def rate_sets(sets: List[Tuple[int, int]]) -> RatingResult:
                 games_b=nb,
                 points_a=pa,
                 points_b=pb,
-                tier_a=tier_for_games(na),
-                tier_b=tier_for_games(nb),
+                section_a=section_for_games(na),
+                section_b=section_for_games(nb),
             )
         )
     return RatingResult(total_a=total_a, total_b=total_b, sets=rated)
