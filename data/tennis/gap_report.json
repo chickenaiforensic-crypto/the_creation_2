@@ -725,6 +725,90 @@
       "file_path": "editions/Monastir/2024.json",
       "status": "closed",
       "resolution": "Tennis Explorer Monastir WTA 2024: 14.09 18:30 SF Kartal d. Lys 5-1, S 1-0 = Lys retired at 5-1 in set 1 (match id 2722059). Corroborated by bracket: Kartal appears in the final (d. Sramkova, Wikipedia 2024 Jasmin Open infobox). Added row: Sonay Kartal d. Eva Lys 5-1 (retired), date 2024-09-14. Source: https://www.tennisexplorer.com/monastir/2024/wta-women/"
+    },
+    {
+      "tournament": "Metz",
+      "tour": "ATP",
+      "year": "2022",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Nikoloz Basilashvili",
+      "gap_id": "MZ001",
+      "folder": "Metz",
+      "file_path": "editions/Metz/2022.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Metz 2022: 20.09 13:55 1R Basilashvili (5) d. Bergs 4-6 1-2, S 1-0 = Bergs retired while LEADING 6-4 2-1 (match id 2198344; TE draw list '4-6, 1-2'). Corroborated: sport365.fr/sports.fr 2022-09-20 - Bergs led 6-4 2-1 30-40 when a violent left-hip pain stopped him; tried to continue, could no longer serve; Tennis TV 'Bergs is forced to retire in his match vs Basilashvili'. Added row: Nikoloz Basilashvili d. Zizou Bergs 4-6 1-2 (retired), date 2022-09-20. Source: https://www.tennisexplorer.com/metz/2022/atp-men/"
+    },
+    {
+      "tournament": "Metz",
+      "tour": "ATP",
+      "year": "2022",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Holger Rune",
+      "gap_id": "MZ002",
+      "folder": "Metz",
+      "file_path": "editions/Metz/2022.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Metz 2022: 22.09 20:55 R16 Rune (4) d. Bonzi 6-4 4-1, S 1-0 = Bonzi retired in set 2 (match id 2199590; TE draw list '6-4, 4-1'). Added row: Holger Rune d. Benjamin Bonzi 6-4 4-1 (retired), date 2022-09-22. Source: https://www.tennisexplorer.com/metz/2022/atp-men/"
+    },
+    {
+      "tournament": "Metz",
+      "tour": "ATP",
+      "year": "2022",
+      "missing_round": "SF",
+      "player_no_traceable_win": "Alexander Bublik",
+      "gap_id": "MZ003",
+      "folder": "Metz",
+      "file_path": "editions/Metz/2022.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Metz 2022: 24.09 16:05 SF Bublik (7) d. Wawrinka 2-1, S 1-0 = Wawrinka retired at 1-2 in set 1 (match id 2200492). Added row: Alexander Bublik d. Stan Wawrinka 2-1 (retired), date 2022-09-24. Source: https://www.tennisexplorer.com/metz/2022/atp-men/"
+    },
+    {
+      "tournament": "Metz",
+      "tour": "ATP",
+      "year": "2023",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Luca Van Assche",
+      "gap_id": "MZ004",
+      "folder": "Metz",
+      "file_path": "editions/Metz/2023.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Metz 2023: 08.11 18:55 R16 Van Assche d. Wawrinka (8) 3-6 7-6(6), S 1-0 = Wawrinka retired after set 2 (match id 2495945). Corroborated: Wikipedia 2023 Moselle Open seeds list - Wawrinka '(second round, retired)'. Added row: Luca Van Assche d. Stan Wawrinka 3-6 7-6(6) (retired), date 2023-11-08. Source: https://www.tennisexplorer.com/metz/2023/atp-men/"
+    },
+    {
+      "tournament": "Metz",
+      "tour": "ATP",
+      "year": "2024",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Corentin Moutet",
+      "gap_id": "MZ005",
+      "folder": "Metz",
+      "file_path": "editions/Metz/2024.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Metz 2024: 03.11 15:05 1R Moutet d. Nagal 7-5 4-0, S 1-0 = Nagal retired in set 2 (match id 2760551; TE draw list '7-5, 4-0'). Added row: Corentin Moutet d. Sumit Nagal 7-5 4-0 (retired), date 2024-11-03. Source: https://www.tennisexplorer.com/metz/2024/atp-men/"
+    },
+    {
+      "tournament": "Metz",
+      "tour": "ATP",
+      "year": "2024",
+      "missing_round": "QF",
+      "player_no_traceable_win": "Corentin Moutet",
+      "gap_id": "MZ006",
+      "folder": "Metz",
+      "file_path": "editions/Metz/2024.json",
+      "status": "closed",
+      "resolution": "Walkover confirmed by named sources (ATP Tour official: abdominal pain; TE S 1-0 blank). Added row: Corentin Moutet d. Andrey Rublev W/O, date 2024-11-07. Source: https://www.atptour.com/en/news/rublev-metz-2024-monday"
+    },
+    {
+      "tournament": "Metz",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Daniel Altmaier",
+      "gap_id": "MZ007",
+      "folder": "Metz",
+      "file_path": "editions/Metz/2025.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Metz 2025: 05.11 16:05 R16 Altmaier d. Gaston 4-6 6-0 0-0, S 1-0 = Gaston retired at 0-0 in set 3 (match id 3066628). Added row: Daniel Altmaier d. Hugo Gaston 4-6 6-0 0-0 (retired), date 2025-11-05. Source: https://www.tennisexplorer.com/metz/2025/atp-men/"
     }
   ],
   "gaps_closed": 18,
@@ -735,5 +819,6 @@
   "cleveland_dubai_closure_note": "T-010 (2026-08-19, Auditor 1, user authorization 'Permission to resolve all gaps approved'): 8/8 Cleveland WTA 250 gaps FIXED (4 retirements + 4 walkovers, named sources per row) + Dubai ATP 2021 closed: 1 real gap fixed (Jaziri d. Tsonga ret.) and 2 suspected gaps RESOLVED AS BYES per Wikipedia draw (falsehood correction: earlier reports said '3 missing R64 rows'; byte+source analysis shows the true number was 1). Draw sizes Wikipedia-confirmed for all 6 touched editions. 0 known gaps remain in the branch.",
   "us_open_atp_note": "T-012 (2026-08-19, Auditor 1): US Open ATP 2021-2025 pulled from claude_1 a280b2fb after T-011 audit found ZERO gaps (5x127/127, exhaustive spine; retirements/walkovers present as rows - dropped-row pipeline defect absent in this slice). No gap entries needed. Errors fixed at pull: 4 'J.J. Wolf' rows renamed 'Jeffrey Wolf' (Rule 1, HANDOFF-07 A2.2, precedent ddb6019) with per-row name_fix provenance. Known declared limitation carried as-is per no-imputation policy: 10 bare-tiebreak rows (9 restored-QF + 2022 R128 Moutet-Wawrinka) - TB digits unknown, never imputed.",
   "us_open_wta_note": "T-014 (2026-08-19, Auditor 1, user approval): US Open WTA 2021-2025 pulled from claude_1 a280b2fb after T-013 audit found ZERO gaps and ZERO errors - no modifications required. Declared limitation carried per no-imputation policy: 6 bare-tiebreak rows (5 restored-QF + 2022 R128 Davis-Bronzetti ret.). All 5 walkovers wire-corroborated in T-013.",
-  "monastir_closure_note": "T-016 (2026-08-19, Auditor 1, standing audit->fix order): 3/3 Monastir WTA 250 gaps FIXED - all retirements (incl. MO003, a dropped SEMIFINAL); draw sizes Wikipedia-confirmed x3; coverage boundary documented: event existed 2022-2024 only. Dropped-row signature held for the 5th consecutive audited event."
+  "monastir_closure_note": "T-016 (2026-08-19, Auditor 1, standing audit->fix order): 3/3 Monastir WTA 250 gaps FIXED - all retirements (incl. MO003, a dropped SEMIFINAL); draw sizes Wikipedia-confirmed x3; coverage boundary documented: event existed 2022-2024 only. Dropped-row signature held for the 5th consecutive audited event.",
+  "metz_closure_note": "T-017 (2026-08-19, Auditor 1, standing audit->fix order): 7/7 Metz ATP 250 gaps FIXED - 6 retirements + 1 walkover (Rublev abdominal pain, ATP official), incl. MZ001 where the retiring player was LEADING (Bergs 6-4 2-1 up, left-hip injury - TE + sport365/sports.fr double-sourced) and MZ003 a dropped SEMIFINAL (Bublik d. Wawrinka 2-1 ret.). 2021 complete on pull. Draw 28 confirmed per edition (Wikipedia infobox x3 + TE bracket x2); non-standard bye reassignments (LL/Q into vacated slots, 2024/2025) documented - byes carry no rows. Dropped-row signature held for the 6th consecutive audited event."
 }

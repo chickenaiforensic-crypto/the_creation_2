@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 48,
+  "total_editions": 53,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -624,6 +624,71 @@
       "match_count": 31,
       "checksum_sha256": "71d5534b07d1365116f1deeaf18aaa18ede8d8d09d1279dab6a80d0d571dfb6d",
       "file_path": "editions/Monastir/2024.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Metz",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2021",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2021 Moselle Open - Singles infobox: Draw 28 (4Q/3WC), Seeds 8, top-4 byes",
+      "match_count": 27,
+      "checksum_sha256": "c64843aaf5c35a8e00a92176e5e9352c833308a688ab336c95a9e6f8eff385a4",
+      "file_path": "editions/Metz/2021.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Metz",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2022",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "TE 2022 bracket byte-read: 32 slots, 4 byes (seeds 1-4 Medvedev/Hurkacz/Musetti/Rune) = draw 28",
+      "match_count": 27,
+      "checksum_sha256": "9679cb0fd266bb5b91f9b108934975d3d651c027201c3635c437fb37fde0bd3b",
+      "file_path": "editions/Metz/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Metz",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2023",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2023 Moselle Open - Singles infobox: Draw 28 (4Q/3WC), Seeds 8, top-4 byes (Rune/de Minaur withdrew pre-event; bye slots reassigned - census byes Bublik/Brouwer/Khachanov/Humbert)",
+      "match_count": 27,
+      "checksum_sha256": "8937936c32732efb2d244c5ecfa2ebb5ab297a558485863d192f435cba56308c",
+      "file_path": "editions/Metz/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Metz",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2024",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "TE 2024 bracket byte-read: 32 slots, 4 byes (Rublev, Ruud + Van Assche LL and De Jong Q in vacated bye slots) = draw 28",
+      "match_count": 27,
+      "checksum_sha256": "47ce01632423d32cdf0a2ec29b9d35a66b2bf6d105d57f377f28a3f2559d33ea",
+      "file_path": "editions/Metz/2024.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Metz",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2025",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2025 Moselle Open - Singles infobox: Draw 28 (4Q/3WC), Seeds 8, top-4 byes (FAA/Medvedev/Griekspoor withdrew; census byes Bublik/Cobolli + Added/Echargui in vacated slots)",
+      "match_count": 27,
+      "checksum_sha256": "dea82a765af7b074732fad6a332cda03ede5b4919182b16edd0e701b801376cb",
+      "file_path": "editions/Metz/2025.json",
       "gap_count": 0
     }
   ],
