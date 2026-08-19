@@ -7,4 +7,4 @@ Round coverage: R32(16) R16(8) QF(4) SF(2) F(1)
 Champion: Matteo Berrettini
 Runner-up: Cameron Norrie
 Source: Wikipedia 2021 Queen's Club Championships infobox + singles page cross-check
-Checksum: b104ae864672... (full value in MANIFEST.json)
+Checksum: 48ff3f413983... (full value in MANIFEST.json)

@@ -7,4 +7,4 @@ Round coverage: R32(16) R16(8) QF(4) SF(2) F(1)
 Champion: Jannik Sinner
 Runner-up: Hubert Hurkacz
 Source: Wikipedia 2024 Halle Open infobox
-Checksum: efda66cd57e9... (full value in MANIFEST.json)
+Checksum: 2f2f962490a1... (full value in MANIFEST.json)

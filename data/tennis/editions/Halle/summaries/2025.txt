@@ -7,4 +7,4 @@ Round coverage: R32(16) R16(8) QF(4) SF(2) F(1)
 Champion: Alexander Bublik
 Runner-up: Daniil Medvedev
 Source: Wikipedia 2025 Halle Open infobox
-Checksum: a3cf7b41e368... (full value in MANIFEST.json)
+Checksum: a836ad9b0036... (full value in MANIFEST.json)

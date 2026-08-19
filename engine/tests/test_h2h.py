@@ -103,7 +103,7 @@ class TestTournamentContext(unittest.TestCase):
         from sport_engine.compute.selection import Filters
 
         r = run_h2h(filters=Filters(tournaments=["Cincinnati Masters", "Dubai"]))
-        self.assertEqual(r["summary"]["matches_selected"], 315 + 168)
+        self.assertEqual(r["summary"]["matches_selected"], 315 + 169)  # Dubai 2021-25
         tournaments = {t["tournament"] for m in r["matches"] for t in [m]}
         self.assertEqual(tournaments, {"Cincinnati Masters", "Dubai"})
         # a player who appears in both tournaments carries both contexts

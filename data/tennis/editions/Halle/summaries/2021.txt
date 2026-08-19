@@ -7,4 +7,4 @@ Round coverage: R32(16) R16(8) QF(4) SF(2) F(1)
 Champion: Ugo Humbert
 Runner-up: Andrey Rublev
 Source: Wikipedia 2021 Halle Open infobox + singles page cross-check
-Checksum: 638eda0160d1... (full value in MANIFEST.json)
+Checksum: 77622c079472... (full value in MANIFEST.json)

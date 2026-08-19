@@ -7,4 +7,4 @@ Round coverage: R32(16) R16(8) QF(4) SF(2) F(1)
 Champion: Daniil Medvedev
 Runner-up: Jannik Sinner
 Source: Wikipedia 2023 ABN AMRO Open infobox
-Checksum: f235253f06eb... (full value in MANIFEST.json)
+Checksum: 60e40c1eafd7... (full value in MANIFEST.json)

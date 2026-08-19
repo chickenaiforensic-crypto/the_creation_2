@@ -7,4 +7,4 @@ Round coverage: R32(16) R16(8) QF(4) SF(2) F(1)
 Champion: Carlos Alcaraz
 Runner-up: Alex de Minaur
 Source: Wikipedia 2023 Queen's Club Championships infobox
-Checksum: 117d6776c724... (full value in MANIFEST.json)
+Checksum: 3e2f2e20514f... (full value in MANIFEST.json)

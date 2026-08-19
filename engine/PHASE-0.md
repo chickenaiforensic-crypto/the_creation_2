@@ -45,12 +45,17 @@ resolves to `6-4` → totals 20 / 8 → rating `+12 / −12`.
 
 ### 2.1 Data
 
-- **Source:** `data/tennis/` pulled verbatim from `arena/01a015bb-the-creation-2`
-  (commit `f61b11b`): 30 editions (Rotterdam, Dubai, Halle, Queen's Club, Cincinnati,
-  Cincinnati Masters × 2021–2025) + `MANIFEST.json` + `DATA-RULES.md` + summaries.
-- **Verified on pull (read-only):** 30/30 manifest entries — SHA-256 checksums and
+- **Source:** `data/tennis/` pulled from `arena/01a015bb-the-creation-2` (tip
+  `d8b951f`): **53 fully-audited editions across 11 tournaments** — Cincinnati (WTA
+  M1000), Cincinnati Masters (ATP M1000), Cleveland (WTA 250), Dubai (ATP 500),
+  Halle (ATP 500), Metz (ATP 250), Monastir (WTA 250), Queen's Club (ATP 500),
+  Rotterdam (ATP 500), US Open (ATP GS), US Open WTA (WTA GS), 2021–2025 — +
+  `MANIFEST.json` + `DATA-RULES.md` + per-edition `.txt` summaries. (The source
+  branch also carries Tokyo ATP/WTA — 8 editions, 232 rows — not in the Director's
+  completed-data list; not pulled.)
+- **Verified on pull (read-only):** 53/53 manifest entries — SHA-256 checksums and
   match counts match the files, **0 errors**; master store `count == len(matches)`
-  (1,263); all 30 per-edition `.txt` summaries present.
+  (2,917); all 53 per-edition `.txt` summaries present; `build.py` runs clean.
 - **Branch scope is 2021–2025 only.** No 2026 or unplayed events are treated as gaps.
 - **Feed (config `compute.json`):** for now the engine is fed **Cincinnati Masters
   only** — 5 editions, 315 matches.
@@ -90,7 +95,7 @@ output with their reason — never guessed or imputed. The full register of ever
 non-rateable / missing-data row is in `data/tennis/DATA-INACCURACIES.md` (single
 file): 58 void matches (47 retired, 10 walkover, 1 defaulted) + 114 completed rows
 with the optional `duration_min` absent (optional field, not required by the schema).
-The data is gapless: 30/30 editions `closed_verified_gapless`, `gap_count 0`.
+The data is gapless: 53/53 editions `closed_verified_gapless`, `gap_count 0`.
 
 ### 2.4 Results — Cincinnati Masters 2021–2025 (engine output)
 
@@ -132,7 +137,7 @@ tests, and documentation were removed from the branch.
 - **Tests:** `cd engine && python3 -m unittest discover -s tests` → **41 tests green**
   (phase 0 math, adapter, compute, config, ratings table; fixtures in
   `config/test_data.json`, data-driven, no literals).
-- **Data integrity:** `MANIFEST.json` — 30 editions, 0 checksum/count errors.
+- **Data integrity:** `MANIFEST.json` — 53 editions, 0 checksum/count errors.
 - **Independent recomputation:** Sinner 2021 = +8, Sinner 2021–2024 = +34, full
   2021 leaderboard, per-year ratings — all re-derived with a separate plain-python
   implementation of the spec; identical results.

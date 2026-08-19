@@ -4,9 +4,9 @@
  "tier": "ATP500",
  "year": "2021",
  "draw_size": 48,
- "status": "closed_verified",
- "source": "Wikipedia 2021 Dubai Tennis Championships infobox",
- "match_count": 44,
+ "status": "closed_verified_gapless",
+ "source": "Wikipedia 2021 Dubai Tennis Championships infobox | T-010: R64 completeness resolved via Wikipedia 2021 Dubai Men's singles draw - Draw 48 (6Q/4WC) nominal, 18 byes (16 seed byes with Wawrinka/Coric withdrawn and Sonego/Giustino moved into bye slots, + Basilashvili and Ebden byes as Doha/Marseille semifinalists), 46 players => 14 R64 matches, 45 total rows; Jaziri d. Tsonga (ret.) added as the single missing row; Basilashvili/Ebden/Giustino advances are byes, not walkovers - no rows.",
+ "match_count": 45,
  "matches": [
   {
    "date": "2021-03-14",
@@ -421,6 +421,39 @@
     "date_source_row": null,
     "anchor_date_withdrawn_store": "2021-03-15",
     "td_round": "R1"
+   },
+   "edition_year": "2021"
+  },
+  {
+   "date": "2021-03-14",
+   "tournament": "Dubai",
+   "tier": "ATP500",
+   "round": "R64",
+   "surface": "Hard",
+   "indoor": false,
+   "tour": "ATP",
+   "playerA": "Malek Jaziri",
+   "playerB": "Jo-Wilfried Tsonga",
+   "setsA": 0,
+   "setsB": 0,
+   "gamesA": 3,
+   "gamesB": 3,
+   "score": "3-3",
+   "bestOf": 3,
+   "duration_min": "",
+   "retired": true,
+   "walkover": false,
+   "source": "https://www.tennisexplorer.com/dubai/2021/atp-men/",
+   "status": "retired",
+   "defaulted": false,
+   "winner": "A",
+   "provenance": {
+    "raw_source": "Tennis Explorer Dubai 2021 ATP: 14.03 16:10 1R Jaziri (WC) d. Tsonga 3-3, S 1-0 = Tsonga retired at 3-3 in set 1 (match id 1928690); corroborated: ExpatMedia 2021-03-17 'Tsonga sustained a right arm injury as the match was intriguingly poised at 3-3 in the opening set' + Wikipedia Jo-Wilfried Tsonga career section ('sustained an arm injury in his first round match against Malek Jaziri and retired after just six games'). Source URL: https://www.tennisexplorer.com/dubai/2021/atp-men/",
+    "capture_agent": "Auditor 1 - arena/01a015bb-the-creation-2",
+    "capture_date": "2026-08-19",
+    "ssot_write": true,
+    "note": "T-010 gap fix; DXB001. Edition bye structure per Wikipedia 2021 Dubai Men's singles: 16 seed byes (Wawrinka 7/Coric 10 withdrew; Sonego 17 + Giustino LL into bye slots) + extra byes to Doha/Marseille semifinalists Basilashvili and Ebden = 18 byes, 46 players, 14 R64 matches; complete edition = 45 rows.",
+    "merge": "T-010-CLEVELAND-DUBAI-FIX-2026-08-19"
    },
    "edition_year": "2021"
   },

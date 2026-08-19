@@ -7,4 +7,4 @@ Round coverage: R32(16) R16(8) QF(4) SF(2) F(1)
 Champion: Jannik Sinner
 Runner-up: Alex de Minaur
 Source: Wikipedia 2024 ABN AMRO Open infobox
-Checksum: 82438a24498a... (full value in MANIFEST.json)
+Checksum: d3c7c0558673... (full value in MANIFEST.json)

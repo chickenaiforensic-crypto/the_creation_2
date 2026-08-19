@@ -7,4 +7,4 @@ Round coverage: R32(16) R16(8) QF(4) SF(2) F(1)
 Champion: Hubert Hurkacz
 Runner-up: Daniil Medvedev
 Source: Wikipedia 2022 Halle Open infobox
-Checksum: bd5dac076ad2... (full value in MANIFEST.json)
+Checksum: cf8075893edc... (full value in MANIFEST.json)
