@@ -121,9 +121,12 @@ Results (all years): engine/reports/score_calibrator_report.md — regenerate vi
 3rd −6.5; Rublev 18→24.5, Medvedev 40→33.5). 2025 void final: 1st/2nd regions
 merged, champion and runner-up both calibrate to 61.0.
 
-Known property (honest): regional constants reorder regions, not individuals —
-a few per-player cross-region pairs remain misordered each year (mean accuracy
-94.24% vs target 90%; 2022 trades +1 pair to fix the 2nd/3rd region means).
+**Resolved — calibrator achievements:** regional constants reorder regions
+(matching the leaderboard hierarchy), mean calibrated accuracy **94.24% vs 90%
+target** (2021: 94.98%, 2022: 95.07%, 2023: 95.22%, 2024: 94.10%, 2025: 91.85%);
+2021 hand-verified; the 2022 2nd/3rd region-mean inversion was fixed (+1 pair
+traded, 95.07% still ≥ target); 2025 void final resolved by merging 1st/2nd
+regions (champion and runner-up both calibrate to 61.0).
 
 ## Phase 0 — match rating (Director spec, 2026-08-19)
 
@@ -163,12 +166,16 @@ Sets `6-2`, `6-4`:
 Tiebreak set example (Director answer): sets `6-4`, `7-6` — the `7-6` set resolves
 to `6-4` (winner 10 pts, loser 4 pts), so totals are 20 / 8, rating `+12 / -12`.
 
-## Open questions — answered (Director, 2026-08-19)
+## Resolved — Phase 0 (Director answers + fixes)
 
-1. `7-6` tiebreak sets: **answered** — they resolve to `6-4` for the winner (never
-   `6-5`), regardless of how long a tiebreak lasted.
-2. `1x / 2x / 3x / 4x`: **answered** — they are section identifiers of the score,
-   **not multipliers**. They are recorded per set but never applied as multipliers.
+1. `7-6` tiebreak sets: **resolved** — they resolve to `6-4` for the winner (never
+   `6-5`), regardless of how long a tiebreak lasted (Director answer, `561cd03`).
+2. `1x / 2x / 3x / 4x`: **resolved** — section identifiers of the score, **not
+   multipliers**; recorded per set, never applied as multipliers (Director answer,
+   `561cd03`).
+3. Orientation bug: **fixed** — B-won sets were briefly credited to A (orientation
+   loss in normalisation); found via real data, fixed with regression test
+   (`39ab1e6`).
 
 ## Integrity rules (engine side)
 
