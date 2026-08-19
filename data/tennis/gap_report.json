@@ -1,10 +1,10 @@
 {
   "description": "Gap report for the 20 closed_verified tennis editions migrated to this branch. Produced via round-transition ghost detection (R32-onward, byefree per validated M1000 method in phase1-audit/WORKORDER_Phase1_DrawSize_Gap_Audit.md Phase 1B). A gap = a player appearing in round N+1 with no traceable win recorded in round N within the same edition file.",
   "method": "For each edition, for each transition in [R32->R16, R16->QF, QF->SF, SF->F]: collect all playerA/playerB in round N+1; collect all winners (resolved via winner field + playerA/playerB) in round N; any round-N+1 participant absent from round-N winners is a gap. R64->R32 excluded uniformly (bye-affected at this draw depth, not a genuine gap) per the same exclusion applied to M1000 in Phase 1B.",
-  "editions_checked": 20,
-  "editions_clean": 20,
+  "editions_checked": 53,
+  "editions_clean": 53,
   "editions_with_gaps": 0,
-  "total_gap_instances": 18,
+  "total_gap_instances": 67,
   "gaps": [
     {
       "tournament": "Rotterdam",
@@ -811,7 +811,7 @@
       "resolution": "Tennis Explorer Metz 2025: 05.11 16:05 R16 Altmaier d. Gaston 4-6 6-0 0-0, S 1-0 = Gaston retired at 0-0 in set 3 (match id 3066628). Added row: Daniel Altmaier d. Hugo Gaston 4-6 6-0 0-0 (retired), date 2025-11-05. Source: https://www.tennisexplorer.com/metz/2025/atp-men/"
     }
   ],
-  "gaps_closed": 18,
+  "gaps_closed": 67,
   "gaps_open": 0,
   "closure_note": "All 18 gaps closed 2026-08-19 (T-005, Auditor 1, arena/01a015bb-the-creation-2). Every gap proved to be a RETIREMENT match absent from the migration source - consistent with the store-wide M-1/retirement-exclusion pattern documented in T-002. Per-gap resolution fields below; no result was inferred, every row carries a named checkable source.",
   "cincinnati_wta_closure_note": "T-007 (2026-08-19, Auditor 1): 15/15 Cincinnati WTA gaps FIXED per HANDOFF-07+A1+A2 - 8 retirements + 7 walkovers, all with named checkable sources; pulled from claude_1 store a280b2fb; per-year gap check green before closed_verified_gapless.",
@@ -820,5 +820,6 @@
   "us_open_atp_note": "T-012 (2026-08-19, Auditor 1): US Open ATP 2021-2025 pulled from claude_1 a280b2fb after T-011 audit found ZERO gaps (5x127/127, exhaustive spine; retirements/walkovers present as rows - dropped-row pipeline defect absent in this slice). No gap entries needed. Errors fixed at pull: 4 'J.J. Wolf' rows renamed 'Jeffrey Wolf' (Rule 1, HANDOFF-07 A2.2, precedent ddb6019) with per-row name_fix provenance. Known declared limitation carried as-is per no-imputation policy: 10 bare-tiebreak rows (9 restored-QF + 2022 R128 Moutet-Wawrinka) - TB digits unknown, never imputed.",
   "us_open_wta_note": "T-014 (2026-08-19, Auditor 1, user approval): US Open WTA 2021-2025 pulled from claude_1 a280b2fb after T-013 audit found ZERO gaps and ZERO errors - no modifications required. Declared limitation carried per no-imputation policy: 6 bare-tiebreak rows (5 restored-QF + 2022 R128 Davis-Bronzetti ret.). All 5 walkovers wire-corroborated in T-013.",
   "monastir_closure_note": "T-016 (2026-08-19, Auditor 1, standing audit->fix order): 3/3 Monastir WTA 250 gaps FIXED - all retirements (incl. MO003, a dropped SEMIFINAL); draw sizes Wikipedia-confirmed x3; coverage boundary documented: event existed 2022-2024 only. Dropped-row signature held for the 5th consecutive audited event.",
-  "metz_closure_note": "T-017 (2026-08-19, Auditor 1, standing audit->fix order): 7/7 Metz ATP 250 gaps FIXED - 6 retirements + 1 walkover (Rublev abdominal pain, ATP official), incl. MZ001 where the retiring player was LEADING (Bergs 6-4 2-1 up, left-hip injury - TE + sport365/sports.fr double-sourced) and MZ003 a dropped SEMIFINAL (Bublik d. Wawrinka 2-1 ret.). 2021 complete on pull. Draw 28 confirmed per edition (Wikipedia infobox x3 + TE bracket x2); non-standard bye reassignments (LL/Q into vacated slots, 2024/2025) documented - byes carry no rows. Dropped-row signature held for the 6th consecutive audited event."
+  "metz_closure_note": "T-017 (2026-08-19, Auditor 1, standing audit->fix order): 7/7 Metz ATP 250 gaps FIXED - 6 retirements + 1 walkover (Rublev abdominal pain, ATP official), incl. MZ001 where the retiring player was LEADING (Bergs 6-4 2-1 up, left-hip injury - TE + sport365/sports.fr double-sourced) and MZ003 a dropped SEMIFINAL (Bublik d. Wawrinka 2-1 ret.). 2021 complete on pull. Draw 28 confirmed per edition (Wikipedia infobox x3 + TE bracket x2); non-standard bye reassignments (LL/Q into vacated slots, 2024/2025) documented - byes carry no rows. Dropped-row signature held for the 6th consecutive audited event.",
+  "counter_note": "T-018 (2026-08-19, Auditor 1): header counters updated to cumulative program truth - previously stale at the original T-005 method-run values (20 checked / 18 instances) while the body had grown to 67 entries across T-005/007/008/010/016/017. Current: 53 editions in branch, all clean; 67 gap instances found across the program, 67 closed, 0 open. Correction also recorded: T-007 Cincinnati WTA prose said '8 retirements + 7 walkovers'; byte truth of rows C001-C015 is 7 retirements + 8 walkovers (rows were always correct; the prose label was transposed)."
 }
