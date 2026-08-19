@@ -72,11 +72,14 @@ def ui_manifest() -> dict:
     return {
         "app": ui["app"],
         "sports": ui["sports"],
+        "tabs": ui["tabs"],
         "entity_labels": ui["entity_labels"],
+        "matchup_selector": ui["matchup_selector"],
         "development_lock": sports_cfg["development_lock"],
         "prediction_vector": {
             "placeholder_label": ui["prediction_vector"]["placeholder_label"],
             "zeroed_state_text": ui["prediction_vector"]["zeroed_state_text"],
+            "vs_label": ui["prediction_vector"]["vs_label"],
             "state": "zeroed",
             "pA": None,
             "pB": None,
@@ -84,8 +87,19 @@ def ui_manifest() -> dict:
         "system_rating_label": ui["system_rating_label"],
         "h2h_ui": ui["h2h"],
         "mute_ui": ui["mute"],
+        "placeholders": ui["placeholders"],
         "options": options,
         "feed": {"tournaments": list(feed_filters.tournaments)},
+        "configurations": {
+            "system_configurations_label": ui["tabs"]["system_configurations_label"],
+            "engine_parameters_label": ui["tabs"]["engine_parameters_label"],
+            "engine_parameters": {
+                "points_per_game_difference": load_config("h2h")["points_per_game_difference"],
+                "feed_tournaments": list(feed_filters.tournaments),
+                "development_lock_rule": sports_cfg["development_lock"]["rule"],
+                "sports_exposed": sports_cfg["development_lock"]["exposed_sports"],
+            },
+        },
     }
 
 

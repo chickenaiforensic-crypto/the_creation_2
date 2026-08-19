@@ -4,27 +4,56 @@
     "name": "Sport Engine",
     "slogan": "Data-driven sports analytics"
   },
+  "tabs": {
+    "dashboard": "Dashboard",
+    "configurations": "Configurations",
+    "system_configurations_label": "System configurations",
+    "engine_parameters_label": "Engine parameters"
+  },
   "sports": ["Tennis", "Football"],
   "entity_labels": {
     "Tennis": {"a_label": "Player A", "b_label": "Player B"},
     "Football": {"a_label": "Team A", "team_label": "Team B"}
   },
+  "matchup_selector": {
+    "select_prefix": "— select",
+    "swap_label": "Swap",
+    "swap_title": "Swap A and B"
+  },
   "prediction_vector": {
     "placeholder_label": "Prediction Vector",
-    "zeroed_state_text": "Computing predictive balance — awaiting predictive module"
+    "zeroed_state_text": "Computing predictive balance — awaiting predictive module",
+    "vs_label": "vs"
   },
   "system_rating_label": "System Rating",
   "h2h": {
     "title": "H2H Analysis",
     "summary_label": "Net H2H balance",
     "drilldown_icon_label": "Open H2H drill-down",
+    "drilldown_button_label": "H2H drill-down",
     "date_boundary_label": "From date",
     "score_sheet_title": "H2H encounters (chronological)",
-    "no_data_text": "No H2H encounters in the selected date boundary"
+    "no_data_text": "No H2H encounters in the selected date boundary",
+    "columns": {
+      "date": "Date",
+      "player_a": "Player A",
+      "player_b": "Player B",
+      "score": "Score",
+      "h2h_a": "H2H A",
+      "h2h_b": "H2H B",
+      "winner": "Winner"
+    }
   },
   "mute": {
     "label": "Mute",
     "mute_years_label": "Mute years",
-    "mute_tournaments_label": "Mute tournaments"
+    "mute_tournaments_label": "Mute tournaments",
+    "mute_tours_label": "Mute tours"
+  },
+  "placeholders": {
+    "select_sport": "Select a sport to begin.",
+    "select_players_rating": "Select two players to see system ratings.",
+    "select_players_h2h": "Select two players to see H2H.",
+    "load_failed_prefix": "Failed to load UI manifest: "
   }
 }
