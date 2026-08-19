@@ -18,6 +18,7 @@ class Filters:
     years: Tuple[str, ...] = ()
     players: Tuple[str, ...] = ()
     tiers: Tuple[str, ...] = ()
+    tours: Tuple[str, ...] = ()
 
     def __init__(
         self,
@@ -25,11 +26,13 @@ class Filters:
         years: Iterable[str] = (),
         players: Iterable[str] = (),
         tiers: Iterable[str] = (),
+        tours: Iterable[str] = (),
     ):
         object.__setattr__(self, "tournaments", tuple(tournaments))
         object.__setattr__(self, "years", tuple(years))
         object.__setattr__(self, "players", tuple(players))
         object.__setattr__(self, "tiers", tuple(tiers))
+        object.__setattr__(self, "tours", tuple(tours))
 
     @classmethod
     def from_config(cls, cfg: Mapping) -> "Filters":
@@ -38,6 +41,7 @@ class Filters:
             years=cfg.get("years", ()),
             players=cfg.get("players", ()),
             tiers=cfg.get("tiers", ()),
+            tours=cfg.get("tours", ()),
         )
 
     def allows(self, match: Mapping, field_names: Mapping) -> bool:
@@ -48,6 +52,8 @@ class Filters:
         if self.years and match.get(field_names["edition_year"]) not in self.years:
             return False
         if self.tiers and match.get(field_names["tier"]) not in self.tiers:
+            return False
+        if self.tours and match.get(field_names["tour"]) not in self.tours:
             return False
         if self.players:
             pair = (match.get(field_names["player_a"]), match.get(field_names["player_b"]))
@@ -61,6 +67,7 @@ class Filters:
             "years": list(self.years),
             "players": list(self.players),
             "tiers": list(self.tiers),
+            "tours": list(self.tours),
         }
 
 

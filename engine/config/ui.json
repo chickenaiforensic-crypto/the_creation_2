@@ -1,0 +1,30 @@
+{
+  "description": "SaaS UI presentation layer config — every label, list, and default in the UI comes from this file, never from code (zero-hardcoding).",
+  "app": {
+    "name": "Sport Engine",
+    "slogan": "Data-driven sports analytics"
+  },
+  "sports": ["Tennis", "Football"],
+  "entity_labels": {
+    "Tennis": {"a_label": "Player A", "b_label": "Player B"},
+    "Football": {"a_label": "Team A", "team_label": "Team B"}
+  },
+  "prediction_vector": {
+    "placeholder_label": "Prediction Vector",
+    "zeroed_state_text": "Computing predictive balance — awaiting predictive module"
+  },
+  "system_rating_label": "System Rating",
+  "h2h": {
+    "title": "H2H Analysis",
+    "summary_label": "Net H2H balance",
+    "drilldown_icon_label": "Open H2H drill-down",
+    "date_boundary_label": "From date",
+    "score_sheet_title": "H2H encounters (chronological)",
+    "no_data_text": "No H2H encounters in the selected date boundary"
+  },
+  "mute": {
+    "label": "Mute",
+    "mute_years_label": "Mute years",
+    "mute_tournaments_label": "Mute tournaments"
+  }
+}

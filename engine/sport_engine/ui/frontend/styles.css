@@ -1,0 +1,59 @@
+/* Sport Engine SaaS UI — styling. Structure only; all labels/options come from
+   the /api/ui manifest (zero-hardcoding: no text in this file). */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0e1420; --panel: #1a2233; --panel2: #232d42; --border: #2e3a52;
+  --text: #e8edf5; --muted: #93a1b8; --accent: #4f8cff; --accent2: #7c5cff;
+  --green: #3ddc84; --red: #ff5c6c; --radius: 12px;
+}
+body { background: var(--bg); color: var(--text); font-family: "Segoe UI", system-ui, sans-serif; min-height: 100vh; }
+#app { max-width: 1200px; margin: 0 auto; padding: 24px; }
+
+header.app-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
+header.app-header h1 { font-size: 22px; letter-spacing: 0.5px; }
+header.app-header p { color: var(--muted); font-size: 13px; }
+
+.sports-bar { display: flex; gap: 10px; margin-bottom: 20px; }
+.sports-bar button { background: var(--panel); color: var(--text); border: 1px solid var(--border); padding: 10px 22px; border-radius: 10px; font-size: 15px; cursor: pointer; }
+.sports-bar button.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.sports-bar button:disabled { opacity: 0.45; cursor: not-allowed; }
+.dev-lock { margin-left: auto; font-size: 12px; color: var(--muted); background: var(--panel); border: 1px solid var(--border); padding: 8px 12px; border-radius: 8px; }
+
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+
+.panel { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+.panel h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--muted); margin-bottom: 14px; }
+.panel .row { margin-bottom: 12px; }
+.panel .row label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 5px; }
+
+select, input[type="date"] { width: 100%; background: var(--panel2); color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 10px; font-size: 14px; }
+select:focus, input[type="date"]:focus { outline: 1px solid var(--accent); }
+
+.vector { display: flex; align-items: center; justify-content: center; gap: 24px; padding: 34px 20px; background: var(--panel2); border: 1px solid var(--border); border-radius: var(--radius); }
+.vector .side { font-size: 34px; font-weight: 700; min-width: 120px; text-align: center; }
+.vector .side small { display: block; font-size: 12px; color: var(--muted); font-weight: 400; }
+.vector .side.pA { color: var(--green); }
+.vector .side.pB { color: var(--red); }
+.vector .vs { color: var(--muted); font-size: 16px; }
+.vector.zeroed .side { color: var(--muted); }
+.vector-note { text-align: center; color: var(--muted); font-size: 12px; margin-top: 10px; }
+
+.stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 14px; }
+.stat { background: var(--panel2); border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
+.stat .k { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.6px; }
+.stat .v { font-size: 22px; font-weight: 700; margin-top: 6px; }
+.stat .v.neg { color: var(--red); }
+.stat .v.pos { color: var(--green); }
+
+.h2h-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+.h2h-bar .icon-btn { background: var(--panel2); border: 1px solid var(--border); color: var(--text); border-radius: 8px; padding: 8px 12px; cursor: pointer; font-size: 13px; }
+.h2h-bar .icon-btn:hover { border-color: var(--accent); }
+
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--border); font-size: 13px; }
+th { color: var(--muted); font-weight: 600; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.muted { color: var(--muted); }
+.empty { color: var(--muted); font-size: 13px; padding: 14px 0; }
+.error-box { background: rgba(255,92,108,0.12); border: 1px solid var(--red); color: var(--red); border-radius: 10px; padding: 12px; margin-top: 12px; font-size: 13px; }

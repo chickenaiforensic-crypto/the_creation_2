@@ -56,6 +56,7 @@ engine/
 | Computational layer — filters + mutes + live compute | IMPLEMENTED + tests green (2026-08-19) |
 | Ratings table view — per-year tournament tables + selectable filters | IMPLEMENTED + tests green (2026-08-19) |
 | Phase 1 — Head-to-Head (H2H) module | IMPLEMENTED + tests green (2026-08-19) |
+| Phase 1 SaaS UI presentation layer (zero-hardcoded) | IMPLEMENTED — live dev server (2026-08-19) |
 | Football mapping | NOT SPECIFIED — adapter stubbed, raises NotImplementedError |
 | Rating accumulation (career/season) | NOT SPECIFIED — later phase |
 | UI-facing outputs | NOT SPECIFIED — later phase |
@@ -149,6 +150,33 @@ while the primary Phase 0 rating tracks absolute points (no margins).
 Verified by hand: Zverev 2021 +29 (7-6(3) 6-2 +6 · 6-2 6-3 +7 · 6-1 6-3 +8 ·
 6-4 3-6 7-6(4) +1 · 6-2 6-3 +7), Sinner 2021 +4 (6-2 7-5 +6, R32 loss −2),
 Medvedev 2021 +22. Feed: 315 selected / 298 rated / 17 refused / 145 players.
+
+## Phase 1 SaaS UI presentation layer (Director spec, 2026-08-19)
+
+`python3 sport_engine/ui/server.py 8080` — professional reactive SaaS UI with
+functional placeholders mapped to dynamic data hooks (strictly zero hardcoding:
+every label, list, and default renders from the `/api/ui` manifest, which is
+driven by `config/ui.json`, `config/sports.json`, and live engine data).
+
+- **Selectable sports type control:** top-level Tennis / Football selector.
+  The engine enforces a **development lock** (`config/sports.json`
+  `development_lock`): no new sport may be exposed until the Tennis module is
+  fully stabilized and verified with prediction accuracy exceeding 80%.
+- **Matchup selector:** dual-entity dropdowns — Player A vs Player B (Tennis) /
+  Team A vs Team B (Football), options from live data.
+- **Prediction vector (master stat):** central live vector block for the
+  predictive balance (pA % | pB %). Predictive logic is unbuilt, so it renders
+  a **zeroed/connecting state** (`state: "zeroed"`, pA/pB null).
+- **System rating data:** dynamic container rendering the live system rating per
+  player (Phase 0 rating) + H2H game difference.
+- **H2H analysis summation module:** aggregation component tracking historical
+  H2H encounters within a user-defined date boundary; outputs the net H2H
+  balance and an interactive action icon opening a chronological drill-down
+  table (date, players, score, per-side H2H, winner).
+- **API:** `/api/ui`, `/api/options`, `/api/matchup?a=..&b=..&tours=..&tournaments=..&years=..&from=..`.
+- **Tour filter (approved):** US Open ATP/WTA are now selectable separately via
+  the `tours` filter (e.g. `tours=ATP` vs `tours=WTA`), since both share the
+  tournament name "US Open" and differ only by the `tour` field.
 
 ## Phase 0 — match rating (Director spec, 2026-08-19)
 

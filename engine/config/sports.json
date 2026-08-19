@@ -1,4 +1,9 @@
 {
-  "description": "Active sport adapters — the pluggable list. Adding a sport = add an adapter module and list it here; the engine auto-registers it.",
-  "active_adapters": ["tennis", "football"]
+  "description": "Active sport adapters — the pluggable list. Adding a sport = add an adapter module and list it here; the engine auto-registers it. Development lock: the UI exposes only Tennis and Football; expansion into other sports is locked until the Tennis module is fully stabilized and verified with prediction accuracy exceeding 80%.",
+  "active_adapters": ["tennis", "football"],
+  "development_lock": {
+    "enabled": true,
+    "rule": "No new sport may be exposed until the Tennis module is fully stabilized and verified with prediction accuracy exceeding 80%.",
+    "exposed_sports": ["Tennis", "Football"]
+  }
 }

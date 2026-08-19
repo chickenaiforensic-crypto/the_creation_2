@@ -5,6 +5,7 @@
     "date": "date",
     "tournament": "tournament",
     "tier": "tier",
+    "tour": "tour",
     "round": "round",
     "edition_year": "edition_year",
     "player_a": "playerA",

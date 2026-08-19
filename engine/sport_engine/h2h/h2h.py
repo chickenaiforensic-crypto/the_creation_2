@@ -54,6 +54,7 @@ def _fields() -> dict:
     return {
         "date": t["date"],
         "tournament": t["tournament"],
+        "tour": t["tour"],
         "round": t["round"],
         "edition_year": t["edition_year"],
         "player_a": t["player_a"],
@@ -199,6 +200,7 @@ def _effective_filters(caller: Filters, feed_cfg: dict) -> Filters:
         years=caller.years or feed.years,
         players=caller.players or feed.players,
         tiers=caller.tiers or feed.tiers,
+        tours=caller.tours or feed.tours,
     )
 
 

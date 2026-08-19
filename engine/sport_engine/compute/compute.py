@@ -27,6 +27,7 @@ def field_names() -> dict:
         "date": t["date"],
         "tournament": t["tournament"],
         "tier": t["tier"],
+        "tour": t["tour"],
         "round": t["round"],
         "edition_year": t["edition_year"],
         "player_a": t["player_a"],
@@ -58,6 +59,8 @@ def _rate_match(match: Mapping, adapter, f: dict) -> dict:
     base = {
         "date": match.get("date"),
         "tournament": match.get(f["tournament"]),
+        "tour": match.get(f["tour"]),
+        "tier": match.get(f["tier"]),
         "year": match.get(f["edition_year"]),
         "round": match.get("round"),
         "player_a": match.get(f["player_a"]),
@@ -138,6 +141,7 @@ def _effective_filters(caller: Filters, feed_cfg: Mapping) -> Filters:
         years=caller.years or feed.years,
         players=caller.players or feed.players,
         tiers=caller.tiers or feed.tiers,
+        tours=caller.tours or feed.tours,
     )
 
 
