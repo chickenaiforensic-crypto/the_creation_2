@@ -1,0 +1,6 @@
+{
+  "description": "Phase 1 Head-to-Head (H2H) module configuration. H2H computes the DIRECT game score difference between pA and pB (the margin) from the pre-built normalised set scores, awarding points per game of score difference. It is decoupled from the Phase 0 absolute-point rating (which tracks no margins). All values here, never in code.",
+  "enabled": true,
+  "points_per_game_difference": 1,
+  "difference_source": "normalised_set_game_scores"
+}

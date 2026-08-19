@@ -55,6 +55,7 @@ engine/
 | Phase 0 — match rating | IMPLEMENTED + tests green (2026-08-19) |
 | Computational layer — filters + mutes + live compute | IMPLEMENTED + tests green (2026-08-19) |
 | Ratings table view — per-year tournament tables + selectable filters | IMPLEMENTED + tests green (2026-08-19) |
+| Phase 1 — Head-to-Head (H2H) module | IMPLEMENTED + tests green (2026-08-19) |
 | Football mapping | NOT SPECIFIED — adapter stubbed, raises NotImplementedError |
 | Rating accumulation (career/season) | NOT SPECIFIED — later phase |
 | UI-facing outputs | NOT SPECIFIED — later phase |
@@ -105,6 +106,35 @@ still applies underneath.
 - Zero-hardcoding: years, tournaments, players, round names and positions all come
   from data + config. `engine/reports/ratings_tables_by_year.txt` shows all years
   rendered by the engine.
+
+## Phase 1 — Head-to-Head (H2H) module (Director spec, 2026-08-19)
+
+`run_h2h(filters=None, mutes=None)` is a **stand-alone, decoupled subsystem** that
+computes the **direct game score difference** between pA and pB — the margin —
+while the primary Phase 0 rating tracks absolute points (no margins).
+
+- **Point allocation:** points awarded per game of score difference
+  (`config/h2h.json`, `points_per_game_difference = 1`). Normalised sets are the
+  source: every set goes through the pre-built Phase 0 normalisation (7-5 → 6-4,
+  7-6 → 6-4, orientation preserved), then per-set game differences are summed.
+  Example `6-2 6-4` → +6 games → pA +6 H2H, pB −6 (vs Phase 0 +14/−14 — different
+  metric by design).
+- **Decoupled architecture:** own package `sport_engine/h2h/`, own data model
+  (no points/rating fields), own pipeline (load → filter/mute → extract →
+  normalise → difference → aggregate), own state. Reuses only the pre-built
+  difference machinery (`TennisAdapter.extract_sets`, Phase 0 `normalize_set`)
+  and the shared manifest-verified loader + pure Filters/Mutes selection. Never
+  imports the absolute-point routines (`rate_sets`, `compute_ratings`).
+- **Same feed scope** as the primary layer (config `compute.json` — Cincinnati
+  Masters only), same filters/mutes semantics.
+- **Output:** `summary` (selected/rated/refused/players), `matches` (per-match
+  games_a/games_b, game_difference, h2h_a/h2h_b, per-set breakdown), `players`
+  (games_for, games_against, game_difference, average, refused; ranked by
+  difference desc). Void matches refused with reason, same policy as Phase 0.
+
+Verified by hand: Zverev 2021 +29 (7-6(3) 6-2 +6 · 6-2 6-3 +7 · 6-1 6-3 +8 ·
+6-4 3-6 7-6(4) +1 · 6-2 6-3 +7), Sinner 2021 +4 (6-2 7-5 +6, R32 loss −2),
+Medvedev 2021 +22. Feed: 315 selected / 298 rated / 17 refused / 145 players.
 
 ## Phase 0 — match rating (Director spec, 2026-08-19)
 

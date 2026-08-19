@@ -624,5 +624,24 @@
       "r128_loser_position": "65th",
       "top_rating_player": "Jannik Sinner"
     }
+  },
+  "h2h": {
+    "description": "Phase 1 H2H fixtures — direct game score difference, hand-computed.",
+    "match_examples": [
+      {"label": "6-2 6-4", "sets": [[6, 2], [6, 4]],
+       "games_a": 12, "games_b": 6, "game_difference": 6, "h2h_a": 6, "h2h_b": -6},
+      {"label": "6-4 7-6 (tiebreak resolves to 6-4)", "sets": [[6, 4], [7, 6]],
+       "games_a": 12, "games_b": 8, "game_difference": 4, "h2h_a": 4, "h2h_b": -4},
+      {"label": "6-3 3-6 6-4 (dropped set)", "sets": [[6, 3], [3, 6], [6, 4]],
+       "games_a": 15, "games_b": 13, "game_difference": 2, "h2h_a": 2, "h2h_b": -2},
+      {"label": "7-5 6-2", "sets": [[7, 5], [6, 2]],
+       "games_a": 12, "games_b": 6, "game_difference": 6, "h2h_a": 6, "h2h_b": -6}
+    ],
+    "year_2021": {
+      "zverev": 29,
+      "sinner": 4,
+      "sinner_note": "R64 6-2 7-5 (+6) + R32 loss to Isner 5-7 7-6 6-4 (+2 -2 -2 = -2) = +4; hand-verified from data bytes"
+    },
+    "feed": {"matches_selected": 315, "matches_rated": 298, "matches_refused": 17}
   }
 }
