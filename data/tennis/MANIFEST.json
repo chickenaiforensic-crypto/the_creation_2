@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 20,
+  "total_editions": 25,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -260,6 +260,71 @@
       "match_count": 31,
       "checksum_sha256": "9f331308ed57dd90c7e037517b4c391cc5e664f4f622de7b151c3bca2201d831",
       "file_path": "editions/Queens_Club/2025.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cincinnati",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2021",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Tennis Explorer 2021 full bracket: 56 field incl. 8 listed byes (top-8 seeds)",
+      "match_count": 55,
+      "checksum_sha256": "bfae7bc3996c6e23fe5aeea33b6359ede3fb7c76a219818484c1c999670b9166",
+      "file_path": "editions/Cincinnati/2021.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cincinnati",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2022 Western & Southern Open - Women's singles infobox: Draw 56, Seeds 16, top 8 byes",
+      "match_count": 55,
+      "checksum_sha256": "17eb0531b382f450518658f801bd1ec8a73624cfc281b6581c149e83e4915618",
+      "file_path": "editions/Cincinnati/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cincinnati",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof from bytes+TE: R64 24 matches + 8 seeded byes -> 56 field; 55-match full census",
+      "match_count": 55,
+      "checksum_sha256": "13be9c45982bdf242b51b6640a86135fa6f9c30facd4324b498dd254d580dbe7",
+      "file_path": "editions/Cincinnati/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cincinnati",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2024 Cincinnati Open - Women's singles infobox: Draw 56, Seeds 16, top 8 byes",
+      "match_count": 55,
+      "checksum_sha256": "26fa6f8b59f855cc745b612bb1cdca1b8ff5be96a542cd852b3b43477e10e1b3",
+      "file_path": "editions/Cincinnati/2024.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cincinnati",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2025 Cincinnati Open - Women's singles infobox: Draw 96, Seeds 32, all seeds bye into 2nd round",
+      "match_count": 95,
+      "checksum_sha256": "57636bab9fbca375828f18e3ef74078a907ee52bf29b4aa5129d39a8c52fe17f",
+      "file_path": "editions/Cincinnati/2025.json",
       "gap_count": 0
     }
   ],
