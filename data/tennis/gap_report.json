@@ -689,6 +689,42 @@
       "file_path": "editions/Dubai/2021.json",
       "status": "closed",
       "resolution": "Tennis Explorer Dubai 2021: 14.03 1R Jaziri d. Tsonga 3-3, S 1-0 = Tsonga retired (right arm) at 3-3 in set 1 (id 1928690; ExpatMedia + Wikipedia Tsonga corroborate). Added row: Malek Jaziri d. Jo-Wilfried Tsonga 3-3 (retired), date 2021-03-14. The other two previously-suspected R64 gaps are NOT gaps: Wikipedia 2021 Dubai Men's singles documents byes for Basilashvili and Ebden (Doha/Marseille semifinalists) and Giustino (LL into vacated bye slot) - byes carry no rows. Correct complete count = 45 rows (46 players - 1), not 47."
+    },
+    {
+      "tournament": "Monastir",
+      "tour": "WTA",
+      "year": "2022",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Katerina Siniakova",
+      "gap_id": "MO001",
+      "folder": "Monastir",
+      "file_path": "editions/Monastir/2022.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Monastir WTA 2022: 03.10 12:10 1R Siniakova (7) d. Paquet 6-4 4-0, S 1-0 = Paquet retired in set 2 (match id 2206281); TE draw list confirms '6-4, 4-0'. Added row: Katerina Siniakova d. Chloe Paquet 6-4 4-0 (retired), date 2022-10-03. Source: https://www.tennisexplorer.com/monastir/2022/wta-women/"
+    },
+    {
+      "tournament": "Monastir",
+      "tour": "WTA",
+      "year": "2022",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Diane Parry",
+      "gap_id": "MO002",
+      "folder": "Monastir",
+      "file_path": "editions/Monastir/2022.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Monastir WTA 2022: 05.10 13:55 R16 Parry d. Stefanini (Q) 6-3 1-0, S 1-0 = Stefanini retired in set 2 (match id 2209521). Added row: Diane Parry d. Lucrezia Stefanini 6-3 1-0 (retired), date 2022-10-05. Source: https://www.tennisexplorer.com/monastir/2022/wta-women/"
+    },
+    {
+      "tournament": "Monastir",
+      "tour": "WTA",
+      "year": "2024",
+      "missing_round": "SF",
+      "player_no_traceable_win": "Sonay Kartal",
+      "gap_id": "MO003",
+      "folder": "Monastir",
+      "file_path": "editions/Monastir/2024.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Monastir WTA 2024: 14.09 18:30 SF Kartal d. Lys 5-1, S 1-0 = Lys retired at 5-1 in set 1 (match id 2722059). Corroborated by bracket: Kartal appears in the final (d. Sramkova, Wikipedia 2024 Jasmin Open infobox). Added row: Sonay Kartal d. Eva Lys 5-1 (retired), date 2024-09-14. Source: https://www.tennisexplorer.com/monastir/2024/wta-women/"
     }
   ],
   "gaps_closed": 18,
@@ -698,5 +734,6 @@
   "cincinnati_atp_closure_note": "T-008 (2026-08-19, Auditor 1): 15/15 Cincinnati Masters ATP gaps FIXED per HANDOFF-08 relay - 13 retirements + 2 walkovers, all with named checkable sources; pulled from claude_1 store a280b2fb; draw sizes 56/56/56/56/96 confirmed from Wikipedia edition infoboxes; per-year census + spine check green before closed_verified_gapless; 2 'J.J. Wolf' rows renamed 'Jeffrey Wolf' (Rule 1, HANDOFF-07 A2.2 adjudication); 0 rank fields on import; 0 score markers found (D3 N/A on this pull).",
   "cleveland_dubai_closure_note": "T-010 (2026-08-19, Auditor 1, user authorization 'Permission to resolve all gaps approved'): 8/8 Cleveland WTA 250 gaps FIXED (4 retirements + 4 walkovers, named sources per row) + Dubai ATP 2021 closed: 1 real gap fixed (Jaziri d. Tsonga ret.) and 2 suspected gaps RESOLVED AS BYES per Wikipedia draw (falsehood correction: earlier reports said '3 missing R64 rows'; byte+source analysis shows the true number was 1). Draw sizes Wikipedia-confirmed for all 6 touched editions. 0 known gaps remain in the branch.",
   "us_open_atp_note": "T-012 (2026-08-19, Auditor 1): US Open ATP 2021-2025 pulled from claude_1 a280b2fb after T-011 audit found ZERO gaps (5x127/127, exhaustive spine; retirements/walkovers present as rows - dropped-row pipeline defect absent in this slice). No gap entries needed. Errors fixed at pull: 4 'J.J. Wolf' rows renamed 'Jeffrey Wolf' (Rule 1, HANDOFF-07 A2.2, precedent ddb6019) with per-row name_fix provenance. Known declared limitation carried as-is per no-imputation policy: 10 bare-tiebreak rows (9 restored-QF + 2022 R128 Moutet-Wawrinka) - TB digits unknown, never imputed.",
-  "us_open_wta_note": "T-014 (2026-08-19, Auditor 1, user approval): US Open WTA 2021-2025 pulled from claude_1 a280b2fb after T-013 audit found ZERO gaps and ZERO errors - no modifications required. Declared limitation carried per no-imputation policy: 6 bare-tiebreak rows (5 restored-QF + 2022 R128 Davis-Bronzetti ret.). All 5 walkovers wire-corroborated in T-013."
+  "us_open_wta_note": "T-014 (2026-08-19, Auditor 1, user approval): US Open WTA 2021-2025 pulled from claude_1 a280b2fb after T-013 audit found ZERO gaps and ZERO errors - no modifications required. Declared limitation carried per no-imputation policy: 6 bare-tiebreak rows (5 restored-QF + 2022 R128 Davis-Bronzetti ret.). All 5 walkovers wire-corroborated in T-013.",
+  "monastir_closure_note": "T-016 (2026-08-19, Auditor 1, standing audit->fix order): 3/3 Monastir WTA 250 gaps FIXED - all retirements (incl. MO003, a dropped SEMIFINAL); draw sizes Wikipedia-confirmed x3; coverage boundary documented: event existed 2022-2024 only. Dropped-row signature held for the 5th consecutive audited event."
 }

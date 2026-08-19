@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 45,
+  "total_editions": 48,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -585,6 +585,45 @@
       "match_count": 127,
       "checksum_sha256": "762ac2fb7c71b22efb8ec250a6da1203c55e11d05d9b465b5ebff330098c7fff",
       "file_path": "editions/US_Open_WTA/2025.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Monastir",
+      "tour": "WTA",
+      "tier": "WTA250",
+      "year": "2022",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2022 Jasmin Open - Singles infobox: Draw 32 (3WC/6Q), Seeds 8",
+      "match_count": 31,
+      "checksum_sha256": "616e4270810f0a93466140d0494e3ead60b4e73eaf3291dd2257eab947dfa7b2",
+      "file_path": "editions/Monastir/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Monastir",
+      "tour": "WTA",
+      "tier": "WTA250",
+      "year": "2023",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2023 Jasmin Open - Singles infobox: Draw 32 (3WC/6Q), Seeds 8",
+      "match_count": 31,
+      "checksum_sha256": "b2de6c860ca832bd04c2760c630008721e871689ff46b7ec7cabb46a0b777253",
+      "file_path": "editions/Monastir/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Monastir",
+      "tour": "WTA",
+      "tier": "WTA250",
+      "year": "2024",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2024 Jasmin Open - Singles infobox: Draw 32 (4WC/6Q), Seeds 8",
+      "match_count": 31,
+      "checksum_sha256": "71d5534b07d1365116f1deeaf18aaa18ede8d8d09d1279dab6a80d0d571dfb6d",
+      "file_path": "editions/Monastir/2024.json",
       "gap_count": 0
     }
   ],
