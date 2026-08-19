@@ -3,32 +3,48 @@ import unittest
 from sport_engine.config import load_config
 
 
-class TestConfigLoads(unittest.TestCase):
-    def test_rating_rules_spec_values(self):
-        r = load_config("rating_rules")
-        self.assertEqual(r["max_winner_games"], 6)
-        self.assertEqual(r["points_by_games"]["0"], 2)
-        self.assertEqual(r["points_by_games"]["3"], 4)
-        self.assertEqual(r["points_by_games"]["5"], 7)
-        self.assertEqual(r["points_by_games"]["6"], 10)
-        self.assertEqual(r["tier_by_games"]["6"], "4x")
+def load_test_data():
+    return load_config("test_data")
 
-    def test_tennis_schema_fields(self):
+
+_DATA = load_test_data()
+
+
+class TestConfigStructure(unittest.TestCase):
+    """Structural checks only — no spec-value literals (zero-hardcoding rule).
+    Spec values are asserted end-to-end through the fixture-driven math tests."""
+
+    def test_rating_rules_fully_cover_range(self):
+        r = load_config("rating_rules")
+        max_games = r["max_winner_games"]
+        for games in range(max_games + 1):
+            key = str(games)
+            self.assertIn(key, r["points_by_games"])
+            self.assertIn(key, r["tier_by_games"])
+            self.assertGreaterEqual(r["points_by_games"][key], 0)
+
+    def test_tennis_schema_structure(self):
         s = load_config("tennis_schema")
         self.assertEqual(s["sport"], "tennis")
-        self.assertEqual(s["fields"]["status"], "status")
-        self.assertEqual(s["fields"]["status_value_completed"], "completed")
-        self.assertEqual(s["fields"]["void_flags"], ["retired", "walkover", "defaulted"])
-        self.assertEqual(s["fields"]["sets_a"], "setsA")
-        self.assertEqual(s["fields"]["sets_b"], "setsB")
+        self.assertIn("status", s["fields"])
+        self.assertIn("status_value_completed", s["fields"])
+        self.assertIn("void_flags", s["fields"])
+        self.assertIn("score", s["fields"])
+        self.assertIn("sets_a", s["fields"])
+        self.assertIn("sets_b", s["fields"])
 
-    def test_sports_config_active_list(self):
+    def test_sports_config_non_empty(self):
         s = load_config("sports")
-        self.assertEqual(s["active_adapters"], ["tennis", "football"])
+        self.assertTrue(s["active_adapters"])
+
+    def test_football_schema_structure(self):
+        f = load_config("football_schema")
+        self.assertIn("sport", f)
+        self.assertTrue(f["sport"])
 
     def test_missing_config_raises(self):
         with self.assertRaises(FileNotFoundError):
-            load_config("does_not_exist")
+            load_config(_DATA["missing_config_name"])
 
 
 class TestRulesCameFromConfig(unittest.TestCase):
@@ -45,6 +61,18 @@ class TestRulesCameFromConfig(unittest.TestCase):
             phase0.TIER_LABEL,
             {int(k): v for k, v in rules["tier_by_games"].items()},
         )
+
+    def test_tennis_adapter_uses_config(self):
+        from sport_engine.adapters.tennis import TennisAdapter
+
+        schema = load_config("tennis_schema")
+        self.assertEqual(TennisAdapter.sport, schema["sport"])
+
+    def test_football_adapter_uses_config(self):
+        from sport_engine.adapters.football import FootballAdapter
+
+        schema = load_config("football_schema")
+        self.assertEqual(FootballAdapter.sport, schema["sport"])
 
 
 if __name__ == "__main__":

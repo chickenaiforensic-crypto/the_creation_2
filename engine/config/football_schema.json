@@ -1,0 +1,4 @@
+{
+  "description": "Football adapter identity. Phase 0 spec (2026-08-19) is game/set-based (tennis-shaped); the Director has not yet specified how football matches map to rateable periods. The adapter stays a stub until that mapping is specified — nothing may be invented.",
+  "sport": "football"
+}

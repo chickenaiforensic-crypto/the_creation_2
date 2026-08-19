@@ -3,93 +3,75 @@ import unittest
 from sport_engine.rating.phase0 import (
     RatingError,
     normalize_set,
-    points_for_games,
     rate_sets,
 )
 
 
-class TestPhase0WorkedExample(unittest.TestCase):
-    """Director worked example: sets 6-2, 6-4 -> pA 20, pB 6 -> +14 / -14."""
+def load_test_data():
+    from sport_engine.config import load_config
 
-    def test_totals_and_ratings(self):
-        r = rate_sets([(6, 2), (6, 4)])
-        self.assertEqual(r.total_a, 20)
-        self.assertEqual(r.total_b, 6)
-        self.assertEqual(r.delta_a, 14)
-        self.assertEqual(r.delta_b, -14)
-
-    def test_per_set_points(self):
-        r = rate_sets([(6, 2), (6, 4)])
-        self.assertEqual([(s.points_a, s.points_b) for s in r.sets], [(10, 2), (10, 4)])
+    return load_config("test_data")
 
 
-class TestPointsTable(unittest.TestCase):
-    def test_brackets(self):
-        self.assertEqual(points_for_games(0), 2)
-        self.assertEqual(points_for_games(1), 2)
-        self.assertEqual(points_for_games(2), 2)
-        self.assertEqual(points_for_games(3), 4)
-        self.assertEqual(points_for_games(4), 4)
-        self.assertEqual(points_for_games(5), 7)
-        self.assertEqual(points_for_games(6), 10)
+_DATA = load_test_data()
 
-    def test_out_of_range(self):
-        with self.assertRaises(RatingError):
-            points_for_games(7)
-        with self.assertRaises(RatingError):
-            points_for_games(-1)
+
+class TestWorkedExample(unittest.TestCase):
+    def test_director_worked_example(self):
+        ex = _DATA["worked_example"]
+        r = rate_sets(ex["sets"])
+        self.assertEqual(r.total_a, ex["total_a"])
+        self.assertEqual(r.total_b, ex["total_b"])
+        self.assertEqual(r.delta_a, ex["delta_a"])
+        self.assertEqual(r.delta_b, ex["delta_b"])
+
+    def test_worked_example_per_set_points(self):
+        ex = _DATA["worked_example"]
+        r = rate_sets(ex["sets"])
+        expected = [tuple(p) for p in ex["per_set_points"]]
+        actual = [(s.points_a, s.points_b) for s in r.sets]
+        self.assertEqual(actual, expected)
 
 
 class TestNormalization(unittest.TestCase):
-    def test_7_5_resolves_to_6_4(self):
-        self.assertEqual(normalize_set(7, 5), (6, 4))
-
-    def test_6_2_unchanged(self):
-        self.assertEqual(normalize_set(6, 2), (6, 2))
-
-    def test_8_6_steps_down_to_6_4(self):
-        self.assertEqual(normalize_set(8, 6), (6, 4))
-
-    def test_7_6_resolves_to_6_5(self):
-        # Tiebreak set: -1 both sides. Pending Director confirmation (open question).
-        self.assertEqual(normalize_set(7, 6), (6, 5))
-
-    def test_reversed_input_keeps_orientation(self):
-        self.assertEqual(normalize_set(2, 6), (2, 6))
-
-    def test_b_won_set_assigns_points_to_b(self):
-        r = rate_sets([(6, 3), (3, 6), (6, 4)])
-        # set2 3-6: B has 6 games -> 10 pts, A has 3 -> 4 pts
-        self.assertEqual([(s.points_a, s.points_b) for s in r.sets],
-                         [(10, 4), (4, 10), (10, 4)])
-        self.assertEqual((r.total_a, r.total_b), (24, 18))
-        self.assertEqual((r.delta_a, r.delta_b), (6, -6))
-
-    def test_tied_set_rejected(self):
-        with self.assertRaises(RatingError):
-            normalize_set(6, 6)
-
-    def test_un_normalisable_rejected(self):
-        with self.assertRaises(RatingError):
-            normalize_set(7, 0)
+    def test_cases(self):
+        for case in _DATA["normalization_cases"]:
+            with self.subTest(case["label"]):
+                a, b = case["input"]
+                ea, eb = case["expected"]
+                self.assertEqual(normalize_set(a, b), (ea, eb))
 
 
-class Test7_5Match(unittest.TestCase):
-    def test_7_5_6_2(self):
-        r = rate_sets([(7, 5), (6, 2)])
-        self.assertEqual((r.total_a, r.total_b), (20, 6))
-        self.assertEqual((r.delta_a, r.delta_b), (14, -14))
+class TestRejectedSets(unittest.TestCase):
+    def test_raises(self):
+        for case in _DATA["rejected_sets"]:
+            with self.subTest(case["label"]):
+                with self.assertRaises(RatingError):
+                    normalize_set(*case["input"])
 
 
-class TestTiebreakSetRating(unittest.TestCase):
-    def test_7_6_tiebreak_gives_loser_5_games(self):
-        # 7-6 -> 6-5 -> pB 7 pts. Marked against open question; asserts current impl.
-        r = rate_sets([(6, 4), (7, 6)])
-        self.assertEqual((r.total_a, r.total_b), (20, 11))
-        self.assertEqual((r.delta_a, r.delta_b), (9, -9))
+class TestMatchExamples(unittest.TestCase):
+    def test_examples(self):
+        for ex in _DATA["match_examples"]:
+            with self.subTest(ex["label"]):
+                r = rate_sets(ex["sets"])
+                self.assertEqual(r.total_a, ex["total_a"])
+                self.assertEqual(r.total_b, ex["total_b"])
+                self.assertEqual(r.delta_a, ex["delta_a"])
+                self.assertEqual(r.delta_b, ex["delta_b"])
+
+    def test_example_per_set_points(self):
+        for ex in _DATA["match_examples"]:
+            if "per_set_points" not in ex:
+                continue
+            with self.subTest(ex["label"]):
+                r = rate_sets(ex["sets"])
+                expected = [tuple(p) for p in ex["per_set_points"]]
+                actual = [(s.points_a, s.points_b) for s in r.sets]
+                self.assertEqual(actual, expected)
 
 
-class TestNoSets(unittest.TestCase):
+class TestEmptySets(unittest.TestCase):
     def test_empty_rejected(self):
         with self.assertRaises(RatingError):
             rate_sets([])

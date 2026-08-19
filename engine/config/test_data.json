@@ -1,0 +1,178 @@
+{
+  "description": "Test fixture data — single source of test inputs and expected outcomes. Tests contain no data literals; they iterate this file (zero-hardcoding rule).",
+  "worked_example": {
+    "label": "Director worked example 6-2 6-4",
+    "sets": [[6, 2], [6, 4]],
+    "total_a": 20,
+    "total_b": 6,
+    "delta_a": 14,
+    "delta_b": -14,
+    "per_set_points": [[10, 2], [10, 4]]
+  },
+  "normalization_cases": [
+    {"label": "7-5 resolves to 6-4", "input": [7, 5], "expected": [6, 4]},
+    {"label": "6-2 unchanged", "input": [6, 2], "expected": [6, 2]},
+    {"label": "8-6 steps down to 6-4", "input": [8, 6], "expected": [6, 4]},
+    {"label": "7-6 tiebreak resolves to 6-5", "input": [7, 6], "expected": [6, 5]},
+    {"label": "reversed input keeps orientation", "input": [2, 6], "expected": [2, 6]}
+  ],
+  "rejected_sets": [
+    {"label": "tied set 6-6", "input": [6, 6]},
+    {"label": "cannot normalise 7-0", "input": [7, 0]},
+    {"label": "negative games -1-4", "input": [-1, 4]}
+  ],
+  "match_examples": [
+    {
+      "label": "7-5 6-2",
+      "sets": [[7, 5], [6, 2]],
+      "total_a": 20,
+      "total_b": 6,
+      "delta_a": 14,
+      "delta_b": -14
+    },
+    {
+      "label": "6-4 7-6 tiebreak",
+      "sets": [[6, 4], [7, 6]],
+      "total_a": 20,
+      "total_b": 11,
+      "delta_a": 9,
+      "delta_b": -9
+    },
+    {
+      "label": "6-3 3-6 6-4 dropped set (B wins middle)",
+      "sets": [[6, 3], [3, 6], [6, 4]],
+      "total_a": 24,
+      "total_b": 18,
+      "delta_a": 6,
+      "delta_b": -6,
+      "per_set_points": [[10, 4], [4, 10], [10, 4]]
+    }
+  ],
+  "tennis_rows": [
+    {
+      "label": "dubai 2021 completed two-set with tiebreak",
+      "match": {
+        "date": "2021-03-14", "tournament": "Dubai", "tier": "ATP500", "round": "R64",
+        "tour": "ATP", "playerA": "Alexander Bublik", "playerB": "Yoshihito Nishioka",
+        "setsA": 2, "setsB": 0, "gamesA": 13, "gamesB": 10, "score": "6-4 7-6(4)",
+        "bestOf": 3, "retired": false, "walkover": false, "status": "completed",
+        "defaulted": false, "winner": "A"
+      },
+      "expected_sets": [[6, 4], [7, 6]],
+      "expected_totals": {"total_a": 20, "total_b": 11}
+    },
+    {
+      "label": "dubai 2021 completed two-set tiebreak second",
+      "match": {
+        "date": "2021-03-14", "tournament": "Dubai", "tier": "ATP500", "round": "R64",
+        "tour": "ATP", "playerA": "Alexei Popyrin", "playerB": "Dennis Novak",
+        "setsA": 2, "setsB": 0, "gamesA": 14, "gamesB": 11, "score": "7-6(3) 7-5",
+        "bestOf": 3, "retired": false, "walkover": false, "status": "completed",
+        "defaulted": false, "winner": "A"
+      },
+      "expected_sets": [[7, 6], [7, 5]]
+    },
+    {
+      "label": "three-set with dropped set 6-3 3-6 6-4",
+      "match": {
+        "date": "2021-03-14", "tournament": "Dubai", "tier": "ATP500", "round": "R32",
+        "tour": "ATP", "playerA": "Jeremy Chardy", "playerB": "Albert Ramos-Vinolas",
+        "setsA": 2, "setsB": 1, "gamesA": 15, "gamesB": 13, "score": "6-3 3-6 6-4",
+        "bestOf": 3, "retired": false, "walkover": false, "status": "completed",
+        "defaulted": false, "winner": "A"
+      },
+      "expected_sets": [[6, 3], [3, 6], [6, 4]],
+      "expected_totals": {"total_a": 24, "total_b": 18}
+    },
+    {
+      "label": "retired refused",
+      "match": {
+        "date": "2021-03-14", "tournament": "Dubai", "tier": "ATP500", "round": "R32",
+        "tour": "ATP", "playerA": "Roberto Bautista Agut", "playerB": "Matthew Ebden",
+        "setsA": 1, "setsB": 0, "gamesA": 4, "gamesB": 1, "score": "4-1",
+        "bestOf": 3, "retired": true, "walkover": false, "status": "retired",
+        "defaulted": false, "winner": "A"
+      },
+      "expected_sets": null
+    },
+    {
+      "label": "walkover refused",
+      "match": {
+        "date": "2021-03-14", "tournament": "Dubai", "tier": "ATP500", "round": "R32",
+        "tour": "ATP", "playerA": "PlayerA", "playerB": "PlayerB",
+        "setsA": 0, "setsB": 0, "gamesA": 0, "gamesB": 0, "score": "",
+        "bestOf": 3, "retired": false, "walkover": true, "status": "completed",
+        "defaulted": false, "winner": "A"
+      },
+      "expected_sets": null
+    },
+    {
+      "label": "defaulted refused",
+      "match": {
+        "date": "2021-03-14", "tournament": "Dubai", "tier": "ATP500", "round": "R32",
+        "tour": "ATP", "playerA": "PlayerA", "playerB": "PlayerB",
+        "setsA": 0, "setsB": 0, "gamesA": 0, "gamesB": 0, "score": "7-6 6-6",
+        "bestOf": 3, "retired": false, "walkover": false, "status": "completed",
+        "defaulted": true, "winner": "A"
+      },
+      "expected_sets": null
+    },
+    {
+      "label": "non-completed status refused",
+      "match": {
+        "date": "2021-03-14", "tournament": "Dubai", "tier": "ATP500", "round": "R32",
+        "tour": "ATP", "playerA": "PlayerA", "playerB": "PlayerB",
+        "setsA": 0, "setsB": 0, "gamesA": 0, "gamesB": 0, "score": "6-4",
+        "bestOf": 3, "retired": false, "walkover": false, "status": "interrupted",
+        "defaulted": false, "winner": "A"
+      },
+      "expected_sets": null
+    },
+    {
+      "label": "unfinished tied set 6-6 refused",
+      "match": {
+        "date": "2021-03-14", "tournament": "Washington", "tier": "ATP500", "round": "QF",
+        "tour": "ATP", "playerA": "PlayerA", "playerB": "PlayerB",
+        "setsA": 1, "setsB": 0, "gamesA": 13, "gamesB": 12, "score": "7-6 6-6",
+        "bestOf": 3, "retired": false, "walkover": false, "status": "completed",
+        "defaulted": false, "winner": "A"
+      },
+      "expected_sets": null
+    },
+    {
+      "label": "missing score refused",
+      "match": {
+        "date": "2021-03-14", "tournament": "Dubai", "tier": "ATP500", "round": "R32",
+        "tour": "ATP", "playerA": "PlayerA", "playerB": "PlayerB",
+        "setsA": 0, "setsB": 0, "gamesA": 0, "gamesB": 0, "score": "",
+        "bestOf": 3, "retired": false, "walkover": false, "status": "completed",
+        "defaulted": false, "winner": "A"
+      },
+      "expected_sets": null
+    },
+    {
+      "label": "set count mismatch refused",
+      "match": {
+        "date": "2021-03-14", "tournament": "Dubai", "tier": "ATP500", "round": "R32",
+        "tour": "ATP", "playerA": "PlayerA", "playerB": "PlayerB",
+        "setsA": 1, "setsB": 1, "gamesA": 13, "gamesB": 10, "score": "6-4 7-6(4)",
+        "bestOf": 3, "retired": false, "walkover": false, "status": "completed",
+        "defaulted": false, "winner": "A"
+      },
+      "expected_sets": null
+    },
+    {
+      "label": "setsA mismatch refused",
+      "match": {
+        "date": "2021-03-14", "tournament": "Dubai", "tier": "ATP500", "round": "R32",
+        "tour": "ATP", "playerA": "PlayerA", "playerB": "PlayerB",
+        "setsA": 1, "setsB": 0, "gamesA": 13, "gamesB": 10, "score": "6-4 7-6(4)",
+        "bestOf": 3, "retired": false, "walkover": false, "status": "completed",
+        "defaulted": false, "winner": "A"
+      },
+      "expected_sets": null
+    }
+  ],
+  "unknown_sport_name": "cricket",
+  "missing_config_name": "does_not_exist"
+}
