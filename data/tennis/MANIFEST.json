@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 70,
+  "total_editions": 74,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -910,6 +910,58 @@
       "match_count": 27,
       "checksum_sha256": "198f117f464dca45e8bd97ff90e73f9d2af66d49658476d7acd8a41de8e7a539",
       "file_path": "editions/Stockholm/2025.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Antwerp",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2021",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "TE 2021 bracket byte-read: 32 slots, 4 byes (seeds 1-4 Sinner/Schwartzman/Garin/Bautista-Agut) = draw 28",
+      "match_count": 27,
+      "checksum_sha256": "00b181a0a18d4d9dd71bac692e8792a1906e48e0c10f04862fcba0ec2e8cf1ef",
+      "file_path": "editions/Antwerp/2021.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Antwerp",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2022",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "TE 2022 bracket byte-read: 32 slots, 4 byes (seeds 1-4 Hurkacz/Auger-Aliassime/Schwartzman/Khachanov) = draw 28",
+      "match_count": 27,
+      "checksum_sha256": "4fa0b7efadae452fb76ba66dde2676ff23bc0f58a9b4a5e0536820d75d39456c",
+      "file_path": "editions/Antwerp/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Antwerp",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2023",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "TE 2023 bracket byte-read: 32 slots, 4 byes (seeds 1-4 Tsitsipas/Struff/Bublik/Fils) = draw 28",
+      "match_count": 27,
+      "checksum_sha256": "e6c88b850f85e6d414b3736ece443ddb268957cb7927faec67509ac15a1bb85c",
+      "file_path": "editions/Antwerp/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Antwerp",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2024",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "TE 2024 bracket byte-read: 32 slots, 4 byes (seeds 1-4 De Minaur/Tsitsipas/Auger-Aliassime/Baez) = draw 28",
+      "match_count": 27,
+      "checksum_sha256": "0b64392f50c0bc268eecd194fa8fb2720cd768a15532df721c269e171f20a1f4",
+      "file_path": "editions/Antwerp/2024.json",
       "gap_count": 0
     }
   ],
