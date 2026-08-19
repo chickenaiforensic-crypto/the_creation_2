@@ -3,10 +3,6 @@
   "enabled": true,
   "points_per_game_difference": 1,
   "difference_source": "normalised_set_game_scores",
-  "percentage": {
-    "description": "H2H percentage aggregation: total rating points gathered by each player across their direct historical encounters, converted into a relative balance out of 100%. Linear constraint for this iteration. An exponential scaling expansion factor will be added later to prevent high-margin victories from collapsing into close margins (e.g. 51%-49%); it remains DISABLED for this version.",
-    "scaling": "linear",
-    "exponential_enabled": false
-  }
+  "percentage_note": "Percentage computation is provided by the STANDALONE conversion layer (engine/config/convert.json, sport_engine/convert/ratio.py) — H2H plugs into it; it is not part of this module."
 }
 

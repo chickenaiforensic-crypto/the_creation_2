@@ -67,11 +67,11 @@ class TestH2HPercentage(unittest.TestCase):
     """H2H percentage aggregation — linear baseline, exponential disabled."""
 
     def test_percentage_cases(self):
-        from sport_engine.h2h.h2h import h2h_percentage
+        from sport_engine.convert.ratio import ratio_lock
 
         for case in _H2H["percentage"]["cases"]:
             with self.subTest(case["label"]):
-                r = h2h_percentage(case["points_a"], case["points_b"])
+                r = ratio_lock(case["points_a"], case["points_b"])
                 self.assertAlmostEqual(r["pA_pct"], case["pA_pct"], places=2)
                 self.assertAlmostEqual(r["pB_pct"], case["pB_pct"], places=2)
                 self.assertEqual(r["scaling"], _H2H["percentage"]["scaling"])
@@ -79,24 +79,24 @@ class TestH2HPercentage(unittest.TestCase):
                                  _H2H["percentage"]["exponential_enabled"])
 
     def test_negative_input_rejected(self):
-        from sport_engine.h2h.h2h import h2h_percentage
+        from sport_engine.convert.ratio import ratio_lock
 
         # the differential rating (e.g. +12/-12) is NOT a valid input — the
         # percentage layer locks on non-negative raw region point totals only
         with self.assertRaises(ValueError):
-            h2h_percentage(12, -12)
+            ratio_lock(12, -12)
 
     def test_match_region_points(self):
         from sport_engine.h2h.h2h import match_region_points
 
-        # Director example: 6-4 6-4 -> A 20 pts (10+10), B 8 pts (4+4)
+        # Director theory table: 6-4 6-4 -> A 20 (10+10), B 8 (4+4)
         r = match_region_points([(6, 4), (6, 4)])
         self.assertEqual(r["region_points_a"], 20)
         self.assertEqual(r["region_points_b"], 8)
-        # 7-6 7-6 -> tiebreaks resolve to 6-4 each -> A 20 (10+10), B 8 (4+4)
+        # 7-6 7-6 -> per-set 7-6 -> 6-5 -> 10/7 -> totals A 20, B 14 (theory table)
         r2 = match_region_points([(7, 6), (7, 6)])
         self.assertEqual(r2["region_points_a"], 20)
-        self.assertEqual(r2["region_points_b"], 8)
+        self.assertEqual(r2["region_points_b"], 14)
         # 6-2 6-3 -> A 20, B 6
         r3 = match_region_points([(6, 2), (6, 3)])
         self.assertEqual(r3["region_points_a"], 20)

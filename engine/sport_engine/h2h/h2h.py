@@ -42,8 +42,9 @@ from sport_engine.adapters.tennis import TennisAdapter
 from sport_engine.compute.data_source import edition_identity, load_editions
 from sport_engine.compute.selection import Filters, Mutes
 from sport_engine.config import load_config
+from sport_engine.convert.ratio import region_points
 from sport_engine.h2h import conversion_hook
-from sport_engine.rating.phase0 import normalize_set, points_for_games
+from sport_engine.rating.phase0 import normalize_set
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 
@@ -66,44 +67,6 @@ def _fields() -> dict:
     }
 
 
-def h2h_percentage(points_a: float, points_b: float) -> dict:
-    """Relative balance out of 100% from the raw region point totals gathered by
-    each player across their direct H2H encounters.
-
-    INPUTS ARE RAW REGION POINT TOTALS (non-negative), NOT the differential
-    rating. Example 6-4 6-4: A totals 20 pts, B totals 8 pts ->
-    %A = 20/(20+8) = 71.4%, %B = 8/28 = 28.6%. Both inputs must be non-negative;
-    a differential (e.g. +12/-12) is NOT accepted — that metric is the Phase 0
-    rating, not an input to the percentage layer.
-
-    Linear constraint (current iteration, config h2h.json percentage): the raw
-    point totals are converted into a share of 100%. An exponential scaling
-    expansion factor is planned (to prevent high-margin victories from collapsing
-    into close margins like 51%-49%) and remains DISABLED.
-    """
-    cfg = load_config("h2h")["percentage"]
-    if points_a < 0 or points_b < 0:
-        raise ValueError(
-            "h2h_percentage inputs must be non-negative raw region point totals "
-            f"(got {points_a}, {points_b}); the differential rating is not an input "
-            "to the percentage layer."
-        )
-    total = points_a + points_b
-    if total == 0:
-        pA_pct = pB_pct = None
-    else:
-        pA_pct = round(points_a / total * 100, 2)
-        pB_pct = round(100 - pA_pct, 2)
-    return {
-        "points_a": round(points_a, 2),
-        "points_b": round(points_b, 2),
-        "pA_pct": pA_pct,
-        "pB_pct": pB_pct,
-        "scaling": cfg.get("scaling", "linear"),
-        "exponential_enabled": bool(cfg.get("exponential_enabled", False)),
-    }
-
-
 def _refusal_reason(match: dict, f: dict) -> str:
     """Why a selected match is not rateable — mirrors the adapter's refusal
     logic using config names. Never invents a score; refuses and says why."""
@@ -116,27 +79,10 @@ def _refusal_reason(match: dict, f: dict) -> str:
 
 
 def match_region_points(sets: List[tuple]) -> dict:
-    """Raw region point totals for one match from per-set (gamesA, gamesB).
-
-    Each set is normalised with the pre-built Phase 0 engine (7-5 -> 6-4, 7-6 ->
-    6-4, orientation preserved), then each player's games per set map to the
-    Phase 0 region points table (0-2 games -> 2 pts, 3-4 -> 4, 5 -> 7, 6 -> 10).
-    The totals are non-negative raw points — the input the H2H percentage layer
-    locks on (NOT the differential rating).
-    """
-    points_a = points_b = 0
-    set_details = []
-    for a, b in sets:
-        na, nb = normalize_set(a, b)
-        pa, pb = points_for_games(na), points_for_games(nb)
-        points_a += pa
-        points_b += pb
-        set_details.append({"games_a": na, "games_b": nb, "points_a": pa, "points_b": pb})
-    return {
-        "region_points_a": points_a,
-        "region_points_b": points_b,
-        "sets": set_details,
-    }
+    """Raw region point totals for one match — delegated to the standalone
+    conversion layer (convert.region_points). The totals are non-negative raw
+    points — the input the ratio lock feeds on (NOT the differential rating)."""
+    return region_points(sets)
 
 
 def match_game_difference(sets: List[tuple]) -> dict:

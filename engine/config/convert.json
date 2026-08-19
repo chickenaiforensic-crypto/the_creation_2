@@ -1,0 +1,6 @@
+{
+  "description": "Standalone conversion layer — the ratio (percentage) computation that every section needing % output (H2H, ratings, future sections) plugs into. Each section call is independent and returns its own sectional answer; calls share no state. The ratio lock converts two non-negative RAW region point totals into a relative balance out of 100%: %A = pointsA / (pointsA + pointsB). The differential rating is a separate metric and is NOT a valid input. Scaling: linear baseline for the current iteration; an exponential expansion factor (to prevent high-margin victories collapsing into close margins like 51%-49%) is planned and remains DISABLED.",
+  "method": "ratio_lock",
+  "scaling": "linear",
+  "exponential_enabled": false
+}

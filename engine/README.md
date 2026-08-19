@@ -173,13 +173,22 @@ driven by `config/ui.json`, `config/sports.json`, and live engine data).
   H2H encounters within a user-defined date boundary; outputs the net H2H
   balance and an interactive action icon opening a chronological drill-down
   table (date, players, score, per-side H2H, winner).
-- **H2H percentage aggregation (Phase 1 extension):** the standalone H2H module
-  aggregates the total rating points gathered by each player across their
-  DIRECT historical encounters and converts the absolute point totals into a
-  relative balance out of 100%. Linear baseline for this iteration
-  (`config/h2h.json` `percentage.scaling: "linear"`); the exponential scaling
-  expansion factor (to prevent high-margin victories collapsing into 51%-49%)
-  remains **disabled** (`exponential_enabled: false`).
+- **H2H percentage aggregation (Phase 1 extension):** the H2H module aggregates
+  the RAW REGION POINT TOTALS gathered by each player across their DIRECT
+  historical encounters and feeds them into the **standalone conversion layer**
+  (`sport_engine/convert/ratio.py`, config `convert.json`) which outputs the
+  relative balance out of 100% (`%A = pointsA / (pointsA + pointsB)`). Every
+  section needing % output plugs into this layer and gets its own independent
+  sectional answer — no shared state. The differential rating (+12/−12) is a
+  separate metric and is rejected as input. Linear baseline for this iteration
+  (`scaling: "linear"`); the exponential expansion factor (to prevent
+  high-margin victories collapsing into 51%-49%) remains **disabled**
+  (`exponential_enabled: false`).
+  Region-point mapping per the Director theory table: subtract 1 from both
+  sides until the higher side is ≤ 6 (7-6 → 6-5 → 10/7 per set; 7-5 → 6-4;
+  8-6 → 6-4), then the Phase 0 points table applies — so 6-0 6-0 → 20/4 →
+  83.3/16.7, 6-4 6-4 → 20/8 → 71.4/28.6, 6-2 6-3 → 20/6 → 76.9/23.1,
+  7-6 7-6 → 20/14 → 58.8/41.2.
 - **Targeted player search input:** the horizontal matchup selector uses
   searchable inputs (datalist over the full 577-player dataset) — any explicit
   pair can be loaded directly to generate its isolated H2H percentage profile.

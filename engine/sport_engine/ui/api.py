@@ -19,7 +19,8 @@ from sport_engine.compute.compute import compute_ratings
 from sport_engine.compute.data_source import load_editions
 from sport_engine.compute.selection import Filters, Mutes
 from sport_engine.config import load_config
-from sport_engine.h2h.h2h import h2h_percentage, run_h2h
+from sport_engine.convert.ratio import ratio_lock
+from sport_engine.h2h.h2h import run_h2h
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 
@@ -204,7 +205,7 @@ def matchup_report(
         else:  # player_a == player_b (the requested player is on side B)
             points_b += m["region_points_a"]
             points_a += m["region_points_b"]
-    percentage = h2h_percentage(points_a, points_b)
+    percentage = ratio_lock(points_a, points_b)
 
     return {
         "matchup": {"player_a": player_a, "player_b": player_b},
