@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 35,
+  "total_editions": 40,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -455,6 +455,71 @@
       "match_count": 31,
       "checksum_sha256": "69c0485b4ab9c4a4acaf32d33d3f1526ff44f2f4f9745ecd7967cef667ae76e4",
       "file_path": "editions/Cleveland/2025.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "US Open",
+      "tour": "ATP",
+      "tier": "GS",
+      "year": "2021",
+      "draw_size": 128,
+      "status": "closed_verified_gapless",
+      "source": "Draw 128 structural proof (64 R128 matches, no byes, all rounds full); dates match official calendar",
+      "match_count": 127,
+      "checksum_sha256": "a307fe13925b6b629467a3599e79ba9d506581d2c689ac045ec0fa1546a2938b",
+      "file_path": "editions/US_Open/2021.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "US Open",
+      "tour": "ATP",
+      "tier": "GS",
+      "year": "2022",
+      "draw_size": 128,
+      "status": "closed_verified_gapless",
+      "source": "Draw 128 structural proof (64 R128 matches, no byes, all rounds full); dates match official calendar",
+      "match_count": 127,
+      "checksum_sha256": "19220d0a2f971e9cd6b81c1d4d41960980b7e834e99c6035938809ff7477ffe1",
+      "file_path": "editions/US_Open/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "US Open",
+      "tour": "ATP",
+      "tier": "GS",
+      "year": "2023",
+      "draw_size": 128,
+      "status": "closed_verified_gapless",
+      "source": "Draw 128 structural proof (64 R128 matches, no byes, all rounds full); dates match official calendar",
+      "match_count": 127,
+      "checksum_sha256": "46d65f80b27279150078f63401b7e6a77293ae8bdd28eaf37d5f31ca5855808f",
+      "file_path": "editions/US_Open/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "US Open",
+      "tour": "ATP",
+      "tier": "GS",
+      "year": "2024",
+      "draw_size": 128,
+      "status": "closed_verified_gapless",
+      "source": "Draw 128 structural proof (64 R128 matches, no byes, all rounds full); dates match official calendar",
+      "match_count": 127,
+      "checksum_sha256": "c9889fef6c9ff8a4bb8808e1888e429cb7112f36038995882cd1fb2dc589f22f",
+      "file_path": "editions/US_Open/2024.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "US Open",
+      "tour": "ATP",
+      "tier": "GS",
+      "year": "2025",
+      "draw_size": 128,
+      "status": "closed_verified_gapless",
+      "source": "Draw 128 structural proof (64 R128 matches, no byes, all rounds full); dates match official calendar",
+      "match_count": 127,
+      "checksum_sha256": "9e9ee5f087a03e3e6d17b443cff7d6671320a7ce5b588d55d90ae83941831bc3",
+      "file_path": "editions/US_Open/2025.json",
       "gap_count": 0
     }
   ],
