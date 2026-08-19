@@ -88,12 +88,15 @@ Sets `6-2`, `6-4`:
   |---|---|
   | `rating_rules.json` | Phase 0 points table, tiers, max winner games |
   | `tennis_schema.json` | Tennis record field names, void flags, score grammar |
+  | `football_schema.json` | Football adapter identity (stub) |
   | `sports.json` | Active adapter list (the plug point) |
+  | `test_data.json` | Test fixtures + expected outcomes (tests are data-driven, no literals) |
 
 - Changing a rule = edit the config JSON, no code change.
 - Config is validated at import (missing/invalid/empty config fails loudly — no silent
   defaults; the points/tier tables must cover `0..max_winner_games` fully).
-- Code contains structure only. Test fixture rows are test inputs, not engine config.
+- Code contains structure only. The engine version string in
+  `sport_engine/__init__.py` is the single deliberate literal (code metadata, not data).
 
 ## Run tests
 
