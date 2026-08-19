@@ -1,0 +1,208 @@
+{
+  "description": "Gap report for the 20 closed_verified tennis editions migrated to this branch. Produced via round-transition ghost detection (R32-onward, byefree per validated M1000 method in phase1-audit/WORKORDER_Phase1_DrawSize_Gap_Audit.md Phase 1B). A gap = a player appearing in round N+1 with no traceable win recorded in round N within the same edition file.",
+  "method": "For each edition, for each transition in [R32->R16, R16->QF, QF->SF, SF->F]: collect all playerA/playerB in round N+1; collect all winners (resolved via winner field + playerA/playerB) in round N; any round-N+1 participant absent from round-N winners is a gap. R64->R32 excluded uniformly (bye-affected at this draw depth, not a genuine gap) per the same exclusion applied to M1000 in Phase 1B.",
+  "editions_checked": 20,
+  "editions_clean": 8,
+  "editions_with_gaps": 12,
+  "total_gap_instances": 18,
+  "gaps": [
+    {
+      "tournament": "Rotterdam",
+      "year": "2023",
+      "missing_round": "R16",
+      "next_round": "QF",
+      "player_no_traceable_win": "Gijs Brouwer",
+      "gap_id": "G001",
+      "folder": "Rotterdam",
+      "file_path": "editions/Rotterdam/2023.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Rotterdam",
+      "year": "2025",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Andrea Vavassori",
+      "gap_id": "G002",
+      "folder": "Rotterdam",
+      "file_path": "editions/Rotterdam/2025.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Rotterdam",
+      "year": "2025",
+      "missing_round": "R16",
+      "next_round": "QF",
+      "player_no_traceable_win": "Hubert Hurkacz",
+      "gap_id": "G003",
+      "folder": "Rotterdam",
+      "file_path": "editions/Rotterdam/2025.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Dubai",
+      "year": "2021",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Roberto Bautista Agut",
+      "gap_id": "G004",
+      "folder": "Dubai",
+      "file_path": "editions/Dubai/2021.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Dubai",
+      "year": "2023",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Borna Coric",
+      "gap_id": "G005",
+      "folder": "Dubai",
+      "file_path": "editions/Dubai/2023.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Dubai",
+      "year": "2023",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Alexander Bublik",
+      "gap_id": "G006",
+      "folder": "Dubai",
+      "file_path": "editions/Dubai/2023.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Dubai",
+      "year": "2024",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Tallon Griekspoor",
+      "gap_id": "G007",
+      "folder": "Dubai",
+      "file_path": "editions/Dubai/2024.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Dubai",
+      "year": "2024",
+      "missing_round": "R16",
+      "next_round": "QF",
+      "player_no_traceable_win": "Alejandro Davidovich Fokina",
+      "gap_id": "G008",
+      "folder": "Dubai",
+      "file_path": "editions/Dubai/2024.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Dubai",
+      "year": "2025",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Christopher O'Connell",
+      "gap_id": "G009",
+      "folder": "Dubai",
+      "file_path": "editions/Dubai/2025.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Halle",
+      "year": "2021",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Corentin Moutet",
+      "gap_id": "G010",
+      "folder": "Halle",
+      "file_path": "editions/Halle/2021.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Halle",
+      "year": "2022",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Laslo Djere",
+      "gap_id": "G011",
+      "folder": "Halle",
+      "file_path": "editions/Halle/2022.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Halle",
+      "year": "2022",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Roberto Bautista Agut",
+      "gap_id": "G012",
+      "folder": "Halle",
+      "file_path": "editions/Halle/2022.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Halle",
+      "year": "2024",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Dominik Koepfer",
+      "gap_id": "G013",
+      "folder": "Halle",
+      "file_path": "editions/Halle/2024.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Queen's Club",
+      "year": "2022",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Alexander Bublik",
+      "gap_id": "G014",
+      "folder": "Queens_Club",
+      "file_path": "editions/Queens_Club/2022.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Queen's Club",
+      "year": "2024",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Rinky Hijikata",
+      "gap_id": "G015",
+      "folder": "Queens_Club",
+      "file_path": "editions/Queens_Club/2024.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Queen's Club",
+      "year": "2024",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Brandon Nakashima",
+      "gap_id": "G016",
+      "folder": "Queens_Club",
+      "file_path": "editions/Queens_Club/2024.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Queen's Club",
+      "year": "2024",
+      "missing_round": "R16",
+      "next_round": "QF",
+      "player_no_traceable_win": "Jordan Thompson",
+      "gap_id": "G017",
+      "folder": "Queens_Club",
+      "file_path": "editions/Queens_Club/2024.json",
+      "status": "open"
+    },
+    {
+      "tournament": "Queen's Club",
+      "year": "2025",
+      "missing_round": "R32",
+      "next_round": "R16",
+      "player_no_traceable_win": "Jaume Munar",
+      "gap_id": "G018",
+      "folder": "Queens_Club",
+      "file_path": "editions/Queens_Club/2025.json",
+      "status": "open"
+    }
+  ]
+}
