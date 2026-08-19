@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 64,
+  "total_editions": 65,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -832,6 +832,19 @@
       "match_count": 95,
       "checksum_sha256": "0f0ad48b125755ab35c0c2275bdcc00651ad84ef5a1e08bacc67a0ffa8264f7d",
       "file_path": "editions/Shanghai_Masters/2025.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Zhengzhou",
+      "tour": "WTA",
+      "tier": "WTA500",
+      "year": "2023",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2023 Zhengzhou Open infobox: Draw 28, Seeds 8, byes to top-4 non-withdrawn seeds",
+      "match_count": 27,
+      "checksum_sha256": "e1cc75f16c1715c64dd13d4fcb4941ee068cb36ae9542e5b6f537ebf2f22228d",
+      "file_path": "editions/Zhengzhou/2023.json",
       "gap_count": 0
     }
   ],
