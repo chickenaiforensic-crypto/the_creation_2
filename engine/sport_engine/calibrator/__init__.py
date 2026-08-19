@@ -1,9 +1,9 @@
-"""Score Calibrator — regional point-assignment layer.
+"""Score Calibrator — CENTRAL (cross-year) regional analysis.
 
-Analyzes each (year, tournament) Phase 0 rating distribution from top performer to
-last, detects density clusters, and assigns per-region supplemental points so the
-generated ratings reflect the leaderboard hierarchy. 2021 baseline, then 2022-2025.
+Pools every player across all selected years into one cluster, analyzes the raw
+Phase 0 rating distribution from 1st position to last, and derives central region
+targets/adjustments. Per Director decision (2026-08-19) the calibration is NOT
+applied — the engine uses the raw Phase 0 points.
 """
 
-from sport_engine.calibrator.calibrate import calibrate_table, run_score_calibrator
-from sport_engine.calibrator.distribution import analyze_distribution
+from sport_engine.calibrator.calibrate import run_score_calibrator

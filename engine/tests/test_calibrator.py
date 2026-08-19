@@ -7,78 +7,56 @@ _DATA = load_config("test_data")
 _SC = _DATA["score_calibrator"]
 
 
-def _str_keys(d):
-    return {str(k): v for k, v in d.items()}
-
-
-class TestScoreCalibrator(unittest.TestCase):
+class TestScoreCalibratorCentral(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.report = run_score_calibrator()
 
-    def test_schema_method_years(self):
+    def test_schema_scope_method(self):
         self.assertEqual(self.report["schema"], "score_calibrator.1.0")
+        self.assertEqual(self.report["scope"], "central")
         self.assertEqual(self.report["method"], _SC["method"])
-        self.assertEqual(list(self.report["summary"].keys()), _SC["years"])
+        self.assertEqual(self.report["years"], _SC["years"])
 
-    def test_2021_adjustments_and_targets(self):
-        res21 = self.report["results"][0]
-        self.assertEqual(res21["year"], "2021")
-        cal = res21["calibration"]
-        self.assertEqual(_str_keys(cal["region_adjustments"]), _SC["year_2021"]["adjustments"])
-        self.assertEqual(_str_keys(cal["region_targets"]), _SC["year_2021"]["targets"])
+    def test_not_applied(self):
+        # Director decision: calibration dropped, raw points used
+        self.assertFalse(self.report["applied"])
 
-    def test_2021_calibrated_leaderboard(self):
-        res21 = self.report["results"][0]
-        rows = res21["rows"]
-        self.assertEqual(rows[0]["player"], _SC["year_2021"]["top_calibrated"])
-        self.assertEqual(rows[0]["rating_calibrated"], _SC["year_2021"]["top_calibrated_rating"])
-        by_name = {p["player"]: p for p in rows}
-        self.assertEqual(
-            by_name["Andrey Rublev"]["rating_calibrated"],
-            _SC["year_2021"]["finalist_calibrated_rating"],
-        )
-        # rows ranked by calibrated rating
-        ratings = [p["rating_calibrated"] for p in rows]
-        self.assertEqual(ratings, sorted(ratings, reverse=True))
-        for p in rows:
-            self.assertIn("region_adjustment", p)
-            self.assertEqual(p["rating_calibrated"], round(p["rating"] + p["region_adjustment"], 2))
+    def test_pooled_players(self):
+        self.assertEqual(self.report["pooled_players"], _SC["pooled_players"])
 
-    def test_2025_void_final_handling(self):
-        res25 = self.report["results"][-1]
-        self.assertEqual(res25["year"], "2025")
-        cal = res25["calibration"]
-        self.assertEqual(_str_keys(cal["region_adjustments"]), _SC["year_2025"]["adjustments"])
-        by_name = {p["player"]: p for p in res25["rows"]}
-        self.assertEqual(
-            by_name[_DATA["ratings_table"]["year_2025"]["champion"]]["rating_calibrated"],
-            _SC["year_2025"]["champion_calibrated_rating"],
-        )
-        self.assertEqual(
-            by_name["Jannik Sinner"]["rating_calibrated"],
-            _SC["year_2025"]["runner_up_calibrated_rating"],
-        )
+    def test_all_regions_1st_to_last(self):
+        # every leaderboard region present: 1,2,3,5,9,17,33,(65)
+        expected = set(_SC["regions"])
+        self.assertEqual(set(self.report["regions"].keys()), expected)
+        # region counts match expectations
+        for pos, n in _SC["region_counts"]:
+            self.assertEqual(self.report["regions"][pos]["count"], n, f"region {pos}")
 
-    def test_accuracy_holds_or_improves_every_year(self):
-        target = _SC["accuracy_target"]
-        tolerance = 0.005  # regional constants can trade a few pairs per year
-        for year, v in self.report["summary"].items():
-            self.assertIsNotNone(v["accuracy_raw"])
-            self.assertIsNotNone(v["accuracy_calibrated"])
-            self.assertGreaterEqual(v["accuracy_calibrated"], v["accuracy_raw"] - tolerance)
-            self.assertGreaterEqual(v["accuracy_calibrated"], target)
-        # the overall mean must not regress
-        o = self.report["overall"]
-        self.assertGreaterEqual(o["mean_accuracy_calibrated"], o["mean_accuracy_raw"] - 1e-9)
-        self.assertGreaterEqual(o["mean_accuracy_calibrated"], target)
+    def test_central_adjustments_all_zero(self):
+        for pos, adj in self.report["adjustments"].items():
+            self.assertEqual(adj, 0.0, f"region {pos} adjustment should be 0.0")
 
-    def test_every_row_has_position_and_calibrated_rating(self):
-        for res in self.report["results"]:
-            for p in res["rows"]:
-                self.assertIsNotNone(p["position_number"])
-                self.assertIsNotNone(p["rating_calibrated"])
-                self.assertIsNotNone(p["region_adjustment"])
+    def test_raw_equals_calibrated_accuracy(self):
+        self.assertTrue(self.report["accuracy"]["equal"])
+        self.assertGreaterEqual(self.report["accuracy"]["raw"], _SC["accuracy_target"])
+
+    def test_per_year_scope_present(self):
+        py = self.report["per_year_adjustments"]
+        self.assertEqual(set(py.keys()), set(_SC["years"]))
+        all_regions = set(_SC["regions"])
+        for year, adj in py.items():
+            self.assertTrue(set(adj.keys()) <= all_regions, f"{year} has unknown region")
+        # 56-draw years (2021-2024) have no 65th region; 2025 (96-draw) has all 8
+        for year in ("2021", "2022", "2023", "2024"):
+            self.assertNotIn(65, py[year], f"{year} should not have a 65th region")
+        self.assertEqual(set(py["2025"].keys()), all_regions)
+
+    def test_targets_ordered(self):
+        targets = self.report["targets"]
+        positions = sorted(targets)
+        for a, b in zip(positions, positions[1:]):
+            self.assertGreaterEqual(targets[a], targets[b] - 1e-9)
 
 
 if __name__ == "__main__":
