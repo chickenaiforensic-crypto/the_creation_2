@@ -11,7 +11,8 @@ Region point mapping (per Director theory table, 2026-08-19):
   Example 7-6 7-6 -> per set 10/7 -> totals 20/14 -> 58.8%/41.2%.
 
 Ratio lock:
-  %A = pointsA / (pointsA + pointsB), %B = pointsB / (pointsA + pointsB).
+  %A = pointsA / (pointsA + pointsB) · %B = 100 − %A (computed as the remainder
+  so the two sides always sum to 100.0).
   Inputs must be non-negative RAW region point totals. The differential rating
   (e.g. +12/-12) is a separate metric and is rejected as an input.
 

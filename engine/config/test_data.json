@@ -687,5 +687,14 @@
       "Rotterdam": {"points_a": 100.0, "points_b": 46.0, "pA_pct": 68.49, "pB_pct": 31.51},
       "US Open": {"points_a": 150.0, "points_b": 150.0, "pA_pct": 50.0, "pB_pct": 50.0}
     }
+  },
+  "ratings": {
+    "sinner_cincinnati": {
+      "rating": 274,
+      "matches_rated": 14,
+      "per_year": {"2021": 38, "2022": 40, "2023": 8, "2024": 88, "2025": 100}
+    },
+    "sinner_cincinnati_2024": {"rating": 88, "matches_rated": 4},
+    "alcaraz_cincinnati": {"rating": 302, "matches_rated": 15}
   }
 }

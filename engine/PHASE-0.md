@@ -134,9 +134,11 @@ tests, and documentation were removed from the branch.
 
 ### 2.6 Verification (how the auditors can check)
 
-- **Tests:** `cd engine && python3 -m unittest discover -s tests` → **41 tests green**
-  (phase 0 math, adapter, compute, config, ratings table; fixtures in
-  `config/test_data.json`, data-driven, no literals).
+- **Tests:** `cd engine && python3 -m unittest discover -s tests` → **96 tests green**
+  (phase 0 math, adapter, compute, config, ratings table, H2H, conversion,
+  performance, UI, ratings-only; fixtures in `config/test_data.json`, data-driven,
+  no literals). The 41-test figure earlier in this branch's history was the
+  Phase-0-only count before Phase 1 + the ratings-only page were added.
 - **Data integrity:** `MANIFEST.json` — 53 editions, 0 checksum/count errors.
 - **Independent recomputation:** Sinner 2021 = +8, Sinner 2021–2024 = +34, full
   2021 leaderboard, per-year ratings — all re-derived with a separate plain-python

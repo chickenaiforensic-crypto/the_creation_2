@@ -57,12 +57,12 @@ def _rate_match(match: Mapping, adapter, f: dict) -> dict:
     """Build the report row for one selected match (rated or refused)."""
     sets = adapter.extract_sets(match)
     base = {
-        "date": match.get("date"),
+        "date": match.get(f["date"]),
         "tournament": match.get(f["tournament"]),
         "tour": match.get(f["tour"]),
         "tier": match.get(f["tier"]),
         "year": match.get(f["edition_year"]),
-        "round": match.get("round"),
+        "round": match.get(f["round"]),
         "player_a": match.get(f["player_a"]),
         "player_b": match.get(f["player_b"]),
         "score": match.get(f["score"]),

@@ -7,6 +7,8 @@ Endpoints:
   GET /api/ui              -> ui_manifest()
   GET /api/options         -> player_options()
   GET /api/matchup?a=..&b=..&tournaments=..&years=..&tours=..&from=.. -> matchup_report()
+  GET /api/performance?a=..&b=..&tournaments=..&years=..&tours=.. -> performance_report()
+  GET /api/ratings?player=..&tournaments=..&years_from=..&years_to=.. -> ratings_report()
 
 All labels/options come from config via the api module — no frontend-side
 hardcoding; app.js reads the manifest from /api/ui and renders from it.
@@ -23,9 +25,24 @@ from urllib.parse import parse_qs, urlparse
 ENGINE_ROOT = Path(__file__).resolve().parents[2]  # engine/
 sys.path.insert(0, str(ENGINE_ROOT))
 
-from sport_engine.ui.api import matchup_report, performance_report, player_options, ui_manifest  # noqa: E402
+from sport_engine.ui.api import (  # noqa: E402
+    matchup_report,
+    performance_report,
+    player_options,
+    ratings_report,
+    ui_manifest,
+)
 
 FRONTEND = Path(__file__).resolve().parent / "frontend"
+
+
+def _csv(values) -> list:
+    """Split comma-joined query values into a flat list (the frontend joins
+    multi-select controls with commas; parse_qs keeps them as single items)."""
+    out: list = []
+    for v in values:
+        out.extend(p.strip() for p in v.split(",") if p.strip())
+    return out
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -56,9 +73,11 @@ class Handler(BaseHTTPRequestHandler):
                 if not a or not b:
                     self._send(400, b'{"error":"a and b are required"}', "application/json")
                     return
-                tours = q.get("tours", []) or []
-                tournaments = q.get("tournaments", []) or []
-                years = q.get("years", []) or []
+                tours = _csv(q.get("tours", []))
+                tournaments = _csv(q.get("tournaments", []))
+                years = _csv(q.get("years", []))
+                mute_years = _csv(q.get("mute_years", []))
+                mute_tournaments = _csv(q.get("mute_tournaments", []))
                 from_date = (q.get("from") or [None])[0]
                 years_from = (q.get("years_from") or [None])[0]
                 years_to = (q.get("years_to") or [None])[0]
@@ -73,6 +92,8 @@ class Handler(BaseHTTPRequestHandler):
                             from_date=from_date,
                             years_from=years_from,
                             years_to=years_to,
+                            mute_years=mute_years,
+                            mute_tournaments=mute_tournaments,
                         )
                     )
                 except Exception as exc:  # surface engine errors to the UI
@@ -84,9 +105,11 @@ class Handler(BaseHTTPRequestHandler):
                 if not a or not b:
                     self._send(400, b'{"error":"a and b are required"}', "application/json")
                     return
-                tours = q.get("tours", []) or []
-                tournaments = q.get("tournaments", []) or []
-                years = q.get("years", []) or []
+                tours = _csv(q.get("tours", []))
+                tournaments = _csv(q.get("tournaments", []))
+                years = _csv(q.get("years", []))
+                mute_years = _csv(q.get("mute_years", []))
+                mute_tournaments = _csv(q.get("mute_tournaments", []))
                 years_from = (q.get("years_from") or [None])[0]
                 years_to = (q.get("years_to") or [None])[0]
                 try:
@@ -99,6 +122,36 @@ class Handler(BaseHTTPRequestHandler):
                             tours=tours,
                             years_from=years_from,
                             years_to=years_to,
+                            mute_years=mute_years,
+                            mute_tournaments=mute_tournaments,
+                        )
+                    )
+                except Exception as exc:  # surface engine errors to the UI
+                    self._send(500, json.dumps({"error": str(exc)}).encode(), "application/json")
+            elif path == "/api/ratings":
+                q = parse_qs(parsed.query)
+                player = (q.get("player") or [""])[0]
+                if not player:
+                    self._send(400, b'{"error":"player is required"}', "application/json")
+                    return
+                tours = _csv(q.get("tours", []))
+                tournaments = _csv(q.get("tournaments", []))
+                years = _csv(q.get("years", []))
+                mute_years = _csv(q.get("mute_years", []))
+                mute_tournaments = _csv(q.get("mute_tournaments", []))
+                years_from = (q.get("years_from") or [None])[0]
+                years_to = (q.get("years_to") or [None])[0]
+                try:
+                    self._json(
+                        ratings_report(
+                            player=player,
+                            tournaments=tournaments,
+                            years=years,
+                            tours=tours,
+                            years_from=years_from,
+                            years_to=years_to,
+                            mute_years=mute_years,
+                            mute_tournaments=mute_tournaments,
                         )
                     )
                 except Exception as exc:  # surface engine errors to the UI

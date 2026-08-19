@@ -1,0 +1,6 @@
+{
+  "description": "Ratings-only metric definition — a player's rating is the ACCUMULATION of their own Phase 0 points per match, WITHOUT subtracting the opponent's points. This is distinct from the Phase 0 delta rating (pA = totalA - totalB); here the metric is totalA alone, summed over the player's rated matches in the selected tournament scope and year period. Values here, never in code.",
+  "method": "points_accumulation",
+  "subtract_opponent": false,
+  "basis": "phase0_points"
+}

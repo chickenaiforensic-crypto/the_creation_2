@@ -7,6 +7,7 @@
   "tabs": {
     "dashboard": "Dashboard",
     "configurations": "Configurations",
+    "ratings": "Ratings",
     "system_configurations_label": "System configurations",
     "engine_parameters_label": "Engine parameters"
   },
@@ -19,7 +20,8 @@
     "select_prefix": "— select",
     "search_placeholder": "Type to search players",
     "swap_label": "Swap",
-    "swap_title": "Swap A and B"
+    "swap_title": "Swap A and B",
+    "team_vs_title": "Team A vs Team B"
   },
   "tournament_filter": {
     "label": "Tournament filter",
@@ -37,11 +39,36 @@
     "from_year_label": "From year",
     "to_year_label": "To year",
     "default_from_year": "2021",
-    "default_to_year": "2025"
+    "default_to_year": "2025",
+    "no_data_text": "No data — one or both players have no rated matches in the selected scope."
+  },
+  "ratings": {
+    "title": "Ratings",
+    "subtitle": "Accumulated match points — no opponent subtraction",
+    "player_label": "Player",
+    "tournament_label": "Tournament",
+    "year_from_label": "From year",
+    "year_to_label": "To year",
+    "total_label": "Rating (accumulated points)",
+    "matches_label": "Matches rated",
+    "per_year_label": "Points by year",
+    "per_tournament_label": "Points by tournament",
+    "breakdown_title": "Match breakdown (chronological)",
+    "no_data_text": "No rated matches for this player in the selected scope.",
+    "columns": {
+      "date": "Date",
+      "tournament": "Tournament",
+      "year": "Year",
+      "round": "Round",
+      "opponent": "Opponent",
+      "score": "Score",
+      "points": "Points"
+    }
   },
   "h2h": {
     "title": "H2H Analysis",
     "summary_label": "Net H2H balance",
+    "system_rating_prefix": "H2H ",
     "percentage_label": "H2H percentage (direct encounters)",
     "drilldown_icon_label": "Open H2H drill-down",
     "drilldown_button_label": "H2H drill-down",
@@ -73,7 +100,13 @@
     "label": "Mute",
     "mute_years_label": "Mute years",
     "mute_tournaments_label": "Mute tournaments",
-    "mute_tours_label": "Mute tours"
+    "tours_label": "Tours (ATP / WTA)"
+  },
+  "parameters_labels": {
+    "points_per_game_difference": "Points per game difference",
+    "feed_tournaments": "Feed tournaments",
+    "sports_exposed": "Sports exposed",
+    "development_lock": "Development lock"
   },
   "placeholders": {
     "select_sport": "Select a sport to begin.",

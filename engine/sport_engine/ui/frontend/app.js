@@ -9,14 +9,19 @@ const state = {
   manifest: null,
   playerA: "",
   playerB: "",
-  tournaments: [],
-  years: [],
+  muteTournaments: [],
+  muteYears: [],
   tours: [],
   tournamentFilter: "",
   fromDate: "",
   yearsFrom: "",
   yearsTo: "",
   data: null,
+  ratingsPlayer: "",
+  ratingsTournament: "",
+  ratingsFrom: "",
+  ratingsTo: "",
+  ratingsData: null,
 };
 
 const $ = (sel) => document.querySelector(sel);
@@ -158,7 +163,7 @@ function renderMatchupSelector(m) {
   const bLabel = isTennis ? labels.b_label : labels.team_label;
 
   const panel = el("div", { class: "panel" });
-  panel.appendChild(el("h2", { text: isTennis ? aLabel + " vs " + bLabel : "Team A vs Team B" }));
+  panel.appendChild(el("h2", { text: isTennis ? aLabel + " vs " + bLabel : m.matchup_selector.team_vs_title }));
 
   const row = el("div", { class: "matchup-selector" });
   const sideA = searchablePlayerInput(m, "A");
@@ -204,8 +209,8 @@ function renderRatingPanel(m) {
     const h2hStr = (p) => (p.h2h.matches === 0 ? "—" : (p.h2h.game_difference > 0 ? "+" : "") + p.h2h.game_difference);
     grid.appendChild(stat(pa.player, ratingStr(pa), ratingCls(pa.system_rating.rating)));
     grid.appendChild(stat(pb.player, ratingStr(pb), ratingCls(pb.system_rating.rating)));
-    grid.appendChild(stat("H2H " + pa.player, h2hStr(pa), ratingCls(pa.h2h.game_difference)));
-    grid.appendChild(stat("H2H " + pb.player, h2hStr(pb), ratingCls(pb.h2h.game_difference)));
+    grid.appendChild(stat(m.h2h_ui.system_rating_prefix + pa.player, h2hStr(pa), ratingCls(pa.h2h.game_difference)));
+    grid.appendChild(stat(m.h2h_ui.system_rating_prefix + pb.player, h2hStr(pb), ratingCls(pb.h2h.game_difference)));
   } else {
     grid.appendChild(el("div", { class: "empty", text: m.placeholders.select_players_rating }));
   }
@@ -216,7 +221,7 @@ function renderRatingPanel(m) {
       el("div", { class: "k", text: m.ratings_percentage.label + " (" + (state.yearsFrom || "—") + "–" + (state.yearsTo || "—") + ")" }),
     ]);
     if (rp.no_data || rp.pA_pct === null) {
-      pct.appendChild(el("div", { class: "empty", text: "No data — one or both players have no rated matches in the selected scope." }));
+      pct.appendChild(el("div", { class: "empty", text: m.ratings_percentage.no_data_text }));
     } else {
       pct.appendChild(el("div", { class: "pct-row" }, [
         el("span", { class: "pct-a", text: state.data.players.player_a.player + " " + rp.pA_pct + "%" }),
@@ -339,21 +344,21 @@ function renderConfigurations(m) {
   rowY.appendChild(el("label", { text: m.mute_ui.mute_years_label }));
   const selY = el("select", {
     multiple: true,
-    onchange: (e) => { state.years = [...e.target.selectedOptions].map((o) => o.value); loadMatchup(); },
-  }, selectOptions(m.options.years, state.years));
+    onchange: (e) => { state.muteYears = [...e.target.selectedOptions].map((o) => o.value); loadMatchup(); },
+  }, selectOptions(m.options.years, state.muteYears));
   rowY.appendChild(selY);
   mutePanel.appendChild(rowY);
   const rowT = el("div", { class: "row" });
   rowT.appendChild(el("label", { text: m.mute_ui.mute_tournaments_label }));
   const selT = el("select", {
     multiple: true,
-    onchange: (e) => { state.tournaments = [...e.target.selectedOptions].map((o) => o.value); loadMatchup(); },
-  }, selectOptions(m.options.tournaments, state.tournaments));
+    onchange: (e) => { state.muteTournaments = [...e.target.selectedOptions].map((o) => o.value); loadMatchup(); },
+  }, selectOptions(m.options.tournaments, state.muteTournaments));
   rowT.appendChild(selT);
   mutePanel.appendChild(rowT);
   if (m.options.tours.length > 1) {
     const rowR = el("div", { class: "row" });
-    rowR.appendChild(el("label", { text: m.mute_ui.mute_tours_label }));
+    rowR.appendChild(el("label", { text: m.mute_ui.tours_label }));
     const selR = el("select", {
       multiple: true,
       onchange: (e) => { state.tours = [...e.target.selectedOptions].map((o) => o.value); loadMatchup(); },
@@ -387,11 +392,12 @@ function renderConfigurations(m) {
   const paramsPanel = el("div", { class: "panel" });
   paramsPanel.appendChild(el("h2", { text: m.configurations.engine_parameters_label }));
   const params = m.configurations.engine_parameters;
+  const labels = m.parameters_labels;
   const grid = el("div", { class: "stat-grid" });
-  grid.appendChild(stat("Points per game difference", params.points_per_game_difference));
-  grid.appendChild(stat("Feed tournaments", params.feed_tournaments.join(", ") || "—"));
-  grid.appendChild(stat("Sports exposed", params.sports_exposed.join(", ")));
-  grid.appendChild(stat("Development lock", params.development_lock_rule));
+  grid.appendChild(stat(labels.points_per_game_difference, params.points_per_game_difference));
+  grid.appendChild(stat(labels.feed_tournaments, params.feed_tournaments.join(", ") || "—"));
+  grid.appendChild(stat(labels.sports_exposed, params.sports_exposed.join(", ")));
+  grid.appendChild(stat(labels.development_lock, params.development_lock_rule));
   paramsPanel.appendChild(grid);
   app.appendChild(paramsPanel);
 }
@@ -405,6 +411,8 @@ function render() {
   renderTabs(m);
   if (state.tab === "configurations") {
     renderConfigurations(m);
+  } else if (state.tab === "ratings") {
+    renderRatings(m);
   } else {
     renderDashboard(m);
   }
@@ -499,13 +507,132 @@ function renderPerformancePanel(m) {
   return panel;
 }
 
+function singlePlayerInput(m) {
+  const wrapper = el("div", { class: "side" });
+  wrapper.appendChild(el("label", { text: m.ratings.player_label }));
+  const input = el("input", {
+    type: "text",
+    list: "ratings-players-list",
+    placeholder: m.matchup_selector.search_placeholder,
+    value: state.ratingsPlayer,
+  });
+  const datalist = el("datalist", { id: "ratings-players-list" });
+  for (const p of m.options.players) datalist.appendChild(el("option", { value: p }));
+  wrapper.appendChild(input);
+  wrapper.appendChild(datalist);
+  input.addEventListener("change", () => {
+    const val = input.value.trim();
+    if (!m.options.players.includes(val)) return;
+    state.ratingsPlayer = val;
+    loadRatings();
+  });
+  return wrapper;
+}
+
+function buildRatingsTable(headers, rows) {
+  const table = el("table", {});
+  const thead = el("thead", {});
+  const hr = el("tr", {});
+  for (const h of headers) hr.appendChild(el("th", { text: h }));
+  thead.appendChild(hr);
+  table.appendChild(thead);
+  const tbody = el("tbody", {});
+  for (const r of rows) {
+    const tr = el("tr", {});
+    for (const c of r) {
+      tr.appendChild(el("td", { class: typeof c === "number" ? "num" : "", text: "" + c }));
+    }
+    tbody.appendChild(tr);
+  }
+  table.appendChild(tbody);
+  return table;
+}
+
+function renderRatings(m) {
+  const app = $("#app");
+  const ui = m.ratings;
+
+  const panel = el("div", { class: "panel" });
+  panel.appendChild(el("h2", { text: ui.title }));
+  panel.appendChild(el("p", { class: "muted", text: ui.subtitle }));
+
+  const row = el("div", { class: "matchup-selector" });
+  row.appendChild(singlePlayerInput(m));
+  const tWrap = el("div", { class: "side" });
+  tWrap.appendChild(el("label", { text: ui.tournament_label }));
+  tWrap.appendChild(el("select", {
+    onchange: (e) => { state.ratingsTournament = e.target.value; loadRatings(); },
+  }, selectOptions(m.all_tournaments, state.ratingsTournament ? [state.ratingsTournament] : [], m.tournament_filter.all_option)));
+  row.appendChild(tWrap);
+  panel.appendChild(row);
+
+  const rangeRow = el("div", { class: "row-inline" });
+  const fromWrap = el("div", { class: "row" });
+  fromWrap.appendChild(el("label", { text: ui.year_from_label }));
+  fromWrap.appendChild(el("select", {
+    onchange: (e) => { state.ratingsFrom = e.target.value; loadRatings(); },
+  }, selectOptions(m.options.years, [state.ratingsFrom])));
+  const toWrap = el("div", { class: "row" });
+  toWrap.appendChild(el("label", { text: ui.year_to_label }));
+  toWrap.appendChild(el("select", {
+    onchange: (e) => { state.ratingsTo = e.target.value; loadRatings(); },
+  }, selectOptions(m.options.years, [state.ratingsTo])));
+  rangeRow.appendChild(fromWrap);
+  rangeRow.appendChild(toWrap);
+  panel.appendChild(rangeRow);
+  app.appendChild(panel);
+
+  const d = state.ratingsData;
+  const result = el("div", { class: "panel" });
+  if (!d) {
+    result.appendChild(el("div", { class: "empty", text: m.placeholders.select_players_rating }));
+  } else if (d.matches_rated === 0) {
+    result.appendChild(el("div", { class: "empty", text: ui.no_data_text }));
+  } else {
+    const grid = el("div", { class: "stat-grid" });
+    grid.appendChild(stat(ui.total_label, d.rating));
+    grid.appendChild(stat(ui.matches_label, d.matches_rated));
+    result.appendChild(grid);
+    result.appendChild(el("div", { class: "drilldown-title", text: ui.per_year_label }));
+    result.appendChild(buildRatingsTable(
+      [ui.columns.year, ui.columns.points, ui.columns.matches],
+      d.per_year.map((r) => [r.year, r.points, r.matches])
+    ));
+    result.appendChild(el("div", { class: "drilldown-title", text: ui.per_tournament_label }));
+    result.appendChild(buildRatingsTable(
+      [ui.columns.tournament, ui.columns.points, ui.columns.matches],
+      d.per_tournament.map((r) => [r.tournament, r.points, r.matches])
+    ));
+    result.appendChild(el("div", { class: "drilldown-title", text: ui.breakdown_title }));
+    result.appendChild(buildRatingsTable(
+      [ui.columns.date, ui.columns.round, ui.columns.opponent, ui.columns.score, ui.columns.points],
+      d.matches.map((r) => [r.date || "—", r.round || "—", r.opponent, r.score || "—", r.points])
+    ));
+  }
+  app.appendChild(result);
+}
+
+async function loadRatings() {
+  if (!state.ratingsPlayer) return;
+  const q = new URLSearchParams({ player: state.ratingsPlayer });
+  if (state.ratingsTournament) q.set("tournaments", state.ratingsTournament);
+  if (state.ratingsFrom) q.set("years_from", state.ratingsFrom);
+  if (state.ratingsTo) q.set("years_to", state.ratingsTo);
+  try {
+    state.ratingsData = await api("/api/ratings?" + q.toString());
+  } catch (e) {
+    state.ratingsData = { error: e.message, matches_rated: 0 };
+  }
+  render();
+}
+
 async function loadMatchup() {
   if (!state.playerA || !state.playerB) return;
   const q = new URLSearchParams({ a: state.playerA, b: state.playerB });
-  if (state.years.length) q.set("years", state.years.join(","));
-  const tourneyFilter = state.tournamentFilter || state.tournaments.join(",");
-  if (tourneyFilter) q.set("tournaments", tourneyFilter);
+  if (state.tournamentFilter) q.set("tournaments", state.tournamentFilter);
   if (state.tours.length) q.set("tours", state.tours.join(","));
+  if (state.muteYears.length) q.set("mute_years", state.muteYears.join(","));
+  if (state.muteTournaments.length) q.set("mute_tournaments", state.muteTournaments.join(","));
   if (state.fromDate) q.set("from", state.fromDate);
   if (state.yearsFrom) q.set("years_from", state.yearsFrom);
   if (state.yearsTo) q.set("years_to", state.yearsTo);

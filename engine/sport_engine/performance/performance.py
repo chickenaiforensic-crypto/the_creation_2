@@ -116,6 +116,7 @@ def tournament_performance(
     tours: List[str],
     window: int,
     system_ratings: dict,
+    mutes: Optional[Mutes] = None,
 ) -> dict:
     """Per-tournament performance for one player (intramural windows only)."""
     cfg = load_config("compute")
@@ -135,6 +136,8 @@ def tournament_performance(
             continue
         for match in edition[mschema["edition_file_matches"]]:
             if tours and match.get(f["tour"]) not in tours:
+                continue
+            if mutes is not None and mutes.applies(match, f):
                 continue
             if match.get(f["player_a"]) == player or match.get(f["player_b"]) == player:
                 per_tournament[tournament].append(match)
@@ -178,21 +181,24 @@ def run_performance(
     tournaments: Optional[List[str]] = None,
     years: Optional[List[str]] = None,
     tours: Optional[List[str]] = None,
+    mutes: Optional[Mutes] = None,
 ) -> dict:
     """Tournament Performance for one player over the selected context.
 
     System ratings are the absolute Phase 0 ratings computed over the same
     selected context (filters), so the baseline uses the system's own absolute
-    ratings (e.g. a 73 pt player vs a -8 pt player).
+    ratings (e.g. a 73 pt player vs a -8 pt player). mutes exclude designated
+    years/tournaments from both the baseline ratings and the window matches.
     """
     pcfg = load_config("performance")
     window = int(pcfg["window_size"])
     filters = Filters(tournaments=tournaments or [], years=years or [], tours=tours or [])
-    rating_report = compute_ratings(filters=filters, mutes=Mutes())
+    mutes = mutes or Mutes()
+    rating_report = compute_ratings(filters=filters, mutes=mutes)
     system_ratings = {p["player"]: float(p["rating"]) for p in rating_report["players"]}
 
     results = tournament_performance(
-        player, tournaments or [], years or [], tours or [], window, system_ratings
+        player, tournaments or [], years or [], tours or [], window, system_ratings, mutes
     )
 
     return {

@@ -18,6 +18,7 @@ engine/
 │   ├── compute.json        # data root, manifest file, feed scope, default mutes
 │   ├── manifest_schema.json# MANIFEST.json + edition-file field names
 │   ├── position_rules.json # round → actual position/label mapping
+│   ├── ratings.json        # ratings-only metric (accumulated points, no subtraction)
 │   └── test_data.json      # test fixtures + expected outcomes
 ├── reports/                # engine-rendered outputs
 │   ├── ratings_table_cincinnati_masters_2021.md
@@ -33,6 +34,8 @@ engine/
 │   │   └── football.py     # STUB — football phase not specified yet
 │   ├── rating/
 │   │   └── phase0.py       # Phase 0 match-rating math (sport-agnostic)
+│   ├── ratings/
+│   │   └── ratings.py      # ratings-only: accumulated points, no subtraction
 │   └── compute/
 │       ├── __init__.py
 │       ├── selection.py    # Filters + Mutes (pure selection logic)
@@ -45,6 +48,7 @@ engine/
     ├── test_tennis_adapter.py
     ├── test_config.py
     ├── test_compute.py
+    ├── test_ratings.py
     └── test_ratings_table.py
 ```
 
@@ -57,6 +61,7 @@ engine/
 | Ratings table view — per-year tournament tables + selectable filters | IMPLEMENTED + tests green (2026-08-19) |
 | Phase 1 — Head-to-Head (H2H) module | IMPLEMENTED + tests green (2026-08-19) |
 | Phase 1 SaaS UI presentation layer (zero-hardcoded) | IMPLEMENTED — live dev server (2026-08-19) |
+| Ratings-only page (accumulated points, no opponent subtraction) | IMPLEMENTED + tests green (2026-08-20) |
 | Football mapping | NOT SPECIFIED — adapter stubbed, raises NotImplementedError |
 | Rating accumulation (career/season) | NOT SPECIFIED — later phase |
 | UI-facing outputs | NOT SPECIFIED — later phase |
@@ -214,6 +219,25 @@ driven by `config/ui.json`, `config/sports.json`, and live engine data).
 - **Tour filter (approved):** US Open ATP/WTA are now selectable separately via
   the `tours` filter (e.g. `tours=ATP` vs `tours=WTA`), since both share the
   tournament name "US Open" and differ only by the `tour` field.
+
+## Ratings-only page (Director spec, 2026-08-20)
+
+New **Ratings** tab + `GET /api/ratings?player=..&tournaments=..&years_from=..&years_to=..`.
+A player's rating here is the **accumulation of their own Phase 0 points per match,
+WITHOUT subtracting the opponent's points** — a distinct metric from the Phase 0
+delta rating (`pA = totalA − totalB`). The metric definition lives in
+`config/ratings.json` (`method: points_accumulation`, `subtract_opponent: false`).
+
+- **Filters:** select a tournament (single, from the full dataset — or the feed
+  default), a player, and a year or year period (`years_from` / `years_to`, the
+  "which tournament / which year or year period" configuration). Optional `tours`,
+  `mute_years`, `mute_tournaments` apply as elsewhere.
+- **Output:** total rating, matches rated, points by year, points by tournament,
+  and a chronological per-match breakdown (date, round, opponent, score, points).
+- **Subsystem:** `sport_engine/ratings/ratings.py` (`run_ratings`) — reuses the
+  manifest-verified loader + Filters/Mutes selection + live `compute_ratings`;
+  aggregates only the player's own points, never reads opponents' points or the
+  delta.
 
 ## Phase 0 — match rating (Director spec, 2026-08-19)
 

@@ -17,11 +17,12 @@ from typing import List, Optional
 
 from sport_engine.compute.compute import compute_ratings
 from sport_engine.compute.data_source import load_editions
-from sport_engine.compute.selection import Filters, Mutes
+from sport_engine.compute.selection import Filters, Mutes, year_range
 from sport_engine.config import load_config
 from sport_engine.convert.ratio import ratio_lock
 from sport_engine.h2h.h2h import run_h2h
 from sport_engine.performance.performance import run_performance
+from sport_engine.ratings.ratings import run_ratings
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 
@@ -98,9 +99,11 @@ def ui_manifest() -> dict:
         },
         "system_rating_label": ui["system_rating_label"],
         "ratings_percentage": ui["ratings_percentage"],
+        "ratings": ui["ratings"],
         "h2h_ui": ui["h2h"],
         "performance": ui["performance"],
         "mute_ui": ui["mute"],
+        "parameters_labels": ui["parameters_labels"],
         "placeholders": ui["placeholders"],
         "options": options,
         "feed": {"tournaments": list(feed_filters.tournaments)},
@@ -136,6 +139,8 @@ def performance_report(
     tours: Optional[List[str]] = None,
     years_from: Optional[str] = None,
     years_to: Optional[str] = None,
+    mute_years: Optional[List[str]] = None,
+    mute_tournaments: Optional[List[str]] = None,
 ) -> dict:
     """Tournament Performance (3rd UI layer) for both players over the selected
     context — per-tournament 5-match windows, intramural, absolute rating basis,
@@ -144,9 +149,14 @@ def performance_report(
     players' total window points become a 100% split (independent sectional
     output)."""
     ui = load_config("ui")
-    range_years = _year_range(years_from, years_to)
-    pa = run_performance(player_a, tournaments, range_years or years, tours)
-    pb = run_performance(player_b, tournaments, range_years or years, tours)
+    range_years = year_range(
+        years_from, years_to,
+        ui["ratings_percentage"]["default_from_year"], ui["ratings_percentage"]["default_to_year"],
+    )
+    mutes = Mutes(mute_years=mute_years or [], mute_tournaments=mute_tournaments or [])
+    eff_years = range_years or (list(years) if years else [])
+    pa = run_performance(player_a, tournaments, eff_years, tours, mutes)
+    pb = run_performance(player_b, tournaments, eff_years, tours, mutes)
 
     def window_points(perf) -> dict:
         out = {}
@@ -181,16 +191,35 @@ def performance_report(
     }
 
 
-def _year_range(years_from: Optional[str], years_to: Optional[str]) -> List[str]:
-    """Resolve a year range into a year list (inclusive). Empty when neither
-    bound is given (the full dataset, default 2021-2025)."""
-    if not years_from and not years_to:
-        return []
-    lo = int(years_from) if years_from else 2021
-    hi = int(years_to) if years_to else 2025
-    if hi < lo:
-        lo, hi = hi, lo
-    return [str(y) for y in range(lo, hi + 1)]
+def ratings_report(
+    player: str,
+    tournaments: Optional[List[str]] = None,
+    years: Optional[List[str]] = None,
+    tours: Optional[List[str]] = None,
+    years_from: Optional[str] = None,
+    years_to: Optional[str] = None,
+    mute_years: Optional[List[str]] = None,
+    mute_tournaments: Optional[List[str]] = None,
+) -> dict:
+    """Ratings-only view (accumulated Phase 0 points, no opponent subtraction)
+    for one player over a selected tournament scope + year (or year period).
+
+    filters: tournaments/years/tours + years_from/years_to (year period) select
+    the scope; mute_years/mute_tournaments EXCLUDE designated years/tournaments
+    (engine Mutes)."""
+    ui = load_config("ui")
+    mutes = Mutes(mute_years=mute_years or [], mute_tournaments=mute_tournaments or [])
+    result = run_ratings(
+        player,
+        tournaments=tournaments,
+        years=years,
+        tours=tours,
+        years_from=years_from,
+        years_to=years_to,
+        mutes=mutes,
+    )
+    result["ui"] = ui["ratings"]
+    return result
 
 
 def matchup_report(
@@ -202,23 +231,33 @@ def matchup_report(
     from_date: Optional[str] = None,
     years_from: Optional[str] = None,
     years_to: Optional[str] = None,
+    mute_years: Optional[List[str]] = None,
+    mute_tournaments: Optional[List[str]] = None,
 ) -> dict:
     """H2H + ratings + prediction-vector state for a player matchup.
 
     filters: tournaments/years/tours select the context; from_date bounds the
     H2H encounter history (date boundary); years_from/years_to select the
-    RATINGS range (default: the full dataset, 2021-2025). Prediction vector is
-    zeroed until the predictive module is built (placeholder state per spec).
+    RATINGS range (default: the full dataset, 2021-2025); mute_years /
+    mute_tournaments EXCLUDE designated years/tournaments from computation
+    (engine Mutes). Prediction vector is zeroed until the predictive module is
+    built (placeholder state per spec).
     """
     ui = load_config("ui")
-    range_years = _year_range(years_from, years_to)
+    range_years = year_range(
+        years_from, years_to,
+        ui["ratings_percentage"]["default_from_year"], ui["ratings_percentage"]["default_to_year"],
+    )
+    # An explicit `years` list (caller) wins over the ratings range; otherwise
+    # the ratings range selects the year scope (default: full dataset).
+    effective_years = list(years) if years else range_years
     filters = Filters(
         players=[player_a, player_b],
         tournaments=tournaments or [],
-        years=range_years,
+        years=effective_years,
         tours=tours or [],
     )
-    mutes = Mutes()
+    mutes = Mutes(mute_years=mute_years or [], mute_tournaments=mute_tournaments or [])
     report = run_h2h(filters=filters, mutes=mutes)
     rating_report = compute_ratings(filters=filters, mutes=mutes)
 
@@ -328,6 +367,7 @@ def matchup_report(
             "tours": list(filters.tours),
             "from_date": from_date,
             "ratings_range": {"from": years_from, "to": years_to},
+            "mutes": mutes.as_dict(),
         },
         "ratings_percentage": ratings_percentage,
         "prediction_vector": {

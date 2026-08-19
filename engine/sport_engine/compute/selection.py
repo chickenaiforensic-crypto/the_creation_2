@@ -9,7 +9,28 @@ designated year or tournament we want from the systems output results" — Direc
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Iterable, Mapping, Tuple
+from typing import Iterable, List, Mapping, Optional, Tuple
+
+
+def year_range(
+    years_from: Optional[str] = None,
+    years_to: Optional[str] = None,
+    default_from: str = "2021",
+    default_to: str = "2025",
+) -> List[str]:
+    """Resolve a (from, to) year period into an inclusive year list.
+
+    Empty when neither bound is given (the caller then means "all years").
+    The fallback bounds come from config (ui.json ratings defaults); a single
+    given bound uses the other side's default. Swaps if the range is reversed.
+    """
+    if not years_from and not years_to:
+        return []
+    lo = int(years_from) if years_from else int(default_from)
+    hi = int(years_to) if years_to else int(default_to)
+    if hi < lo:
+        lo, hi = hi, lo
+    return [str(y) for y in range(lo, hi + 1)]
 
 
 @dataclass(frozen=True)
