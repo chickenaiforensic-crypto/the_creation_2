@@ -109,9 +109,10 @@ your delivery; do not block on it.
 
 ## Out of scope (queued, not forgotten)
 
-- `J.J. Wolf` Rule-1 flag (AO 2024 row — outside the WTA Cincinnati slice):
-  queued for a separate Admin ruling.
-- Anything outside Cincinnati WTA 1000, 2021–2025.
+- ~~`J.J. Wolf` Rule-1 flag (AO 2024 row — outside the WTA Cincinnati slice):
+  queued for a separate Admin ruling.~~ **AMENDED — see Amendment 1: name fixes
+  are IN scope per Admin.**
+- Anything outside Cincinnati WTA 1000, 2021–2025 (except as Amendment 1 specifies).
 
 ## Deliverable
 
@@ -128,3 +129,48 @@ least one external re-check per year (Rule 7).
 ---
 
 **Sign-off — Role: Director 1 · Branch ID: `arena/01a01588-the-creation-2`**
+
+---
+
+## AMENDMENT 1 (2026-08-19, Admin clarification)
+
+**Admin:** "this is the auditors branch [arena/01a015bb-the-creation-2] and
+that's where pull files from Claude_1 will be fixed. J.J is not out of scope
+as there's a doc requiring proper name fixes."
+
+**A1.1 — Fix location confirmed.** The fix workspace IS your branch
+`arena/01a015bb-the-creation-2`. Flow: **pull the source files from `claude_1`
+→ fix them in your `data/tennis/editions/` workspace** per DATA-RULES. The
+HANDOFF-07 "Location of fixes" section stands as written; this amendment makes
+the pull-from-claude_1 flow explicit.
+
+**A1.2 — Name fixes are IN scope (Rule 1).** The `J.J. Wolf` initials violate
+DATA-RULES Rule 1. Execute:
+
+1. **Adjudicate the canonical table entry first** — `player_canonical_names.json`
+   on your branch (and in the claude_1 pull) currently holds
+   `canonical_full_name: "J.J. Wolf"` (`differs: true` vs store's "J J Wolf").
+   The table's canonical field itself violates Rule 1 and must be corrected as
+   part of this work. Resolve the full name from an official/checkable source
+   (ATP player bio, Wikipedia, or ITF profile — Rule 1's allowed references;
+   the full legal name is expected to be "Jeffrey John Wolf" — **do not write
+   it unsourced**). Record the source in the table entry's evidence fields and
+   update `canonical_full_name` + `store_v3_spelling`-reconciliation consistently.
+2. **Apply to the pulled Cincinnati files** — the name appears in 2 rows of the
+   Cincinnati pulls: `Cincinnati Masters` 2022 R64 (Ruusuvuori v Wolf) and
+   2023 R64 (de Minaur v Wolf), both ATP-side. Fix the player name in those
+   rows, same adjudicated spelling, same source cited in per-row provenance.
+3. **Scan every pulled file for further Rule-1 violations** (initial-pattern
+   scan). Legitimate particles are NOT violations and must not be "fixed" —
+   e.g. `Christopher O'Connell` is a false positive of naive initial-scans
+   (Rule 1 explicitly protects particles; "O'" is one).
+4. **Census (Director byte-verified, claude_1 store):** `J.J. Wolf` appears in
+   ~58 further rows store-wide (33 tournament-editions) beyond the 2 Cincinnati
+   rows; the canonical table entry affects all of them. Those rows are
+   **queued, not forgotten**: fix them in this task only if they fall inside
+   files you pull; otherwise list them in your report's queued section for a
+   follow-up sweep (the Director will order it if Admin wants the full-store
+   sweep now).
+
+**A1.3 — Disposition rule unchanged.** FIXED = sourced full name written;
+OPEN = source not found, gap documented. Never write an unsourced name.
