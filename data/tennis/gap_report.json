@@ -1,10 +1,10 @@
 {
   "description": "Gap report for the 20 closed_verified tennis editions migrated to this branch. Produced via round-transition ghost detection (R32-onward, byefree per validated M1000 method in phase1-audit/WORKORDER_Phase1_DrawSize_Gap_Audit.md Phase 1B). A gap = a player appearing in round N+1 with no traceable win recorded in round N within the same edition file.",
   "method": "For each edition, for each transition in [R32->R16, R16->QF, QF->SF, SF->F]: collect all playerA/playerB in round N+1; collect all winners (resolved via winner field + playerA/playerB) in round N; any round-N+1 participant absent from round-N winners is a gap. R64->R32 excluded uniformly (bye-affected at this draw depth, not a genuine gap) per the same exclusion applied to M1000 in Phase 1B.",
-  "editions_checked": 74,
-  "editions_clean": 74,
+  "editions_checked": 78,
+  "editions_clean": 78,
   "editions_with_gaps": 0,
-  "total_gap_instances": 91,
+  "total_gap_instances": 94,
   "gaps": [
     {
       "tournament": "Rotterdam",
@@ -1097,9 +1097,45 @@
       "file_path": "editions/Stockholm/2025.json",
       "status": "closed",
       "resolution": "TE Stockholm 2025: 18.10 14:45 SF Humbert (4) d. Rune (1) 4-6 2-2, S 1-0 = Rune retired at 2-2 in set 2 while a set up - TORN LEFT ACHILLES (id 3048178). Corroborated: ATP Tour official 'forced to retire at 2-2 in the second set... helped off court'; stockholmopen.se; 10sballs/Tennis TV 'retires due to injury at 6-4 2-2'. Fourth dropped SEMIFINAL restored by this program; loser-was-leading stored truthfully (setsA 0, setsB 1). Added row: Ugo Humbert d. Holger Rune 4-6 2-2 (retired), date 2025-10-18. Source: https://www.atptour.com/en/news/rune-stockholm-2025-injury-update"
+    },
+    {
+      "tournament": "Basel",
+      "tour": "ATP",
+      "year": "2024",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Botic van de Zandschulp",
+      "gap_id": "BA001",
+      "folder": "Basel",
+      "file_path": "editions/Basel/2024.json",
+      "status": "closed",
+      "resolution": "TE Basel 2024: 22.10 15:35 1R Van De Zandschulp d. Bublik 3-6 6-4 4-0, S 1-0 = Bublik retired down 0-4 in set 3 (id 2749999). Corroborated: Tennis Majors 2024-10-22 'Bublik retires injured'. Added row: Botic van de Zandschulp d. Alexander Bublik 3-6 6-4 4-0 (retired), date 2024-10-22. Source: https://www.tennismajors.com/atp/swiss-indoors-van-de-zandschulp-advances-to-second-round-2-792215.html"
+    },
+    {
+      "tournament": "Basel",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Joao Fonseca",
+      "gap_id": "BA002",
+      "folder": "Basel",
+      "file_path": "editions/Basel/2025.json",
+      "status": "closed",
+      "resolution": "TE Basel 2025: 22.10 21:45 R16 Fonseca d. Mensik (7), S 1-0 blank scores = WALKOVER (id 3053246). Reason wire-corroborated: left foot injury, withdrew shortly before the match (Tennis Majors + tennis-infinity + tennistemple/AFP). Added row: Joao Fonseca d. Jakub Mensik W/O, date 2025-10-22. Source: https://www.tennismajors.com/atp/swiss-indoors-fonseca-moves-into-last-8-defeating-mensik-838247.html"
+    },
+    {
+      "tournament": "Basel",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "SF",
+      "player_no_traceable_win": "Alejandro Davidovich Fokina",
+      "gap_id": "BA003",
+      "folder": "Basel",
+      "file_path": "editions/Basel/2025.json",
+      "status": "closed",
+      "resolution": "TE Basel 2025: 25.10 17:25 SF Davidovich Fokina (8) d. Humbert 7-6(4) 3-1, S 1-0 = Humbert retired in set 2 (id 3055252). Corroborated: ATP Tour official 'forced to retire against Alejandro Davidovich Fokina'; swissindoorsbasel.ch official 'injury-related withdrawal in the semi-final'; footboom score-identical. FIFTH dropped SEMIFINAL restored. Added row: Alejandro Davidovich Fokina d. Ugo Humbert 7-6(4) 3-1 (retired), date 2025-10-25. Source: https://www.atptour.com/en/news/humbert-paris-2025-withdrawal"
     }
   ],
-  "gaps_closed": 91,
+  "gaps_closed": 94,
   "gaps_open": 0,
   "closure_note": "All 18 gaps closed 2026-08-19 (T-005, Auditor 1, arena/01a015bb-the-creation-2). Every gap proved to be a RETIREMENT match absent from the migration source - consistent with the store-wide M-1/retirement-exclusion pattern documented in T-002. Per-gap resolution fields below; no result was inferred, every row carries a named checkable source.",
   "cincinnati_wta_closure_note": "T-007 (2026-08-19, Auditor 1): 15/15 Cincinnati WTA gaps FIXED per HANDOFF-07+A1+A2 - 8 retirements + 7 walkovers, all with named checkable sources; pulled from claude_1 store a280b2fb; per-year gap check green before closed_verified_gapless.",
@@ -1115,5 +1151,6 @@
   "shanghai_closure_note": "T-021 (2026-08-19, Auditor 1, standing audit->fix order): 11/11 Shanghai Masters gaps FIXED - ALL retirements, 0 walkovers, incl. Sinner's famous cramps retirement vs Griekspoor (2025 R32, Forbes/Olympics/IndiaToday triple-corroborated), a missing rung of champion Vacherot's 2025 run, and two retire-while-leading losers (Nishioka 4-2 up; Medjedovic a set up) stored truthfully. claude_1's own m1000 census had flagged only 3 of the 11 (its R32-onward method is blind to R64/R128 layers) - all 3 now closed, plus 8 it could not see. 4 'J.J. Wolf' rows renamed 'Jeffrey Wolf' (2023 R128-R16 run). Draw 96 structural proof per edition; coverage: no 2020-2022 editions (COVID). Dropped-row signature held for the 9th consecutive audited event.",
   "zhengzhou_closure_note": "T-022 (2026-08-19, Auditor 1): 1/1 Zhengzhou WTA 500 gap FIXED (Kasatkina d. Jabeur W/O, QF 2023, knee - AFP corroborated). Coverage finding with self-correction: auditor initially suspected missing 2024/2025 editions; sources show none exist (Wikipedia 2024 red link, 2023 page predecessor is 2019) - store's 2023-only coverage is CORRECT. TE carries no Zhengzhou pages; news+Wikipedia sourcing documented. Dropped-row signature: 10th consecutive audited event (stored slice had 1 ret row but the W/O was dropped).",
   "stockholm_closure_note": "T-023 (2026-08-19, Auditor 1, standing audit->fix order): 3/3 Stockholm ATP 250 gaps FIXED - all retirements, incl. the 4th dropped SEMIFINAL of the program: Rune's torn-Achilles retirement vs Humbert (2025, ATP official + tournament site corroborated, loser was a set up - stored truthfully). 2022/2023/2024 complete on pull. 4 'J.J. Wolf' rows renamed 'Jeffrey Wolf' (2022+2023 R32/R16). Draw 28 per edition (TE brackets byte-read 2021/2025 + structural for complete years). Dropped-row signature: 11th consecutive audited event.",
-  "antwerp_closure_note": "T-024 (2026-08-19, Auditor 1, standing audit->fix order): Antwerp ATP 250 (European Open) 2021-2024 audited and pulled with ZERO gaps and ZERO errors - the first non-US-Open event slice needing no fixes. All 108 store rows byte-matched against TE results tables + brackets (pairings, TB-stripped scores, flags): 108/108 exact. TE shows 0 retirements and 0 walkovers across all four editions, so the dropped-row pipeline defect had nothing to drop here (signature untested, not contradicted). Draw 28 per edition (TE bracket byte-read x4: 32 slots, 4 seed byes; Wikipedia 2024 infobox 'Draw: 28S' corroborates); bye sets byte-asserted vs store R16-not-in-R32 players, 28 players per year asserted. 0 'J.J. Wolf'/initial rows, 0 rank fields. Coverage boundary verified with self-check: no 2025 Antwerp edition EXISTS - the European Open moved to Brussels from 2025 (Wikipedia European Open page: Antwerp 2016-2024, Brussels 2025-; TennisMajors + puntodebreak 2025-01-29 relocation reports; TE antwerp year nav ends at 2024). Brussels 2025 is absent from the claude_1 store entirely - recorded as a store-level coverage boundary, not an Antwerp gap."
+  "antwerp_closure_note": "T-024 (2026-08-19, Auditor 1, standing audit->fix order): Antwerp ATP 250 (European Open) 2021-2024 audited and pulled with ZERO gaps and ZERO errors - the first non-US-Open event slice needing no fixes. All 108 store rows byte-matched against TE results tables + brackets (pairings, TB-stripped scores, flags): 108/108 exact. TE shows 0 retirements and 0 walkovers across all four editions, so the dropped-row pipeline defect had nothing to drop here (signature untested, not contradicted). Draw 28 per edition (TE bracket byte-read x4: 32 slots, 4 seed byes; Wikipedia 2024 infobox 'Draw: 28S' corroborates); bye sets byte-asserted vs store R16-not-in-R32 players, 28 players per year asserted. 0 'J.J. Wolf'/initial rows, 0 rank fields. Coverage boundary verified with self-check: no 2025 Antwerp edition EXISTS - the European Open moved to Brussels from 2025 (Wikipedia European Open page: Antwerp 2016-2024, Brussels 2025-; TennisMajors + puntodebreak 2025-01-29 relocation reports; TE antwerp year nav ends at 2024). Brussels 2025 is absent from the claude_1 store entirely - recorded as a store-level coverage boundary, not an Antwerp gap.",
+  "basel_closure_note": "T-025 (2026-08-19, Auditor 1, standing audit->fix order): 3/3 Basel ATP 500 gaps FIXED - 2 retirements + 1 walkover, incl. BA003 the FIFTH dropped SEMIFINAL of the program (Humbert injury retirement vs Davidovich Fokina 2025, ATP official + swissindoorsbasel.ch official corroborated) and BA002 (Mensik left-foot-injury W/O to Fonseca, TennisMajors/tennis-infinity/AFP). 2022/2023 complete on pull (31/31 each, TE census all S=2). Store's 2025 slice notably held 3 QF retirement rows correctly while dropping the R16 W/O and SF retirement - drop pattern partial, not absent: dropped-row signature held for the 12th consecutive audited event with at least one ret/wo occurrence. Draw 32 per edition (TE bracket byte-read x4: 32 slots, 0 byes). Coverage boundary verified: no 2020/2021 editions EXIST - cancelled two straight years for COVID (swissindoorsbasel.ch official 2020-07-14 cancellation; Reuters/TOI 2021-06-04 second-year cancellation; TE year nav has no 2020/2021 pages)."
 }

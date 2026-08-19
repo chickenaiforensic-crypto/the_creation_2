@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 74,
+  "total_editions": 78,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -963,6 +963,58 @@
       "checksum_sha256": "0b64392f50c0bc268eecd194fa8fb2720cd768a15532df721c269e171f20a1f4",
       "file_path": "editions/Antwerp/2024.json",
       "gap_count": 0
+    },
+    {
+      "tournament": "Basel",
+      "tour": "ATP",
+      "tier": "ATP500",
+      "year": "2022",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "TE 2022 bracket byte-read: 32 slots, 0 byes = draw 32",
+      "match_count": 31,
+      "checksum_sha256": "df427e7b5c7f8970d2269f24fadef80bec3b5e37cb78c93d4aa2ecab15eb160f",
+      "file_path": "editions/Basel/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Basel",
+      "tour": "ATP",
+      "tier": "ATP500",
+      "year": "2023",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "TE 2023 bracket byte-read: 32 slots, 0 byes = draw 32",
+      "match_count": 31,
+      "checksum_sha256": "3dd5b1d932a9ba37ce149fc71f8e2eb0b3fae15ceb821683d9e26a348c518cd9",
+      "file_path": "editions/Basel/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Basel",
+      "tour": "ATP",
+      "tier": "ATP500",
+      "year": "2024",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "TE 2024 bracket byte-read: 32 slots, 0 byes = draw 32",
+      "match_count": 31,
+      "checksum_sha256": "86a4de7ef726d6e40417b8c87e312d23474ae9661ccb3b19d75d0a8a7a053a8d",
+      "file_path": "editions/Basel/2024.json",
+      "gap_count": 1
+    },
+    {
+      "tournament": "Basel",
+      "tour": "ATP",
+      "tier": "ATP500",
+      "year": "2025",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "TE 2025 bracket byte-read: 32 slots, 0 byes = draw 32",
+      "match_count": 31,
+      "checksum_sha256": "bba9ef05e094589e14aca9a0c4951fdf905170e77470b214e601c2ad7d6b9b86",
+      "file_path": "editions/Basel/2025.json",
+      "gap_count": 2
     }
   ],
   "gap_report_file": "gap_report.json"
