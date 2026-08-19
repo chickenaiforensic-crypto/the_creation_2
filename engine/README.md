@@ -48,7 +48,6 @@ engine/
 | Phase 0 — match rating | IMPLEMENTED + tests green (2026-08-19) |
 | Computational layer — filters + mutes + live compute | IMPLEMENTED + tests green (2026-08-19) |
 | Ratings table view — per-year tournament tables + selectable filters | IMPLEMENTED + tests green (2026-08-19) |
-| Score Calibrator — CENTRAL cross-year analysis (calibration dropped, raw points used) | IMPLEMENTED + tests green (2026-08-19) |
 | Football mapping | NOT SPECIFIED — adapter stubbed, raises NotImplementedError |
 | Rating accumulation (career/season) | NOT SPECIFIED — later phase |
 | UI-facing outputs | NOT SPECIFIED — later phase |
@@ -99,25 +98,6 @@ still applies underneath.
 - Zero-hardcoding: years, tournaments, players, round names and positions all come
   from data + config. `engine/reports/ratings_tables_by_year.txt` shows all years
   rendered by the engine.
-
-## Score Calibrator — CENTRAL cross-year analysis (calibration dropped)
-
-`run_score_calibrator(filters=None, mutes=None)` pools **every player across all
-selected years into one cluster** and analyzes the raw Phase 0 rating distribution
-from 1st position to last (all regions: 1st, 2nd, 3rd, 5th, 9th, 17th, 33rd, 65th
-from `position_rules.json`). Central targets use isotonic (PAVA).
-
-**Director decision (2026-08-19): the calibration is NOT applied — the engine uses
-the raw Phase 0 points.** Verified from the bytes: the pooled region means are
-already ordered (53.20 > 30.80 = 30.80 > 14.10 > 10.05 > 0.15 > −8.42 > −10.81),
-so the central adjustments are **all 0.00** and raw accuracy equals calibrated
-accuracy exactly (90.31% = 90.31% on 320 pooled players). The per-year adjustments
-(+6.5/−6.5, +9.5/−9.5, +11/−11, …) were year-local inversions that cancel out
-centrally — reported as scope only, never applied.
-
-Results: engine/reports/score_calibrator_report.md — regenerate via
-`python3 tools/generate_calibrator_report.py`. Config `calibrator.json`
-(`applied: false`, `scope: central`).
 
 ## Phase 0 — match rating (Director spec, 2026-08-19)
 
