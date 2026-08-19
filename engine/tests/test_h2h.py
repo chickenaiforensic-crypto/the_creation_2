@@ -63,6 +63,74 @@ class TestH2HReport(unittest.TestCase):
                 self.assertAlmostEqual(p["average"], p["game_difference"] / p["matches"])
 
 
+class TestTournamentContext(unittest.TestCase):
+    """Tournament-aware tracking: H2H traces the specific tournament context for
+    each individual player."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.feed = run_h2h()  # multi-tournament feed (all Cincinnati Masters years)
+
+    def test_every_player_has_tournament_context(self):
+        for p in self.feed["players"]:
+            self.assertIn("tournaments", p)
+            self.assertIsInstance(p["tournaments"], list)
+            # per-tournament totals reconcile with all-tournament totals
+            tot_m = sum(t["matches"] for t in p["tournaments"])
+            tot_f = sum(t["games_for"] for t in p["tournaments"])
+            tot_a = sum(t["games_against"] for t in p["tournaments"])
+            self.assertEqual(tot_m, p["matches"])
+            self.assertEqual(tot_f, p["games_for"])
+            self.assertEqual(tot_a, p["games_against"])
+            self.assertEqual(sum(t["game_difference"] for t in p["tournaments"]),
+                             p["game_difference"])
+            # each per-tournament context has its own average
+            for t in p["tournaments"]:
+                if t["matches"] > 0:
+                    self.assertAlmostEqual(t["average"],
+                                           t["game_difference"] / t["matches"])
+
+    def test_player_tournament_context_breakdown(self):
+        z = next(p for p in self.feed["players"] if p["player"] == "Alexander Zverev")
+        self.assertEqual(len(z["tournaments"]), 1)  # feed = Cincinnati Masters only
+        ctx = z["tournaments"][0]
+        self.assertEqual(ctx["tournament"], "Cincinnati Masters")
+        self.assertEqual(ctx["matches"], z["matches"])
+        self.assertEqual(ctx["game_difference"], z["game_difference"])
+
+    def test_multi_tournament_ingestion_via_filter(self):
+        # select an additional tournament (Dubai) alongside the feed default
+        from sport_engine.compute.selection import Filters
+
+        r = run_h2h(filters=Filters(tournaments=["Cincinnati Masters", "Dubai"]))
+        self.assertEqual(r["summary"]["matches_selected"], 315 + 168)
+        tournaments = {t["tournament"] for m in r["matches"] for t in [m]}
+        self.assertEqual(tournaments, {"Cincinnati Masters", "Dubai"})
+        # a player who appears in both tournaments carries both contexts
+        # (e.g. Jannik Sinner played Cincinnati Masters AND Dubai)
+        by = {p["player"]: p for p in r["players"]}
+        self.assertIn("Jannik Sinner", by)
+        ctx_names = {t["tournament"] for t in by["Jannik Sinner"]["tournaments"]}
+        self.assertEqual(ctx_names, {"Cincinnati Masters", "Dubai"})
+
+
+class TestConversionHook(unittest.TestCase):
+    """Future per-tournament calibration hook — abstraction present, not active."""
+
+    def test_hook_reported_not_available(self):
+        r = run_h2h()
+        self.assertIn("conversion_hook", r)
+        self.assertFalse(r["conversion_hook"]["available"])
+        self.assertEqual(r["conversion_hook"]["configured_method"], "not_specified")
+
+    def test_hook_convert_raises_not_implemented(self):
+        from sport_engine.h2h import conversion_hook
+
+        self.assertFalse(conversion_hook.available())
+        with self.assertRaises(NotImplementedError):
+            conversion_hook.convert({})
+
+
 class TestH2HDecoupled(unittest.TestCase):
     def test_rows_have_no_absolute_rating_fields(self):
         r = run_h2h()

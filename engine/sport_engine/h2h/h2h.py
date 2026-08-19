@@ -19,6 +19,15 @@ Reuses only the pre-built difference machinery: TennisAdapter.extract_sets and
 Phase 0 normalize_set, plus the shared manifest-verified data loader and the
 pure Filters/Mutes selection logic.
 
+Tournament-aware tracking (Phase 1 extension, 2026-08-19): every player carries
+their per-tournament context (matches, games, difference, average per
+tournament) in addition to all-tournament totals, so the module traces the
+specific tournament context for each player. The tournaments filter supports
+multi-tournament ingestion (the UI can select multiple tournaments for H2H).
+A future per-tournament calibration hook (conversion_hook) will normalize
+separate raw tournament ratings for cross-tournament comparison when players
+arrive from different data pools — currently a placeholder, never applied.
+
 Zero-hardcoding: all field names come from config (tennis_schema,
 manifest_schema); the per-game difference points from config (h2h.json).
 """
@@ -33,6 +42,7 @@ from sport_engine.adapters.tennis import TennisAdapter
 from sport_engine.compute.data_source import edition_identity, load_editions
 from sport_engine.compute.selection import Filters, Mutes
 from sport_engine.config import load_config
+from sport_engine.h2h import conversion_hook
 from sport_engine.rating.phase0 import normalize_set
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
@@ -126,11 +136,17 @@ def _rate_match(match: dict, adapter: TennisAdapter, f: dict) -> dict:
 def _aggregate(rows: List[dict]) -> List[dict]:
     """Per-player H2H aggregates over the report rows.
 
+    Tournament-aware tracking: each player carries their per-tournament context
+    (per-tournament matches, games, difference, average) in addition to their
+    all-tournament totals, so the H2H module traces and maintains the specific
+    tournament context for each individual player.
+
     game_difference = games_for - games_against (sum over rated matches);
     average = difference / rated matches; refused = refused appearances.
     """
     acc: dict = {}
     for row in rows:
+        tournament = row["tournament"]
         for side in ("player_a", "player_b"):
             name = row[side]
             entry = acc.setdefault(
@@ -143,7 +159,13 @@ def _aggregate(rows: List[dict]) -> List[dict]:
                     "game_difference": 0,
                     "average": None,
                     "refused": 0,
+                    "tournaments": {},  # tournament -> per-tournament context
                 },
+            )
+            tctx = entry["tournaments"].setdefault(
+                tournament,
+                {"tournament": tournament, "matches": 0, "games_for": 0,
+                 "games_against": 0, "game_difference": 0, "average": None},
             )
             if row["rateable"]:
                 g = row["games_a"] if side == "player_a" else row["games_b"]
@@ -152,8 +174,16 @@ def _aggregate(rows: List[dict]) -> List[dict]:
                 entry["matches"] += 1
                 entry["game_difference"] = entry["games_for"] - entry["games_against"]
                 entry["average"] = entry["game_difference"] / entry["matches"]
+                tctx["games_for"] += g
+                tctx["games_against"] += row["games_a"] + row["games_b"] - g
+                tctx["matches"] += 1
+                tctx["game_difference"] = tctx["games_for"] - tctx["games_against"]
+                tctx["average"] = tctx["game_difference"] / tctx["matches"]
             else:
                 entry["refused"] += 1
+    for p in acc.values():
+        p["tournaments"] = sorted(p["tournaments"].values(),
+                                  key=lambda t: (-t["game_difference"], t["tournament"]))
     players = sorted(acc.values(), key=lambda p: (-p["game_difference"], p["player"]))
     return players
 
@@ -227,6 +257,10 @@ def run_h2h(
                 key=lambda e: (e["tournament"], e["year"]),
             ),
             "data_root": str(data_root),
+        },
+        "conversion_hook": {
+            "available": conversion_hook.available(),
+            "configured_method": load_config("h2h_tournament")["conversion_hook"]["method"],
         },
         "summary": {
             "matches_selected": len(rows),

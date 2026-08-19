@@ -1,0 +1,12 @@
+{
+  "description": "H2H tournament context + conversion hook configuration. The H2H module traces and maintains the specific tournament context for each individual player (per-player, per-tournament results), supports multi-tournament ingestion via the tournaments filter, and exposes a future per-tournament calibration hook for cross-tournament comparison when players arrive from different tournament data pools.",
+  "tournament_context": {
+    "description": "Per-player tournament context aggregation is enabled; every player carries their per-tournament breakdown (tournament, matches, games_for, games_against, game_difference, average) plus their all-tournament totals.",
+    "enabled": true
+  },
+  "conversion_hook": {
+    "description": "Future per-tournament calibration hook. When the Director specifies the conversion subsystem, this hook normalizes separate raw tournament ratings so cross-tournament H2H comparison is valid. Currently a placeholder — no conversion is executed.",
+    "enabled": false,
+    "method": "not_specified"
+  }
+}

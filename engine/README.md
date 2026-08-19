@@ -127,6 +127,20 @@ while the primary Phase 0 rating tracks absolute points (no margins).
   imports the absolute-point routines (`rate_sets`, `compute_ratings`).
 - **Same feed scope** as the primary layer (config `compute.json` — Cincinnati
   Masters only), same filters/mutes semantics.
+- **Tournament-aware tracking (Phase 1 extension):** every player carries a
+  per-tournament context (matches, games_for, games_against, game_difference,
+  average per tournament) alongside all-tournament totals — the module traces
+  the specific tournament context for each individual player. The tournaments
+  filter supports **multi-tournament ingestion** (e.g.
+  `Filters(tournaments=["Cincinnati Masters", "Dubai"])`) so future engine
+  expansions can evaluate cross-tournament player matchups.
+- **Future per-tournament calibration hook:** `sport_engine/h2h/conversion_hook.py`
+  is an abstraction for a conversion subsystem that will normalize separate raw
+  tournament ratings for cross-tournament H2H comparison when two players arrive
+  from different tournament data pools. Config `h2h_tournament.json`
+  (`conversion_hook.enabled: false`, `method: not_specified`); the report exposes
+  `conversion_hook.available` — currently `false`, never applied, `convert()`
+  raises `NotImplementedError` until the Director specifies the conversion.
 - **Output:** `summary` (selected/rated/refused/players), `matches` (per-match
   games_a/games_b, game_difference, h2h_a/h2h_b, per-set breakdown), `players`
   (games_for, games_against, game_difference, average, refused; ranked by
