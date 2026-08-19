@@ -25,6 +25,7 @@ from urllib.parse import parse_qs, urlparse
 ENGINE_ROOT = Path(__file__).resolve().parents[2]  # engine/
 sys.path.insert(0, str(ENGINE_ROOT))
 
+from sport_engine import __version__  # noqa: E402
 from sport_engine.ui.api import (  # noqa: E402
     matchup_report,
     performance_report,
@@ -167,7 +168,13 @@ class Handler(BaseHTTPRequestHandler):
             self._send(404, b"not found", "text/plain")
             return
         ctype = {".html": "text/html", ".js": "application/javascript", ".css": "text/css"}[file.suffix]
-        self._send(200, file.read_bytes(), ctype)
+        body = file.read_bytes()
+        if file.suffix == ".html":
+            # version-stamp asset URLs ({{VERSION}}) so browsers/proxies always
+            # fetch fresh JS/CSS after an update — defeats stale-cache hiding
+            # of new UI (e.g. the Ratings Compute button).
+            body = body.replace(b"{{VERSION}}", __version__.encode())
+        self._send(200, body, ctype)
 
     def log_message(self, fmt, *args):
         sys.stderr.write(f"[ui] {fmt % args}\n")
