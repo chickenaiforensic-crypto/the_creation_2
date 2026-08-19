@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 65,
+  "total_editions": 70,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -845,6 +845,71 @@
       "match_count": 27,
       "checksum_sha256": "e1cc75f16c1715c64dd13d4fcb4941ee068cb36ae9542e5b6f537ebf2f22228d",
       "file_path": "editions/Zhengzhou/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Stockholm",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2021",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "TE 2021 bracket byte-read: 32 slots, 4 byes (seeds 1-4 Sinner/Auger-Aliassime/Shapovalov/Evans) = draw 28",
+      "match_count": 27,
+      "checksum_sha256": "7871d646ce8f5eac1232bc7bb390fbda020a711cad077b9cd90cfbaceae7cada",
+      "file_path": "editions/Stockholm/2021.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Stockholm",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2022",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof: 28-draw complete on pull (12/8/4/2/1, 4 byes: Norrie/Shapovalov/Tiafoe/Tsitsipas)",
+      "match_count": 27,
+      "checksum_sha256": "b2ebd4355f9f5c21dfe69f82f3d431d9506037259e9b2346d45d6dac273ac5ec",
+      "file_path": "editions/Stockholm/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Stockholm",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2023",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof: 28-draw complete on pull (12/8/4/2/1, 4 byes: Mannarino/Rune/Griekspoor/Machac)",
+      "match_count": 27,
+      "checksum_sha256": "98af6860c3c5b38378e8b0d29442987a074223a3be2f74560bf690e13be11a79",
+      "file_path": "editions/Stockholm/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Stockholm",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2024",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof: 28-draw complete on pull (12/8/4/2/1, 4 byes: Rublev/Ruud/Dimitrov/Paul)",
+      "match_count": 27,
+      "checksum_sha256": "e81a76da23500398781c2a29de39bf8c0dafb3fc57c333cfe5f9d31d1f695479",
+      "file_path": "editions/Stockholm/2024.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Stockholm",
+      "tour": "ATP",
+      "tier": "ATP250",
+      "year": "2025",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "TE 2025 bracket byte-read: 32 slots, 4 byes (Rune/Humbert/Shapovalov/Ruud) = draw 28",
+      "match_count": 27,
+      "checksum_sha256": "198f117f464dca45e8bd97ff90e73f9d2af66d49658476d7acd8a41de8e7a539",
+      "file_path": "editions/Stockholm/2025.json",
       "gap_count": 0
     }
   ],
