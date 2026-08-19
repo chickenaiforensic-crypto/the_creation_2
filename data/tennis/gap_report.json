@@ -2,8 +2,8 @@
   "description": "Gap report for the 20 closed_verified tennis editions migrated to this branch. Produced via round-transition ghost detection (R32-onward, byefree per validated M1000 method in phase1-audit/WORKORDER_Phase1_DrawSize_Gap_Audit.md Phase 1B). A gap = a player appearing in round N+1 with no traceable win recorded in round N within the same edition file.",
   "method": "For each edition, for each transition in [R32->R16, R16->QF, QF->SF, SF->F]: collect all playerA/playerB in round N+1; collect all winners (resolved via winner field + playerA/playerB) in round N; any round-N+1 participant absent from round-N winners is a gap. R64->R32 excluded uniformly (bye-affected at this draw depth, not a genuine gap) per the same exclusion applied to M1000 in Phase 1B.",
   "editions_checked": 20,
-  "editions_clean": 8,
-  "editions_with_gaps": 12,
+  "editions_clean": 20,
+  "editions_with_gaps": 0,
   "total_gap_instances": 18,
   "gaps": [
     {
@@ -15,7 +15,8 @@
       "gap_id": "G001",
       "folder": "Rotterdam",
       "file_path": "editions/Rotterdam/2023.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Explorer Rotterdam 2023 results: 16.02 R16 Brouwer d. Rune (4) 6-4 4-0, sets 1-0 = Rune retired during set 2. Genuine missing record (retirement). Added row: Gijs Brouwer d. Holger Rune 6-4 4-0 (retired), date 2023-02-16. Source: https://www.tennisexplorer.com/rotterdam/2023/atp-men/"
     },
     {
       "tournament": "Rotterdam",
@@ -26,7 +27,8 @@
       "gap_id": "G002",
       "folder": "Rotterdam",
       "file_path": "editions/Rotterdam/2025.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Wikipedia 2025 ABN AMRO Open - Singles draw: Vavassori (Q) d. Auger-Aliassime 6(3)-7, 6-4, 0-0r; corroborated by Tennis Explorer (1R 05.02, FAA '0r'). Retirement at 0-0 in set 3. Added row: Andrea Vavassori d. Felix Auger-Aliassime 6-7(3) 6-4 0-0 (retired), date 2025-02-05. Source: https://en.wikipedia.org/wiki/2025_ABN_AMRO_Open_%E2%80%93_Singles"
     },
     {
       "tournament": "Rotterdam",
@@ -37,7 +39,8 @@
       "gap_id": "G003",
       "folder": "Rotterdam",
       "file_path": "editions/Rotterdam/2025.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Explorer Rotterdam 2025 results: 05.02 23:00 R16 Hurkacz (8) d. Lehecka 7-5 2-0, sets 1-0 = Lehecka retired during set 2. Added row: Hubert Hurkacz d. Jiri Lehecka 7-5 2-0 (retired), date 2025-02-05. Source: https://www.tennisexplorer.com/rotterdam/2025/atp-men/"
     },
     {
       "tournament": "Dubai",
@@ -48,7 +51,8 @@
       "gap_id": "G004",
       "folder": "Dubai",
       "file_path": "editions/Dubai/2021.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Explorer Dubai 2021 results: 16.03 2R (=R32 of 48-draw) Bautista-Agut (4) d. Ebden 4-1, sets 1-0 = Ebden retired during set 1. Added row: Roberto Bautista Agut d. Matthew Ebden 4-1 (retired), date 2021-03-16. Source: https://www.tennisexplorer.com/dubai/2021/atp-men/"
     },
     {
       "tournament": "Dubai",
@@ -59,7 +63,8 @@
       "gap_id": "G005",
       "folder": "Dubai",
       "file_path": "editions/Dubai/2023.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Explorer Dubai 2023 results: 28.02 1R Coric (8) d. Evans 2-2 = Evans retired at 2-2 in set 1. Loser name per store canonical 'Daniel Evans'. Added row: Borna Coric d. Daniel Evans 2-2 (retired), date 2023-02-28. Source: https://www.tennisexplorer.com/dubai/2023/atp-men/"
     },
     {
       "tournament": "Dubai",
@@ -70,7 +75,8 @@
       "gap_id": "G006",
       "folder": "Dubai",
       "file_path": "editions/Dubai/2023.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Explorer Dubai 2023 results: 28.02 1R Bublik d. Lazarov (Q) 6-1 1-0, sets 1-0 = Lazarov retired during set 2. Added row: Alexander Bublik d. Alexandar Lazarov 6-1 1-0 (retired), date 2023-02-28. Source: https://www.tennisexplorer.com/dubai/2023/atp-men/"
     },
     {
       "tournament": "Dubai",
@@ -81,7 +87,8 @@
       "gap_id": "G007",
       "folder": "Dubai",
       "file_path": "editions/Dubai/2024.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Explorer Dubai 2024 results: 26.02 1R Griekspoor d. Shelbayh (WC) 7-5 2-0, sets 1-0 = Shelbayh retired during set 2. Loser spelling per canonical table (Phase B). Added row: Tallon Griekspoor d. Abdullah Shelbayh 7-5 2-0 (retired), date 2024-02-26. Source: https://www.tennisexplorer.com/dubai/2024/atp-men/"
     },
     {
       "tournament": "Dubai",
@@ -92,7 +99,8 @@
       "gap_id": "G008",
       "folder": "Dubai",
       "file_path": "editions/Dubai/2024.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Explorer Dubai 2024 results: 28.02 17:40 R16 Davidovich Fokina (8) d. Mensik 7-6(7) 1-0, sets 1-0 = Mensik retired during set 2. Added row: Alejandro Davidovich Fokina d. Jakub Mensik 7-6(7) 1-0 (retired), date 2024-02-28. Source: https://www.tennisexplorer.com/dubai/2024/atp-men/"
     },
     {
       "tournament": "Dubai",
@@ -103,7 +111,8 @@
       "gap_id": "G009",
       "folder": "Dubai",
       "file_path": "editions/Dubai/2025.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Explorer Dubai 2025 results: 25.02 17:10 1R O'Connell (Q) d. Dimitrov (6) 6-0, sets 1-0 = Dimitrov retired after set 1. Added row: Christopher O'Connell d. Grigor Dimitrov 6-0 (retired), date 2025-02-25. Source: https://www.tennisexplorer.com/dubai/2025/atp-men/"
     },
     {
       "tournament": "Halle",
@@ -114,7 +123,8 @@
       "gap_id": "G010",
       "folder": "Halle",
       "file_path": "editions/Halle/2021.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Explorer Halle 2021 results: 14.06 1R Moutet d. Goffin (7) 1-6 7-5, sets 1-0 = Goffin retired after set 2 (ankle injury). Added row: Corentin Moutet d. David Goffin 1-6 7-5 (retired), date 2021-06-14. Source: https://www.tennisexplorer.com/halle/2021/atp-men/"
     },
     {
       "tournament": "Halle",
@@ -125,7 +135,8 @@
       "gap_id": "G011",
       "folder": "Halle",
       "file_path": "editions/Halle/2022.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Explorer Halle 2022 results: 13.06 1R Djere d. Squire (WC) 4-3, sets 1-0 = Squire retired during set 1. Added row: Laslo Djere d. Henri Squire 4-3 (retired), date 2022-06-13. Source: https://www.tennisexplorer.com/halle/2022/atp-men/"
     },
     {
       "tournament": "Halle",
@@ -136,7 +147,8 @@
       "gap_id": "G012",
       "folder": "Halle",
       "file_path": "editions/Halle/2022.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Explorer Halle 2022 results: 14.06 1R Bautista-Agut (7) d. Fucsovics 6-2 3-0, sets 1-0 = Fucsovics retired during set 2; Wikipedia bracket concurs (6-2, 3-0). Added row: Roberto Bautista Agut d. Marton Fucsovics 6-2 3-0 (retired), date 2022-06-14. Source: https://www.tennisexplorer.com/halle/2022/atp-men/"
     },
     {
       "tournament": "Halle",
@@ -147,7 +159,8 @@
       "gap_id": "G013",
       "folder": "Halle",
       "file_path": "editions/Halle/2024.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Explorer Halle 2024 results: 17.06 1R Koepfer (WC) d. Auger-Aliassime (8) 6-4 4-3, sets 1-0 = Auger-Aliassime retired during set 2. Added row: Dominik Koepfer d. Felix Auger-Aliassime 6-4 4-3 (retired), date 2024-06-17. Source: https://www.tennisexplorer.com/halle/2024/atp-men/"
     },
     {
       "tournament": "Queen's Club",
@@ -158,7 +171,8 @@
       "gap_id": "G014",
       "folder": "Queens_Club",
       "file_path": "editions/Queens_Club/2022.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Wikipedia 2022 Queen's Club Championships - Singles draw: Bublik d. Musetti 6-3, 0-0r (retired at 0-0 in set 2 after a fall/groin injury); date 2022-06-13 per Tennis TV/TennisWorldUSA report. Added row: Alexander Bublik d. Lorenzo Musetti 6-3 0-0 (retired), date 2022-06-13. Source: https://en.wikipedia.org/wiki/2022_Queen%27s_Club_Championships_%E2%80%93_Singles"
     },
     {
       "tournament": "Queen's Club",
@@ -169,7 +183,8 @@
       "gap_id": "G015",
       "folder": "Queens_Club",
       "file_path": "editions/Queens_Club/2024.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Majors 2024-06-17: 'Hijikata is through after Frances Tiafoe retired (7-5, 4-6, 1-0)'; Wikipedia 2024 Queen's draw concurs (Tiafoe '0r' in set 3). Added row: Rinky Hijikata d. Frances Tiafoe 7-5 4-6 1-0 (retired), date 2024-06-17. Source: https://www.tennismajors.com/atp/queens-hijikata-into-second-round-768157.html"
     },
     {
       "tournament": "Queen's Club",
@@ -180,7 +195,8 @@
       "gap_id": "G016",
       "folder": "Queens_Club",
       "file_path": "editions/Queens_Club/2024.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Tennis Majors: 'Nakashima led 4-6, 6-3, 0-0 when Evans pulled out, seemingly with a knee injury'; date Tuesday 2024-06-18 per Sportskeeda preview. NOTE: gap player's missing opponent evidenced as Evans (retirement), fixture confirmed first round. Added row: Brandon Nakashima d. Daniel Evans 4-6 6-3 0-0 (retired), date 2024-06-18. Source: https://www.tennismajors.com/atp/queens-nakashima-makes-second-round-768442.html"
     },
     {
       "tournament": "Queen's Club",
@@ -191,7 +207,8 @@
       "gap_id": "G017",
       "folder": "Queens_Club",
       "file_path": "editions/Queens_Club/2024.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "LTA 2024-06-19: Murray 'forced to retire in the fifth game... conceded the match at 4-1 down after 20 minutes' (back/hip); Wikipedia draw shows '4 / 1r'. Second-round (R16) match. Added row: Jordan Thompson d. Andy Murray 4-1 (retired), date 2024-06-19. Source: https://www.lta.org.uk/fan-zone/cinch-championships/news/andy-murray-forced-to-retire-due-to-injury-against-jordan-thompson/"
     },
     {
       "tournament": "Queen's Club",
@@ -202,7 +219,11 @@
       "gap_id": "G018",
       "folder": "Queens_Club",
       "file_path": "editions/Queens_Club/2025.json",
-      "status": "open"
+      "status": "closed",
+      "resolution": "Wikipedia 2025 Queen's Club Championships - Men's singles draw: Munar d. Thompson 7-5, 0-0r; TennisTemple match page dates it 17 Jun 2025 ('75 ab'). Added row: Jaume Munar d. Jordan Thompson 7-5 0-0 (retired), date 2025-06-17. Source: https://en.wikipedia.org/wiki/2025_Queen%27s_Club_Championships_%E2%80%93_Men%27s_singles"
     }
-  ]
+  ],
+  "gaps_closed": 18,
+  "gaps_open": 0,
+  "closure_note": "All 18 gaps closed 2026-08-19 (T-005, Auditor 1, arena/01a015bb-the-creation-2). Every gap proved to be a RETIREMENT match absent from the migration source - consistent with the store-wide M-1/retirement-exclusion pattern documented in T-002. Per-gap resolution fields below; no result was inferred, every row carries a named checkable source."
 }

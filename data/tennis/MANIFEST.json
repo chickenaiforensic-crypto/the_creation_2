@@ -34,12 +34,12 @@
       "tier": "ATP500",
       "year": "2023",
       "draw_size": 32,
-      "status": "closed_verified_gaps_present",
+      "status": "closed_verified_gapless",
       "source": "Wikipedia 2023 ABN AMRO Open infobox",
-      "match_count": 30,
-      "checksum_sha256": "fbafefd415a6683fcd04aabc081cd55f55b27f5d0d2c87aea921f8b7cf30ead7",
+      "match_count": 31,
+      "checksum_sha256": "f235253f06ebf8bd8f9be040bbbed21b1caaec57e5c2ff8fa44172012e69afd5",
       "file_path": "editions/Rotterdam/2023.json",
-      "gap_count": 1
+      "gap_count": 0
     },
     {
       "tournament": "Rotterdam",
@@ -60,12 +60,12 @@
       "tier": "ATP500",
       "year": "2025",
       "draw_size": 32,
-      "status": "closed_verified_gaps_present",
+      "status": "closed_verified_gapless",
       "source": "Wikipedia 2025 ABN AMRO Open infobox",
-      "match_count": 29,
-      "checksum_sha256": "1eea5270b0d09f07032f37586a4880be794c489e5b808e839b4b30467b83f8bc",
+      "match_count": 31,
+      "checksum_sha256": "f3d49137f4dad9c30188ada496b68744c16d1e29d6cdb0f68f9698142b06244e",
       "file_path": "editions/Rotterdam/2025.json",
-      "gap_count": 2
+      "gap_count": 0
     },
     {
       "tournament": "Dubai",
@@ -73,12 +73,12 @@
       "tier": "ATP500",
       "year": "2021",
       "draw_size": 48,
-      "status": "closed_verified_gaps_present",
+      "status": "closed_verified_gapless",
       "source": "Wikipedia 2021 Dubai Tennis Championships infobox",
-      "match_count": 43,
-      "checksum_sha256": "159b2fe39de268f24a3a0915c79c7858d94de1e13ad031585d6f6efc1f8f932f",
+      "match_count": 44,
+      "checksum_sha256": "f0fa9a90bbdb443e788cd3f26b675d5ca8499a53079e0d29eb12f2ee07fc68c9",
       "file_path": "editions/Dubai/2021.json",
-      "gap_count": 1
+      "gap_count": 0
     },
     {
       "tournament": "Dubai",
@@ -99,12 +99,12 @@
       "tier": "ATP500",
       "year": "2023",
       "draw_size": 32,
-      "status": "closed_verified_gaps_present",
+      "status": "closed_verified_gapless",
       "source": "Wikipedia 2023 Dubai Tennis Championships infobox",
-      "match_count": 29,
-      "checksum_sha256": "7c201329121a6aa3e22be58018d7b6ea640de90732bd8cc82f901fffe980d8dd",
+      "match_count": 31,
+      "checksum_sha256": "3dfb206491ff6d6787f485c6a4679b24b5512d04acc6b5a3b006e903ea0ca90b",
       "file_path": "editions/Dubai/2023.json",
-      "gap_count": 2
+      "gap_count": 0
     },
     {
       "tournament": "Dubai",
@@ -112,12 +112,12 @@
       "tier": "ATP500",
       "year": "2024",
       "draw_size": 32,
-      "status": "closed_verified_gaps_present",
+      "status": "closed_verified_gapless",
       "source": "Wikipedia 2024 Dubai Tennis Championships infobox",
-      "match_count": 29,
-      "checksum_sha256": "bfb967a3e0e5eec914e3b89b4bac42f3f4c653ae5c9ebd11b42895fb7a487676",
+      "match_count": 31,
+      "checksum_sha256": "ce317642362305e5ca6553cb7944b3b0af6b2d86125b961c4cbc1f119ff6b858",
       "file_path": "editions/Dubai/2024.json",
-      "gap_count": 2
+      "gap_count": 0
     },
     {
       "tournament": "Dubai",
@@ -125,12 +125,12 @@
       "tier": "ATP500",
       "year": "2025",
       "draw_size": 32,
-      "status": "closed_verified_gaps_present",
+      "status": "closed_verified_gapless",
       "source": "Wikipedia 2025 Dubai Tennis Championships infobox",
-      "match_count": 30,
-      "checksum_sha256": "4b708a852425783c2699b9ce60ddaf19f1a8bbd6b19e5d44d677e78490c1319b",
+      "match_count": 31,
+      "checksum_sha256": "46ade9de799b0c64a044475266bbc84c22d018659483db31a527cf6d00b99682",
       "file_path": "editions/Dubai/2025.json",
-      "gap_count": 1
+      "gap_count": 0
     },
     {
       "tournament": "Halle",
@@ -138,12 +138,12 @@
       "tier": "ATP500",
       "year": "2021",
       "draw_size": 32,
-      "status": "closed_verified_gaps_present",
+      "status": "closed_verified_gapless",
       "source": "Wikipedia 2021 Halle Open infobox + singles page cross-check",
-      "match_count": 30,
-      "checksum_sha256": "73c9368a87214a35677909c9f60c8ca1a59501a7ec2d841120e9d0c4d05f72e3",
+      "match_count": 31,
+      "checksum_sha256": "638eda0160d1caffbc1dce588f2aff59ac42f3b6cc5336b319efd9a9991ff487",
       "file_path": "editions/Halle/2021.json",
-      "gap_count": 1
+      "gap_count": 0
     },
     {
       "tournament": "Halle",
@@ -151,12 +151,12 @@
       "tier": "ATP500",
       "year": "2022",
       "draw_size": 32,
-      "status": "closed_verified_gaps_present",
+      "status": "closed_verified_gapless",
       "source": "Wikipedia 2022 Halle Open infobox",
-      "match_count": 29,
-      "checksum_sha256": "f967b963795cf5d42ce497338ca615e8b20702135db1fe7100051c4440db1286",
+      "match_count": 31,
+      "checksum_sha256": "bd5dac076ad2d76713c2c2d395efbdb8bc52a8fca464df4411575f8fc938ced4",
       "file_path": "editions/Halle/2022.json",
-      "gap_count": 2
+      "gap_count": 0
     },
     {
       "tournament": "Halle",
@@ -177,12 +177,12 @@
       "tier": "ATP500",
       "year": "2024",
       "draw_size": 32,
-      "status": "closed_verified_gaps_present",
+      "status": "closed_verified_gapless",
       "source": "Wikipedia 2024 Halle Open infobox",
-      "match_count": 30,
-      "checksum_sha256": "fe0809ea7812461c5a7deb77ff3ff9eb48e4651af99f5d0d74962c0634f1f575",
+      "match_count": 31,
+      "checksum_sha256": "efda66cd57e953fb3fa08531bfec28206d009d69772385b54fc798b72d8fa873",
       "file_path": "editions/Halle/2024.json",
-      "gap_count": 1
+      "gap_count": 0
     },
     {
       "tournament": "Halle",
@@ -216,12 +216,12 @@
       "tier": "ATP500",
       "year": "2022",
       "draw_size": 32,
-      "status": "closed_verified_gaps_present",
+      "status": "closed_verified_gapless",
       "source": "Wikipedia 2022 Queen's Club Championships infobox + singles page cross-check",
-      "match_count": 30,
-      "checksum_sha256": "4279bcd62ea7dbbf4a7a7616bca0457ed9ca72ff9a2ebaa3e3afbcb31da9791f",
+      "match_count": 31,
+      "checksum_sha256": "7d96218038dccccc187925a03f6606caa777acf40d30f52f83eadaa21c00474c",
       "file_path": "editions/Queens_Club/2022.json",
-      "gap_count": 1
+      "gap_count": 0
     },
     {
       "tournament": "Queen's Club",
@@ -242,12 +242,12 @@
       "tier": "ATP500",
       "year": "2024",
       "draw_size": 32,
-      "status": "closed_verified_gaps_present",
+      "status": "closed_verified_gapless",
       "source": "Wikipedia 2024 Queen's Club Championships infobox",
-      "match_count": 28,
-      "checksum_sha256": "15f3032843a18e77212d8009c4dbeb2a342737b484064a64dc15bd388db2ae57",
+      "match_count": 31,
+      "checksum_sha256": "239756890cabb08362be02f14ec746ac54caf4124e0598a51bcf98f8fb1809e5",
       "file_path": "editions/Queens_Club/2024.json",
-      "gap_count": 3
+      "gap_count": 0
     },
     {
       "tournament": "Queen's Club",
@@ -255,12 +255,12 @@
       "tier": "ATP500",
       "year": "2025",
       "draw_size": 32,
-      "status": "closed_verified_gaps_present",
+      "status": "closed_verified_gapless",
       "source": "Wikipedia 2025 Queen's Club Championships infobox + men's singles page cross-check",
-      "match_count": 30,
-      "checksum_sha256": "049d6cd5cb4e186a59dff8df06c4cfd3b01ab57106349a73c819ce54242668f6",
+      "match_count": 31,
+      "checksum_sha256": "9f331308ed57dd90c7e037517b4c391cc5e664f4f622de7b151c3bca2201d831",
       "file_path": "editions/Queens_Club/2025.json",
-      "gap_count": 1
+      "gap_count": 0
     }
   ],
   "gap_report_file": "gap_report.json"
