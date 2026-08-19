@@ -2,12 +2,22 @@
   "description": "Tennis match-record schema as produced by data/tennis/build.py on arena/01a015bb-the-creation-2. Field names and score grammar live here; the adapter code contains no schema literals.",
   "sport": "tennis",
   "fields": {
+    "date": "date",
+    "tournament": "tournament",
+    "tier": "tier",
+    "round": "round",
+    "edition_year": "edition_year",
+    "player_a": "playerA",
+    "player_b": "playerB",
     "status": "status",
     "status_value_completed": "completed",
     "void_flags": ["retired", "walkover", "defaulted"],
     "score": "score",
     "sets_a": "setsA",
-    "sets_b": "setsB"
+    "sets_b": "setsB",
+    "games_a": "gamesA",
+    "games_b": "gamesB",
+    "winner": "winner"
   },
   "score_grammar": {
     "set_separator": "-",

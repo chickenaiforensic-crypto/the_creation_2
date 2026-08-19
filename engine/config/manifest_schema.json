@@ -1,0 +1,14 @@
+{
+  "description": "Field names of data/tennis/MANIFEST.json and of edition files under data/tennis/editions/ — schema lives here, never in code.",
+  "manifest_editions": "editions",
+  "edition_file_path": "file_path",
+  "edition_match_count": "match_count",
+  "edition_checksum": "checksum_sha256",
+  "edition_tournament": "tournament",
+  "edition_tier": "tier",
+  "edition_tour": "tour",
+  "edition_year": "year",
+  "edition_file_matches": "matches",
+  "edition_file_tournament": "tournament",
+  "edition_file_year": "year"
+}

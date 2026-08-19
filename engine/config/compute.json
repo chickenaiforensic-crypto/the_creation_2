@@ -1,0 +1,17 @@
+{
+  "description": "Computational layer configuration — data source location and default feed/mute scope. Values here, never in code.",
+  "data_root_relative_to_repo": "data/tennis",
+  "manifest_file": "MANIFEST.json",
+  "feed": {
+    "description": "Default feed scope (Director: 'for now we will only feed the engine with cincinnati_masters only'). Empty list = all.",
+    "tournaments": ["Cincinnati Masters"],
+    "years": [],
+    "players": [],
+    "tiers": []
+  },
+  "mutes": {
+    "description": "Default mutes — designated years/tournaments removed from computation and output results.",
+    "mute_years": [],
+    "mute_tournaments": []
+  }
+}

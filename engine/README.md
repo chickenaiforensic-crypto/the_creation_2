@@ -9,21 +9,36 @@ sport means adding one adapter, no engine changes.
 ```text
 engine/
 ├── README.md
+├── config/                 # ALL values/names live here (zero-hardcoding)
+│   ├── rating_rules.json   # Phase 0 points table, sections, resolution rules
+│   ├── tennis_schema.json  # tennis match-row field names, score grammar
+│   ├── football_schema.json# football adapter identity (stub)
+│   ├── sports.json         # active adapter list (the plug point)
+│   ├── compute.json        # data root, manifest file, feed scope, default mutes
+│   ├── manifest_schema.json# MANIFEST.json + edition-file field names
+│   └── test_data.json      # test fixtures + expected outcomes
 ├── sport_engine/
 │   ├── __init__.py
-│   ├── registry.py          # pluggable sport registry
+│   ├── config.py           # config loader (fails loudly)
+│   ├── registry.py         # pluggable sport registry
 │   ├── adapters/
-│   │   ├── __init__.py
-│   │   ├── base.py          # SportAdapter contract
-│   │   ├── tennis.py        # tennis match -> per-set game scores
-│   │   └── football.py      # STUB — football phase not specified yet
-│   └── rating/
+│   │   ├── __init__.py     # auto-registers adapters from sports.json
+│   │   ├── base.py         # SportAdapter contract
+│   │   ├── tennis.py       # tennis match -> per-set game scores
+│   │   └── football.py     # STUB — football phase not specified yet
+│   ├── rating/
+│   │   └── phase0.py       # Phase 0 match-rating math (sport-agnostic)
+│   └── compute/
 │       ├── __init__.py
-│       └── phase0.py        # Phase 0 match-rating math (sport-agnostic)
+│       ├── selection.py    # Filters + Mutes (pure selection logic)
+│       ├── data_source.py  # manifest-verified edition loading
+│       └── compute.py      # compute_ratings() orchestrator
 └── tests/
     ├── __init__.py
     ├── test_phase0.py
-    └── test_tennis_adapter.py
+    ├── test_tennis_adapter.py
+    ├── test_config.py
+    └── test_compute.py
 ```
 
 ## Phase map
@@ -31,9 +46,36 @@ engine/
 | Phase | Status |
 |---|---|
 | Phase 0 — match rating | IMPLEMENTED + tests green (2026-08-19) |
+| Computational layer — filters + mutes + live compute | IMPLEMENTED + tests green (2026-08-19) |
 | Football mapping | NOT SPECIFIED — adapter stubbed, raises NotImplementedError |
 | Rating accumulation (career/season) | NOT SPECIFIED — later phase |
 | UI-facing outputs | NOT SPECIFIED — later phase |
+
+## Computational layer (Director spec, 2026-08-19)
+
+`compute_ratings(filters=None, mutes=None)` computes Phase 0 ratings **live** from the
+edition files (never precomputed, never writes to the data tree). Every edition is
+verified against `MANIFEST.json` (SHA-256 + match count) before use — any mismatch
+raises `DataIntegrityError`, nothing is silently skipped.
+
+**Feed scope (config `compute.json`):** for now the engine is fed **Cincinnati Masters
+only** (2021–2025). Explicit filters compose with the feed: a category the caller
+leaves empty falls back to the feed's value.
+
+**Filters** (`Filters(tournaments, years, players, tiers)`): empty category = all;
+non-empty = OR within a category, AND across categories.
+
+**Mutes** (`Mutes(mute_years, mute_tournaments)`): designated years/tournaments are
+removed from the selected set before computation and never appear in output results.
+Caller mutes union config defaults.
+
+**Output:** `scope` (filters, mutes, verified editions), `summary` (selected / rated /
+refused / players), `matches` (every selected match — rated rows carry rating/points/
+sections, refused rows carry `rateable: false` + `reason`), `players` (rating = sum of
+match ratings, matches, average, refused; sorted by rating desc).
+
+Void matches (retired / walkover / defaulted / unfinished) are **refused, never
+guessed** — they appear in the report with their reason.
 
 ## Phase 0 — match rating (Director spec, 2026-08-19)
 

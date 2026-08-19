@@ -176,5 +176,41 @@
     }
   ],
   "unknown_sport_name": "cricket",
-  "missing_config_name": "does_not_exist"
+  "missing_config_name": "does_not_exist",
+  "compute": {
+    "feed_tournament": "Cincinnati Masters",
+    "sinner": "Jannik Sinner",
+    "vukic": "Aleksandar Vukic",
+    "tier_m1000": "M1000",
+    "year_2021": "2021",
+    "year_2025": "2025",
+    "tamper_marker": "engine-compute-integrity-test",
+    "expected": {
+      "default_feed": {"matches_selected": 315, "matches_rated": 298, "matches_refused": 17},
+      "sinner_2021": {"matches_selected": 2, "matches_rated": 2, "matches_refused": 0, "rating": 8, "average": 4.0},
+      "vukic_all": {"matches_selected": 1, "matches_rated": 1, "matches_refused": 0, "rating": -12, "average": -12.0},
+      "year_2025": {"matches_selected": 95, "matches_rated": 87, "matches_refused": 8},
+      "tier_all": {"matches_selected": 315, "matches_rated": 298, "matches_refused": 17},
+      "mute_year_2025": {"matches_selected": 220, "matches_rated": 211, "matches_refused": 9},
+      "mute_tournament": {"matches_selected": 0, "matches_rated": 0, "matches_refused": 0},
+      "sinner_mute_2025": {"matches_selected": 11, "matches_rated": 9, "matches_refused": 2}
+    },
+    "match_checks": [
+      {
+        "label": "sinner delbonis 2021 r64 rates +14/-14",
+        "year": "2021", "round": "R64",
+        "player_a": "Jannik Sinner", "player_b": "Federico Delbonis",
+        "expected_rateable": true,
+        "expected_rating_a": 14, "expected_rating_b": -14,
+        "expected_points_a": 20, "expected_points_b": 6
+      },
+      {
+        "label": "sinner kecmanovic 2022 r32 retired refused",
+        "year": "2022", "round": "R32",
+        "player_a": "Jannik Sinner", "player_b": "Miomir Kecmanovic",
+        "expected_rateable": false,
+        "expected_reason_contains": "retired"
+      }
+    ]
+  }
 }
