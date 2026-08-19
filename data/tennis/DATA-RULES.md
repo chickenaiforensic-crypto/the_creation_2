@@ -59,7 +59,19 @@ way.
 - `master_store_tennis_SSoT.json` is a compiled output. Never hand-edit it — edit the source file
   in `editions/` and rerun `build.py`.
 
-## 6. Verification before acceptance
+## 6. Per-edition .txt summaries must stay in sync
+
+- Every `editions/{Tournament}/{Year}.json` has a matching `editions/{Tournament}/{Year}.txt` —
+  a human-readable summary derived entirely from that file's own match data plus its
+  `MANIFEST.json` entry. It is a rendering, not a new source: nothing in the `.txt` may assert
+  a fact absent from the `.json` and the manifest row.
+- Regenerate via `generate_summaries.py` whenever the edition file or its manifest entry
+  changes. Never hand-edit a `.txt` file — the same discipline as `master_store_tennis_SSoT.json`
+  in Rule 5. A stale `.txt` (not matching current match_count/checksum/status) is a defect.
+- `generate_summaries.py` is run after `build.py`, as part of the same change, whenever an
+  edition file is touched.
+
+## 7. Verification before acceptance
 
 - Claims of "closed," "gapless," "verified," or "complete" from any contributor (human or AI)
   are re-checked independently before being accepted — rerun the gap-detection script, rerun
