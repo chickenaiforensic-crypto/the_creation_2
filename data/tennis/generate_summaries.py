@@ -11,7 +11,7 @@ Usage:
     python3 generate_summaries.py
 
 Reads:  MANIFEST.json, editions/**/*.json
-Writes: editions/**/*.txt
+Writes: editions/{Tournament}/summaries/{Year}.txt
 """
 import json
 import os
@@ -93,7 +93,10 @@ def main():
             f"Checksum: {checksum_short}... (full value in MANIFEST.json)",
         ]
 
-        out_path = os.path.splitext(file_path)[0] + ".txt"
+        tournament_dir = os.path.dirname(file_path)
+        summaries_dir = os.path.join(tournament_dir, "summaries")
+        os.makedirs(summaries_dir, exist_ok=True)
+        out_path = os.path.join(summaries_dir, f"{ed['year']}.txt")
         with open(out_path, "w") as f:
             f.write("\n".join(lines) + "\n")
         written += 1

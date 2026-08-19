@@ -61,10 +61,12 @@ way.
 
 ## 6. Per-edition .txt summaries must stay in sync
 
-- Every `editions/{Tournament}/{Year}.json` has a matching `editions/{Tournament}/{Year}.txt` —
-  a human-readable summary derived entirely from that file's own match data plus its
-  `MANIFEST.json` entry. It is a rendering, not a new source: nothing in the `.txt` may assert
-  a fact absent from the `.json` and the manifest row.
+- Every `editions/{Tournament}/{Year}.json` has a matching
+  `editions/{Tournament}/summaries/{Year}.txt` — a human-readable summary derived entirely from
+  that file's own match data plus its `MANIFEST.json` entry, kept in its own `summaries/`
+  subfolder so rendered output stays visually separate from source data. It is a rendering, not
+  a new source: nothing in the `.txt` may assert a fact absent from the `.json` and the manifest
+  row.
 - Regenerate via `generate_summaries.py` whenever the edition file or its manifest entry
   changes. Never hand-edit a `.txt` file — the same discipline as `master_store_tennis_SSoT.json`
   in Rule 5. A stale `.txt` (not matching current match_count/checksum/status) is a defect.
