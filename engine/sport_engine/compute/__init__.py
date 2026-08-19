@@ -4,4 +4,5 @@ the manifest before use); never writes to the data tree.
 """
 
 from sport_engine.compute.compute import compute_ratings
+from sport_engine.compute.ratings_table import build_ratings_table, render_table_text
 from sport_engine.compute.selection import Filters, Mutes

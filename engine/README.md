@@ -47,6 +47,7 @@ engine/
 |---|---|
 | Phase 0 — match rating | IMPLEMENTED + tests green (2026-08-19) |
 | Computational layer — filters + mutes + live compute | IMPLEMENTED + tests green (2026-08-19) |
+| Ratings table view — per-year tournament tables + selectable filters | IMPLEMENTED + tests green (2026-08-19) |
 | Football mapping | NOT SPECIFIED — adapter stubbed, raises NotImplementedError |
 | Rating accumulation (career/season) | NOT SPECIFIED — later phase |
 | UI-facing outputs | NOT SPECIFIED — later phase |
@@ -78,6 +79,25 @@ average, refused; sorted by rating desc).
 
 Void matches (retired / walkover / defaulted / unfinished) are **refused, never
 guessed** — they appear in the report with their reason.
+
+## Ratings table view (per year, selectable filters)
+
+`build_ratings_table(filters=None, mutes=None)` produces **one tabulated ratings table
+per (year, tournament)** in the selected set — each year's tournament listed like the
+2021 table, top to bottom by engine rating, every player on its own row with the
+actual-performance position beside it. The UI's year + tournament filters map directly
+to `Filters(years=[...])` / `Filters(tournaments=[...])`; the feed scope from config
+still applies underneath.
+
+- Position column is derived from the stored result tree (winner + round fields);
+  round → position mapping lives in `config/position_rules.json`
+  (F 1st/2nd, SF 3rd, QF 5th, R16 9th, R32 17th, R64 33rd, R128 65th). Joint finishes
+  share the position number but are listed on separate rows — never combined.
+- `render_table_text(table)` renders one table as fixed-width tabulated text for
+  display/copy.
+- Zero-hardcoding: years, tournaments, players, round names and positions all come
+  from data + config. `engine/reports/ratings_tables_by_year.txt` shows all years
+  rendered by the engine.
 
 ## Phase 0 — match rating (Director spec, 2026-08-19)
 

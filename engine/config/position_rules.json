@@ -1,0 +1,12 @@
+{
+  "description": "Actual-position rules for the ratings table view. Round name (as stored in match rows) -> position number and display label. F winner 1st (Champion), F loser 2nd (Finalist), SF loser 3rd, QF loser 5th, R16 loser 9th, R32 loser 17th, R64 loser 33rd, R128 loser 65th. Same position number for every loser of that round (joint finishes listed individually).",
+  "rounds": {
+    "F": {"winner_position": 1, "loser_position": 2, "winner_label": "Champion", "loser_label": "Finalist"},
+    "SF": {"loser_position": 3, "loser_label": "SF loser"},
+    "QF": {"loser_position": 5, "loser_label": "QF loser"},
+    "R16": {"loser_position": 9, "loser_label": "R16 loser"},
+    "R32": {"loser_position": 17, "loser_label": "R32 loser"},
+    "R64": {"loser_position": 33, "loser_label": "R64 loser"},
+    "R128": {"loser_position": 65, "loser_label": "R128 loser"}
+  }
+}

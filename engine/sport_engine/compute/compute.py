@@ -20,7 +20,7 @@ from sport_engine.rating.phase0 import rate_sets
 REPO_ROOT = Path(__file__).resolve().parents[3]
 
 
-def _field_names() -> dict:
+def field_names() -> dict:
     """Tennis match-row field names from config, merged with computed accessors."""
     t = load_config("tennis_schema")["fields"]
     return {
@@ -37,6 +37,7 @@ def _field_names() -> dict:
         "void_flags": tuple(t["void_flags"]),
         "sets_a": t["sets_a"],
         "sets_b": t["sets_b"],
+        "winner": t["winner"],
     }
 
 
@@ -163,7 +164,7 @@ def compute_ratings(
     """
     cfg = load_config("compute")
     mschema = load_config("manifest_schema")
-    f = _field_names()
+    f = field_names()
 
     if filters is None:
         filters = Filters.from_config(cfg["feed"])

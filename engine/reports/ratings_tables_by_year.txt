@@ -1,0 +1,344 @@
+Cincinnati Masters — 2021
+matches: selected=55 rated=55 refused=0 players=56
+POS  PLAYER                       RATING  M    AVG  POSITION  ROUND REACHED
+---  ---------------------------  ------  -  -----  --------  -------------
+  1  Alexander Zverev                +62  5   12.4       1st  Champion     
+  2  Daniil Medvedev                 +40  4   10.0       3rd  SF loser     
+  3  Stefanos Tsitsipas              +22  4    5.5       3rd  SF loser     
+  4  Felix Auger-Aliassime           +20  4    5.0       5th  QF loser     
+  5  Lorenzo Sonego                  +20  3    6.7       9th  R16 loser    
+  6  Andrey Rublev                   +18  5    3.6       2nd  Finalist     
+  7  Benoit Paire                    +14  4    3.5       5th  QF loser     
+  8  Gael Monfils                    +14  3    4.7       9th  R16 loser    
+  9  Grigor Dimitrov                 +12  3    4.0       9th  R16 loser    
+ 10  Guido Pella                     +12  3    4.0       9th  R16 loser    
+ 11  Hubert Hurkacz                  +10  3    3.3       9th  R16 loser    
+ 12  Pablo Carreno Busta             +10  3    3.3       5th  QF loser     
+ 13  Jannik Sinner                    +8  2    4.0      17th  R32 loser    
+ 14  Karen Khachanov                  +8  2    4.0      17th  R32 loser    
+ 15  Casper Ruud                      +6  3    2.0       5th  QF loser     
+ 16  Diego Schwartzman                +4  3    1.3       9th  R16 loser    
+ 17  Frances Tiafoe                   +4  2    2.0      17th  R32 loser    
+ 18  John Isner                       +4  3    1.3       9th  R16 loser    
+ 19  Marin Cilic                      +4  2    2.0      17th  R32 loser    
+ 20  Albert Ramos-Vinolas             +0  2    0.0      17th  R32 loser    
+ 21  Andy Murray                      +0  2    0.0      17th  R32 loser    
+ 22  Sebastian Korda                  +0  2    0.0      17th  R32 loser    
+ 23  Fabio Fognini                    -2  2   -1.0      17th  R32 loser    
+ 24  Lloyd Harris                     -2  2   -1.0      17th  R32 loser    
+ 25  Mackenzie McDonald               -2  2   -1.0      17th  R32 loser    
+ 26  Reilly Opelka                    -2  2   -1.0      17th  R32 loser    
+ 27  Filip Krajinovic                 -4  1   -4.0      33rd  R64 loser    
+ 28  Alexander Bublik                 -6  2   -3.0      17th  R32 loser    
+ 29  Cameron Norrie                   -6  1   -6.0      33rd  R64 loser    
+ 30  Corentin Moutet                  -6  1   -6.0      33rd  R64 loser    
+ 31  Cristian Garin                   -6  1   -6.0      33rd  R64 loser    
+ 32  Denis Shapovalov                 -6  1   -6.0      17th  R32 loser    
+ 33  Jan-Lennard Struff               -6  1   -6.0      33rd  R64 loser    
+ 34  Marcos Giron                     -6  1   -6.0      33rd  R64 loser    
+ 35  Matteo Berrettini                -6  2   -3.0       9th  R16 loser    
+ 36  Taylor Fritz                     -6  1   -6.0      33rd  R64 loser    
+ 37  Alex de Minaur                   -8  2   -4.0      17th  R32 loser    
+ 38  Daniel Evans                     -8  1   -8.0      33rd  R64 loser    
+ 39  Dominik Koepfer                  -8  2   -4.0      17th  R32 loser    
+ 40  Miomir Kecmanovic                -8  1   -8.0      33rd  R64 loser    
+ 41  Tommy Paul                       -8  2   -4.0      17th  R32 loser    
+ 42  Alejandro Davidovich Fokina     -10  1  -10.0      33rd  R64 loser    
+ 43  Aslan Karatsev                  -12  1  -12.0      33rd  R64 loser    
+ 44  Carlos Alcaraz                  -12  1  -12.0      33rd  R64 loser    
+ 45  David Goffin                    -12  1  -12.0      33rd  R64 loser    
+ 46  Laslo Djere                     -12  1  -12.0      33rd  R64 loser    
+ 47  Marton Fucsovics                -12  1  -12.0      33rd  R64 loser    
+ 48  Nikoloz Basilashvili            -12  1  -12.0      33rd  R64 loser    
+ 49  Richard Gasquet                 -12  1  -12.0      33rd  R64 loser    
+ 50  Roberto Bautista Agut           -12  1  -12.0      33rd  R64 loser    
+ 51  Ugo Humbert                     -12  1  -12.0      33rd  R64 loser    
+ 52  Yoshihito Nishioka              -12  1  -12.0      33rd  R64 loser    
+ 53  Brandon Nakashima               -14  1  -14.0      33rd  R64 loser    
+ 54  Dusan Lajovic                   -14  1  -14.0      33rd  R64 loser    
+ 55  Federico Delbonis               -14  1  -14.0      33rd  R64 loser    
+ 56  Kevin Anderson                  -14  1  -14.0      33rd  R64 loser    
+
+Cincinnati Masters — 2022
+matches: selected=55 rated=54 refused=1 players=56
+POS  PLAYER                       RATING  M    AVG  POSITION  ROUND REACHED
+---  ---------------------------  ------  -  -----  --------  -------------
+  1  Borna Coric                     +70  6   11.7       1st  Champion     
+  2  Daniil Medvedev                 +30  4    7.5       3rd  SF loser     
+  3  Taylor Fritz                    +26  4    6.5       5th  QF loser     
+  4  Cameron Norrie                  +22  5    4.4       3rd  SF loser     
+  5  Carlos Alcaraz                  +22  3    7.3       5th  QF loser     
+  6  Stefanos Tsitsipas              +22  5    4.4       2nd  Finalist     
+  7  Sebastian Korda                 +16  3    5.3       9th  R16 loser    
+  8  John Isner                      +12  4    3.0       5th  QF loser     
+  9  Emil Ruusuvuori                  +8  2    4.0      17th  R32 loser    
+ 10  Felix Auger-Aliassime            +8  3    2.7       5th  QF loser     
+ 11  Tommy Paul                       +8  2    4.0      17th  R32 loser    
+ 12  Denis Shapovalov                 +6  3    2.0       9th  R16 loser    
+ 13  Fabio Fognini                    +6  2    3.0      17th  R32 loser    
+ 14  Roberto Bautista Agut            +6  3    2.0       9th  R16 loser    
+ 15  Aslan Karatsev                   +4  2    2.0      17th  R32 loser    
+ 16  Diego Schwartzman                +4  3    1.3       9th  R16 loser    
+ 17  Marin Cilic                      +4  3    1.3       9th  R16 loser    
+ 18  Miomir Kecmanovic                +4  1    4.0      17th  R32 loser    
+ 19  Alex de Minaur                   +2  2    1.0      17th  R32 loser    
+ 20  Ben Shelton                      +2  3    0.7       9th  R16 loser    
+ 21  Mackenzie McDonald               +2  2    1.0      17th  R32 loser    
+ 22  Andrey Rublev                    +0  2    0.0       9th  R16 loser    
+ 23  Andy Murray                      +0  2    0.0      17th  R32 loser    
+ 24  Filip Krajinovic                 +0  2    0.0      17th  R32 loser    
+ 25  Jannik Sinner                    +0  2    0.0       9th  R16 loser    
+ 26  Marcos Giron                     +0  2    0.0      17th  R32 loser    
+ 27  Frances Tiafoe                   -2  2   -1.0      17th  R32 loser    
+ 28  Nick Kyrgios                     -2  2   -1.0      17th  R32 loser    
+ 29  Botic van de Zandschulp          -4  2   -2.0      17th  R32 loser    
+ 30  Pablo Carreno Busta              -4  1   -4.0      33rd  R64 loser    
+ 31  Benjamin Bonzi                   -6  1   -6.0      33rd  R64 loser    
+ 32  Holger Rune                      -6  1   -6.0      33rd  R64 loser    
+ 33  Lorenzo Sonego                   -6  1   -6.0      33rd  R64 loser    
+ 34  Matteo Berrettini                -6  1   -6.0      33rd  R64 loser    
+ 35  Rafael Nadal                     -6  1   -6.0      17th  R32 loser    
+ 36  Stan Wawrinka                    -6  1   -6.0      33rd  R64 loser    
+ 37  Thanasi Kokkinakis               -6  1   -6.0      33rd  R64 loser    
+ 38  Alex Molcan                      -8  1   -8.0      33rd  R64 loser    
+ 39  Francisco Cerundolo              -8  1   -8.0      33rd  R64 loser    
+ 40  Hubert Hurkacz                   -8  1   -8.0      17th  R32 loser    
+ 41  Maxime Cressy                    -8  1   -8.0      33rd  R64 loser    
+ 42  Alejandro Davidovich Fokina     -12  1  -12.0      33rd  R64 loser    
+ 43  Brandon Nakashima               -12  1  -12.0      33rd  R64 loser    
+ 44  Casper Ruud                     -12  1  -12.0      17th  R32 loser    
+ 45  Daniel Evans                    -12  1  -12.0      33rd  R64 loser    
+ 46  David Goffin                    -12  1  -12.0      33rd  R64 loser    
+ 47  Grigor Dimitrov                 -12  1  -12.0      33rd  R64 loser    
+ 48  Jaume Munar                     -12  1  -12.0      33rd  R64 loser    
+ 49  Karen Khachanov                 -12  1  -12.0      33rd  R64 loser    
+ 50  Lorenzo Musetti                 -12  1  -12.0      33rd  R64 loser    
+ 51  Albert Ramos-Vinolas            -14  1  -14.0      33rd  R64 loser    
+ 52  Jeffrey Wolf                    -14  1  -14.0      33rd  R64 loser    
+ 53  Jenson Brooksby                 -14  1  -14.0      33rd  R64 loser    
+ 54  Henri Laaksonen                 -16  1  -16.0      33rd  R64 loser    
+ 55  Nikoloz Basilashvili            -16  1  -16.0      33rd  R64 loser    
+ 56  Sebastian Baez                  -16  1  -16.0      33rd  R64 loser    
+
+Cincinnati Masters — 2023
+matches: selected=55 rated=50 refused=5 players=56
+POS  PLAYER                       RATING  M    AVG  POSITION  ROUND REACHED
+---  ---------------------------  ------  -  -----  --------  -------------
+  1  Novak Djokovic                  +46  4   11.5       1st  Champion     
+  2  Alexander Zverev                +36  5    7.2       3rd  SF loser     
+  3  Hubert Hurkacz                  +34  5    6.8       3rd  SF loser     
+  4  Max Purcell                     +26  4    6.5       5th  QF loser     
+  5  Dusan Lajovic                   +24  2   12.0       9th  R16 loser    
+  6  Tommy Paul                      +20  3    6.7       9th  R16 loser    
+  7  Carlos Alcaraz                  +16  5    3.2       2nd  Finalist     
+  8  Emil Ruusuvuori                 +14  3    4.7       9th  R16 loser    
+  9  Mackenzie McDonald              +14  1   14.0       9th  R16 loser    
+ 10  Alejandro Davidovich Fokina     +12  1   12.0      17th  R32 loser    
+ 11  Taylor Fritz                    +12  3    4.0       5th  QF loser     
+ 12  Adrian Mannarino                +10  3    3.3       5th  QF loser     
+ 13  Daniil Medvedev                  +8  2    4.0       9th  R16 loser    
+ 14  Borna Coric                      +6  2    3.0      17th  R32 loser    
+ 15  Jordan Thompson                  +6  2    3.0      17th  R32 loser    
+ 16  Nicolas Jarry                    +6  1    6.0      17th  R32 loser    
+ 17  Gael Monfils                     +4  3    1.3       9th  R16 loser    
+ 18  Stan Wawrinka                    +4  3    1.3       9th  R16 loser    
+ 19  Holger Rune                      +0  0      —      17th  R32 loser    
+ 20  Stefanos Tsitsipas               +0  2    0.0       9th  R16 loser    
+ 21  Yoshihito Nishioka               +0  2    0.0      17th  R32 loser    
+ 22  Alex de Minaur                   -2  2   -1.0      17th  R32 loser    
+ 23  Alexei Popyrin                   -2  3   -0.7       5th  QF loser     
+ 24  Lorenzo Musetti                  -2  2   -1.0      17th  R32 loser    
+ 25  Felix Auger-Aliassime            -4  2   -2.0      17th  R32 loser    
+ 26  Aleksandr Shevchenko             -6  1   -6.0      33rd  R64 loser    
+ 27  Andrey Rublev                    -6  1   -6.0      17th  R32 loser    
+ 28  Ben Shelton                      -6  2   -3.0      17th  R32 loser    
+ 29  Brandon Nakashima                -6  1   -6.0      33rd  R64 loser    
+ 30  Cameron Norrie                   -6  1   -6.0      33rd  R64 loser    
+ 31  Casper Ruud                      -6  1   -6.0      17th  R32 loser    
+ 32  Christopher Eubanks              -6  1   -6.0      33rd  R64 loser    
+ 33  Daniel Altmaier                  -6  1   -6.0      33rd  R64 loser    
+ 34  Frances Tiafoe                   -6  2   -3.0      17th  R32 loser    
+ 35  Lorenzo Sonego                   -6  2   -3.0      17th  R32 loser    
+ 36  Roman Safiullin                  -6  1   -6.0      33rd  R64 loser    
+ 37  Tallon Griekspoor                -6  1   -6.0      33rd  R64 loser    
+ 38  Thanasi Kokkinakis               -6  1   -6.0      33rd  R64 loser    
+ 39  Ugo Humbert                      -6  2   -3.0      17th  R32 loser    
+ 40  Arthur Fils                      -8  1   -8.0      33rd  R64 loser    
+ 41  Matteo Berrettini                -8  1   -8.0      33rd  R64 loser    
+ 42  Jeffrey Wolf                    -10  1  -10.0      33rd  R64 loser    
+ 43  Daniel Evans                    -12  1  -12.0      33rd  R64 loser    
+ 44  Francisco Cerundolo             -12  1  -12.0      33rd  R64 loser    
+ 45  Gregoire Barrere                -12  1  -12.0      33rd  R64 loser    
+ 46  Jannik Sinner                   -12  1  -12.0      17th  R32 loser    
+ 47  John Isner                      -12  1  -12.0      33rd  R64 loser    
+ 48  Lloyd Harris                    -12  1  -12.0      33rd  R64 loser    
+ 49  Miomir Kecmanovic               -12  1  -12.0      33rd  R64 loser    
+ 50  Richard Gasquet                 -12  1  -12.0      33rd  R64 loser    
+ 51  Sebastian Korda                 -12  1  -12.0      33rd  R64 loser    
+ 52  Tomas Martin Etcheverry         -12  1  -12.0      33rd  R64 loser    
+ 53  Corentin Moutet                 -14  1  -14.0      33rd  R64 loser    
+ 54  Jiri Lehecka                    -14  1  -14.0      33rd  R64 loser    
+ 55  Yannick Hanfmann                -14  1  -14.0      33rd  R64 loser    
+ 56  Grigor Dimitrov                 -16  1  -16.0      33rd  R64 loser    
+
+Cincinnati Masters — 2024
+matches: selected=55 rated=52 refused=3 players=56
+POS  PLAYER                       RATING  M    AVG  POSITION  ROUND REACHED
+---  ---------------------------  ------  -  -----  --------  -------------
+  1  Jannik Sinner                   +38  4    9.5       1st  Champion     
+  2  Holger Rune                     +30  5    6.0       3rd  SF loser     
+  3  Alexander Zverev                +26  4    6.5       3rd  SF loser     
+  4  Frances Tiafoe                  +26  5    5.2       2nd  Finalist     
+  5  Ben Shelton                     +24  4    6.0       5th  QF loser     
+  6  Felix Auger-Aliassime           +22  3    7.3       9th  R16 loser    
+  7  Andrey Rublev                   +20  3    6.7       5th  QF loser     
+  8  Jordan Thompson                 +20  2   10.0       9th  R16 loser    
+  9  Jiri Lehecka                    +18  3    6.0       9th  R16 loser    
+ 10  Hubert Hurkacz                  +16  2    8.0       5th  QF loser     
+ 11  Pablo Carreno Busta             +14  3    4.7       9th  R16 loser    
+ 12  Gael Monfils                    +12  3    4.0       9th  R16 loser    
+ 13  Luciano Darderi                 +12  1   12.0      17th  R32 loser    
+ 14  Fabian Marozsan                  +6  3    2.0       9th  R16 loser    
+ 15  Brandon Nakashima                +4  3    1.3       9th  R16 loser    
+ 16  Jack Draper                      +4  4    1.0       5th  QF loser     
+ 17  Yoshihito Nishioka               +4  2    2.0      17th  R32 loser    
+ 18  Arthur Fils                      +2  2    1.0      17th  R32 loser    
+ 19  Tomas Martin Etcheverry          +2  2    1.0      17th  R32 loser    
+ 20  Flavio Cobolli                   +0  2    0.0       9th  R16 loser    
+ 21  Karen Khachanov                  +0  2    0.0      17th  R32 loser    
+ 22  Max Purcell                      +0  2    0.0      17th  R32 loser    
+ 23  Stefanos Tsitsipas               +0  2    0.0      17th  R32 loser    
+ 24  Zhizhen Zhang                    +0  2    0.0      17th  R32 loser    
+ 25  Alex Michelsen                   -2  2   -1.0      17th  R32 loser    
+ 26  Nuno Borges                      -4  2   -2.0      17th  R32 loser    
+ 27  Carlos Alcaraz                   -6  1   -6.0      17th  R32 loser    
+ 28  Grigor Dimitrov                  -6  1   -6.0      17th  R32 loser    
+ 29  Jan-Lennard Struff               -6  1   -6.0      33rd  R64 loser    
+ 30  Jaume Munar                      -6  1   -6.0      33rd  R64 loser    
+ 31  Marcos Giron                     -6  1   -6.0      33rd  R64 loser    
+ 32  Matteo Berrettini                -6  1   -6.0      33rd  R64 loser    
+ 33  Nicolas Jarry                    -6  1   -6.0      33rd  R64 loser    
+ 34  Taylor Fritz                     -6  1   -6.0      33rd  R64 loser    
+ 35  Ugo Humbert                      -6  1   -6.0      33rd  R64 loser    
+ 36  Adrian Mannarino                 -8  1   -8.0      33rd  R64 loser    
+ 37  Lorenzo Musetti                  -8  2   -4.0      17th  R32 loser    
+ 38  Matteo Arnaldi                   -8  1   -8.0      33rd  R64 loser    
+ 39  Sebastian Baez                   -8  2   -4.0      17th  R32 loser    
+ 40  Tommy Paul                       -8  1   -8.0      33rd  R64 loser    
+ 41  Tallon Griekspoor               -10  1  -10.0      33rd  R64 loser    
+ 42  Alejandro Davidovich Fokina     -12  1  -12.0      33rd  R64 loser    
+ 43  Alejandro Tabilo                -12  1  -12.0      33rd  R64 loser    
+ 44  Alexei Popyrin                  -12  1  -12.0      33rd  R64 loser    
+ 45  Corentin Moutet                 -12  1  -12.0      33rd  R64 loser    
+ 46  Daniil Medvedev                 -12  1  -12.0      17th  R32 loser    
+ 47  Giovanni Mpetshi Perricard      -12  1  -12.0      33rd  R64 loser    
+ 48  Mariano Navone                  -12  1  -12.0      33rd  R64 loser    
+ 49  Miomir Kecmanovic               -12  1  -12.0      33rd  R64 loser    
+ 50  Reilly Opelka                   -12  1  -12.0      33rd  R64 loser    
+ 51  Tomas Machac                    -12  1  -12.0      33rd  R64 loser    
+ 52  Aleksandar Kovacevic            -14  1  -14.0      33rd  R64 loser    
+ 53  Brandon Holt                    -14  1  -14.0      33rd  R64 loser    
+ 54  Casper Ruud                     -14  1  -14.0      17th  R32 loser    
+ 55  Francisco Cerundolo             -14  1  -14.0      33rd  R64 loser    
+ 56  Sebastian Korda                 -14  1  -14.0      33rd  R64 loser    
+
+Cincinnati Masters — 2025
+matches: selected=95 rated=87 refused=8 players=96
+POS  PLAYER                       RATING  M    AVG  POSITION  ROUND REACHED
+---  ---------------------------  ------  -  -----  --------  -------------
+  1  Jannik Sinner                   +72  5   14.4       2nd  Finalist     
+  2  Carlos Alcaraz                  +50  5   10.0       1st  Champion     
+  3  Terence Atmane                  +40  6    6.7       3rd  SF loser     
+  4  Alexander Zverev                +28  4    7.0       3rd  SF loser     
+  5  Andrey Rublev                   +26  4    6.5       5th  QF loser     
+  6  Frances Tiafoe                  +24  2   12.0       9th  R16 loser    
+  7  Karen Khachanov                 +24  2   12.0       9th  R16 loser    
+  8  Adrian Mannarino                +22  4    5.5       9th  R16 loser    
+  9  Arthur Rinderknech              +20  2   10.0      17th  R32 loser    
+ 10  Reilly Opelka                   +18  3    6.0      17th  R32 loser    
+ 11  Taylor Fritz                    +18  3    6.0       9th  R16 loser    
+ 12  Hamad Medjedovic                +14  3    4.7      17th  R32 loser    
+ 13  Jakub Mensik                    +14  1   14.0      17th  R32 loser    
+ 14  Camilo Ugo Carabelli            +12  1   12.0      33rd  R64 loser    
+ 15  Roberto Bautista Agut           +12  3    4.0      17th  R32 loser    
+ 16  Felix Auger-Aliassime           +10  3    3.3       5th  QF loser     
+ 17  Holger Rune                     +10  3    3.3       5th  QF loser     
+ 18  Jenson Brooksby                 +10  3    3.3      17th  R32 loser    
+ 19  Tommy Paul                      +10  2    5.0      17th  R32 loser    
+ 20  Ben Shelton                      +8  3    2.7       5th  QF loser     
+ 21  Jiri Lehecka                     +8  3    2.7       9th  R16 loser    
+ 22  Stefanos Tsitsipas               +8  2    4.0      17th  R32 loser    
+ 23  Alexei Popyrin                   +6  2    3.0      17th  R32 loser    
+ 24  Benjamin Bonzi                   +6  4    1.5       9th  R16 loser    
+ 25  Corentin Moutet                  +6  2    3.0      33rd  R64 loser    
+ 26  Damir Dzumhur                    +6  2    3.0      33rd  R64 loser    
+ 27  Adam Walton                      +4  3    1.3      17th  R32 loser    
+ 28  Francisco Comesana               +4  3    1.3       9th  R16 loser    
+ 29  Luca Nardi                       +4  3    1.3       9th  R16 loser    
+ 30  Tristan Boyer                    +4  2    2.0      33rd  R64 loser    
+ 31  Alexander Blockx                 +2  2    1.0      33rd  R64 loser    
+ 32  Coleman Wong                     +2  2    1.0      33rd  R64 loser    
+ 33  Sebastian Baez                   +2  2    1.0      33rd  R64 loser    
+ 34  Zizou Bergs                      +2  2    1.0      33rd  R64 loser    
+ 35  Alejandro Davidovich Fokina      +0  0      —      33rd  R64 loser    
+ 36  Emilio Nava                      +0  2    0.0      33rd  R64 loser    
+ 37  Learner Tien                     +0  2    0.0      33rd  R64 loser    
+ 38  Lorenzo Sonego                   +0  2    0.0      17th  R32 loser    
+ 39  Luciano Darderi                  +0  0      —      33rd  R64 loser    
+ 40  Nishesh Basavareddy              +0  2    0.0      33rd  R64 loser    
+ 41  Roman Safiullin                  +0  2    0.0      33rd  R64 loser    
+ 42  Ugo Humbert                      +0  2    0.0      17th  R32 loser    
+ 43  Daniel Elahi Galan               -2  2   -1.0      33rd  R64 loser    
+ 44  Ethan Quinn                      -2  2   -1.0      33rd  R64 loser    
+ 45  Gabriel Diallo                   -2  2   -1.0      17th  R32 loser    
+ 46  Joao Fonseca                     -4  2   -2.0      17th  R32 loser    
+ 47  Martin Landaluce                 -4  2   -2.0      33rd  R64 loser    
+ 48  Nicolas Jarry                    -4  1   -4.0      65th  R128 loser   
+ 49  Alex Michelsen                   -6  2   -3.0      17th  R32 loser    
+ 50  Brandon Nakashima                -6  2   -3.0      17th  R32 loser    
+ 51  Denis Shapovalov                 -6  1   -6.0      33rd  R64 loser    
+ 52  Fabian Marozsan                  -6  2   -3.0      33rd  R64 loser    
+ 53  Flavio Cobolli                   -6  1   -6.0      33rd  R64 loser    
+ 54  Hugo Gaston                      -6  1   -6.0      65th  R128 loser   
+ 55  Lorenzo Musetti                  -6  1   -6.0      33rd  R64 loser    
+ 56  Matteo Arnaldi                   -6  1   -6.0      65th  R128 loser   
+ 57  Roberto Carballes Baena          -6  2   -3.0      33rd  R64 loser    
+ 58  Sebastian Ofner                  -6  1   -6.0      65th  R128 loser   
+ 59  Shang Juncheng                   -6  1   -6.0      65th  R128 loser   
+ 60  Valentin Royer                   -6  2   -3.0      33rd  R64 loser    
+ 61  Alexandre Muller                 -8  1   -8.0      65th  R128 loser   
+ 62  Casper Ruud                      -8  1   -8.0      33rd  R64 loser    
+ 63  Colton Smith                     -8  1   -8.0      65th  R128 loser   
+ 64  Daniil Medvedev                  -8  1   -8.0      33rd  R64 loser    
+ 65  Marcos Giron                     -8  1   -8.0      65th  R128 loser   
+ 66  Mariano Navone                   -8  1   -8.0      65th  R128 loser   
+ 67  Patrick Kypson                   -8  1   -8.0      65th  R128 loser   
+ 68  Tomas Martin Etcheverry          -8  2   -4.0      33rd  R64 loser    
+ 69  Yunchaokete Bu                   -8  1   -8.0      65th  R128 loser   
+ 70  Alejandro Tabilo                -12  1  -12.0      65th  R128 loser   
+ 71  Aleksandar Vukic                -12  1  -12.0      65th  R128 loser   
+ 72  Alex de Minaur                  -12  1  -12.0      33rd  R64 loser    
+ 73  Borna Coric                     -12  1  -12.0      65th  R128 loser   
+ 74  Brandon Holt                    -12  1  -12.0      65th  R128 loser   
+ 75  Cameron Norrie                  -12  1  -12.0      33rd  R64 loser    
+ 76  Daniel Altmaier                 -12  1  -12.0      65th  R128 loser   
+ 77  Hugo Dellien                    -12  1  -12.0      65th  R128 loser   
+ 78  Jaume Munar                     -12  1  -12.0      65th  R128 loser   
+ 79  Kei Nishikori                   -12  1  -12.0      65th  R128 loser   
+ 80  Leandro Riedi                   -12  1  -12.0      65th  R128 loser   
+ 81  Mackenzie McDonald              -12  1  -12.0      65th  R128 loser   
+ 82  Mattia Bellucci                 -12  1  -12.0      65th  R128 loser   
+ 83  Miomir Kecmanovic               -12  1  -12.0      65th  R128 loser   
+ 84  Nuno Borges                     -12  1  -12.0      65th  R128 loser   
+ 85  Pedro Martinez                  -12  2   -6.0      33rd  R64 loser    
+ 86  Tallon Griekspoor               -12  1  -12.0      33rd  R64 loser    
+ 87  Thiago Agustin Tirante          -12  1  -12.0      65th  R128 loser   
+ 88  Tomas Machac                    -12  1  -12.0      33rd  R64 loser    
+ 89  Aleksandar Kovacevic            -14  1  -14.0      65th  R128 loser   
+ 90  Arthur Cazaux                   -14  1  -14.0      33rd  R64 loser    
+ 91  David Goffin                    -14  1  -14.0      65th  R128 loser   
+ 92  Giovanni Mpetshi Perricard      -14  1  -14.0      65th  R128 loser   
+ 93  Jacob Fearnley                  -14  1  -14.0      65th  R128 loser   
+ 94  Vit Kopriva                     -14  1  -14.0      65th  R128 loser   
+ 95  Jordan Thompson                 -16  1  -16.0      65th  R128 loser   
+ 96  Yoshihito Nishioka              -16  1  -16.0      65th  R128 loser   

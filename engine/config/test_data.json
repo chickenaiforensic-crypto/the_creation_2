@@ -212,5 +212,27 @@
         "expected_reason_contains": "retired"
       }
     ]
+  },
+  "ratings_table": {
+    "years": ["2021", "2022", "2023", "2024", "2025"],
+    "year_2021": {
+      "rows": 56,
+      "selected": 55, "rated": 55, "refused": 0,
+      "top_player": "Alexander Zverev",
+      "top_rating": 62,
+      "top_position": "1st",
+      "position_counts": {"1st": 1, "2nd": 1, "3rd": 2, "5th": 4, "9th": 8, "17th": 16, "33rd": 24},
+      "finalist_position": "2nd",
+      "sf_loser_position": "3rd"
+    },
+    "year_2025": {
+      "rows": 96,
+      "selected": 95, "rated": 87, "refused": 8,
+      "champion": "Carlos Alcaraz",
+      "champion_position": "1st",
+      "runner_up_position": "2nd",
+      "r128_loser_position": "65th",
+      "top_rating_player": "Jannik Sinner"
+    }
   }
 }
