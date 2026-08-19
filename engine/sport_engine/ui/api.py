@@ -150,10 +150,7 @@ def performance_report(
     players' total window points become a 100% split (independent sectional
     output)."""
     ui = load_config("ui")
-    range_years = year_range(
-        years_from, years_to,
-        ui["ratings_percentage"]["default_from_year"], ui["ratings_percentage"]["default_to_year"],
-    )
+    range_years = year_range(years_from, years_to)
     mutes = Mutes(mute_years=mute_years or [], mute_tournaments=mute_tournaments or [])
     eff_years = range_years or (list(years) if years else [])
     pa = run_performance(player_a, tournaments, eff_years, tours, mutes)
@@ -245,10 +242,7 @@ def matchup_report(
     built (placeholder state per spec).
     """
     ui = load_config("ui")
-    range_years = year_range(
-        years_from, years_to,
-        ui["ratings_percentage"]["default_from_year"], ui["ratings_percentage"]["default_to_year"],
-    )
+    range_years = year_range(years_from, years_to)
     # An explicit `years` list (caller) wins over the ratings range; otherwise
     # the ratings range selects the year scope (default: full dataset).
     effective_years = list(years) if years else range_years

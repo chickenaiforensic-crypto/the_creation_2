@@ -1,12 +1,32 @@
 import unittest
 
-from sport_engine.compute.selection import Mutes
+from sport_engine.compute.selection import Mutes, year_range
 from sport_engine.config import load_config
 from sport_engine.ratings.ratings import run_ratings
 from sport_engine.ui.api import ratings_report
 
 _DATA = load_config("test_data")
 _R = _DATA["ratings"]
+
+
+class TestYearRange(unittest.TestCase):
+    """A single selected year must mean ONE year — not a range silently
+    extended to the data's edge (the 'selected one year, saw all years' bug)."""
+
+    def test_single_from_is_single_year(self):
+        self.assertEqual(year_range("2024", None), ["2024"])
+
+    def test_single_to_is_single_year(self):
+        self.assertEqual(year_range(None, "2024"), ["2024"])
+
+    def test_neither_is_all(self):
+        self.assertEqual(year_range(None, None), [])
+
+    def test_both_is_inclusive_range(self):
+        self.assertEqual(year_range("2024", "2025"), ["2024", "2025"])
+
+    def test_reversed_range_is_swapped(self):
+        self.assertEqual(year_range("2025", "2024"), ["2024", "2025"])
 
 
 class TestRunRatings(unittest.TestCase):
@@ -34,6 +54,15 @@ class TestRunRatings(unittest.TestCase):
         exp = _R["sinner_cincinnati_2024"]
         self.assertEqual(r["rating"], exp["rating"])
         self.assertEqual(r["matches_rated"], exp["matches_rated"])
+
+    def test_single_year_from_only(self):
+        # selecting only From=2024 must return 2024 ONLY (not 2024+2025)
+        r = run_ratings(
+            "Jannik Sinner", tournaments=["Cincinnati Masters"], years_from="2024",
+        )
+        exp = _R["sinner_cincinnati_2024"]
+        self.assertEqual(r["rating"], exp["rating"])
+        self.assertEqual([x["year"] for x in r["per_year"]], ["2024"])
 
     def test_no_opponent_subtraction(self):
         # the rating equals the sum of the player's own points across matches,

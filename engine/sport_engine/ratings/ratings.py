@@ -31,10 +31,10 @@ def _effective_years(
     years_to: Optional[str],
 ) -> List[str]:
     """Year selection: an explicit year period (from/to) wins; otherwise an
-    explicit year list; otherwise empty (all years in scope)."""
+    explicit year list; otherwise empty (all years in scope). A single bound
+    is a single year (not a range extended to the data's edge)."""
     if years_from or years_to:
-        rp = load_config("ui")["ratings_percentage"]
-        return year_range(years_from, years_to, rp["default_from_year"], rp["default_to_year"])
+        return year_range(years_from, years_to)
     return list(years or [])
 
 

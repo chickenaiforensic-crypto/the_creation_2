@@ -15,19 +15,21 @@ from typing import Iterable, List, Mapping, Optional, Tuple
 def year_range(
     years_from: Optional[str] = None,
     years_to: Optional[str] = None,
-    default_from: str = "2021",
-    default_to: str = "2025",
 ) -> List[str]:
     """Resolve a (from, to) year period into an inclusive year list.
 
-    Empty when neither bound is given (the caller then means "all years").
-    The fallback bounds come from config (ui.json ratings defaults); a single
-    given bound uses the other side's default. Swaps if the range is reversed.
+    - Neither bound given -> [] (the caller then means "all years").
+    - A single bound -> [that year] (selecting one year means ONE year, not a
+      range silently extended to the data's edge).
+    - Both bounds -> inclusive range [from..to] (swapped if reversed).
     """
     if not years_from and not years_to:
         return []
-    lo = int(years_from) if years_from else int(default_from)
-    hi = int(years_to) if years_to else int(default_to)
+    if not years_from:
+        return [str(int(years_to))]
+    if not years_to:
+        return [str(int(years_from))]
+    lo, hi = int(years_from), int(years_to)
     if hi < lo:
         lo, hi = hi, lo
     return [str(y) for y in range(lo, hi + 1)]

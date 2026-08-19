@@ -573,12 +573,12 @@ function renderRatings(m) {
   fromWrap.appendChild(el("label", { text: ui.year_from_label }));
   fromWrap.appendChild(el("select", {
     onchange: (e) => { state.ratingsFrom = e.target.value; state.ratingsData = null; render(); },
-  }, selectOptions(m.options.years, [state.ratingsFrom])));
+  }, selectOptions(m.options.years, [state.ratingsFrom], ui.all_option)));
   const toWrap = el("div", { class: "row" });
   toWrap.appendChild(el("label", { text: ui.year_to_label }));
   toWrap.appendChild(el("select", {
     onchange: (e) => { state.ratingsTo = e.target.value; state.ratingsData = null; render(); },
-  }, selectOptions(m.options.years, [state.ratingsTo])));
+  }, selectOptions(m.options.years, [state.ratingsTo], ui.all_option)));
   rangeRow.appendChild(fromWrap);
   rangeRow.appendChild(toWrap);
   panel.appendChild(rangeRow);
