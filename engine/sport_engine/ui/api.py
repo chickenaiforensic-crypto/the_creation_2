@@ -15,6 +15,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import List, Optional
 
+from sport_engine import __version__
 from sport_engine.compute.compute import compute_ratings
 from sport_engine.compute.data_source import load_editions
 from sport_engine.compute.selection import Filters, Mutes, year_range
@@ -81,7 +82,7 @@ def ui_manifest() -> dict:
     # user can constrain OR broaden the processed dataset beyond the feed scope
 
     return {
-        "app": ui["app"],
+        "app": {**ui["app"], "version": __version__},
         "sports": ui["sports"],
         "tabs": ui["tabs"],
         "entity_labels": ui["entity_labels"],

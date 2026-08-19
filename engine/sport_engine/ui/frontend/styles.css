@@ -17,6 +17,9 @@ header.app-header { display: flex; align-items: center; justify-content: space-b
 header.app-header h1 { font-size: 22px; letter-spacing: 0.5px; }
 header.app-header p { color: var(--muted); font-size: 13px; }
 .dev-lock { margin-left: auto; font-size: 12px; color: var(--muted); background: var(--panel); border: 1px solid var(--border); padding: 8px 12px; border-radius: 8px; }
+.header-right { display: flex; align-items: center; gap: 12px; }
+.header-right .dev-lock { margin-left: 0; }
+.version-badge { font-size: 12px; font-weight: 700; color: #fff; background: var(--accent2); padding: 8px 12px; border-radius: 8px; letter-spacing: 0.5px; }
 
 /* ---------- sports bar ---------- */
 .sports-bar { display: flex; gap: 10px; margin-bottom: var(--space); }

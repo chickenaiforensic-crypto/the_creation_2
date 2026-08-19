@@ -1,5 +1,6 @@
 import unittest
 
+from sport_engine import __version__
 from sport_engine.ui.api import ui_manifest
 
 
@@ -7,6 +8,12 @@ class TestUIManifest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.m = ui_manifest()
+
+    def test_version_exposed(self):
+        # the app version is a single source of truth in sport_engine/__init__,
+        # exposed via the manifest, bumped every update (v1.1, v1.2, ...)
+        self.assertEqual(self.m["app"]["version"], __version__)
+        self.assertRegex(__version__, r"^v\d+\.\d+$")
 
     def test_tabs_present(self):
         self.assertIn("dashboard", self.m["tabs"])

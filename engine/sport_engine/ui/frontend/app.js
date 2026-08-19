@@ -86,7 +86,10 @@ function renderHeader(m) {
         el("h1", { text: m.app.name }),
         el("p", { text: m.app.slogan }),
       ]),
-      el("div", { class: "dev-lock", text: "Lock: " + m.development_lock.rule }),
+      el("div", { class: "header-right" }, [
+        el("span", { class: "version-badge", text: m.app.version }),
+        el("div", { class: "dev-lock", text: "Lock: " + m.development_lock.rule }),
+      ]),
     ])
   );
 }
