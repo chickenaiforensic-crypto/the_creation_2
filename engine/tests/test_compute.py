@@ -18,7 +18,7 @@ def _expected(key):
 
 
 class TestComputeDefaults(unittest.TestCase):
-    """Feed default: Cincinnati Masters only (Director: 'only feed cincinnati_masters')."""
+    """Feed default: only the configured feed tournament is computed."""
 
     def test_default_feed_counts(self):
         report = compute_ratings()
@@ -32,20 +32,23 @@ class TestComputeDefaults(unittest.TestCase):
         tournaments = {m["tournament"] for m in report["matches"]}
         self.assertEqual(tournaments, {_COMPUTE["feed_tournament"]})
 
-    def test_scope_editions_are_manifest_verified(self):
+    def test_scope_loaded_vs_feed_editions(self):
         report = compute_ratings()
-        editions = report["scope"]["editions"]
+        loaded = report["scope"]["loaded_editions"]
+        feed = report["scope"]["feed_editions"]
         cfg = load_config("compute")
         manifest = json.loads(
             (REPO_ROOT / cfg["data_root_relative_to_repo"] / cfg["manifest_file"]).read_text(
                 encoding="utf-8"
             )
         )
-        self.assertEqual(len(editions), manifest["total_editions"])
-        cincy_years = sorted(
-            e["year"] for e in editions if e["tournament"] == _COMPUTE["feed_tournament"]
-        )
+        # loaded = the verified universe (every manifest edition)
+        self.assertEqual(len(loaded), manifest["total_editions"])
+        # feed = only the editions the computation actually drew from
+        cincy_years = sorted(e["year"] for e in feed)
         self.assertEqual(cincy_years, ["2021", "2022", "2023", "2024", "2025"])
+        self.assertTrue(all(e["tournament"] == _COMPUTE["feed_tournament"] for e in feed))
+        self.assertLess(len(feed), len(loaded))
 
 
 class TestFilters(unittest.TestCase):

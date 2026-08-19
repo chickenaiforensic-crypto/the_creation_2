@@ -113,6 +113,20 @@ def _aggregate(rows: List[dict]) -> List[dict]:
     return players
 
 
+def _edition_in_scope(edition: Mapping, filters: Filters, mschema: Mapping) -> bool:
+    """Is this loaded edition eligible under the effective filters? (Match-level
+    filters like players cannot be judged at edition level.)"""
+    identity = edition_identity(edition, mschema)
+    if filters.tournaments and identity["tournament"] not in filters.tournaments:
+        return False
+    if filters.years and identity["year"] not in filters.years:
+        return False
+    tier = edition.get(mschema["edition_file_tier"]) if mschema["edition_file_tier"] else None
+    if filters.tiers and tier not in filters.tiers:
+        return False
+    return True
+
+
 def _effective_filters(caller: Filters, feed_cfg: Mapping) -> Filters:
     """Feed scope (config) composes with caller filters: a category the caller left
     empty falls back to the feed's value; a category the caller set overrides it.
@@ -166,6 +180,8 @@ def compute_ratings(
     adapter = TennisAdapter()
     rows: List[dict] = []
     for edition in editions:
+        if not _edition_in_scope(edition, filters, mschema):
+            continue
         for match in edition[mschema["edition_file_matches"]]:
             if not filters.allows(match, f):
                 continue
@@ -184,8 +200,16 @@ def compute_ratings(
         "scope": {
             "filters": filters.as_dict(),
             "mutes": mutes.as_dict(),
-            "editions": sorted(
+            "loaded_editions": sorted(
                 (edition_identity(e, mschema) for e in editions),
+                key=lambda e: (e["tournament"], e["year"]),
+            ),
+            "feed_editions": sorted(
+                (
+                    edition_identity(e, mschema)
+                    for e in editions
+                    if _edition_in_scope(e, filters, mschema)
+                ),
                 key=lambda e: (e["tournament"], e["year"]),
             ),
             "data_root": str(data_root),

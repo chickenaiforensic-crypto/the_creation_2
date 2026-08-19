@@ -69,10 +69,12 @@ non-empty = OR within a category, AND across categories.
 removed from the selected set before computation and never appear in output results.
 Caller mutes union config defaults.
 
-**Output:** `scope` (filters, mutes, verified editions), `summary` (selected / rated /
-refused / players), `matches` (every selected match — rated rows carry rating/points/
-sections, refused rows carry `rateable: false` + `reason`), `players` (rating = sum of
-match ratings, matches, average, refused; sorted by rating desc).
+**Output:** `scope` (filters, mutes, `loaded_editions` = the verified universe of all
+manifest editions, `feed_editions` = the editions the computation actually drew from,
+data root), `summary` (selected / rated / refused / players), `matches` (every selected
+match — rated rows carry rating/points/sections, refused rows carry
+`rateable: false` + `reason`), `players` (rating = sum of match ratings, matches,
+average, refused; sorted by rating desc).
 
 Void matches (retired / walkover / defaulted / unfinished) are **refused, never
 guessed** — they appear in the report with their reason.

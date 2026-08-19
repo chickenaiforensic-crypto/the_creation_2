@@ -10,5 +10,6 @@
   "edition_year": "year",
   "edition_file_matches": "matches",
   "edition_file_tournament": "tournament",
-  "edition_file_year": "year"
+  "edition_file_year": "year",
+  "edition_file_tier": "tier"
 }
