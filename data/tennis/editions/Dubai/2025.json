@@ -4,8 +4,8 @@
  "tier": "ATP500",
  "year": "2025",
  "draw_size": 32,
- "status": "closed_verified",
- "source": "Wikipedia 2025 Dubai Tennis Championships infobox",
+ "status": "closed_verified_gapless",
+ "source": "Wikipedia 2025 Dubai Tennis Championships infobox | T-010: status aligned with manifest after byte re-verification (full draw-derived census + round-transition check green); previously file said closed_verified while manifest said closed_verified_gapless.",
  "match_count": 31,
  "matches": [
   {

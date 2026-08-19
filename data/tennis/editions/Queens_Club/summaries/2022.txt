@@ -7,4 +7,4 @@ Round coverage: R32(16) R16(8) QF(4) SF(2) F(1)
 Champion: Matteo Berrettini
 Runner-up: Filip Krajinovic
 Source: Wikipedia 2022 Queen's Club Championships infobox + singles page cross-check
-Checksum: 7d96218038dc... (full value in MANIFEST.json)
+Checksum: c111bdecfe9f... (full value in MANIFEST.json)

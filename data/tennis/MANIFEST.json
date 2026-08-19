@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 30,
+  "total_editions": 35,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -11,7 +11,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2021 ABN AMRO World Tennis Tournament infobox + singles page cross-check",
       "match_count": 31,
-      "checksum_sha256": "81b60eaaa70c1ab85631951966a2d9830686814b3c4f0996a52e1226220fce02",
+      "checksum_sha256": "fa6fbbefe765d99b84b5b78be36ebcf7566da3cc7f6755d95967a2bee11433da",
       "file_path": "editions/Rotterdam/2021.json",
       "gap_count": 0
     },
@@ -24,7 +24,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2022 ABN AMRO Rotterdam infobox",
       "match_count": 31,
-      "checksum_sha256": "abe7cdc8e12704c24373736364199a0533f99a3f15a1f5f47fd7ab3219c44d87",
+      "checksum_sha256": "8b6fc7c3f04619d3935457ca790e04855d6ec0cff6aad1e3df232dff2014aca6",
       "file_path": "editions/Rotterdam/2022.json",
       "gap_count": 0
     },
@@ -37,7 +37,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2023 ABN AMRO Open infobox",
       "match_count": 31,
-      "checksum_sha256": "f235253f06ebf8bd8f9be040bbbed21b1caaec57e5c2ff8fa44172012e69afd5",
+      "checksum_sha256": "60e40c1eafd73078ad8bc690b2b6bc924fcd2f95698ad1f4f161827d7f7beb81",
       "file_path": "editions/Rotterdam/2023.json",
       "gap_count": 0
     },
@@ -50,7 +50,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2024 ABN AMRO Open infobox",
       "match_count": 31,
-      "checksum_sha256": "82438a24498af312b7411d61c81f6d7f09f1b5dfe5f2c55702086cbbe73e00db",
+      "checksum_sha256": "d3c7c05586734dc40ad125a41b4f07021f34cf16e715f70679e356b9d38365ba",
       "file_path": "editions/Rotterdam/2024.json",
       "gap_count": 0
     },
@@ -63,7 +63,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2025 ABN AMRO Open infobox",
       "match_count": 31,
-      "checksum_sha256": "f3d49137f4dad9c30188ada496b68744c16d1e29d6cdb0f68f9698142b06244e",
+      "checksum_sha256": "d1d0a0799926fbc5ea93edf29c63eb7fee6a06da69dd80f41143ab11851feb90",
       "file_path": "editions/Rotterdam/2025.json",
       "gap_count": 0
     },
@@ -74,9 +74,9 @@
       "year": "2021",
       "draw_size": 48,
       "status": "closed_verified_gapless",
-      "source": "Wikipedia 2021 Dubai Tennis Championships infobox",
-      "match_count": 44,
-      "checksum_sha256": "f0fa9a90bbdb443e788cd3f26b675d5ca8499a53079e0d29eb12f2ee07fc68c9",
+      "source": "Wikipedia 2021 Dubai Tennis Championships - Men's singles infobox: Draw 48 (6Q/4WC), Seeds 16 all bye; effective bracket 18 byes/46 players (Wawrinka+Coric withdrew; Sonego+Giustino into bye slots; Basilashvili+Ebden extra byes as Doha/Marseille semifinalists) => complete = 45 rows",
+      "match_count": 45,
+      "checksum_sha256": "1668ef92bc8d03d56b120e54fc62137d9a29ae77bc906a41414a53d41785c399",
       "file_path": "editions/Dubai/2021.json",
       "gap_count": 0
     },
@@ -89,7 +89,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2022 Dubai Tennis Championships infobox",
       "match_count": 31,
-      "checksum_sha256": "e04f1b98eab464e7d7c19403243e58d49ff3bac3fdb28cc9030770106e58b4a0",
+      "checksum_sha256": "3cb8ed988a9ae979b6a4e83600c0edac099643f66376dd78861dc2e62856b4dd",
       "file_path": "editions/Dubai/2022.json",
       "gap_count": 0
     },
@@ -102,7 +102,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2023 Dubai Tennis Championships infobox",
       "match_count": 31,
-      "checksum_sha256": "3dfb206491ff6d6787f485c6a4679b24b5512d04acc6b5a3b006e903ea0ca90b",
+      "checksum_sha256": "825a898a9c7af40268f0810c59ba5ee8a1754029ecc549a1aa36ffa81e3116f5",
       "file_path": "editions/Dubai/2023.json",
       "gap_count": 0
     },
@@ -115,7 +115,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2024 Dubai Tennis Championships infobox",
       "match_count": 31,
-      "checksum_sha256": "ce317642362305e5ca6553cb7944b3b0af6b2d86125b961c4cbc1f119ff6b858",
+      "checksum_sha256": "a5935a7dae23acb13bed21959c4394baaf84a188b5ccaab10bd081c3b937171e",
       "file_path": "editions/Dubai/2024.json",
       "gap_count": 0
     },
@@ -128,7 +128,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2025 Dubai Tennis Championships infobox",
       "match_count": 31,
-      "checksum_sha256": "46ade9de799b0c64a044475266bbc84c22d018659483db31a527cf6d00b99682",
+      "checksum_sha256": "50eab7fa5c39a802a909d7750493c11b4796259434ac1d0c2902b43f78971960",
       "file_path": "editions/Dubai/2025.json",
       "gap_count": 0
     },
@@ -141,7 +141,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2021 Halle Open infobox + singles page cross-check",
       "match_count": 31,
-      "checksum_sha256": "638eda0160d1caffbc1dce588f2aff59ac42f3b6cc5336b319efd9a9991ff487",
+      "checksum_sha256": "77622c0794720598673ee23539b4cf64bf8a6851bcce9f72ad6d10fcf5535a88",
       "file_path": "editions/Halle/2021.json",
       "gap_count": 0
     },
@@ -154,7 +154,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2022 Halle Open infobox",
       "match_count": 31,
-      "checksum_sha256": "bd5dac076ad2d76713c2c2d395efbdb8bc52a8fca464df4411575f8fc938ced4",
+      "checksum_sha256": "cf8075893edca67633975a17aaaa9738b86fee78279e1d782ea8871198379450",
       "file_path": "editions/Halle/2022.json",
       "gap_count": 0
     },
@@ -167,7 +167,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2023 Halle Open infobox",
       "match_count": 31,
-      "checksum_sha256": "fbbb6b41800604d317f6403fb7ed2e2305b943e007429895f9794db50e1bae0f",
+      "checksum_sha256": "7ee716479cb4bcbbc2ce767ed03c31d12e571bbd4e19f86a6fe25e03be6970bd",
       "file_path": "editions/Halle/2023.json",
       "gap_count": 0
     },
@@ -180,7 +180,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2024 Halle Open infobox",
       "match_count": 31,
-      "checksum_sha256": "efda66cd57e953fb3fa08531bfec28206d009d69772385b54fc798b72d8fa873",
+      "checksum_sha256": "2f2f962490a178c3a6e49040532028fcc05e3e6b935d33d70beeeb489a945f0d",
       "file_path": "editions/Halle/2024.json",
       "gap_count": 0
     },
@@ -193,7 +193,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2025 Halle Open infobox",
       "match_count": 31,
-      "checksum_sha256": "a3cf7b41e368ac4d8759d92a1e7299d5c38f4cd0639fed33cacfdd339285419d",
+      "checksum_sha256": "a836ad9b003690a41040283fdd6c4ff92b6dfb73d432f410c6ff4dd8d8d22ddd",
       "file_path": "editions/Halle/2025.json",
       "gap_count": 0
     },
@@ -206,7 +206,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2021 Queen's Club Championships infobox + singles page cross-check",
       "match_count": 31,
-      "checksum_sha256": "b104ae864672be8e62e8416311b06d4eb032b41a08801cf5407e9fea21967c73",
+      "checksum_sha256": "48ff3f413983571195ae34118001588cb6cf6f2fad954e6dd8b8a18b1b4319c2",
       "file_path": "editions/Queens_Club/2021.json",
       "gap_count": 0
     },
@@ -219,7 +219,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2022 Queen's Club Championships infobox + singles page cross-check",
       "match_count": 31,
-      "checksum_sha256": "7d96218038dccccc187925a03f6606caa777acf40d30f52f83eadaa21c00474c",
+      "checksum_sha256": "c111bdecfe9fa5dcfdfed0e39b889b775e8c65c68562159be37203f8bc5193d7",
       "file_path": "editions/Queens_Club/2022.json",
       "gap_count": 0
     },
@@ -232,7 +232,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2023 Queen's Club Championships infobox",
       "match_count": 31,
-      "checksum_sha256": "117d6776c7248e80112987a3cc8b7cbe2d2741b50c2e443e8e296b41e53d9a66",
+      "checksum_sha256": "3e2f2e20514f32cf80f1eebcb9253d3ebe0b0594a8cb324874ca54cd05b495ea",
       "file_path": "editions/Queens_Club/2023.json",
       "gap_count": 0
     },
@@ -245,7 +245,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2024 Queen's Club Championships infobox",
       "match_count": 31,
-      "checksum_sha256": "239756890cabb08362be02f14ec746ac54caf4124e0598a51bcf98f8fb1809e5",
+      "checksum_sha256": "ccba5514ae32160265ed9c9bbe72cbd469aebd1ee05ff1aa83ce9f1bcd84399b",
       "file_path": "editions/Queens_Club/2024.json",
       "gap_count": 0
     },
@@ -258,7 +258,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2025 Queen's Club Championships infobox + men's singles page cross-check",
       "match_count": 31,
-      "checksum_sha256": "9f331308ed57dd90c7e037517b4c391cc5e664f4f622de7b151c3bca2201d831",
+      "checksum_sha256": "7bd3e0e68cb4c14700f9beb3de568c5a57bb831438a2d713f996331c209be861",
       "file_path": "editions/Queens_Club/2025.json",
       "gap_count": 0
     },
@@ -390,6 +390,71 @@
       "match_count": 95,
       "checksum_sha256": "e0b7ac0d7fe5e081bfcf5ce567b7b6695df8c5c9209796495d681be08a9a2638",
       "file_path": "editions/Cincinnati_Masters/2025.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cleveland",
+      "tour": "WTA",
+      "tier": "WTA250",
+      "year": "2021",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2021 Tennis in the Land - Singles infobox: Draw 32 (4Q/3WC), Seeds 8",
+      "match_count": 31,
+      "checksum_sha256": "28dfa361783270342b9581b8910f14d398852c0a67b989025b3807a8523c285f",
+      "file_path": "editions/Cleveland/2021.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cleveland",
+      "tour": "WTA",
+      "tier": "WTA250",
+      "year": "2022",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2022 Tennis in the Land - Singles infobox: Draw 32 (4Q/4WC), Seeds 8",
+      "match_count": 31,
+      "checksum_sha256": "a129a6e88f921a0d1a03d5dc21826c1c1e3efec1169dba737b335c4a5193b6c7",
+      "file_path": "editions/Cleveland/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cleveland",
+      "tour": "WTA",
+      "tier": "WTA250",
+      "year": "2023",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2023 Tennis in the Land - Singles infobox: Draw 32 (6Q/4WC), Seeds 8",
+      "match_count": 31,
+      "checksum_sha256": "1bf4d89c9053f376553af79555a337fca46ff1056383aa6a06c0ee718c632473",
+      "file_path": "editions/Cleveland/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cleveland",
+      "tour": "WTA",
+      "tier": "WTA250",
+      "year": "2024",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2024 Tennis in the Land - Singles infobox: Draw 32 (4Q/3WC), Seeds 8",
+      "match_count": 31,
+      "checksum_sha256": "aabf557a5e83a59824d2faa09315be53e54d75015f6fc8235b980d8fbd65663b",
+      "file_path": "editions/Cleveland/2024.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cleveland",
+      "tour": "WTA",
+      "tier": "WTA250",
+      "year": "2025",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2025 Tennis in the Land - Singles infobox: Draw 32 (4Q/3WC), Seeds 8",
+      "match_count": 31,
+      "checksum_sha256": "69c0485b4ab9c4a4acaf32d33d3f1526ff44f2f4f9745ecd7967cef667ae76e4",
+      "file_path": "editions/Cleveland/2025.json",
       "gap_count": 0
     }
   ],

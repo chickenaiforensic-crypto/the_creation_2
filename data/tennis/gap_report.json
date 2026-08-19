@@ -581,11 +581,120 @@
       "file_path": "editions/Cincinnati_Masters/2025.json",
       "status": "closed",
       "resolution": "Tennis Explorer Cincinnati 2025 ATP: 14.08 03:20 R16 Zverev (3) d. Khachanov (14) 7-5 3-0, S 1-0 = Khachanov retired in set 2 (match id 2989965). Added row: Alexander Zverev d. Karen Khachanov 7-5 3-0 (retired), date 2025-08-14. Source: https://www.tennisexplorer.com/cincinnati/2025/atp-men/"
+    },
+    {
+      "tournament": "Cleveland",
+      "tour": "WTA",
+      "year": "2021",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Nagi Hanatani",
+      "gap_id": "CL001",
+      "folder": "Cleveland",
+      "file_path": "editions/Cleveland/2021.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Cleveland WTA 2021: 23.08 19:30 1R Hanatani (LL) d. Blinkova 1-0, S 1-0 = Blinkova retired at 0-1 in set 1 (match id 1973939); TE draw list confirms '1-0'. Added row: Nagi Hanatani d. Anna Blinkova 1-0 (retired), date 2021-08-23. Source: https://www.tennisexplorer.com/cleveland-wta/2021/wta-women/"
+    },
+    {
+      "tournament": "Cleveland",
+      "tour": "WTA",
+      "year": "2021",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Sara Sorribes Tormo",
+      "gap_id": "CL002",
+      "folder": "Cleveland",
+      "file_path": "editions/Cleveland/2021.json",
+      "status": "closed",
+      "resolution": "Walkover confirmed by named sources (TE S 1-0 blank scores + news/WTA/Wikipedia corroboration in row provenance). Added row: Sara Sorribes Tormo d. Vera Zvonareva W/O, date 2021-08-26. Source: https://firstsportz.com/cleveland-championships-sorribes-vs-kontaveit-preview-head-to-head-prediction-and-live-stream-for-tennis-in-the-land-2021/"
+    },
+    {
+      "tournament": "Cleveland",
+      "tour": "WTA",
+      "year": "2022",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Shuai Zhang",
+      "gap_id": "CL003",
+      "folder": "Cleveland",
+      "file_path": "editions/Cleveland/2022.json",
+      "status": "closed",
+      "resolution": "Walkover confirmed by named sources (TE S 1-0 blank scores + news/WTA/Wikipedia corroboration in row provenance). Added row: Shuai Zhang d. Martina Trevisan W/O, date 2022-08-25. Source: https://www.tennismajors.com/wta-tour-news/tennis-in-the-land-zhang-makes-quarter-finals-619357.html"
+    },
+    {
+      "tournament": "Cleveland",
+      "tour": "WTA",
+      "year": "2023",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Peyton Stearns",
+      "gap_id": "CL004",
+      "folder": "Cleveland",
+      "file_path": "editions/Cleveland/2023.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Cleveland WTA 2023: 21.08 18:55 1R Stearns d. Trevisan (LL) 6-1 4-5, S 1-0 = Trevisan retired while leading 5-4 in set 2 (match id 2434657); double-sourced: Wikipedia 2023 Tennis in the Land Singles draw shows Trevisan '1, 5r'. Added row: Peyton Stearns d. Martina Trevisan 6-1 4-5 (retired), date 2023-08-21. Source: https://www.tennisexplorer.com/cleveland-wta/2023/wta-women/"
+    },
+    {
+      "tournament": "Cleveland",
+      "tour": "WTA",
+      "year": "2023",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Sara Sorribes Tormo",
+      "gap_id": "CL005",
+      "folder": "Cleveland",
+      "file_path": "editions/Cleveland/2023.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Cleveland WTA 2023: 21.08 20:45 1R Sorribes Tormo (LL) d. Siniakova 6-2 4-0, S 1-0 = Siniakova retired in set 2 (match id 2434667); TE draw list confirms '6-2, 4-0'. Added row: Sara Sorribes Tormo d. Katerina Siniakova 6-2 4-0 (retired), date 2023-08-21. Source: https://www.tennisexplorer.com/cleveland-wta/2023/wta-women/"
+    },
+    {
+      "tournament": "Cleveland",
+      "tour": "WTA",
+      "year": "2023",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Leylah Fernandez",
+      "gap_id": "CL006",
+      "folder": "Cleveland",
+      "file_path": "editions/Cleveland/2023.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Cleveland WTA 2023: 23.08 00:40 R16 Fernandez (WC) d. Tauson (LL) 6-0, S 1-0 = Tauson retired after set 1 (match id 2435777). Added row: Leylah Fernandez d. Clara Tauson 6-0 (retired), date 2023-08-23. Source: https://www.tennisexplorer.com/cleveland-wta/2023/wta-women/"
+    },
+    {
+      "tournament": "Cleveland",
+      "tour": "WTA",
+      "year": "2023",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Tatjana Maria",
+      "gap_id": "CL007",
+      "folder": "Cleveland",
+      "file_path": "editions/Cleveland/2023.json",
+      "status": "closed",
+      "resolution": "Walkover confirmed by named sources (TE S 1-0 blank scores + news/WTA/Wikipedia corroboration in row provenance). Added row: Tatjana Maria d. Anhelina Kalinina W/O, date 2023-08-23. Source: https://www.tennismajors.com/wta-tour-news/tennis-in-the-land-maria-makes-last-eight-707301.html"
+    },
+    {
+      "tournament": "Cleveland",
+      "tour": "WTA",
+      "year": "2025",
+      "missing_round": "QF",
+      "player_no_traceable_win": "Anastasia Zakharova",
+      "gap_id": "CL008",
+      "folder": "Cleveland",
+      "file_path": "editions/Cleveland/2025.json",
+      "status": "closed",
+      "resolution": "Walkover confirmed by named sources (TE S 1-0 blank scores + news/WTA/Wikipedia corroboration in row provenance). Added row: Anastasia Zakharova d. Eva Lys W/O, date 2025-08-21. Source: https://en.wikipedia.org/wiki/Anastasia_Zakharova"
+    },
+    {
+      "tournament": "Dubai",
+      "tour": "ATP",
+      "year": "2021",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Malek Jaziri",
+      "gap_id": "DXB001",
+      "folder": "Dubai",
+      "file_path": "editions/Dubai/2021.json",
+      "status": "closed",
+      "resolution": "Tennis Explorer Dubai 2021: 14.03 1R Jaziri d. Tsonga 3-3, S 1-0 = Tsonga retired (right arm) at 3-3 in set 1 (id 1928690; ExpatMedia + Wikipedia Tsonga corroborate). Added row: Malek Jaziri d. Jo-Wilfried Tsonga 3-3 (retired), date 2021-03-14. The other two previously-suspected R64 gaps are NOT gaps: Wikipedia 2021 Dubai Men's singles documents byes for Basilashvili and Ebden (Doha/Marseille semifinalists) and Giustino (LL into vacated bye slot) - byes carry no rows. Correct complete count = 45 rows (46 players - 1), not 47."
     }
   ],
   "gaps_closed": 18,
   "gaps_open": 0,
   "closure_note": "All 18 gaps closed 2026-08-19 (T-005, Auditor 1, arena/01a015bb-the-creation-2). Every gap proved to be a RETIREMENT match absent from the migration source - consistent with the store-wide M-1/retirement-exclusion pattern documented in T-002. Per-gap resolution fields below; no result was inferred, every row carries a named checkable source.",
   "cincinnati_wta_closure_note": "T-007 (2026-08-19, Auditor 1): 15/15 Cincinnati WTA gaps FIXED per HANDOFF-07+A1+A2 - 8 retirements + 7 walkovers, all with named checkable sources; pulled from claude_1 store a280b2fb; per-year gap check green before closed_verified_gapless.",
-  "cincinnati_atp_closure_note": "T-008 (2026-08-19, Auditor 1): 15/15 Cincinnati Masters ATP gaps FIXED per HANDOFF-08 relay - 13 retirements + 2 walkovers, all with named checkable sources; pulled from claude_1 store a280b2fb; draw sizes 56/56/56/56/96 confirmed from Wikipedia edition infoboxes; per-year census + spine check green before closed_verified_gapless; 2 'J.J. Wolf' rows renamed 'Jeffrey Wolf' (Rule 1, HANDOFF-07 A2.2 adjudication); 0 rank fields on import; 0 score markers found (D3 N/A on this pull)."
+  "cincinnati_atp_closure_note": "T-008 (2026-08-19, Auditor 1): 15/15 Cincinnati Masters ATP gaps FIXED per HANDOFF-08 relay - 13 retirements + 2 walkovers, all with named checkable sources; pulled from claude_1 store a280b2fb; draw sizes 56/56/56/56/96 confirmed from Wikipedia edition infoboxes; per-year census + spine check green before closed_verified_gapless; 2 'J.J. Wolf' rows renamed 'Jeffrey Wolf' (Rule 1, HANDOFF-07 A2.2 adjudication); 0 rank fields on import; 0 score markers found (D3 N/A on this pull).",
+  "cleveland_dubai_closure_note": "T-010 (2026-08-19, Auditor 1, user authorization 'Permission to resolve all gaps approved'): 8/8 Cleveland WTA 250 gaps FIXED (4 retirements + 4 walkovers, named sources per row) + Dubai ATP 2021 closed: 1 real gap fixed (Jaziri d. Tsonga ret.) and 2 suspected gaps RESOLVED AS BYES per Wikipedia draw (falsehood correction: earlier reports said '3 missing R64 rows'; byte+source analysis shows the true number was 1). Draw sizes Wikipedia-confirmed for all 6 touched editions. 0 known gaps remain in the branch."
 }

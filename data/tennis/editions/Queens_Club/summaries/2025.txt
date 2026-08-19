@@ -7,4 +7,4 @@ Round coverage: R32(16) R16(8) QF(4) SF(2) F(1)
 Champion: Carlos Alcaraz
 Runner-up: Jiri Lehecka
 Source: Wikipedia 2025 Queen's Club Championships infobox + men's singles page cross-check
-Checksum: 9f331308ed57... (full value in MANIFEST.json)
+Checksum: 7bd3e0e68cb4... (full value in MANIFEST.json)
