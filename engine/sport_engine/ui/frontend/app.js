@@ -524,7 +524,8 @@ function singlePlayerInput(m) {
     const val = input.value.trim();
     if (!m.options.players.includes(val)) return;
     state.ratingsPlayer = val;
-    loadRatings();
+    state.ratingsData = null;  // stale result invalidated — recompute on Compute
+    render();
   });
   return wrapper;
 }
@@ -561,7 +562,7 @@ function renderRatings(m) {
   const tWrap = el("div", { class: "side" });
   tWrap.appendChild(el("label", { text: ui.tournament_label }));
   tWrap.appendChild(el("select", {
-    onchange: (e) => { state.ratingsTournament = e.target.value; loadRatings(); },
+    onchange: (e) => { state.ratingsTournament = e.target.value; state.ratingsData = null; render(); },
   }, selectOptions(m.all_tournaments, state.ratingsTournament ? [state.ratingsTournament] : [], m.tournament_filter.all_option)));
   row.appendChild(tWrap);
   panel.appendChild(row);
@@ -570,22 +571,30 @@ function renderRatings(m) {
   const fromWrap = el("div", { class: "row" });
   fromWrap.appendChild(el("label", { text: ui.year_from_label }));
   fromWrap.appendChild(el("select", {
-    onchange: (e) => { state.ratingsFrom = e.target.value; loadRatings(); },
+    onchange: (e) => { state.ratingsFrom = e.target.value; state.ratingsData = null; render(); },
   }, selectOptions(m.options.years, [state.ratingsFrom])));
   const toWrap = el("div", { class: "row" });
   toWrap.appendChild(el("label", { text: ui.year_to_label }));
   toWrap.appendChild(el("select", {
-    onchange: (e) => { state.ratingsTo = e.target.value; loadRatings(); },
+    onchange: (e) => { state.ratingsTo = e.target.value; state.ratingsData = null; render(); },
   }, selectOptions(m.options.years, [state.ratingsTo])));
   rangeRow.appendChild(fromWrap);
   rangeRow.appendChild(toWrap);
   panel.appendChild(rangeRow);
+
+  // Compute button — the explicit trigger for the live compute (filters only
+  // update state; nothing is computed until this is clicked).
+  panel.appendChild(el("button", {
+    class: "compute-btn",
+    text: ui.compute_label,
+    onclick: () => { loadRatings(); },
+  }));
   app.appendChild(panel);
 
   const d = state.ratingsData;
   const result = el("div", { class: "panel" });
   if (!d) {
-    result.appendChild(el("div", { class: "empty", text: m.placeholders.select_players_rating }));
+    result.appendChild(el("div", { class: "empty", text: ui.prompt }));
   } else if (d.matches_rated === 0) {
     result.appendChild(el("div", { class: "empty", text: ui.no_data_text }));
   } else {

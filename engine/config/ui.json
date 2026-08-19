@@ -49,6 +49,8 @@
     "tournament_label": "Tournament",
     "year_from_label": "From year",
     "year_to_label": "To year",
+    "compute_label": "Compute",
+    "prompt": "Select a player, choose a tournament and year period, then press Compute.",
     "total_label": "Rating (accumulated points)",
     "matches_label": "Matches rated",
     "per_year_label": "Points by year",

@@ -64,6 +64,14 @@ select[multiple] { min-height: 96px; }
 }
 .swap-btn:hover { background: var(--accent2); }
 
+/* ---------- compute button (explicit live-compute trigger) ---------- */
+.compute-btn {
+  width: 100%; background: var(--accent); color: #fff; border: none;
+  border-radius: 8px; padding: 13px 20px; font-size: 15px; font-weight: 600;
+  cursor: pointer; margin-top: var(--space-sm);
+}
+.compute-btn:hover { background: var(--accent2); }
+
 /* ---------- inline range row ---------- */
 .row-inline { display: flex; gap: var(--space); }
 .row-inline .row { flex: 1 1 0; }
