@@ -28,3 +28,11 @@ canonical name table evidence repair 2026-08-17 (rev 4): per DIRECTOR — FINAL 
 canonical name table team-identity scrub 2026-08-18: Director 1, branch arena/01a01588-the-creation-2 — old-team agent identities and person-coded IDs (AIRP-AUD*/AIRP-ENG*) neutralized from tennis data artifacts per Director order; factual content, dates, branch IDs and program names preserved; table entries 1069 unchanged; store rows 17,285 unchanged; store and table digests re-pinned above
 
 T-003 remediation 2026-08-18: Adelaide 2023 WTA split into Adelaide International 1 (29) + 2 (24); Dubai 2026 ATP F walkover row added (17,286 rows); RET/Def./DEF tokens stripped from 33 scores (31 RET + 2 Def); §4 nine rows evidence-checked per D4. Director order.
+
+rank field removal 2026-08-18: Director order — rankA/rankB fields removed from all 17,286 rows; schema.json added at data/schema.json as field registry (source of truth for row structure); Engineering/tools/conform_schema.py added as scripted conform tool; no other fields altered, no names/dates/scores modified; row count unchanged (17,286)
+canonical path: data/tennis/master_store_tennis_SSoT.json
+md5: a280b2fb56e64f64724473e767d90485
+sha256: 36822c9de4ef2ec01bb903903580f4cbf8700448e9066930d001a4c890eb3d7c
+bytes: 15228717
+rows: 17286
+schema: 2.0
