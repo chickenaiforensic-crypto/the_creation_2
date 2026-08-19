@@ -35,6 +35,39 @@ class TestRatingsPercentage(unittest.TestCase):
         self.assertEqual(r["players"]["player_a"]["system_rating"]["rating"], 106)
         self.assertEqual(r["players"]["player_b"]["system_rating"]["rating"], 70)
 
+    def test_no_data_player_yields_null_not_zero(self):
+        # Elsa Jacquemot (WTA) has no Cincinnati Masters / Dubai matches: the
+        # ratings percentage must be a NO-DATA state, never 0%/100%
+        r = matchup_report("Elsa Jacquemot", "Jordan Thompson", tournaments=["Dubai"])
+        p = r["ratings_percentage"]
+        self.assertTrue(p["no_data"])
+        self.assertIsNone(p["pA_pct"])
+        self.assertIsNone(p["pB_pct"])
+        # and her per-player card data is empty (0 matches), not a fake rating
+        self.assertEqual(r["players"]["player_a"]["system_rating"]["matches"], 0)
+
+    def test_zero_direct_encounters_no_data(self):
+        # two players who never met -> H2H outputs no encounter (null), never
+        # their own matches presented as encounters
+        r = matchup_report("Elsa Jacquemot", "Jordan Thompson", tournaments=["Dubai"])
+        self.assertEqual(r["h2h"]["direct_encounter_count"], 0)
+        self.assertEqual(r["h2h"]["encounter_count"], 0)
+        self.assertEqual(r["h2h"]["encounters"], [])
+        self.assertIsNone(r["h2h"]["percentage"]["pA_pct"])
+
+    def test_h2h_encounters_are_direct_only(self):
+        # Djokovic vs Alcaraz (Cincinnati + US Open ATP): the 2 direct meetings
+        # are the ONLY encounters — their non-head-to-head matches are excluded
+        r = matchup_report(
+            "Novak Djokovic", "Carlos Alcaraz",
+            tournaments=["Cincinnati Masters", "US Open"], tours=["ATP"],
+        )
+        self.assertEqual(r["h2h"]["direct_encounter_count"], 2)
+        self.assertEqual(r["h2h"]["encounter_count"], 2)
+        for e in r["h2h"]["encounters"]:
+            self.assertEqual({e["player_a"], e["player_b"]},
+                             {"Novak Djokovic", "Carlos Alcaraz"})
+
 
 class TestPerformancePercentage(unittest.TestCase):
     """Tournament Performance layer also computes a 100% output between the two

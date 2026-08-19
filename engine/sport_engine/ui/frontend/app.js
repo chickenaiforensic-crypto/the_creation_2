@@ -200,24 +200,30 @@ function renderRatingPanel(m) {
     const pa = state.data.players.player_a;
     const pb = state.data.players.player_b;
     const ratingCls = (r) => (r > 0 ? "pos" : r < 0 ? "neg" : "");
-    grid.appendChild(stat(pa.player, (pa.system_rating.rating > 0 ? "+" : "") + pa.system_rating.rating, ratingCls(pa.system_rating.rating)));
-    grid.appendChild(stat(pb.player, (pb.system_rating.rating > 0 ? "+" : "") + pb.system_rating.rating, ratingCls(pb.system_rating.rating)));
-    grid.appendChild(stat("H2H " + pa.player, (pa.h2h.game_difference > 0 ? "+" : "") + pa.h2h.game_difference, ratingCls(pa.h2h.game_difference)));
-    grid.appendChild(stat("H2H " + pb.player, (pb.h2h.game_difference > 0 ? "+" : "") + pb.h2h.game_difference, ratingCls(pb.h2h.game_difference)));
+    const ratingStr = (p) => (p.system_rating.matches === 0 ? "—" : (p.system_rating.rating > 0 ? "+" : "") + p.system_rating.rating);
+    const h2hStr = (p) => (p.h2h.matches === 0 ? "—" : (p.h2h.game_difference > 0 ? "+" : "") + p.h2h.game_difference);
+    grid.appendChild(stat(pa.player, ratingStr(pa), ratingCls(pa.system_rating.rating)));
+    grid.appendChild(stat(pb.player, ratingStr(pb), ratingCls(pb.system_rating.rating)));
+    grid.appendChild(stat("H2H " + pa.player, h2hStr(pa), ratingCls(pa.h2h.game_difference)));
+    grid.appendChild(stat("H2H " + pb.player, h2hStr(pb), ratingCls(pb.h2h.game_difference)));
   } else {
     grid.appendChild(el("div", { class: "empty", text: m.placeholders.select_players_rating }));
   }
   panel.appendChild(grid);
-  if (state.data && state.data.ratings_percentage && state.data.ratings_percentage.pA_pct !== null) {
+  if (state.data && state.data.ratings_percentage) {
     const rp = state.data.ratings_percentage;
     const pct = el("div", { class: "h2h-percentage" }, [
       el("div", { class: "k", text: m.ratings_percentage.label + " (" + (state.yearsFrom || "—") + "–" + (state.yearsTo || "—") + ")" }),
-      el("div", { class: "pct-row" }, [
+    ]);
+    if (rp.no_data || rp.pA_pct === null) {
+      pct.appendChild(el("div", { class: "empty", text: "No data — one or both players have no rated matches in the selected scope." }));
+    } else {
+      pct.appendChild(el("div", { class: "pct-row" }, [
         el("span", { class: "pct-a", text: state.data.players.player_a.player + " " + rp.pA_pct + "%" }),
         el("span", { class: "pct-vs", text: " | " }),
         el("span", { class: "pct-b", text: rp.pB_pct + "% " + state.data.players.player_b.player }),
-      ]),
-    ]);
+      ]));
+    }
     panel.appendChild(pct);
   }
   return panel;

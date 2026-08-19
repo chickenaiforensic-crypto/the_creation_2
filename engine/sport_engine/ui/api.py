@@ -222,11 +222,16 @@ def matchup_report(
     report = run_h2h(filters=filters, mutes=mutes)
     rating_report = compute_ratings(filters=filters, mutes=mutes)
 
-    # H2H encounters within the date boundary, chronological
+    # H2H encounters = DIRECT pA-vs-pB meetings only, within the date boundary,
+    # chronological. A player's own non-head-to-head matches are their context
+    # (rating panel), not encounters — two players who never met must output
+    # "no encounter".
     encounters = [
         m
         for m in report["matches"]
-        if m["rateable"] and (from_date is None or (m["date"] or "") >= from_date)
+        if m["rateable"]
+        and (from_date is None or (m["date"] or "") >= from_date)
+        and {m["player_a"], m["player_b"]} == {player_a, player_b}
     ]
     encounters.sort(key=lambda m: m["date"] or "")
 
@@ -259,22 +264,17 @@ def matchup_report(
         else:
             net += m["h2h_b"]
 
-    # H2H percentage — isolated historical profile of the explicit pair:
-    # only DIRECT pA-vs-pB encounters are aggregated. The lock uses each
-    # player's RAW REGION POINT TOTALS across those matches (non-negative), NOT
-    # the differential rating: %A = pointsA / (pointsA + pointsB).
-    direct = [
-        m
-        for m in encounters
-        if {m["player_a"], m["player_b"]} == {player_a, player_b}
-    ]
+    # H2H percentage — isolated historical profile of the explicit pair from
+    # their DIRECT encounters. The lock uses each player's RAW REGION POINT
+    # TOTALS across those matches (non-negative), NOT the differential rating:
+    # %A = pointsA / (pointsA + pointsB).
     points_a = 0.0
     points_b = 0.0
-    for m in direct:
+    for m in encounters:
         if m["player_a"] == player_a:
             points_a += m["region_points_a"]
             points_b += m["region_points_b"]
-        else:  # player_a == player_b (the requested player is on side B)
+        else:  # the requested player is on side B
             points_b += m["region_points_a"]
             points_a += m["region_points_b"]
     percentage = ratio_lock(points_a, points_b)
@@ -297,7 +297,28 @@ def matchup_report(
 
     ratings_pa = player_points(player_a)
     ratings_pb = player_points(player_b)
-    ratings_percentage = ratio_lock(ratings_pa, ratings_pb)
+    # no-data guard: if either player has ZERO rated matches in the selected
+    # scope, the percentage is a no-data state (null), not 0%/100% — that would
+    # misrepresent "no matches in scope" as "scored zero".
+    def rated_matches(name: str) -> int:
+        return sum(
+            1
+            for m in rating_report["matches"]
+            if m["rateable"] and (m["player_a"] == name or m["player_b"] == name)
+        )
+
+    if rated_matches(player_a) == 0 or rated_matches(player_b) == 0:
+        ratings_percentage = {
+            "points_a": None,
+            "points_b": None,
+            "pA_pct": None,
+            "pB_pct": None,
+            "scaling": "linear",
+            "exponential_enabled": False,
+            "no_data": True,
+        }
+    else:
+        ratings_percentage = ratio_lock(ratings_pa, ratings_pb)
 
     return {
         "matchup": {"player_a": player_a, "player_b": player_b},
@@ -319,9 +340,9 @@ def matchup_report(
         "h2h": {
             "net_h2h_balance": net,
             "encounter_count": len(encounters),
-            "direct_encounter_count": len(direct),
+            "direct_encounter_count": len(encounters),
             "encounters": encounters,
-            "direct_encounters": direct,
+            "direct_encounters": encounters,
             "percentage": percentage,
             "percentage_label": ui["h2h"]["percentage_label"],
             "drilldown_title": ui["h2h"]["score_sheet_title"],
