@@ -56,3 +56,30 @@ Byte-derived targets fixed above (§1/N2/N3); external resolution against `cinci
 **Audit only — zero data edits anywhere in this task.**
 
 **Sign-off — Role: AUDITOR 1 · Branch ID: `arena/01a015bb-the-creation-2`**
+
+---
+
+## ADDENDUM A (2026-08-19, same day) — DATA-RULES.md reconciliation
+
+`data/tennis/DATA-RULES.md` landed on this branch (commits `eec3c51`/`c7891e9`) after this
+report's first commit; it was read in full immediately and this audit is hereby re-based on it:
+
+- **Rule 2 (complete fetch):** the structural method used above IS Rule 2's mandated check
+  (round-transition, R32-onward, byefree) plus the stricter full-census extension that also
+  caught the two R64-level absences (N1/N2) Rule 2's floor would miss. Draw sizes for
+  2021–2024 (56) and 2025 (96) will each be confirmed from an edition-specific source in their
+  own checkpoints per Rule 2 — the §1 expectations are currently census-derived.
+- **Rule 3 (nothing self-authored):** already applied — Pegula–Halep score digits and Rogers'
+  R64 opponent were left open rather than filled; pairings for 2022/2023/2025 losers are
+  reported as pools, not asserted pairings.
+- **Rule 1 (full names):** added to the remaining checkpoints' check-list for the Cincinnati
+  slice (abbreviation scan). Note: the audited claude_1 store contains e.g. "J.J. Wolf"
+  (AO 2024), which violates Rule 1 as written — flagged for the Director; whether Rule 1
+  governs claude_1 retroactively is a Director call, per the rule's own conflict clause.
+- **Rules 5/6/7 (this branch's own dataset, verified without any write):** manifest↔file drift
+  0/20 · summaries present and count-consistent 20/20 · abbreviated names in branch dataset:
+  none. The rebuilt branch passes its own standard as of `f567861`.
+- **Status corrections to §4:** flag #1 is now half-stale — DATA-RULES.md exists (HANDOFF-06
+  still absent on every branch); flag #3 is content-moot — the rebuilt branch carries all 18
+  T-005 closure rows (633 matches, 20/20 `closed_verified_gapless`), so only the history was
+  rewritten, no work was lost.
