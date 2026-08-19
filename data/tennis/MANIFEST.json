@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 25,
+  "total_editions": 30,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -325,6 +325,71 @@
       "match_count": 95,
       "checksum_sha256": "57636bab9fbca375828f18e3ef74078a907ee52bf29b4aa5129d39a8c52fe17f",
       "file_path": "editions/Cincinnati/2025.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cincinnati Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2021",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2021 Western & Southern Open - Men's singles infobox: Draw 56, Seeds 16, top-8 seeds bye",
+      "match_count": 55,
+      "checksum_sha256": "4eabf3c1f5f1a43cd20edd429f39d5c639362868b83cdbad1631c0d9cd55abac",
+      "file_path": "editions/Cincinnati_Masters/2021.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cincinnati Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2022 Western & Southern Open - Men's singles infobox: Draw 56, Seeds 16, top-8 seeds bye",
+      "match_count": 55,
+      "checksum_sha256": "1cd7d4eb7940a15e190087ac03297a485b4932b9f0bd2acd3039ac32bbc3c918",
+      "file_path": "editions/Cincinnati_Masters/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cincinnati Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2023 Western & Southern Open - Men's singles infobox: Draw 56, Seeds 16, top-8 seeds bye",
+      "match_count": 55,
+      "checksum_sha256": "016a8f31d6f3b04fb40b471f53893c5080e3870c8d01105fc3be6564beedaedd",
+      "file_path": "editions/Cincinnati_Masters/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cincinnati Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2024 Cincinnati Open - Men's singles infobox: Draw 56, Seeds 16, top-8 seeds bye",
+      "match_count": 55,
+      "checksum_sha256": "2a1e39a11c86c646bae0c487a7394d4c6664b5b8194e10244a3cf376a3da6117",
+      "file_path": "editions/Cincinnati_Masters/2024.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Cincinnati Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Wikipedia 2025 Cincinnati Open - Men's singles infobox: Draw 96, Seeds 32, all seeds bye into 2nd round",
+      "match_count": 95,
+      "checksum_sha256": "e0b7ac0d7fe5e081bfcf5ce567b7b6695df8c5c9209796495d681be08a9a2638",
+      "file_path": "editions/Cincinnati_Masters/2025.json",
       "gap_count": 0
     }
   ],
