@@ -174,3 +174,56 @@ DATA-RULES Rule 1. Execute:
 
 **A1.3 — Disposition rule unchanged.** FIXED = sourced full name written;
 OPEN = source not found, gap documented. Never write an unsourced name.
+
+---
+
+## AMENDMENT 2 (2026-08-19 — Director's self-audit of this handoff against the Auditor-branch docs)
+
+The Director read every doc on `arena/01a015bb-the-creation-2` in full
+(DATA-RULES.md, MANIFEST.json, WORKORDER-tennis-gap-closure.md, build.py,
+generate_summaries.py, gap_report.json, editions/*, summaries/*, phase1-audit/*,
+REPLY-11) and audited HANDOFF-07 + Amendment 1. **Three corrections, two
+precision fixes — these supersede anything in Amendment 1 that conflicts:**
+
+**A2.1 — CORRECTION: no canonical table exists on your branch.** Amendment 1
+said `player_canonical_names.json` "on your branch … currently holds
+canonical_full_name: J.J. Wolf". False — the file does not exist on
+`arena/01a015bb-the-creation-2`. It exists in the **claude_1 pull** (and the
+Director branch). Per DATA-RULES Rule 1 ("if present on this branch … or the
+equivalent canonical table"), adjudicate the claude_1-pulled table entry
+(`jjwolf → canonical_full_name: "J.J. Wolf"`) — do not hunt for a table on
+your own branch.
+
+**A2.2 — CORRECTION: the adjudicated name is "Jeffrey Wolf", not "Jeffrey
+John Wolf".** DATA-RULES Rule 1 itself names it ("J.J. Wolf is not acceptable;
+Jeffrey Wolf is"), and your branch **already applied it** — Queens_Club 2023
+carries `playerB: "Jeffrey Wolf"` (commit `ddb6019`, sourced ATP Tour +
+Wikipedia). Writing "Jeffrey John Wolf" would fork an identity the branch has
+already resolved — Rule 1 forbids that. Use **Jeffrey Wolf** with the
+branch's existing sources (ATP Tour player page, Wikipedia); record them in
+per-row provenance for any row you touch.
+
+**A2.3 — CORRECTION (census):** precise claude_1 census = **60 total
+"J.J. Wolf" rows across 34 editions**; 2 in the Cincinnati ATP pulls → **58
+further rows, 32 further editions** queued (Amendment 1 said "33 editions" —
+wrong; "~58 rows" was right).
+
+**A2.4 — PRECISION: edition-file schema + manifest entries.** The fix output
+on your branch must follow the branch's editions format: per-year
+`editions/Cincinnati/{Year}.json` with top-level `tournament, tour="WTA",
+tier="M1000", year, draw_size (56/56/56/56/96), status, source, match_count`
+plus `matches[]` in the existing row schema — plus **5 new MANIFEST.json
+entries** (`file_path`, `match_count`, `checksum_sha256`, `source`,
+`draw_size`, `gap_count`, `status`). `closed_verified_gapless` only after the
+round-transition gap check (Rule 2).
+
+**A2.5 — PRECISION: gap_report.json per branch precedent.** Follow the
+on-branch gap-closure precedent (WORKORDER-tennis-gap-closure.md + T-005
+`gap_report.json`): for each closed Cincinnati gap set `status: closed` and a
+`resolution` field naming the source and what was found, in the same change
+as the manifest recompute. Also correct this handoff's 2025 starting-point
+line: Gauff and Swiatek are only the **2 R32** entries; the **2 R64** gaps
+are separate (byte-derived loser pools: Osorio, Jeanjean).
+
+*(Everything else in HANDOFF-07 stands: dispositions, Rule 3 wins, build.py
+green, summaries regenerated, sign-off, consolidated fix report.)*
