@@ -68,8 +68,18 @@ way.
 - Regenerate via `generate_summaries.py` whenever the edition file or its manifest entry
   changes. Never hand-edit a `.txt` file — the same discipline as `master_store_tennis_SSoT.json`
   in Rule 5. A stale `.txt` (not matching current match_count/checksum/status) is a defect.
-- `generate_summaries.py` is run after `build.py`, as part of the same change, whenever an
-  edition file is touched.
+- Any time an edition's `.json` or its `MANIFEST.json` row is edited, run both, in order, as
+  part of that same change:
+  ```
+  python3 build.py
+  python3 generate_summaries.py
+  ```
+  `build.py` must run first — `generate_summaries.py` checks each edition's live match count
+  against its manifest entry and fails loudly if they're out of sync, which is the signal the
+  manifest wasn't updated yet.
+- Do not add new derived fields to `generate_summaries.py` (e.g. total sets played, longest
+  match) without the Director's sign-off — an unreviewed addition just creates another field
+  that can silently drift out of sync with its source.
 
 ## 7. Verification before acceptance
 
