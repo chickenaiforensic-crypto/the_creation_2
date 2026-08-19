@@ -99,6 +99,7 @@ def ui_manifest() -> dict:
         "system_rating_label": ui["system_rating_label"],
         "ratings_percentage": ui["ratings_percentage"],
         "h2h_ui": ui["h2h"],
+        "performance": ui["performance"],
         "mute_ui": ui["mute"],
         "placeholders": ui["placeholders"],
         "options": options,
