@@ -187,18 +187,23 @@ def matchup_report(
             net += m["h2h_b"]
 
     # H2H percentage — isolated historical profile of the explicit pair:
-    # only DIRECT pA-vs-pB encounters are aggregated (the standalone H2H module
-    # sums each player's rating points across those matches, then converts the
-    # absolute totals into a relative balance out of 100%, linear baseline).
+    # only DIRECT pA-vs-pB encounters are aggregated. The lock uses each
+    # player's RAW REGION POINT TOTALS across those matches (non-negative), NOT
+    # the differential rating: %A = pointsA / (pointsA + pointsB).
     direct = [
         m
         for m in encounters
         if {m["player_a"], m["player_b"]} == {player_a, player_b}
     ]
-    points_a = sum(m["h2h_a"] for m in direct if m["player_a"] == player_a)
-    points_a += sum(m["h2h_b"] for m in direct if m["player_b"] == player_a)
-    points_b = sum(m["h2h_b"] for m in direct if m["player_b"] == player_b)
-    points_b += sum(m["h2h_a"] for m in direct if m["player_a"] == player_b)
+    points_a = 0.0
+    points_b = 0.0
+    for m in direct:
+        if m["player_a"] == player_a:
+            points_a += m["region_points_a"]
+            points_b += m["region_points_b"]
+        else:  # player_a == player_b (the requested player is on side B)
+            points_b += m["region_points_a"]
+            points_a += m["region_points_b"]
     percentage = h2h_percentage(points_a, points_b)
 
     return {

@@ -644,12 +644,14 @@
     },
     "feed": {"matches_selected": 315, "matches_rated": 298, "matches_refused": 17},
     "percentage": {
-      "description": "H2H percentage fixtures — linear baseline, exponential disabled.",
+      "description": "H2H percentage fixtures — RAW REGION POINT TOTALS (non-negative) as input, NOT the differential. Linear baseline, exponential disabled.",
       "cases": [
-        {"label": "one-sided +58/-11", "points_a": 58, "points_b": -11, "pA_pct": 84.06, "pB_pct": 15.94},
-        {"label": "equal +10/-10", "points_a": 10, "points_b": -10, "pA_pct": 50.0, "pB_pct": 50.0},
+        {"label": "6-0 6-0", "points_a": 20, "points_b": 4, "pA_pct": 83.33, "pB_pct": 16.67},
+        {"label": "6-4 6-4 (Director)", "points_a": 20, "points_b": 8, "pA_pct": 71.43, "pB_pct": 28.57},
+        {"label": "6-2 6-3", "points_a": 20, "points_b": 6, "pA_pct": 76.92, "pB_pct": 23.08},
+        {"label": "7-6 7-6 (tiebreaks resolve to 6-4 each)", "points_a": 20, "points_b": 8, "pA_pct": 71.43, "pB_pct": 28.57},
         {"label": "zero points", "points_a": 0, "points_b": 0, "pA_pct": null, "pB_pct": null},
-        {"label": "positive split +20/+10", "points_a": 20, "points_b": 10, "pA_pct": 66.67, "pB_pct": 33.33}
+        {"label": "one-sided 20/0", "points_a": 20, "points_b": 0, "pA_pct": 100.0, "pB_pct": 0.0}
       ],
       "scaling": "linear",
       "exponential_enabled": false,
@@ -657,8 +659,10 @@
         "djokovic_alcaraz_tournaments": ["Cincinnati Masters", "US Open"],
         "djokovic_alcaraz_tours": ["ATP"],
         "expected_direct_count": 2,
-        "expected_points_a": -6,
-        "expected_points_b": 6
+        "expected_points_a": 34,
+        "expected_points_b": 48,
+        "expected_pA_pct": 41.46,
+        "expected_pB_pct": 58.54
       }
     }
   }

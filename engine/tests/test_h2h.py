@@ -78,6 +78,30 @@ class TestH2HPercentage(unittest.TestCase):
                 self.assertEqual(r["exponential_enabled"],
                                  _H2H["percentage"]["exponential_enabled"])
 
+    def test_negative_input_rejected(self):
+        from sport_engine.h2h.h2h import h2h_percentage
+
+        # the differential rating (e.g. +12/-12) is NOT a valid input — the
+        # percentage layer locks on non-negative raw region point totals only
+        with self.assertRaises(ValueError):
+            h2h_percentage(12, -12)
+
+    def test_match_region_points(self):
+        from sport_engine.h2h.h2h import match_region_points
+
+        # Director example: 6-4 6-4 -> A 20 pts (10+10), B 8 pts (4+4)
+        r = match_region_points([(6, 4), (6, 4)])
+        self.assertEqual(r["region_points_a"], 20)
+        self.assertEqual(r["region_points_b"], 8)
+        # 7-6 7-6 -> tiebreaks resolve to 6-4 each -> A 20 (10+10), B 8 (4+4)
+        r2 = match_region_points([(7, 6), (7, 6)])
+        self.assertEqual(r2["region_points_a"], 20)
+        self.assertEqual(r2["region_points_b"], 8)
+        # 6-2 6-3 -> A 20, B 6
+        r3 = match_region_points([(6, 2), (6, 3)])
+        self.assertEqual(r3["region_points_a"], 20)
+        self.assertEqual(r3["region_points_b"], 6)
+
     def test_report_percentage_direct_encounters(self):
         from sport_engine.ui.api import matchup_report
 
@@ -93,6 +117,10 @@ class TestH2HPercentage(unittest.TestCase):
                          pct["expected_points_a"])
         self.assertEqual(r["h2h"]["percentage"]["points_b"],
                          pct["expected_points_b"])
+        self.assertAlmostEqual(r["h2h"]["percentage"]["pA_pct"],
+                               pct["expected_pA_pct"], places=2)
+        self.assertAlmostEqual(r["h2h"]["percentage"]["pB_pct"],
+                               pct["expected_pB_pct"], places=2)
         self.assertEqual(r["h2h"]["percentage"]["scaling"], "linear")
         self.assertFalse(r["h2h"]["percentage"]["exponential_enabled"])
 
