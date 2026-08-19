@@ -23,7 +23,7 @@ from urllib.parse import parse_qs, urlparse
 ENGINE_ROOT = Path(__file__).resolve().parents[2]  # engine/
 sys.path.insert(0, str(ENGINE_ROOT))
 
-from sport_engine.ui.api import matchup_report, player_options, ui_manifest  # noqa: E402
+from sport_engine.ui.api import matchup_report, performance_report, player_options, ui_manifest  # noqa: E402
 
 FRONTEND = Path(__file__).resolve().parent / "frontend"
 
@@ -69,6 +69,28 @@ class Handler(BaseHTTPRequestHandler):
                             years=years,
                             tours=tours,
                             from_date=from_date,
+                        )
+                    )
+                except Exception as exc:  # surface engine errors to the UI
+                    self._send(500, json.dumps({"error": str(exc)}).encode(), "application/json")
+            elif path == "/api/performance":
+                q = parse_qs(parsed.query)
+                a = (q.get("a") or [""])[0]
+                b = (q.get("b") or [""])[0]
+                if not a or not b:
+                    self._send(400, b'{"error":"a and b are required"}', "application/json")
+                    return
+                tours = q.get("tours", []) or []
+                tournaments = q.get("tournaments", []) or []
+                years = q.get("years", []) or []
+                try:
+                    self._json(
+                        performance_report(
+                            player_a=a,
+                            player_b=b,
+                            tournaments=tournaments,
+                            years=years,
+                            tours=tours,
                         )
                     )
                 except Exception as exc:  # surface engine errors to the UI

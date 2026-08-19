@@ -1,0 +1,8 @@
+{
+  "description": "Tournament Performance Metric Subsystem — 5-match sliding window per player within the SAME tournament (intramural). Cross-tournament matching data is strictly barred until cross-tournament normalization weightings are verified. Rolling queue: as the tournament progresses, new matches ingest into the 5-match set and the LOWEST historical score drops out. Absolute rating basis: the player's Phase 0 rating points per match (their points minus the opponent's points — no raw game-score subtraction). Asymmetric performance calibration: (Step 1) total net score across the 5 targeted matches (deducting the specific opponent's score points from each match occurrence); (Step 2) baseline reference average = (player's absolute system rating + mean of the 5 opponents' absolute system ratings) / 2; (Step 3) Tournament Performance index = net score / baseline.",
+  "enabled": true,
+  "window_size": 5,
+  "cross_tournament_barred": true,
+  "baseline_combine": "average",
+  "index_method": "net_over_baseline"
+}

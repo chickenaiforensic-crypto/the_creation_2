@@ -21,6 +21,7 @@ from sport_engine.compute.selection import Filters, Mutes
 from sport_engine.config import load_config
 from sport_engine.convert.ratio import ratio_lock
 from sport_engine.h2h.h2h import run_h2h
+from sport_engine.performance.performance import run_performance
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 
@@ -122,6 +123,25 @@ def player_options() -> dict:
         "tournaments": options["tournaments"],
         "years": options["years"],
         "entity_labels": ui["entity_labels"],
+    }
+
+
+def performance_report(
+    player_a: str,
+    player_b: str,
+    tournaments: Optional[List[str]] = None,
+    years: Optional[List[str]] = None,
+    tours: Optional[List[str]] = None,
+) -> dict:
+    """Tournament Performance (3rd UI layer) for both players over the selected
+    context — per-tournament 5-match windows, intramural, absolute rating basis,
+    asymmetric calibration index."""
+    ui = load_config("ui")
+    return {
+        "performance_label": ui["performance"]["title"],
+        "window_label": ui["performance"]["window_label"],
+        "player_a": run_performance(player_a, tournaments, years, tours),
+        "player_b": run_performance(player_b, tournaments, years, tours),
     }
 
 

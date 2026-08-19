@@ -665,5 +665,14 @@
         "expected_pB_pct": 59.34
       }
     }
+  },
+  "performance": {
+    "window_size": 5,
+    "zverev_cincinnati": {
+      "net": 74,
+      "opponents_avg": 21.6,
+      "baseline": 86.8,
+      "index": 0.8525
+    }
   }
 }

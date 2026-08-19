@@ -50,6 +50,16 @@
       "winner": "Winner"
     }
   },
+  "performance": {
+    "title": "Tournament Performance",
+    "window_label": "5-match window (intramural)",
+    "index_label": "Performance index",
+    "net_label": "Net score (5 matches)",
+    "baseline_label": "Baseline reference",
+    "system_rating_label": "System rating",
+    "window_column_labels": ["Date", "Round", "Opponent", "Score", "Rating"],
+    "no_data_text": "No rateable matches for this player in the selected tournament."
+  },
   "mute": {
     "label": "Mute",
     "mute_years_label": "Mute years",

@@ -305,6 +305,7 @@ function renderDashboard(m) {
   grid.appendChild(renderRatingPanel(m));
   grid.appendChild(renderH2HPanel(m));
   app.appendChild(grid);
+  app.appendChild(renderPerformancePanel(m));
 }
 
 function renderConfigurations(m) {
@@ -383,6 +384,68 @@ function swapPlayers() {
   render();
 }
 
+function renderPerformancePanel(m) {
+  const ui = m.performance;
+  const panel = el("div", { class: "panel" });
+  panel.appendChild(el("h2", { text: ui.title }));
+  if (!state.data || !state.data.players) {
+    panel.appendChild(el("div", { class: "empty", text: m.placeholders.select_players_h2h }));
+    return panel;
+  }
+  const pa = state.data.players.player_a.player;
+  const pb = state.data.players.player_b.player;
+  const grid = el("div", { class: "stat-grid" });
+  grid.appendChild(stat(pa, state.performance ? (state.performance.player_a.system_rating > 0 ? "+" : "") + state.performance.player_a.system_rating : "—", ""));
+  grid.appendChild(stat(pb, state.performance ? (state.performance.player_b.system_rating > 0 ? "+" : "") + state.performance.player_b.system_rating : "—", ""));
+  panel.appendChild(grid);
+  if (state.performance) {
+    const windowTable = el("table", {});
+    const thead = el("thead", {});
+    const headRow = el("tr", {});
+    for (const col of ui.window_column_labels) headRow.appendChild(el("th", { text: col }));
+    thead.appendChild(headRow);
+    windowTable.appendChild(thead);
+    const tbody = el("tbody");
+    const rows = [];
+    const addPlayerWindow = (perf) => {
+      for (const res of perf.results) {
+        for (const e of res.window) {
+          rows.push({
+            player: perf.player,
+            date: e.date || "—",
+            round: e.round || "—",
+            opponent: e.opponent || "—",
+            score: e.score || "—",
+            rating: e.rating,
+          });
+        }
+      }
+    };
+    addPlayerWindow(state.performance.player_a);
+    addPlayerWindow(state.performance.player_b);
+    if (rows.length === 0) {
+      const tr = el("tr", {});
+      tr.appendChild(el("td", { class: "empty", text: ui.no_data_text, colspan: "5" }));
+      tbody.appendChild(tr);
+    } else {
+      for (const r of rows) {
+        const tr = el("tr", {}, [
+          el("td", { text: r.date }),
+          el("td", { text: r.round }),
+          el("td", { text: r.opponent }),
+          el("td", { text: r.score }),
+          el("td", { class: "num", text: (r.rating > 0 ? "+" : "") + r.rating }),
+        ]);
+        tbody.appendChild(tr);
+      }
+    }
+    windowTable.appendChild(tbody);
+    panel.appendChild(el("div", { class: "drilldown-title", text: ui.window_label }));
+    panel.appendChild(windowTable);
+  }
+  return panel;
+}
+
 async function loadMatchup() {
   if (!state.playerA || !state.playerB) return;
   const q = new URLSearchParams({ a: state.playerA, b: state.playerB });
@@ -395,6 +458,11 @@ async function loadMatchup() {
     state.data = await api("/api/matchup?" + q.toString());
   } catch (e) {
     state.data = { error: e.message };
+  }
+  try {
+    state.performance = await api("/api/performance?" + q.toString());
+  } catch (e) {
+    state.performance = null;
   }
   render();
 }
