@@ -1,0 +1,4 @@
+{
+  "description": "Active sport adapters — the pluggable list. Adding a sport = add an adapter module and list it here; the engine auto-registers it.",
+  "active_adapters": ["tennis", "football"]
+}

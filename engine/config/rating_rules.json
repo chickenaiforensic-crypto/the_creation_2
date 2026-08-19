@@ -1,0 +1,23 @@
+{
+  "description": "Phase 0 rating rules — single source of truth for the rating math. Changing a rule means editing THIS file, never the code.",
+  "spec_reference": "Director Phase 0 spec, 2026-08-19",
+  "max_winner_games": 6,
+  "points_by_games": {
+    "0": 2,
+    "1": 2,
+    "2": 2,
+    "3": 4,
+    "4": 4,
+    "5": 7,
+    "6": 10
+  },
+  "tier_by_games": {
+    "0": "1x",
+    "1": "1x",
+    "2": "1x",
+    "3": "2x",
+    "4": "2x",
+    "5": "3x",
+    "6": "4x"
+  }
+}

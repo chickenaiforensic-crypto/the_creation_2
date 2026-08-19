@@ -3,30 +3,51 @@
 Director spec (2026-08-19):
 
   pA vs pB, per-set game scores.
-  1. Normalise each set: -1 on both sides until the higher side has 6 games
-     (7-5 resolves to 6-4). Orientation preserved.
-  2. Points per player per set, from games won after normalisation:
-       0-2 games -> 2 pts (1x) ; 3-4 -> 4 pts (2x) ; 5 -> 7 pts (3x) ; 6 -> 10 pts (4x)
+  1. Normalise each set: -1 on both sides until the higher side has
+     `max_winner_games` (6) games (7-5 resolves to 6-4). Orientation preserved.
+  2. Points per player per set, from games won after normalisation
+     (config `rating_rules.json`: 0-2 -> 2 (1x) ; 3-4 -> 4 (2x) ; 5 -> 7 (3x) ;
+     6 -> 10 (4x)).
   3. Match totals = sum of per-set points.
   4. Rating: pA = totalA - totalB ; pB = totalB - totalA.
 
 Worked example (verified): sets 6-2, 6-4 -> totals 20 / 6 -> pA +14, pB -14.
+
+ZERO-HARDCODING: every value below is loaded from engine/config/rating_rules.json
+at import. There is no rating value in this code.
 """
 
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import List, Tuple
+from typing import Dict, List, Tuple
 
-MAX_WINNER_GAMES = 6
+from sport_engine.config import load_config
 
-# games won (after normalisation) -> points, with spec tier label
-GAMES_TO_POINTS = {0: 2, 1: 2, 2: 2, 3: 4, 4: 4, 5: 7, 6: 10}
-TIER_LABEL = {0: "1x", 1: "1x", 2: "1x", 3: "2x", 4: "2x", 5: "3x", 6: "4x"}
+_RULES = load_config("rating_rules")
+
+MAX_WINNER_GAMES: int = int(_RULES["max_winner_games"])
+GAMES_TO_POINTS: Dict[int, int] = {int(k): int(v) for k, v in _RULES["points_by_games"].items()}
+TIER_LABEL: Dict[int, str] = {int(k): str(v) for k, v in _RULES["tier_by_games"].items()}
+
+
+def _validate_rules() -> None:
+    """Config must fully cover 0..MAX_WINNER_GAMES in both tables — fail loudly."""
+    for games in range(0, MAX_WINNER_GAMES + 1):
+        if games not in GAMES_TO_POINTS:
+            raise ValueError(f"rating_rules.json missing points for {games} games")
+        if games not in TIER_LABEL:
+            raise ValueError(f"rating_rules.json missing tier for {games} games")
+    for games, points in GAMES_TO_POINTS.items():
+        if points < 0:
+            raise ValueError(f"rating_rules.json: negative points {points} for {games} games")
+
+
+_validate_rules()
 
 
 class RatingError(ValueError):
-    """A set score that cannot exist or cannot be rated under the Phase 0 spec."""
+    """A set score that cannot exist or cannot be rated under the Phase 0 rules."""
 
 
 def points_for_games(games: int) -> int:
@@ -42,7 +63,7 @@ def tier_for_games(games: int) -> str:
 
 
 def normalize_set(a: int, b: int) -> Tuple[int, int]:
-    """Apply -1 to BOTH sides until the higher side has 6 games (7-5 -> 6-4).
+    """Apply -1 to BOTH sides until the higher side has max_winner_games (6) games.
 
     Orientation is preserved (the higher side stays on its original side) so the
     caller can assign points to the correct player.
@@ -54,7 +75,7 @@ def normalize_set(a: int, b: int) -> Tuple[int, int]:
     dec = max(0, max(a, b) - MAX_WINNER_GAMES)
     na, nb = a - dec, b - dec
     if na < 0 or nb < 0:
-        raise RatingError(f"set score cannot normalise to 6 games: {a}-{b}")
+        raise RatingError(f"set score cannot normalise to {MAX_WINNER_GAMES} games: {a}-{b}")
     return na, nb
 
 

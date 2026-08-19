@@ -80,6 +80,21 @@ Sets `6-2`, `6-4`:
   refused (`None`), never guessed.
 - Incomplete/void rows and contradictory set data are surfaced as `not rateable`, not rated.
 
+## Zero-hardcoding rule (binding)
+
+- Every spec value and schema name lives in `engine/config/*.json` — never in code:
+
+  | File | Content |
+  |---|---|
+  | `rating_rules.json` | Phase 0 points table, tiers, max winner games |
+  | `tennis_schema.json` | Tennis record field names, void flags, score grammar |
+  | `sports.json` | Active adapter list (the plug point) |
+
+- Changing a rule = edit the config JSON, no code change.
+- Config is validated at import (missing/invalid/empty config fails loudly — no silent
+  defaults; the points/tier tables must cover `0..max_winner_games` fully).
+- Code contains structure only. Test fixture rows are test inputs, not engine config.
+
 ## Run tests
 
 ```bash
