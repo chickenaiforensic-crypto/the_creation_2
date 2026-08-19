@@ -35,7 +35,7 @@ def _ordinal(n: int) -> str:
 
 
 def _derive_positions(editions: List[dict], mschema: dict, f: dict) -> dict:
-    """(tournament, year, player) -> (position_ordinal, round_reached_label).
+    """(tournament, year, player) -> (position_ordinal, round_reached_label, position_number).
 
     Derived from each edition's result tree using the stored winner and round
     fields; round -> position mapping comes from config (position_rules.json).
@@ -59,8 +59,12 @@ def _derive_positions(editions: List[dict], mschema: dict, f: dict) -> dict:
             champion = fm[f["player_a"]] if fm[f["winner"]] == "A" else fm[f["player_b"]]
             runner = loser(fm)
             fr = rules["F"]
-            finish[(tournament, year, champion)] = (_ordinal(fr["winner_position"]), fr["winner_label"])
-            finish[(tournament, year, runner)] = (_ordinal(fr["loser_position"]), fr["loser_label"])
+            finish[(tournament, year, champion)] = (
+                _ordinal(fr["winner_position"]), fr["winner_label"], fr["winner_position"],
+            )
+            finish[(tournament, year, runner)] = (
+                _ordinal(fr["loser_position"]), fr["loser_label"], fr["loser_position"],
+            )
 
         for round_name, rule in rules.items():
             if round_name == "F":
@@ -69,6 +73,7 @@ def _derive_positions(editions: List[dict], mschema: dict, f: dict) -> dict:
                 finish[(tournament, year, loser(match))] = (
                     _ordinal(rule["loser_position"]),
                     rule["loser_label"],
+                    rule["loser_position"],
                 )
     return finish
 
@@ -103,9 +108,10 @@ def build_ratings_table(
         group = groups[(tournament, year)]
         players = _aggregate(group)
         for p in players:
-            pos, rnd = positions.get((tournament, year, p["player"]), ("—", "—"))
+            pos, rnd, num = positions.get((tournament, year, p["player"]), ("—", "—", None))
             p["position"] = pos
             p["round_reached"] = rnd
+            p["position_number"] = num
         for rank, p in enumerate(players, 1):
             p["rank"] = rank
         rated = sum(1 for r in group if r["rateable"])

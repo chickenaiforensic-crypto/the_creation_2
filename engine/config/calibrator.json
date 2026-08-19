@@ -1,0 +1,9 @@
+{
+  "description": "Score Calibrator — regional point-assignment layer. Analyzes the Phase 0 rating distribution of each (year, tournament) from top performer to last, detects density clusters, and assigns per-region supplemental points (isotonic/PAVA targets) so the generated ratings reflect the leaderboard hierarchy. Applied per year: 2021 baseline, then 2022-2025.",
+  "enabled": true,
+  "method": "regional_isotonic_pava",
+  "cluster_gap": 2,
+  "min_cluster_size": 2,
+  "min_adjustment": 0.5,
+  "accuracy_target": 0.9
+}

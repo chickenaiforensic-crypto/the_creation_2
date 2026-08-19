@@ -48,6 +48,7 @@ engine/
 | Phase 0 — match rating | IMPLEMENTED + tests green (2026-08-19) |
 | Computational layer — filters + mutes + live compute | IMPLEMENTED + tests green (2026-08-19) |
 | Ratings table view — per-year tournament tables + selectable filters | IMPLEMENTED + tests green (2026-08-19) |
+| Score Calibrator — regional point-assignment layer | IMPLEMENTED + tests green (2026-08-19) |
 | Football mapping | NOT SPECIFIED — adapter stubbed, raises NotImplementedError |
 | Rating accumulation (career/season) | NOT SPECIFIED — later phase |
 | UI-facing outputs | NOT SPECIFIED — later phase |
@@ -98,6 +99,31 @@ still applies underneath.
 - Zero-hardcoding: years, tournaments, players, round names and positions all come
   from data + config. `engine/reports/ratings_tables_by_year.txt` shows all years
   rendered by the engine.
+
+## Score Calibrator (regional point-assignment layer)
+
+`run_score_calibrator(filters=None, mutes=None)` analyzes each (year, tournament)
+rating distribution from the top performer down to the last, detects density
+clusters, and assigns **per-region supplemental points** so the generated ratings
+reflect the leaderboard hierarchy. Applied per year: 2021 baseline, then 2022–2025.
+
+Method (regional isotonic / PAVA, config `calibrator.json`):
+1. Per-region mean of raw ratings — regions are the leaderboard position bands
+   (1st, 2nd, 3rd, 5th, 9th, 17th, 33rd, 65th from `position_rules.json`).
+2. Monotone non-increasing region targets via Pool Adjacent Violators.
+3. Region adjustment = target − mean, added to every player in the region
+   (adjustments below `min_adjustment` are dropped as noise).
+4. Reflection accuracy measured before/after: fraction of cross-region player
+   pairs correctly ordered by rating + Spearman(rating, position).
+
+Results (all years): engine/reports/score_calibrator_report.md — regenerate via
+`python3 tools/generate_calibrator_report.py`. 2021 verified by hand (2nd +6.5,
+3rd −6.5; Rublev 18→24.5, Medvedev 40→33.5). 2025 void final: 1st/2nd regions
+merged, champion and runner-up both calibrate to 61.0.
+
+Known property (honest): regional constants reorder regions, not individuals —
+a few per-player cross-region pairs remain misordered each year (mean accuracy
+94.24% vs target 90%; 2022 trades +1 pair to fix the 2nd/3rd region means).
 
 ## Phase 0 — match rating (Director spec, 2026-08-19)
 
