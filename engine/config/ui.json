@@ -31,6 +31,14 @@
     "vs_label": "vs"
   },
   "system_rating_label": "System Rating",
+  "ratings_percentage": {
+    "label": "Ratings balance (percentage)",
+    "range_label": "Ratings range",
+    "from_year_label": "From year",
+    "to_year_label": "To year",
+    "default_from_year": "2021",
+    "default_to_year": "2025"
+  },
   "h2h": {
     "title": "H2H Analysis",
     "summary_label": "Net H2H balance",
@@ -57,6 +65,7 @@
     "net_label": "Net score (5 matches)",
     "baseline_label": "Baseline reference",
     "system_rating_label": "System rating",
+    "percentage_label": "Performance balance (percentage)",
     "window_column_labels": ["Date", "Round", "Opponent", "Score", "Rating"],
     "no_data_text": "No rateable matches for this player in the selected tournament."
   },

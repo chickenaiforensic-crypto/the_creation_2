@@ -60,6 +60,8 @@ class Handler(BaseHTTPRequestHandler):
                 tournaments = q.get("tournaments", []) or []
                 years = q.get("years", []) or []
                 from_date = (q.get("from") or [None])[0]
+                years_from = (q.get("years_from") or [None])[0]
+                years_to = (q.get("years_to") or [None])[0]
                 try:
                     self._json(
                         matchup_report(
@@ -69,6 +71,8 @@ class Handler(BaseHTTPRequestHandler):
                             years=years,
                             tours=tours,
                             from_date=from_date,
+                            years_from=years_from,
+                            years_to=years_to,
                         )
                     )
                 except Exception as exc:  # surface engine errors to the UI
@@ -83,6 +87,8 @@ class Handler(BaseHTTPRequestHandler):
                 tours = q.get("tours", []) or []
                 tournaments = q.get("tournaments", []) or []
                 years = q.get("years", []) or []
+                years_from = (q.get("years_from") or [None])[0]
+                years_to = (q.get("years_to") or [None])[0]
                 try:
                     self._json(
                         performance_report(
@@ -91,6 +97,8 @@ class Handler(BaseHTTPRequestHandler):
                             tournaments=tournaments,
                             years=years,
                             tours=tours,
+                            years_from=years_from,
+                            years_to=years_to,
                         )
                     )
                 except Exception as exc:  # surface engine errors to the UI

@@ -197,6 +197,19 @@ driven by `config/ui.json`, `config/sports.json`, and live engine data).
   computations — options are the full dataset (10 tournament names; US Open
   ATP/WTA separated via the tours filter). "All tournaments" falls back to the
   feed default (Cincinnati Masters).
+- **Multiple conversion outputs (Director spec):** the standalone conversion
+  layer (ratio_lock) is fed by every section that needs a % output, and each
+  section gets its own independent sectional answer:
+  1. **H2H percentage** — direct-encounter raw region points.
+  2. **Ratings percentage** — each player's total Phase 0 points gathered over
+     a **selectable year range** (default 2021–2025, adjustable in the
+     Configurations tab: From year / To year). The ratings themselves (deltas)
+     are displayed alongside. Example (feed): Sinner 274 vs Alcaraz 302 →
+     47.57% / 52.43%; 2024 only: 88 vs 18 → 83.02% / 16.98%.
+  3. **Tournament Performance percentage** — for every tournament where both
+     players have a 5-match window, their total window points become a 100%
+     split (e.g. Sinner vs Zverev Cincinnati 100/100 → 50/50, Dubai 106/72 →
+     59.55/40.45, Rotterdam 100/46 → 68.49/31.51).
 - **API:** `/api/ui`, `/api/options`, `/api/matchup?a=..&b=..&tours=..&tournaments=..&years=..&from=..`.
 - **Tour filter (approved):** US Open ATP/WTA are now selectable separately via
   the `tours` filter (e.g. `tours=ATP` vs `tours=WTA`), since both share the

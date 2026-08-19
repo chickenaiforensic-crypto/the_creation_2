@@ -14,6 +14,8 @@ const state = {
   tours: [],
   tournamentFilter: "",
   fromDate: "",
+  yearsFrom: "",
+  yearsTo: "",
   data: null,
 };
 
@@ -206,6 +208,18 @@ function renderRatingPanel(m) {
     grid.appendChild(el("div", { class: "empty", text: m.placeholders.select_players_rating }));
   }
   panel.appendChild(grid);
+  if (state.data && state.data.ratings_percentage && state.data.ratings_percentage.pA_pct !== null) {
+    const rp = state.data.ratings_percentage;
+    const pct = el("div", { class: "h2h-percentage" }, [
+      el("div", { class: "k", text: m.ratings_percentage.label + " (" + (state.yearsFrom || "—") + "–" + (state.yearsTo || "—") + ")" }),
+      el("div", { class: "pct-row" }, [
+        el("span", { class: "pct-a", text: state.data.players.player_a.player + " " + rp.pA_pct + "%" }),
+        el("span", { class: "pct-vs", text: " | " }),
+        el("span", { class: "pct-b", text: rp.pB_pct + "% " + state.data.players.player_b.player }),
+      ]),
+    ]);
+    panel.appendChild(pct);
+  }
   return panel;
 }
 
@@ -344,6 +358,26 @@ function renderConfigurations(m) {
   cfgPanel.appendChild(mutePanel);
   app.appendChild(cfgPanel);
 
+  const rangePanel = el("div", { class: "sub-panel" });
+  rangePanel.appendChild(el("h3", { text: m.ratings_percentage.range_label }));
+  const rangeRow = el("div", { class: "row-inline" });
+  const fromWrap = el("div", { class: "row" });
+  fromWrap.appendChild(el("label", { text: m.ratings_percentage.from_year_label }));
+  const fromSel = el("select", {
+    onchange: (e) => { state.yearsFrom = e.target.value; loadMatchup(); },
+  }, selectOptions(m.options.years, [state.yearsFrom]));
+  fromWrap.appendChild(fromSel);
+  const toWrap = el("div", { class: "row" });
+  toWrap.appendChild(el("label", { text: m.ratings_percentage.to_year_label }));
+  const toSel = el("select", {
+    onchange: (e) => { state.yearsTo = e.target.value; loadMatchup(); },
+  }, selectOptions(m.options.years, [state.yearsTo]));
+  toWrap.appendChild(toSel);
+  rangeRow.appendChild(fromWrap);
+  rangeRow.appendChild(toWrap);
+  rangePanel.appendChild(rangeRow);
+  app.appendChild(rangePanel);
+
   const paramsPanel = el("div", { class: "panel" });
   paramsPanel.appendChild(el("h2", { text: m.configurations.engine_parameters_label }));
   const params = m.configurations.engine_parameters;
@@ -399,6 +433,19 @@ function renderPerformancePanel(m) {
   grid.appendChild(stat(pb, state.performance ? (state.performance.player_b.system_rating > 0 ? "+" : "") + state.performance.player_b.system_rating : "—", ""));
   panel.appendChild(grid);
   if (state.performance) {
+    if (state.performance.percentages && state.performance.percentages.length) {
+      const pctPanel = el("div", { class: "h2h-percentage" });
+      pctPanel.appendChild(el("div", { class: "k", text: ui.percentage_label }));
+      for (const p of state.performance.percentages) {
+        const row = el("div", { class: "pct-row" }, [
+          el("span", { class: "pct-a", text: pa + " " + p.pA_pct + "%" }),
+          el("span", { class: "pct-vs", text: " | " + p.tournament + " | " }),
+          el("span", { class: "pct-b", text: p.pB_pct + "% " + pb }),
+        ]);
+        pctPanel.appendChild(row);
+      }
+      panel.appendChild(pctPanel);
+    }
     const windowTable = el("table", {});
     const thead = el("thead", {});
     const headRow = el("tr", {});
@@ -454,6 +501,8 @@ async function loadMatchup() {
   if (tourneyFilter) q.set("tournaments", tourneyFilter);
   if (state.tours.length) q.set("tours", state.tours.join(","));
   if (state.fromDate) q.set("from", state.fromDate);
+  if (state.yearsFrom) q.set("years_from", state.yearsFrom);
+  if (state.yearsTo) q.set("years_to", state.yearsTo);
   try {
     state.data = await api("/api/matchup?" + q.toString());
   } catch (e) {
@@ -471,6 +520,8 @@ async function loadMatchup() {
   try {
     state.manifest = await api("/api/ui");
     state.sport = state.manifest.sports[0];
+    state.yearsFrom = state.manifest.ratings_percentage.default_from_year;
+    state.yearsTo = state.manifest.ratings_percentage.default_to_year;
     render();
   } catch (e) {
     document.getElementById("app").textContent =

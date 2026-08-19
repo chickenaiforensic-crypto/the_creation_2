@@ -674,5 +674,18 @@
       "baseline": 86.8,
       "index": 0.8525
     }
+  },
+  "ratings_percentage": {
+    "sinner_alcaraz_feed": {"points_a": 274.0, "points_b": 302.0, "pA_pct": 47.57, "pB_pct": 52.43},
+    "sinner_alcaraz_2024": {"points_a": 88.0, "points_b": 18.0, "pA_pct": 83.02, "pB_pct": 16.98}
+  },
+  "performance_percentage": {
+    "sinner_zverev": {
+      "Cincinnati Masters": {"points_a": 100.0, "points_b": 100.0, "pA_pct": 50.0, "pB_pct": 50.0},
+      "Dubai": {"points_a": 106.0, "points_b": 72.0, "pA_pct": 59.55, "pB_pct": 40.45},
+      "Halle": {"points_a": 108.0, "points_b": 100.0, "pA_pct": 51.92, "pB_pct": 48.08},
+      "Rotterdam": {"points_a": 100.0, "points_b": 46.0, "pA_pct": 68.49, "pB_pct": 31.51},
+      "US Open": {"points_a": 150.0, "points_b": 150.0, "pA_pct": 50.0, "pB_pct": 50.0}
+    }
   }
 }

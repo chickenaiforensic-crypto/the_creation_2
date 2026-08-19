@@ -97,6 +97,7 @@ def ui_manifest() -> dict:
             "pB": None,
         },
         "system_rating_label": ui["system_rating_label"],
+        "ratings_percentage": ui["ratings_percentage"],
         "h2h_ui": ui["h2h"],
         "mute_ui": ui["mute"],
         "placeholders": ui["placeholders"],
@@ -132,17 +133,63 @@ def performance_report(
     tournaments: Optional[List[str]] = None,
     years: Optional[List[str]] = None,
     tours: Optional[List[str]] = None,
+    years_from: Optional[str] = None,
+    years_to: Optional[str] = None,
 ) -> dict:
     """Tournament Performance (3rd UI layer) for both players over the selected
     context — per-tournament 5-match windows, intramural, absolute rating basis,
-    asymmetric calibration index."""
+    asymmetric calibration index. The performance layer ALSO feeds the standalone
+    conversion layer: for every tournament where both players have a window, the
+    players' total window points become a 100% split (independent sectional
+    output)."""
     ui = load_config("ui")
+    range_years = _year_range(years_from, years_to)
+    pa = run_performance(player_a, tournaments, range_years or years, tours)
+    pb = run_performance(player_b, tournaments, range_years or years, tours)
+
+    def window_points(perf) -> dict:
+        out = {}
+        for res in perf["results"]:
+            out[res["tournament"]] = sum(e.get("points", 0.0) for e in res["window"])
+        return out
+
+    pa_pts = window_points(pa)
+    pb_pts = window_points(pb)
+    percentages = []
+    for tournament in sorted(set(pa_pts) & set(pb_pts)):
+        a, b = pa_pts[tournament], pb_pts[tournament]
+        if a + b == 0:
+            continue
+        lock = ratio_lock(a, b)
+        percentages.append(
+            {
+                "tournament": tournament,
+                "points_a": lock["points_a"],
+                "points_b": lock["points_b"],
+                "pA_pct": lock["pA_pct"],
+                "pB_pct": lock["pB_pct"],
+            }
+        )
     return {
         "performance_label": ui["performance"]["title"],
         "window_label": ui["performance"]["window_label"],
-        "player_a": run_performance(player_a, tournaments, years, tours),
-        "player_b": run_performance(player_b, tournaments, years, tours),
+        "percentage_label": ui["performance"]["percentage_label"],
+        "player_a": pa,
+        "player_b": pb,
+        "percentages": percentages,
     }
+
+
+def _year_range(years_from: Optional[str], years_to: Optional[str]) -> List[str]:
+    """Resolve a year range into a year list (inclusive). Empty when neither
+    bound is given (the full dataset, default 2021-2025)."""
+    if not years_from and not years_to:
+        return []
+    lo = int(years_from) if years_from else 2021
+    hi = int(years_to) if years_to else 2025
+    if hi < lo:
+        lo, hi = hi, lo
+    return [str(y) for y in range(lo, hi + 1)]
 
 
 def matchup_report(
@@ -152,18 +199,22 @@ def matchup_report(
     years: Optional[List[str]] = None,
     tours: Optional[List[str]] = None,
     from_date: Optional[str] = None,
+    years_from: Optional[str] = None,
+    years_to: Optional[str] = None,
 ) -> dict:
-    """H2H + rating + prediction-vector state for a player matchup.
+    """H2H + ratings + prediction-vector state for a player matchup.
 
     filters: tournaments/years/tours select the context; from_date bounds the
-    H2H encounter history (date boundary). Prediction vector is zeroed until the
-    predictive module is built (placeholder state per Director spec).
+    H2H encounter history (date boundary); years_from/years_to select the
+    RATINGS range (default: the full dataset, 2021-2025). Prediction vector is
+    zeroed until the predictive module is built (placeholder state per spec).
     """
     ui = load_config("ui")
+    range_years = _year_range(years_from, years_to)
     filters = Filters(
         players=[player_a, player_b],
         tournaments=tournaments or [],
-        years=years or [],
+        years=range_years,
         tours=tours or [],
     )
     mutes = Mutes()
@@ -227,6 +278,26 @@ def matchup_report(
             points_a += m["region_points_b"]
     percentage = ratio_lock(points_a, points_b)
 
+    # RATINGS percentage — the ratings layer also feeds the standalone
+    # conversion layer: each player's total Phase 0 points gathered over the
+    # selected range (years_from/years_to, default 2021-2025) become the
+    # non-negative raw totals for the ratio lock. Ratings themselves (deltas)
+    # are exposed alongside for display.
+    def player_points(name: str) -> float:
+        total = 0.0
+        for m in rating_report["matches"]:
+            if not m["rateable"]:
+                continue
+            if m["player_a"] == name:
+                total += m["points_a"]
+            elif m["player_b"] == name:
+                total += m["points_b"]
+        return total
+
+    ratings_pa = player_points(player_a)
+    ratings_pb = player_points(player_b)
+    ratings_percentage = ratio_lock(ratings_pa, ratings_pb)
+
     return {
         "matchup": {"player_a": player_a, "player_b": player_b},
         "scope": {
@@ -234,7 +305,9 @@ def matchup_report(
             "years": list(filters.years),
             "tours": list(filters.tours),
             "from_date": from_date,
+            "ratings_range": {"from": years_from, "to": years_to},
         },
+        "ratings_percentage": ratings_percentage,
         "prediction_vector": {
             "placeholder_label": ui["prediction_vector"]["placeholder_label"],
             "zeroed_state_text": ui["prediction_vector"]["zeroed_state_text"],

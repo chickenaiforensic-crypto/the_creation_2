@@ -64,6 +64,10 @@ select[multiple] { min-height: 96px; }
 }
 .swap-btn:hover { background: var(--accent2); }
 
+/* ---------- inline range row ---------- */
+.row-inline { display: flex; gap: var(--space); }
+.row-inline .row { flex: 1 1 0; }
+
 /* ---------- H2H percentage ---------- */
 .h2h-percentage { margin-top: var(--space-sm); background: var(--panel2); border: 1px solid var(--border); border-radius: 10px; padding: 12px; }
 .h2h-percentage .k { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 8px; }
