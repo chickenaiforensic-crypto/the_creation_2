@@ -15,7 +15,18 @@ equivalent review.
   in a prior session; 5 entries independently spot-audited this session against edition-specific
   sources and held up (see commit history). Not re-verified in full.
 - `m1000_r32_onward_gaps.json` — Phase 1B, 92 genuine gap instances across 50/73 M1000 editions.
-  Reported DONE with 3 logged self-corrections in a prior session. Not re-run this session.
+  Reported DONE with 3 logged self-corrections in a prior session.
+  **Independently reproduced this session**: no gap-detection script existed in the repo despite
+  the file's method description claiming reproducibility, so one was written from that description
+  (`reproduce_m1000_gaps.py`) and run against `master_store_tennis_SSoT.json` at the pinned commit.
+  Result: exact match — same 73 editions checked, same 92 gap instances, same 50 editions affected,
+  and the entry-by-entry set (tour/tournament/year/round/player) is identical, not just the counts.
+  This closes the process gap: the claim is now genuinely re-runnable by a second party, not just
+  asserted.
+- `reproduce_m1000_gaps.py` — the gap-detection script per the method stated in
+  `m1000_r32_onward_gaps.json`. Run with `python3 data/tennis/phase1-audit/reproduce_m1000_gaps.py`
+  from repo root; writes `m1000_r32_onward_gaps_REPRODUCED.json` (gitignored/not committed —
+  regenerate on demand) and prints the three summary counts to stdout.
 - `draw_size_reference_500_250.json` — Phase 1D, ATP500/WTA500/ATP250/WTA250 draw sizes.
   **13 of 159 editions verified this session** (Rotterdam 2022–2025, Dubai 2021–2025 ATP,
   Dubai WTA 2021/2023–2025). 2 entries explicitly flagged unresolved (Rotterdam 2021, WTA
