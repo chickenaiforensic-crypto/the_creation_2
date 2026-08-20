@@ -12,7 +12,7 @@
     <span class="brand-mark">TC2</span>
     <div>
       <h1>Tennis UI</h1>
-      <p class="sub">the_creation_2 · blank rebuild · engine-sourced data</p>
+      <p class="sub">the_creation_2 · blank rebuild · engine-sourced data · Phase 0 verification view</p>
     </div>
   </div>
   <div class="data-strip" id="data-strip" aria-live="polite">Loading index…</div>
@@ -24,6 +24,13 @@
       <label for="tournament-select">Tournament</label>
       <select id="tournament-select">
         <option value="">All tournaments</option>
+      </select>
+    </div>
+
+    <div class="field field-year">
+      <label for="year-select">Year</label>
+      <select id="year-select">
+        <option value="">All years</option>
       </select>
     </div>
 
@@ -44,26 +51,56 @@
     </div>
   </section>
 
-  <section class="results-meta" aria-live="polite">
-    <span id="result-count">—</span>
-    <span id="scope-note"></span>
+  <section class="leaderboard" aria-label="Phase 0 engine ratings verification">
+    <div class="section-head">
+      <h2>Phase 0 Engine Ratings — Verification View</h2>
+      <p class="lb-rules">Live calculation · 7-5 → 6-4 (-1 reduction) · 7-6 → 6-4 · incomplete sets never scored · sorted by net rating, descending</p>
+    </div>
+    <p class="lb-meta" id="leaderboard-meta" aria-live="polite">—</p>
+    <p class="lb-warn" id="leaderboard-warn" role="alert" hidden></p>
+    <div class="table-wrap">
+      <table id="leaderboard-table">
+        <thead>
+          <tr>
+            <th class="num">POS</th>
+            <th>PLAYER</th>
+            <th class="num">RATING</th>
+            <th class="num">MATCHES</th>
+            <th class="num">AVG</th>
+            <th>ACTUAL POSITION</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboard-body"></tbody>
+      </table>
+      <p id="leaderboard-empty" class="empty-state" hidden>No players in the current scope.</p>
+    </div>
+    <p class="lb-note muted">RATING = net normalized game differential across all scored sets in scope. MATCHES = appearances in scope (walkovers count as 0-set appearances). AVG = RATING ÷ MATCHES. ACTUAL POSITION = deepest round reached in scope; CHAMPION = won the final. Player filter below applies to the match log only.</p>
   </section>
 
-  <section class="table-wrap">
-    <table id="matches-table">
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Edition</th>
-          <th>Round</th>
-          <th>Match</th>
-          <th>Score</th>
-          <th>Result</th>
-        </tr>
-      </thead>
-      <tbody id="matches-body"></tbody>
-    </table>
-    <p id="empty-state" class="empty-state" hidden>No matches for the current filters.</p>
+  <section class="matchlog" aria-label="Match log">
+    <div class="section-head">
+      <h2>Match log</h2>
+    </div>
+    <div class="results-meta" aria-live="polite">
+      <span id="result-count">—</span>
+      <span id="scope-note"></span>
+    </div>
+    <div class="table-wrap">
+      <table id="matches-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Edition</th>
+            <th>Round</th>
+            <th>Match</th>
+            <th>Score</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody id="matches-body"></tbody>
+      </table>
+      <p id="empty-state" class="empty-state" hidden>No matches for the current filters.</p>
+    </div>
   </section>
 </main>
 

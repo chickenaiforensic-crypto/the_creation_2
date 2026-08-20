@@ -1,12 +1,26 @@
-/* the_creation_2 — blank UI rebuild, Task 1 (tournament + player filter). */
+/* the_creation_2 — blank UI rebuild.
+   Task 1 (tournament + player filter) + Phase 0 Engine Ratings Verification View.
+
+   Phase 0 rating rules (Technical Directive 2026-08-20; implemented here — no
+   pre-existing Phase 0 engine ships on this branch):
+   - a 7-5 set normalizes down via a -1 reduction to a 6-4 point basis;
+   - a 7-6 tiebreak set normalizes directly to a 6-4 point basis;
+   - all other physically completed sets count their actual game differential;
+   - physically incomplete sets (retirement/default mid-set) are never scored;
+   - walkovers carry the literal score "W/O": a counted appearance, zero sets;
+   - tier labels are section identifiers only — never mathematical multipliers;
+   - any unparseable score token is excluded AND surfaced loudly (audit hook).
+*/
 "use strict";
 
 const ROUND_ORDER = { R128: 0, R64: 1, R32: 2, R16: 3, QF: 4, SF: 5, F: 6 };
 const RENDER_CAP = 400;
+const SET_RE = /^(\d+)-(\d+)(\(\d+\))?$/;
 
 const els = {
   strip: document.getElementById("data-strip"),
   tournament: document.getElementById("tournament-select"),
+  year: document.getElementById("year-select"),
   playerFilter: document.getElementById("player-filter-input"),
   player: document.getElementById("player-select"),
   reset: document.getElementById("reset-btn"),
@@ -15,10 +29,14 @@ const els = {
   body: document.getElementById("matches-body"),
   empty: document.getElementById("empty-state"),
   provenance: document.getElementById("provenance"),
+  lbMeta: document.getElementById("leaderboard-meta"),
+  lbWarn: document.getElementById("leaderboard-warn"),
+  lbBody: document.getElementById("leaderboard-body"),
+  lbEmpty: document.getElementById("leaderboard-empty"),
 };
 
 let INDEX = null;
-const state = { tkey: "", player: "", playerQuery: "" };
+const state = { tkey: "", year: "", player: "", playerQuery: "" };
 
 function tName(tkey) { return tkey.split("|")[0]; }
 function tTour(tkey) { return tkey.split("|")[1]; }
@@ -26,6 +44,99 @@ function esc(s) {
   return String(s).replace(/[&<>"']/g, c => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
   }[c]));
+}
+function fmtSignedInt(n) { return n > 0 ? `+${n}` : n < 0 ? `-${Math.abs(n)}` : "0"; }
+function fmtSignedAvg(x) {
+  const s = Math.abs(x).toFixed(1);
+  return x > 0 ? `+${s}` : x < 0 ? `-${s}` : "0.0";
+}
+
+/* ---------------- Phase 0 ratings math (live, from data) ---------------- */
+
+function isCompleteSet(a, b) {
+  const hi = Math.max(a, b), lo = Math.min(a, b);
+  return (hi === 6 && lo <= 4) || (hi === 7 && (lo === 5 || lo === 6));
+}
+
+function normalizeSet(a, b) {
+  /* returns [winnerGames, loserGames] on the mandated point basis */
+  const hi = Math.max(a, b), lo = Math.min(a, b);
+  if (hi === 7 && (lo === 5 || lo === 6)) return [6, 4]; // 7-5 (-1 reduction), 7-6 tiebreak
+  return [hi, lo];
+}
+
+function computeRatings(rows) {
+  const byPlayer = new Map();
+  let unparsedTokens = 0;
+  let setsCounted = 0, setsExcludedIncomplete = 0, walkovers = 0;
+
+  const entry = p => {
+    let e = byPlayer.get(p);
+    if (!e) {
+      e = { player: p, rating: 0, matches: 0, bestRoundOrder: -1, champion: false };
+      byPlayer.set(p, e);
+    }
+    return e;
+  };
+
+  for (const m of rows) {
+    const eA = entry(m.playerA), eB = entry(m.playerB);
+    eA.matches += 1; eB.matches += 1;
+    for (const p of [m.playerA, m.playerB]) {
+      const e = entry(p);
+      const order = ROUND_ORDER[m.round] ?? -1;
+      if (order > e.bestRoundOrder) e.bestRoundOrder = order;
+      if (m.round === "F" && ((m.winner === "A" && p === m.playerA) || (m.winner === "B" && p === m.playerB))) {
+        e.champion = true;
+      }
+    }
+
+    const score = (m.score || "").trim();
+    if (score === "W/O") { walkovers += 1; continue; } // appearance, no countable sets
+    if (!score) continue;
+
+    const tokens = score.split(/\s+/);
+    for (const t of tokens) {
+      const mm = SET_RE.exec(t);
+      if (!mm) { unparsedTokens += 1; continue; } // audit hook: never silently scored
+      const a = parseInt(mm[1], 10), b = parseInt(mm[2], 10);
+      if (!isCompleteSet(a, b)) {
+        setsExcludedIncomplete += 1; // physically incomplete set: never scored (Phase 0)
+        continue;
+      }
+      const [w, l] = normalizeSet(a, b);
+      const diff = w - l;
+      if (a > b) { eA.rating += diff; eB.rating -= diff; }
+      else { eB.rating += diff; eA.rating -= diff; }
+      setsCounted += 1;
+    }
+  }
+
+  const ROUND_BY_ORDER = Object.fromEntries(Object.entries(ROUND_ORDER).map(([k, v]) => [v, k]));
+  const list = [...byPlayer.values()].map(e => ({
+    player: e.player,
+    rating: e.rating,
+    matches: e.matches,
+    avg: e.matches > 0 ? e.rating / e.matches : 0,
+    bestRound: e.bestRoundOrder >= 0 ? ROUND_BY_ORDER[e.bestRoundOrder] : "—",
+    champion: e.champion,
+  }));
+  list.sort((x, y) => (y.rating - x.rating) || (y.matches - x.matches) || (x.player < y.player ? -1 : x.player > y.player ? 1 : 0));
+  list.forEach((e, i) => { e.pos = i + 1; });
+
+  return { list, stats: { setsCounted, setsExcludedIncomplete, walkovers, unparsedTokens } };
+}
+
+/* ---------------- filters ---------------- */
+
+function scopeMatches() {
+  const { tkey, year } = state;
+  return INDEX.matches.filter(m => (!tkey || m.tkey === tkey) && (!year || m.year === year));
+}
+
+function tableMatches() {
+  const p = state.player;
+  return scopeMatches().filter(m => !p || m.playerA === p || m.playerB === p);
 }
 
 function fillTournaments() {
@@ -35,6 +146,31 @@ function fillTournaments() {
     opt.textContent = `${t.name} — ${t.tour} · ${t.tier} (${t.years[0]}–${t.years[t.years.length - 1]}, ${t.matches} matches)`;
     els.tournament.appendChild(opt);
   }
+}
+
+function rebuildYearOptions() {
+  const prev = els.year.value;
+  const years = new Set();
+  if (state.tkey) {
+    const t = INDEX.tournaments.find(t => t.key === state.tkey);
+    for (const y of (t ? t.years : [])) years.add(y);
+  } else {
+    for (const m of INDEX.matches) years.add(m.year);
+  }
+  const sorted = [...years].sort();
+  els.year.textContent = "";
+  const all = document.createElement("option");
+  all.value = "";
+  all.textContent = `All years (${sorted.length})`;
+  els.year.appendChild(all);
+  for (const y of sorted) {
+    const opt = document.createElement("option");
+    opt.value = y;
+    opt.textContent = y;
+    els.year.appendChild(opt);
+  }
+  els.year.value = sorted.includes(prev) ? prev : "";
+  state.year = els.year.value;
 }
 
 function rebuildPlayerOptions() {
@@ -51,26 +187,18 @@ function rebuildPlayerOptions() {
   all.textContent = q ? `All players (${n} match the text filter)` : `All players (${list.length})`;
   els.player.appendChild(all);
 
-  let keptSelection = false;
   for (const p of list) {
     if (q && !p.toLowerCase().includes(q) && p !== prev) continue;
     const opt = document.createElement("option");
     opt.value = p;
     opt.textContent = p;
     els.player.appendChild(opt);
-    if (p === prev) keptSelection = true;
   }
   // Keep an explicitly selected player selectable even if narrowed out by the text filter.
   els.player.value = prev;
 }
 
-function filteredMatches() {
-  const { tkey, player } = state;
-  return INDEX.matches.filter(m =>
-    (!tkey || m.tkey === tkey) &&
-    (!player || m.playerA === player || m.playerB === player)
-  );
-}
+/* ---------------- rendering ---------------- */
 
 function sortMatches(rows) {
   return rows.slice().sort((a, b) =>
@@ -87,12 +215,51 @@ function resultLabel(m) {
   return '<span class="muted">completed</span>';
 }
 
-function render() {
-  const rows = sortMatches(filteredMatches());
+function renderLeaderboard() {
+  const rows = scopeMatches();
+  const { list, stats } = computeRatings(rows);
+
+  const scopeBits = [];
+  if (state.tkey) scopeBits.push(`${tName(state.tkey)} (${tTour(state.tkey)})`);
+  scopeBits.push(state.year ? `year ${state.year}` : "all years");
+  els.lbMeta.textContent =
+    `Scope: ${scopeBits.join(" · ")} — ${rows.length.toLocaleString("en-US")} matches · ` +
+    `${list.length} players rated · ${stats.setsCounted.toLocaleString("en-US")} sets scored · ` +
+    `${stats.setsExcludedIncomplete} incomplete sets excluded · ${stats.walkovers} walkovers (0-set appearances).`;
+
+  if (stats.unparsedTokens > 0) {
+    els.lbWarn.hidden = false;
+    els.lbWarn.textContent = `AUDIT WARNING: ${stats.unparsedTokens} unparseable score token(s) excluded from ratings — inspect source data.`;
+  } else {
+    els.lbWarn.hidden = true;
+    els.lbWarn.textContent = "";
+  }
+
+  els.lbBody.textContent = "";
+  const frag = document.createDocumentFragment();
+  for (const e of list) {
+    const tr = document.createElement("tr");
+    const actual = e.champion ? '<span class="champ">CHAMPION</span>' : esc(e.bestRound);
+    tr.innerHTML =
+      `<td class="mono pos">${e.pos}</td>` +
+      `<td>${esc(e.player)}</td>` +
+      `<td class="mono ${e.rating > 0 ? "pos-num" : e.rating < 0 ? "neg-num" : ""}">${fmtSignedInt(e.rating)}</td>` +
+      `<td class="mono">${e.matches}</td>` +
+      `<td class="mono ${e.avg > 0 ? "pos-num" : e.avg < 0 ? "neg-num" : ""}">${fmtSignedAvg(e.avg)}</td>` +
+      `<td>${actual}</td>`;
+    frag.appendChild(tr);
+  }
+  els.lbBody.appendChild(frag);
+  els.lbEmpty.hidden = list.length > 0;
+}
+
+function renderTable() {
+  const rows = sortMatches(tableMatches());
   els.count.textContent = `${rows.length.toLocaleString("en-US")} match${rows.length === 1 ? "" : "es"}`;
 
   const scopeBits = [];
   if (state.tkey) scopeBits.push(`${tName(state.tkey)} (${tTour(state.tkey)})`);
+  if (state.year) scopeBits.push(`year ${state.year}`);
   if (state.player) scopeBits.push(state.player);
   els.scope.textContent = scopeBits.length ? `Filtered by: ${scopeBits.join(" · ")}` : "No filters active — full dataset shown.";
 
@@ -124,6 +291,8 @@ function render() {
   }
 }
 
+function render() { renderLeaderboard(); renderTable(); }
+
 function renderStrip() {
   const p = INDEX.provenance;
   els.strip.textContent =
@@ -133,19 +302,29 @@ function renderStrip() {
     `Data source: engine branch <code>${esc(p.source_branch)}</code> @ <code>${esc(p.source_commit.slice(0, 8))}</code> ` +
     `(content-only pull into <code>ui_build/engine/</code>; no merge). ` +
     `Engine MANIFEST sha256 <code>${esc(p.engine_manifest_sha256.slice(0, 16))}…</code>. ` +
-    `${p.editions_verified}/${p.editions_in_manifest} edition files re-verified (sha256 + match count) at index build · built ${esc(p.built_utc)}.`;
+    `${p.editions_verified}/${p.editions_in_manifest} edition files re-verified (sha256 + match count) at index build · built ${esc(p.built_utc)}. ` +
+    `Phase 0 ratings computed live in-browser per the 2026-08-20 directive: 7-5 → 6-4 (-1 reduction), 7-6 → 6-4, ` +
+    `incomplete sets never scored, tier labels are identifiers only.`;
 }
+
+/* ---------------- wiring ---------------- */
 
 els.tournament.addEventListener("change", () => {
   state.tkey = els.tournament.value;
   state.playerQuery = "";
   els.playerFilter.value = "";
+  rebuildYearOptions();
   rebuildPlayerOptions();
   // Keep the selected player only if they actually play in the new tournament scope.
   if (state.player && state.tkey && !(INDEX.playersByTournament[state.tkey] || []).includes(state.player)) {
     state.player = "";
     els.player.value = "";
   }
+  render();
+});
+
+els.year.addEventListener("change", () => {
+  state.year = els.year.value;
   render();
 });
 
@@ -156,13 +335,15 @@ els.playerFilter.addEventListener("input", () => {
 
 els.player.addEventListener("change", () => {
   state.player = els.player.value;
-  render();
+  renderTable();
 });
 
 els.reset.addEventListener("click", () => {
-  state.tkey = ""; state.player = ""; state.playerQuery = "";
+  state.tkey = ""; state.year = ""; state.player = ""; state.playerQuery = "";
   els.tournament.value = "";
+  els.year.value = ""; // must clear before rebuildYearOptions(), which preserves a still-valid element value
   els.playerFilter.value = "";
+  rebuildYearOptions();
   rebuildPlayerOptions();
   els.player.value = "";
   render();
@@ -176,6 +357,7 @@ fetch("index.json")
   .then(idx => {
     INDEX = idx;
     fillTournaments();
+    rebuildYearOptions();
     rebuildPlayerOptions();
     renderStrip();
     render();

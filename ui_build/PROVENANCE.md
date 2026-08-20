@@ -49,7 +49,8 @@ Implemented: tournament selector (All + 18), dependent player selector per tourn
 text-filter, player→match filter, reset, live exact counts, match table. Table rendering is capped at
 400 visible rows with an explicit on-screen note; counts remain exact.
 
-Not implemented (out of directive): year/round/surface filters, search over scores, anything else.
+Not implemented in Task 1 (later superseded by the Phase 0 directive of 2026-08-20, which added
+the Year/Edition filter): round and surface filters, search over scores, anything else.
 
 ## 5. Functional audit of the filter logic
 
@@ -80,9 +81,77 @@ Result: `ALL UI FILTER TESTS PASSED` (ground truth: 3,828 matches, 18 tournament
   `gap_count:2` in engine `MANIFEST.json` while statuses read `closed_verified_gapless`):
   reported, not fixed — directive was Task 1 only.
 
-## 8. Re-run
+## 8. Phase 0 Engine Ratings Verification View (Technical Directive 2026-08-20)
+
+**Honesty note for auditors:** no Phase 0 ratings engine pre-existed on this branch
+(`engineering/phase_zero/README.md` is a placeholder). The Phase 0 math below was implemented
+fresh in `ui_build/app/app.js` (`computeRatings`), exactly per the directive, computed live
+in-browser on every filter change. Zero hardcoded presentation values: every POS / PLAYER /
+RATING / MATCHES / AVG / ACTUAL POSITION cell is derived at render time from `index.json`.
+
+### 8.1 Rules implemented (verbatim from directive + dataset precedent)
+- 7-5 set → normalized down via a **-1 reduction to a 6-4 point basis**.
+- 7-6 tiebreak set → **normalized directly to a 6-4 point basis** for the winner.
+- All other physically completed sets (6-0…6-4) count their actual game differential.
+- Physically incomplete sets (retirement/default mid-set) are **never scored** — the standing
+  Phase-Zero precedent already recorded in `data/tennis/KNOWN-GAPS.md` §4 ("Phase Zero scores
+  only physically completed sets").
+- Walkovers carry the literal score `W/O` in this dataset: counted as a **0-set appearance**
+  (MATCHES +1, rating contribution 0).
+- Tier labels are treated **strictly as identifiers, never multipliers**. Dataset scan:
+  tiers present are GS / M1000 / ATP500 / ATP250 / WTA500 / WTA250 — **zero `1x/2x/3x/4x`
+  labels exist in this dataset**, so that mandate is satisfied vacuously and structurally.
+- Audit hook: any unparseable score token is excluded AND raises a visible red warning banner
+  (element `leaderboard-warn`). Current dataset: **0 unparseable tokens**.
+
+### 8.2 Column semantics (implemented definitions)
+- **RATING** = net normalized game differential over all scored sets in scope (integer).
+- **MATCHES** = appearances in scope (walkovers included as 0-set appearances).
+- **AVG** = RATING ÷ MATCHES, 1 decimal, signed.
+- **ACTUAL POSITION** = deepest round reached in scope; `CHAMPION` when the player won a final
+  in scope (multi-edition scopes can therefore show several champions).
+- **POS** = sequential rank after sorting by RATING desc, tie-breaks MATCHES desc then name asc.
+- Filters: Tournament + Year dropdowns (Year options derived from the selected tournament's
+  editions; all years otherwise). Both instantly recalculate + resort the leaderboard and the
+  match log. The Task-1 player filter still applies to the match log only (stated on-screen).
+
+### 8.3 Score-shape audit of the full dataset (3,828 rows, before any UI code was written)
+- Completed-set shapes found: 6-0 (264) · 6-1 (885) · 6-2 (1,408) · 6-3 (2,223) · 6-4 (2,329) ·
+  7-5 (862) · 7-6 (1,683). **No malformed or exotic scores exist on this branch** (no `13-12`,
+  no `6-6`, no bare tiebreaks).
+- 128 retired/defaulted rows end with exactly one incomplete final-set token (all excluded).
+- 28 walkover rows carry score `W/O`. 1 defaulted row: Dubai 2024 SF `6-7(4) 7-6(5) 6-5` —
+  only the incomplete `6-5` excluded.
+- status-vs-flag consistency: 0 mismatches.
+
+### 8.4 Verification of the ratings math (two independent implementations)
+Ground truth recomputed in Python from the **raw edition files** (not the index), then the real
+`app.js` driven through a DOM stub and compared **cell-by-cell** across 8 scopes
+(full dataset; all-2025; Basel ATP 2025; Basel ATP all years; US Open WTA 2023;
+Cincinnati WTA all years; Dubai ATP 2024; Zhengzhou WTA 2023):
+
+- Every POS / PLAYER / RATING / MATCHES / AVG / ACTUAL POSITION cell: **PASS**
+- Meta counters (matches, players rated, sets scored, incomplete excluded, walkovers): **PASS**
+- Descending-sort invariant: **PASS** · audit-warning banner hidden (0 unparsed): **PASS**
+- Task-1 regression (tournament + player filters) + full reset: **PASS**
+
+Representative full-dataset outputs (computed, not hardcoded):
+9,654 sets scored · 115 incomplete excluded · 28 walkovers ·
+POS 1 Jannik Sinner +361 / 87 / +4.1 / CHAMPION · POS 2 Daniil Medvedev +332 / 84 / +4.0 ·
+POS 3 Carlos Alcaraz +312 / 76 / +4.1 · POS 5 Novak Djokovic +235 / 46 / +5.1 (highest AVG in top-5) ·
+POS 634 Pedro Martinez −67 / 25 / −2.7 (tie with Sebastian Baez −67 resolved by matches desc).
+
+### 8.5 Defect found and fixed during this directive's testing
+Reset left the Year filter at its previous value (the year dropdown rebuild preserved the
+element's still-set value after state was cleared). Fixed by clearing the element before
+rebuild; caught and re-verified by the harness.
+
+## 9. Re-run
 
 ```bash
 python3 ui_build/build_index.py   # fails loud on any edition/manifest drift
 python3 ui_build/serve.py         # http://0.0.0.0:8080
 ```
+
+Phase 0 ratings are computed live in the browser — no index rebuild is needed for rating
+changes; they recompute on every Tournament/Year filter change.
