@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the_creation_2 — Tennis UI</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">TC2</span>
+    <div>
+      <h1>Tennis UI</h1>
+      <p class="sub">the_creation_2 · blank rebuild · engine-sourced data</p>
+    </div>
+  </div>
+  <div class="data-strip" id="data-strip" aria-live="polite">Loading index…</div>
+</header>
+
+<main>
+  <section class="controls" aria-label="Filters">
+    <div class="field">
+      <label for="tournament-select">Tournament</label>
+      <select id="tournament-select">
+        <option value="">All tournaments</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="player-filter-input">Find player</label>
+      <input id="player-filter-input" type="text" placeholder="Type to narrow the player list…" autocomplete="off">
+    </div>
+
+    <div class="field">
+      <label for="player-select">Player</label>
+      <select id="player-select">
+        <option value="">All players</option>
+      </select>
+    </div>
+
+    <div class="field field-btn">
+      <button id="reset-btn" type="button">Reset filters</button>
+    </div>
+  </section>
+
+  <section class="results-meta" aria-live="polite">
+    <span id="result-count">—</span>
+    <span id="scope-note"></span>
+  </section>
+
+  <section class="table-wrap">
+    <table id="matches-table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Edition</th>
+          <th>Round</th>
+          <th>Match</th>
+          <th>Score</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody id="matches-body"></tbody>
+    </table>
+    <p id="empty-state" class="empty-state" hidden>No matches for the current filters.</p>
+  </section>
+</main>
+
+<footer class="provenance" id="provenance"></footer>
+
+<script src="app.js"></script>
+</body>
+</html>
