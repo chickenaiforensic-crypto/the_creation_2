@@ -4,6 +4,6 @@
   "development_lock": {
     "enabled": true,
     "rule": "No new sport may be exposed until the Tennis module is fully stabilized and verified with prediction accuracy exceeding 80%.",
-    "exposed_sports": ["Tennis", "Football"]
+    "exposed_sports": ["Tennis"]
   }
 }

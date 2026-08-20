@@ -9,9 +9,9 @@ const state = {
   manifest: null,
   playerA: "",
   playerB: "",
-  tournaments: [],
-  years: [],
-  tours: [],
+  muteTournaments: [],
+  muteYears: [],
+  muteTours: [],
   tournamentFilter: "",
   fromDate: "",
   yearsFrom: "",
@@ -36,7 +36,7 @@ function el(tag, attrs = {}, children = []) {
     if (k === "class") node.className = v;
     else if (k === "text") node.textContent = v;
     else if (k.startsWith("on")) node.addEventListener(k.slice(2), v);
-    else node.setAttribute(k, v);
+    else if (v !== undefined) node.setAttribute(k, v);
   }
   for (const c of children) node.appendChild(c);
   return node;
@@ -339,16 +339,16 @@ function renderConfigurations(m) {
   rowY.appendChild(el("label", { text: m.mute_ui.mute_years_label }));
   const selY = el("select", {
     multiple: true,
-    onchange: (e) => { state.years = [...e.target.selectedOptions].map((o) => o.value); loadMatchup(); },
-  }, selectOptions(m.options.years, state.years));
+    onchange: (e) => { state.muteYears = [...e.target.selectedOptions].map((o) => o.value); loadMatchup(); },
+  }, selectOptions(m.options.years, state.muteYears));
   rowY.appendChild(selY);
   mutePanel.appendChild(rowY);
   const rowT = el("div", { class: "row" });
   rowT.appendChild(el("label", { text: m.mute_ui.mute_tournaments_label }));
   const selT = el("select", {
     multiple: true,
-    onchange: (e) => { state.tournaments = [...e.target.selectedOptions].map((o) => o.value); loadMatchup(); },
-  }, selectOptions(m.options.tournaments, state.tournaments));
+    onchange: (e) => { state.muteTournaments = [...e.target.selectedOptions].map((o) => o.value); loadMatchup(); },
+  }, selectOptions(m.options.tournaments, state.muteTournaments));
   rowT.appendChild(selT);
   mutePanel.appendChild(rowT);
   if (m.options.tours.length > 1) {
@@ -356,8 +356,8 @@ function renderConfigurations(m) {
     rowR.appendChild(el("label", { text: m.mute_ui.mute_tours_label }));
     const selR = el("select", {
       multiple: true,
-      onchange: (e) => { state.tours = [...e.target.selectedOptions].map((o) => o.value); loadMatchup(); },
-    }, selectOptions(m.options.tours, state.tours));
+      onchange: (e) => { state.muteTours = [...e.target.selectedOptions].map((o) => o.value); loadMatchup(); },
+    }, selectOptions(m.options.tours, state.muteTours));
     rowR.appendChild(selR);
     mutePanel.appendChild(rowR);
   }
@@ -502,13 +502,13 @@ function renderPerformancePanel(m) {
 async function loadMatchup() {
   if (!state.playerA || !state.playerB) return;
   const q = new URLSearchParams({ a: state.playerA, b: state.playerB });
-  if (state.years.length) q.set("years", state.years.join(","));
-  const tourneyFilter = state.tournamentFilter || state.tournaments.join(",");
-  if (tourneyFilter) q.set("tournaments", tourneyFilter);
-  if (state.tours.length) q.set("tours", state.tours.join(","));
+  if (state.tournamentFilter) q.set("tournaments", state.tournamentFilter);
   if (state.fromDate) q.set("from", state.fromDate);
   if (state.yearsFrom) q.set("years_from", state.yearsFrom);
   if (state.yearsTo) q.set("years_to", state.yearsTo);
+  if (state.muteYears.length) q.set("mute_years", state.muteYears.join(","));
+  if (state.muteTournaments.length) q.set("mute_tournaments", state.muteTournaments.join(","));
+  if (state.muteTours.length) q.set("mute_tours", state.muteTours.join(","));
   try {
     state.data = await api("/api/matchup?" + q.toString());
   } catch (e) {

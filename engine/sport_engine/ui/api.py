@@ -132,21 +132,33 @@ def performance_report(
     player_a: str,
     player_b: str,
     tournaments: Optional[List[str]] = None,
-    years: Optional[List[str]] = None,
     tours: Optional[List[str]] = None,
     years_from: Optional[str] = None,
     years_to: Optional[str] = None,
+    mute_years: Optional[List[str]] = None,
+    mute_tournaments: Optional[List[str]] = None,
+    mute_tours: Optional[List[str]] = None,
 ) -> dict:
     """Tournament Performance (3rd UI layer) for both players over the selected
     context — per-tournament 5-match windows, intramural, absolute rating basis,
     asymmetric calibration index. The performance layer ALSO feeds the standalone
     conversion layer: for every tournament where both players have a window, the
     players' total window points become a 100% split (independent sectional
-    output)."""
+    output).
+
+    mute_years/mute_tournaments/mute_tours EXCLUDE matches from computation
+    (Director: 'mute remove from computation any designated year or tournament
+    we want from the systems output results') — distinct from tournaments/
+    years_from/years_to, which INCLUDE/restrict the selected context."""
     ui = load_config("ui")
     range_years = _year_range(years_from, years_to)
-    pa = run_performance(player_a, tournaments, range_years or years, tours)
-    pb = run_performance(player_b, tournaments, range_years or years, tours)
+    mutes = Mutes(
+        mute_years=mute_years or [],
+        mute_tournaments=mute_tournaments or [],
+        mute_tours=mute_tours or [],
+    )
+    pa = run_performance(player_a, tournaments, range_years, tours, mutes)
+    pb = run_performance(player_b, tournaments, range_years, tours, mutes)
 
     def window_points(perf) -> dict:
         out = {}
@@ -197,18 +209,25 @@ def matchup_report(
     player_a: str,
     player_b: str,
     tournaments: Optional[List[str]] = None,
-    years: Optional[List[str]] = None,
     tours: Optional[List[str]] = None,
     from_date: Optional[str] = None,
     years_from: Optional[str] = None,
     years_to: Optional[str] = None,
+    mute_years: Optional[List[str]] = None,
+    mute_tournaments: Optional[List[str]] = None,
+    mute_tours: Optional[List[str]] = None,
 ) -> dict:
     """H2H + ratings + prediction-vector state for a player matchup.
 
-    filters: tournaments/years/tours select the context; from_date bounds the
+    filters: tournaments/tours select the context; from_date bounds the
     H2H encounter history (date boundary); years_from/years_to select the
     RATINGS range (default: the full dataset, 2021-2025). Prediction vector is
     zeroed until the predictive module is built (placeholder state per spec).
+
+    mute_years/mute_tournaments/mute_tours EXCLUDE matches from computation —
+    distinct from tournaments/years_from/years_to, which INCLUDE/restrict the
+    selected context. (Previously this function silently dropped a caller
+    `years` argument and never applied any mutes at all — fixed here.)
     """
     ui = load_config("ui")
     range_years = _year_range(years_from, years_to)
@@ -218,7 +237,11 @@ def matchup_report(
         years=range_years,
         tours=tours or [],
     )
-    mutes = Mutes()
+    mutes = Mutes(
+        mute_years=mute_years or [],
+        mute_tournaments=mute_tournaments or [],
+        mute_tours=mute_tours or [],
+    )
     report = run_h2h(filters=filters, mutes=mutes)
     rating_report = compute_ratings(filters=filters, mutes=mutes)
 

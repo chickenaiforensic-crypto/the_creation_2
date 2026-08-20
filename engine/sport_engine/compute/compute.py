@@ -153,6 +153,7 @@ def _effective_mutes(caller: Mutes, mutes_cfg: Mapping) -> Mutes:
         mute_tournaments=tuple(
             dict.fromkeys(defaults.mute_tournaments + caller.mute_tournaments)
         ),
+        mute_tours=tuple(dict.fromkeys(defaults.mute_tours + caller.mute_tours)),
     )
 
 

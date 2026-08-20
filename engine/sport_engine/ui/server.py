@@ -28,6 +28,20 @@ from sport_engine.ui.api import matchup_report, performance_report, player_optio
 FRONTEND = Path(__file__).resolve().parent / "frontend"
 
 
+def _multi(q: dict, key: str) -> list:
+    """Read a query param that may arrive as repeated keys (a=1&a=2) or as a
+    single comma-joined value (a=1,2) from the frontend's multi-selects, and
+    return a flat, empty-stripped list either way."""
+    raw = q.get(key, [])
+    out = []
+    for item in raw:
+        for part in item.split(","):
+            part = part.strip()
+            if part:
+                out.append(part)
+    return out
+
+
 class Handler(BaseHTTPRequestHandler):
     def _send(self, code: int, body: bytes, ctype: str) -> None:
         self.send_response(code)
@@ -56,23 +70,27 @@ class Handler(BaseHTTPRequestHandler):
                 if not a or not b:
                     self._send(400, b'{"error":"a and b are required"}', "application/json")
                     return
-                tours = q.get("tours", []) or []
-                tournaments = q.get("tournaments", []) or []
-                years = q.get("years", []) or []
+                tours = _multi(q, "tours")
+                tournaments = _multi(q, "tournaments")
                 from_date = (q.get("from") or [None])[0]
                 years_from = (q.get("years_from") or [None])[0]
                 years_to = (q.get("years_to") or [None])[0]
+                mute_years = _multi(q, "mute_years")
+                mute_tournaments = _multi(q, "mute_tournaments")
+                mute_tours = _multi(q, "mute_tours")
                 try:
                     self._json(
                         matchup_report(
                             player_a=a,
                             player_b=b,
                             tournaments=tournaments,
-                            years=years,
                             tours=tours,
                             from_date=from_date,
                             years_from=years_from,
                             years_to=years_to,
+                            mute_years=mute_years,
+                            mute_tournaments=mute_tournaments,
+                            mute_tours=mute_tours,
                         )
                     )
                 except Exception as exc:  # surface engine errors to the UI
@@ -84,21 +102,25 @@ class Handler(BaseHTTPRequestHandler):
                 if not a or not b:
                     self._send(400, b'{"error":"a and b are required"}', "application/json")
                     return
-                tours = q.get("tours", []) or []
-                tournaments = q.get("tournaments", []) or []
-                years = q.get("years", []) or []
+                tours = _multi(q, "tours")
+                tournaments = _multi(q, "tournaments")
                 years_from = (q.get("years_from") or [None])[0]
                 years_to = (q.get("years_to") or [None])[0]
+                mute_years = _multi(q, "mute_years")
+                mute_tournaments = _multi(q, "mute_tournaments")
+                mute_tours = _multi(q, "mute_tours")
                 try:
                     self._json(
                         performance_report(
                             player_a=a,
                             player_b=b,
                             tournaments=tournaments,
-                            years=years,
                             tours=tours,
                             years_from=years_from,
                             years_to=years_to,
+                            mute_years=mute_years,
+                            mute_tournaments=mute_tournaments,
+                            mute_tours=mute_tours,
                         )
                     )
                 except Exception as exc:  # surface engine errors to the UI

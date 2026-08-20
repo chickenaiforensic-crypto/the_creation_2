@@ -75,20 +75,24 @@ class Filters:
 class Mutes:
     mute_years: Tuple[str, ...] = ()
     mute_tournaments: Tuple[str, ...] = ()
+    mute_tours: Tuple[str, ...] = ()
 
     def __init__(
         self,
         mute_years: Iterable[str] = (),
         mute_tournaments: Iterable[str] = (),
+        mute_tours: Iterable[str] = (),
     ):
         object.__setattr__(self, "mute_years", tuple(mute_years))
         object.__setattr__(self, "mute_tournaments", tuple(mute_tournaments))
+        object.__setattr__(self, "mute_tours", tuple(mute_tours))
 
     @classmethod
     def from_config(cls, cfg: Mapping) -> "Mutes":
         return cls(
             mute_years=cfg.get("mute_years", ()),
             mute_tournaments=cfg.get("mute_tournaments", ()),
+            mute_tours=cfg.get("mute_tours", ()),
         )
 
     def applies(self, match: Mapping, field_names: Mapping) -> bool:
@@ -96,10 +100,13 @@ class Mutes:
             return True
         if match.get(field_names["tournament"]) in self.mute_tournaments:
             return True
+        if match.get(field_names["tour"]) in self.mute_tours:
+            return True
         return False
 
     def as_dict(self) -> dict:
         return {
             "mute_years": list(self.mute_years),
             "mute_tournaments": list(self.mute_tournaments),
+            "mute_tours": list(self.mute_tours),
         }
