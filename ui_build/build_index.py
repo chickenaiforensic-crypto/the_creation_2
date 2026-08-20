@@ -1,5 +1,5 @@
 """
-build_index.py — verified UI index builder (new blank UI, Task 1).
+build_index.py — verified UI index builder (new blank UI, Task 1). Version: v1.3
 
 Reads ONLY the engine content pulled verbatim from
 arena/01a015bb-the-creation-2 @ 3ee36eb1574e908086ce84c82e419092d7a90655

@@ -1,4 +1,4 @@
-/* the_creation_2 — blank UI rebuild.
+/* the_creation_2 — blank UI rebuild. Version: v1.3
    Task 1 (tournament + player filter) + Phase 0 Engine Ratings Verification View.
 
    Phase 0 rating rules (Technical Directive 2026-08-20; implemented here — no
@@ -37,6 +37,14 @@ const els = {
 
 let INDEX = null;
 const state = { tkey: "", year: "", player: "", playerQuery: "" };
+
+/* Version stamp: injected by version.js (kept in sync with ui_build/VERSION). */
+const APP_VERSION = (typeof window !== "undefined" && window.APP_VERSION) || "v?";
+(function stampVersion() {
+  const badge = document.getElementById("version-badge");
+  if (badge) badge.textContent = APP_VERSION;
+  if (typeof document !== "undefined") document.title = `Tennis UI ${APP_VERSION}`;
+})();
 
 function tName(tkey) { return tkey.split("|")[0]; }
 function tTour(tkey) { return tkey.split("|")[1]; }

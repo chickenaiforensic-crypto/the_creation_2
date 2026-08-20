@@ -1,5 +1,7 @@
 # UI REBUILD — PROVENANCE & AUDIT RECORD
 
+**Current version: v1.3** (version ledger in §10; canonical marker `ui_build/VERSION`)
+
 **Branch:** `arena/01a01c7b-the-creation-2` · **Role:** Engineer_4 · **Date:** 2026-08-20
 **Directive:** pull content from the engine branch only; create a new UI — blank; Task 1 = tournament
 filter selector that filters the tournaments and its players. Nothing else was done.
@@ -155,3 +157,17 @@ python3 ui_build/serve.py         # http://0.0.0.0:8080
 
 Phase 0 ratings are computed live in the browser — no index rebuild is needed for rating
 changes; they recompute on every Tournament/Year filter change.
+
+## 10. Version history & versioning rules
+
+**Rule (per user directive 2026-08-20):** every shipped update increments the version
+(v1.1 → v1.2 → v1.3 …). The canonical marker is `ui_build/VERSION`; the shipped carrier is
+`ui_build/app/version.js` (`window.APP_VERSION`), injected into the header badge and the
+browser tab title at load time. Every shipped file also carries a `Version:` header marker.
+The audit harness fails if `version.js`, `VERSION`, or any file-header marker drift apart.
+
+| Version | Commit | Change |
+|---|---|---|
+| v1.1 | `9eaf4d6` | Blank UI rebuild on engine content; Task 1 tournament + player filter selector |
+| v1.2 | `c3acf05` | Phase 0 Engine Ratings Verification View; Tournament + Year filters; reset-year defect fixed |
+| v1.3 | (this commit) | Versioning system: visible header badge + tab title, VERSION file, file-header markers, sync check in harness, this ledger |
