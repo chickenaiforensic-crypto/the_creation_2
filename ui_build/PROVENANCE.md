@@ -1,6 +1,6 @@
 # UI REBUILD — PROVENANCE & AUDIT RECORD
 
-**Current version: v1.4** (version ledger in §10; canonical marker `ui_build/VERSION`)
+**Current version: v1.5** (version ledger in §10; canonical marker `ui_build/VERSION`)
 
 **Branch:** `arena/01a01c7b-the-creation-2` · **Role:** Engineer_4 · **Date:** 2026-08-20
 **Directive:** pull content from the engine branch only; create a new UI — blank; Task 1 = tournament
@@ -165,10 +165,15 @@ changes; they recompute on every Tournament/Year filter change.
 `ui_build/app/version.js` (`window.APP_VERSION`), injected into the header badge and the
 browser tab title at load time. Every shipped file also carries a `Version:` header marker.
 The audit harness fails if `version.js`, `VERSION`, or any file-header marker drift apart.
+**Preview server name rule (v1.5):** the live-preview process name also carries the version and
+the page file name (`Tennis UI {version} · index.html`) and is restarted on every version bump,
+so the panel label can never lag behind the shipped files. `serve.py` prints the same version
+(read from `ui_build/VERSION`) in its startup log.
 
 | Version | Commit | Change |
 |---|---|---|
 | v1.1 | `9eaf4d6` | Blank UI rebuild on engine content; Task 1 tournament + player filter selector |
 | v1.2 | `c3acf05` | Phase 0 Engine Ratings Verification View; Tournament + Year filters; reset-year defect fixed |
 | v1.3 | `aa133a8` | Versioning system: visible header badge + tab title, VERSION file, file-header markers, sync check in harness, this ledger |
-| v1.4 | (this commit) | File names surfaced in the UI: served document chip in header (`index.html`) + full shipped-file inventory and engine data-file paths in the footer; audit harness files added to the version sync check |
+| v1.4 | `d385d21` | File names surfaced in the UI: served document chip in header (`index.html`) + full shipped-file inventory and engine data-file paths in the footer; audit harness files added to the version sync check |
+| v1.5 | (this commit) | Preview server name now carries version + page file name and is restarted on each bump; `serve.py` prints the version from `VERSION` at startup; rule recorded in §10 |

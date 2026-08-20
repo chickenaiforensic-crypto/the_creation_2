@@ -1,5 +1,5 @@
 """
-serve.py — minimal static server for the blank UI rebuild. Version: v1.4
+serve.py — minimal static server for the blank UI rebuild. Version: v1.5
 
 Serves ui_build/app/ on 0.0.0.0:8080 (preview-friendly, no caching).
 No backend API: the UI reads the prebuilt, checksum-verified index.json.
@@ -11,6 +11,13 @@ import os
 
 PORT = int(os.environ.get("PORT", "8080"))
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "app")
+VERSION_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "VERSION")
+
+try:
+    with open(VERSION_PATH) as f:
+        UI_VERSION = f.read().strip()
+except OSError:
+    UI_VERSION = "v?"
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
@@ -23,5 +30,5 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    print(f"Serving {ROOT} on 0.0.0.0:{PORT}")
+    print(f"Tennis UI {UI_VERSION} · page file app/index.html · serving {ROOT} on 0.0.0.0:{PORT}")
     http.server.ThreadingHTTPServer(("0.0.0.0", PORT), Handler).serve_forever()
