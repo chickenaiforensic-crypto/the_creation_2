@@ -1,4 +1,4 @@
-/* the_creation_2 — blank UI rebuild. Clean-slate styling, no framework. Version: v1.3 */
+/* the_creation_2 — blank UI rebuild. Clean-slate styling, no framework. Version: v1.4 */
 
 :root {
   --bg: #f6f7f9;
@@ -63,6 +63,20 @@ body {
   color: var(--accent);
   background: var(--accent-soft);
   border: 1px solid var(--accent);
+  vertical-align: 2px;
+}
+
+.file-badge {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  margin-left: 4px;
+  border-radius: 6px;
+  color: var(--ink-soft);
+  background: #eef1f5;
+  border: 1px solid var(--line);
   vertical-align: 2px;
 }
 .brand .sub { margin: 1px 0 0; font-size: 12px; color: var(--ink-soft); }

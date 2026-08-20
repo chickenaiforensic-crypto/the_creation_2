@@ -1,4 +1,4 @@
-/* Shipped audit harness — Phase 0 leaderboard verification. Version: v1.3
+/* Shipped audit harness — Phase 0 leaderboard verification. Version: v1.4
    Drives the REAL app.js leaderboard through tournament/year filters and compares
    every rendered cell against the independent Python ground truth.
 

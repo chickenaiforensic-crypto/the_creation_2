@@ -1,6 +1,6 @@
 # UI REBUILD — PROVENANCE & AUDIT RECORD
 
-**Current version: v1.3** (version ledger in §10; canonical marker `ui_build/VERSION`)
+**Current version: v1.4** (version ledger in §10; canonical marker `ui_build/VERSION`)
 
 **Branch:** `arena/01a01c7b-the-creation-2` · **Role:** Engineer_4 · **Date:** 2026-08-20
 **Directive:** pull content from the engine branch only; create a new UI — blank; Task 1 = tournament
@@ -170,4 +170,5 @@ The audit harness fails if `version.js`, `VERSION`, or any file-header marker dr
 |---|---|---|
 | v1.1 | `9eaf4d6` | Blank UI rebuild on engine content; Task 1 tournament + player filter selector |
 | v1.2 | `c3acf05` | Phase 0 Engine Ratings Verification View; Tournament + Year filters; reset-year defect fixed |
-| v1.3 | (this commit) | Versioning system: visible header badge + tab title, VERSION file, file-header markers, sync check in harness, this ledger |
+| v1.3 | `aa133a8` | Versioning system: visible header badge + tab title, VERSION file, file-header markers, sync check in harness, this ledger |
+| v1.4 | (this commit) | File names surfaced in the UI: served document chip in header (`index.html`) + full shipped-file inventory and engine data-file paths in the footer; audit harness files added to the version sync check |

@@ -1,4 +1,4 @@
-/* the_creation_2 — blank UI rebuild. Version: v1.3
+/* the_creation_2 — blank UI rebuild. Version: v1.4
    Task 1 (tournament + player filter) + Phase 0 Engine Ratings Verification View.
 
    Phase 0 rating rules (Technical Directive 2026-08-20; implemented here — no
@@ -38,11 +38,17 @@ const els = {
 let INDEX = null;
 const state = { tkey: "", year: "", player: "", playerQuery: "" };
 
-/* Version stamp: injected by version.js (kept in sync with ui_build/VERSION). */
+/* Version stamp: injected by version.js (kept in sync with ui_build/VERSION).
+   File stamp: the served document + shipped file inventory, shown explicitly
+   so the preview can always be tied back to repo files. */
 const APP_VERSION = (typeof window !== "undefined" && window.APP_VERSION) || "v?";
+const DOC_FILE = "index.html";
+const SHIPPED_FILES = ["index.html", "app.css", "app.js", "version.js", "index.json"];
 (function stampVersion() {
   const badge = document.getElementById("version-badge");
   if (badge) badge.textContent = APP_VERSION;
+  const fileBadge = document.getElementById("file-badge");
+  if (fileBadge) fileBadge.textContent = DOC_FILE;
   if (typeof document !== "undefined") document.title = `Tennis UI ${APP_VERSION}`;
 })();
 
@@ -312,7 +318,12 @@ function renderStrip() {
     `Engine MANIFEST sha256 <code>${esc(p.engine_manifest_sha256.slice(0, 16))}…</code>. ` +
     `${p.editions_verified}/${p.editions_in_manifest} edition files re-verified (sha256 + match count) at index build · built ${esc(p.built_utc)}. ` +
     `Phase 0 ratings computed live in-browser per the 2026-08-20 directive: 7-5 → 6-4 (-1 reduction), 7-6 → 6-4, ` +
-    `incomplete sets never scored, tier labels are identifiers only.`;
+    `incomplete sets never scored, tier labels are identifiers only.<br>` +
+    `Files: served document <code>ui_build/app/${esc(DOC_FILE)}</code> · shipped ` +
+    SHIPPED_FILES.map(f => `<code>${esc(f)}</code>`).join(", ") +
+    ` · server <code>ui_build/serve.py</code> · data compiled from ` +
+    `<code>ui_build/engine/MANIFEST.json</code> + <code>ui_build/engine/editions/**/*.json</code> ` +
+    `(pulled verbatim from the engine branch — see PROVENANCE.md §1).`;
 }
 
 /* ---------------- wiring ---------------- */

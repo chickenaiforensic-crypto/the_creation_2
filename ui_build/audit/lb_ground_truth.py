@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Shipped audit harness — independent Phase 0 ground truth. Version: v1.3
+"""Shipped audit harness — independent Phase 0 ground truth. Version: v1.4
 Reads the RAW engine edition files (not index.json), implements the directive
 math from scratch, exports expected leaderboards per scope as JSON.
 

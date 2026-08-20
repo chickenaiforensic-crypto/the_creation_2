@@ -1,4 +1,4 @@
-/* Shipped audit harness — version sync check. Version: v1.3
+/* Shipped audit harness — version sync check. Version: v1.4
    Fails if ui_build/VERSION, version.js, any shipped file-header marker,
    the PROVENANCE current-version line, the rendered badge, or the tab title drift.
 
@@ -20,6 +20,8 @@ assert.strictEqual(window.APP_VERSION, VERSION, "version.js matches VERSION file
 const files = [
   "ui_build/app/index.html", "ui_build/app/app.css", "ui_build/app/app.js",
   "ui_build/app/version.js", "ui_build/serve.py", "ui_build/build_index.py",
+  "ui_build/audit/version_sync_test.js", "ui_build/audit/lb_ui_test.js",
+  "ui_build/audit/ui_filter_test.js", "ui_build/audit/lb_ground_truth.py",
 ];
 for (const f of files) {
   const txt = fs.readFileSync(path.join(REPO, f), "utf8");
@@ -47,6 +49,7 @@ global.fetch = async () => ({ ok: true, json: async () => INDEX });
 require(path.join(REPO, "ui_build/app/app.js"));
 setTimeout(() => {
   assert.strictEqual(byId["version-badge"].textContent, VERSION, "header badge shows version");
+  assert.strictEqual(byId["file-badge"].textContent, "index.html", "header chip shows served document file name");
   assert.strictEqual(global.document.title, `Tennis UI ${VERSION}`, "tab title shows version");
-  console.log(`VERSION SYNC PASS — ${VERSION} consistent across VERSION file, version.js, ${files.length} file headers, badge, and tab title`);
+  console.log(`VERSION SYNC PASS — ${VERSION} consistent across VERSION file, version.js, ${files.length} file headers, badge, file chip, and tab title`);
 }, 20);

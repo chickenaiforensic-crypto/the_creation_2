@@ -1,4 +1,4 @@
-/* Shipped audit harness — Task 1 tournament/player filter verification. Version: v1.3
+/* Shipped audit harness — Task 1 tournament/player filter verification. Version: v1.4
    Loads the real app.js with a DOM stub, drives the filters, and cross-checks
    every count against the RAW engine edition files (independent code path).
 
