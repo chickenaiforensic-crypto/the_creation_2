@@ -415,13 +415,12 @@ function toggleDrilldown() {
   if (dd) dd.style.display = dd.style.display === "none" ? "block" : "none";
 }
 
-function swapPlayers() {
+async function swapPlayers() {
   if (!state.playerA && !state.playerB) return;
   const tmp = state.playerA;
   state.playerA = state.playerB;
   state.playerB = tmp;
-  loadMatchup();
-  render();
+  await loadMatchup();
 }
 
 function renderPerformancePanel(m) {
