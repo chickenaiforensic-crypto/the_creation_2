@@ -41,6 +41,7 @@
   },
   "h2h": {
     "title": "H2H Analysis",
+    "scope_rating_label": "Scope Rating",
     "summary_label": "Net H2H balance",
     "percentage_label": "H2H percentage (direct encounters)",
     "drilldown_icon_label": "Open H2H drill-down",

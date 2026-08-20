@@ -204,8 +204,8 @@ function renderRatingPanel(m) {
     const h2hStr = (p) => (p.h2h.matches === 0 ? "—" : (p.h2h.game_difference > 0 ? "+" : "") + p.h2h.game_difference);
     grid.appendChild(stat(pa.player, ratingStr(pa), ratingCls(pa.system_rating.rating)));
     grid.appendChild(stat(pb.player, ratingStr(pb), ratingCls(pb.system_rating.rating)));
-    grid.appendChild(stat("H2H " + pa.player, h2hStr(pa), ratingCls(pa.h2h.game_difference)));
-    grid.appendChild(stat("H2H " + pb.player, h2hStr(pb), ratingCls(pb.h2h.game_difference)));
+    grid.appendChild(stat(m.h2h_ui.scope_rating_label + " — " + pa.player, h2hStr(pa), ratingCls(pa.h2h.game_difference)));
+    grid.appendChild(stat(m.h2h_ui.scope_rating_label + " — " + pb.player, h2hStr(pb), ratingCls(pb.h2h.game_difference)));
   } else {
     grid.appendChild(el("div", { class: "empty", text: m.placeholders.select_players_rating }));
   }
