@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- the_creation_2 — Tennis UI. Version: v1.5 -->
+<!-- the_creation_2 — Tennis UI. Version: v1.6 -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -20,6 +20,17 @@
 </header>
 
 <main>
+  <details class="help" open>
+    <summary>How to use this view</summary>
+    <ol>
+      <li>Pick a <b>Tournament</b> (or keep <i>All tournaments</i>). The <b>Year</b> list follows the selected tournament automatically.</li>
+      <li>The <b>Phase 0 leaderboard re-calculates instantly</b> on every Tournament/Year change — no button needed for it — and always sorts by net rating, descending.</li>
+      <li>To look up a player: start typing their name in <b>Find player</b> — matching names appear as suggestions (↑ ↓ to move, Enter or click to pick). You can also browse the full <b>Player</b> dropdown instead.</li>
+      <li>Press <b>Search</b> to apply the typed name. The match log filters to that player and their leaderboard row is highlighted.</li>
+      <li><b>Reset filters</b> returns tournament, year, player and the suggestion box to the full dataset.</li>
+    </ol>
+  </details>
+
   <section class="controls" aria-label="Filters">
     <div class="field">
       <label for="tournament-select">Tournament</label>
@@ -35,9 +46,15 @@
       </select>
     </div>
 
-    <div class="field">
+    <div class="field suggest-wrap">
       <label for="player-filter-input">Find player</label>
-      <input id="player-filter-input" type="text" placeholder="Type to narrow the player list…" autocomplete="off">
+      <input id="player-filter-input" type="text" placeholder="Type a player name — suggestions appear…" autocomplete="off">
+      <ul id="player-suggest" class="suggest-list" role="listbox" hidden></ul>
+    </div>
+
+    <div class="field field-btn">
+      <label for="search-btn">&nbsp;</label>
+      <button id="search-btn" type="button" class="btn-accent">Search</button>
     </div>
 
     <div class="field">
@@ -48,9 +65,12 @@
     </div>
 
     <div class="field field-btn">
+      <label for="reset-btn">&nbsp;</label>
       <button id="reset-btn" type="button">Reset filters</button>
     </div>
   </section>
+
+  <p class="state-banner" id="state-banner" aria-live="polite">Loading…</p>
 
   <section class="leaderboard" aria-label="Phase 0 engine ratings verification">
     <div class="section-head">
@@ -75,7 +95,7 @@
       </table>
       <p id="leaderboard-empty" class="empty-state" hidden>No players in the current scope.</p>
     </div>
-    <p class="lb-note muted">RATING = net normalized game differential across all scored sets in scope. MATCHES = appearances in scope (walkovers count as 0-set appearances). AVG = RATING ÷ MATCHES. ACTUAL POSITION = deepest round reached in scope; CHAMPION = won the final. Player filter below applies to the match log only.</p>
+    <p class="lb-note muted">RATING = net normalized game differential across all scored sets in scope. MATCHES = appearances in scope (walkovers count as 0-set appearances). AVG = RATING ÷ MATCHES. ACTUAL POSITION = deepest round reached in scope; CHAMPION = won the final. Selecting a player highlights their row here and filters the match log below.</p>
   </section>
 
   <section class="matchlog" aria-label="Match log">

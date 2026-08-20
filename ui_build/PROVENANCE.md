@@ -1,6 +1,6 @@
 # UI REBUILD — PROVENANCE & AUDIT RECORD
 
-**Current version: v1.5** (version ledger in §10; canonical marker `ui_build/VERSION`)
+**Current version: v1.6** (version ledger in §10; canonical marker `ui_build/VERSION`)
 
 **Branch:** `arena/01a01c7b-the-creation-2` · **Role:** Engineer_4 · **Date:** 2026-08-20
 **Directive:** pull content from the engine branch only; create a new UI — blank; Task 1 = tournament
@@ -176,4 +176,5 @@ so the panel label can never lag behind the shipped files. `serve.py` prints the
 | v1.2 | `c3acf05` | Phase 0 Engine Ratings Verification View; Tournament + Year filters; reset-year defect fixed |
 | v1.3 | `aa133a8` | Versioning system: visible header badge + tab title, VERSION file, file-header markers, sync check in harness, this ledger |
 | v1.4 | `d385d21` | File names surfaced in the UI: served document chip in header (`index.html`) + full shipped-file inventory and engine data-file paths in the footer; audit harness files added to the version sync check |
-| v1.5 | (this commit) | Preview server name now carries version + page file name and is restarted on each bump; `serve.py` prints the version from `VERSION` at startup; rule recorded in §10 |
+| v1.5 | `ab4e8de` | Preview server name now carries version + page file name and is restarted on each bump; `serve.py` prints the version from `VERSION` at startup; rule recorded in §10 |
+| v1.6 | (this commit) | Usability defects fixed after user audit: Find player now auto-suggests names as you type (click / ↑↓ / Enter), explicit **Search** button (exact match, unique-partial resolution, honest no-match and ambiguous hints), live status banner describing the exact UI state, how-to panel, selected player highlighted on the leaderboard. Functional audit harness expanded to 11 user-flow groups (F1–F11) incl. a full reset proof; all cross-checked against raw engine bytes |

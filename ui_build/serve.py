@@ -1,5 +1,5 @@
 """
-serve.py — minimal static server for the blank UI rebuild. Version: v1.5
+serve.py — minimal static server for the blank UI rebuild. Version: v1.6
 
 Serves ui_build/app/ on 0.0.0.0:8080 (preview-friendly, no caching).
 No backend API: the UI reads the prebuilt, checksum-verified index.json.

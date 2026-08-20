@@ -1,4 +1,4 @@
-/* Shipped audit harness — version sync check. Version: v1.5
+/* Shipped audit harness — version sync check. Version: v1.6
    Fails if ui_build/VERSION, version.js, any shipped file-header marker,
    the PROVENANCE current-version line, the rendered badge, or the tab title drift.
 
