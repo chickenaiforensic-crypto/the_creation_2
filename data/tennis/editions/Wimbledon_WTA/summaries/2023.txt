@@ -1,0 +1,10 @@
+Wimbledon — Wimbledon (GS)
+Edition: 2023
+Draw size: 128
+Status: closed_verified_gapless
+Match count: 127
+Round coverage: R128(64) R64(32) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Marketa Vondrousova
+Runner-up: Ons Jabeur
+Source: Structural proof: 127/127 rows, exhaustive spine R128->F, round counts exact = draw 128
+Checksum: 22224dfe885c... (full value in MANIFEST.json)

@@ -1,0 +1,10 @@
+Roland Garros — Roland Garros (GS)
+Edition: 2022
+Draw size: 128
+Status: closed_verified_gapless
+Match count: 127
+Round coverage: R128(64) R64(32) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Rafael Nadal
+Runner-up: Casper Ruud
+Source: Structural proof: 127/127 rows, exhaustive spine R128->F, round counts exact = draw 128
+Checksum: 9675b1b4ca82... (full value in MANIFEST.json)
