@@ -1,0 +1,10 @@
+Vienna — Vienna (ATP500)
+Edition: 2022
+Draw size: 32
+Status: closed_verified_gapless
+Match count: 31
+Round coverage: R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Daniil Medvedev
+Runner-up: Denis Shapovalov
+Source: TE 2022 bracket byte-read: 32 slots, 0 byes = draw 32
+Checksum: c446b47efdb1... (full value in MANIFEST.json)

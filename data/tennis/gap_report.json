@@ -1,10 +1,10 @@
 {
   "description": "Gap report for the 20 closed_verified tennis editions migrated to this branch. Produced via round-transition ghost detection (R32-onward, byefree per validated M1000 method in phase1-audit/WORKORDER_Phase1_DrawSize_Gap_Audit.md Phase 1B). A gap = a player appearing in round N+1 with no traceable win recorded in round N within the same edition file.",
   "method": "For each edition, for each transition in [R32->R16, R16->QF, QF->SF, SF->F]: collect all playerA/playerB in round N+1; collect all winners (resolved via winner field + playerA/playerB) in round N; any round-N+1 participant absent from round-N winners is a gap. R64->R32 excluded uniformly (bye-affected at this draw depth, not a genuine gap) per the same exclusion applied to M1000 in Phase 1B.",
-  "editions_checked": 78,
-  "editions_clean": 78,
+  "editions_checked": 83,
+  "editions_clean": 83,
   "editions_with_gaps": 0,
-  "total_gap_instances": 94,
+  "total_gap_instances": 98,
   "gaps": [
     {
       "tournament": "Rotterdam",
@@ -1133,9 +1133,57 @@
       "file_path": "editions/Basel/2025.json",
       "status": "closed",
       "resolution": "TE Basel 2025: 25.10 17:25 SF Davidovich Fokina (8) d. Humbert 7-6(4) 3-1, S 1-0 = Humbert retired in set 2 (id 3055252). Corroborated: ATP Tour official 'forced to retire against Alejandro Davidovich Fokina'; swissindoorsbasel.ch official 'injury-related withdrawal in the semi-final'; footboom score-identical. FIFTH dropped SEMIFINAL restored. Added row: Alejandro Davidovich Fokina d. Ugo Humbert 7-6(4) 3-1 (retired), date 2025-10-25. Source: https://www.atptour.com/en/news/humbert-paris-2025-withdrawal"
+    },
+    {
+      "tournament": "Vienna",
+      "tour": "ATP",
+      "year": "2023",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Frances Tiafoe",
+      "gap_id": "VI001",
+      "folder": "Vienna",
+      "file_path": "editions/Vienna/2023.json",
+      "status": "closed",
+      "resolution": "TE Vienna 2023: 24.10 16:10 1R Tiafoe (7) d. Evans 1-4, S 1-0 = Evans retired while LEADING 4-1, calf injury (id 2483243). BBC Sport + Sky Sports corroborated (only 2nd tour-level retirement of Evans's career). Added row: Frances Tiafoe d. Daniel Evans 1-4 (retired), date 2023-10-24, setsA 0 setsB 1 stored truthfully. Source: https://www.bbc.co.uk/sport/tennis/67209470"
+    },
+    {
+      "tournament": "Vienna",
+      "tour": "ATP",
+      "year": "2024",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Alex de Minaur",
+      "gap_id": "VI002",
+      "folder": "Vienna",
+      "file_path": "editions/Vienna/2024.json",
+      "status": "closed",
+      "resolution": "TE Vienna 2024: 24.10 18:10 R16 De Minaur (2) d. Cobolli 7-6(2) 3-1, S 1-0 = Cobolli retired, RIGHT SHOULDER (id 2753323). Sportface + OASport + Lottomatica corroborated. Added row: Alex de Minaur d. Flavio Cobolli 7-6(2) 3-1 (retired), date 2024-10-24. Source: https://www.sportface.it/tennis/atp-vienna-2024-cobolli-si-ritira-problema-alla-spalla-quarti-de-minaur/2720785"
+    },
+    {
+      "tournament": "Vienna",
+      "tour": "ATP",
+      "year": "2024",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Lorenzo Musetti",
+      "gap_id": "VI003",
+      "folder": "Vienna",
+      "file_path": "editions/Vienna/2024.json",
+      "status": "closed",
+      "resolution": "TE Vienna 2024: 24.10 14:00 R16 Musetti (6) d. Monfils, S 1-0 blank scores = WALKOVER (id 2753621). Reason: illness/fatigue - EssentiallySports + FR wire quote. Added row: Lorenzo Musetti d. Gael Monfils W/O, date 2024-10-24. Source: https://www.essentiallysports.com/atp-tennis-news-atp-vienna-concerns-loom-over-gael-monfils-as-excessive-fatigue-forces-him-to-make-a-saddening-decision/"
+    },
+    {
+      "tournament": "Vienna",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "QF",
+      "player_no_traceable_win": "Alexander Zverev",
+      "gap_id": "VI004",
+      "folder": "Vienna",
+      "file_path": "editions/Vienna/2025.json",
+      "status": "closed",
+      "resolution": "TE Vienna 2025: 24.10 15:45 QF Zverev (2) d. Griekspoor, S 1-0 blank scores = WALKOVER (id 3054752). Reason: back injury, morning-of withdrawal - The Tennis Gazette + azat.tv + Tennisform. Added row: Alexander Zverev d. Tallon Griekspoor W/O, date 2025-10-24. Source: https://www.thetennisgazette.com/news/tallon-griekspoor-makes-apology-statement-after-withdrawing-from-his-quarterfinal-with-alexander-zverev-im-sorry/"
     }
   ],
-  "gaps_closed": 94,
+  "gaps_closed": 98,
   "gaps_open": 0,
   "closure_note": "All 18 gaps closed 2026-08-19 (T-005, Auditor 1, arena/01a015bb-the-creation-2). Every gap proved to be a RETIREMENT match absent from the migration source - consistent with the store-wide M-1/retirement-exclusion pattern documented in T-002. Per-gap resolution fields below; no result was inferred, every row carries a named checkable source.",
   "cincinnati_wta_closure_note": "T-007 (2026-08-19, Auditor 1): 15/15 Cincinnati WTA gaps FIXED per HANDOFF-07+A1+A2 - 8 retirements + 7 walkovers, all with named checkable sources; pulled from claude_1 store a280b2fb; per-year gap check green before closed_verified_gapless.",
@@ -1152,5 +1200,6 @@
   "zhengzhou_closure_note": "T-022 (2026-08-19, Auditor 1): 1/1 Zhengzhou WTA 500 gap FIXED (Kasatkina d. Jabeur W/O, QF 2023, knee - AFP corroborated). Coverage finding with self-correction: auditor initially suspected missing 2024/2025 editions; sources show none exist (Wikipedia 2024 red link, 2023 page predecessor is 2019) - store's 2023-only coverage is CORRECT. TE carries no Zhengzhou pages; news+Wikipedia sourcing documented. Dropped-row signature: 10th consecutive audited event (stored slice had 1 ret row but the W/O was dropped).",
   "stockholm_closure_note": "T-023 (2026-08-19, Auditor 1, standing audit->fix order): 3/3 Stockholm ATP 250 gaps FIXED - all retirements, incl. the 4th dropped SEMIFINAL of the program: Rune's torn-Achilles retirement vs Humbert (2025, ATP official + tournament site corroborated, loser was a set up - stored truthfully). 2022/2023/2024 complete on pull. 4 'J.J. Wolf' rows renamed 'Jeffrey Wolf' (2022+2023 R32/R16). Draw 28 per edition (TE brackets byte-read 2021/2025 + structural for complete years). Dropped-row signature: 11th consecutive audited event.",
   "antwerp_closure_note": "T-024 (2026-08-19, Auditor 1, standing audit->fix order): Antwerp ATP 250 (European Open) 2021-2024 audited and pulled with ZERO gaps and ZERO errors - the first non-US-Open event slice needing no fixes. All 108 store rows byte-matched against TE results tables + brackets (pairings, TB-stripped scores, flags): 108/108 exact. TE shows 0 retirements and 0 walkovers across all four editions, so the dropped-row pipeline defect had nothing to drop here (signature untested, not contradicted). Draw 28 per edition (TE bracket byte-read x4: 32 slots, 4 seed byes; Wikipedia 2024 infobox 'Draw: 28S' corroborates); bye sets byte-asserted vs store R16-not-in-R32 players, 28 players per year asserted. 0 'J.J. Wolf'/initial rows, 0 rank fields. Coverage boundary verified with self-check: no 2025 Antwerp edition EXISTS - the European Open moved to Brussels from 2025 (Wikipedia European Open page: Antwerp 2016-2024, Brussels 2025-; TennisMajors + puntodebreak 2025-01-29 relocation reports; TE antwerp year nav ends at 2024). Brussels 2025 is absent from the claude_1 store entirely - recorded as a store-level coverage boundary, not an Antwerp gap.",
-  "basel_closure_note": "T-025 (2026-08-19, Auditor 1, standing audit->fix order): 3/3 Basel ATP 500 gaps FIXED - 2 retirements + 1 walkover, incl. BA003 the FIFTH dropped SEMIFINAL of the program (Humbert injury retirement vs Davidovich Fokina 2025, ATP official + swissindoorsbasel.ch official corroborated) and BA002 (Mensik left-foot-injury W/O to Fonseca, TennisMajors/tennis-infinity/AFP). 2022/2023 complete on pull (31/31 each, TE census all S=2). Store's 2025 slice notably held 3 QF retirement rows correctly while dropping the R16 W/O and SF retirement - drop pattern partial, not absent: dropped-row signature held for the 12th consecutive audited event with at least one ret/wo occurrence. Draw 32 per edition (TE bracket byte-read x4: 32 slots, 0 byes). Coverage boundary verified: no 2020/2021 editions EXIST - cancelled two straight years for COVID (swissindoorsbasel.ch official 2020-07-14 cancellation; Reuters/TOI 2021-06-04 second-year cancellation; TE year nav has no 2020/2021 pages)."
+  "basel_closure_note": "T-025 (2026-08-19, Auditor 1, standing audit->fix order): 3/3 Basel ATP 500 gaps FIXED - 2 retirements + 1 walkover, incl. BA003 the FIFTH dropped SEMIFINAL of the program (Humbert injury retirement vs Davidovich Fokina 2025, ATP official + swissindoorsbasel.ch official corroborated) and BA002 (Mensik left-foot-injury W/O to Fonseca, TennisMajors/tennis-infinity/AFP). 2022/2023 complete on pull (31/31 each, TE census all S=2). Store's 2025 slice notably held 3 QF retirement rows correctly while dropping the R16 W/O and SF retirement - drop pattern partial, not absent: dropped-row signature held for the 12th consecutive audited event with at least one ret/wo occurrence. Draw 32 per edition (TE bracket byte-read x4: 32 slots, 0 byes). Coverage boundary verified: no 2020/2021 editions EXIST - cancelled two straight years for COVID (swissindoorsbasel.ch official 2020-07-14 cancellation; Reuters/TOI 2021-06-04 second-year cancellation; TE year nav has no 2020/2021 pages).",
+  "vienna_closure_note": "T-026 (2026-08-19, Auditor 1, standing audit->fix order): 4/4 Vienna ATP 500 gaps FIXED - 2 retirements + 2 walkovers: VI001 Evans calf retirement while LEADING 4-1 vs Tiafoe (2023 R32, BBC/Sky, only 2nd tour-level retirement of his career; winner's row carries setsA 0 setsB 1, stored truthfully); VI002 Cobolli right-shoulder retirement vs de Minaur (2024 R16, Sportface/OASport); VI003 Monfils illness/fatigue W/O to Musetti (2024 R16, EssentiallySports + FR wire); VI004 Griekspoor back-injury W/O handing Zverev the 2025 QF (TheTennisGazette/azat.tv/Tennisform). 2021/2022 complete on pull (31/31 each, TE census all S=2). 2 'J.J. Wolf' rows renamed 'Jeffrey Wolf' (2022 R32 vs Khachanov, 2023 R32 vs Lehecka) - branch now 17x Jeffrey Wolf, 0 initials. Draw 32 per edition (TE bracket byte-read x5: 32 slots, 0 byes). Dropped-row signature held for the 13th consecutive audited event with ret/wo occurrences. Auditor self-disclosure on record: first build attempt asserted out on VI002 sets arithmetic (auditor wrote setsA 1; parser convention counts the unfinished 3-1 set to the leader, correct value setsA 2) - caught by the pre-write self-check, zero data impact, fixed before any file was written."
 }

@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 78,
+  "total_editions": 83,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -1015,6 +1015,71 @@
       "checksum_sha256": "bba9ef05e094589e14aca9a0c4951fdf905170e77470b214e601c2ad7d6b9b86",
       "file_path": "editions/Basel/2025.json",
       "gap_count": 2
+    },
+    {
+      "tournament": "Vienna",
+      "tour": "ATP",
+      "tier": "ATP500",
+      "year": "2021",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "TE 2021 bracket byte-read: 32 slots, 0 byes = draw 32",
+      "match_count": 31,
+      "checksum_sha256": "a142df5bf7dfe91fa204ad685cdea5160ec677ead9baa35576a6add5fb939b3f",
+      "file_path": "editions/Vienna/2021.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Vienna",
+      "tour": "ATP",
+      "tier": "ATP500",
+      "year": "2022",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "TE 2022 bracket byte-read: 32 slots, 0 byes = draw 32",
+      "match_count": 31,
+      "checksum_sha256": "c446b47efdb1251b59be736b4f2bba3d8e89fe3d6866326e07642093cb6d4ef6",
+      "file_path": "editions/Vienna/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Vienna",
+      "tour": "ATP",
+      "tier": "ATP500",
+      "year": "2023",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "TE 2023 bracket byte-read: 32 slots, 0 byes = draw 32",
+      "match_count": 31,
+      "checksum_sha256": "cff8988930acc5de1009840fd2ebd7749ff5fdeab0d43a5124a3cc0d6a73e9f4",
+      "file_path": "editions/Vienna/2023.json",
+      "gap_count": 1
+    },
+    {
+      "tournament": "Vienna",
+      "tour": "ATP",
+      "tier": "ATP500",
+      "year": "2024",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "TE 2024 bracket byte-read: 32 slots, 0 byes = draw 32",
+      "match_count": 31,
+      "checksum_sha256": "21ac49bf983fe7f424df705d84d2b1818f008eadbeaecb8cdbff89526bab919b",
+      "file_path": "editions/Vienna/2024.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Vienna",
+      "tour": "ATP",
+      "tier": "ATP500",
+      "year": "2025",
+      "draw_size": 32,
+      "status": "closed_verified_gapless",
+      "source": "TE 2025 bracket byte-read: 32 slots, 0 byes = draw 32",
+      "match_count": 31,
+      "checksum_sha256": "aed75e1b1ac267d18ac41041db5278ddfbcfd80add911adab4b4f005da3d8d94",
+      "file_path": "editions/Vienna/2025.json",
+      "gap_count": 1
     }
   ],
   "gap_report_file": "gap_report.json"
