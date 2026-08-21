@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 137,
+  "total_editions": 143,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -1782,6 +1782,84 @@
       "checksum_sha256": "6eb74d5a4bc5573a9fb7a3184c8b7bd03b836e4dbb88451d5a319ba45fd1fe3e",
       "file_path": "editions/Miami_Masters/2026.json",
       "gap_count": 1
+    },
+    {
+      "tournament": "Miami",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2021",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "de1393888fc166603495978f76177a6ab8467beca925b79ca5524ef5ea258ba8",
+      "file_path": "editions/Miami/2021.json",
+      "gap_count": 4
+    },
+    {
+      "tournament": "Miami",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "e4376bc38b7ead9d523073cbdca63086816550c5865d7743e6859da30162df56",
+      "file_path": "editions/Miami/2022.json",
+      "gap_count": 9
+    },
+    {
+      "tournament": "Miami",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "f0d860fa38f238fbf3e9039a7bb1fb6dbb89f906022b6f2579115a215a342972",
+      "file_path": "editions/Miami/2023.json",
+      "gap_count": 3
+    },
+    {
+      "tournament": "Miami",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "bc45e79df7d3272c6a6a0e84e7c566961a79d811d646ef2d2d1caa82574a3dbb",
+      "file_path": "editions/Miami/2024.json",
+      "gap_count": 7
+    },
+    {
+      "tournament": "Miami",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "a9c63ce74cdb6e2d67cfb7d3a95400c397143ef7d9b41facd33c9dacf6f49e39",
+      "file_path": "editions/Miami/2025.json",
+      "gap_count": 5
+    },
+    {
+      "tournament": "Miami",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2026",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "4e69dc13258fee31d5d7cb38edbd3327356b591a625b169bf3fed77c73a6b573",
+      "file_path": "editions/Miami/2026.json",
+      "gap_count": 3
     }
   ],
   "gap_report_file": "gap_report.json"
