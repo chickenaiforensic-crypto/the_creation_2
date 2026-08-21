@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 131,
+  "total_editions": 137,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -1704,6 +1704,84 @@
       "checksum_sha256": "d2ab68a2427f2830e4f5defa148f461d8a0d31758157181a1c25e800f87d46d2",
       "file_path": "editions/Indian_Wells/2026.json",
       "gap_count": 4
+    },
+    {
+      "tournament": "Miami Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2021",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "e914e9809d5fcd21298f26838ea7ab6e3219e301d29c57336f7d5016476ae490",
+      "file_path": "editions/Miami_Masters/2021.json",
+      "gap_count": 3
+    },
+    {
+      "tournament": "Miami Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "909e7c93c9677c176f4c6d416a055e5216b15f4e2737595a9b2049adff8f59d1",
+      "file_path": "editions/Miami_Masters/2022.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Miami Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "c3e28b6e03e2b5fe1d48b3462b2f875f91342cde1e068467ac72fb40412c8040",
+      "file_path": "editions/Miami_Masters/2023.json",
+      "gap_count": 6
+    },
+    {
+      "tournament": "Miami Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "bbbbb05f9d3fef02bc69b193b409be52977c1308fc0e4b4e8ddc31cf3abe051e",
+      "file_path": "editions/Miami_Masters/2024.json",
+      "gap_count": 1
+    },
+    {
+      "tournament": "Miami Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "b33784f5ace9c684c3e062a7255c12090858a59ad0300be35ef0635800dac71a",
+      "file_path": "editions/Miami_Masters/2025.json",
+      "gap_count": 3
+    },
+    {
+      "tournament": "Miami Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2026",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "6eb74d5a4bc5573a9fb7a3184c8b7bd03b836e4dbb88451d5a319ba45fd1fe3e",
+      "file_path": "editions/Miami_Masters/2026.json",
+      "gap_count": 1
     }
   ],
   "gap_report_file": "gap_report.json"
