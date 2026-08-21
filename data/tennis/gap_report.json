@@ -1,10 +1,10 @@
 {
   "description": "Gap report for the 20 closed_verified tennis editions migrated to this branch. Produced via round-transition ghost detection (R32-onward, byefree per validated M1000 method in phase1-audit/WORKORDER_Phase1_DrawSize_Gap_Audit.md Phase 1B). A gap = a player appearing in round N+1 with no traceable win recorded in round N within the same edition file.",
   "method": "For each edition, for each transition in [R32->R16, R16->QF, QF->SF, SF->F]: collect all playerA/playerB in round N+1; collect all winners (resolved via winner field + playerA/playerB) in round N; any round-N+1 participant absent from round-N winners is a gap. R64->R32 excluded uniformly (bye-affected at this draw depth, not a genuine gap) per the same exclusion applied to M1000 in Phase 1B.",
-  "editions_checked": 143,
+  "editions_checked": 149,
   "editions_clean": 143,
   "editions_with_gaps": 0,
-  "total_gap_instances": 182,
+  "total_gap_instances": 193,
   "gaps": [
     {
       "tournament": "Rotterdam",
@@ -2189,9 +2189,141 @@
       "file_path": "editions/Miami/2026.json",
       "status": "closed",
       "resolution": "TE Miami 2026 WTA: 21.03. 17:10 2R Jessica Pegula d. Francesca Jones 6-1 3-0, S 1-0 = RETIREMENT (id 3157890). TE player id jones-68698 = Francesca Jones (id-crosswalk vs jones-cff84 = Emerson Jones, whose R64 loss to Svitolina exists in-store); Jones had beaten Venus Williams in R128. Added row: Jessica Pegula d. Francesca Jones 6-1 3-0, date 2026-03-21. Source: https://www.tennisexplorer.com/match-detail/?id=3157890"
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "year": "2021",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Filip Krajinovic",
+      "gap_id": "MC001",
+      "folder": "Monte_Carlo_Masters",
+      "file_path": "editions/Monte_Carlo_Masters/2021.json",
+      "status": "closed",
+      "resolution": "TE Monte Carlo 2021 ATP: 13.04. 16:45 1R Filip Krajinovic d. Nikoloz Basilashvili, S 1-0 with partial 2-0 = RETIREMENT (id 1934955). TE 1R shows 24 played matches vs store 22. Added row: Filip Krajinovic d. Nikoloz Basilashvili 6-1 2-0, date 2021-04-13. Source: https://www.tennisexplorer.com/match-detail/?id=1934955"
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "year": "2021",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Tommy Paul",
+      "gap_id": "MC002",
+      "folder": "Monte_Carlo_Masters",
+      "file_path": "editions/Monte_Carlo_Masters/2021.json",
+      "status": "closed",
+      "resolution": "TE Monte Carlo 2021 ATP: 12.04. 16:45 1R Tommy Paul d. Pedro Martinez (LL), S 1-0 with partial 4-1 = RETIREMENT (id 1935529). Added row: Tommy Paul d. Pedro Martinez 4-1, date 2021-04-12. Source: https://www.tennisexplorer.com/match-detail/?id=1935529"
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "year": "2022",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Grigor Dimitrov",
+      "gap_id": "MC003",
+      "folder": "Monte_Carlo_Masters",
+      "file_path": "editions/Monte_Carlo_Masters/2022.json",
+      "status": "closed",
+      "resolution": "TE Monte Carlo 2022 ATP: 10.04. 15:50 1R Grigor Dimitrov d. Nikoloz Basilashvili (15), S 1-0 with partial 2-0 = RETIREMENT (id 2069133). Basilashvili retired in MC 1R for the second consecutive year. Added row: Grigor Dimitrov d. Nikoloz Basilashvili 6-3 2-0, date 2022-04-10. Source: https://www.tennisexplorer.com/match-detail/?id=2069133"
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "year": "2022",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Pablo Carreno Busta",
+      "gap_id": "MC004",
+      "folder": "Monte_Carlo_Masters",
+      "file_path": "editions/Monte_Carlo_Masters/2022.json",
+      "status": "closed",
+      "resolution": "TE Monte Carlo 2022 ATP: 13.04. 15:15 2R Pablo Carreno Busta (13) d. Alexander Bublik, S 1-0 with sets 4-6 7-6(3) and partial 4-3 = RETIREMENT (id 2071113). Bublik retired trailing 3-4 in set 3 after winning set 1 - sets truthfully 2-1 via parser (4-3 partial credits A). Added row: Pablo Carreno Busta d. Alexander Bublik 4-6 7-6(3) 4-3, date 2022-04-13. Source: https://www.tennisexplorer.com/match-detail/?id=2071113"
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "year": "2023",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Jannik Sinner",
+      "gap_id": "MC005",
+      "folder": "Monte_Carlo_Masters",
+      "file_path": "editions/Monte_Carlo_Masters/2023.json",
+      "status": "closed",
+      "resolution": "TE Monte Carlo 2023 ATP: 12.04. 13:45 2R Jannik Sinner (7) d. Diego Schwartzman, S 1-0 with partial 3-1 = RETIREMENT (id 2322271). Restores a rung of Sinner semifinal run. Added row: Jannik Sinner d. Diego Schwartzman 6-0 3-1, date 2023-04-12. Source: https://www.tennisexplorer.com/match-detail/?id=2322271"
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "year": "2023",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Stefanos Tsitsipas",
+      "gap_id": "MC006",
+      "folder": "Monte_Carlo_Masters",
+      "file_path": "editions/Monte_Carlo_Masters/2023.json",
+      "status": "closed",
+      "resolution": "TE Monte Carlo 2023 ATP: 11.04. 18:20 2R Stefanos Tsitsipas (2) d. Benjamin Bonzi, S 1-0 with partial 4-1 = RETIREMENT (id 2322249). Added row: Stefanos Tsitsipas d. Benjamin Bonzi 4-1, date 2023-04-11. Source: https://www.tennisexplorer.com/match-detail/?id=2322249"
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "year": "2023",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Holger Rune",
+      "gap_id": "MC007",
+      "folder": "Monte_Carlo_Masters",
+      "file_path": "editions/Monte_Carlo_Masters/2023.json",
+      "status": "closed",
+      "resolution": "TE Monte Carlo 2023 ATP: 13.04. 16:30 R16 Holger Rune (6) d. Matteo Berrettini, S 1-0 with ALL BLANK set scores = WALKOVER (id 2324147). Reason wire-corroborated: grade 2 tear of internal oblique muscle, MRI-confirmed, announced by Berrettini himself on Instagram (Sportskeeda 2023-04-13 https://www.sportskeeda.com/tennis/news-matteo-berrettini-gutted-new-injury-forces-monte-carlo-masters-withdrawal ; AP 2023-04-28 corroborates https://apnews.com/article/matteo-berrettini-withdraws-italian-open-27ba03340a5acea3fa354f08d865e9be ). Restores a rung of Rune finalist run. Added row: Holger Rune d. Matteo Berrettini W/O, date 2023-04-13. Source: https://www.tennisexplorer.com/match-detail/?id=2324147"
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "year": "2024",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Stefanos Tsitsipas",
+      "gap_id": "MC008",
+      "folder": "Monte_Carlo_Masters",
+      "file_path": "editions/Monte_Carlo_Masters/2024.json",
+      "status": "closed",
+      "resolution": "TE Monte Carlo 2024 ATP: 08.04. 14:40 1R Stefanos Tsitsipas (12) d. Laslo Djere, S 1-0 with partial 3-2 = RETIREMENT (id 2585065). Restores the opening rung of champion Tsitsipas 2024 TITLE RUN. Added row: Stefanos Tsitsipas d. Laslo Djere 6-3 3-2, date 2024-04-08. Source: https://www.tennisexplorer.com/match-detail/?id=2585065"
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Nuno Borges",
+      "gap_id": "MC009",
+      "folder": "Monte_Carlo_Masters",
+      "file_path": "editions/Monte_Carlo_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Monte Carlo 2025 ATP: 08.04. 13:20 1R Nuno Borges d. Holger Rune (10), S 1-0 with partial 3-0 = RETIREMENT (id 2862881). Added row: Nuno Borges d. Holger Rune 6-2 3-0, date 2025-04-08. Source: https://www.tennisexplorer.com/match-detail/?id=2862881"
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "year": "2026",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Matteo Berrettini",
+      "gap_id": "MC010",
+      "folder": "Monte_Carlo_Masters",
+      "file_path": "editions/Monte_Carlo_Masters/2026.json",
+      "status": "closed",
+      "resolution": "TE Monte Carlo 2026 ATP: 07.04. 11:10 1R Matteo Berrettini d. Roberto Bautista Agut, S 1-0 with partial 4-0 = RETIREMENT (id 3170244). Added row: Matteo Berrettini d. Roberto Bautista Agut 4-0, date 2026-04-07. Source: https://www.tennisexplorer.com/match-detail/?id=3170244"
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "year": "2026",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Felix Auger-Aliassime",
+      "gap_id": "MC011",
+      "folder": "Monte_Carlo_Masters",
+      "file_path": "editions/Monte_Carlo_Masters/2026.json",
+      "status": "closed",
+      "resolution": "TE Monte Carlo 2026 ATP: 09.04. 12:45 R16 Felix Auger-Aliassime (6) d. Casper Ruud (9), S 1-0 with sets 7-5 and partial 2-2 = RETIREMENT (id 3172356). Tied-token 2-2 credits nobody (Jaziri-Tsonga precedent); restores a rung of Auger-Aliassime QF run. Added row: Felix Auger-Aliassime d. Casper Ruud 7-5 2-2, date 2026-04-09. Source: https://www.tennisexplorer.com/match-detail/?id=3172356"
     }
   ],
-  "gaps_closed": 182,
+  "gaps_closed": 193,
   "gaps_open": 0,
   "closure_note": "All 18 gaps closed 2026-08-19 (T-005, Auditor 1, arena/01a015bb-the-creation-2). Every gap proved to be a RETIREMENT match absent from the migration source - consistent with the store-wide M-1/retirement-exclusion pattern documented in T-002. Per-gap resolution fields below; no result was inferred, every row carries a named checkable source.",
   "cincinnati_wta_closure_note": "T-007 (2026-08-19, Auditor 1): 15/15 Cincinnati WTA gaps FIXED per HANDOFF-07+A1+A2 - 8 retirements + 7 walkovers, all with named checkable sources; pulled from claude_1 store a280b2fb; per-year gap check green before closed_verified_gapless.",
@@ -2214,5 +2346,6 @@
   "indian_wells_atp_closure_note": "T-029a (2026-08-19, Auditor 1, Masters program cycle 1 of 12-slice Indian Wells event): 17/17 Indian Wells ATP gaps FIXED across 2021-2026 - 12 retirements + 5 walkovers, every row TE-sourced with match-detail id, every W/O reason wire-corroborated (Isner 2021: birth of third child, tennis.com; Fognini 2022: fever, OASport/Riviera24/Ubitennis; Sinner 2022: illness, Desert Sun/AFP; Raonic 2024: strained calf, Desert Sun; J.M. Cerundolo 2026: left-leg problem, vavel/el-balad). Notables: Kyrgios twice a principal (won by Sinner W/O 2022; retired vs Van de Zandschulp 2025); Machac 2025 retired while A SET UP (Watanuki row setsA 1 setsB 1, stored truthfully); Medvedev's missing 2025 R32 rung restored (2-0 ret over Michelsen). 5 'J.J. Wolf' rows renamed 'Jeffrey Wolf' (2021 R128, 2022 R128+R64, 2023 R128, 2024 R128) - branch now 31x Jeffrey Wolf, 0 initials. Draw 96 per edition proven structurally post-fix (95/95, template exact, 32 byes asserted, spine complete); TE 2026 bracket byte-read corroborates. Survey deficit estimate for this slice (17) matched exactly. Dropped-row signature: 14th consecutive event with ret/wo occurrences. WTA half (Indian Wells, ~20 gaps) queued next as T-029b.",
   "indian_wells_wta_closure_note": "T-029b (2026-08-19, Auditor 1, Masters program - Indian Wells event complete with T-029a): 20/20 Indian Wells WTA gaps FIXED across 2021-2026 - 18 retirements + 2 walkovers, every row TE-sourced with match-detail id. Walkovers wire-corroborated with nuance preserved: IW012 Tsurenko W/O to Sabalenka 2023 (officially 'personal reasons'; Tsurenko later revealed a panic attack after a conversation with WTA CEO Steve Simon - Guardian/Independent/DailyMail); IW014 Vondrousova W/O to Kostyuk 2024 (NO official reason announced - recorded as unannounced per no-guessing rule, Czech-media 'personal reasons' noted as secondary report). Two retire-while-leading losers stored truthfully: Sharma 4-3 up vs Kasatkina 2021 (setsA 0 setsB 1); Bouzkova 2-0 up in set 2 vs Kudermetova 2022. Sasnovich-Osorio 2022 R128 score byte-read from TE match-detail header after a chunk-boundary straddle. Notables restored: Eala d. Gauff 6-2 2-0 ret (2026 R32); Rybakina d. Kartal + Svitolina d. Siniakova (2026 R16 pair - TE corrected the auditor's provisional pairing hypothesis, recorded per Rule 7); Raducanu d. Yastremska (2024); Sakkari d. Saville (2022 R16). 0 Wolf/initial rows in slice. Draw 96 per edition proven structurally post-fix (95/95, template exact, 32 byes asserted, spine complete). Survey deficit estimate for this slice (20) matched exactly. M1000 pipeline again dropped 100% of ret/wo rows. Indian Wells event (12 slices, 37 gaps) now COMPLETE; Miami (T-030) next per approved order.",
   "miami_atp_closure_note": "T-030a (2026-08-19, Auditor 1, Masters program - Miami event, ATP half): 16/16 Miami ATP gaps FIXED across 2021-2026 - 12 retirements + 4 walkovers, every row TE-sourced with match-detail id, all W/O reasons wire-corroborated (Harris 2021 wrist, tennis365; Gasquet 2023 left ankle ~30min pre-match, Sportstar/Reuters; Molcan 2023 right hip, ATP official; Machac 2025 illness, ATP official - restoring a rung of champion Mensik's title run). 2023 was the worst slice (6 gaps incl. 4 dropped R128s). Two tied-token scores stored per parser convention (Humbert d. Monfils 3-3; Popyrin d. Ymer 7-6(5) 4-4). Two loser-was-leading rows truthful (Paul up a set vs Damm 2024; Diallo 3-2 up in set 2 vs Fils 2025). Martin Damm the beneficiary twice (2024 R64, 2026 R128). 4 'J.J. Wolf' rows renamed 'Jeffrey Wolf' (2022 R128+R64, 2023 R128+R64) - branch now 35x Jeffrey Wolf, 0 initials. Draw 96 per edition proven structurally post-fix; TE 2023 bracket byte-read corroborates (32 'bye' slots). Survey deficit estimate (16) matched exactly. M1000 pipeline dropped 100% of ret/wo rows again. WTA half (Miami, 31 gaps spine-mapped incl. Osaka 2021/2022 rungs, Alexandrova d. Andreescu 2023 R16, Eala d. Badosa 2025 R16, 5-match R64 hole 2024) queued as T-030b.",
-  "miami_wta_closure_note": "T-030b (2026-08-19, Auditor 1, Masters program - Miami event COMPLETE with T-030a: 12 slices, 47 restorations): 31/31 Miami WTA gaps FIXED across 2021-2026 - the largest single slice-set of the program - 24 retirements + 7 walkovers, every row TE-sourced with match-detail id, 6 of the 7 W/O reasons wire-corroborated (1 recorded unannounced per no-guessing rule): Halep 2021 right shoulder (Reuters); Stojanovic 2021 right thigh (AFP); Siegemund 2021 NO PUBLIC REASON (WTA-official W/O confirmation only, recorded unannounced per no-guessing rule); Muchova 2022 warm-up injury/left abdominal (Reuters + own statement); Kalinskaya 2022 left arm (WTA official); Kalinskaya 2024 right thigh (WTA official via TASS/Reuters + her Instagram); Badosa 2025 lower back (Badosa statement) - restoring a rung of EALA's breakout semifinal run. Osaka's missing rungs restored in BOTH her 2021 (W/O over Stojanovic) and 2022 finalist runs (W/O over Muchova). THREE loser-was-leading rows truthful: Teichmann 6-5 up 2021; Siniakova up a set 2023 (tied-token 3-6 3-3); Andreescu 2-0 up in set 2 when her ankle gave way 2023 R16 (setsA 1 setsB 1); Identity adjudication: 2026 'Jones' split byte-proven - Emerson Jones (jones-cff84, R64 loss to Svitolina in-store) vs Francesca Jones (jones-68698, missing R64 vs Pegula) - resolving an apparent spine contradiction without touching a correct row. 2024's five-match R64 hole filled (Garcia/Kasatkina/Pegula/Zheng/Boulter). 0 Wolf rows. Draw 96 structural proof x6; TE 2022 bracket byte-read corroborates. Survey deficit (31) matched exactly. Raw M1000 pipeline carried 0 of these 31 ret/wo rows - 4th consecutive M1000 slice-set with a 100% ret/wo drop; the only 2 ret rows already present in the claude_1 Miami WTA slice (2021 F Barty d. Andreescu 6-3 4-0 ret, 2022 QF Pegula d. Badosa 4-1 ret) arrived via its separate date-source-CSV restoration path, not the raw pipeline. AUDITOR SELF-CORRECTION 2026-08-19: this note originally said 23 ret + 8 wo, FOUR loser-was-leading, and all-7-W/O-corroborated; re-verification from bytes (Rule 7) corrected to 24 ret + 7 wo, THREE loser-was-leading, 6-of-7 corroborated, before first commit of this note."
+  "miami_wta_closure_note": "T-030b (2026-08-19, Auditor 1, Masters program - Miami event COMPLETE with T-030a: 12 slices, 47 restorations): 31/31 Miami WTA gaps FIXED across 2021-2026 - the largest single slice-set of the program - 24 retirements + 7 walkovers, every row TE-sourced with match-detail id, 6 of the 7 W/O reasons wire-corroborated (1 recorded unannounced per no-guessing rule): Halep 2021 right shoulder (Reuters); Stojanovic 2021 right thigh (AFP); Siegemund 2021 NO PUBLIC REASON (WTA-official W/O confirmation only, recorded unannounced per no-guessing rule); Muchova 2022 warm-up injury/left abdominal (Reuters + own statement); Kalinskaya 2022 left arm (WTA official); Kalinskaya 2024 right thigh (WTA official via TASS/Reuters + her Instagram); Badosa 2025 lower back (Badosa statement) - restoring a rung of EALA's breakout semifinal run. Osaka's missing rungs restored in BOTH her 2021 (W/O over Stojanovic) and 2022 finalist runs (W/O over Muchova). THREE loser-was-leading rows truthful: Teichmann 6-5 up 2021; Siniakova up a set 2023 (tied-token 3-6 3-3); Andreescu 2-0 up in set 2 when her ankle gave way 2023 R16 (setsA 1 setsB 1); Identity adjudication: 2026 'Jones' split byte-proven - Emerson Jones (jones-cff84, R64 loss to Svitolina in-store) vs Francesca Jones (jones-68698, missing R64 vs Pegula) - resolving an apparent spine contradiction without touching a correct row. 2024's five-match R64 hole filled (Garcia/Kasatkina/Pegula/Zheng/Boulter). 0 Wolf rows. Draw 96 structural proof x6; TE 2022 bracket byte-read corroborates. Survey deficit (31) matched exactly. Raw M1000 pipeline carried 0 of these 31 ret/wo rows - 4th consecutive M1000 slice-set with a 100% ret/wo drop; the only 2 ret rows already present in the claude_1 Miami WTA slice (2021 F Barty d. Andreescu 6-3 4-0 ret, 2022 QF Pegula d. Badosa 4-1 ret) arrived via its separate date-source-CSV restoration path, not the raw pipeline. AUDITOR SELF-CORRECTION 2026-08-19: this note originally said 23 ret + 8 wo, FOUR loser-was-leading, and all-7-W/O-corroborated; re-verification from bytes (Rule 7) corrected to 24 ret + 7 wo, THREE loser-was-leading, 6-of-7 corroborated, before first commit of this note.",
+  "monte_carlo_closure_note": "T-031 (2026-08-19, Auditor 1, Masters program): 11/11 Monte Carlo Masters (ATP-only M1000) gaps FIXED across 2021-2026 - 10 retirements + 1 walkover, every row TE-sourced with match-detail id, survey deficit (11) matched exactly; raw M1000 pipeline carried 0 of these 11 ret/wo rows - 5th consecutive 100%-drop slice-set; the only ret row already present in the claude_1 MC slice (2021 QF Tsitsipas d. Davidovich Fokina 7-5 ret) arrived via its separate date-source-CSV restoration path (combined_atp_2021.csv), not the raw pipeline. The lone W/O reason wire-corroborated: Berrettini 2023 R16 grade-2 internal oblique tear, MRI-confirmed, own Instagram statement (Sportskeeda/AP) - restoring a rung of Rune's finalist run. Champion rung restored: Tsitsipas 2024 R64 (d. Djere 6-3 3-2 ret) opened his TITLE run. Sinner 2023 SF-run rung and Auger-Aliassime 2026 QF-run rung restored. Nikoloz Basilashvili retired in MC 1R in BOTH 2021 (vs Krajinovic) and 2022 (vs Dimitrov). TWO lucky-loser-into-bye-slot adjudications byte-proven from TE draw brackets and wire-corroborated, resolving apparent 9-bye anomalies WITHOUT fabricating rows: 2021 Londero replaced Medvedev (seed 2, withdrew pre-2R) and PLAYED R32; 2024 Sonego replaced Alcaraz (seed 3, right forearm pronator teres, Reuters 2024-04-09) and PLAYED R32 - in both years the withdrawn seed correctly has NO row and NO walkover existed. Tied-token 2-2 in Auger-Aliassime d. Ruud 7-5 2-2 ret credits nobody (Jaziri-Tsonga precedent). Post-fix structural proof x6: 55/55 rows, template 24/16/8/4/2/1, 8 byes, exhaustive spine."
 }

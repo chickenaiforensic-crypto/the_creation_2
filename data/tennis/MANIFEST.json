@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 143,
+  "total_editions": 149,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -1860,6 +1860,84 @@
       "checksum_sha256": "4e69dc13258fee31d5d7cb38edbd3327356b591a625b169bf3fed77c73a6b573",
       "file_path": "editions/Miami/2026.json",
       "gap_count": 3
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2021",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "004f8f88237ada99f230f56f3fc5683942d5c29727157bda9af97c4b9e1850db",
+      "file_path": "editions/Monte_Carlo_Masters/2021.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "1524e87e0ff8a8bb19eeaf4c2733eb731c3dbf4b749ef5976f9e24e1ecc27d87",
+      "file_path": "editions/Monte_Carlo_Masters/2022.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "d340edaaae58dd60bea349cbcfaf1dd085c841dde3190ace5bd3e866e3d4f634",
+      "file_path": "editions/Monte_Carlo_Masters/2023.json",
+      "gap_count": 3
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "bb6953244b9b6d5e0085d0e26d4085a472689f561dd7af666d96d08cca280540",
+      "file_path": "editions/Monte_Carlo_Masters/2024.json",
+      "gap_count": 1
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "4a57cbd30904324269b1bd2f5493594f4df76cf3e57c0cd101dd604a31d13111",
+      "file_path": "editions/Monte_Carlo_Masters/2025.json",
+      "gap_count": 1
+    },
+    {
+      "tournament": "Monte Carlo Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2026",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "cc1a9fdd5ca5a7d3b2c0314b5ebbbb51ccc72bcd8220d23649ae64038ebff2a9",
+      "file_path": "editions/Monte_Carlo_Masters/2026.json",
+      "gap_count": 2
     }
   ],
   "gap_report_file": "gap_report.json"
