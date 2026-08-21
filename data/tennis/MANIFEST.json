@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 125,
+  "total_editions": 131,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -1626,6 +1626,84 @@
       "checksum_sha256": "f5414908143989816fc3142fcfc4d0ae31cc38c3474634bc966a1f72e580fe43",
       "file_path": "editions/Indian_Wells_Masters/2026.json",
       "gap_count": 3
+    },
+    {
+      "tournament": "Indian Wells",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2021",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "2dc0403942b1429cd403b19d8d0342f395429094e92d4b5882ad6d7cf159129c",
+      "file_path": "editions/Indian_Wells/2021.json",
+      "gap_count": 4
+    },
+    {
+      "tournament": "Indian Wells",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "d37ae312e6fc61c8659a6fa488297b32f3dad8748f81a9ea05f0009e11b70728",
+      "file_path": "editions/Indian_Wells/2022.json",
+      "gap_count": 5
+    },
+    {
+      "tournament": "Indian Wells",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "3232e8396610847ec8d448ed3e350613b322d755c5ea1dcfdbcbc7deaafa37c1",
+      "file_path": "editions/Indian_Wells/2023.json",
+      "gap_count": 3
+    },
+    {
+      "tournament": "Indian Wells",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "605f637c45f0a0511a71e5d340c56416ae78671f179737a4e37ed2eca1f6e37e",
+      "file_path": "editions/Indian_Wells/2024.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Indian Wells",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "8e424c66315c48ee2230471ab1b8b7a41bf72eafd6f8e80dbb227b130f6ab45f",
+      "file_path": "editions/Indian_Wells/2025.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Indian Wells",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2026",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "d2ab68a2427f2830e4f5defa148f461d8a0d31758157181a1c25e800f87d46d2",
+      "file_path": "editions/Indian_Wells/2026.json",
+      "gap_count": 4
     }
   ],
   "gap_report_file": "gap_report.json"
