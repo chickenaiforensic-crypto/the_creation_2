@@ -1,10 +1,10 @@
 {
   "description": "Gap report for the 20 closed_verified tennis editions migrated to this branch. Produced via round-transition ghost detection (R32-onward, byefree per validated M1000 method in phase1-audit/WORKORDER_Phase1_DrawSize_Gap_Audit.md Phase 1B). A gap = a player appearing in round N+1 with no traceable win recorded in round N within the same edition file.",
   "method": "For each edition, for each transition in [R32->R16, R16->QF, QF->SF, SF->F]: collect all playerA/playerB in round N+1; collect all winners (resolved via winner field + playerA/playerB) in round N; any round-N+1 participant absent from round-N winners is a gap. R64->R32 excluded uniformly (bye-affected at this draw depth, not a genuine gap) per the same exclusion applied to M1000 in Phase 1B.",
-  "editions_checked": 173,
+  "editions_checked": 178,
   "editions_clean": 143,
   "editions_with_gaps": 0,
-  "total_gap_instances": 253,
+  "total_gap_instances": 264,
   "gaps": [
     {
       "tournament": "Rotterdam",
@@ -3041,9 +3041,141 @@
       "file_path": "editions/Rome/2026.json",
       "status": "closed",
       "resolution": "TE Rome 2026 WTA: 07.05. 15:00 2R Oleksandra Oliynykova d. Clara Tauson (18), S 1-0 with partial 3-1 = RETIREMENT (id 3196046). Tauson (seed 18, R128 bye) played ONLY this match - seed-played-only pattern. Added row: Oleksandra Oliynykova d. Clara Tauson 6-1 3-1, date 2026-05-07. Source: https://www.tennisexplorer.com/match-detail/?id=3196046"
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "year": "2021",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Hubert Hurkacz",
+      "gap_id": "CAM001",
+      "folder": "Canada_Masters",
+      "file_path": "editions/Canada_Masters/2021.json",
+      "status": "closed",
+      "resolution": "TE Toronto 2021 ATP: match-detail header 11.08.2021 22:55 2R Hubert Hurkacz (7) d. Kei Nishikori, 1 : 0 with NO set scores = WALKOVER (id 1969621; visible in TE R16 bracket column as w/o). Reason wire-corroborated: RIGHT SHOULDER, Nishikori own statement (\"The right shoulder is very sore after a long stretch of tennis\") - Reuters 2021-08-11 https://www.reuters.com/lifestyle/sports/nishikori-withdraws-toronto-masters-with-shoulder-injury-2021-08-11/ . DRAW-SIZE ADJUDICATION: TE bracket byte-proves Toronto 2021 was a 64-draw with 16 BYES (COVID-era field: 16/16/8/4/2/1 = 47 matches) - survey template-inference (48) and pre-audit 56-draw hypothesis (9 gaps) both WRONG; store 46/47 -> exactly this ONE gap. Added row: Hubert Hurkacz d. Kei Nishikori W/O, date 2021-08-11. Source: https://www.tennisexplorer.com/match-detail/?id=1969621"
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "year": "2022",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Jack Draper",
+      "gap_id": "CAM002",
+      "folder": "Canada_Masters",
+      "file_path": "editions/Canada_Masters/2022.json",
+      "status": "closed",
+      "resolution": "TE Montreal 2022 ATP: 12.08. 01:15 R16 Jack Draper d. Gael Monfils (17), S 1-0 with sets 6-2 and partial 0-2 = RETIREMENT (id 2167417). Monfils was AHEAD 2-0 in set 2 at retirement - parser credits 0-2 to B, sets 1-1 truthful. Added row: Jack Draper d. Gael Monfils 6-2 0-2, date 2022-08-12. Source: https://www.tennisexplorer.com/match-detail/?id=2167417"
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "year": "2023",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Jannik Sinner",
+      "gap_id": "CAM003",
+      "folder": "Canada_Masters",
+      "file_path": "editions/Canada_Masters/2023.json",
+      "status": "closed",
+      "resolution": "TE Toronto 2023 ATP: 11.08. R16 Jannik Sinner (7) d. Andy Murray, S 1-0 with ALL BLANK set scores = WALKOVER (id 2426433). Reason wire-corroborated: ABDOMINAL injury, Murray own on-court statement (\"I have an issue with my abdominal muscles... I feel like I have let you down\") - IANS 2023-08-11; only his 7th career walkover conceded. CHAMPION-RUNG (6th of program): Sinner won the 2023 Canada title - his R16 was missing. Added row: Jannik Sinner d. Andy Murray W/O, date 2023-08-11. Source: https://www.tennisexplorer.com/match-detail/?id=2426433"
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "year": "2024",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Sebastian Korda",
+      "gap_id": "CAM004",
+      "folder": "Canada_Masters",
+      "file_path": "editions/Canada_Masters/2024.json",
+      "status": "closed",
+      "resolution": "TE Montreal 2024 ATP: 08.08. 01:05 1R Sebastian Korda d. Vasek Pospisil (WC), S 1-0 with partial 2-1 = RETIREMENT (id 2688193). Korda was the 9th entry-at-R32 anomaly (non-seed with missing R64); he went on to the SEMIFINALS - all three of his restored/present rungs verified. Added row: Sebastian Korda d. Vasek Pospisil 2-1, date 2024-08-08. Source: https://www.tennisexplorer.com/match-detail/?id=2688193"
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "year": "2024",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Matteo Arnaldi",
+      "gap_id": "CAM005",
+      "folder": "Canada_Masters",
+      "file_path": "editions/Canada_Masters/2024.json",
+      "status": "closed",
+      "resolution": "TE Montreal 2024 ATP: 10.08. 18:30 R16 Matteo Arnaldi d. Alejandro Davidovich Fokina, S 1-0 with sets 4-6 7-6(5) and partial 3-0 = RETIREMENT (id 2692379). ADF won set 1 - sets 2-1 truthful. Added row: Matteo Arnaldi d. Alejandro Davidovich Fokina 4-6 7-6(5) 3-0, date 2024-08-10. Source: https://www.tennisexplorer.com/match-detail/?id=2692379"
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "year": "2024",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Sebastian Korda",
+      "gap_id": "CAM006",
+      "folder": "Canada_Masters",
+      "file_path": "editions/Canada_Masters/2024.json",
+      "status": "closed",
+      "resolution": "TE Montreal 2024 ATP: 10.08. 22:00 R16 Sebastian Korda d. Casper Ruud (6), S 1-0 with ALL BLANK set scores = WALKOVER (id 2693243). Reason wire-corroborated: ILLNESS, withdrew shortly before the match (puntodebreak 2024-08-10 https://www.puntodebreak.com/en/2024/08/10/casper-ruud-withdraws-from-montreal-and-korda-is-the-great-beneficiary ; TE player-profile walkover ledger corroborates the W/O). Added row: Sebastian Korda d. Casper Ruud W/O, date 2024-08-10. Source: https://www.tennisexplorer.com/match-detail/?id=2693243"
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R128",
+      "player_no_traceable_win": "Hugo Gaston",
+      "gap_id": "CAM007",
+      "folder": "Canada_Masters",
+      "file_path": "editions/Canada_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Toronto 2025 ATP: match-detail header 28.07.2025 19:00 1R Hugo Gaston d. Mattia Bellucci, 1 : 0 (3-6, 6-4, 2-0) = RETIREMENT (id 2968563). Bellucci won set 1 - sets 2-1 truthful. Found via full scripted TE-1R-diff (3 name-canon artifacts cleared as non-gaps: Shang Juncheng, Dan Martin, Colton Smith - rows present). Added row: Hugo Gaston d. Mattia Bellucci 3-6 6-4 2-0, date 2025-07-28. Source: https://www.tennisexplorer.com/match-detail/?id=2968563"
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R128",
+      "player_no_traceable_win": "Roberto Carballes Baena",
+      "gap_id": "CAM008",
+      "folder": "Canada_Masters",
+      "file_path": "editions/Canada_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Toronto 2025 ATP: match-detail header 28.07.2025 23:10 1R Roberto Carballes Baena d. Camilo Ugo Carabelli, 1 : 0 (6-4, 4-1) = RETIREMENT (id 2968575). Carballes Baena appears in restorations at a THIRD distinct event (Rome 2024 beneficiary, Rome 2025 retiree, here beneficiary). Added row: Roberto Carballes Baena d. Camilo Ugo Carabelli 6-4 4-1, date 2025-07-28. Source: https://www.tennisexplorer.com/match-detail/?id=2968575"
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Alex de Minaur",
+      "gap_id": "CAM009",
+      "folder": "Canada_Masters",
+      "file_path": "editions/Canada_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Toronto 2025 ATP: 02.08. 17:00 3R Alex de Minaur (9) d. Christopher O'Connell, S 1-0 with ALL BLANK set scores = WALKOVER (id 2975643). Reason wire-corroborated: ABDOMINAL injury, ATP-OFFICIAL (atptour.com/en/news/musetti-michelsen-toronto-2025-thursday); all-Australian matchup never played. Added row: Alex de Minaur d. Christopher O'Connell W/O, date 2025-08-02. Source: https://www.tennisexplorer.com/match-detail/?id=2975643"
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Alexander Zverev",
+      "gap_id": "CAM010",
+      "folder": "Canada_Masters",
+      "file_path": "editions/Canada_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Toronto 2025 ATP: 03.08. R16 Alexander Zverev (1) d. Francisco Cerundolo (14), S 1-0 with sets 6-4 and partial 1-0 = RETIREMENT (id 2976241; QF bracket column corroborates 6-4, 1-0). Added row: Alexander Zverev d. Francisco Cerundolo 6-4 1-0, date 2025-08-03. Source: https://www.tennisexplorer.com/match-detail/?id=2976241"
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R16",
+      "player_no_traceable_win": "Andrey Rublev",
+      "gap_id": "CAM011",
+      "folder": "Canada_Masters",
+      "file_path": "editions/Canada_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Toronto 2025 ATP: 03.08. 21:30 R16 Andrey Rublev (6) d. Alejandro Davidovich Fokina (20), S 1-0 with sets 6-7(3) 7-6(2) and partial 3-0 = RETIREMENT (id 2976635). ADF won set 1 - his SECOND R16 retirement-loss in Canada restorations (2024 Montreal vs Arnaldi, 2025 Toronto vs Rublev). Added row: Andrey Rublev d. Alejandro Davidovich Fokina 6-7(3) 7-6(2) 3-0, date 2025-08-03. Source: https://www.tennisexplorer.com/match-detail/?id=2976635"
     }
   ],
-  "gaps_closed": 253,
+  "gaps_closed": 264,
   "gaps_open": 0,
   "closure_note": "All 18 gaps closed 2026-08-19 (T-005, Auditor 1, arena/01a015bb-the-creation-2). Every gap proved to be a RETIREMENT match absent from the migration source - consistent with the store-wide M-1/retirement-exclusion pattern documented in T-002. Per-gap resolution fields below; no result was inferred, every row carries a named checkable source.",
   "cincinnati_wta_closure_note": "T-007 (2026-08-19, Auditor 1): 15/15 Cincinnati WTA gaps FIXED per HANDOFF-07+A1+A2 - 8 retirements + 7 walkovers, all with named checkable sources; pulled from claude_1 store a280b2fb; per-year gap check green before closed_verified_gapless.",
@@ -3071,5 +3203,6 @@
   "madrid_atp_closure_note": "T-032a (2026-08-19, Auditor 1, Masters program per PLAN-T032 phases A+B): 21/21 Madrid Masters ATP gaps FIXED across 2021-2026 - 16 retirements + 5 walkovers, every row TE-sourced with match-detail id; byte-derived gap map (21) matched exactly, superseding survey estimate. Raw M1000 pipeline carried 0 of these 21 ret/wo rows - 6th consecutive 100%-drop slice-set; the only ret row already in the claude_1 Madrid ATP slice (2024 QF Lehecka d. Medvedev 6-4 ret) arrived via its separate date-source-CSV path (combined_atp_2024.csv), not the raw pipeline. All 5 W/O reasons wire-corroborated: Murray 2022 illness/food poisoning (tournament-official + Reuters/Guardian via ABC; would-have-been 37th Djokovic-Murray meeting); Sinner 2024 right hip (tournament-official + own post, AP/AFP); Monfils 2025 illness (ATP-official + own Snapchat); Djere 2025 left shoulder (ATP-official); Cilic 2026 food poisoning (own Instagram, puntodebreak/tennistemple). HEADLINE: Auger-Aliassime's ENTIRE 2024 path to the final beyond R16 was missing - R32 (Mensik 6-1 1-0 ret), QF (Sinner W/O) and SF (Lehecka 3-3 ret, the program's first missing SEMIFINAL) all restored. Defending-champion rung restored: Rublev 2025 R64 (Monfils W/O). Draper 2025 finalist rung (Berrettini 7-6(2) ret). Zverev 2022 finalist rung (Musetti ret). TWO seed-played-only-the-missing-match adjudications (Griekspoor 2023 seed 30, Rune 2025 seed 8) resolved 31-apparent-byes anomalies. THIRD LL-into-bye adjudication of the program: 2025 Majchrzak replaced Alcaraz (seed 2, right adductor tear + left hamstring, press conference 2025-04-24) and PLAYED R64 - Alcaraz correctly has NO row; wire corroboration matches bracket bytes (his scheduled 2R opponent = Bergs-Diallo winner = Majchrzak's actual in-store R64 vs Diallo). FOUR tied-token rows truthful (Sinner-Pella 4-4 2021; FAA-Lehecka 3-3 SF 2024; Fritz-Bonzi 0-0 set-3 2025; Moller-Diallo 3-3 2026) + Kopriva-Rinderknech 6-4 3-6 with LOSER AHEAD ON GAMES 10-9 at retirement. 3 missing R128s (2025) identified by full TE 1R diff vs store bytes incl. 2 name-canon artifacts resolved (Yunchaokete Bu, Martin Landaluce - rows present, NOT gaps). Era mix byte-asserted: 2021-22 draw 56 (55/55, 8 byes), 2023-26 draw 96 (95/95, 32 byes). Post-fix structural proof x6 with exhaustive spine. AUDIT-CATCH DISCLOSURE 2026-08-19: the full-branch audit flagged 1 initials violation in the pulled 2023 slice (R128 Aleksandr Shevchenko d. J.J. Wolf 6-4 6-4, carried in from claude_1) that the pre-write sweep missed; renamed to Jeffrey Wolf same cycle with per-row name_fix provenance (Rule 1, precedent ddb6019/HANDOFF-07 A2.2), manifest sha resynced, re-audit 0 issues - branch now 36x Jeffrey Wolf, 0 initials. Also disclosed: PLAN-T032 forecast said 11,495 rows post-ATP; correct arithmetic is 11,165+490=11,655 - plan-only arithmetic slip, no data impact.",
   "madrid_wta_closure_note": "T-032b (2026-08-19, Auditor 1, Masters program per PLAN-T032 phases C+D, executed under the NEW pre-audit->work->post-audit cycle - Madrid event COMPLETE with T-032a: 12 slices, 29 restorations): 8/8 Madrid WTA gaps FIXED across 2021-2026 - 6 retirements + 2 walkovers, every row TE-sourced with match-detail id; byte-derived gap map (8) matched exactly. All 8 missing rows were ret/wo - 7th consecutive all-ret/wo deficit slice-set; the only 2 ret rows already in the claude_1 Madrid WTA slice (2021 QF Sabalenka d. Mertens 6-1 4-0 ret via date-source-CSV path; 2023 R128 Sherif d. Giorgi 4-6 6-4 ret via tennisabstract-extraction path) did NOT come through the raw pipeline. PRE-AUDIT: baseline 155/11655 ISSUES:0; pre-pull hygiene sweep of all 6 WTA slices = 0 violations (no Wolf-type carryover). Both W/O reasons wire-corroborated: Azarenka 2021 lower back (WTA-official wtatennis.com/news/2126711 + own statement, withdrew singles+doubles); Samsonova 2026 illness in the tournament-wide Madrid virus outbreak (tennistonic 2026-04-26 + her own account tennistemple 2026-05-10) - the SAME outbreak wire-links THREE restorations across both tours: Samsonova W/O (MA008), Swiatek retirement vs Ann Li (MA007, 'zero energy... felt really bad physically'), and Cilic ATP W/O (MAM020 food poisoning). HEADLINE: Iga Swiatek's only Madrid 2026 loss - 7-6(4) 2-6 3-0 ret to Ann Li - was missing entirely; Swiatek won set 2, sets 2-1 truthful, games 12-12. Draw-era mix byte-asserted: 2021-22 draw 64 (63/63, ZERO byes - bye-assert flipped to 0, so Kvitova-2021/Yastremska-2022 entry-at-R32 anomalies were genuine missing R64 rows, NOT byes); 2023-26 draw 96 (95/95, 32 byes). Seed-played-only-the-missing-match: Qinwen Zheng 2024 (seed 6, only match = Putintseva 7-5 2-0 ret). THREE loser-was-ahead rows truthful: Bouzkova 3-2 up in set 2 (2021), Minnen 2-0 up in set 2 (2022), Swiatek a-set-up-then-level (2026); VERIFY-ONLY slices 2023 and 2025 (0 gaps) passed full structural+spine verification before gapless declaration. Post-fix structural proof x6 with exhaustive spine. POST-AUDIT: build OK 161/12161, summaries 161, full-branch audit ISSUES:0, all 8 fix rows re-read from final bytes (Rule 7) - exact. DISCLOSURE: PLAN-T032 post-WTA row forecast (11,873) was the second plan-arithmetic slip (correct: 11,655+506=12,161); both plan forecasts were plan-only errors with no data impact - all shipped counts derive from build.py output and byte recounts.",
   "rome_atp_closure_note": "T-033a (2026-08-19, Auditor 1, Masters program, pre-audit->work->post-audit cycle): 13/13 Rome Masters ATP gaps FIXED across 2021-2026 (2022 VERIFY-ONLY: zero gaps, full structural+spine verification passed) - 10 retirements + 3 walkovers, every row TE-sourced with match-detail id; byte-derived gap map (13) matched exactly. All missing rows were ret/wo - 8th consecutive all-ret/wo deficit slice-set; claude_1 Rome ATP slice carried ZERO pre-existing ret/wo rows (100% drop, no CSV-path survivors on the ATP side). PRE-AUDIT CATCH: 4x J.J. Wolf rows in pulled 2023(x3)/2024(x1) slices caught by hygiene sweep BEFORE writes and renamed Jeffrey Wolf at pull-time with per-row name_fix provenance (Rule 1) - the defect class that T-032a only caught post-write is now screened pre-write. All 3 W/O reasons wire-corroborated: Carreno Busta 2021 lower back (ATP-official atptour.com); Thompson 2025 back, own quote (tennistemple/FoxSports); Machac 2026 illness, ATP-confirmed (IANS x2). CHAMPION RUNG restored: Ruud d. Berrettini 7-5 2-0 ret 2025 R32 opened his TITLE run (3rd champion-rung of the program after Tsitsipas MC-2024, Mensik Miami-2025). THREE seed-played-only-the-missing-match adjudications in one slice-set: Musetti 2024 (seed 26, ZERO rows in pulled slice, Atmane d. Musetti 7-5 1-0 ret), Humbert 2025 (seed 21, Moutet 6-3 4-0 ret), Fils 2026 (seed 15, Pellegrino 4-0 ret). 4th LL-into-bye: Shang 2024 (TE bracket byte-read; played AND LOST his R64, in-store Napolitano d. Shang 6-7(3) 6-1 6-0; replaced-seed identity not wire-verified - no row impact, documented as-is per no-guessing rule). Berrettini now a retirement/walkover LOSER in restorations at 3 distinct events (MC 2023, Madrid 2025, Rome 2025); Carballes Baena beneficiary-2024/retiree-2025; Djere winner of TWO 2023 restorations. O'Connell WON set 1 before retiring (6-7(7) 5-0, sets 1-1 truthful); Ofner-RCB 6-3 0-0 tied-token credits nobody. Era mix byte-asserted: 2021-22 draw 56 (55/55, 8 byes), 2023-26 draw 96 (95/95, 32 byes); exhaustive spine x6. SELF-CORRECTION pre-commit (Rule 7): draft README/note said Shang's in-store R64 was \"De Minaur d. Shang\" - byte re-read corrected to Napolitano d. Shang 6-7(3) 6-1 6-0 before first commit.",
-  "rome_wta_closure_note": "T-033b (2026-08-19, Auditor 1, pre-audit->work->post-audit cycle - ROME EVENT COMPLETE with T-033a: 12 slices, 31 restorations, largest event of the program): 18/18 Rome WTA gaps FIXED across 2021-2026 - 13 retirements + 5 walkovers, every row TE-sourced with match-detail id; byte map (18) matched exactly; all missing rows ret/wo - 9th consecutive slice-set; the 4 ret rows already in the claude_1 slice (2021 QF Gauff-Barty, 2022 QF Kasatkina-Teichmann, 2023 QF Rybakina-Swiatek, 2023 F Rybakina-Kalinina) all came via the date-source-CSV path, not the raw pipeline. PRE-WORK HYPOTHESIS KILLED BY BYTES (Rule 3): the announced 2021 chained anomaly (missing R64 winner losing a missing R32) was DISPROVEN - the missing R64 winner was IGA SWIATEK (5-4 ret over Riske), the opening rung of her 2021 TITLE run (6-0 6-0 final) - 4th champion-rung of the program; the R32 losers were bye-holder Halep and Brady. 5th champion-rung in the SAME slice-set: Rybakina d. Kalinskaya 4-3 ret restored the R32 of her 2023 title run - BBC's 'third walkover victory of the tournament' now fully agrees with bytes (restored R32 ret + in-store QF ret vs Swiatek + in-store F ret vs Kalinina). HALEP's famous calf-tear exit restored: Kerber d. Halep 1-6 3-3 ret - Halep retired A SET UP, winner carries setsA 0 setsB 1 games 4-9; even more extreme: Parrizas Diaz d. Sorribes Tormo 1-6 3-4 ret - loser retired A SET AND A BREAK UP (setsB 2, games 10-4 for the LOSER - most extreme loser-ahead row of the program, parser-truthful). W/O ledger: Brady 2021 foot (her OWN words, Reuters); Azarenka 2023 right leg (WTA-official); Kvitova 2025 leg (Reuters); Kalinina 2022 UNANNOUNCED (no reason in coverage); Siegemund 2025 UNANNOUNCED - her SECOND unannounced W/O (Miami 2021 precedent). THREE LL-into-byes in one event (5th/6th/7th of program, all bracket byte-proven): Dodin 2024 (only match = restored R64 loss), Teichmann 2025, Siegemund 2025 (LL + W/O in same edition). 2021 byes byte-proven to follow ENTRY LIST not raw seed numbers (Pliskova 9 bye, Swiatek 15 played 1R). Seed-played-only: Krejcikova 2023 (s10), Kalinina 2024 (s30), Tauson 2026 (s18 - winner-2025/retiree-2026 both-sides figure). 2 tied-token rows (Kerber-Halep 3-3, Collins-Blinkova 0-0); 2025 missing R128 found by scripted TE-1R-diff incl. 2 name-canon artifacts cleared (Federica Urgesi, Arianna Zucchini). Era mix byte-asserted: 2021-22 draw 56 (55/55, 8 byes), 2023-26 draw 96 (95/95, 32 byes); exhaustive spine x6."
+  "rome_wta_closure_note": "T-033b (2026-08-19, Auditor 1, pre-audit->work->post-audit cycle - ROME EVENT COMPLETE with T-033a: 12 slices, 31 restorations, largest event of the program): 18/18 Rome WTA gaps FIXED across 2021-2026 - 13 retirements + 5 walkovers, every row TE-sourced with match-detail id; byte map (18) matched exactly; all missing rows ret/wo - 9th consecutive slice-set; the 4 ret rows already in the claude_1 slice (2021 QF Gauff-Barty, 2022 QF Kasatkina-Teichmann, 2023 QF Rybakina-Swiatek, 2023 F Rybakina-Kalinina) all came via the date-source-CSV path, not the raw pipeline. PRE-WORK HYPOTHESIS KILLED BY BYTES (Rule 3): the announced 2021 chained anomaly (missing R64 winner losing a missing R32) was DISPROVEN - the missing R64 winner was IGA SWIATEK (5-4 ret over Riske), the opening rung of her 2021 TITLE run (6-0 6-0 final) - 4th champion-rung of the program; the R32 losers were bye-holder Halep and Brady. 5th champion-rung in the SAME slice-set: Rybakina d. Kalinskaya 4-3 ret restored the R32 of her 2023 title run - BBC's 'third walkover victory of the tournament' now fully agrees with bytes (restored R32 ret + in-store QF ret vs Swiatek + in-store F ret vs Kalinina). HALEP's famous calf-tear exit restored: Kerber d. Halep 1-6 3-3 ret - Halep retired A SET UP, winner carries setsA 0 setsB 1 games 4-9; even more extreme: Parrizas Diaz d. Sorribes Tormo 1-6 3-4 ret - loser retired A SET AND A BREAK UP (setsB 2, games 10-4 for the LOSER - most extreme loser-ahead row of the program, parser-truthful). W/O ledger: Brady 2021 foot (her OWN words, Reuters); Azarenka 2023 right leg (WTA-official); Kvitova 2025 leg (Reuters); Kalinina 2022 UNANNOUNCED (no reason in coverage); Siegemund 2025 UNANNOUNCED - her SECOND unannounced W/O (Miami 2021 precedent). THREE LL-into-byes in one event (5th/6th/7th of program, all bracket byte-proven): Dodin 2024 (only match = restored R64 loss), Teichmann 2025, Siegemund 2025 (LL + W/O in same edition). 2021 byes byte-proven to follow ENTRY LIST not raw seed numbers (Pliskova 9 bye, Swiatek 15 played 1R). Seed-played-only: Krejcikova 2023 (s10), Kalinina 2024 (s30), Tauson 2026 (s18 - winner-2025/retiree-2026 both-sides figure). 2 tied-token rows (Kerber-Halep 3-3, Collins-Blinkova 0-0); 2025 missing R128 found by scripted TE-1R-diff incl. 2 name-canon artifacts cleared (Federica Urgesi, Arianna Zucchini). Era mix byte-asserted: 2021-22 draw 56 (55/55, 8 byes), 2023-26 draw 96 (95/95, 32 byes); exhaustive spine x6.",
+  "canada_atp_closure_note": "T-034a (2026-08-19, Auditor 1, pre-audit->work->post-audit): 11/11 Canada Masters ATP gaps FIXED across 2021-2025 (no 2026 edition in store - post-event queue) - 7 retirements + 4 walkovers, every row TE-sourced; 10th consecutive all-ret/wo slice-set; ZERO pre-existing ret/wo in the claude_1 ATP slice (pure 100% drop). HEADLINE SELF-CORRECTION (pre-commit, Rule 3/7): the announced 2021 draw-size caveat resolved AGAINST both prior hypotheses - TE bracket byte-proves Toronto 2021 was a COVID-era 64-draw with 16 BYES (47 matches, template 16/16/8/4/2/1), NOT 56-draw: survey said deficit ~9, pre-audit briefly said 9 too; actual deficit = 1 (Hurkacz d. Nishikori W/O). Canada ATP total = 11 not 19; program total 33 not 41. Documented per-edition exception added to the audit harness (Dubai-2021 precedent). CHAMPION-RUNG (6th): Sinner d. Murray W/O restored the R16 of Sinner 2023 Canada TITLE run (Murray abdominal, own on-court words, only his 7th career W/O conceded). All 4 W/O reasons wire-corroborated: Nishikori 2021 right shoulder (own statement, Reuters); Murray 2023 abdominal (own words, IANS); Ruud 2024 illness (puntodebreak + TE profile ledger); O'Connell 2025 abdominal (ATP-OFFICIAL). Korda 2024: missing-R64 winner (Pospisil 2-1 ret) who reached the SEMIFINALS - two restorations in his run (R64 ret + R16 Ruud W/O). ADF retirement-loser in BOTH 2024 (Arnaldi, won set 1) and 2025 (Rublev, won set 1) R16s. RCB now in restorations at a 3rd distinct event. 8th LL-into-bye: Atmane Toronto 2025 (bracket byte-proven). 2025 R128s found via scripted TE-1R-diff with 3 name-canon artifacts cleared (Shang Juncheng, Dan Martin, Colton Smith). 1x J.J. Wolf (2023) renamed at pull-time per PRE-AUDIT catch. Era mix byte-asserted: 64-draw/16-bye (2021), 56-draw/8-bye (2022-24), 96-draw/32-bye (2025); exhaustive spine x5. City alternation documented per-edition (ATP: Toronto odd years, Montreal even)."
 }

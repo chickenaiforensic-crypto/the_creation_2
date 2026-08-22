@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 173,
+  "total_editions": 178,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2250,6 +2250,71 @@
       "checksum_sha256": "e94fb92f8dc6cd19d295d60ced4016a317e9d216577e783f552d90de64b4fc1c",
       "file_path": "editions/Rome/2026.json",
       "gap_count": 1
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2021",
+      "draw_size": 64,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 47/47, template exact, 16 byes, spine complete = draw 64 (COVID-era 16-bye field, exp 47 - documented exception)",
+      "match_count": 47,
+      "checksum_sha256": "7c4c8c87797de8af4b9139247855084ed7595e8d40efbec040b3e031f0d43f51",
+      "file_path": "editions/Canada_Masters/2021.json",
+      "gap_count": 1
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "0f3ac950dca6aa480be966b0ed06a067091143ae0c1c5de4787417d7cb3dd4ab",
+      "file_path": "editions/Canada_Masters/2022.json",
+      "gap_count": 1
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "a0c25ff91aaac59202c1e74ce6422e1e5014f3a15ff7689a079911d5aa28bd76",
+      "file_path": "editions/Canada_Masters/2023.json",
+      "gap_count": 1
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "c68bf43b13ccb0e3258fb6a06b9930db584862cc6a9f80ad54b3c785dd83e18b",
+      "file_path": "editions/Canada_Masters/2024.json",
+      "gap_count": 3
+    },
+    {
+      "tournament": "Canada Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "a363740908363c784821d49b8cf45013e7001e7a7ddaa4c5d9ae3055f3c3d42d",
+      "file_path": "editions/Canada_Masters/2025.json",
+      "gap_count": 5
     }
   ],
   "gap_report_file": "gap_report.json"

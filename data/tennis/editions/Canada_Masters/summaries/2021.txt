@@ -1,0 +1,10 @@
+Canada Masters — Canada Masters (M1000)
+Edition: 2021
+Draw size: 64
+Status: closed_verified_gapless
+Match count: 47
+Round coverage: R64(16) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Daniil Medvedev
+Runner-up: Reilly Opelka
+Source: Structural proof post-fix: 47/47, template exact, 16 byes, spine complete = draw 64 (COVID-era 16-bye field, exp 47 - documented exception)
+Checksum: 7c4c8c87797d... (full value in MANIFEST.json)

@@ -1,0 +1,10 @@
+Canada Masters — Canada Masters (M1000)
+Edition: 2025
+Draw size: 96
+Status: closed_verified_gapless
+Match count: 95
+Round coverage: R128(32) R64(32) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Ben Shelton
+Runner-up: Karen Khachanov
+Source: Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96
+Checksum: a36374090836... (full value in MANIFEST.json)
