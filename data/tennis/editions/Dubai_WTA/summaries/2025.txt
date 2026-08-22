@@ -1,0 +1,10 @@
+Dubai — Dubai Tennis Championships (M1000)
+Edition: 2025
+Draw size: 56
+Status: closed_verified_gapless
+Match count: 55
+Round coverage: R64(24) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Mirra Andreeva
+Runner-up: Clara Tauson
+Source: BUILT 100% from TennisExplorer bytes under T-036b (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 56 byte-read from TE bracket (8 byes: Sabalenka(1)/Swiatek(2)/Gauff(3)/Paolini(4)/Pegula(5)/Rybakina(6)/Zheng(7)/Navarro(8)); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; W/O reasons wire-corroborated or recorded UNANNOUNCED. ZERO ret/wo edition (all 55 matches completed - byte-asserted, S=2 on every TE row). Champion MIRRA ANDREEVA d. Tauson 7-6(1) 6-1 - youngest WTA 1000 champion (17), beating Swiatek QF + Rybakina SF en route (Wikipedia corroborated); Tauson d. Sabalenka(1) R16 upset preserved. Dubai Duty Free Tennis Championships, outdoor hard, Feb 16-22 2025.
+Checksum: 13ef721a841f... (full value in MANIFEST.json)
