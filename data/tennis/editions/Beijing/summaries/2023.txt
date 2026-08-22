@@ -1,0 +1,10 @@
+Beijing — Beijing (M1000)
+Edition: 2023
+Draw size: 64
+Status: closed_verified_gapless
+Match count: 59
+Round coverage: R64(28) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Iga Swiatek
+Runner-up: Liudmila Samsonova
+Source: BUILT 100% from TennisExplorer bytes under T-037a (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). DRAW ADJUDICATION: 2023 China Open used a 64-slot draw with 60 players and 4 PERFORMANCE BYES awarded to the Tokyo (Toray PPO) semifinalists (Pegula(4)/Sakkari(6)/Kudermetova(16)/UNSEEDED Pavlyuchenkova) - bracket bytes (exactly 4 bye markers) + WTA.com official + Wikipedia agree; 59/59 rows (documented per-edition exception, cf. Dubai-2021/45 and Canada_Masters-2021/47), template 28/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; the survey's 96-draw hypothesis for Beijing 2023 was KILLED BY BYTES (no 3R round exists on TE). Champion Swiatek d. Samsonova 6-2 6-2 (Wikipedia corroborated). China Open, outdoor hard, Sep 30 - Oct 8 2023.
+Checksum: d571bf4609b7... (full value in MANIFEST.json)
