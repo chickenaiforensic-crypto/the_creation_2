@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 149,
+  "total_editions": 155,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -1938,6 +1938,84 @@
       "checksum_sha256": "cc1a9fdd5ca5a7d3b2c0314b5ebbbb51ccc72bcd8220d23649ae64038ebff2a9",
       "file_path": "editions/Monte_Carlo_Masters/2026.json",
       "gap_count": 2
+    },
+    {
+      "tournament": "Madrid Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2021",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "00de0bf39aaeecab1f15cfd4a7387f6e8de14b25e78d8c8070b8877592aa95c0",
+      "file_path": "editions/Madrid_Masters/2021.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Madrid Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "602544515837b7cd59574a1eca1a25572dddd21e59dde5077147a535e51d4707",
+      "file_path": "editions/Madrid_Masters/2022.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Madrid Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "c232aa920cd1466ec19d2abd5060d0cf237b0fcd728d91aa6a758b29cfd4ac17",
+      "file_path": "editions/Madrid_Masters/2023.json",
+      "gap_count": 1
+    },
+    {
+      "tournament": "Madrid Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "8c1b0e6c4ae62c1eee1e7aee97856610a79395f53ee4b33dc988356c3aab439d",
+      "file_path": "editions/Madrid_Masters/2024.json",
+      "gap_count": 3
+    },
+    {
+      "tournament": "Madrid Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "52499dbe08f73d338c246346b0e4f025e7397c32be8653df87949dacc75b1c64",
+      "file_path": "editions/Madrid_Masters/2025.json",
+      "gap_count": 9
+    },
+    {
+      "tournament": "Madrid Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2026",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "80a4d7ffb5f633ff9a475b0f62c1d1d037f87b93399d6ccb3db35a5a2631f826",
+      "file_path": "editions/Madrid_Masters/2026.json",
+      "gap_count": 4
     }
   ],
   "gap_report_file": "gap_report.json"
