@@ -1,0 +1,10 @@
+Montreal — Montreal (M1000)
+Edition: 2025
+Draw size: 96
+Status: closed_verified_gapless
+Match count: 95
+Round coverage: R128(32) R64(32) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Victoria Mboko
+Runner-up: Naomi Osaka
+Source: Pulled from claude_1 store (md5 a280b2fb...) + T-034b gap fixes (1); draw 96 proven structurally post-fix (95/95 rows, round template 32/32/16/8/4/2/1 exact, 32 byes byte-asserted, exhaustive spine R128->F). City alternation: WTA plays Montreal in odd years (2021/2023/2025), Toronto in even (2022/2024) - reverse of the ATP.
+Checksum: 3e41092f35c9... (full value in MANIFEST.json)

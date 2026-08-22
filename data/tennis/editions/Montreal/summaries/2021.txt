@@ -1,0 +1,10 @@
+Montreal — Montreal (M1000)
+Edition: 2021
+Draw size: 56
+Status: closed_verified_gapless
+Match count: 55
+Round coverage: R64(24) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Camila Giorgi
+Runner-up: Karolina Pliskova
+Source: Pulled from claude_1 store (md5 a280b2fb...) + T-034b gap fixes (5); draw 56 proven structurally post-fix (55/55 rows, round template 24/16/8/4/2/1 exact, 8 byes byte-asserted, exhaustive spine R64->F). NOT a COVID special despite n=50 pull: TE bracket shows a standard 56-draw with 8 seed byes; all 3 missing R64s were retirements won by the 3 non-bye ghost entrants. City alternation: WTA plays Montreal in odd years (2021/2023/2025), Toronto in even (2022/2024) - reverse of the ATP.
+Checksum: 7684201fc8f2... (full value in MANIFEST.json)

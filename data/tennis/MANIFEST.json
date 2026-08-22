@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 178,
+  "total_editions": 183,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2315,6 +2315,71 @@
       "checksum_sha256": "a363740908363c784821d49b8cf45013e7001e7a7ddaa4c5d9ae3055f3c3d42d",
       "file_path": "editions/Canada_Masters/2025.json",
       "gap_count": 5
+    },
+    {
+      "tournament": "Montreal",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2021",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Pulled from claude_1 store (md5 a280b2fb...) + T-034b gap fixes (5); draw 56 proven structurally post-fix (55/55 rows, round template 24/16/8/4/2/1 exact, 8 byes byte-asserted, exhaustive spine R64->F). NOT a COVID special despite n=50 pull: TE bracket shows a standard 56-draw with 8 seed byes; all 3 missing R64s were retirements won by the 3 non-bye ghost entrants. City alternation: WTA plays Montreal in odd years (2021/2023/2025), Toronto in even (2022/2024) - reverse of the ATP.",
+      "match_count": 55,
+      "checksum_sha256": "7684201fc8f2176ec34f59faba6231e0387899581c9b02ba743d94b3f4f562bc",
+      "file_path": "editions/Montreal/2021.json",
+      "gap_count": 5
+    },
+    {
+      "tournament": "Toronto",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Pulled from claude_1 store (md5 a280b2fb...) + T-034b gap fixes (3); draw 56 proven structurally post-fix (55/55 rows, round template 24/16/8/4/2/1 exact, 8 byes byte-asserted, exhaustive spine R64->F). City alternation: WTA plays Montreal in odd years (2021/2023/2025), Toronto in even (2022/2024) - reverse of the ATP.",
+      "match_count": 55,
+      "checksum_sha256": "65502e7ee0d4279ee4d8817daa6342afc064c1a11369284cee7f36d8a5306024",
+      "file_path": "editions/Toronto/2022.json",
+      "gap_count": 3
+    },
+    {
+      "tournament": "Montreal",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Pulled from claude_1 store (md5 a280b2fb...) + T-034b gap fixes (2); draw 56 proven structurally post-fix (55/55 rows, round template 24/16/8/4/2/1 exact, 8 byes byte-asserted, exhaustive spine R64->F). City alternation: WTA plays Montreal in odd years (2021/2023/2025), Toronto in even (2022/2024) - reverse of the ATP.",
+      "match_count": 55,
+      "checksum_sha256": "deb0f7203b552c261b987b6c26d24e516e55b6b6f8ae8eed7a277735df0aa56c",
+      "file_path": "editions/Montreal/2023.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Toronto",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Pulled from claude_1 store (md5 a280b2fb...) + T-034b gap fixes (5); draw 56 proven structurally post-fix (55/55 rows, round template 24/16/8/4/2/1 exact, 8 byes byte-asserted, exhaustive spine R64->F). City alternation: WTA plays Montreal in odd years (2021/2023/2025), Toronto in even (2022/2024) - reverse of the ATP.",
+      "match_count": 55,
+      "checksum_sha256": "0cb169cb51011c1998f17d120bb8e4b96a8a80516807af59ec0bbb2e3d448bc9",
+      "file_path": "editions/Toronto/2024.json",
+      "gap_count": 5
+    },
+    {
+      "tournament": "Montreal",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Pulled from claude_1 store (md5 a280b2fb...) + T-034b gap fixes (1); draw 96 proven structurally post-fix (95/95 rows, round template 32/32/16/8/4/2/1 exact, 32 byes byte-asserted, exhaustive spine R128->F). City alternation: WTA plays Montreal in odd years (2021/2023/2025), Toronto in even (2022/2024) - reverse of the ATP.",
+      "match_count": 95,
+      "checksum_sha256": "3e41092f35c93dd049d5e7a468a941c83a78762a76a1b608924239f7b372d0cc",
+      "file_path": "editions/Montreal/2025.json",
+      "gap_count": 1
     }
   ],
   "gap_report_file": "gap_report.json"
