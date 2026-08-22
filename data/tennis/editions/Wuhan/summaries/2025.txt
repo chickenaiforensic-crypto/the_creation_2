@@ -1,0 +1,10 @@
+Wuhan — Wuhan (M1000)
+Edition: 2025
+Draw size: 56
+Status: closed_verified_gapless
+Match count: 55
+Round coverage: R64(24) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Coco Gauff
+Runner-up: Jessica Pegula
+Source: BUILT 100% from TennisExplorer bytes under T-037b (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 56 byte-read from TE bracket (64 slots, 8 byes: seeds 1/2/3/5/6/7/8 + LL Iva Jovic INHERITING withdrawn seed 4 Anisimova's bye - LL-INTO-BYE #12, left calf, tennisuptodate 2025-10-07/Deadspin 2025-10-06); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; 6 ret/wo rows 100% header re-read: Cirstea d. Ostapenko 6-0 2-1 ret, Ann Li d. Raducanu 6-1 4-1 ret, Siegemund d. Yastremska 7-5 4-6 4-1 ret (Yastremska won set 2), Bencic d. Mertens W/O (back, tennistemple/RTBF 2025-10-08), Frech d. Muchova 7-6(1) 4-1 ret, Paolini d. Tauson 3-6 6-1 3-1 ret (Tauson won set 1). Identities: li-f8666 header-proven Ann Li; zhu-a98e2 header-proven Zhu Lin -> store canon Lin Zhu; zero store-new names. Champion Gauff d. Pegula 6-4 7-5 all-American final (Reuters 2025-10-12 + Wikipedia corroborated; first player to win her first nine hard-court finals); Pegula d. Sabalenka(1) SF 2-6 6-4 7-6(2) and unseeded Siegemund QF run (d. M-Andreeva(5)) preserved. Wuhan Open, outdoor hard, Oct 6-12 2025.
+Checksum: 5aa717cd5a5c... (full value in MANIFEST.json)
