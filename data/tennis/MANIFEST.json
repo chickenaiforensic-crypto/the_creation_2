@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 198,
+  "total_editions": 199,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2574,6 +2574,19 @@
       "match_count": 95,
       "checksum_sha256": "800bfc03cd2140894b0932c8a2bde464ac09584dcc3d0fe1dd69b195bd07a4be",
       "file_path": "editions/Beijing/2025.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Wuhan",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "BUILT 100% from TennisExplorer bytes under T-037b (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 56 byte-read from TE bracket (64 slots, 8 byes to seeds 1-8: Sabalenka/Pegula/Paolini/Gauff/Zheng/Navarro/Krejcikova/Kasatkina); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; 3 ret/wo rows 100% header re-read: Pegula d. Potapova 6-2 2-0 ret, Linette d. Tsurenko 5-2 ret (mid-set-1), Kostyuk d. Anisimova W/O (left hip, obozrevatel 2024-10-10). Sisters row preserved: Erika Andreeva d. Mirra Andreeva (16) 6-3 6-1 2R, TE-id split 5ec85/7d55d. Champion Sabalenka d. Zheng Qinwen 6-3 5-7 6-3 (Wikipedia corroborated); Wang Xinyu run F-4 over Pegula(2)+Alexandrova preserved. Wuhan Open, outdoor hard, Oct 7-13 2024; first edition since 2019 (TE year-nav 2020-23 COVID hole byte-proven).",
+      "match_count": 55,
+      "checksum_sha256": "991e3443c98aa4e7dece7a80357511452d77b176b45213265a357d482078286a",
+      "file_path": "editions/Wuhan/2024.json",
       "gap_count": 0
     }
   ],

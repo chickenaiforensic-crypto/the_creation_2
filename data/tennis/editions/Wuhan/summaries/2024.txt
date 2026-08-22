@@ -1,0 +1,10 @@
+Wuhan — Wuhan (M1000)
+Edition: 2024
+Draw size: 56
+Status: closed_verified_gapless
+Match count: 55
+Round coverage: R64(24) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Aryna Sabalenka
+Runner-up: Qinwen Zheng
+Source: BUILT 100% from TennisExplorer bytes under T-037b (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 56 byte-read from TE bracket (64 slots, 8 byes to seeds 1-8: Sabalenka/Pegula/Paolini/Gauff/Zheng/Navarro/Krejcikova/Kasatkina); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; 3 ret/wo rows 100% header re-read: Pegula d. Potapova 6-2 2-0 ret, Linette d. Tsurenko 5-2 ret (mid-set-1), Kostyuk d. Anisimova W/O (left hip, obozrevatel 2024-10-10). Sisters row preserved: Erika Andreeva d. Mirra Andreeva (16) 6-3 6-1 2R, TE-id split 5ec85/7d55d. Champion Sabalenka d. Zheng Qinwen 6-3 5-7 6-3 (Wikipedia corroborated); Wang Xinyu run F-4 over Pegula(2)+Alexandrova preserved. Wuhan Open, outdoor hard, Oct 7-13 2024; first edition since 2019 (TE year-nav 2020-23 COVID hole byte-proven).
+Checksum: 991e3443c98a... (full value in MANIFEST.json)
