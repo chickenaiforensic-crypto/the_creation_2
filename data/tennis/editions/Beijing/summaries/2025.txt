@@ -1,0 +1,10 @@
+Beijing — Beijing (M1000)
+Edition: 2025
+Draw size: 96
+Status: closed_verified_gapless
+Match count: 95
+Round coverage: R128(32) R64(32) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Amanda Anisimova
+Runner-up: Linda Noskova
+Source: BUILT 100% from TennisExplorer bytes under T-037a (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 96 byte-read from TE bracket (32 byes to all seeded slots; seed 11 absent with TE label 33 Linette in a bye slot - post-withdrawal seeding rendered as-is; 2 LLs in played 1R slots); 95/95 rows, template 32/32/16/8/4/2/1 exact, exhaustive spine R128->F; every row cites its TE match-detail URL; FIVE 3R retirements built in (100% header re-read) incl. Swiatek d. Osorio 6-0 0-0 (0-0 tied token credits nobody) and two loser-won-set rows (Zheng, Krejcikova - the latter with games EQUAL 11-11); identities byte-proven: Guo Hanyu -> store canon Hanyu Guo; store-new Ruien Zhang (zhang-9e37b, Western order per locked rule) - THREE distinct WTA Zhangs now disambiguated. Champion Anisimova d. Noskova 6-0 2-6 6-2 (back-to-back Beijing finals for Anisimova; Wikipedia corroborated); Navarro d. Swiatek(1) R16 preserved. China Open, outdoor hard, Sep 24 - Oct 5 2025.
+Checksum: 800bfc03cd21... (full value in MANIFEST.json)
