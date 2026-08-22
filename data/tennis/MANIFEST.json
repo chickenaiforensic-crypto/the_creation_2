@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 192,
+  "total_editions": 193,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2496,6 +2496,19 @@
       "match_count": 55,
       "checksum_sha256": "aed2f7918f7fef0af431b47155ef323623cb0b50bde2a9e29153b44943534b16",
       "file_path": "editions/Dubai_WTA/2021.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Dubai",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "BUILT 100% from TennisExplorer bytes under T-036b (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 56 byte-read from TE bracket (8 byes: Swiatek(1)/Sabalenka(2)/Pegula(3)/Garcia(4)/Gauff(5)/Sakkari(6)/Kasatkina(7)/Bencic(8)); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; W/O reasons wire-corroborated or recorded UNANNOUNCED. FOUR walkovers built in (withdrawal-plagued edition); champion Krejcikova d. Swiatek 6-4 6-2 (Wikipedia corroborated). Dubai Duty Free Tennis Championships, outdoor hard, Feb 19-25 2023.",
+      "match_count": 55,
+      "checksum_sha256": "265f100befc935d4f40ffca4f8f5a3b3c2528c98f3558175e46a883354fbf530",
+      "file_path": "editions/Dubai_WTA/2023.json",
       "gap_count": 0
     }
   ],
