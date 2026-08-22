@@ -1,0 +1,10 @@
+Guadalajara — Guadalajara (M1000)
+Edition: 2022
+Draw size: 56
+Status: closed_verified_gapless
+Match count: 55
+Round coverage: R64(24) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Jessica Pegula
+Runner-up: Maria Sakkari
+Source: BUILT 100% from TennisExplorer bytes under T-038 (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Slug guadalajara-2-wta byte-verified as the October WTA 1000 (Feb 250 = guadalajara-wta - census conflation trap avoided). Draw 56 byte-read from TE bracket (64 slots, 8 byes to seeds 1-8: Badosa/Sabalenka/Pegula/Sakkari/Gauff/Garcia/Kasatkina/Kudermetova); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; 2 retirements 100% header re-read: Azarenka d. Badosa(1) 6-2 ret after set 1 (ILLNESS - Tennis Majors + WTA official 2022-10-20, Badosa's own quote) and Bouzkova d. Kalinskaya 5-2 ret mid-set-1 QF (FOOT - Tennis Majors 2022-10-22 citing WTA). Champion Pegula d. Sakkari 6-2 6-3 (Wikipedia corroborated - her first WTA 1000 title); Samsonova upset of Sabalenka(2) 2R and Azarenka's unseeded run to the SF preserved. WTA Guadalajara Open Akron, outdoor hard, Oct 17-24 2022; the one-off 1000 upgrade year at altitude (event was a 250 in Feb 2022 and returned to lower tier from 2024).
+Checksum: 0eae5fc566c6... (full value in MANIFEST.json)
