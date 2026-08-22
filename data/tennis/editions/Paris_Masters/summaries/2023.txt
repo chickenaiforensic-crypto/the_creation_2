@@ -1,0 +1,10 @@
+Paris Masters — Paris Masters (M1000)
+Edition: 2023
+Draw size: 56
+Status: closed_verified_gapless
+Match count: 55
+Round coverage: R64(24) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Novak Djokovic
+Runner-up: Grigor Dimitrov
+Source: Pulled from claude_1 store (md5 a280b2fb...) + T-035 gap fixes (2); draw 56 proven structurally post-fix (55/55 rows, round template 24/16/8/4/2/1 exact, 8 byes byte-asserted, exhaustive spine R64->F). Indoor hard (Bercy/La Defense). 1x J.J. Wolf renamed Jeffrey Wolf at pull (Rule 1, name_fix provenance).
+Checksum: 3bd4da122bc3... (full value in MANIFEST.json)

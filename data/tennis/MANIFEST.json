@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 183,
+  "total_editions": 188,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2379,6 +2379,71 @@
       "match_count": 95,
       "checksum_sha256": "3e41092f35c93dd049d5e7a468a941c83a78762a76a1b608924239f7b372d0cc",
       "file_path": "editions/Montreal/2025.json",
+      "gap_count": 1
+    },
+    {
+      "tournament": "Paris Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2021",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Pulled from claude_1 store (md5 a280b2fb...) + T-035 gap fixes (2); draw 56 proven structurally post-fix (55/55 rows, round template 24/16/8/4/2/1 exact, 8 byes byte-asserted, exhaustive spine R64->F). Indoor hard (Bercy/La Defense).",
+      "match_count": 55,
+      "checksum_sha256": "68c2b9d3acf147b938c063e23c8357e6b530ebab68bea0914841e72b413aa49e",
+      "file_path": "editions/Paris_Masters/2021.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Paris Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Pulled from claude_1 store (md5 a280b2fb...) + T-035 gap fixes (0); draw 56 proven structurally post-fix (55/55 rows, round template 24/16/8/4/2/1 exact, 8 byes byte-asserted, exhaustive spine R64->F). Indoor hard (Bercy/La Defense). 2022 verify-only: complete on pull, zero gaps.",
+      "match_count": 55,
+      "checksum_sha256": "cad457460a51103930908920c5f83cb8f0f67c15b9d3393e4e159c66ef27adf1",
+      "file_path": "editions/Paris_Masters/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Paris Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Pulled from claude_1 store (md5 a280b2fb...) + T-035 gap fixes (2); draw 56 proven structurally post-fix (55/55 rows, round template 24/16/8/4/2/1 exact, 8 byes byte-asserted, exhaustive spine R64->F). Indoor hard (Bercy/La Defense). 1x J.J. Wolf renamed Jeffrey Wolf at pull (Rule 1, name_fix provenance).",
+      "match_count": 55,
+      "checksum_sha256": "3bd4da122bc399b6ce447dbcb53376f8e8119a8ac2eedecc1a49c56f4c8436e2",
+      "file_path": "editions/Paris_Masters/2023.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Paris Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Pulled from claude_1 store (md5 a280b2fb...) + T-035 gap fixes (1); draw 56 proven structurally post-fix (55/55 rows, round template 24/16/8/4/2/1 exact, 8 byes byte-asserted, exhaustive spine R64->F). Indoor hard (Bercy/La Defense). 2024 bye set includes LL Cazaux in the withdrawn seed-1 (Sinner) slot - 9th LL-into-bye, wire-locked (Reuters/tennismajors/perfect-tennis); no row fabricated.",
+      "match_count": 55,
+      "checksum_sha256": "3aafca3d9c30f644a442527ab01cc22b138d346cde07633b4eb617b750df7ba1",
+      "file_path": "editions/Paris_Masters/2024.json",
+      "gap_count": 1
+    },
+    {
+      "tournament": "Paris Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Pulled from claude_1 store (md5 a280b2fb...) + T-035 gap fixes (1); draw 56 proven structurally post-fix (55/55 rows, round template 24/16/8/4/2/1 exact, 8 byes byte-asserted, exhaustive spine R64->F). Indoor hard (Bercy/La Defense).",
+      "match_count": 55,
+      "checksum_sha256": "6b3be7f232c89d2a34070bf93426423718714d9b696cf5f8b3a00aafbab0df5d",
+      "file_path": "editions/Paris_Masters/2025.json",
       "gap_count": 1
     }
   ],
