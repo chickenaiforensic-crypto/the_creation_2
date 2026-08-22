@@ -1,0 +1,10 @@
+Dubai — Dubai Tennis Championships (M1000)
+Edition: 2021
+Draw size: 56
+Status: closed_verified_gapless
+Match count: 55
+Round coverage: R64(24) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Garbiñe Muguruza
+Runner-up: Barbora Krejcikova
+Source: BUILT 100% from TennisExplorer bytes under T-036b (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 56 byte-read from TE bracket (8 byes: Svitolina(1)/Pliskova(2)/Sabalenka(3)/Kvitova(4)/Bertens(5)/Bencic(6)/Swiatek(8) + LL TREVISAN in the vacant seed-7 slot); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; LL-INTO-BYE #10 wire-locked: Trevisan promoted after Azarenka's back-injury withdrawal, 'bye at the first round' (livetennis.it 2021-03-07) - bracket bytes agree exactly; WTA 1000 status per 2021 rebranding (Dubai = odd-year 1000). Dubai Duty Free Tennis Championships, outdoor hard, March 7-13 2021.
+Checksum: aed2f7918f7f... (full value in MANIFEST.json)
