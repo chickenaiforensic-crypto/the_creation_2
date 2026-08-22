@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 161,
+  "total_editions": 167,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2093,6 +2093,84 @@
       "match_count": 95,
       "checksum_sha256": "44dbc6270c48d24cf3a0fc421289e0870c893f4a312a8f2b0d854557700a6fb8",
       "file_path": "editions/Madrid/2026.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2021",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "8c5561b9fa12a0e0dc6482065b1bd23e0020b2833691163e3b935bb3e48f8591",
+      "file_path": "editions/Rome_Masters/2021.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "9504e254d97671e42fc0da91961b02b1cc4329a6faf515e52d351d34e2eec462",
+      "file_path": "editions/Rome_Masters/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "1bfdd3aee8501c812186a45c009b32a410b7466efc6c36b08b0f3d95fd38e2a8",
+      "file_path": "editions/Rome_Masters/2023.json",
+      "gap_count": 3
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "faca32884d96eb457eaf262dc8b918ac2ba6935517cc73f0adcdbd0a9548011a",
+      "file_path": "editions/Rome_Masters/2024.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "5c76edaa4dd17d00f5e620354ade3d01a2c8ebeaaf4c0880ff28bbb0f9c8e365",
+      "file_path": "editions/Rome_Masters/2025.json",
+      "gap_count": 4
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "tier": "M1000",
+      "year": "2026",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "eca2bdd15c6106b3162e933906fc751e6cdad3f33247667de98f59ae0626d9e7",
+      "file_path": "editions/Rome_Masters/2026.json",
       "gap_count": 2
     }
   ],

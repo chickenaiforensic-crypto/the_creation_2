@@ -1,10 +1,10 @@
 {
   "description": "Gap report for the 20 closed_verified tennis editions migrated to this branch. Produced via round-transition ghost detection (R32-onward, byefree per validated M1000 method in phase1-audit/WORKORDER_Phase1_DrawSize_Gap_Audit.md Phase 1B). A gap = a player appearing in round N+1 with no traceable win recorded in round N within the same edition file.",
   "method": "For each edition, for each transition in [R32->R16, R16->QF, QF->SF, SF->F]: collect all playerA/playerB in round N+1; collect all winners (resolved via winner field + playerA/playerB) in round N; any round-N+1 participant absent from round-N winners is a gap. R64->R32 excluded uniformly (bye-affected at this draw depth, not a genuine gap) per the same exclusion applied to M1000 in Phase 1B.",
-  "editions_checked": 161,
+  "editions_checked": 167,
   "editions_clean": 143,
   "editions_with_gaps": 0,
-  "total_gap_instances": 222,
+  "total_gap_instances": 235,
   "gaps": [
     {
       "tournament": "Rotterdam",
@@ -2669,9 +2669,165 @@
       "file_path": "editions/Madrid/2026.json",
       "status": "closed",
       "resolution": "TE Madrid 2026 WTA: 26.04. 12:30 3R Linda Noskova (13) d. Liudmila Samsonova (20), S 1-0 with ALL BLANK set scores = WALKOVER (id 3185286). Reason wire-corroborated: ILLNESS in the Madrid 2026 tournament-wide virus outbreak, withdrew hours before the match having already pulled out of doubles (tennistonic 2026-04-26); Samsonova later: \"For two or three days, I could not get up\" (tennistemple 2026-05-10). Added row: Linda Noskova d. Liudmila Samsonova W/O, date 2026-04-26. Source: https://www.tennisexplorer.com/match-detail/?id=3185286"
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "year": "2021",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Lorenzo Musetti",
+      "gap_id": "RM001",
+      "folder": "Rome_Masters",
+      "file_path": "editions/Rome_Masters/2021.json",
+      "status": "closed",
+      "resolution": "TE Rome 2021 ATP: 10.05. 19:10 1R Lorenzo Musetti (WC) d. Hubert Hurkacz (15), S 1-0 with partial 2-0 = RETIREMENT (id 1941413). Resolves the 9th entry-at-R32 anomaly (Musetti was the extra, not a bye). Added row: Lorenzo Musetti d. Hubert Hurkacz 6-4 2-0, date 2021-05-10. Source: https://www.tennisexplorer.com/match-detail/?id=1941413"
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "year": "2021",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Kei Nishikori",
+      "gap_id": "RM002",
+      "folder": "Rome_Masters",
+      "file_path": "editions/Rome_Masters/2021.json",
+      "status": "closed",
+      "resolution": "TE Rome 2021 ATP: 11.05. 14:30 2R Kei Nishikori d. Pablo Carreno Busta (11), S 1-0 with ALL BLANK set scores = WALKOVER (id 1942153). Reason wire-corroborated: LOWER BACK PAIN, ATP-official (atptour.com/en/news/musetti-shapovalov-rome-2021-tuesday: \"gave the Japanese star a walkover due to lower back pain\"). Added row: Kei Nishikori d. Pablo Carreno Busta W/O, date 2021-05-11. Source: https://www.tennisexplorer.com/match-detail/?id=1942153"
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "year": "2023",
+      "missing_round": "R128",
+      "player_no_traceable_win": "Laslo Djere",
+      "gap_id": "RM003",
+      "folder": "Rome_Masters",
+      "file_path": "editions/Rome_Masters/2023.json",
+      "status": "closed",
+      "resolution": "TE Rome 2023 ATP: 10.05. 14:30 1R Laslo Djere d. Constant Lestienne, S 1-0 with single set 6-1 = RETIREMENT (id 2344565). Identified by full scripted TE-1R-diff vs store bytes (2 name-canon artifacts cleared as non-gaps: J.J. Wolf-Grenier row present pre-rename; Albert Ramos-Vinolas hyphen). Added row: Laslo Djere d. Constant Lestienne 6-1, date 2023-05-10. Source: https://www.tennisexplorer.com/match-detail/?id=2344565"
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "year": "2023",
+      "missing_round": "R128",
+      "player_no_traceable_win": "Thanasi Kokkinakis",
+      "gap_id": "RM004",
+      "folder": "Rome_Masters",
+      "file_path": "editions/Rome_Masters/2023.json",
+      "status": "closed",
+      "resolution": "TE Rome 2023 ATP: 10.05. 17:05 1R Thanasi Kokkinakis (Q) d. Jaume Munar, S 1-0 with partial 4-2 = RETIREMENT (id 2345309). Added row: Thanasi Kokkinakis d. Jaume Munar 4-2, date 2023-05-10. Source: https://www.tennisexplorer.com/match-detail/?id=2345309"
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "year": "2023",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Laslo Djere",
+      "gap_id": "RM005",
+      "folder": "Rome_Masters",
+      "file_path": "editions/Rome_Masters/2023.json",
+      "status": "closed",
+      "resolution": "TE Rome 2023 ATP: 14.05. 13:20 3R Laslo Djere d. Cristian Garin, S 1-0 with partial 2-1 = RETIREMENT (id 2346809). Djere is winner of TWO restorations in this edition (R128 + R32). Added row: Laslo Djere d. Cristian Garin 6-3 2-1, date 2023-05-14. Source: https://www.tennisexplorer.com/match-detail/?id=2346809"
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "year": "2024",
+      "missing_round": "R128",
+      "player_no_traceable_win": "Roberto Carballes Baena",
+      "gap_id": "RM006",
+      "folder": "Rome_Masters",
+      "file_path": "editions/Rome_Masters/2024.json",
+      "status": "closed",
+      "resolution": "TE Rome 2024 ATP: match-detail header 09.05.2024 19:00 1R Roberto Carballes Baena d. Christopher O'Connell, 1 : 0 (67-7, 5-0) = RETIREMENT (id 2606419). O'Connell WON set 1 - sets 1-1 truthful. Added row: Roberto Carballes Baena d. Christopher O'Connell 6-7(7) 5-0, date 2024-05-09. Source: https://www.tennisexplorer.com/match-detail/?id=2606419"
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "year": "2024",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Terence Atmane",
+      "gap_id": "RM007",
+      "folder": "Rome_Masters",
+      "file_path": "editions/Rome_Masters/2024.json",
+      "status": "closed",
+      "resolution": "TE Rome 2024 ATP: match-detail header 10.05.2024 11:10 2R Terence Atmane (Q) d. Lorenzo Musetti (26), 1 : 0 (7-5, 1-0) = RETIREMENT (id 2610383). Musetti (seed 26, R128 bye) played ONLY this match - seed-played-only-the-missing-match; he had ZERO rows in the pulled slice. Added row: Terence Atmane d. Lorenzo Musetti 7-5 1-0, date 2024-05-10. Source: https://www.tennisexplorer.com/match-detail/?id=2610383"
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R128",
+      "player_no_traceable_win": "Sebastian Ofner",
+      "gap_id": "RM008",
+      "folder": "Rome_Masters",
+      "file_path": "editions/Rome_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Rome 2025 ATP: 08.05. 18:30 1R Sebastian Ofner d. Roberto Carballes Baena, S 1-0 with sets 6-3 and partial 0-0 = RETIREMENT at 0-0 in set 2 (id 2887417). Tied-token 0-0 credits nobody. Carballes Baena appears in Rome restorations two years running - beneficiary 2024, retiree 2025. Added row: Sebastian Ofner d. Roberto Carballes Baena 6-3 0-0, date 2025-05-08. Source: https://www.tennisexplorer.com/match-detail/?id=2887417"
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Corentin Moutet",
+      "gap_id": "RM009",
+      "folder": "Rome_Masters",
+      "file_path": "editions/Rome_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Rome 2025 ATP: 09.05. 15:20 2R Corentin Moutet d. Ugo Humbert (21), S 1-0 with partial 4-0 = RETIREMENT (id 2887843). Humbert (seed 21, R128 bye) played ONLY this match - seed-played-only pattern. Restores a rung of Moutet run to R16 (in-store he then beat Rune 3R). Added row: Corentin Moutet d. Ugo Humbert 6-3 4-0, date 2025-05-09. Source: https://www.tennisexplorer.com/match-detail/?id=2887843"
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Brandon Nakashima",
+      "gap_id": "RM010",
+      "folder": "Rome_Masters",
+      "file_path": "editions/Rome_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Rome 2025 ATP: 09.05. 11:00 2R Brandon Nakashima (28) d. Jordan Thompson, S 1-0 with ALL BLANK set scores = WALKOVER (id 2887845). Reason wire-corroborated: BACK injury (kept him out of Madrid too), Thompson own quote \"I was not sure if I could play here, but I tried. My body might not thank me tomorrow\" (tennistemple 2025-05-09 https://en.tennistemple.com/actu/two-more-withdrawals-in-rome-thompson-and/IcDg ; FoxSports corroborates). Added row: Brandon Nakashima d. Jordan Thompson W/O, date 2025-05-09. Source: https://www.tennisexplorer.com/match-detail/?id=2887845"
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "year": "2025",
+      "missing_round": "R32",
+      "player_no_traceable_win": "Casper Ruud",
+      "gap_id": "RM011",
+      "folder": "Rome_Masters",
+      "file_path": "editions/Rome_Masters/2025.json",
+      "status": "closed",
+      "resolution": "TE Rome 2025 ATP: 12.05. 19:10 3R Casper Ruud (6) d. Matteo Berrettini (29), S 1-0 with partial 2-0 = RETIREMENT (id 2889095). Berrettini retirement-loss in a restoration for the 3rd distinct event (MC 2023 W/O, Madrid 2025 ret, Rome 2025 ret). Restores a rung of CHAMPION Ruud 2025 TITLE run. Added row: Casper Ruud d. Matteo Berrettini 7-5 2-0, date 2025-05-12. Source: https://www.tennisexplorer.com/match-detail/?id=2889095"
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "year": "2026",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Daniil Medvedev",
+      "gap_id": "RM012",
+      "folder": "Rome_Masters",
+      "file_path": "editions/Rome_Masters/2026.json",
+      "status": "closed",
+      "resolution": "TE Rome 2026 ATP: 09.05. 11:00 2R Daniil Medvedev (7) d. Tomas Machac, S 1-0 with ALL BLANK set scores = WALKOVER (id 3197520). Reason wire-corroborated: ILLNESS, ATP-confirmed morning-of (IANS 2026-05-09 https://ianslive.in/italian-open-medvedev-advances-via-walkover-after-machac-pulls-out-with-illness--20260509184413 ; koranmanado/TennisMajors corroborate). Added row: Daniil Medvedev d. Tomas Machac W/O, date 2026-05-09. Source: https://www.tennisexplorer.com/match-detail/?id=3197520"
+    },
+    {
+      "tournament": "Rome Masters",
+      "tour": "ATP",
+      "year": "2026",
+      "missing_round": "R64",
+      "player_no_traceable_win": "Andrea Pellegrino",
+      "gap_id": "RM013",
+      "folder": "Rome_Masters",
+      "file_path": "editions/Rome_Masters/2026.json",
+      "status": "closed",
+      "resolution": "TE Rome 2026 ATP: 09.05. 21:30 2R Andrea Pellegrino d. Arthur Fils (15), S 1-0 with partial 4-0 = RETIREMENT (id 3197626). Fils (seed 15, R128 bye) played ONLY this match - seed-played-only pattern. Restores a rung of Pellegrino run to R16 (in-store he then beat Tiafoe 3R). Added row: Andrea Pellegrino d. Arthur Fils 4-0, date 2026-05-09. Source: https://www.tennisexplorer.com/match-detail/?id=3197626"
     }
   ],
-  "gaps_closed": 222,
+  "gaps_closed": 235,
   "gaps_open": 0,
   "closure_note": "All 18 gaps closed 2026-08-19 (T-005, Auditor 1, arena/01a015bb-the-creation-2). Every gap proved to be a RETIREMENT match absent from the migration source - consistent with the store-wide M-1/retirement-exclusion pattern documented in T-002. Per-gap resolution fields below; no result was inferred, every row carries a named checkable source.",
   "cincinnati_wta_closure_note": "T-007 (2026-08-19, Auditor 1): 15/15 Cincinnati WTA gaps FIXED per HANDOFF-07+A1+A2 - 8 retirements + 7 walkovers, all with named checkable sources; pulled from claude_1 store a280b2fb; per-year gap check green before closed_verified_gapless.",
@@ -2697,5 +2853,6 @@
   "miami_wta_closure_note": "T-030b (2026-08-19, Auditor 1, Masters program - Miami event COMPLETE with T-030a: 12 slices, 47 restorations): 31/31 Miami WTA gaps FIXED across 2021-2026 - the largest single slice-set of the program - 24 retirements + 7 walkovers, every row TE-sourced with match-detail id, 6 of the 7 W/O reasons wire-corroborated (1 recorded unannounced per no-guessing rule): Halep 2021 right shoulder (Reuters); Stojanovic 2021 right thigh (AFP); Siegemund 2021 NO PUBLIC REASON (WTA-official W/O confirmation only, recorded unannounced per no-guessing rule); Muchova 2022 warm-up injury/left abdominal (Reuters + own statement); Kalinskaya 2022 left arm (WTA official); Kalinskaya 2024 right thigh (WTA official via TASS/Reuters + her Instagram); Badosa 2025 lower back (Badosa statement) - restoring a rung of EALA's breakout semifinal run. Osaka's missing rungs restored in BOTH her 2021 (W/O over Stojanovic) and 2022 finalist runs (W/O over Muchova). THREE loser-was-leading rows truthful: Teichmann 6-5 up 2021; Siniakova up a set 2023 (tied-token 3-6 3-3); Andreescu 2-0 up in set 2 when her ankle gave way 2023 R16 (setsA 1 setsB 1); Identity adjudication: 2026 'Jones' split byte-proven - Emerson Jones (jones-cff84, R64 loss to Svitolina in-store) vs Francesca Jones (jones-68698, missing R64 vs Pegula) - resolving an apparent spine contradiction without touching a correct row. 2024's five-match R64 hole filled (Garcia/Kasatkina/Pegula/Zheng/Boulter). 0 Wolf rows. Draw 96 structural proof x6; TE 2022 bracket byte-read corroborates. Survey deficit (31) matched exactly. Raw M1000 pipeline carried 0 of these 31 ret/wo rows - 4th consecutive M1000 slice-set with a 100% ret/wo drop; the only 2 ret rows already present in the claude_1 Miami WTA slice (2021 F Barty d. Andreescu 6-3 4-0 ret, 2022 QF Pegula d. Badosa 4-1 ret) arrived via its separate date-source-CSV restoration path, not the raw pipeline. AUDITOR SELF-CORRECTION 2026-08-19: this note originally said 23 ret + 8 wo, FOUR loser-was-leading, and all-7-W/O-corroborated; re-verification from bytes (Rule 7) corrected to 24 ret + 7 wo, THREE loser-was-leading, 6-of-7 corroborated, before first commit of this note.",
   "monte_carlo_closure_note": "T-031 (2026-08-19, Auditor 1, Masters program): 11/11 Monte Carlo Masters (ATP-only M1000) gaps FIXED across 2021-2026 - 10 retirements + 1 walkover, every row TE-sourced with match-detail id, survey deficit (11) matched exactly; raw M1000 pipeline carried 0 of these 11 ret/wo rows - 5th consecutive 100%-drop slice-set; the only ret row already present in the claude_1 MC slice (2021 QF Tsitsipas d. Davidovich Fokina 7-5 ret) arrived via its separate date-source-CSV restoration path (combined_atp_2021.csv), not the raw pipeline. The lone W/O reason wire-corroborated: Berrettini 2023 R16 grade-2 internal oblique tear, MRI-confirmed, own Instagram statement (Sportskeeda/AP) - restoring a rung of Rune's finalist run. Champion rung restored: Tsitsipas 2024 R64 (d. Djere 6-3 3-2 ret) opened his TITLE run. Sinner 2023 SF-run rung and Auger-Aliassime 2026 QF-run rung restored. Nikoloz Basilashvili retired in MC 1R in BOTH 2021 (vs Krajinovic) and 2022 (vs Dimitrov). TWO lucky-loser-into-bye-slot adjudications byte-proven from TE draw brackets and wire-corroborated, resolving apparent 9-bye anomalies WITHOUT fabricating rows: 2021 Londero replaced Medvedev (seed 2, withdrew pre-2R) and PLAYED R32; 2024 Sonego replaced Alcaraz (seed 3, right forearm pronator teres, Reuters 2024-04-09) and PLAYED R32 - in both years the withdrawn seed correctly has NO row and NO walkover existed. Tied-token 2-2 in Auger-Aliassime d. Ruud 7-5 2-2 ret credits nobody (Jaziri-Tsonga precedent). Post-fix structural proof x6: 55/55 rows, template 24/16/8/4/2/1, 8 byes, exhaustive spine.",
   "madrid_atp_closure_note": "T-032a (2026-08-19, Auditor 1, Masters program per PLAN-T032 phases A+B): 21/21 Madrid Masters ATP gaps FIXED across 2021-2026 - 16 retirements + 5 walkovers, every row TE-sourced with match-detail id; byte-derived gap map (21) matched exactly, superseding survey estimate. Raw M1000 pipeline carried 0 of these 21 ret/wo rows - 6th consecutive 100%-drop slice-set; the only ret row already in the claude_1 Madrid ATP slice (2024 QF Lehecka d. Medvedev 6-4 ret) arrived via its separate date-source-CSV path (combined_atp_2024.csv), not the raw pipeline. All 5 W/O reasons wire-corroborated: Murray 2022 illness/food poisoning (tournament-official + Reuters/Guardian via ABC; would-have-been 37th Djokovic-Murray meeting); Sinner 2024 right hip (tournament-official + own post, AP/AFP); Monfils 2025 illness (ATP-official + own Snapchat); Djere 2025 left shoulder (ATP-official); Cilic 2026 food poisoning (own Instagram, puntodebreak/tennistemple). HEADLINE: Auger-Aliassime's ENTIRE 2024 path to the final beyond R16 was missing - R32 (Mensik 6-1 1-0 ret), QF (Sinner W/O) and SF (Lehecka 3-3 ret, the program's first missing SEMIFINAL) all restored. Defending-champion rung restored: Rublev 2025 R64 (Monfils W/O). Draper 2025 finalist rung (Berrettini 7-6(2) ret). Zverev 2022 finalist rung (Musetti ret). TWO seed-played-only-the-missing-match adjudications (Griekspoor 2023 seed 30, Rune 2025 seed 8) resolved 31-apparent-byes anomalies. THIRD LL-into-bye adjudication of the program: 2025 Majchrzak replaced Alcaraz (seed 2, right adductor tear + left hamstring, press conference 2025-04-24) and PLAYED R64 - Alcaraz correctly has NO row; wire corroboration matches bracket bytes (his scheduled 2R opponent = Bergs-Diallo winner = Majchrzak's actual in-store R64 vs Diallo). FOUR tied-token rows truthful (Sinner-Pella 4-4 2021; FAA-Lehecka 3-3 SF 2024; Fritz-Bonzi 0-0 set-3 2025; Moller-Diallo 3-3 2026) + Kopriva-Rinderknech 6-4 3-6 with LOSER AHEAD ON GAMES 10-9 at retirement. 3 missing R128s (2025) identified by full TE 1R diff vs store bytes incl. 2 name-canon artifacts resolved (Yunchaokete Bu, Martin Landaluce - rows present, NOT gaps). Era mix byte-asserted: 2021-22 draw 56 (55/55, 8 byes), 2023-26 draw 96 (95/95, 32 byes). Post-fix structural proof x6 with exhaustive spine. AUDIT-CATCH DISCLOSURE 2026-08-19: the full-branch audit flagged 1 initials violation in the pulled 2023 slice (R128 Aleksandr Shevchenko d. J.J. Wolf 6-4 6-4, carried in from claude_1) that the pre-write sweep missed; renamed to Jeffrey Wolf same cycle with per-row name_fix provenance (Rule 1, precedent ddb6019/HANDOFF-07 A2.2), manifest sha resynced, re-audit 0 issues - branch now 36x Jeffrey Wolf, 0 initials. Also disclosed: PLAN-T032 forecast said 11,495 rows post-ATP; correct arithmetic is 11,165+490=11,655 - plan-only arithmetic slip, no data impact.",
-  "madrid_wta_closure_note": "T-032b (2026-08-19, Auditor 1, Masters program per PLAN-T032 phases C+D, executed under the NEW pre-audit->work->post-audit cycle - Madrid event COMPLETE with T-032a: 12 slices, 29 restorations): 8/8 Madrid WTA gaps FIXED across 2021-2026 - 6 retirements + 2 walkovers, every row TE-sourced with match-detail id; byte-derived gap map (8) matched exactly. All 8 missing rows were ret/wo - 7th consecutive all-ret/wo deficit slice-set; the only 2 ret rows already in the claude_1 Madrid WTA slice (2021 QF Sabalenka d. Mertens 6-1 4-0 ret via date-source-CSV path; 2023 R128 Sherif d. Giorgi 4-6 6-4 ret via tennisabstract-extraction path) did NOT come through the raw pipeline. PRE-AUDIT: baseline 155/11655 ISSUES:0; pre-pull hygiene sweep of all 6 WTA slices = 0 violations (no Wolf-type carryover). Both W/O reasons wire-corroborated: Azarenka 2021 lower back (WTA-official wtatennis.com/news/2126711 + own statement, withdrew singles+doubles); Samsonova 2026 illness in the tournament-wide Madrid virus outbreak (tennistonic 2026-04-26 + her own account tennistemple 2026-05-10) - the SAME outbreak wire-links THREE restorations across both tours: Samsonova W/O (MA008), Swiatek retirement vs Ann Li (MA007, 'zero energy... felt really bad physically'), and Cilic ATP W/O (MAM020 food poisoning). HEADLINE: Iga Swiatek's only Madrid 2026 loss - 7-6(4) 2-6 3-0 ret to Ann Li - was missing entirely; Swiatek won set 2, sets 2-1 truthful, games 12-12. Draw-era mix byte-asserted: 2021-22 draw 64 (63/63, ZERO byes - bye-assert flipped to 0, so Kvitova-2021/Yastremska-2022 entry-at-R32 anomalies were genuine missing R64 rows, NOT byes); 2023-26 draw 96 (95/95, 32 byes). Seed-played-only-the-missing-match: Qinwen Zheng 2024 (seed 6, only match = Putintseva 7-5 2-0 ret). THREE loser-was-ahead rows truthful: Bouzkova 3-2 up in set 2 (2021), Minnen 2-0 up in set 2 (2022), Swiatek a-set-up-then-level (2026); VERIFY-ONLY slices 2023 and 2025 (0 gaps) passed full structural+spine verification before gapless declaration. Post-fix structural proof x6 with exhaustive spine. POST-AUDIT: build OK 161/12161, summaries 161, full-branch audit ISSUES:0, all 8 fix rows re-read from final bytes (Rule 7) - exact. DISCLOSURE: PLAN-T032 post-WTA row forecast (11,873) was the second plan-arithmetic slip (correct: 11,655+506=12,161); both plan forecasts were plan-only errors with no data impact - all shipped counts derive from build.py output and byte recounts."
+  "madrid_wta_closure_note": "T-032b (2026-08-19, Auditor 1, Masters program per PLAN-T032 phases C+D, executed under the NEW pre-audit->work->post-audit cycle - Madrid event COMPLETE with T-032a: 12 slices, 29 restorations): 8/8 Madrid WTA gaps FIXED across 2021-2026 - 6 retirements + 2 walkovers, every row TE-sourced with match-detail id; byte-derived gap map (8) matched exactly. All 8 missing rows were ret/wo - 7th consecutive all-ret/wo deficit slice-set; the only 2 ret rows already in the claude_1 Madrid WTA slice (2021 QF Sabalenka d. Mertens 6-1 4-0 ret via date-source-CSV path; 2023 R128 Sherif d. Giorgi 4-6 6-4 ret via tennisabstract-extraction path) did NOT come through the raw pipeline. PRE-AUDIT: baseline 155/11655 ISSUES:0; pre-pull hygiene sweep of all 6 WTA slices = 0 violations (no Wolf-type carryover). Both W/O reasons wire-corroborated: Azarenka 2021 lower back (WTA-official wtatennis.com/news/2126711 + own statement, withdrew singles+doubles); Samsonova 2026 illness in the tournament-wide Madrid virus outbreak (tennistonic 2026-04-26 + her own account tennistemple 2026-05-10) - the SAME outbreak wire-links THREE restorations across both tours: Samsonova W/O (MA008), Swiatek retirement vs Ann Li (MA007, 'zero energy... felt really bad physically'), and Cilic ATP W/O (MAM020 food poisoning). HEADLINE: Iga Swiatek's only Madrid 2026 loss - 7-6(4) 2-6 3-0 ret to Ann Li - was missing entirely; Swiatek won set 2, sets 2-1 truthful, games 12-12. Draw-era mix byte-asserted: 2021-22 draw 64 (63/63, ZERO byes - bye-assert flipped to 0, so Kvitova-2021/Yastremska-2022 entry-at-R32 anomalies were genuine missing R64 rows, NOT byes); 2023-26 draw 96 (95/95, 32 byes). Seed-played-only-the-missing-match: Qinwen Zheng 2024 (seed 6, only match = Putintseva 7-5 2-0 ret). THREE loser-was-ahead rows truthful: Bouzkova 3-2 up in set 2 (2021), Minnen 2-0 up in set 2 (2022), Swiatek a-set-up-then-level (2026); VERIFY-ONLY slices 2023 and 2025 (0 gaps) passed full structural+spine verification before gapless declaration. Post-fix structural proof x6 with exhaustive spine. POST-AUDIT: build OK 161/12161, summaries 161, full-branch audit ISSUES:0, all 8 fix rows re-read from final bytes (Rule 7) - exact. DISCLOSURE: PLAN-T032 post-WTA row forecast (11,873) was the second plan-arithmetic slip (correct: 11,655+506=12,161); both plan forecasts were plan-only errors with no data impact - all shipped counts derive from build.py output and byte recounts.",
+  "rome_atp_closure_note": "T-033a (2026-08-19, Auditor 1, Masters program, pre-audit->work->post-audit cycle): 13/13 Rome Masters ATP gaps FIXED across 2021-2026 (2022 VERIFY-ONLY: zero gaps, full structural+spine verification passed) - 10 retirements + 3 walkovers, every row TE-sourced with match-detail id; byte-derived gap map (13) matched exactly. All missing rows were ret/wo - 8th consecutive all-ret/wo deficit slice-set; claude_1 Rome ATP slice carried ZERO pre-existing ret/wo rows (100% drop, no CSV-path survivors on the ATP side). PRE-AUDIT CATCH: 4x J.J. Wolf rows in pulled 2023(x3)/2024(x1) slices caught by hygiene sweep BEFORE writes and renamed Jeffrey Wolf at pull-time with per-row name_fix provenance (Rule 1) - the defect class that T-032a only caught post-write is now screened pre-write. All 3 W/O reasons wire-corroborated: Carreno Busta 2021 lower back (ATP-official atptour.com); Thompson 2025 back, own quote (tennistemple/FoxSports); Machac 2026 illness, ATP-confirmed (IANS x2). CHAMPION RUNG restored: Ruud d. Berrettini 7-5 2-0 ret 2025 R32 opened his TITLE run (3rd champion-rung of the program after Tsitsipas MC-2024, Mensik Miami-2025). THREE seed-played-only-the-missing-match adjudications in one slice-set: Musetti 2024 (seed 26, ZERO rows in pulled slice, Atmane d. Musetti 7-5 1-0 ret), Humbert 2025 (seed 21, Moutet 6-3 4-0 ret), Fils 2026 (seed 15, Pellegrino 4-0 ret). 4th LL-into-bye: Shang 2024 (TE bracket byte-read; played AND LOST his R64, in-store Napolitano d. Shang 6-7(3) 6-1 6-0; replaced-seed identity not wire-verified - no row impact, documented as-is per no-guessing rule). Berrettini now a retirement/walkover LOSER in restorations at 3 distinct events (MC 2023, Madrid 2025, Rome 2025); Carballes Baena beneficiary-2024/retiree-2025; Djere winner of TWO 2023 restorations. O'Connell WON set 1 before retiring (6-7(7) 5-0, sets 1-1 truthful); Ofner-RCB 6-3 0-0 tied-token credits nobody. Era mix byte-asserted: 2021-22 draw 56 (55/55, 8 byes), 2023-26 draw 96 (95/95, 32 byes); exhaustive spine x6. SELF-CORRECTION pre-commit (Rule 7): draft README/note said Shang's in-store R64 was \"De Minaur d. Shang\" - byte re-read corrected to Napolitano d. Shang 6-7(3) 6-1 6-0 before first commit."
 }
