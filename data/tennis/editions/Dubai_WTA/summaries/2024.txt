@@ -1,0 +1,10 @@
+Dubai — Dubai Tennis Championships (M1000)
+Edition: 2024
+Draw size: 56
+Status: closed_verified_gapless
+Match count: 55
+Round coverage: R64(24) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Jasmine Paolini
+Runner-up: Anna Kalinskaya
+Source: BUILT 100% from TennisExplorer bytes under T-036b (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 56 byte-read from TE bracket (8 byes: Swiatek(1)/Sabalenka(2)/Gauff(3)/Rybakina(4)/Zheng(6)/Vondrousova(7)/Sakkari(8) + LL BUCSA in the vacant seed-5 slot); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; W/O reasons wire-corroborated or recorded UNANNOUNCED. LL-INTO-BYE #11: Bucsa [LL] in the vacant seed-5 slot - bracket bytes (seed numbers jump 4->6) + wire: defending champion KREJCIKOVA withdrew with a BACK injury (khelnow 2024 schedule report); Bucsa entered at 2R and lost to Kalinskaya 6-3 6-4 (in-edition row), no row fabricated. Champion Paolini d. Kalinskaya 4-6 7-5 7-5 - her first WTA 1000 title (Wikipedia corroborated). Dubai Duty Free Tennis Championships, outdoor hard, Feb 18-24 2024.
+Checksum: 5546eda3c3f2... (full value in MANIFEST.json)

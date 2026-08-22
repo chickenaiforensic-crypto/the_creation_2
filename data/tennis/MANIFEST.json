@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 193,
+  "total_editions": 194,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2509,6 +2509,19 @@
       "match_count": 55,
       "checksum_sha256": "265f100befc935d4f40ffca4f8f5a3b3c2528c98f3558175e46a883354fbf530",
       "file_path": "editions/Dubai_WTA/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Dubai",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "BUILT 100% from TennisExplorer bytes under T-036b (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 56 byte-read from TE bracket (8 byes: Swiatek(1)/Sabalenka(2)/Gauff(3)/Rybakina(4)/Zheng(6)/Vondrousova(7)/Sakkari(8) + LL BUCSA in the vacant seed-5 slot); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; W/O reasons wire-corroborated or recorded UNANNOUNCED. LL-INTO-BYE #11: Bucsa [LL] in the vacant seed-5 slot - bracket bytes (seed numbers jump 4->6) + wire: defending champion KREJCIKOVA withdrew with a BACK injury (khelnow 2024 schedule report); Bucsa entered at 2R and lost to Kalinskaya 6-3 6-4 (in-edition row), no row fabricated. Champion Paolini d. Kalinskaya 4-6 7-5 7-5 - her first WTA 1000 title (Wikipedia corroborated). Dubai Duty Free Tennis Championships, outdoor hard, Feb 18-24 2024.",
+      "match_count": 55,
+      "checksum_sha256": "5546eda3c3f229956d1317e424ea7cded0484bed4ad61d06428794c782a6555e",
+      "file_path": "editions/Dubai_WTA/2024.json",
       "gap_count": 0
     }
   ],
