@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 188,
+  "total_editions": 191,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2445,6 +2445,45 @@
       "checksum_sha256": "6b3be7f232c89d2a34070bf93426423718714d9b696cf5f8b3a00aafbab0df5d",
       "file_path": "editions/Paris_Masters/2025.json",
       "gap_count": 1
+    },
+    {
+      "tournament": "Doha",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "BUILT 100% from TennisExplorer bytes under T-036a (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 56 byte-read from TE bracket (8 byes: Sabalenka/Krejcikova/Badosa/Kontaveit/Muguruza/Sakkari/Swiatek/Jabeur); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; W/O reasons wire-corroborated; WTA 1000 status corroborated by prize money vs Wikipedia. Qatar Open, outdoor hard, Doha.",
+      "match_count": 55,
+      "checksum_sha256": "bd8fa7a163b68e7e8e39c72e5520a5fa92e5c89bf8bb592659f67b57fddaa087",
+      "file_path": "editions/Doha/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Doha",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "BUILT 100% from TennisExplorer bytes under T-036a (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 56 byte-read from TE bracket (8 byes: Swiatek/Gauff/Rybakina/Jabeur/Zheng/Vondrousova/Sakkari/Ostapenko); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; W/O reasons wire-corroborated; WTA 1000 status corroborated by prize money vs Wikipedia. Qatar Open, outdoor hard, Doha.",
+      "match_count": 55,
+      "checksum_sha256": "2f5d60ef558e77107529828d4e26f57a1be438b02138e744d0bd4e5fc7b0e71c",
+      "file_path": "editions/Doha/2024.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Doha",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "BUILT 100% from TennisExplorer bytes under T-036a (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 56 byte-read from TE bracket (8 byes: Sabalenka/Swiatek/Gauff/Paolini/Rybakina/Pegula/Zheng/Navarro); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; W/O reasons wire-corroborated; WTA 1000 status corroborated by prize money vs Wikipedia. Qatar Open, outdoor hard, Doha.",
+      "match_count": 55,
+      "checksum_sha256": "cf9ab7c60a091c146362c63d3218a8ce14377a68d1908cb5ce7e7755479f8d5e",
+      "file_path": "editions/Doha/2025.json",
+      "gap_count": 0
     }
   ],
   "gap_report_file": "gap_report.json"
