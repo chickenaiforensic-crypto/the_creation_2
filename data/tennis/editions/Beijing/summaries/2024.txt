@@ -1,0 +1,10 @@
+Beijing — Beijing (M1000)
+Edition: 2024
+Draw size: 96
+Status: closed_verified_gapless
+Match count: 95
+Round coverage: R128(32) R64(32) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Coco Gauff
+Runner-up: Karolina Muchova
+Source: BUILT 100% from TennisExplorer bytes under T-037a (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 96 byte-read from TE bracket (32 byes to all seeded slots; TE seed labels 33/34 - Dolehide/Anisimova - sit in bye slots, post-withdrawal seeding rendered as-is; 5 LLs all in played 1R slots); 95/95 rows, template 32/32/16/8/4/2/1 exact, exhaustive spine R128->F; every row cites its TE match-detail URL; 6 store-new Chinese-roster identities byte-proven via match-detail headers (Yexin Ma, Yufei Ren, Xinyu Gao, Xinxin Yao, Han Shi, Meiling Wang - Western order per locked rule); FIVE distinct Wangs in one draw disambiguated by TE ids (Xinyu/Xiyu/Yafan/Meiling/Qiang). Champion Gauff d. Muchova 6-1 6-3 (Wikipedia corroborated); Zhang Shuai upset of Navarro(6) + run to QF preserved. China Open, outdoor hard, Sep 25 - Oct 6 2024.
+Checksum: d9585a61d08d... (full value in MANIFEST.json)

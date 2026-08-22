@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 196,
+  "total_editions": 197,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2548,6 +2548,19 @@
       "match_count": 59,
       "checksum_sha256": "d571bf4609b7927d46439cfe16e3657c3caa7a1091b81cb2aba2d95d6c8a4c03",
       "file_path": "editions/Beijing/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Beijing",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "BUILT 100% from TennisExplorer bytes under T-037a (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Draw 96 byte-read from TE bracket (32 byes to all seeded slots; TE seed labels 33/34 - Dolehide/Anisimova - sit in bye slots, post-withdrawal seeding rendered as-is; 5 LLs all in played 1R slots); 95/95 rows, template 32/32/16/8/4/2/1 exact, exhaustive spine R128->F; every row cites its TE match-detail URL; 6 store-new Chinese-roster identities byte-proven via match-detail headers (Yexin Ma, Yufei Ren, Xinyu Gao, Xinxin Yao, Han Shi, Meiling Wang - Western order per locked rule); FIVE distinct Wangs in one draw disambiguated by TE ids (Xinyu/Xiyu/Yafan/Meiling/Qiang). Champion Gauff d. Muchova 6-1 6-3 (Wikipedia corroborated); Zhang Shuai upset of Navarro(6) + run to QF preserved. China Open, outdoor hard, Sep 25 - Oct 6 2024.",
+      "match_count": 95,
+      "checksum_sha256": "d9585a61d08de93d7e30896325301d13eafcce241342c00c325e476bcc970bec",
+      "file_path": "editions/Beijing/2024.json",
       "gap_count": 0
     }
   ],
