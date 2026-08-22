@@ -1,0 +1,10 @@
+Madrid — Madrid (M1000)
+Edition: 2021
+Draw size: 64
+Status: closed_verified_gapless
+Match count: 63
+Round coverage: R64(32) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Aryna Sabalenka
+Runner-up: Ashleigh Barty
+Source: Structural proof post-fix: 63/63, template exact, 0 byes, spine complete = draw 64
+Checksum: 7b564c59d684... (full value in MANIFEST.json)

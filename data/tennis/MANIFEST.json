@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 155,
+  "total_editions": 161,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2016,6 +2016,84 @@
       "checksum_sha256": "80a4d7ffb5f633ff9a475b0f62c1d1d037f87b93399d6ccb3db35a5a2631f826",
       "file_path": "editions/Madrid_Masters/2026.json",
       "gap_count": 4
+    },
+    {
+      "tournament": "Madrid",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2021",
+      "draw_size": 64,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 63/63, template exact, 0 byes, spine complete = draw 64",
+      "match_count": 63,
+      "checksum_sha256": "7b564c59d684816c0a7bd25308dcb3e7af2cb860df0e2d341e0a8c97d10008b8",
+      "file_path": "editions/Madrid/2021.json",
+      "gap_count": 3
+    },
+    {
+      "tournament": "Madrid",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 64,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 63/63, template exact, 0 byes, spine complete = draw 64",
+      "match_count": 63,
+      "checksum_sha256": "1c3ee31016548d7f0142d095ef4ba2a8145d5d5e9a1bec3e930a883fe76e92ed",
+      "file_path": "editions/Madrid/2022.json",
+      "gap_count": 2
+    },
+    {
+      "tournament": "Madrid",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "38795f58b8fe08824f38350c9c885d6f719890b81381c2fd9e81f4c43ed23869",
+      "file_path": "editions/Madrid/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Madrid",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "a8aa359fc43524329acc4c1cf772b2bbc9d5b1e255c0e615cd78ccdcd1aaa807",
+      "file_path": "editions/Madrid/2024.json",
+      "gap_count": 1
+    },
+    {
+      "tournament": "Madrid",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "3354946a5c8bf2a79a926d067e1c3bea2464c1c5196f1513b1958224885bd14c",
+      "file_path": "editions/Madrid/2025.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Madrid",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2026",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "44dbc6270c48d24cf3a0fc421289e0870c893f4a312a8f2b0d854557700a6fb8",
+      "file_path": "editions/Madrid/2026.json",
+      "gap_count": 2
     }
   ],
   "gap_report_file": "gap_report.json"

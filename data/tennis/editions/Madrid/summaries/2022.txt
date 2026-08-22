@@ -1,0 +1,10 @@
+Madrid — Madrid (M1000)
+Edition: 2022
+Draw size: 64
+Status: closed_verified_gapless
+Match count: 63
+Round coverage: R64(32) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Ons Jabeur
+Runner-up: Jessica Pegula
+Source: Structural proof post-fix: 63/63, template exact, 0 byes, spine complete = draw 64
+Checksum: 1c3ee3101654... (full value in MANIFEST.json)
