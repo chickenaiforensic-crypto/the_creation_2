@@ -1,0 +1,10 @@
+Rome — Rome (M1000)
+Edition: 2021
+Draw size: 56
+Status: closed_verified_gapless
+Match count: 55
+Round coverage: R64(24) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Iga Swiatek
+Runner-up: Karolina Pliskova
+Source: Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56
+Checksum: 8731ff74c5d6... (full value in MANIFEST.json)

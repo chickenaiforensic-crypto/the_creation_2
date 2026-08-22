@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 167,
+  "total_editions": 173,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2172,6 +2172,84 @@
       "checksum_sha256": "eca2bdd15c6106b3162e933906fc751e6cdad3f33247667de98f59ae0626d9e7",
       "file_path": "editions/Rome_Masters/2026.json",
       "gap_count": 2
+    },
+    {
+      "tournament": "Rome",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2021",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "8731ff74c5d6d0b8c4db6a0aa6211044f3c7492a78e80eeb338622c1c705c4b9",
+      "file_path": "editions/Rome/2021.json",
+      "gap_count": 3
+    },
+    {
+      "tournament": "Rome",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2022",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
+      "match_count": 55,
+      "checksum_sha256": "1725c61d9f416d02fc1662757d2f5b7a88e93cc002b3371297b272e4186182bd",
+      "file_path": "editions/Rome/2022.json",
+      "gap_count": 4
+    },
+    {
+      "tournament": "Rome",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "b128851840b972bb309ef2f59e6d37389c4d58c1348c318e0d0fd04b0a776093",
+      "file_path": "editions/Rome/2023.json",
+      "gap_count": 3
+    },
+    {
+      "tournament": "Rome",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2024",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "ab564f5fb28077e71cffdd3e7893f7f794398158b7f884674cc13a795708503e",
+      "file_path": "editions/Rome/2024.json",
+      "gap_count": 3
+    },
+    {
+      "tournament": "Rome",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2025",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "b304a53e7099869dd8cd4fba5a4bec089d57feb1b71f07b742c65ec749709c01",
+      "file_path": "editions/Rome/2025.json",
+      "gap_count": 4
+    },
+    {
+      "tournament": "Rome",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2026",
+      "draw_size": 96,
+      "status": "closed_verified_gapless",
+      "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
+      "match_count": 95,
+      "checksum_sha256": "e94fb92f8dc6cd19d295d60ced4016a317e9d216577e783f552d90de64b4fc1c",
+      "file_path": "editions/Rome/2026.json",
+      "gap_count": 1
     }
   ],
   "gap_report_file": "gap_report.json"
