@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 201,
+  "total_editions": 202,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2613,6 +2613,19 @@
       "match_count": 55,
       "checksum_sha256": "0eae5fc566c6c519696fb85041cfbfe9cfe756fb52273f7a4e21dcd8992315f5",
       "file_path": "editions/Guadalajara/2022.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Guadalajara",
+      "tour": "WTA",
+      "tier": "M1000",
+      "year": "2023",
+      "draw_size": 56,
+      "status": "closed_verified_gapless",
+      "source": "BUILT 100% from TennisExplorer bytes under T-038 (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Slug guadalajara-2-wta/2023 locked by champion anchor (Sakkari d. Dolehide 7-5 6-3 = census Wikipedia read). Draw 56 byte-read from TE bracket (64 slots, 8 byes: 7 seeds 1/2/3/4/6/7/8 + LL Elvina Kalieva INHERITING withdrawn seed 5 Bencic's bye - LL-INTO-BYE #13, Bencic withdrawal wtatennis.com 2023-09-19; second LL Vickery in withdrawn seed 9 Haddad Maia's PLAYED slot - hand injury from a shattered hotel shower door, sportskeeda 2023-09-19 + Wikipedia LL list); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; 1 retirement 100% header re-read: Vickery d. Collins 7-6(7) ret after set 1 (LOWER BACK, wtatennis.com official 2023-09-19) - the LL-advances-by-ret subplot. 5 STORE-NEW names header-proven via TE match-detail (Western order per locked rule): Stacey Fung, Grace Min, Ana Sofia Sanchez, Demi Schuurs (doubles star in singles main draw as Q), Lya Fernández (Mexican WC). A Grokipedia seeds table contradicting TE bytes + Wikipedia (claimed 6=Haddad Maia) was rejected on bytes - Beijing-2023 precedent. Champion Sakkari d. Dolehide 7-5 6-3 - her first WTA 1000 title, ending an 0-8 final drought at tour level since 2019; UNSEEDED Dolehide's qualifier-to-final run (d. Stearns in an ALL-TIEBREAK 6-7(1) 7-6(5) 7-6(2) 1R, then Alexandrova(8)/Trevisan/Kenin) preserved; Trevisan upset of Jabeur(1) R16 6-7(4) 7-5 6-3 preserved. WTA Guadalajara Open Akron, outdoor hard, Sep 17-24 2023; final year at 1000 level (500 from 2024).",
+      "match_count": 55,
+      "checksum_sha256": "069370bd361336c5599d7d3b1ac5e858374fd4b7914349ba358ce81265849a09",
+      "file_path": "editions/Guadalajara/2023.json",
       "gap_count": 0
     }
   ],

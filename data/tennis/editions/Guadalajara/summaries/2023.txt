@@ -1,0 +1,10 @@
+Guadalajara — Guadalajara (M1000)
+Edition: 2023
+Draw size: 56
+Status: closed_verified_gapless
+Match count: 55
+Round coverage: R64(24) R32(16) R16(8) QF(4) SF(2) F(1)
+Champion: Maria Sakkari
+Runner-up: Caroline Dolehide
+Source: BUILT 100% from TennisExplorer bytes under T-038 (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Slug guadalajara-2-wta/2023 locked by champion anchor (Sakkari d. Dolehide 7-5 6-3 = census Wikipedia read). Draw 56 byte-read from TE bracket (64 slots, 8 byes: 7 seeds 1/2/3/4/6/7/8 + LL Elvina Kalieva INHERITING withdrawn seed 5 Bencic's bye - LL-INTO-BYE #13, Bencic withdrawal wtatennis.com 2023-09-19; second LL Vickery in withdrawn seed 9 Haddad Maia's PLAYED slot - hand injury from a shattered hotel shower door, sportskeeda 2023-09-19 + Wikipedia LL list); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; 1 retirement 100% header re-read: Vickery d. Collins 7-6(7) ret after set 1 (LOWER BACK, wtatennis.com official 2023-09-19) - the LL-advances-by-ret subplot. 5 STORE-NEW names header-proven via TE match-detail (Western order per locked rule): Stacey Fung, Grace Min, Ana Sofia Sanchez, Demi Schuurs (doubles star in singles main draw as Q), Lya Fernández (Mexican WC). A Grokipedia seeds table contradicting TE bytes + Wikipedia (claimed 6=Haddad Maia) was rejected on bytes - Beijing-2023 precedent. Champion Sakkari d. Dolehide 7-5 6-3 - her first WTA 1000 title, ending an 0-8 final drought at tour level since 2019; UNSEEDED Dolehide's qualifier-to-final run (d. Stearns in an ALL-TIEBREAK 6-7(1) 7-6(5) 7-6(2) 1R, then Alexandrova(8)/Trevisan/Kenin) preserved; Trevisan upset of Jabeur(1) R16 6-7(4) 7-5 6-3 preserved. WTA Guadalajara Open Akron, outdoor hard, Sep 17-24 2023; final year at 1000 level (500 from 2024).
+Checksum: 069370bd3613... (full value in MANIFEST.json)
