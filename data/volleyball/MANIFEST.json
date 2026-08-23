@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 14,
+  "total_editions": 15,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -182,6 +182,19 @@
       "match_count": 41,
       "checksum_sha256": "83c51d232753529a1dc3ded1c4046746b7a71415fbbf3935bc8e05d322d6a0bb",
       "file_path": "editions/Asian_Championship_M/2023.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "Asian_Championship_W",
+      "tier": "CONT-CH",
+      "gender": "W",
+      "year": "2023",
+      "official_match_count": 43,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = official AVC Daily Bulletins No2-No8 (SEVEN distinct day-level PDFs - this page carries NO per-match ids, granularity disclosed on every row; standings source live.app.fivb.com tournament 1410); infobox official matches=43 == built count (18 prelim + 12 classification-pool + 13 final-round). 22nd Asian Championship, 14 teams, Nakhon Ratchasima, Thailand (Korat Chatchai Hall + MCC Hall), 30 Aug - 6 Sep 2023; mixed pool sizes (two 3-team + two 4-team prelim pools; E-H classification pools carry over prelim results). FIDELITY CATCH - WIKITEXT STANDINGS TYPO FOUND AND CORRECTED WITH PROOF: Pool E prints spw_THA=238 but recomputation forces 248 - with 238 the pool's spw sum (898) fails to equal its spl sum (908), while ALL other seven E-entries and Thailand's own spl=198 recompute byte-exact; corrected value used, defect documented here and in SP comments. All other 7 pools: recomputed == printed exactly (26 team-entries clean + 1 corrected = 27 sealed incl. carry arithmetic). Spine exact: SF == E/F top-2 {THA,VIE,CHN,JPN}; F == SF winners; 3P == SF losers. Champions THAILAND - 3rd title ON HOME SOIL, UNDEFEATED (MVP Chatchu-on Moksri, best setter Pornpun Guedpard) d. China 3-2 in a 16-14-fifth-set final before 5,000 at Korat Chatchai Hall; Japan bronze 3-2 over VIETNAM (best-ever 4th - and the store already documents where that 4th place led: Thailand's WCh-2025 host berth passed the continental spot DOWN TO VIETNAM, whose WCh debut is in the store's World_Championship_W/2025 edition - byte-cited both ends); host home flags all THA rows. New canon first-write: Mongolia (team ledger 69).",
+      "match_count": 43,
+      "checksum_sha256": "b576dc17b4364f6f15e0f1b44f6740c1b6b28316a367cdbe175025805f5dc30f",
+      "file_path": "editions/Asian_Championship_W/2023.json",
       "gap_count": 0
     }
   ],

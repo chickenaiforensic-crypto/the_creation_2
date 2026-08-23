@@ -31,7 +31,7 @@ rejected class).
 | EuroVolley M | **BUILT** (76) | · | **BUILT** (76) | · | **· NO 2025 EDITION** (calendar reform: odd→even years) | LIVE Sep 9–26 → WO-VB-8 |
 | EuroVolley W | **BUILT** (76) | · | **BUILT** (76) | · | **· NO 2025 EDITION** | LIVE now, final Sep 6 → WO-VB-8 |
 | AVC Asian Ch M | **BUILT** (56; Iran d. Japan) | · | **BUILT** (41; Japan d. Iran; Qatar 1st medal) | · | **· NO EDITION** (reform) | Sep, Fukuoka → WO-VB-8 |
-| AVC Asian Ch W | **CANCELLED — COVID** (was Philippines; byte-sourced CENSUS-VB-4) | · | QUEUED-WO4 (Nakhon Ratchasima; Thailand gold) | · | **· NO EDITION** | LIVE, Tianjin → WO-VB-8 |
+| AVC Asian Ch W | **CANCELLED — COVID** (was Philippines; byte-sourced CENSUS-VB-4) | · | **BUILT** (43; Thailand d. China 3-2) | · | **· NO EDITION** | LIVE, Tianjin → WO-VB-8 |
 | NORCECA Ch M | QUEUED-WO4 (Durango; Puerto Rico 1st) | · | QUEUED-WO4 (Charleston; USA) | · | **· NO EDITION** (only 2nd-tier Final Six ran) | Sep, Moncton → WO-VB-8 |
 | NORCECA Ch W | QUEUED-WO4 (Mexico TBV; Dom. Republic) | · | QUEUED-WO4 (Quebec City; Dom. Republic) | · | **· NO EDITION** | LIVE, Santo Domingo → WO-VB-8 |
 | CSV South American Ch M | QUEUED-WO4 (Brasília; Brazil) | · | QUEUED-WO4 (Recife; Argentina — 1st in 59 yrs) | · | **· NO EDITION** (CSV title-holders still 2023, crawl 2026-07-29) | Sep, Rio → WO-VB-8 |

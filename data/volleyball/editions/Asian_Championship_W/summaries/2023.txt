@@ -1,0 +1,72 @@
+Asian_Championship_W 2023 — 2023 Asian Women's Volleyball Championship - 22nd edition
+tier CONT-CH | gender W | teams 14 | matches 43 | status closed_verified_gapless
+hosts: Thailand (Nakhon Ratchasima)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = official AVC Daily Bulletins No2-No8 (SEVEN distinct day-level PD
+
+== Pool A ==
+2023-08-30  RR Thailand d. Australia 3-0 (25-14 25-16 25-22) @ Nakhon Ratchasima [home: winner]
+2023-08-31  RR Australia d. Mongolia 3-0 (25-16 26-24 25-14) @ Nakhon Ratchasima
+2023-09-01  RR Thailand d. Mongolia 3-0 (25-12 25-7 25-11) @ Nakhon Ratchasima [home: winner]
+
+== Pool B ==
+2023-08-30  RR Japan d. Iran 3-0 (25-18 25-16 25-22) @ Nakhon Ratchasima
+2023-08-31  RR India d. Iran 3-1 (22-25 25-19 30-28 25-17) @ Nakhon Ratchasima
+2023-09-01  RR Japan d. India 3-0 (25-10 25-16 25-6) @ Nakhon Ratchasima
+
+== Pool C ==
+2023-08-30  RR Vietnam d. South Korea 3-2 (22-25 19-25 25-23 25-17 15-13) @ Nakhon Ratchasima
+2023-08-30  RR Chinese Taipei d. Uzbekistan 3-0 (25-11 25-10 25-18) @ Nakhon Ratchasima
+2023-08-31  RR South Korea d. Chinese Taipei 3-2 (25-13 25-22 23-25 22-25 15-8) @ Nakhon Ratchasima
+2023-08-31  RR Vietnam d. Uzbekistan 3-0 (25-11 25-12 25-9) @ Nakhon Ratchasima
+2023-09-01  RR South Korea d. Uzbekistan 3-0 (25-12 25-15 25-12) @ Nakhon Ratchasima
+2023-09-01  RR Vietnam d. Chinese Taipei 3-1 (25-18 25-22 18-25 25-17) @ Nakhon Ratchasima
+
+== Pool D ==
+2023-08-30  RR China d. Hong Kong 3-0 (25-12 25-15 25-6) @ Nakhon Ratchasima
+2023-08-30  RR Kazakhstan d. Philippines 3-2 (25-21 17-25 24-26 27-25 15-6) @ Nakhon Ratchasima
+2023-08-31  RR Kazakhstan d. Hong Kong 3-0 (25-16 25-23 25-17) @ Nakhon Ratchasima
+2023-08-31  RR China d. Philippines 3-0 (25-15 25-20 25-17) @ Nakhon Ratchasima
+2023-09-01  RR Hong Kong d. Philippines 3-0 (25-21 25-21 25-11) @ Nakhon Ratchasima
+2023-09-01  RR China d. Kazakhstan 3-0 (25-12 25-21 25-10) @ Nakhon Ratchasima
+
+== Pool E ==
+2023-09-03  RR Thailand d. South Korea 3-0 (25-20 25-22 25-23) @ Nakhon Ratchasima [home: winner]
+2023-09-03  RR Vietnam d. Australia 3-0 (25-15 25-15 25-21) @ Nakhon Ratchasima
+2023-09-04  RR South Korea d. Australia 3-0 (26-24 25-13 25-14) @ Nakhon Ratchasima
+2023-09-04  RR Thailand d. Vietnam 3-1 (23-25 25-14 25-19 25-23) @ Nakhon Ratchasima [home: winner]
+
+== Pool F ==
+2023-09-03  RR China d. India 3-0 (25-9 25-10 25-12) @ Nakhon Ratchasima
+2023-09-03  RR Japan d. Kazakhstan 3-0 (25-13 25-20 25-18) @ Nakhon Ratchasima
+2023-09-04  RR China d. Japan 3-2 (23-25 25-20 19-25 26-24 16-14) @ Nakhon Ratchasima
+2023-09-04  RR Kazakhstan d. India 3-0 (25-17 25-17 25-21) @ Nakhon Ratchasima
+
+== Pool G ==
+2023-09-03  RR Mongolia d. Uzbekistan 3-0 (25-15 25-19 25-16) @ Nakhon Ratchasima
+2023-09-04  RR Chinese Taipei d. Mongolia 3-0 (25-17 26-24 25-17) @ Nakhon Ratchasima
+
+== Pool H ==
+2023-09-03  RR Iran d. Philippines 3-2 (22-25 25-22 25-21 24-26 15-12) @ Nakhon Ratchasima
+2023-09-04  RR Iran d. Hong Kong 3-2 (25-20 19-25 20-25 25-5 15-10) @ Nakhon Ratchasima
+
+== Classification 13-14 ==
+2023-09-05 13P Philippines d. Uzbekistan 3-0 (25-20 25-17 25-23) @ Nakhon Ratchasima
+
+== Classification 9-12 ==
+2023-09-05  PO Chinese Taipei d. Hong Kong 3-0 (25-11 25-20 25-19) @ Nakhon Ratchasima
+2023-09-05  PO Iran d. Mongolia 3-0 (25-18 25-12 25-20) @ Nakhon Ratchasima
+2023-09-06  9P Chinese Taipei d. Iran 3-0 (25-14 25-19 26-24) @ Nakhon Ratchasima
+2023-09-06 11P Hong Kong d. Mongolia 3-2 (25-19 16-25 25-27 25-20 15-7) @ Nakhon Ratchasima
+
+== Classification 5-8 ==
+2023-09-05  PO Kazakhstan d. Australia 3-2 (25-16 21-25 19-25 25-15 15-12) @ Nakhon Ratchasima
+2023-09-05  PO South Korea d. India 3-0 (25-21 25-18 25-20) @ Nakhon Ratchasima
+2023-09-06  5P Kazakhstan d. South Korea 3-0 (26-24 25-23 25-23) @ Nakhon Ratchasima
+2023-09-06  7P India d. Australia 3-2 (21-25 28-26 25-23 20-25 15-10) @ Nakhon Ratchasima
+
+== Final round ==
+2023-09-05  SF China d. Vietnam 3-0 (25-13 25-12 25-22) @ Nakhon Ratchasima
+2023-09-05  SF Thailand d. Japan 3-2 (25-23 19-25 20-25 25-20 15-11) @ Nakhon Ratchasima [home: winner]
+2023-09-06  3P Japan d. Vietnam 3-2 (21-25 25-14 25-22 20-25 15-11) @ Nakhon Ratchasima
+2023-09-06   F Thailand d. China 3-2 (25-21 25-27 25-19 20-25 16-14) @ Nakhon Ratchasima [home: winner]
+
