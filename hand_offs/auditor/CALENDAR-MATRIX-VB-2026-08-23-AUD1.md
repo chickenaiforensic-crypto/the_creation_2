@@ -20,8 +20,8 @@ rejected class).
 | Olympics W | **BUILT** (38) | · | · | **BUILT** (26) | · | · |
 | World Championship M | · | **BUILT** (52) | · | · | **BUILT** (64) | · (next: World Cup 2027, renamed) |
 | World Championship W | · | **BUILT** (100) | · | · | **BUILT** (64) | · |
-| VNL M | QUEUED-WO5 | QUEUED-WO5 | QUEUED-WO5 | QUEUED-WO5 | QUEUED-WO5 | QUEUED-WO5 (done: Poland gold) |
-| VNL W | QUEUED-WO5 | QUEUED-WO5 | QUEUED-WO5 | QUEUED-WO5 | QUEUED-WO5 | QUEUED-WO5 (done: Turkiye gold) |
+| VNL M | QUEUED-WO5 (124; Brazil) | QUEUED-WO5 (104; France) | QUEUED-WO5 (104; Poland) | QUEUED-WO5 (104; France) | QUEUED-WO5 (116; Poland) | QUEUED-WO5 (116; Poland 3rd) |
+| VNL W | QUEUED-WO5 (124; USA) | QUEUED-WO5 (104; Italy) | QUEUED-WO5 (104; Turkiye 1st) | QUEUED-WO5 (104; Italy) | QUEUED-WO5 (116; Italy) | QUEUED-WO5 (116; Turkiye 2nd) |
 
 **The only annual Tier-1 series is VNL** (12 season-editions, ~1,500+ matches — the program's largest block).
 
