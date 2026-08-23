@@ -1,0 +1,35 @@
+NORCECA_Championship_M 2021 — 2021 Men's NORCECA Volleyball Championship - 27th edition
+tier CONT-CH | gender M | teams 8 | matches 22 | status closed_verified_gapless
+hosts: Mexico (Durango City, Auditorio del Pueblo)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 6-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDE
+
+== Pool A ==
+2021-08-18  RR Puerto Rico d. Canada 3-0 (25-22 25-20 25-19) @ Durango City
+2021-08-18  RR Mexico d. Trinidad and Tobago 3-0 (25-11 25-13 25-8) @ Durango City [home: winner]
+2021-08-19  RR Canada d. Trinidad and Tobago 3-0 (25-22 25-18 25-14) @ Durango City
+2021-08-19  RR Mexico d. Puerto Rico 3-1 (20-25 25-22 25-20 25-18) @ Durango City [home: winner]
+2021-08-20  RR Puerto Rico d. Trinidad and Tobago 3-0 (25-17 25-16 25-18) @ Durango City
+2021-08-20  RR Mexico d. Canada 3-0 (25-21 28-26 25-21) @ Durango City [home: winner]
+
+== Pool B ==
+2021-08-18  RR USA d. Guatemala 3-2 (24-26 25-23 23-25 25-20 15-10) @ Durango City
+2021-08-18  RR Cuba d. Dominican Republic 3-1 (25-17 29-31 25-21 25-19) @ Durango City
+2021-08-19  RR Cuba d. Guatemala 3-0 (25-22 25-22 25-19) @ Durango City
+2021-08-19  RR USA d. Dominican Republic 3-1 (25-18 23-25 25-18 26-24) @ Durango City
+2021-08-20  RR Dominican Republic d. Guatemala 3-1 (29-31 25-16 25-19 25-19) @ Durango City
+2021-08-20  RR Cuba d. USA 3-0 (25-23 25-23 25-20) @ Durango City
+
+== Final round ==
+2021-08-21  QF Canada d. USA 3-2 (22-25 25-22 25-15 22-25 15-10) @ Durango City
+2021-08-21  QF Puerto Rico d. Dominican Republic 3-1 (25-22 22-25 25-16 25-23) @ Durango City
+2021-08-22  SF Puerto Rico d. Cuba 3-1 (25-16 19-25 26-24 31-29) @ Durango City
+2021-08-22  SF Canada d. Mexico 3-0 (25-22 25-17 25-18) @ Durango City [home: loser]
+2021-08-23  3P Mexico d. Cuba 3-1 (22-25 25-18 30-28 27-25) @ Durango City [home: winner]
+2021-08-23   F Puerto Rico d. Canada 3-0 (25-18 25-21 25-23) @ Durango City
+
+== Classification 5-8 ==
+2021-08-22  PO Dominican Republic d. Trinidad and Tobago 3-0 (25-19 25-20 25-22) @ Durango City
+2021-08-22  PO USA d. Guatemala 3-1 (23-25 25-22 25-19 33-31) @ Durango City
+2021-08-23  5P USA d. Dominican Republic 3-1 (21-25 25-22 25-22 25-21) @ Durango City
+2021-08-23  7P Guatemala d. Trinidad and Tobago 3-0 (25-22 25-22 25-21) @ Durango City
+

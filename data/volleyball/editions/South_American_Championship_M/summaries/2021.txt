@@ -1,0 +1,17 @@
+South_American_Championship_M 2021 — 2021 Men's South American Volleyball Championship - 34th edition
+tier CONT-CH | gender M | teams 5 | matches 10 | status closed_verified_gapless
+hosts: Brazil (Brasilia, Nilson Nelson Gymnasium)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 6-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDE
+
+== Round robin ==
+2021-09-01  RR Argentina d. Colombia 3-0 (25-20 25-19 25-17) @ Brasilia
+2021-09-01  RR Brazil d. Peru 3-0 (25-12 25-19 25-18) @ Brasilia [home: winner]
+2021-09-02  RR Chile d. Peru 3-0 (25-23 25-22 25-13) @ Brasilia
+2021-09-02  RR Brazil d. Colombia 3-0 (25-20 25-22 25-21) @ Brasilia [home: winner]
+2021-09-03  RR Argentina d. Peru 3-0 (25-20 25-21 25-12) @ Brasilia
+2021-09-03  RR Brazil d. Chile 3-0 (25-22 25-18 25-19) @ Brasilia [home: winner]
+2021-09-04  RR Argentina d. Chile 3-1 (25-16 21-25 25-21 25-22) @ Brasilia
+2021-09-04  RR Colombia d. Peru 3-1 (25-21 25-17 23-25 25-15) @ Brasilia
+2021-09-05  RR Brazil d. Argentina 3-1 (25-17 24-26 25-18 25-18) @ Brasilia [home: winner]
+2021-09-05  RR Chile d. Colombia 3-1 (22-25 25-17 25-22 25-15) @ Brasilia
+

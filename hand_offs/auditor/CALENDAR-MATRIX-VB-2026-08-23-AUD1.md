@@ -32,9 +32,9 @@ rejected class).
 | EuroVolley W | **BUILT** (76) | · | **BUILT** (76) | · | **· NO 2025 EDITION** | LIVE now, final Sep 6 → WO-VB-8 |
 | AVC Asian Ch M | **BUILT** (56; Iran d. Japan) | · | **BUILT** (41; Japan d. Iran; Qatar 1st medal) | · | **· NO EDITION** (reform) | Sep, Fukuoka → WO-VB-8 |
 | AVC Asian Ch W | **CANCELLED — COVID** (was Philippines; byte-sourced CENSUS-VB-4) | · | **BUILT** (43; Thailand d. China 3-2) | · | **· NO EDITION** | LIVE, Tianjin → WO-VB-8 |
-| NORCECA Ch M | QUEUED-WO4 (Durango; Puerto Rico 1st) | · | QUEUED-WO4 (Charleston; USA) | · | **· NO EDITION** (only 2nd-tier Final Six ran) | Sep, Moncton → WO-VB-8 |
-| NORCECA Ch W | QUEUED-WO4 (Mexico TBV; Dom. Republic) | · | QUEUED-WO4 (Quebec City; Dom. Republic) | · | **· NO EDITION** | LIVE, Santo Domingo → WO-VB-8 |
-| CSV South American Ch M | QUEUED-WO4 (Brasília; Brazil) | · | QUEUED-WO4 (Recife; Argentina — 1st in 59 yrs) | · | **· NO EDITION** (CSV title-holders still 2023, crawl 2026-07-29) | Sep, Rio → WO-VB-8 |
+| NORCECA Ch M | **BUILT** (22; Puerto Rico 1st title ever) | · | **BUILT** (17; USA 10th at home) | · | **· NO EDITION** (only 2nd-tier Final Six ran) | Sep, Moncton → WO-VB-8 |
+| NORCECA Ch W | **BUILT** (16; Dom. Republic d. PUR 3-2) | · | **BUILT** (17; Dom. Republic b2b d. USA 3-2) | · | **· NO EDITION** | LIVE, Santo Domingo → WO-VB-8 |
+| CSV South American Ch M | **BUILT** (10; Brazil 33rd, closed doors) | · | **BUILT** (10; ARGENTINA — 1st in 59 yrs) | · | **· NO EDITION** (CSV title-holders still 2023, crawl 2026-07-29) | Sep, Rio → WO-VB-8 |
 | CSV South American Ch W | QUEUED-WO4 (Barrancabermeja; Brazil) | · | QUEUED-WO4 (Recife; Brazil) | · | **· NO EDITION** | Sep, Rio → WO-VB-8 |
 | CAVB African Nations M | QUEUED-WO4 (Kigali TBV; Tunisia) | · | QUEUED-WO4 (Cairo; Egypt — 15 teams) | · | **· NO EDITION** | Sep, Tunis → WO-VB-8 |
 | CAVB African Nations W | QUEUED-WO4 (Kigali; Cameroon) | · | QUEUED-WO4 (Yaoundé; Kenya 10th) | · | **· NO EDITION** | starts today, Nairobi → WO-VB-8 |

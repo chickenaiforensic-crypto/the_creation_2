@@ -1,0 +1,30 @@
+NORCECA_Championship_W 2023 — 2023 Women's NORCECA Volleyball Championship - 28th edition
+tier CONT-CH | gender W | teams 7 | matches 17 | status closed_verified_gapless
+hosts: Canada (Quebec City)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 6-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDE
+
+== Pool A ==
+2023-08-29  RR Canada d. Mexico 3-0 (25-20 25-18 25-20) @ Quebec City [home: winner]
+2023-08-30  RR Canada d. Puerto Rico 3-0 (25-18 25-13 25-23) @ Quebec City [home: winner]
+2023-08-31  RR Puerto Rico d. Mexico 3-2 (27-25 17-25 14-25 25-23 15-11) @ Quebec City
+
+== Pool B ==
+2023-08-29  RR USA d. Costa Rica 3-0 (25-3 25-13 25-5) @ Quebec City
+2023-08-29  RR Dominican Republic d. Cuba 3-0 (25-14 25-17 25-16) @ Quebec City
+2023-08-30  RR USA d. Cuba 3-0 (25-8 25-17 25-14) @ Quebec City
+2023-08-30  RR Dominican Republic d. Costa Rica 3-0 (25-13 25-11 25-10) @ Quebec City
+2023-08-31  RR Cuba d. Costa Rica 3-0 (25-18 25-11 25-9) @ Quebec City
+2023-08-31  RR USA d. Dominican Republic 3-0 (25-22 25-22 25-16) @ Quebec City
+
+== Final round ==
+2023-09-01  QF Cuba d. Puerto Rico 3-0 (25-21 25-23 25-22) @ Quebec City
+2023-09-01  QF Dominican Republic d. Mexico 3-0 (25-17 25-10 25-12) @ Quebec City
+2023-09-02  SF USA d. Cuba 3-0 (25-12 25-11 25-16) @ Quebec City
+2023-09-02  SF Dominican Republic d. Canada 3-1 (27-25 25-22 23-25 25-20) @ Quebec City [home: loser]
+2023-09-03  3P Canada d. Cuba 3-1 (25-21 25-17 17-25 25-16) @ Quebec City [home: winner]
+2023-09-03   F Dominican Republic d. USA 3-2 (12-25 25-21 19-25 25-19 15-13) @ Quebec City
+
+== Classification ==
+2023-09-02  5P Mexico d. Puerto Rico 3-0 (25-22 32-30 25-22) @ Quebec City
+2023-09-03  6P Puerto Rico d. Costa Rica 3-0 (25-13 25-7 25-9) @ Quebec City
+

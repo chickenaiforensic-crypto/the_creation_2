@@ -1,0 +1,30 @@
+NORCECA_Championship_M 2023 — 2023 Men's NORCECA Volleyball Championship - 28th edition
+tier CONT-CH | gender M | teams 7 | matches 17 | status closed_verified_gapless
+hosts: USA (Charleston, West Virginia)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 6-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDE
+
+== Pool A ==
+2023-09-05  RR Canada d. Dominican Republic 3-0 (25-11 25-8 25-12) @ Charleston
+2023-09-06  RR Canada d. Mexico 3-0 (25-18 25-18 25-20) @ Charleston
+2023-09-07  RR Dominican Republic d. Mexico 3-0 (25-21 25-21 25-21) @ Charleston
+
+== Pool B ==
+2023-09-05  RR Cuba d. Puerto Rico 3-0 (25-21 25-19 25-15) @ Charleston
+2023-09-05  RR USA d. Suriname 3-0 (25-14 25-9 25-10) @ Charleston [home: winner]
+2023-09-06  RR Cuba d. Suriname 3-0 (25-11 25-19 25-23) @ Charleston
+2023-09-06  RR USA d. Puerto Rico 3-0 (25-14 25-18 25-12) @ Charleston [home: winner]
+2023-09-07  RR Puerto Rico d. Suriname 3-0 (25-22 25-15 25-21) @ Charleston
+2023-09-07  RR USA d. Cuba 3-2 (25-22 25-17 24-26 22-25 15-12) @ Charleston [home: winner]
+
+== Final round ==
+2023-09-08  QF Cuba d. Mexico 3-0 (25-20 25-15 25-23) @ Charleston
+2023-09-08  QF Dominican Republic d. Puerto Rico 3-0 (25-19 25-21 32-30) @ Charleston
+2023-09-09  SF USA d. Dominican Republic 3-0 (25-22 25-12 25-14) @ Charleston [home: winner]
+2023-09-09  SF Canada d. Cuba 3-2 (18-25 25-21 25-17 24-26 15-13) @ Charleston
+2023-09-10  3P Cuba d. Dominican Republic 3-0 (25-15 25-14 25-16) @ Charleston
+2023-09-10   F USA d. Canada 3-0 (25-20 25-14 25-22) @ Charleston [home: winner]
+
+== Classification ==
+2023-09-09  5P Mexico d. Puerto Rico 3-1 (25-22 27-29 25-20 25-20) @ Charleston
+2023-09-10  6P Puerto Rico d. Suriname 3-1 (25-11 21-25 25-19 25-14) @ Charleston
+

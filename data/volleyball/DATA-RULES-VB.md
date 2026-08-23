@@ -10,7 +10,7 @@ Binding for every row in `data/volleyball/`. Changes require a disclosed migrati
 | tier | enum | "OG" · "WORLD-CH" · "CONT-CH" · "VNL" · "QUAL" · "LEAGUE" · "CLUB-WORLD" · "CLUB-CONT" |
 | gender | "M" / "W" | |
 | phase | string | "Pool A".."Pool F", "Final round", "Classification 5-8", etc. |
-| round | enum | "RR" (round-robin) · "R16" · "QF" · "SF" · "F" · "3P" · "5P".."15P" (placement; **13P/15P added 2026-08-23 WO-VB-4 migration** — first 16-team full-classification edition, Asian-M-2021; placement-bracket semifinals typed "PO") · "PO" (playoff) |
+| round | enum | "RR" (round-robin) · "R16" · "QF" · "SF" · "F" · "3P" · "5P".."15P" incl. "6P" (placement; **13P/15P + 6P added 2026-08-23 WO-VB-4 migrations** — first 16-team full-classification edition, Asian-M-2021; placement-bracket semifinals typed "PO") · "PO" (playoff) |
 | teamA | string | **ALWAYS the match winner** (tennis convention; app relies on it) |
 | teamB | string | loser |
 | bestOf | 5 | all senior indoor internationals; golden-set exception flagged separately |

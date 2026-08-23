@@ -1,0 +1,29 @@
+NORCECA_Championship_W 2021 — 2021 Women's NORCECA Volleyball Championship - 27th edition
+tier CONT-CH | gender W | teams 7 | matches 16 | status closed_verified_gapless
+hosts: Mexico (Guadalajara)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 6-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDE
+
+== Pool A ==
+2021-08-26  RR Puerto Rico d. USA 3-2 (21-25 28-26 25-19 21-25 15-9) @ Guadalajara
+2021-08-27  RR USA d. Canada 3-2 (25-17 15-25 19-25 25-15 15-8) @ Guadalajara
+2021-08-28  RR Canada d. Puerto Rico 3-1 (25-17 25-22 24-26 25-14) @ Guadalajara
+
+== Pool B ==
+2021-08-26  RR Dominican Republic d. Costa Rica 3-0 (25-11 25-21 25-15) @ Guadalajara
+2021-08-26  RR Mexico d. Trinidad and Tobago 3-0 (25-13 25-9 25-10) @ Guadalajara [home: winner]
+2021-08-27  RR Dominican Republic d. Trinidad and Tobago 3-0 (25-5 25-17 25-12) @ Guadalajara
+2021-08-27  RR Mexico d. Costa Rica 3-0 (25-14 25-12 25-21) @ Guadalajara [home: winner]
+2021-08-28  RR Costa Rica d. Trinidad and Tobago 3-0 (25-13 25-4 25-10) @ Guadalajara
+2021-08-28  RR Dominican Republic d. Mexico 3-1 (28-30 25-19 25-13 31-29) @ Guadalajara [home: loser]
+
+== Final round ==
+2021-08-29  QF USA d. Costa Rica 3-0 (25-11 25-17 25-10) @ Guadalajara
+2021-08-29  QF Puerto Rico d. Mexico 3-1 (25-22 25-19 25-27 25-23) @ Guadalajara [home: loser]
+2021-08-30  SF Puerto Rico d. Canada 3-1 (25-18 19-25 25-23 25-20) @ Guadalajara
+2021-08-30  SF Dominican Republic d. USA 3-0 (25-16 25-18 25-20) @ Guadalajara
+2021-08-31  3P Canada d. USA 3-2 (25-17 17-25 25-22 23-25 15-8) @ Guadalajara
+2021-08-31   F Dominican Republic d. Puerto Rico 3-2 (25-22 15-25 25-17 21-25 15-12) @ Guadalajara
+
+== Classification ==
+2021-08-30  5P Mexico d. Costa Rica 3-0 (25-15 25-10 25-15) @ Guadalajara [home: winner]
+

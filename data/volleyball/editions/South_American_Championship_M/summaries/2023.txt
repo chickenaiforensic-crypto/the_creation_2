@@ -1,0 +1,17 @@
+South_American_Championship_M 2023 — 2023 Men's South American Volleyball Championship - 35th edition
+tier CONT-CH | gender M | teams 5 | matches 10 | status closed_verified_gapless
+hosts: Brazil (Recife, Ginasio Geraldo Magalhaes)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 6-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDE
+
+== Round robin ==
+2023-08-26  RR Argentina d. Colombia 3-0 (25-16 25-15 25-22) @ Recife
+2023-08-26  RR Brazil d. Peru 3-0 (25-18 25-18 25-11) @ Recife [home: winner]
+2023-08-27  RR Colombia d. Peru 3-1 (19-25 25-19 25-17 25-22) @ Recife
+2023-08-27  RR Brazil d. Chile 3-0 (25-17 25-18 25-19) @ Recife [home: winner]
+2023-08-28  RR Argentina d. Chile 3-0 (25-19 25-20 25-15) @ Recife
+2023-08-28  RR Brazil d. Colombia 3-0 (25-15 26-24 25-13) @ Recife [home: winner]
+2023-08-29  RR Argentina d. Peru 3-1 (25-16 20-25 25-9 25-18) @ Recife
+2023-08-29  RR Colombia d. Chile 3-2 (20-25 27-25 16-25 25-23 15-12) @ Recife
+2023-08-30  RR Chile d. Peru 3-1 (25-17 23-25 25-16 25-21) @ Recife
+2023-08-30  RR Argentina d. Brazil 3-0 (25-19 29-27 25-22) @ Recife [home: loser]
+

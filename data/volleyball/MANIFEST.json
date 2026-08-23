@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 15,
+  "total_editions": 21,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -195,6 +195,84 @@
       "match_count": 43,
       "checksum_sha256": "b576dc17b4364f6f15e0f1b44f6740c1b6b28316a367cdbe175025805f5dc30f",
       "file_path": "editions/Asian_Championship_W/2023.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "NORCECA_Championship_M",
+      "tier": "CONT-CH",
+      "gender": "M",
+      "year": "2021",
+      "official_match_count": 22,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 6-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDELITY per-team pool points recomputed == printed standings spw/spl (deviations, if any, proven arithmetically and disclosed); spine/table-top asserts exact. 27th edition, Durango City, Mexico, 18-23 Aug 2021. Format: 2 pools of 4, pool winners (MEX, CUB) byes to SF, 2nd/3rd to QF, 4ths to 5-8 bracket. Champions PUERTO RICO - FIRST NORCECA TITLE IN THEIR HISTORY (MVP Arturo Iglesias) d. Canada 3-0 in the final after knocking out Mexico-in-pools' conquerors; hosts Mexico bronze; PUR+CAN qualified for WCh-2022 (both in store). NORCECA scoring quirk byte-read: 5/4/3-2/1/0 match points (not FIVB 3/2/1). FIDELITY CATCH #4 OF THE WO: Pool A standings print Canada 214/197 but recomputation from match rows forces 204/207 - the printed pool is internally broken (spw sum 834 != spl sum 814) while MEX/PUR/TTO entries incl. points conceded TO Canada all recompute exactly; corrected-with-proof, both values documented. Sources: official norceca.net per-match P2 result PDFs (as-printed URL drift disclosed: matches 1-8 print norceca.net, 9-11 www.norceca.net long-form, 12-22 short MATCH-N form).",
+      "match_count": 22,
+      "checksum_sha256": "b1aaa0a463ef02ae3958063965457749dc2d3bd8fe5890fa9eab54f85cdc92d5",
+      "file_path": "editions/NORCECA_Championship_M/2021.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "NORCECA_Championship_M",
+      "tier": "CONT-CH",
+      "gender": "M",
+      "year": "2023",
+      "official_match_count": 17,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 6-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDELITY per-team pool points recomputed == printed standings spw/spl (deviations, if any, proven arithmetically and disclosed); spine/table-top asserts exact. 28th edition, Charleston WV, 5-10 Sep 2023, 7 teams (infobox matches=17 == built). Champions USA - 10th title at home (MVP Micah Christenson) d. Canada 3-0; Cuba bronze; USA+CAN+CUB qualified for WCh-2025 (in store). SCHEMA MIGRATION: round 6P added to DATA-RULES enum + harness this commit (NORCECA plays a 6th-place match: 5P loser does NOT take 6th - PUR lost 5P then beat SUR for 6th).",
+      "match_count": 17,
+      "checksum_sha256": "ea7964e7bd49eb021be8fc7f7fa42890b5d978ff5bef149a65d2063b2edaad69",
+      "file_path": "editions/NORCECA_Championship_M/2023.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "NORCECA_Championship_W",
+      "tier": "CONT-CH",
+      "gender": "W",
+      "year": "2021",
+      "official_match_count": 16,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 6-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDELITY per-team pool points recomputed == printed standings spw/spl (deviations, if any, proven arithmetically and disclosed); spine/table-top asserts exact. 27th edition, Guadalajara, Mexico, 26-31 Aug 2021 (structure count 16 == built; infobox matches field empty in bytes - census from printed rows). Champions DOMINICAN REPUBLIC 3rd title (MVP + best scorer + best opposite Gaila Gonzalez) d. Puerto Rico 3-2 (15-12 fifth); Canada bronze 3-2 over USA; DOM+PUR qualified for WCh-2022 (in store). Trinidad and Tobago's 4-25 set vs Costa Rica preserved (lowest set score in store).",
+      "match_count": 16,
+      "checksum_sha256": "a816bb4595ad5c9318b6a93a847b71ca6b29347966c5205c37cd9aba15d308ce",
+      "file_path": "editions/NORCECA_Championship_W/2021.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "NORCECA_Championship_W",
+      "tier": "CONT-CH",
+      "gender": "W",
+      "year": "2023",
+      "official_match_count": 17,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 6-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDELITY per-team pool points recomputed == printed standings spw/spl (deviations, if any, proven arithmetically and disclosed); spine/table-top asserts exact. 28th edition, Quebec City, 29 Aug - 3 Sep 2023 (infobox matches=17 == built). Champions DOMINICAN REPUBLIC BACK-TO-BACK, 4th title (MVP + best libero + best digger Brenda Castillo) d. USA 3-2 (15-13 fifth) after losing to them 0-3 in pools; hosts Canada bronze; DOM+USA+CAN qualified for WCh-2025 (in store). USA 25-3 set vs Costa Rica preserved. Round 6P per NORCECA format (PUR lost 5P then beat CRC for 6th).",
+      "match_count": 17,
+      "checksum_sha256": "3690c5632bac5de98f14aafaf200e17421e8168ea649f84446f233ffa60acee5",
+      "file_path": "editions/NORCECA_Championship_W/2023.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "South_American_Championship_M",
+      "tier": "CONT-CH",
+      "gender": "M",
+      "year": "2021",
+      "official_match_count": 10,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 6-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDELITY per-team pool points recomputed == printed standings spw/spl (deviations, if any, proven arithmetically and disclosed); spine/table-top asserts exact. 34th edition, Brasilia, 1-5 Sep 2021, single round-robin of 5 (10 matches == C(5,2)); VENEZUELA WITHDREW pre-tournament over COVID-19 issues (ge.globo ref byte-cited) and matches were played BEHIND CLOSED DOORS (voleysur ref byte-cited). Champions BRAZIL 33rd title, undefeated (MVP + best setter Bruno Rezende); Argentina silver; BRA+ARG qualified for WCh-2022 (in store). Sources: official voleysur.org per-match result pages (unique IDjogo). FIDELITY CATCH #5 OF THE WO: printed standings disagree with the COL-PER match row by exactly ONE POINT (PER spw 237/COL spl 324 printed vs 238/325 recomputed) - both computations internally consistent, so this is a row-vs-table conflict, resolved by per-match-source precedence (the row carries the official voleysur link); both values documented.",
+      "match_count": 10,
+      "checksum_sha256": "db44d6a32d7fb4c968609f1843882d832b01c9437d31101b03352f2ec8ef0d75",
+      "file_path": "editions/South_American_Championship_M/2021.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "South_American_Championship_M",
+      "tier": "CONT-CH",
+      "gender": "M",
+      "year": "2023",
+      "official_match_count": 10,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 6-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDELITY per-team pool points recomputed == printed standings spw/spl (deviations, if any, proven arithmetically and disclosed); spine/table-top asserts exact. 35th edition, Recife, 26-30 Aug 2023, single round-robin of 5 (10 matches). HISTORY: champions ARGENTINA - SECOND TITLE IN THE EVENT'S 72 YEARS AND FIRST SINCE 1964, ending Brazil's run of every championship they entered - clinched by beating hosts Brazil 3-0 (25-19 29-27 25-22) on the final day (MVP Vicentin, best setter De Cecco); ARG+BRA+COL qualified for WCh-2025 (in store). FIDELITY CATCH #3 OF THE WO: the printed standings are internally consistent BUT disagree with the match row on the final's set 2 - printed totals imply 27-25 while the match row and its live.app.fivb.com report say 29-27; per-match-source precedence keeps 29-27, expected standings recomputed (ARG 324/243, BRA 294/232 vs printed 322/241, 292/230) and the discrepancy is documented both ways for auditors. Sources: official FIVB Live Center match pages (unique ids 17580-17589).",
+      "match_count": 10,
+      "checksum_sha256": "20ea0aa470c64da6d371d4c22b91752e7cd620d1cf90091fa58ebce897c1ed09",
+      "file_path": "editions/South_American_Championship_M/2023.json",
       "gap_count": 0
     }
   ],
