@@ -1,0 +1,133 @@
+VNL_M 2021 — 2021 FIVB Men's Volleyball Nations League - 3rd edition (Rimini bubble)
+tier VNL | gender M | teams 16 | matches 124 | status closed_verified_gapless
+hosts: Italy (Rimini, Rimini Fiera - bio-secure bubble)
+source policy: BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 10 chunks); 124 == built (120 single-RR + final four); per-row sources = official vo
+
+== Preliminary round ==
+2021-05-28  RR France d. Bulgaria 3-0 (27-25 25-21 25-23) @ Rimini
+2021-05-28  RR Germany d. Australia 3-0 (25-19 25-18 25-16) @ Rimini
+2021-05-28  RR Japan d. Iran 3-0 (25-19 25-22 26-24) @ Rimini
+2021-05-28  RR Serbia d. Slovenia 3-1 (22-25 25-18 36-34 25-18) @ Rimini
+2021-05-28  RR Russia d. Netherlands 3-1 (25-19 25-22 18-25 25-20) @ Rimini
+2021-05-28  RR USA d. Canada 3-0 (25-17 26-24 25-20) @ Rimini
+2021-05-28  RR Poland d. Italy 3-0 (25-19 25-20 25-18) @ Rimini [home: loser]
+2021-05-28  RR Brazil d. Argentina 3-0 (31-29 26-24 25-16) @ Rimini
+2021-05-29  RR France d. Germany 3-2 (22-25 25-22 22-25 25-16 17-15) @ Rimini
+2021-05-29  RR Russia d. Iran 3-1 (25-17 20-25 25-20 25-17) @ Rimini
+2021-05-29  RR Japan d. Netherlands 3-2 (22-25 23-25 25-22 25-17 15-8) @ Rimini
+2021-05-29  RR Bulgaria d. Australia 3-0 (25-21 25-20 25-20) @ Rimini
+2021-05-29  RR Poland d. Serbia 3-1 (26-24 25-19 21-25 25-15) @ Rimini
+2021-05-29  RR Slovenia d. Italy 3-0 (25-23 25-19 25-15) @ Rimini [home: loser]
+2021-05-29  RR Canada d. Argentina 3-0 (25-17 25-21 25-17) @ Rimini
+2021-05-29  RR Brazil d. USA 3-0 (25-22 25-23 25-19) @ Rimini
+2021-05-30  RR France d. Australia 3-1 (28-26 20-25 25-14 25-23) @ Rimini
+2021-05-30  RR Iran d. Netherlands 3-0 (25-18 25-23 30-28) @ Rimini
+2021-05-30  RR Germany d. Bulgaria 3-2 (19-25 25-21 22-25 30-28 15-11) @ Rimini
+2021-05-30  RR Japan d. Russia 3-2 (28-26 26-28 20-25 25-21 16-14) @ Rimini
+2021-05-30  RR USA d. Argentina 3-1 (23-25 25-21 25-15 25-19) @ Rimini
+2021-05-30  RR Brazil d. Canada 3-1 (25-17 25-20 22-25 27-25) @ Rimini
+2021-05-30  RR Slovenia d. Poland 3-1 (25-22 23-25 25-19 25-23) @ Rimini
+2021-05-30  RR Serbia d. Italy 3-1 (25-23 22-25 25-22 25-18) @ Rimini [home: loser]
+2021-06-03  RR Argentina d. Germany 3-2 (25-19 23-25 17-25 25-23 15-13) @ Rimini
+2021-06-03  RR Iran d. Canada 3-1 (22-25 25-22 25-22 25-22) @ Rimini
+2021-06-03  RR Serbia d. Japan 3-1 (18-25 25-23 25-22 25-13) @ Rimini
+2021-06-03  RR France d. Brazil 3-0 (39-37 25-18 30-28) @ Rimini
+2021-06-03  RR Slovenia d. Netherlands 3-0 (25-18 25-15 25-18) @ Rimini
+2021-06-03  RR Poland d. Australia 3-0 (25-16 25-10 25-12) @ Rimini
+2021-06-03  RR Italy d. Bulgaria 3-2 (25-19 20-25 25-13 23-25 15-12) @ Rimini [home: winner]
+2021-06-03  RR Russia d. USA 3-1 (25-22 25-19 17-25 25-19) @ Rimini
+2021-06-04  RR Slovenia d. Argentina 3-0 (25-19 25-22 25-18) @ Rimini
+2021-06-04  RR Netherlands d. Germany 3-2 (25-18 23-25 25-20 23-25 15-13) @ Rimini
+2021-06-04  RR Brazil d. Japan 3-0 (25-20 25-16 25-20) @ Rimini
+2021-06-04  RR Serbia d. France 3-2 (22-25 24-26 25-22 25-23 15-9) @ Rimini
+2021-06-04  RR Iran d. Italy 3-1 (26-24 29-27 21-25 25-22) @ Rimini [home: loser]
+2021-06-04  RR Poland d. USA 3-0 (25-17 28-26 25-17) @ Rimini
+2021-06-04  RR Russia d. Australia 3-0 (25-19 26-24 25-21) @ Rimini
+2021-06-04  RR Canada d. Bulgaria 3-0 (28-26 25-23 25-16) @ Rimini
+2021-06-05  RR Argentina d. Netherlands 3-0 (25-19 25-20 25-23) @ Rimini
+2021-06-05  RR Germany d. Slovenia 3-1 (19-25 25-20 25-21 25-20) @ Rimini
+2021-06-05  RR France d. Japan 3-2 (21-25 25-22 24-26 25-21 15-11) @ Rimini
+2021-06-05  RR Brazil d. Serbia 3-1 (23-25 25-23 25-15 25-22) @ Rimini
+2021-06-05  RR Poland d. Russia 3-1 (21-25 25-19 25-19 25-14) @ Rimini
+2021-06-05  RR USA d. Australia 3-0 (25-23 25-20 25-17) @ Rimini
+2021-06-05  RR Iran d. Bulgaria 3-0 (25-20 33-31 25-22) @ Rimini
+2021-06-05  RR Italy d. Canada 3-2 (25-19 25-21 21-25 26-28 15-11) @ Rimini [home: winner]
+2021-06-09  RR Serbia d. Germany 3-1 (19-25 25-22 25-18 25-15) @ Rimini
+2021-06-09  RR Japan d. Australia 3-1 (25-18 21-25 28-26 26-24) @ Rimini
+2021-06-09  RR France d. Russia 3-1 (22-25 25-18 30-28 25-19) @ Rimini
+2021-06-09  RR Slovenia d. Canada 3-0 (25-22 25-19 25-22) @ Rimini
+2021-06-09  RR Italy d. Argentina 3-0 (30-28 25-21 25-20) @ Rimini [home: winner]
+2021-06-09  RR Iran d. USA 3-0 (25-19 25-23 25-23) @ Rimini
+2021-06-09  RR Poland d. Bulgaria 3-0 (25-19 25-15 25-12) @ Rimini
+2021-06-09  RR Brazil d. Netherlands 3-0 (25-19 25-22 27-25) @ Rimini
+2021-06-10  RR Serbia d. Iran 3-2 (21-25 25-15 26-28 25-22 15-8) @ Rimini
+2021-06-10  RR Russia d. Canada 3-1 (25-18 25-18 23-25 25-23) @ Rimini
+2021-06-10  RR Slovenia d. France 3-2 (17-25 19-25 25-23 25-19 15-9) @ Rimini
+2021-06-10  RR Argentina d. Australia 3-0 (25-18 25-19 25-20) @ Rimini
+2021-06-10  RR USA d. Germany 3-0 (25-12 25-18 29-27) @ Rimini
+2021-06-10  RR Brazil d. Bulgaria 3-0 (25-16 25-22 25-12) @ Rimini
+2021-06-10  RR Japan d. Italy 3-2 (21-25 25-22 22-25 25-15 15-9) @ Rimini [home: loser]
+2021-06-10  RR Poland d. Netherlands 3-0 (25-14 25-17 25-16) @ Rimini
+2021-06-11  RR Germany d. Iran 3-2 (23-25 25-20 25-19 19-25 15-13) @ Rimini
+2021-06-11  RR Slovenia d. Russia 3-2 (19-25 25-23 22-25 25-20 15-8) @ Rimini
+2021-06-11  RR Argentina d. Japan 3-1 (30-32 25-16 25-18 25-21) @ Rimini
+2021-06-11  RR Bulgaria d. Netherlands 3-2 (25-18 18-25 17-25 25-22 15-13) @ Rimini
+2021-06-11  RR Italy d. Australia 3-0 (25-20 25-22 25-14) @ Rimini [home: winner]
+2021-06-11  RR Serbia d. USA 3-1 (25-23 25-17 19-25 27-25) @ Rimini
+2021-06-11  RR France d. Canada 3-1 (20-25 25-21 25-22 25-17) @ Rimini
+2021-06-11  RR Brazil d. Poland 3-0 (25-17 28-26 25-19) @ Rimini
+2021-06-15  RR Russia d. Serbia 3-1 (25-23 25-22 22-25 25-21) @ Rimini
+2021-06-15  RR Australia d. Iran 3-2 (25-23 25-22 23-25 18-25 15-12) @ Rimini
+2021-06-15  RR Argentina d. Bulgaria 3-1 (25-20 16-25 25-18 25-18) @ Rimini
+2021-06-15  RR Japan d. Germany 3-0 (25-18 25-22 25-20) @ Rimini
+2021-06-15  RR USA d. Italy 3-0 (25-15 25-18 25-21) @ Rimini [home: loser]
+2021-06-15  RR Poland d. Canada 3-0 (25-22 25-23 25-19) @ Rimini
+2021-06-15  RR Brazil d. Slovenia 3-2 (15-25 25-22 19-25 25-13 15-12) @ Rimini
+2021-06-15  RR Netherlands d. France 3-2 (15-25 22-25 28-26 25-23 19-17) @ Rimini
+2021-06-16  RR Russia d. Argentina 3-1 (25-19 25-23 21-25 25-19) @ Rimini
+2021-06-16  RR Serbia d. Bulgaria 3-0 (25-20 25-17 25-17) @ Rimini
+2021-06-16  RR Slovenia d. Australia 3-1 (18-25 25-18 25-18 25-17) @ Rimini
+2021-06-16  RR Poland d. Japan 3-0 (25-14 25-18 25-19) @ Rimini
+2021-06-16  RR Italy d. Netherlands 3-1 (25-19 25-23 23-25 25-21) @ Rimini [home: winner]
+2021-06-16  RR Canada d. Germany 3-0 (25-17 26-24 25-21) @ Rimini
+2021-06-16  RR France d. USA 3-1 (25-23 22-25 31-29 25-22) @ Rimini
+2021-06-16  RR Brazil d. Iran 3-1 (25-19 23-25 25-19 25-21) @ Rimini
+2021-06-17  RR Argentina d. Serbia 3-0 (27-25 25-20 26-24) @ Rimini
+2021-06-17  RR Russia d. Bulgaria 3-0 (25-17 25-22 25-17) @ Rimini
+2021-06-17  RR Canada d. Japan 3-0 (25-22 25-23 25-18) @ Rimini
+2021-06-17  RR Brazil d. Australia 3-0 (25-17 25-22 25-12) @ Rimini
+2021-06-17  RR Slovenia d. Iran 3-1 (14-25 25-20 25-19 32-30) @ Rimini
+2021-06-17  RR USA d. Netherlands 3-2 (21-25 25-17 23-25 25-15 15-13) @ Rimini
+2021-06-17  RR Italy d. France 3-2 (25-19 22-25 25-20 21-25 15-12) @ Rimini [home: winner]
+2021-06-17  RR Poland d. Germany 3-0 (25-22 25-19 25-20) @ Rimini
+2021-06-21  RR Serbia d. Australia 3-1 (25-16 25-13 19-25 25-15) @ Rimini
+2021-06-21  RR Japan d. Bulgaria 3-0 (25-23 25-18 25-14) @ Rimini
+2021-06-21  RR France d. Iran 3-0 (25-21 25-21 25-19) @ Rimini
+2021-06-21  RR Canada d. Netherlands 3-0 (25-16 25-16 25-19) @ Rimini
+2021-06-21  RR Brazil d. Italy 3-1 (25-19 32-30 22-25 25-20) @ Rimini [home: loser]
+2021-06-21  RR Slovenia d. USA 3-2 (28-30 25-19 21-25 28-26 15-13) @ Rimini
+2021-06-21  RR Poland d. Argentina 3-0 (25-21 25-22 25-18) @ Rimini
+2021-06-21  RR Russia d. Germany 3-1 (25-18 25-18 23-25 25-15) @ Rimini
+2021-06-22  RR Canada d. Australia 3-0 (25-17 25-8 25-20) @ Rimini
+2021-06-22  RR Serbia d. Netherlands 3-2 (25-21 21-25 25-18 21-25 17-15) @ Rimini
+2021-06-22  RR USA d. Bulgaria 3-0 (25-19 26-24 25-9) @ Rimini
+2021-06-22  RR Poland d. Iran 3-0 (25-20 25-20 25-16) @ Rimini
+2021-06-22  RR Slovenia d. Japan 3-0 (25-16 25-16 28-26) @ Rimini
+2021-06-22  RR France d. Argentina 3-0 (26-24 25-21 25-22) @ Rimini
+2021-06-22  RR Brazil d. Germany 3-0 (25-21 25-21 25-23) @ Rimini
+2021-06-22  RR Russia d. Italy 3-2 (25-21 16-25 25-17 19-25 15-12) @ Rimini [home: loser]
+2021-06-23  RR Netherlands d. Australia 3-0 (25-23 25-19 25-19) @ Rimini
+2021-06-23  RR Canada d. Serbia 3-2 (17-25 21-25 25-17 25-20 17-15) @ Rimini
+2021-06-23  RR USA d. Japan 3-0 (25-21 25-23 25-20) @ Rimini
+2021-06-23  RR France d. Poland 3-2 (25-22 21-25 22-25 25-20 15-11) @ Rimini
+2021-06-23  RR Argentina d. Iran 3-1 (33-31 25-23 30-32 25-18) @ Rimini
+2021-06-23  RR Slovenia d. Bulgaria 3-0 (25-23 25-16 25-18) @ Rimini
+2021-06-23  RR Italy d. Germany 3-2 (25-12 24-26 25-22 21-25 15-13) @ Rimini [home: winner]
+2021-06-23  RR Russia d. Brazil 3-0 (25-21 28-26 25-20) @ Rimini
+
+== Final round ==
+2021-06-26  SF Brazil d. France 3-0 (25-20 25-18 25-19) @ Rimini
+2021-06-26  SF Poland d. Slovenia 3-0 (25-22 25-21 25-23) @ Rimini
+2021-06-27  3P France d. Slovenia 3-0 (25-20 25-18 25-19) @ Rimini
+2021-06-27   F Brazil d. Poland 3-1 (22-25 25-23 25-16 25-14) @ Rimini
+

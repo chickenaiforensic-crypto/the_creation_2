@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 28,
+  "total_editions": 29,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -364,6 +364,19 @@
       "match_count": 124,
       "checksum_sha256": "1e26d40ee86f64352b4ecf6383371a5f692683bb57a753caa2f1db341da7a384",
       "file_path": "editions/VNL_W/2021.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "VNL_M",
+      "tier": "VNL",
+      "gender": "M",
+      "year": "2021",
+      "official_match_count": 124,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 10 chunks); 124 == built (120 single-RR + final four); per-row sources = official volleyballworld schedule pages, sequential unique ids 11700-11823, FIVB vis2009 P2 PDFs alongside. THE RIMINI BUBBLE, MEN'S HALF: one bio-secure venue, 2,250 PCR + 7,920 antigen tests with a single positive (FIVB ref byte-cited); CHINA WITHDREW pre-season (struck-through in the byte-read teams table; Netherlands + Slovenia debuts). Russia as 'Russia' (FIVB event). FIDELITY - DOUBLE LOCK EXACT, unlike the women's page: recomputed spw/spl == printed for ALL 16 TEAMS (20,031==20,031) AND the full win/loss-category profile matches all 16 (the W-page staleness defect does NOT afflict the M page - both locks coded and passing). True-single-RR assert held. Spine exact: SF == top-4 {BRA,POL,SLO,FRA}; F == SF winners; 3P == SF losers. Champions BRAZIL - FIRST VNL TITLE (dual MVPs as printed: Wallace de Souza AND Bartosz Kurek of runners-up Poland) d. Poland 3-1 in the final, having lost only twice all month (0-3 to France in week 2 incl. the 37-39 set, 0-3 to Russia on the last prelim day); France bronze over debutants Slovenia, whose first-ever VNL ended in the final four. MONSTER-SET LEDGER UPDATES: BRA-FRA 37-39 (76 points - joins the 76-point #2 band behind BUL-GER 40-38); SRB d. SLO 36-34 third set (70 points); NED d. FRA 19-17 IN THE FIFTH; IRI-ARG carried 31-33 AND 32-30 in the same match; JPN-ARG 32-30; BRA-ITA 32-30; SLO-USA 28-30 + 28-26; RUS-JPN 26-28 + 28-26 five-setter. 28 May - 27 Jun 2021.",
+      "match_count": 124,
+      "checksum_sha256": "812a7544bb39a09d28a3fe40e45bad263528266442da42f8b4495d1cfd69e200",
+      "file_path": "editions/VNL_M/2021.json",
       "gap_count": 0
     }
   ],
