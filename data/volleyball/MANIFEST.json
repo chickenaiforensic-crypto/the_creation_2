@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 10,
+  "total_editions": 11,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -130,6 +130,19 @@
       "match_count": 38,
       "checksum_sha256": "1d6846565d23c2822b3390bbb1e36c0fd47039d837c55d6b741ad2b1ca67eb85",
       "file_path": "editions/Olympics_W/2021.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "Olympics_M",
+      "tier": "OG",
+      "gender": "M",
+      "year": "2024",
+      "official_match_count": 26,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-3 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = official olympics.com P2 PDFs (unique codes GPA/GPB/GPC/QFNL/SFNL/FNL, all 26 distinct) + olympics.com result pages in provenance; format census 3 pools of 4 RR (18) + QF/SF/3P/F (8) = 26 == built count. FORMAT REFORM EDITION: first 3-pools-of-4 Olympic tournament after nine straight 2-pools-of-6 editions (paris2024.org format ref byte-cited in-page); top-2 per pool + 2 BEST THIRDS advance via a teams-combined-ranking (1v8/2v7/3v6/4v5) - QF pairings asserted against the combined-ranking table (ITA-JPN, USA-BRA, SLO-POL, FRA-GER exact). All matches South Paris Arena 1, Paris. FIDELITY: per-team pool points recomputed from set tokens == standings spw/spl for ALL 12 TEAMS (official olympics.com C76A PDF cited as standings source). Spine exact. Champions FRANCE BACK-TO-BACK (2nd title, MVP Earvin N'Gapeth REPEATS, coach Andrea Giani) d. Poland 3-0 in the gold medal match - host gold at home with home flags on all 6 FRA rows incl. the 2-3 pool loss to eventual-5th Slovenia and the QF escape vs Germany (15-13 fifth after 0-2); Poland silver - first Olympic medal since 1976 via the 15-13-in-the-5th SF over USA; USA bronze 3-0 over Italy (all three sets deuce: 25-23 30-28 26-24). Serbia OUT despite pool-3rd (worst third, combined ranking 9th); Japan's 17-15 extended-fifth QF heartbreaker vs Italy preserved (2-0 up, match points held). DISCLOSED: page statistics-leaders tables vandalised (implausible names) - rejected; awards table (volleyballworld MVP ref) retained. 27 Jul - 10 Aug 2024.",
+      "match_count": 26,
+      "checksum_sha256": "a6339722ef1f992776f5fa452b1eb090599eb8d11ecb266798b6bde6d580c26f",
+      "file_path": "editions/Olympics_M/2024.json",
       "gap_count": 0
     }
   ],

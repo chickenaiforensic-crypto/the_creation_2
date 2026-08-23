@@ -1,0 +1,39 @@
+Olympics_M 2024 — Volleyball at the 2024 Summer Olympics (Paris) - Men's tournament, 16th edition
+tier OG | gender M | teams 12 | matches 26 | status closed_verified_gapless
+hosts: France (Paris, South Paris Arena 1)
+source policy: BUILT from cited bytes under WO-VB-3 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = official olympics.com P2 PDFs (unique codes GPA/GPB/GPC/QFNL/SFNL/FNL, all 26 d
+
+== Pool A ==
+2024-07-28  RR France d. Serbia 3-2 (23-25 25-17 25-17 21-25 15-6) @ Paris [home: winner]
+2024-07-28  RR Slovenia d. Canada 3-1 (25-21 25-20 20-25 25-21) @ Paris
+2024-07-30  RR Slovenia d. Serbia 3-0 (25-21 25-19 25-19) @ Paris
+2024-07-30  RR France d. Canada 3-0 (25-20 25-21 25-17) @ Paris [home: winner]
+2024-08-02  RR Slovenia d. France 3-2 (25-20 25-23 25-27 22-25 15-11) @ Paris [home: loser]
+2024-08-03  RR Serbia d. Canada 3-2 (16-25 22-25 26-24 25-19 18-16) @ Paris
+
+== Pool B ==
+2024-07-27  RR Italy d. Brazil 3-1 (25-23 27-25 18-25 25-21) @ Paris
+2024-07-27  RR Poland d. Egypt 3-0 (25-21 25-19 25-13) @ Paris
+2024-07-30  RR Italy d. Egypt 3-0 (25-15 25-16 25-20) @ Paris
+2024-07-31  RR Poland d. Brazil 3-2 (22-25 25-19 19-25 25-23 15-12) @ Paris
+2024-08-02  RR Brazil d. Egypt 3-0 (25-11 25-13 25-16) @ Paris
+2024-08-03  RR Italy d. Poland 3-1 (25-15 25-18 24-26 25-20) @ Paris
+
+== Pool C ==
+2024-07-27  RR Germany d. Japan 3-2 (25-17 23-25 20-25 30-28 15-12) @ Paris
+2024-07-27  RR USA d. Argentina 3-0 (25-20 25-19 25-16) @ Paris
+2024-07-30  RR USA d. Germany 3-2 (25-21 25-17 17-25 20-25 15-11) @ Paris
+2024-07-31  RR Japan d. Argentina 3-1 (25-16 25-22 18-25 25-23) @ Paris
+2024-08-02  RR Germany d. Argentina 3-0 (25-13 25-21 25-21) @ Paris
+2024-08-02  RR USA d. Japan 3-1 (25-16 25-18 18-25 25-19) @ Paris
+
+== Knockout ==
+2024-08-05  QF Poland d. Slovenia 3-1 (25-20 24-26 25-19 25-20) @ Paris
+2024-08-05  QF Italy d. Japan 3-2 (20-25 23-25 27-25 26-24 17-15) @ Paris
+2024-08-05  QF France d. Germany 3-2 (18-25 26-28 25-20 25-21 15-13) @ Paris [home: winner]
+2024-08-05  QF USA d. Brazil 3-1 (26-24 28-30 25-19 25-19) @ Paris
+2024-08-07  SF Poland d. USA 3-2 (25-23 25-27 14-25 25-23 15-13) @ Paris
+2024-08-07  SF France d. Italy 3-0 (25-20 25-21 25-21) @ Paris [home: winner]
+2024-08-09  3P USA d. Italy 3-0 (25-23 30-28 26-24) @ Paris
+2024-08-10   F France d. Poland 3-0 (25-19 25-20 25-23) @ Paris [home: winner]
+
