@@ -1,0 +1,49 @@
+Olympics_M 2021 — Volleyball at the 2020 Summer Olympics (Tokyo) - Men's tournament, 15th edition (played 2021)
+tier OG | gender M | teams 12 | matches 38 | status closed_verified_gapless
+hosts: Japan (Tokyo, Ariake Arena)
+source policy: BUILT from cited bytes under WO-VB-3 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = official FIVB vis2009 Results PDFs (getdocument.asmx ids 256318088-256321011) +
+
+== Pool A ==
+2021-07-24  RR Italy d. Canada 3-2 (26-28 18-25 25-21 25-18 15-11) @ Tokyo
+2021-07-24  RR Japan d. Venezuela 3-0 (25-21 25-20 25-15) @ Tokyo [home: winner]
+2021-07-24  RR Iran d. Poland 3-2 (18-25 25-22 25-22 22-25 23-21) @ Tokyo
+2021-07-26  RR Iran d. Venezuela 3-0 (25-17 25-20 25-18) @ Tokyo
+2021-07-26  RR Poland d. Italy 3-0 (25-20 26-24 25-20) @ Tokyo
+2021-07-26  RR Japan d. Canada 3-1 (23-25 25-23 25-23 25-20) @ Tokyo [home: winner]
+2021-07-28  RR Canada d. Iran 3-0 (25-16 25-20 25-22) @ Tokyo
+2021-07-28  RR Poland d. Venezuela 3-1 (25-16 25-13 18-25 25-15) @ Tokyo
+2021-07-28  RR Italy d. Japan 3-1 (25-20 25-17 23-25 25-21) @ Tokyo [home: loser]
+2021-07-30  RR Canada d. Venezuela 3-0 (25-13 25-22 25-12) @ Tokyo
+2021-07-30  RR Poland d. Japan 3-0 (25-22 25-21 26-24) @ Tokyo [home: loser]
+2021-07-30  RR Italy d. Iran 3-1 (30-28 25-21 21-25 25-21) @ Tokyo
+2021-08-01  RR Poland d. Canada 3-0 (25-15 25-21 25-16) @ Tokyo
+2021-08-01  RR Italy d. Venezuela 3-0 (25-22 25-15 25-17) @ Tokyo
+2021-08-01  RR Japan d. Iran 3-2 (25-21 20-25 29-31 25-22 15-13) @ Tokyo [home: winner]
+
+== Pool B ==
+2021-07-24  RR Brazil d. Tunisia 3-0 (25-22 25-20 25-15) @ Tokyo
+2021-07-24  RR ROC d. Argentina 3-1 (21-25 25-23 25-17 25-21) @ Tokyo
+2021-07-24  RR USA d. France 3-0 (25-18 25-18 25-22) @ Tokyo
+2021-07-26  RR ROC d. USA 3-1 (25-23 27-25 21-25 25-23) @ Tokyo
+2021-07-26  RR France d. Tunisia 3-0 (25-21 25-11 25-21) @ Tokyo
+2021-07-26  RR Brazil d. Argentina 3-2 (19-25 21-25 25-16 25-21 16-14) @ Tokyo
+2021-07-28  RR USA d. Tunisia 3-1 (25-14 23-25 25-14 25-23) @ Tokyo
+2021-07-28  RR Argentina d. France 3-2 (23-25 25-17 25-20 15-25 15-13) @ Tokyo
+2021-07-28  RR ROC d. Brazil 3-0 (25-22 25-20 25-20) @ Tokyo
+2021-07-30  RR Brazil d. USA 3-1 (30-32 25-23 25-21 25-20) @ Tokyo
+2021-07-30  RR Argentina d. Tunisia 3-2 (23-25 23-25 25-19 25-18 15-8) @ Tokyo
+2021-07-30  RR France d. ROC 3-1 (25-21 20-25 25-17 25-20) @ Tokyo
+2021-08-01  RR Brazil d. France 3-2 (25-22 37-39 25-17 21-25 20-18) @ Tokyo
+2021-08-01  RR ROC d. Tunisia 3-0 (25-20 25-22 25-16) @ Tokyo
+2021-08-01  RR Argentina d. USA 3-0 (25-21 25-23 25-23) @ Tokyo
+
+== Knockout ==
+2021-08-03  QF ROC d. Canada 3-0 (25-21 30-28 25-22) @ Tokyo
+2021-08-03  QF Brazil d. Japan 3-0 (25-20 25-22 25-20) @ Tokyo [home: loser]
+2021-08-03  QF Argentina d. Italy 3-2 (21-25 25-23 25-22 14-25 15-12) @ Tokyo
+2021-08-03  QF France d. Poland 3-2 (21-25 25-22 21-25 25-21 15-9) @ Tokyo
+2021-08-05  SF ROC d. Brazil 3-1 (18-25 25-21 26-24 25-23) @ Tokyo
+2021-08-05  SF France d. Argentina 3-0 (25-22 25-19 25-22) @ Tokyo
+2021-08-07  3P Argentina d. Brazil 3-2 (25-23 20-25 20-25 25-17 15-13) @ Tokyo
+2021-08-07   F France d. ROC 3-2 (25-23 25-17 21-25 21-25 15-12) @ Tokyo
+

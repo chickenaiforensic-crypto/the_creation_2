@@ -42,6 +42,7 @@ Binding for every row in `data/volleyball/`. Changes require a disclosed migrati
 ## Naming policy (locked)
 - Country teams: English exonyms, one spelling forever, first write wins. Locked now: **"Turkiye"** (no diacritics — store-wide ASCII team names for app safety; people names in future volleyball rosters would keep native diacritics per tennis precedent, but v1.1 rows carry team names only).
 - "Korea" = South Korea ("Korea Republic" not used); "Iran", "USA", "Dominican Republic", "Czechia", "North Macedonia", "Great Britain" if ever. Ambiguities adjudicated in census, recorded here.
+- **"ROC" adjudication (WO-VB-3, 2026-08-23):** at Tokyo-2020 (played 2021) the Russian team competed as the Russian Olympic Committee under the WADA-ban naming ruling; the edition page prints it `{{vb|RUS|roc-olympics|name=ROC}}` everywhere. Stored **as-printed "ROC"** — a distinct canon string from "Russia" (reserved for rows where the team competed under its own name/flag, e.g. EuroVolley-2021). Rationale: per-row byte truth beats retro-normalisation; a consumer joining across editions can map ROC→Russia knowingly, but the store never asserts a flag the bytes deny.
 
 ## Sources (locked hierarchy)
 1. CEV.eu / volleyballworld.com official match pages → 2. confederation sites → 3. Wikipedia edition pages (corroboration + completeness template) → 4. wire for forfeit narratives. Grokipedia: rejected class.

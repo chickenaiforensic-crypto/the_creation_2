@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 8,
+  "total_editions": 9,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -104,6 +104,19 @@
       "match_count": 64,
       "checksum_sha256": "5539fa7800a6d580a2de87cfb22c75aeaf2027cb53903cbbea26e2b842695a32",
       "file_path": "editions/World_Championship_W/2025.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "Olympics_M",
+      "tier": "OG",
+      "gender": "M",
+      "year": "2021",
+      "official_match_count": 38,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-3 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = official FIVB vis2009 Results PDFs (getdocument.asmx ids 256318088-256321011) + archived olympics.com statistics PDFs in provenance; format census 2 pools of 6 RR (30) + QF/SF/3P/F (8) = 38 == built count. TOKYO-2020 PLAYED 2021: postponed by COVID-19 (IOC/Tokyo-2020 joint statement 24 Mar 2020 cited in-page), all matches behind closed doors at Ariake Arena, Tokyo - single-venue edition, edition_year 2021 = year actually played. FIDELITY: per-team pool points recomputed from set tokens == standings spw/spl for ALL 12 TEAMS (dual official standings source in-page: archived olympics.com groups page + volleyballworld standings). Spine exact: SF participants == QF winners, F == SF winners, 3P == SF losers. ROC ADJUDICATION: Russian team competed as 'ROC' (Russian Olympic Committee, WADA-ban naming era) - stored as-printed 'ROC', a distinct canon string from 'Russia' (which stays reserved for RUS-flagged rows) - recorded in DATA-RULES-VB naming policy this commit. Champions FRANCE - FIRST gold and first Olympic volleyball medal ever, d. ROC 3-2 (15-12 fifth) after being 0-2 pool start; Argentina bronze 3-2 over Brazil (first medal since 1988); host Japan's first Olympic QF since 1992 preserved with home flags incl. the 3-2 pool epic vs Iran (29-31 third set). Monster set preserved: France d. Brazil 39-37 set 2 (76 points - ties ITA-CAN 39-37 as store #2). 24 Jul - 7 Aug 2021.",
+      "match_count": 38,
+      "checksum_sha256": "52e369e08c3c38e6c53334a060e7d0e8d5742aff2f96848db3fb164226bb09ee",
+      "file_path": "editions/Olympics_M/2021.json",
       "gap_count": 0
     }
   ],
