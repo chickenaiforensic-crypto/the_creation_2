@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 3,
+  "total_editions": 4,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -39,6 +39,19 @@
       "match_count": 76,
       "checksum_sha256": "f8ab80d895ce3366252fdb57ad22185b6e505207818cd006c9ead3719be5a3d0",
       "file_path": "editions/EuroVolley_W/2023.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "EuroVolley_M",
+      "tier": "CONT-CH",
+      "gender": "M",
+      "year": "2023",
+      "official_match_count": 76,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-1 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); every match row cites BOTH the LIVE cev.eu match-centre page (used as the per-row source URL - a live-official upgrade over the 2021/W-2023 legacy-archive sources, disclosed) and the legacy CEV MatchStatistics ID (66614-66628/66436-66482 pools, 68939-68946/67974-67981 finals - preserved in provenance); infobox official total 76 == built count. 24 teams: Pool A Italy CITY-BY-DATE (Bologna opener Aug 28, Perugia Aug 30-Sep 1, Ancona Sep 3-6 - per-row date->city assertion), Pool B Varna, Pool C Skopje, Pool D Tel Aviv (Israel replaced Ukraine as co-host, Oct 2022 CEV decision - war-related, documented in-page); R16+QF split Bari/Varna; SF/3P/F Rome. FIDELITY: per-team pool points recomputed from set tokens == standings spw/spl for ALL 24 teams. Spine exact. Champions POLAND (2nd title, MVP Wilfredo Leon, coach Grbic) d. hosts Italy 3-0 in Rome; Slovenia bronze 3-2 over France; QF epic Poland d. Serbia 26-28 25-15 36-34 25-17 (a 70-point set); top-3 minus world-champs Italy took CEV berths to the 2025 World Championship. Aug 28 - Sep 16 2023.",
+      "match_count": 76,
+      "checksum_sha256": "d3c851e3091694441668c9fa7a18d2bf10ab15371cef4b39d93a9dfee85713a0",
+      "file_path": "editions/EuroVolley_M/2023.json",
       "gap_count": 0
     }
   ],

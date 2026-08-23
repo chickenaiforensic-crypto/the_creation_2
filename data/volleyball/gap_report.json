@@ -1,11 +1,12 @@
 {
   "description": "Volleyball program integrity report - counters + per-work-order notes per PLAN-VB.",
   "method": "Per-edition census (official match counts) -> build 100% from cited bytes -> full-harness verification; coverage-build convention (no gap IDs; per-WO closure notes).",
-  "editions_checked": 3,
-  "editions_clean": 3,
+  "editions_checked": 4,
+  "editions_clean": 4,
   "editions_with_gaps": 0,
   "total_gap_instances": 0,
   "gaps": [],
   "gaps_closed": 0,
-  "gaps_open": 0
+  "gaps_open": 0,
+  "wo_vb1_closure_note": "WO-VB-1 (2026-08-23, Auditor 1): EuroVolley coverage COMPLETE - 4 editions (W+M 2021, W+M 2023) / 304 matches, all built from cited bytes with unique per-row official CEV sources (2021+W-2023: legacy MatchStatistics URLs wayback-recoverable; M-2023: live cev.eu match-centre URLs). FIDELITY cross-lock held on ALL FOUR editions: per-team pool points recomputed from set tokens == official standings spw/spl for all 96 team-pool entries. Champions: W-2021 Italy, M-2021 Italy (the Italian double), W-2023 Turkiye (1st title), M-2023 Poland. City-by-date venue mappings byte-enforced (Pool B Italy 2023-W: Verona/Monza/Turin; Pool A Italy 2023-M: Bologna/Perugia/Ancona); home flags per Director rule throughout; zero forfeits or golden sets in any of the four editions (verified absence, not assumption - every S-column complete). EuroVolley 2026 W+M enter via WO-VB-8 post-event queue (finals Sep 6 / Sep 26)."
 }
