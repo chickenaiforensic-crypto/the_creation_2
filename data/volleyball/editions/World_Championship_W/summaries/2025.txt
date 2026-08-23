@@ -1,0 +1,87 @@
+World_Championship_W 2025 — 2025 FIVB Women's Volleyball World Championship - 20th edition (first 32-team, biennial era)
+tier WORLD-CH | gender W | teams 32 | matches 64 | status closed_verified_gapless
+hosts: Thailand (Bangkok, Phuket, Chiang Mai, Nakhon Ratchasima)
+source policy: BUILT from cited bytes under WO-VB-2 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw) + the pool-tables TEMPLATE fetched separately for standings (disclosed - this page externalises it
+
+== Pool A ==
+2025-08-22  RR Netherlands d. Sweden 3-2 (25-27 25-11 25-21 21-25 15-9) @ Bangkok
+2025-08-22  RR Thailand d. Egypt 3-1 (25-15 23-25 25-15 25-11) @ Bangkok [home: winner]
+2025-08-24  RR Netherlands d. Egypt 3-0 (25-15 25-13 25-13) @ Bangkok
+2025-08-24  RR Thailand d. Sweden 3-0 (25-18 25-20 25-22) @ Bangkok [home: winner]
+2025-08-26  RR Sweden d. Egypt 3-1 (25-18 26-28 25-20 25-16) @ Bangkok
+2025-08-26  RR Netherlands d. Thailand 3-2 (23-25 25-17 23-25 25-10 16-14) @ Bangkok [home: loser]
+
+== Pool B ==
+2025-08-22  RR Belgium d. Cuba 3-0 (25-23 25-14 25-11) @ Phuket
+2025-08-22  RR Italy d. Slovakia 3-0 (25-20 25-14 25-17) @ Phuket
+2025-08-24  RR Italy d. Cuba 3-0 (25-9 25-8 25-16) @ Phuket
+2025-08-24  RR Belgium d. Slovakia 3-0 (25-19 25-17 25-18) @ Phuket
+2025-08-26  RR Italy d. Belgium 3-1 (25-16 25-16 21-25 25-18) @ Phuket
+2025-08-26  RR Cuba d. Slovakia 3-1 (27-25 25-21 22-25 26-24) @ Phuket
+
+== Pool C ==
+2025-08-22  RR France d. Puerto Rico 3-1 (25-22 25-18 21-25 25-14) @ Chiang Mai
+2025-08-22  RR Brazil d. Greece 3-0 (25-18 25-16 25-16) @ Chiang Mai
+2025-08-24  RR Greece d. Puerto Rico 3-1 (25-19 25-13 23-25 25-14) @ Chiang Mai
+2025-08-24  RR Brazil d. France 3-2 (21-25 20-25 25-15 25-17 15-13) @ Chiang Mai
+2025-08-26  RR France d. Greece 3-1 (17-25 25-21 28-26 25-17) @ Chiang Mai
+2025-08-26  RR Brazil d. Puerto Rico 3-0 (25-19 25-13 25-18) @ Chiang Mai
+
+== Pool D ==
+2025-08-22  RR Argentina d. Czechia 3-1 (18-25 25-23 25-17 26-24) @ Nakhon Ratchasima
+2025-08-22  RR USA d. Slovenia 3-1 (25-23 17-25 25-22 25-14) @ Nakhon Ratchasima
+2025-08-24  RR Czechia d. Slovenia 3-2 (22-25 19-25 25-23 25-18 15-13) @ Nakhon Ratchasima
+2025-08-24  RR USA d. Argentina 3-1 (25-14 23-25 25-12 25-17) @ Nakhon Ratchasima
+2025-08-26  RR Slovenia d. Argentina 3-0 (25-20 25-22 25-21) @ Nakhon Ratchasima
+2025-08-26  RR USA d. Czechia 3-0 (26-24 25-20 25-15) @ Nakhon Ratchasima
+
+== Pool E ==
+2025-08-23  RR Canada d. Bulgaria 3-1 (25-23 25-18 23-25 25-18) @ Nakhon Ratchasima
+2025-08-23  RR Turkiye d. Spain 3-0 (25-18 25-20 25-23) @ Nakhon Ratchasima
+2025-08-25  RR Canada d. Spain 3-2 (22-25 28-26 24-26 25-15 15-10) @ Nakhon Ratchasima
+2025-08-25  RR Turkiye d. Bulgaria 3-0 (25-23 25-19 25-13) @ Nakhon Ratchasima
+2025-08-27  RR Turkiye d. Canada 3-0 (25-21 27-25 25-13) @ Nakhon Ratchasima
+2025-08-27  RR Spain d. Bulgaria 3-1 (25-22 25-14 22-25 25-18) @ Nakhon Ratchasima
+
+== Pool F ==
+2025-08-23  RR Dominican Republic d. Colombia 3-0 (25-15 25-18 25-13) @ Chiang Mai
+2025-08-23  RR China d. Mexico 3-1 (22-25 26-24 25-10 25-18) @ Chiang Mai
+2025-08-25  RR Dominican Republic d. Mexico 3-0 (25-15 25-17 25-20) @ Chiang Mai
+2025-08-25  RR China d. Colombia 3-1 (25-16 23-25 25-14 25-16) @ Chiang Mai
+2025-08-27  RR Mexico d. Colombia 3-2 (25-22 22-25 25-23 18-25 15-12) @ Chiang Mai
+2025-08-27  RR China d. Dominican Republic 3-0 (25-15 25-21 25-17) @ Chiang Mai
+
+== Pool G ==
+2025-08-23  RR Germany d. Kenya 3-0 (25-22 25-8 25-20) @ Phuket
+2025-08-23  RR Poland d. Vietnam 3-1 (23-25 25-10 25-12 25-22) @ Phuket
+2025-08-25  RR Germany d. Vietnam 3-0 (25-18 25-17 25-21) @ Phuket
+2025-08-25  RR Poland d. Kenya 3-1 (25-17 15-25 25-15 25-14) @ Phuket
+2025-08-27  RR Kenya d. Vietnam 3-0 (25-23 25-22 25-18) @ Phuket
+2025-08-27  RR Poland d. Germany 3-2 (21-25 25-15 19-25 28-26 19-17) @ Phuket
+
+== Pool H ==
+2025-08-23  RR Japan d. Cameroon 3-0 (25-21 25-17 25-19) @ Bangkok
+2025-08-23  RR Serbia d. Ukraine 3-0 (25-21 25-19 25-17) @ Bangkok
+2025-08-25  RR Japan d. Ukraine 3-2 (25-27 20-25 25-20 26-24 15-11) @ Bangkok
+2025-08-25  RR Serbia d. Cameroon 3-0 (25-16 25-17 25-12) @ Bangkok
+2025-08-27  RR Japan d. Serbia 3-1 (25-23 30-28 23-25 25-18) @ Bangkok
+2025-08-27  RR Ukraine d. Cameroon 3-0 (25-17 25-21 25-20) @ Bangkok
+
+== Final round ==
+2025-08-29 R16 Netherlands d. Serbia 3-2 (27-25 26-24 22-25 20-25 15-11) @ Bangkok
+2025-08-29 R16 Japan d. Thailand 3-0 (25-20 25-23 25-23) @ Bangkok [home: loser]
+2025-08-30 R16 Italy d. Germany 3-0 (25-22 25-18 25-11) @ Bangkok
+2025-08-30 R16 Poland d. Belgium 3-2 (25-27 25-20 25-17 22-25 15-10) @ Bangkok
+2025-08-31 R16 France d. China 3-1 (25-20 27-25 22-25 25-20) @ Bangkok
+2025-08-31 R16 Brazil d. Dominican Republic 3-1 (18-25 25-12 25-20 25-12) @ Bangkok
+2025-09-01 R16 USA d. Canada 3-0 (25-18 25-21 25-21) @ Bangkok
+2025-09-01 R16 Turkiye d. Slovenia 3-0 (30-28 25-13 29-27) @ Bangkok
+2025-09-03  QF Japan d. Netherlands 3-2 (20-25 25-20 22-25 25-22 15-12) @ Bangkok
+2025-09-03  QF Italy d. Poland 3-0 (25-17 25-21 25-18) @ Bangkok
+2025-09-04  QF Brazil d. France 3-0 (27-25 33-31 25-19) @ Bangkok
+2025-09-04  QF Turkiye d. USA 3-1 (25-14 22-25 25-14 25-23) @ Bangkok
+2025-09-06  SF Turkiye d. Japan 3-1 (16-25 25-17 25-18 27-25) @ Bangkok
+2025-09-06  SF Italy d. Brazil 3-2 (22-25 25-22 28-30 25-22 15-13) @ Bangkok
+2025-09-07  3P Brazil d. Japan 3-2 (25-12 25-17 19-25 27-29 18-16) @ Bangkok
+2025-09-07   F Italy d. Turkiye 3-2 (25-23 13-25 26-24 19-25 15-8) @ Bangkok
+
