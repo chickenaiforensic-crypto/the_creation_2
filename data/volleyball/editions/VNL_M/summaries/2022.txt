@@ -1,0 +1,123 @@
+VNL_M 2022 — 2022 FIVB Men's Volleyball Nations League - 4th edition (first travel-weeks format)
+tier VNL | gender M | teams 16 | matches 104 | status closed_verified_gapless
+hosts: Preliminary: Brazil, Canada, Philippines, Bulgaria, Japan, Poland; Finals: Italy (Unipol Arena, Bologna)
+source policy: BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 10 chunks); 104 == built (96 prelim in six 8-team travel pools + Final 8); per-row s
+
+== Pool 1 ==
+2022-06-07  RR Iran d. China 3-1 (25-15 19-25 25-22 25-15) @ Brasilia
+2022-06-07  RR USA d. Slovenia 3-0 (25-19 25-19 25-14) @ Brasilia
+2022-06-08  RR Japan d. Netherlands 3-1 (22-25 26-24 25-22 25-17) @ Brasilia
+2022-06-08  RR Brazil d. Australia 3-0 (25-14 25-18 25-21) @ Brasilia [home: winner]
+2022-06-09  RR Japan d. China 3-1 (21-25 25-19 25-19 25-18) @ Brasilia
+2022-06-09  RR USA d. Netherlands 3-0 (25-12 25-18 25-16) @ Brasilia
+2022-06-09  RR Brazil d. Slovenia 3-1 (25-21 21-25 25-20 25-16) @ Brasilia [home: winner]
+2022-06-10  RR Netherlands d. Iran 3-0 (26-24 25-21 25-21) @ Brasilia
+2022-06-10  RR USA d. Japan 3-2 (17-25 25-15 25-21 26-28 15-9) @ Brasilia
+2022-06-10  RR Slovenia d. Australia 3-0 (25-22 25-20 25-21) @ Brasilia
+2022-06-11  RR USA d. Brazil 3-1 (21-25 27-25 25-20 25-20) @ Brasilia [home: loser]
+2022-06-11  RR Slovenia d. China 3-1 (25-15 25-20 18-25 27-25) @ Brasilia
+2022-06-11  RR Iran d. Australia 3-1 (25-14 25-22 18-25 25-15) @ Brasilia
+2022-06-12  RR China d. Brazil 3-0 (25-23 31-29 25-23) @ Brasilia [home: loser]
+2022-06-12  RR Japan d. Iran 3-0 (25-20 25-14 25-19) @ Brasilia
+2022-06-12  RR Netherlands d. Australia 3-0 (25-20 25-15 25-23) @ Brasilia
+
+== Pool 2 ==
+2022-06-07  RR Serbia d. Bulgaria 3-1 (19-25 25-19 25-22 25-20) @ Ottawa
+2022-06-07  RR Germany d. Canada 3-0 (25-19 25-20 30-28) @ Ottawa [home: loser]
+2022-06-08  RR Poland d. Argentina 3-0 (25-21 25-22 25-23) @ Ottawa
+2022-06-08  RR France d. Italy 3-0 (25-22 26-24 25-19) @ Ottawa
+2022-06-09  RR Argentina d. Germany 3-1 (18-25 25-22 25-17 25-20) @ Ottawa
+2022-06-09  RR France d. Serbia 3-1 (21-25 25-22 25-23 25-23) @ Ottawa
+2022-06-09  RR Italy d. Poland 3-1 (21-25 25-23 25-20 25-20) @ Ottawa
+2022-06-10  RR Serbia d. Argentina 3-2 (25-16 25-18 17-25 12-25 15-6) @ Ottawa
+2022-06-10  RR Germany d. Bulgaria 3-2 (25-20 22-25 25-16 20-25 15-10) @ Ottawa
+2022-06-10  RR France d. Canada 3-0 (25-16 25-23 25-21) @ Ottawa [home: loser]
+2022-06-11  RR Germany d. Serbia 3-2 (27-25 25-27 18-25 28-26 18-16) @ Ottawa
+2022-06-11  RR Poland d. Bulgaria 3-0 (25-19 25-19 25-23) @ Ottawa
+2022-06-11  RR Italy d. Canada 3-0 (25-21 25-18 25-19) @ Ottawa [home: loser]
+2022-06-12  RR Poland d. France 3-1 (21-25 25-22 25-21 25-22) @ Ottawa
+2022-06-12  RR Italy d. Argentina 3-1 (25-20 25-21 16-25 30-28) @ Ottawa
+2022-06-12  RR Canada d. Bulgaria 3-2 (25-18 25-18 24-26 21-25 15-11) @ Ottawa [home: winner]
+
+== Pool 3 ==
+2022-06-21  RR Netherlands d. Slovenia 3-0 (25-17 25-21 26-24) @ Quezon City
+2022-06-21  RR Japan d. Argentina 3-1 (27-25 25-18 17-25 25-16) @ Quezon City
+2022-06-22  RR France d. China 3-0 (25-0 25-0 25-0) @ Quezon City [FORFEIT]
+2022-06-22  RR Italy d. Germany 3-0 (25-16 25-21 25-22) @ Quezon City
+2022-06-23  RR France d. Netherlands 3-0 (25-14 25-23 25-13) @ Quezon City
+2022-06-23  RR China d. Germany 3-0 (25-0 25-0 25-0) @ Quezon City [FORFEIT]
+2022-06-23  RR Slovenia d. Argentina 3-1 (25-20 27-29 25-18 25-17) @ Quezon City
+2022-06-24  RR Netherlands d. Germany 3-1 (22-25 31-29 25-23 25-16) @ Quezon City
+2022-06-24  RR Argentina d. China 3-1 (25-22 22-25 25-22 25-22) @ Quezon City
+2022-06-24  RR Japan d. Italy 3-2 (25-20 21-25 24-26 25-19 15-13) @ Quezon City
+2022-06-25  RR Netherlands d. Argentina 3-2 (22-25 25-23 20-25 25-19 15-13) @ Quezon City
+2022-06-25  RR France d. Japan 3-0 (25-22 27-25 25-16) @ Quezon City
+2022-06-25  RR Italy d. Slovenia 3-0 (25-19 25-16 25-21) @ Quezon City
+2022-06-26  RR France d. Germany 3-1 (25-16 25-19 19-25 25-21) @ Quezon City
+2022-06-26  RR Japan d. Slovenia 3-1 (25-21 22-25 25-18 25-19) @ Quezon City
+2022-06-26  RR Italy d. China 3-0 (25-21 25-18 25-19) @ Quezon City
+
+== Pool 4 ==
+2022-06-21  RR Canada d. Australia 3-1 (18-25 28-26 25-19 25-22) @ Sofia
+2022-06-21  RR Bulgaria d. Iran 3-0 (25-19 25-23 26-24) @ Sofia [home: winner]
+2022-06-22  RR Poland d. Brazil 3-1 (25-16 22-25 25-16 25-22) @ Sofia
+2022-06-22  RR USA d. Serbia 3-1 (26-24 23-25 25-23 25-20) @ Sofia
+2022-06-23  RR Poland d. Canada 3-0 (25-16 25-18 25-16) @ Sofia
+2022-06-23  RR Brazil d. Serbia 3-0 (25-18 26-24 25-17) @ Sofia
+2022-06-23  RR Iran d. USA 3-0 (25-18 29-27 27-25) @ Sofia
+2022-06-24  RR Serbia d. Canada 3-2 (20-25 19-25 25-20 26-24 15-11) @ Sofia
+2022-06-24  RR Brazil d. Iran 3-0 (30-28 25-23 25-19) @ Sofia
+2022-06-24  RR Australia d. Bulgaria 3-2 (21-25 25-13 25-22 20-25 17-15) @ Sofia [home: loser]
+2022-06-25  RR Iran d. Canada 3-0 (25-21 27-25 25-18) @ Sofia
+2022-06-25  RR Poland d. Australia 3-0 (25-17 25-19 25-14) @ Sofia
+2022-06-25  RR USA d. Bulgaria 3-1 (25-12 20-25 26-24 25-23) @ Sofia [home: loser]
+2022-06-26  RR Serbia d. Australia 3-0 (25-17 25-20 25-22) @ Sofia
+2022-06-26  RR Poland d. USA 3-1 (21-25 25-23 26-24 25-22) @ Sofia
+2022-06-26  RR Brazil d. Bulgaria 3-0 (25-21 25-19 25-22) @ Sofia [home: loser]
+
+== Pool 5 ==
+2022-07-05  RR USA d. Germany 3-1 (25-21 25-19 22-25 25-18) @ Osaka
+2022-07-05  RR Argentina d. Canada 3-1 (25-21 23-25 25-21 25-23) @ Osaka
+2022-07-06  RR Brazil d. Germany 3-1 (25-27 25-17 25-20 25-19) @ Osaka
+2022-07-06  RR Japan d. Australia 3-1 (25-18 25-15 23-25 25-19) @ Osaka [home: winner]
+2022-07-07  RR USA d. France 3-2 (15-25 25-22 22-25 25-14 15-8) @ Osaka
+2022-07-07  RR Germany d. Australia 3-1 (20-25 25-16 25-21 26-24) @ Osaka
+2022-07-07  RR Brazil d. Canada 3-0 (25-18 25-19 25-16) @ Osaka
+2022-07-08  RR Argentina d. Australia 3-1 (21-25 25-23 25-19 25-15) @ Osaka
+2022-07-08  RR France d. Brazil 3-0 (25-21 25-22 25-21) @ Osaka
+2022-07-08  RR Japan d. Canada 3-1 (25-20 25-16 22-25 25-20) @ Osaka [home: winner]
+2022-07-09  RR Argentina d. France 3-1 (25-22 23-25 25-23 25-19) @ Osaka
+2022-07-09  RR USA d. Canada 3-0 (25-19 25-15 25-19) @ Osaka
+2022-07-09  RR Japan d. Germany 3-1 (23-25 25-22 25-20 25-20) @ Osaka [home: winner]
+2022-07-10  RR USA d. Argentina 3-2 (29-27 22-25 20-25 25-13 17-15) @ Osaka
+2022-07-10  RR France d. Australia 3-0 (25-16 25-12 28-26) @ Osaka
+2022-07-10  RR Brazil d. Japan 3-0 (25-23 25-23 25-22) @ Osaka [home: loser]
+
+== Pool 6 ==
+2022-07-05  RR Italy d. Bulgaria 3-0 (25-15 25-20 25-23) @ Gdansk
+2022-07-05  RR Iran d. Poland 3-2 (21-25 25-23 25-22 25-27 15-7) @ Gdansk [home: loser]
+2022-07-06  RR Netherlands d. China 3-0 (29-27 25-12 25-13) @ Gdansk
+2022-07-06  RR Slovenia d. Serbia 3-0 (25-15 25-19 25-23) @ Gdansk
+2022-07-07  RR Italy d. Iran 3-1 (25-16 25-27 25-23 25-23) @ Gdansk
+2022-07-07  RR Slovenia d. Bulgaria 3-1 (25-22 22-25 25-18 25-16) @ Gdansk
+2022-07-07  RR Poland d. China 3-0 (26-24 25-16 25-18) @ Gdansk [home: winner]
+2022-07-08  RR Bulgaria d. Netherlands 3-1 (22-25 25-16 25-21 25-21) @ Gdansk
+2022-07-08  RR Iran d. Slovenia 3-0 (26-24 25-14 25-21) @ Gdansk
+2022-07-08  RR Italy d. Serbia 3-0 (25-21 25-14 25-23) @ Gdansk
+2022-07-09  RR China d. Bulgaria 3-1 (26-28 25-23 25-23 25-17) @ Gdansk
+2022-07-09  RR Iran d. Serbia 3-0 (35-33 25-21 25-12) @ Gdansk
+2022-07-09  RR Poland d. Netherlands 3-0 (25-19 25-23 25-22) @ Gdansk [home: winner]
+2022-07-10  RR Serbia d. China 3-1 (25-17 25-17 23-25 25-22) @ Gdansk
+2022-07-10  RR Italy d. Netherlands 3-0 (25-23 26-24 25-21) @ Gdansk
+2022-07-10  RR Poland d. Slovenia 3-1 (25-14 25-23 23-25 25-17) @ Gdansk [home: winner]
+
+== Final round ==
+2022-07-20  QF USA d. Brazil 3-1 (20-25 25-22 25-23 25-17) @ Bologna
+2022-07-20  QF Italy d. Netherlands 3-1 (21-25 25-22 25-13 25-22) @ Bologna [home: winner]
+2022-07-21  QF France d. Japan 3-0 (26-24 25-16 25-20) @ Bologna
+2022-07-21  QF Poland d. Iran 3-2 (25-21 24-26 25-18 16-25 15-7) @ Bologna
+2022-07-23  SF USA d. Poland 3-0 (25-22 25-23 25-13) @ Bologna
+2022-07-23  SF France d. Italy 3-0 (25-22 25-20 25-15) @ Bologna [home: loser]
+2022-07-24  3P Poland d. Italy 3-0 (25-16 25-23 25-20) @ Bologna [home: loser]
+2022-07-24   F France d. USA 3-2 (25-16 25-19 15-25 21-25 15-10) @ Bologna
+

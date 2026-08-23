@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 30,
+  "total_editions": 31,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -390,6 +390,19 @@
       "match_count": 104,
       "checksum_sha256": "bb9d86cba47ee4f741243b692eee4f7a5b43e4704658fc5b64b3321928d33739",
       "file_path": "editions/VNL_W/2022.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "VNL_M",
+      "tier": "VNL",
+      "gender": "M",
+      "year": "2022",
+      "official_match_count": 104,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 10 chunks); 104 == built (96 prelim in six 8-team travel pools + Final 8); per-row sources = official volleyballworld schedule pages ids 13650-13753 (contiguous, asserted; W-2022 continues at 13754 - sequential across genders), FIVB vis2009 P2 PDFs alongside except the two forfeit rows (no P2 exists). FIRST TRAVEL-WEEKS MEN'S VNL: 2022 reform byte-read; week/pool-to-city map byte-read and applied per-row (Brasilia + Ottawa, Quezon City + Sofia, Osaka + Gdansk; finals Unipol Arena - infobox Bologna, venue table prints comune Casalecchio di Reno, nuance disclosed in provenance); pool-host home flags (Quezon City all-neutral - hosts Philippines not in field). GEOPOLITICS + COVID PRESERVED FROM BYTES: RUSSIA EXPELLED by FIVB 1 Mar 2022 (invasion of Ukraine), CHINA named replacements 29 Apr (men's team returns); TWO FORFEIT ROWS in the Quezon City pool - China forfeited to France 22 Jun (COVID medical circumstances, NoteA) and Germany forfeited to China 23 Jun (refused to play China although Chinese athletes were cleared after positive tests, NoteB) - both recorded 25-0 25-0 25-0 as federation-recorded, status forfeit (store forfeit rows 7 -> 9); Australia relegated as last challenger team, replaced by Challenger-Cup-winners Cuba for 2023. FIDELITY DOUBLE LOCK EXACT: recomputed spw/spl == printed combined standings for ALL 16 TEAMS (forfeit points included, e.g. China 840/951 carries the 0-75 and 75-0 swings) AND full W/L-category profile matches all 16; per-pool structure asserts (6 pools x 16 matches x 8 teams x 4 apps); spine exact incl. QF pairings 1v8 ITA-NED / 2v7 POL-IRI / 3v6 USA-BRA / 4v5 FRA-JPN per printed host-seeding formula. Champions FRANCE - FIRST VNL TITLE (MVP + best outside Earvin N'Gapeth, best libero Grebennikov, coach Andrea Giani) d. USA 3-2 from two sets up in Bologna - USA's second silver; Poland bronze 3-0 over finals hosts Italy (Poland's second bronze, third consecutive VNL medal). IRI d. SRB 35-33 opening set (joins THA-ITA and CMR-NGR in the 68-point regulation-set record band); GER d. SRB 18-16 in the 5th; CHN d. BRA 31-29 set two. 7 Jun - 24 Jul 2022.",
+      "match_count": 104,
+      "checksum_sha256": "1e76991e2a657cdef4c6faf4754eb891317f7245ed4801fcdafdf0ad8aa64b3e",
+      "file_path": "editions/VNL_M/2022.json",
       "gap_count": 0
     }
   ],
