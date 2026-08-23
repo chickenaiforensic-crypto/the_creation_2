@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 27,
+  "total_editions": 28,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -351,6 +351,19 @@
       "match_count": 49,
       "checksum_sha256": "9e2d423d9fa1f045f8a47c92fcf9bd2cfce4ceb931152cfc0b9e1ce928de1226",
       "file_path": "editions/African_Nations_Championship_M/2023.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "VNL_W",
+      "tier": "VNL",
+      "gender": "W",
+      "year": "2021",
+      "official_match_count": 124,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5) - the store's LARGEST single edition to date. Capture: Wikipedia edition-page wikitext (action=raw, 9 chunks); infobox official matches=124 == built count (120 single-RR prelim + final four); per-row sources = official volleyballworld.com schedule pages, sequential unique ids 11830-11953, with FIVB vis2009 P2 PDFs alongside in provenance. THE RIMINI BUBBLE EDITION: entire tournament in one bio-secure venue (Rimini Fiera), attendance=0 in the bytes, weeks 1-5 then final four; Russia competed as 'Russia' (FIVB event - not ROC; census watch item verified). FIDELITY CATCH #6 - THE PRINTED STANDINGS' spw/spl CELLS ARE PROVABLY STALE: rows sum 19,436==19,436 (internally exact) vs printed 19,229==19,229, and per-match reconciliation shows the table omits the entire JPN-GER match (JPN cell short by exactly 95/87) plus a 25-point GER-DOM slice and four one-point cells - while every team's printed WIN/LOSS CATEGORY profile (win3s/4s/5s, loss5s/4s/3s) matches the rows EXACTLY for all 16 teams (independent lock, coded as the edition's standings assert); rows govern per per-match-source precedence, printed values preserved verbatim in the data record; true-single-RR assert (120 distinct pairs, every team 15 appearances). Spine exact: SF == top-4 {USA,BRA,JPN,TUR}, F == SF winners, 3P == SF losers. Champions USA - THIRD STRAIGHT VNL TITLE (MVP Michelle Bartsch-Hackley's second, best setter Poulter, best libero Wong-Orantes, coach Kiraly) d. Brazil 3-1 in the final having lost to CHINA 0-3 two days earlier (the 25-10 set preserved); Turkiye bronze 3-0 over Japan. STORE-RECORD ROWS: Thailand d. Italy set-1 35-33 (68 pts - TIES the store regulation-set record) in a LOST match; KOR d. CAN 21-19 IN THE FIFTH (40-pt decider - longest fifth set in store); DOM-BEL 33-31, CHN-NED 33-31, JPN SF set 31-29. Host-nation home flags on Italy rows (12th-place hosts; bubble nuance disclosed per-row). 25 May - 25 Jun 2021.",
+      "match_count": 124,
+      "checksum_sha256": "1e26d40ee86f64352b4ecf6383371a5f692683bb57a753caa2f1db341da7a384",
+      "file_path": "editions/VNL_W/2021.json",
       "gap_count": 0
     }
   ],

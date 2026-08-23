@@ -1,0 +1,133 @@
+VNL_W 2021 — 2021 FIVB Women's Volleyball Nations League - 3rd edition (Rimini bubble)
+tier VNL | gender W | teams 16 | matches 124 | status closed_verified_gapless
+hosts: Italy (Rimini, Rimini Fiera - bio-secure bubble)
+source policy: BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5) - the store's LARGEST single edition to date. Capture: Wikipedia edition-page wikitext (action=raw, 9 chunks); infobox official matches=124
+
+== Preliminary round ==
+2021-05-25  RR Netherlands d. Belgium 3-0 (25-21 25-19 25-18) @ Rimini
+2021-05-25  RR Turkiye d. Serbia 3-2 (25-21 18-25 25-23 22-25 16-14) @ Rimini
+2021-05-25  RR Russia d. Germany 3-0 (25-21 25-22 25-19) @ Rimini
+2021-05-25  RR Japan d. Thailand 3-0 (25-15 25-17 25-16) @ Rimini
+2021-05-25  RR China d. South Korea 3-1 (23-25 25-19 25-19 25-18) @ Rimini
+2021-05-25  RR USA d. Dominican Republic 3-0 (25-20 25-21 25-12) @ Rimini
+2021-05-25  RR Poland d. Italy 3-2 (25-22 22-25 20-25 25-22 17-15) @ Rimini [home: loser]
+2021-05-25  RR Brazil d. Canada 3-1 (23-25 25-11 25-9 25-14) @ Rimini
+2021-05-26  RR Germany d. Netherlands 3-2 (18-25 25-18 28-30 25-23 15-12) @ Rimini
+2021-05-26  RR South Korea d. Thailand 3-1 (15-25 25-13 25-18 25-17) @ Rimini
+2021-05-26  RR Japan d. China 3-0 (25-13 25-19 25-17) @ Rimini
+2021-05-26  RR Russia d. Belgium 3-2 (23-25 21-25 25-19 25-19 15-8) @ Rimini
+2021-05-26  RR Serbia d. Poland 3-1 (20-25 25-17 25-16 25-21) @ Rimini
+2021-05-26  RR Brazil d. Dominican Republic 3-0 (25-20 25-13 25-17) @ Rimini
+2021-05-26  RR Turkiye d. Italy 3-0 (25-13 25-23 25-16) @ Rimini [home: loser]
+2021-05-26  RR USA d. Canada 3-0 (26-24 25-15 25-10) @ Rimini
+2021-05-27  RR Germany d. Belgium 3-0 (25-20 25-19 25-13) @ Rimini
+2021-05-27  RR Netherlands d. Russia 3-1 (25-14 25-22 23-25 25-20) @ Rimini
+2021-05-27  RR Japan d. South Korea 3-0 (25-18 25-18 27-25) @ Rimini
+2021-05-27  RR Dominican Republic d. Canada 3-1 (25-17 26-24 28-30 25-16) @ Rimini
+2021-05-27  RR China d. Thailand 3-0 (25-15 25-15 25-23) @ Rimini
+2021-05-27  RR Turkiye d. Poland 3-1 (25-23 25-27 25-23 25-20) @ Rimini
+2021-05-27  RR USA d. Brazil 3-1 (25-17 25-19 23-25 25-22) @ Rimini
+2021-05-27  RR Serbia d. Italy 3-1 (25-18 23-25 26-24 25-20) @ Rimini [home: loser]
+2021-05-31  RR Netherlands d. Thailand 3-0 (25-20 25-9 25-18) @ Rimini
+2021-05-31  RR Belgium d. Dominican Republic 3-2 (31-33 19-25 25-20 25-16 15-11) @ Rimini
+2021-05-31  RR China d. Germany 3-2 (20-25 19-25 27-25 25-21 15-9) @ Rimini
+2021-05-31  RR Brazil d. Japan 3-0 (25-15 25-19 25-21) @ Rimini
+2021-05-31  RR Turkiye d. Canada 3-2 (25-23 19-25 22-25 25-23 15-12) @ Rimini
+2021-05-31  RR Poland d. South Korea 3-0 (25-15 25-20 25-22) @ Rimini
+2021-05-31  RR USA d. Serbia 3-0 (25-20 25-16 25-12) @ Rimini
+2021-05-31  RR Russia d. Italy 3-0 (26-24 25-23 27-25) @ Rimini [home: loser]
+2021-06-01  RR Turkiye d. Germany 3-0 (25-20 25-20 25-22) @ Rimini
+2021-06-01  RR Dominican Republic d. South Korea 3-0 (25-23 28-26 25-18) @ Rimini
+2021-06-01  RR Belgium d. Poland 3-2 (25-15 17-25 25-19 22-25 15-12) @ Rimini
+2021-06-01  RR Serbia d. Thailand 3-0 (25-19 25-23 25-23) @ Rimini
+2021-06-01  RR Canada d. China 3-2 (25-22 21-25 25-17 15-25 15-12) @ Rimini
+2021-06-01  RR USA d. Netherlands 3-0 (25-22 25-15 25-18) @ Rimini
+2021-06-01  RR Japan d. Italy 3-2 (27-25 25-19 16-25 21-25 15-13) @ Rimini [home: loser]
+2021-06-01  RR Brazil d. Russia 3-0 (25-20 25-11 25-18) @ Rimini
+2021-06-02  RR Belgium d. South Korea 3-2 (23-25 25-23 25-16 19-25 15-12) @ Rimini
+2021-06-02  RR USA d. Thailand 3-0 (25-17 25-14 25-16) @ Rimini
+2021-06-02  RR Canada d. Germany 3-0 (30-28 27-25 25-14) @ Rimini
+2021-06-02  RR Japan d. Russia 3-0 (25-20 25-21 25-21) @ Rimini
+2021-06-02  RR Turkiye d. China 3-0 (25-15 25-23 25-21) @ Rimini
+2021-06-02  RR Dominican Republic d. Poland 3-1 (22-25 25-22 28-26 25-21) @ Rimini
+2021-06-02  RR Netherlands d. Serbia 3-1 (25-22 25-16 18-25 25-21) @ Rimini
+2021-06-02  RR Brazil d. Italy 3-1 (19-25 25-15 25-19 25-19) @ Rimini [home: loser]
+2021-06-06  RR Belgium d. China 3-2 (17-25 27-25 23-25 25-21 15-8) @ Rimini
+2021-06-06  RR Netherlands d. Japan 3-0 (25-22 25-20 25-23) @ Rimini
+2021-06-06  RR Turkiye d. Thailand 3-1 (23-25 25-12 25-20 25-9) @ Rimini
+2021-06-06  RR Russia d. Dominican Republic 3-2 (25-18 21-25 25-20 22-25 15-8) @ Rimini
+2021-06-06  RR Brazil d. Serbia 3-0 (25-12 25-14 25-13) @ Rimini
+2021-06-06  RR Poland d. Canada 3-2 (22-25 21-25 25-21 25-17 15-7) @ Rimini
+2021-06-06  RR Italy d. South Korea 3-1 (27-25 23-25 25-22 25-20) @ Rimini [home: winner]
+2021-06-06  RR USA d. Germany 3-0 (25-23 25-13 25-13) @ Rimini
+2021-06-07  RR Russia d. Thailand 3-1 (25-14 18-25 25-14 25-20) @ Rimini
+2021-06-07  RR Dominican Republic d. Turkiye 3-1 (25-22 25-21 23-25 25-17) @ Rimini
+2021-06-07  RR Japan d. Canada 3-0 (25-16 25-15 25-15) @ Rimini
+2021-06-07  RR Serbia d. China 3-1 (25-22 25-18 20-25 25-22) @ Rimini
+2021-06-07  RR USA d. South Korea 3-0 (25-16 25-12 25-14) @ Rimini
+2021-06-07  RR Netherlands d. Poland 3-2 (21-25 25-23 22-25 25-21 15-9) @ Rimini
+2021-06-07  RR Italy d. Germany 3-0 (25-21 25-19 25-11) @ Rimini [home: winner]
+2021-06-07  RR Brazil d. Belgium 3-0 (25-18 25-16 25-17) @ Rimini
+2021-06-08  RR Dominican Republic d. Thailand 3-0 (25-16 25-17 25-23) @ Rimini
+2021-06-08  RR Turkiye d. Russia 3-2 (25-22 22-25 25-18 18-25 15-7) @ Rimini
+2021-06-08  RR Netherlands d. Canada 3-0 (25-19 25-12 25-21) @ Rimini
+2021-06-08  RR Japan d. Poland 3-2 (22-25 22-25 25-22 25-23 16-14) @ Rimini
+2021-06-08  RR China d. Brazil 3-2 (18-25 25-22 25-20 14-25 15-12) @ Rimini
+2021-06-08  RR Germany d. South Korea 3-0 (25-12 25-21 25-22) @ Rimini
+2021-06-08  RR Belgium d. Serbia 3-2 (23-25 26-24 25-21 23-25 15-10) @ Rimini
+2021-06-08  RR USA d. Italy 3-1 (25-18 25-21 20-25 25-16) @ Rimini [home: loser]
+2021-06-12  RR Russia d. South Korea 3-0 (25-23 25-17 25-17) @ Rimini
+2021-06-12  RR Thailand d. Germany 3-1 (24-26 25-21 25-21 25-16) @ Rimini
+2021-06-12  RR Japan d. Turkiye 3-1 (25-17 25-20 17-25 25-19) @ Rimini
+2021-06-12  RR USA d. Belgium 3-0 (25-9 26-24 25-20) @ Rimini
+2021-06-12  RR China d. Netherlands 3-0 (25-12 25-18 33-31) @ Rimini
+2021-06-12  RR Canada d. Serbia 3-1 (25-21 22-25 25-21 25-18) @ Rimini
+2021-06-12  RR Dominican Republic d. Italy 3-1 (25-21 25-19 22-25 26-24) @ Rimini [home: loser]
+2021-06-12  RR Brazil d. Poland 3-0 (25-22 25-20 25-23) @ Rimini
+2021-06-13  RR Turkiye d. Belgium 3-0 (25-20 25-17 25-19) @ Rimini
+2021-06-13  RR USA d. Japan 3-0 (25-23 26-24 25-20) @ Rimini
+2021-06-13  RR Netherlands d. Italy 3-2 (25-21 26-28 20-25 25-21 15-10) @ Rimini [home: loser]
+2021-06-13  RR China d. Dominican Republic 3-1 (25-14 25-20 19-25 25-22) @ Rimini
+2021-06-13  RR Russia d. Canada 3-0 (25-15 25-12 25-14) @ Rimini
+2021-06-13  RR South Korea d. Serbia 3-1 (25-13 23-25 25-13 25-23) @ Rimini
+2021-06-13  RR Poland d. Thailand 3-0 (25-23 25-15 25-20) @ Rimini
+2021-06-13  RR Brazil d. Germany 3-1 (22-25 25-17 25-21 25-22) @ Rimini
+2021-06-14  RR Japan d. Belgium 3-1 (23-25 25-22 25-21 25-21) @ Rimini
+2021-06-14  RR Russia d. Serbia 3-0 (25-8 25-17 25-23) @ Rimini
+2021-06-14  RR Dominican Republic d. Netherlands 3-1 (25-23 23-25 30-28 25-22) @ Rimini
+2021-06-14  RR Germany d. Poland 3-0 (25-23 25-20 25-23) @ Rimini
+2021-06-14  RR China d. Italy 3-0 (25-19 25-11 25-19) @ Rimini [home: loser]
+2021-06-14  RR South Korea d. Canada 3-2 (15-25 25-18 27-29 25-20 21-19) @ Rimini
+2021-06-14  RR Brazil d. Thailand 3-0 (25-11 25-14 25-10) @ Rimini
+2021-06-14  RR USA d. Turkiye 3-1 (25-21 23-25 25-15 25-14) @ Rimini
+2021-06-18  RR Germany d. Serbia 3-0 (25-23 25-16 25-21) @ Rimini
+2021-06-18  RR Japan d. Dominican Republic 3-2 (18-25 24-26 25-22 25-15 15-11) @ Rimini
+2021-06-18  RR Belgium d. Thailand 3-1 (25-23 26-24 23-25 25-15) @ Rimini
+2021-06-18  RR Brazil d. South Korea 3-0 (25-18 25-23 25-18) @ Rimini
+2021-06-18  RR China d. Russia 3-0 (25-18 25-23 25-16) @ Rimini
+2021-06-18  RR USA d. Poland 3-0 (29-27 29-27 25-14) @ Rimini
+2021-06-18  RR Italy d. Canada 3-0 (25-18 25-20 25-20) @ Rimini [home: winner]
+2021-06-18  RR Turkiye d. Netherlands 3-0 (27-25 25-20 25-20) @ Rimini
+2021-06-19  RR Dominican Republic d. Serbia 3-0 (25-14 25-20 25-18) @ Rimini
+2021-06-19  RR USA d. Russia 3-1 (25-21 25-27 25-23 25-15) @ Rimini
+2021-06-19  RR Japan d. Germany 3-1 (25-23 19-25 26-24 25-15) @ Rimini
+2021-06-19  RR Thailand d. Canada 3-0 (25-16 25-17 25-17) @ Rimini
+2021-06-19  RR China d. Poland 3-0 (26-24 25-22 25-16) @ Rimini
+2021-06-19  RR Turkiye d. South Korea 3-1 (25-23 20-25 25-17 25-18) @ Rimini
+2021-06-19  RR Brazil d. Netherlands 3-0 (25-19 25-19 25-20) @ Rimini
+2021-06-19  RR Belgium d. Italy 3-2 (25-17 20-25 22-25 25-17 15-10) @ Rimini [home: loser]
+2021-06-20  RR Dominican Republic d. Germany 3-2 (25-21 25-22 14-25 25-27 15-9) @ Rimini
+2021-06-20  RR China d. USA 3-0 (25-10 25-20 25-17) @ Rimini
+2021-06-20  RR Italy d. Thailand 3-1 (33-35 25-21 27-25 25-20) @ Rimini [home: winner]
+2021-06-20  RR Japan d. Serbia 3-0 (25-12 25-22 25-15) @ Rimini
+2021-06-20  RR Poland d. Russia 3-2 (25-17 20-25 25-16 22-25 15-7) @ Rimini
+2021-06-20  RR Netherlands d. South Korea 3-2 (25-20 23-25 25-18 22-25 15-12) @ Rimini
+2021-06-20  RR Belgium d. Canada 3-0 (26-24 25-17 25-17) @ Rimini
+2021-06-20  RR Brazil d. Turkiye 3-1 (25-18 25-16 25-27 25-15) @ Rimini
+
+== Final round ==
+2021-06-24  SF Brazil d. Japan 3-1 (25-15 25-23 29-31 25-16) @ Rimini
+2021-06-24  SF USA d. Turkiye 3-0 (25-21 25-23 25-20) @ Rimini
+2021-06-25  3P Turkiye d. Japan 3-0 (25-19 25-16 25-17) @ Rimini
+2021-06-25   F USA d. Brazil 3-1 (26-28 25-23 25-23 25-21) @ Rimini
+
