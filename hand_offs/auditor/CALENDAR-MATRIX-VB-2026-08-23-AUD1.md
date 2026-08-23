@@ -30,14 +30,19 @@ rejected class).
 |---|---|---|---|---|---|---|
 | EuroVolley M | **BUILT** (76) | · | **BUILT** (76) | · | **· NO 2025 EDITION** (calendar reform: odd→even years) | LIVE Sep 9–26 → WO-VB-8 |
 | EuroVolley W | **BUILT** (76) | · | **BUILT** (76) | · | **· NO 2025 EDITION** | LIVE now, final Sep 6 → WO-VB-8 |
-| AVC Asian Ch M/W | ?-WO4 | ?-WO4 | ?-WO4 | ?-WO4 | ?-WO4 | LIVE/Sep → WO-VB-8 |
-| NORCECA Ch M/W | ?-WO4 | ?-WO4 | ?-WO4 | ?-WO4 | ?-WO4 | LIVE/Sep → WO-VB-8 |
-| CSV South American Ch M/W | ?-WO4 | ?-WO4 | ?-WO4 | ?-WO4 | ?-WO4 | Sep → WO-VB-8 |
-| CAVB African Nations Ch M/W | ?-WO4 | ?-WO4 | ?-WO4 | ?-WO4 | ?-WO4 | LIVE/Sep → WO-VB-8 |
+| AVC Asian Ch M | QUEUED-WO4 (Japan; Iran gold) | · | QUEUED-WO4 (Urmia; Japan gold) | · | **· NO EDITION** (reform) | Sep, Fukuoka → WO-VB-8 |
+| AVC Asian Ch W | **CANCELLED — COVID** (was Philippines; byte-sourced CENSUS-VB-4) | · | QUEUED-WO4 (Nakhon Ratchasima; Thailand gold) | · | **· NO EDITION** | LIVE, Tianjin → WO-VB-8 |
+| NORCECA Ch M | QUEUED-WO4 (Durango; Puerto Rico 1st) | · | QUEUED-WO4 (Charleston; USA) | · | **· NO EDITION** (only 2nd-tier Final Six ran) | Sep, Moncton → WO-VB-8 |
+| NORCECA Ch W | QUEUED-WO4 (Mexico TBV; Dom. Republic) | · | QUEUED-WO4 (Quebec City; Dom. Republic) | · | **· NO EDITION** | LIVE, Santo Domingo → WO-VB-8 |
+| CSV South American Ch M | QUEUED-WO4 (Brasília; Brazil) | · | QUEUED-WO4 (Recife; Argentina — 1st in 59 yrs) | · | **· NO EDITION** (CSV title-holders still 2023, crawl 2026-07-29) | Sep, Rio → WO-VB-8 |
+| CSV South American Ch W | QUEUED-WO4 (Barrancabermeja; Brazil) | · | QUEUED-WO4 (Recife; Brazil) | · | **· NO EDITION** | Sep, Rio → WO-VB-8 |
+| CAVB African Nations M | QUEUED-WO4 (Kigali TBV; Tunisia) | · | QUEUED-WO4 (Cairo; Egypt — 15 teams) | · | **· NO EDITION** | Sep, Tunis → WO-VB-8 |
+| CAVB African Nations W | QUEUED-WO4 (Kigali; Cameroon) | · | QUEUED-WO4 (Yaoundé; Kenya 10th) | · | **· NO EDITION** | starts today, Nairobi → WO-VB-8 |
 
-Confederation cadences are nominally biennial but **differ per confederation and suffered COVID moves/cancellations**
-— the exact existence grid for AVC/NORCECA/CSV/CAVB 2021–2025 is the FIRST deliverable of WO-VB-4 (byte-census per
-event before any row; this matrix gets updated in the same commit).
+**WO-VB-4 censused finding (CENSUS-VB-4, this commit): NO confederation held a championship in 2025** — all four
+moved to even years under the FIVB 2025–28 reform. 2025's continental-looking events (NORCECA Final Six/Final Four,
+Pan-Am Cup, AVC Nations Cups) are separate second-tier annual competitions — parked for a Director scope call.
+Build queue: 15 editions (AVC 3, NORCECA 4, CSV 4, CAVB 4; AVC-W-2021 cancelled).
 
 ## Qualifiers & other national-team (Tier 3, WO-VB-6)
 | Family | Window notes |

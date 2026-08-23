@@ -10,7 +10,7 @@ Program law: `hand_offs/auditor/PLAN-VB-2026-08-23-AUD1.md` · Landscape census:
 | WO-VB-1 | EuroVolley M+W 2021, 2023 | **DONE** (FIDELITY 96/96; README + REPLY-VB-1) | 4/4 (304 rows) | 28b6e7b, ccad013, dff24ff, this | REPLY-VB-1 |
 | WO-VB-2 | World Championship M+W 2022, 2025 | **DONE** (FIDELITY 104 team-entries; README + REPLY-VB-2) | 4/4 (280 rows) | 1be16c0, 3530fcf, 527cfb6, this | REPLY-VB-2 |
 | WO-VB-3 | Olympics M+W 2021(Tokyo-2020), 2024 | **DONE** (FIDELITY 48/48; ROC adjudication; Olympics_README + REPLY-VB-3 + CALENDAR-MATRIX) | 4/4 (128 rows) | 2a152fa, 8cea5d2, 1fbaeac, this | REPLY-VB-3 |
-| WO-VB-4 | AVC/NORCECA/CSV/CAVB championships 2021–2025 | **IN-FLIGHT** (existence census per event FIRST; update CALENDAR-MATRIX same commit) | 0/~16 | — | — |
+| WO-VB-4 | AVC/NORCECA/CSV/CAVB championships 2021–2025 | **IN-FLIGHT** (CENSUS-VB-4 FILED: 15 editions exist, 2025 = zero editions all confeds, AVC-W-2021 cancelled COVID; matrix updated; next build AVC M 2021) | 0/15 | census: this commit | — |
 | WO-VB-5 | VNL M+W 2021–2026 | QUEUED (weekly-batch commits) | 0/12 | — | — |
 | WO-VB-6 | Qualifiers: OQT-2023, EuroVolley quals, European League, Challenger Cup | QUEUED (census per event) | 0/~20 | — | — |
 | WO-VB-7 | Club: Club World Ch 2021–2025 (+CL depth = Director call) | QUEUED | 0/~10 | — | — |
