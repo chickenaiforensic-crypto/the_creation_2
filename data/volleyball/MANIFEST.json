@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 2,
+  "total_editions": 3,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -26,6 +26,19 @@
       "match_count": 76,
       "checksum_sha256": "5cdd428a3d9eea05511401ec99f9483762e91ab8c389b7afce583ae9085ddf81",
       "file_path": "editions/EuroVolley_M/2021.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "EuroVolley_W",
+      "tier": "CONT-CH",
+      "gender": "W",
+      "year": "2023",
+      "official_match_count": 76,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-1 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw), every match row citing its official CEV MatchStatistics report (unique per-row sources, IDs 66391-66435 pools / 68931-68938 + 67958-67965 finals; www-old.cev.eu, wayback-recoverable); infobox official match total 76 == built count. 24 teams, 4 pools of 6: A Ghent (host Belgium), B ITALY CITY-BY-DATE (Verona Aug 15 opener at the Arena di Verona, Monza Aug 16-19, Turin Aug 21-23 - venue table byte-mapped to every row), C Dusseldorf (host Germany), D Tallinn (host Estonia); R16+QF split Brussels/Florence per bracket lines; SF/3P/F Brussels. FIDELITY: per-team pool points-for/against recomputed from set tokens == wikitext standings spw/spl for ALL 24 teams. Spine R16->F exact. Champions TURKIYE - FIRST EuroVolley title (MVP Melissa Vargas, coach Santarelli): d. Italy 3-2 in the SF (15-6 fifth) then d. Serbia 3-2 in the Brussels final (13-15 from SRB side); Netherlands bronze 3-0 over Italy; top-3 (excl. already-qualified world champs Serbia) took the CEV berths to the 2025 World Championship - the qualification thread the tennis-style narrative preserves. Aug 15 - Sep 3 2023.",
+      "match_count": 76,
+      "checksum_sha256": "f8ab80d895ce3366252fdb57ad22185b6e505207818cd006c9ead3719be5a3d0",
+      "file_path": "editions/EuroVolley_W/2023.json",
       "gap_count": 0
     }
   ],

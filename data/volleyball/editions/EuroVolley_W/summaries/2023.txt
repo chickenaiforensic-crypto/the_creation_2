@@ -1,0 +1,91 @@
+EuroVolley_W 2023 — 2023 Women's European Volleyball Championship (CEV EuroVolley) - 33rd edition
+tier CONT-CH | gender W | teams 24 | matches 76 | status closed_verified_gapless
+hosts: Belgium, Italy, Germany, Estonia (Ghent, Verona, Monza, Turin, Dusseldorf, Tallinn, Brussels, Florence)
+source policy: BUILT from cited bytes under WO-VB-1 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw), every match row citing its official CEV MatchStatistics report (unique per-row sources, IDs 66391
+
+== Pool A ==
+2023-08-17  RR Belgium d. Hungary 3-0 (25-16 25-15 25-19) @ Ghent [home: winner]
+2023-08-18  RR Serbia d. Ukraine 3-0 (25-14 25-19 25-16) @ Ghent
+2023-08-18  RR Poland d. Slovenia 3-0 (25-19 25-14 25-19) @ Ghent
+2023-08-19  RR Ukraine d. Hungary 3-0 (25-17 26-24 25-17) @ Ghent
+2023-08-19  RR Belgium d. Slovenia 3-1 (25-18 25-20 21-25 34-32) @ Ghent [home: winner]
+2023-08-20  RR Serbia d. Slovenia 3-0 (25-20 25-11 25-15) @ Ghent
+2023-08-20  RR Poland d. Hungary 3-1 (25-22 25-12 21-25 25-16) @ Ghent
+2023-08-21  RR Serbia d. Poland 3-1 (18-25 25-13 25-23 25-18) @ Ghent
+2023-08-21  RR Ukraine d. Belgium 3-0 (25-18 25-23 25-23) @ Ghent [home: loser]
+2023-08-22  RR Slovenia d. Hungary 3-0 (25-19 25-18 25-16) @ Ghent
+2023-08-22  RR Poland d. Belgium 3-0 (25-22 25-23 25-21) @ Ghent [home: loser]
+2023-08-23  RR Ukraine d. Slovenia 3-1 (19-25 25-23 26-24 25-17) @ Ghent
+2023-08-23  RR Serbia d. Hungary 3-1 (21-25 25-12 25-14 25-15) @ Ghent
+2023-08-24  RR Poland d. Ukraine 3-1 (25-17 22-25 25-17 25-17) @ Ghent
+2023-08-24  RR Serbia d. Belgium 3-0 (25-13 25-13 25-19) @ Ghent [home: loser]
+
+== Pool B ==
+2023-08-15  RR Italy d. Romania 3-0 (25-19 25-19 25-15) @ Verona [home: winner]
+2023-08-16  RR Bosnia and Herzegovina d. Switzerland 3-2 (16-25 25-15 23-25 25-17 17-15) @ Monza
+2023-08-16  RR Bulgaria d. Croatia 3-1 (23-25 25-23 25-20 25-18) @ Monza
+2023-08-17  RR Bulgaria d. Bosnia and Herzegovina 3-1 (25-20 25-19 19-25 25-18) @ Monza
+2023-08-17  RR Romania d. Croatia 3-1 (25-22 25-21 23-25 25-19) @ Monza
+2023-08-18  RR Bosnia and Herzegovina d. Croatia 3-2 (19-25 25-18 20-25 26-24 15-6) @ Monza
+2023-08-18  RR Italy d. Switzerland 3-0 (25-14 25-19 25-13) @ Monza [home: winner]
+2023-08-19  RR Switzerland d. Romania 3-2 (25-21 18-25 27-25 19-25 15-9) @ Monza
+2023-08-19  RR Italy d. Bulgaria 3-0 (25-16 25-17 25-13) @ Monza [home: winner]
+2023-08-21  RR Romania d. Bosnia and Herzegovina 3-2 (12-25 26-24 25-21 21-25 15-11) @ Turin
+2023-08-21  RR Switzerland d. Croatia 3-1 (25-19 16-25 25-22 26-24) @ Turin
+2023-08-22  RR Bulgaria d. Romania 3-2 (26-24 18-25 25-17 22-25 15-12) @ Turin
+2023-08-22  RR Italy d. Bosnia and Herzegovina 3-0 (25-21 25-17 25-19) @ Turin [home: winner]
+2023-08-23  RR Bulgaria d. Switzerland 3-1 (21-25 25-23 25-17 25-13) @ Turin
+2023-08-23  RR Italy d. Croatia 3-0 (25-23 25-19 25-17) @ Turin [home: winner]
+
+== Pool C ==
+2023-08-17  RR Germany d. Greece 3-0 (25-19 25-21 29-27) @ Dusseldorf [home: winner]
+2023-08-18  RR Turkiye d. Sweden 3-0 (25-22 25-18 25-13) @ Dusseldorf
+2023-08-18  RR Azerbaijan d. Czechia 3-0 (25-21 25-10 25-15) @ Dusseldorf
+2023-08-19  RR Greece d. Sweden 3-1 (25-23 19-25 27-25 25-22) @ Dusseldorf
+2023-08-19  RR Germany d. Azerbaijan 3-1 (25-13 25-22 12-25 25-14) @ Dusseldorf [home: winner]
+2023-08-20  RR Czechia d. Greece 3-0 (25-21 25-22 25-17) @ Dusseldorf
+2023-08-20  RR Turkiye d. Azerbaijan 3-0 (25-13 25-13 25-13) @ Dusseldorf
+2023-08-21  RR Turkiye d. Czechia 3-1 (25-23 25-20 20-25 25-17) @ Dusseldorf
+2023-08-21  RR Sweden d. Germany 3-1 (13-25 25-16 25-18 25-18) @ Dusseldorf [home: loser]
+2023-08-22  RR Azerbaijan d. Greece 3-2 (22-25 25-19 27-29 25-18 15-12) @ Dusseldorf
+2023-08-22  RR Czechia d. Germany 3-2 (22-25 23-25 26-24 25-20 18-16) @ Dusseldorf [home: loser]
+2023-08-23  RR Turkiye d. Greece 3-0 (26-24 25-16 28-26) @ Dusseldorf
+2023-08-23  RR Sweden d. Azerbaijan 3-1 (25-17 17-25 25-21 25-18) @ Dusseldorf
+2023-08-24  RR Czechia d. Sweden 3-0 (25-23 25-20 25-22) @ Dusseldorf
+2023-08-24  RR Turkiye d. Germany 3-0 (25-15 25-20 28-26) @ Dusseldorf [home: loser]
+
+== Pool D ==
+2023-08-16  RR France d. Estonia 3-0 (25-8 25-19 25-21) @ Tallinn [home: loser]
+2023-08-17  RR Slovakia d. Finland 3-0 (25-20 25-23 25-16) @ Tallinn
+2023-08-17  RR Netherlands d. Spain 3-0 (25-23 25-19 25-21) @ Tallinn
+2023-08-18  RR Netherlands d. Slovakia 3-0 (25-20 25-19 25-19) @ Tallinn
+2023-08-18  RR France d. Spain 3-2 (22-25 25-18 23-25 25-17 15-10) @ Tallinn
+2023-08-19  RR Slovakia d. Spain 3-0 (25-17 26-24 25-19) @ Tallinn
+2023-08-19  RR Finland d. Estonia 3-2 (21-25 25-20 23-25 25-20 15-13) @ Tallinn [home: loser]
+2023-08-20  RR France d. Finland 3-0 (25-22 25-22 25-14) @ Tallinn
+2023-08-20  RR Netherlands d. Estonia 3-0 (25-8 27-25 25-19) @ Tallinn [home: loser]
+2023-08-21  RR France d. Slovakia 3-0 (25-21 25-19 25-12) @ Tallinn
+2023-08-21  RR Spain d. Finland 3-1 (25-17 24-26 26-24 26-24) @ Tallinn
+2023-08-22  RR Netherlands d. France 3-1 (25-23 27-25 21-25 26-24) @ Tallinn
+2023-08-22  RR Slovakia d. Estonia 3-1 (24-26 26-24 25-9 25-18) @ Tallinn [home: loser]
+2023-08-23  RR Netherlands d. Finland 3-0 (25-18 25-21 25-17) @ Tallinn
+2023-08-23  RR Spain d. Estonia 3-1 (16-25 25-21 25-20 25-17) @ Tallinn [home: loser]
+
+== Final round ==
+2023-08-26 R16 France d. Romania 3-1 (25-23 25-16 21-25 25-23) @ Florence
+2023-08-26 R16 Italy d. Spain 3-0 (25-23 25-22 25-19) @ Florence [home: winner]
+2023-08-27 R16 Turkiye d. Belgium 3-1 (25-22 16-25 25-15 32-30) @ Brussels [home: loser]
+2023-08-27 R16 Netherlands d. Switzerland 3-0 (25-17 25-19 25-12) @ Florence
+2023-08-27 R16 Poland d. Germany 3-0 (25-22 25-20 26-24) @ Brussels
+2023-08-27 R16 Bulgaria d. Slovakia 3-2 (16-25 17-25 25-19 25-20 15-9) @ Florence
+2023-08-28 R16 Serbia d. Sweden 3-0 (25-17 25-13 25-16) @ Brussels
+2023-08-28 R16 Czechia d. Ukraine 3-2 (25-22 25-22 20-25 10-25 15-12) @ Brussels
+2023-08-29  QF Netherlands d. Bulgaria 3-0 (25-11 25-13 25-19) @ Florence
+2023-08-29  QF Italy d. France 3-0 (25-14 29-27 25-13) @ Florence [home: winner]
+2023-08-30  QF Turkiye d. Poland 3-0 (25-23 25-22 25-18) @ Brussels
+2023-08-30  QF Serbia d. Czechia 3-1 (24-26 25-17 25-11 25-14) @ Brussels
+2023-09-01  SF Turkiye d. Italy 3-2 (18-25 25-23 15-25 25-22 15-6) @ Brussels
+2023-09-01  SF Serbia d. Netherlands 3-1 (25-21 15-25 25-22 25-21) @ Brussels
+2023-09-03  3P Netherlands d. Italy 3-0 (25-23 28-26 25-20) @ Brussels
+2023-09-03   F Turkiye d. Serbia 3-2 (25-27 25-21 22-25 25-22 15-13) @ Brussels
+
