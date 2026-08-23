@@ -1,0 +1,71 @@
+African_Nations_Championship_M 2021 — 2021 Men's African Nations Volleyball Championship - 23rd edition
+tier CONT-CH | gender M | teams 16 | matches 48 | status closed_verified_gapless
+hosts: Rwanda (Kigali: Kigali Arena + Petit Stade Amahoro)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 5-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDE
+
+== Pool A ==
+2021-09-07  RR Uganda d. Burkina Faso 3-1 (25-15 25-18 26-28 25-13) @ Kigali
+2021-09-07  RR Rwanda d. Burundi 3-0 (25-15 25-19 25-12) @ Kigali [home: winner]
+2021-09-09  RR Uganda d. Burundi 3-0 (25-18 25-15 25-18) @ Kigali
+2021-09-09  RR Rwanda d. Burkina Faso 3-0 (25-14 25-20 25-16) @ Kigali [home: winner]
+2021-09-10  RR Burundi d. Burkina Faso 3-1 (24-26 25-20 25-21 25-20) @ Kigali
+2021-09-10  RR Rwanda d. Uganda 3-2 (25-15 21-25 23-25 25-11 15-9) @ Kigali [home: winner]
+
+== Pool B ==
+2021-09-07  RR Ethiopia d. South Sudan 3-2 (23-25 25-20 20-25 25-21 15-9) @ Kigali
+2021-09-07  RR Tunisia d. Nigeria 3-0 (25-15 25-21 25-18) @ Kigali
+2021-09-08  RR Tunisia d. Ethiopia 3-0 (25-13 25-14 25-16) @ Kigali
+2021-09-08  RR Nigeria d. South Sudan 3-0 (25-20 25-21 25-19) @ Kigali
+2021-09-10  RR Tunisia d. South Sudan 3-0 (25-11 25-14 25-12) @ Kigali
+2021-09-10  RR Nigeria d. Ethiopia 3-1 (25-20 25-12 32-34 25-17) @ Kigali
+
+== Pool C ==
+2021-09-07  RR Cameroon d. DR Congo 3-1 (25-19 22-25 25-15 25-17) @ Kigali
+2021-09-07  RR Mali d. Niger 3-2 (21-25 25-20 31-33 26-24 15-12) @ Kigali
+2021-09-08  RR DR Congo d. Niger 3-2 (28-26 25-23 21-25 21-25 15-11) @ Kigali
+2021-09-08  RR Cameroon d. Mali 3-0 (25-15 25-17 25-9) @ Kigali
+2021-09-09  RR DR Congo d. Mali 3-0 (25-17 25-18 25-21) @ Kigali
+2021-09-09  RR Cameroon d. Niger 3-0 (25-17 25-12 25-20) @ Kigali
+
+== Pool D ==
+2021-09-08  RR Morocco d. Tanzania 3-0 (25-0 25-0 25-0) @ Kigali [FORFEIT]
+2021-09-08  RR Kenya d. Egypt 3-2 (19-25 25-22 25-20 18-25 15-12) @ Kigali
+2021-09-09  RR Egypt d. Tanzania 3-0 (25-0 25-0 25-0) @ Kigali [FORFEIT]
+2021-09-09  RR Morocco d. Kenya 3-1 (19-25 25-22 25-17 25-21) @ Kigali
+2021-09-10  RR Kenya d. Tanzania 3-0 (25-0 25-0 25-0) @ Kigali [FORFEIT]
+2021-09-10  RR Egypt d. Morocco 3-1 (25-21 22-25 25-18 25-19) @ Kigali
+
+== Classification 9-16 ==
+2021-09-11  PO Burundi d. Tanzania 3-0 (25-0 25-0 25-0) @ Kigali [FORFEIT]
+2021-09-11  PO Kenya d. Burkina Faso 3-0 (25-22 25-13 25-21) @ Kigali
+2021-09-11  PO Niger d. Ethiopia 3-1 (25-23 18-25 25-20 25-19) @ Kigali
+2021-09-11  PO Mali d. South Sudan 3-2 (22-25 25-22 22-25 25-19 15-10) @ Kigali
+
+== Classification 13-16 ==
+2021-09-13  PO South Sudan d. Tanzania 3-0 (25-0 25-0 25-0) @ Kigali [FORFEIT]
+2021-09-13  PO Burkina Faso d. Ethiopia 3-1 (25-19 25-18 25-27 25-21) @ Kigali
+2021-09-14 15P Ethiopia d. Tanzania 3-0 (25-0 25-0 25-0) @ Kigali [FORFEIT]
+2021-09-14 13P Burkina Faso d. South Sudan 3-2 (22-25 23-25 25-19 26-24 15-9) @ Kigali
+
+== Classification 9-12 ==
+2021-09-13  PO Mali d. Burundi 3-1 (25-18 25-21 16-25 25-16) @ Kigali
+2021-09-13  PO Kenya d. Niger 3-1 (25-15 24-26 25-12 25-18) @ Kigali
+2021-09-14  9P Kenya d. Mali 3-0 (25-21 25-21 25-16) @ Kigali
+2021-09-14 11P Burundi d. Niger 3-1 (15-25 25-23 25-22 25-21) @ Kigali
+
+== Final round ==
+2021-09-11  QF Cameroon d. Nigeria 3-1 (25-19 25-27 25-19 25-20) @ Kigali
+2021-09-11  QF Tunisia d. DR Congo 3-0 (25-22 25-17 25-21) @ Kigali
+2021-09-11  QF Egypt d. Uganda 3-1 (28-30 25-18 25-16 25-21) @ Kigali
+2021-09-11  QF Morocco d. Rwanda 3-0 (25-17 25-23 25-17) @ Kigali [home: loser]
+2021-09-13  SF Cameroon d. Morocco 3-2 (15-25 25-22 21-25 25-17 15-13) @ Kigali
+2021-09-13  SF Tunisia d. Egypt 3-1 (25-19 16-25 25-14 25-21) @ Kigali
+2021-09-14  3P Egypt d. Morocco 3-1 (23-25 28-26 25-21 25-18) @ Kigali
+2021-09-14   F Tunisia d. Cameroon 3-1 (16-25 25-21 25-21 25-16) @ Kigali
+
+== Classification 5-8 ==
+2021-09-13  PO Uganda d. DR Congo 3-1 (23-25 25-21 25-23 25-19) @ Kigali
+2021-09-13  PO Rwanda d. Nigeria 3-0 (25-17 25-22 25-17) @ Kigali [home: winner]
+2021-09-14  5P Uganda d. Rwanda 3-1 (21-25 25-23 25-20 25-13) @ Kigali [home: loser]
+2021-09-14  7P Nigeria d. DR Congo 3-0 (25-10 25-20 25-22) @ Kigali
+

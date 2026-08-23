@@ -1,0 +1,17 @@
+South_American_Championship_W 2023 — 2023 Women's South American Volleyball Championship - 35th edition
+tier CONT-CH | gender W | teams 5 | matches 10 | status closed_verified_gapless
+hosts: Brazil (Recife, Ginasio Geraldo Magalhaes)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 5-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDE
+
+== Round robin ==
+2023-08-19  RR Argentina d. Peru 3-1 (25-16 24-26 25-23 25-19) @ Recife
+2023-08-19  RR Brazil d. Chile 3-0 (25-13 25-11 25-21) @ Recife [home: winner]
+2023-08-20  RR Colombia d. Chile 3-0 (25-10 26-24 25-13) @ Recife
+2023-08-20  RR Brazil d. Argentina 3-0 (25-17 25-16 25-17) @ Recife [home: winner]
+2023-08-21  RR Colombia d. Peru 3-1 (20-25 25-17 25-15 25-20) @ Recife
+2023-08-21  RR Argentina d. Chile 3-0 (25-23 25-23 25-15) @ Recife
+2023-08-22  RR Argentina d. Colombia 3-0 (25-20 29-27 26-24) @ Recife
+2023-08-22  RR Brazil d. Peru 3-0 (25-14 25-18 25-9) @ Recife [home: winner]
+2023-08-23  RR Chile d. Peru 3-2 (25-23 23-25 25-17 12-25 15-13) @ Recife
+2023-08-23  RR Brazil d. Colombia 3-0 (25-19 25-22 25-19) @ Recife [home: winner]
+

@@ -1,0 +1,30 @@
+African_Nations_Championship_W 2021 — 2021 Women's African Nations Volleyball Championship - 20th edition
+tier CONT-CH | gender W | teams 9 | matches 17 | status closed_verified_gapless
+hosts: Rwanda (Kigali: Kigali Arena + Petit Stade)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 5-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDE
+
+== Pool A ==
+2021-09-12  RR Nigeria d. Senegal 3-0 (25-16 25-18 25-22) @ Kigali
+2021-09-12  RR Rwanda d. Morocco 3-1 (25-19 25-18 32-34 25-22) @ Kigali [home: winner]
+2021-09-13  RR Rwanda d. Nigeria 3-0 (25-22 25-23 25-23) @ Kigali [home: winner]
+2021-09-15  RR Morocco d. Senegal 3-0 (25-23 25-17 25-13) @ Kigali
+
+== Pool B ==
+2021-09-12  RR DR Congo d. Burundi 3-0 (25-18 25-15 25-13) @ Kigali
+2021-09-12  RR Cameroon d. Kenya 3-0 (25-20 25-21 25-19) @ Kigali
+2021-09-13  RR Cameroon d. Tunisia 3-0 (25-15 25-18 25-17) @ Kigali
+2021-09-13  RR Kenya d. DR Congo 3-0 (25-12 25-12 25-19) @ Kigali
+2021-09-15  RR Cameroon d. Burundi 3-0 (25-15 25-14 25-14) @ Kigali
+2021-09-15  RR Kenya d. Tunisia 3-0 (25-20 25-19 25-21) @ Kigali
+2021-09-16  RR Kenya d. Burundi 3-0 (25-8 25-9 25-11) @ Kigali
+2021-09-16  RR Tunisia d. DR Congo 3-0 (25-17 25-16 25-17) @ Kigali
+
+== Classification 5-6 ==
+2021-09-19  5P Tunisia d. DR Congo 3-0 (25-17 25-11 25-20) @ Kigali
+
+== Final round ==
+2021-09-19  SF Kenya d. Morocco 3-0 (25-12 25-21 25-11) @ Kigali
+2021-09-19  SF Cameroon d. Nigeria 3-0 (25-13 35-33 25-13) @ Kigali
+2021-09-19  3P Morocco d. Nigeria 3-0 (25-19 25-17 25-18) @ Kigali
+2021-09-19   F Cameroon d. Kenya 3-1 (25-21 25-23 15-25 25-23) @ Kigali
+

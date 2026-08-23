@@ -1,0 +1,61 @@
+African_Nations_Championship_W 2023 — 2023 Women's African Nations Volleyball Championship - 21st edition
+tier CONT-CH | gender W | teams 12 | matches 46 | status closed_verified_gapless
+hosts: Cameroon (Yaounde)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 5-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDE
+
+== Pool A ==
+2023-08-16  RR Nigeria d. Mali 3-0 (25-18 25-14 25-20) @ Yaounde
+2023-08-16  RR Egypt d. Algeria 3-0 (25-18 25-13 25-22) @ Yaounde
+2023-08-16  RR Cameroon d. Burundi 3-0 (25-2 25-8 25-12) @ Yaounde [home: winner]
+2023-08-17  RR Egypt d. Mali 3-0 (25-10 25-9 25-6) @ Yaounde
+2023-08-17  RR Algeria d. Burundi 3-0 (25-6 25-13 25-11) @ Yaounde
+2023-08-17  RR Cameroon d. Nigeria 3-0 (25-17 25-13 25-18) @ Yaounde [home: winner]
+2023-08-18  RR Nigeria d. Burundi 3-0 (25-17 25-14 25-9) @ Yaounde
+2023-08-18  RR Algeria d. Mali 3-0 (25-10 25-7 25-12) @ Yaounde
+2023-08-18  RR Egypt d. Cameroon 3-1 (25-16 25-19 21-25 25-16) @ Yaounde [home: loser]
+2023-08-19  RR Mali d. Burundi 3-0 (25-19 25-21 25-20) @ Yaounde
+2023-08-19  RR Egypt d. Nigeria 3-0 (25-14 25-17 25-20) @ Yaounde
+2023-08-19  RR Cameroon d. Algeria 3-0 (25-21 30-28 25-18) @ Yaounde [home: winner]
+2023-08-20  RR Algeria d. Nigeria 3-2 (25-16 25-18 23-25 24-26 15-6) @ Yaounde
+2023-08-20  RR Egypt d. Burundi 3-0 (25-2 25-4 25-13) @ Yaounde
+2023-08-20  RR Cameroon d. Mali 3-0 (25-9 25-11 25-11) @ Yaounde [home: winner]
+
+== Pool B ==
+2023-08-16  RR Morocco d. Burkina Faso 3-0 (25-18 25-11 25-7) @ Yaounde
+2023-08-16  RR Kenya d. Rwanda 3-0 (25-16 25-20 25-17) @ Yaounde
+2023-08-16  RR Uganda d. Lesotho 3-0 (25-10 25-5 25-10) @ Yaounde
+2023-08-17  RR Rwanda d. Lesotho 3-0 (25-4 25-11 25-7) @ Yaounde
+2023-08-17  RR Kenya d. Burkina Faso 3-0 (25-10 25-9 25-10) @ Yaounde
+2023-08-17  RR Uganda d. Morocco 3-2 (25-15 26-28 17-25 25-16 15-11) @ Yaounde
+2023-08-18  RR Rwanda d. Burkina Faso 3-0 (25-8 25-7 25-14) @ Yaounde
+2023-08-18  RR Kenya d. Uganda 3-0 (25-14 25-16 25-14) @ Yaounde
+2023-08-18  RR Morocco d. Lesotho 3-0 (25-10 25-11 25-11) @ Yaounde
+2023-08-19  RR Burkina Faso d. Lesotho 3-0 (25-17 25-18 25-19) @ Yaounde
+2023-08-19  RR Rwanda d. Uganda 3-0 (25-20 25-17 25-21) @ Yaounde
+2023-08-19  RR Kenya d. Morocco 3-1 (25-16 25-23 22-25 25-14) @ Yaounde
+2023-08-20  RR Morocco d. Rwanda 3-2 (25-18 19-25 22-25 28-26 15-9) @ Yaounde
+2023-08-20  RR Uganda d. Burkina Faso 3-0 (25-14 25-12 25-18) @ Yaounde
+2023-08-20  RR Kenya d. Lesotho 3-0 (25-5 25-8 25-13) @ Yaounde
+
+== Classification 9-12 ==
+2023-08-22  PO Mali d. Lesotho 3-0 (25-13 25-16 25-19) @ Yaounde
+2023-08-22  PO Burkina Faso d. Burundi 3-0 (25-16 25-16 25-19) @ Yaounde
+2023-08-23  9P Mali d. Burkina Faso 3-0 (25-18 25-18 25-22) @ Yaounde
+2023-08-23 11P Burundi d. Lesotho 3-1 (25-13 21-25 25-15 25-20) @ Yaounde
+
+== Final round ==
+2023-08-22  QF Egypt d. Uganda 3-0 (25-13 25-18 25-11) @ Yaounde
+2023-08-22  QF Rwanda d. Algeria 3-2 (23-25 15-25 25-18 25-23 16-14) @ Yaounde
+2023-08-22  QF Kenya d. Nigeria 3-0 (25-14 25-17 25-11) @ Yaounde
+2023-08-22  QF Cameroon d. Morocco 3-0 (25-17 25-23 25-18) @ Yaounde [home: winner]
+2023-08-23  SF Egypt d. Rwanda 3-0 (25-14 25-11 25-10) @ Yaounde
+2023-08-23  SF Kenya d. Cameroon 3-1 (25-27 25-14 25-11 25-18) @ Yaounde [home: loser]
+2023-08-24  3P Cameroon d. Rwanda 3-1 (21-25 25-15 25-14 25-15) @ Yaounde [home: winner]
+2023-08-24   F Kenya d. Egypt 3-0 (25-22 25-20 25-14) @ Yaounde
+
+== Classification 5-8 ==
+2023-08-23  PO Algeria d. Uganda 3-0 (25-20 25-23 25-17) @ Yaounde
+2023-08-23  PO Nigeria d. Morocco 3-0 (26-24 25-21 29-27) @ Yaounde
+2023-08-24  5P Algeria d. Nigeria 3-1 (25-18 25-13 23-25 25-17) @ Yaounde
+2023-08-24  7P Morocco d. Uganda 3-1 (26-24 27-25 24-26 25-22) @ Yaounde
+

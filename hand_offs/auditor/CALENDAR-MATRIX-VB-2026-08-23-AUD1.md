@@ -35,9 +35,9 @@ rejected class).
 | NORCECA Ch M | **BUILT** (22; Puerto Rico 1st title ever) | · | **BUILT** (17; USA 10th at home) | · | **· NO EDITION** (only 2nd-tier Final Six ran) | Sep, Moncton → WO-VB-8 |
 | NORCECA Ch W | **BUILT** (16; Dom. Republic d. PUR 3-2) | · | **BUILT** (17; Dom. Republic b2b d. USA 3-2) | · | **· NO EDITION** | LIVE, Santo Domingo → WO-VB-8 |
 | CSV South American Ch M | **BUILT** (10; Brazil 33rd, closed doors) | · | **BUILT** (10; ARGENTINA — 1st in 59 yrs) | · | **· NO EDITION** (CSV title-holders still 2023, crawl 2026-07-29) | Sep, Rio → WO-VB-8 |
-| CSV South American Ch W | QUEUED-WO4 (Barrancabermeja; Brazil) | · | QUEUED-WO4 (Recife; Brazil) | · | **· NO EDITION** | Sep, Rio → WO-VB-8 |
-| CAVB African Nations M | QUEUED-WO4 (Kigali TBV; Tunisia) | · | QUEUED-WO4 (Cairo; Egypt — 15 teams) | · | **· NO EDITION** | Sep, Tunis → WO-VB-8 |
-| CAVB African Nations W | QUEUED-WO4 (Kigali; Cameroon) | · | QUEUED-WO4 (Yaoundé; Kenya 10th) | · | **· NO EDITION** | starts today, Nairobi → WO-VB-8 |
+| CSV South American Ch W | **BUILT** (10; Brazil 22nd despite losing decider to COL) | · | **BUILT** (10; Brazil 23rd, 15th straight) | · | **· NO EDITION** | Sep, Rio → WO-VB-8 |
+| CAVB African Nations M | **BUILT** (48; Tunisia 11th; Tanzania removed — 6 forfeit rows) | · | QUEUED-WO4 (Cairo; Egypt — 15 teams; CLOSES WO) | · | **· NO EDITION** | Sep, Tunis → WO-VB-8 |
+| CAVB African Nations W | **BUILT** (17; Cameroon 3-peat; Rwanda forfeited by FIVB) | · | **BUILT** (46; Kenya 10th d. Egypt) | · | **· NO EDITION** | starts today, Nairobi → WO-VB-8 |
 
 **WO-VB-4 censused finding (CENSUS-VB-4, this commit): NO confederation held a championship in 2025** — all four
 moved to even years under the FIVB 2025–28 reform. 2025's continental-looking events (NORCECA Final Six/Final Four,

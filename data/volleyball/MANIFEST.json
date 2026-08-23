@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 21,
+  "total_editions": 26,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -273,6 +273,71 @@
       "match_count": 10,
       "checksum_sha256": "20ea0aa470c64da6d371d4c22b91752e7cd620d1cf90091fa58ebce897c1ed09",
       "file_path": "editions/South_American_Championship_M/2023.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "South_American_Championship_W",
+      "tier": "CONT-CH",
+      "gender": "W",
+      "year": "2021",
+      "official_match_count": 10,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 5-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDELITY per-team pool points recomputed == printed standings spw/spl (forfeit arithmetic included where applicable); spine/table-top asserts exact. 34th edition, Barrancabermeja, 15-19 Sep 2021, single round-robin of 5 (10 matches). Champions BRAZIL 22nd title on wins+points despite LOSING the last-day decider 1-3 to hosts Colombia (silver - their best-ever, roared on at the Coliseo; MVP Gabi Guimaraes) - the 3-wins-each table resolved by match points per the byte-read procedure; BRA+COL qualified for WCh-2022 (in store). Sources: official voleysur.org per-match result pages (unique IDjogo 6025-6034).",
+      "match_count": 10,
+      "checksum_sha256": "cdd9e7aa7ae61344d19c7ab5d03912aa23c7d12caff15643cbdad0f69dc3320e",
+      "file_path": "editions/South_American_Championship_W/2021.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "South_American_Championship_W",
+      "tier": "CONT-CH",
+      "gender": "W",
+      "year": "2023",
+      "official_match_count": 10,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 5-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDELITY per-team pool points recomputed == printed standings spw/spl (forfeit arithmetic included where applicable); spine/table-top asserts exact. 35th edition, Recife, 19-23 Aug 2023, single round-robin of 5 (10 matches). Champions BRAZIL 23rd title and 15TH STRAIGHT, undefeated and set-perfect except one (12-1 sets; MVP Gabi Guimaraes repeats); ARG silver, COL bronze; BRA+ARG+COL qualified for WCh-2025 (in store). Sources: official FIVB Live Center match pages (unique ids 17570-17579).",
+      "match_count": 10,
+      "checksum_sha256": "ecdd178ed087bcac25b97ef041c0c3a06c1f00559389100cb3cddf83a1e7a194",
+      "file_path": "editions/South_American_Championship_W/2023.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "African_Nations_Championship_W",
+      "tier": "CONT-CH",
+      "gender": "W",
+      "year": "2021",
+      "official_match_count": 17,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 5-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDELITY per-team pool points recomputed == printed standings spw/spl (forfeit arithmetic included where applicable); spine/table-top asserts exact. 20th edition, Kigali, 12-19 Sep 2021, 9 teams. GOVERNANCE-HEAVY EDITION, all byte-read: RWANDA FORFEITED BY FIVB for illegally registering four foreigners without due process (their two PLAYED pool wins remain in the record as printed - the sanction acted on CLASSIFICATION, dropping hosts to 9th/last); SENEGAL WITHDREW mid-pool; FOUR matches cancelled (RWA-SEN, MAR-NGR, CMR-DRC, TUN-BDI - no rows, and the official total is the 17 that actually appear); Pool B ran 8 of 10 (KEN alone played all 4). Champions CAMEROON - THIRD STRAIGHT TITLE (MVP Christelle Tchoudjang Nana) d. Kenya 3-1; the CMR-NGR semifinal carried a 35-33 SET (68 points - highest 25-point-set in store); CMR+KEN qualified for WCh-2022 (in store). SOURCE GRANULARITY DISCLOSED: the page prints NO per-match links (CAVB published none) - per-row source is the Wikipedia edition page itself (transcription source of record), with worldofvolley + kick442 refs in-page corroborating the final; uniqueness assert adapted to 1.",
+      "match_count": 17,
+      "checksum_sha256": "cfe0b54675986b568a91e484a2a3281fd5bda34afbf903ab2fba03b97b5bded5",
+      "file_path": "editions/African_Nations_Championship_W/2021.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "African_Nations_Championship_M",
+      "tier": "CONT-CH",
+      "gender": "M",
+      "year": "2021",
+      "official_match_count": 48,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 5-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDELITY per-team pool points recomputed == printed standings spw/spl (forfeit arithmetic included where applicable); spine/table-top asserts exact. 23rd edition, Kigali, 7-14 Sep 2021, 16 teams, full 1-16 classification (48 rows == every printed result incl. forfeits). THE STORE'S FIRST FORFEIT ROWS: TANZANIA REMOVED MID-TOURNAMENT for failing financial obligations (byte-cited in-page) - their SIX fixtures recorded as federation forfeits (25-0 25-0 25-0), status 'forfeit' per DATA-RULES hygiene, and Pool D standings print TAN spw=0/spl=225 which the FIDELITY lock recomputes EXACTLY WITH the forfeit rows included. Guinea declined pre-tournament (no rows). COVID note byte-read: BUR-BDI postponed hours pending negative tests. Champions TUNISIA 11th title (best setter Ben Slimene, coach Giacobbe) d. Cameroon 3-1 after Cameroon's 15-13-fifth SF over Morocco (whose Al Hachdadi took MVP from 4th place); Egypt bronze; TUN+CMR qualified for WCh-2022 (in store). Bracket-template team-code inconsistencies on the page (BUR/BDI/BFA confusion in the 9-16 bracket graphic) DISCLOSED - the result ROWS are internally coherent and reconcile exactly with the printed final standing, so rows govern. SOURCE GRANULARITY DISCLOSED: no per-match links printed - per-row source is the Wikipedia edition page (transcription source of record); uniqueness assert adapted to 1.",
+      "match_count": 48,
+      "checksum_sha256": "91fdc1ff848671b5e1d3604d3155275f279c8158ee75e942741b37ff6bc91fe6",
+      "file_path": "editions/African_Nations_Championship_M/2021.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "African_Nations_Championship_W",
+      "tier": "CONT-CH",
+      "gender": "W",
+      "year": "2023",
+      "official_match_count": 46,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 5-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDELITY per-team pool points recomputed == printed standings spw/spl (forfeit arithmetic included where applicable); spine/table-top asserts exact. 21st edition, Yaounde, 16-24 Aug 2023, 12 teams in two pools of 6 (46 rows == 30 pool + 4 class-9-12 + 12 final-eight/5-8). Champions KENYA - 10TH TITLE (MVP Sharon Chepchumba) d. Egypt 3-0 in the final, ENDING hosts Cameroon's three-peat reign (bronze after the 25-27-first-set SF); KEN+EGY+CMR qualified for WCh-2025 (in store - Kenya's and Egypt's WCh-W-2025 appearances close the loop). Curio sets preserved: Burundi held to 2-25 AND 4-25 by Egypt, 25-2 by Cameroon. Sources: official FIVB Live Center match pages (unique ids 17765-17810).",
+      "match_count": 46,
+      "checksum_sha256": "17d73ad917b381184153a5c8ec96921933cd961d41f40ae9c1641a93fe9a21e9",
+      "file_path": "editions/African_Nations_Championship_W/2023.json",
       "gap_count": 0
     }
   ],

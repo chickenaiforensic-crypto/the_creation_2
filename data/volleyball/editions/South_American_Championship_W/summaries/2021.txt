@@ -1,0 +1,17 @@
+South_American_Championship_W 2021 — 2021 Women's South American Volleyball Championship - 34th edition
+tier CONT-CH | gender W | teams 5 | matches 10 | status closed_verified_gapless
+hosts: Colombia (Barrancabermeja, Coliseo Luis Fernando Castellanos)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4), Director-approved 5-edition batch commit. Capture: Wikipedia edition-page wikitext (action=raw); official match count == built count; FIDE
+
+== Round robin ==
+2021-09-15  RR Brazil d. Peru 3-0 (25-17 25-23 25-18) @ Barrancabermeja
+2021-09-15  RR Colombia d. Chile 3-0 (25-20 25-13 25-12) @ Barrancabermeja [home: winner]
+2021-09-16  RR Brazil d. Argentina 3-1 (23-25 25-13 25-14 25-16) @ Barrancabermeja
+2021-09-16  RR Peru d. Colombia 3-1 (25-22 19-25 25-21 25-20) @ Barrancabermeja [home: loser]
+2021-09-17  RR Brazil d. Chile 3-0 (25-11 25-19 25-14) @ Barrancabermeja
+2021-09-17  RR Argentina d. Peru 3-0 (25-18 25-17 25-22) @ Barrancabermeja
+2021-09-18  RR Peru d. Chile 3-0 (25-20 25-16 25-21) @ Barrancabermeja
+2021-09-18  RR Colombia d. Argentina 3-1 (25-20 15-25 27-25 25-23) @ Barrancabermeja [home: winner]
+2021-09-19  RR Argentina d. Chile 3-0 (25-19 25-5 25-22) @ Barrancabermeja
+2021-09-19  RR Colombia d. Brazil 3-1 (25-19 25-23 24-26 25-23) @ Barrancabermeja [home: winner]
+
