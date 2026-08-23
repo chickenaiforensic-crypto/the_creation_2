@@ -1,0 +1,39 @@
+Olympics_W 2024 — Volleyball at the 2024 Summer Olympics (Paris) - Women's tournament, 16th edition
+tier OG | gender W | teams 12 | matches 26 | status closed_verified_gapless
+hosts: France (Paris, South Paris Arena 1)
+source policy: BUILT from cited bytes under WO-VB-3 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = official olympics.com P2 PDFs (all 26 distinct; the TUR-DOM row's C83-vs-C73 pr
+
+== Pool A ==
+2024-07-29  RR China d. USA 3-2 (25-20 25-19 17-25 20-25 15-13) @ Paris
+2024-07-29  RR Serbia d. France 3-0 (25-17 25-17 25-22) @ Paris [home: loser]
+2024-07-31  RR USA d. Serbia 3-2 (25-17 25-20 20-25 14-25 17-15) @ Paris
+2024-08-01  RR China d. France 3-0 (25-18 25-16 25-19) @ Paris [home: loser]
+2024-08-04  RR USA d. France 3-0 (29-27 29-27 25-20) @ Paris [home: loser]
+2024-08-04  RR China d. Serbia 3-1 (21-25 25-20 25-22 29-27) @ Paris
+
+== Pool B ==
+2024-07-28  RR Poland d. Japan 3-1 (20-25 25-22 25-23 28-26) @ Paris
+2024-07-29  RR Brazil d. Kenya 3-0 (25-14 25-13 25-12) @ Paris
+2024-07-31  RR Poland d. Kenya 3-0 (25-14 25-17 25-15) @ Paris
+2024-08-01  RR Brazil d. Japan 3-0 (25-20 25-17 25-18) @ Paris
+2024-08-03  RR Japan d. Kenya 3-0 (25-17 25-22 25-12) @ Paris
+2024-08-04  RR Brazil d. Poland 3-0 (25-21 38-36 25-14) @ Paris
+
+== Pool C ==
+2024-07-28  RR Italy d. Dominican Republic 3-1 (25-19 24-26 25-21 25-18) @ Paris
+2024-07-29  RR Turkiye d. Netherlands 3-2 (19-25 19-25 25-22 25-22 15-13) @ Paris
+2024-08-01  RR Turkiye d. Dominican Republic 3-1 (21-25 25-18 25-22 25-15) @ Paris
+2024-08-01  RR Italy d. Netherlands 3-0 (29-27 25-18 25-19) @ Paris
+2024-08-03  RR Dominican Republic d. Netherlands 3-1 (22-25 25-21 25-17 28-26) @ Paris
+2024-08-04  RR Italy d. Turkiye 3-0 (25-14 25-16 25-21) @ Paris
+
+== Knockout ==
+2024-08-06  QF Turkiye d. China 3-2 (23-25 25-21 26-24 21-25 15-12) @ Paris
+2024-08-06  QF Brazil d. Dominican Republic 3-0 (25-22 25-13 25-17) @ Paris
+2024-08-06  QF USA d. Poland 3-0 (25-22 25-14 25-20) @ Paris
+2024-08-06  QF Italy d. Serbia 3-0 (26-24 25-20 25-20) @ Paris
+2024-08-08  SF USA d. Brazil 3-2 (25-23 18-25 25-15 23-25 15-11) @ Paris
+2024-08-08  SF Italy d. Turkiye 3-0 (25-22 25-19 25-22) @ Paris
+2024-08-10  3P Brazil d. Turkiye 3-1 (25-21 27-25 22-25 25-15) @ Paris
+2024-08-11   F Italy d. USA 3-0 (25-18 25-20 25-17) @ Paris
+

@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 11,
+  "total_editions": 12,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -143,6 +143,19 @@
       "match_count": 26,
       "checksum_sha256": "a6339722ef1f992776f5fa452b1eb090599eb8d11ecb266798b6bde6d580c26f",
       "file_path": "editions/Olympics_M/2024.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "Olympics_W",
+      "tier": "OG",
+      "gender": "W",
+      "year": "2024",
+      "official_match_count": 26,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-3 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = official olympics.com P2 PDFs (all 26 distinct; the TUR-DOM row's C83-vs-C73 prefix quirk stored as-printed and disclosed) + olympics.com result pages in provenance; format census 3 pools of 4 RR (18) + QF/SF/3P/F (8) = 26 == built count. FORMAT REFORM EDITION (same as men): first 3-pools-of-4 women's Olympic tournament; top-2 + 2 BEST THIRDS via teams-combined-ranking - QF pairings asserted against the combined-ranking table (BRA-DOM, ITA-SRB, CHN-TUR, USA-POL exact; Japan eliminated as worst third at combined-9th). All matches South Paris Arena 1, Paris. FIDELITY: per-team pool points recomputed from set tokens == standings spw/spl for ALL 12 TEAMS (olympics.com C76A PDF standings source). Spine exact. CENSUS CLAIM VERIFIED: champions ITALY - FIRST Olympic gold in women's volleyball history, d. USA (defending champions) 3-0 in the final, dropping ZERO SETS in the entire knockout (QF 3-0 SRB, SF 3-0 TUR, F 3-0 USA) - the Velasco redemption arc completed later by the 2025 WCh double already in-store; USA silver (SF 15-11-in-the-5th over Brazil from 2-2); Brazil bronze 3-1 over Turkiye. HOST HEARTBREAK PRESERVED: France 0 wins, out in pools (combined 11th), home flags on all 3 FRA rows incl. the double-deuce 27-29 27-29 20-25 vs USA. Monster set: Brazil d. Poland 38-36 set 2 (74 points, store #4). China's 12-15-fifth QF exit to Turkiye and Netherlands' 0-3-wins pool exit despite two 5-setters preserved. 28 Jul - 11 Aug 2024.",
+      "match_count": 26,
+      "checksum_sha256": "c3a42ed568275b6c7f1524a98fe0968276cc9649b2c6251b7b7ee97fc67cfcc8",
+      "file_path": "editions/Olympics_W/2024.json",
       "gap_count": 0
     }
   ],
