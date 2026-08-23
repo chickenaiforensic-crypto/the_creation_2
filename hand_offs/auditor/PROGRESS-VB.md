@@ -10,13 +10,13 @@ Program law: `hand_offs/auditor/PLAN-VB-2026-08-23-AUD1.md` · Landscape census:
 | WO-VB-1 | EuroVolley M+W 2021, 2023 | **DONE** (FIDELITY 96/96; README + REPLY-VB-1) | 4/4 (304 rows) | 28b6e7b, ccad013, dff24ff, this | REPLY-VB-1 |
 | WO-VB-2 | World Championship M+W 2022, 2025 | **DONE** (FIDELITY 104 team-entries; README + REPLY-VB-2) | 4/4 (280 rows) | 1be16c0, 3530fcf, 527cfb6, this | REPLY-VB-2 |
 | WO-VB-3 | Olympics M+W 2021(Tokyo-2020), 2024 | **DONE** (FIDELITY 48/48; ROC adjudication; Olympics_README + REPLY-VB-3 + CALENDAR-MATRIX) | 4/4 (128 rows) | 2a152fa, 8cea5d2, 1fbaeac, this | REPLY-VB-3 |
-| WO-VB-4 | AVC/NORCECA/CSV/CAVB championships 2021–2025 | **IN-FLIGHT** (14/15 built; CAVB M 2023 closes w/ README + REPLY-VB-4) | 14/15 (363 rows) | census 03c280e, e5382dd, c7abd88, c38cc93, 6a9f0ff, this | — |
-| WO-VB-5 | VNL M+W 2021–2026 | QUEUED (weekly-batch commits) | 0/12 | — | — |
+| WO-VB-4 | AVC/NORCECA/CSV/CAVB championships 2021–2025 | **DONE** (15/15; 5 FIDELITY catches proven; 7 forfeit rows; Continental_README + REPLY-VB-4) | 15/15 (412 rows) | 03c280e…this | REPLY-VB-4 |
+| WO-VB-5 | VNL M+W 2021–2026 | **IN-FLIGHT** (season census first; weekly-batch commits) | 0/12 | — | — |
 | WO-VB-6 | Qualifiers: OQT-2023, EuroVolley quals, European League, Challenger Cup | QUEUED (census per event) | 0/~20 | — | — |
 | WO-VB-7 | Club: Club World Ch 2021–2025 (+CL depth = Director call) | QUEUED | 0/~10 | — | — |
 | WO-VB-8 | 2026 post-event queue (10 continentals + Club WCh as they finish; EuroVolley-W final 2026-09-06) | ROLLING | 0/~11 | — | — |
 
-**Store state:** 26 editions / 1075 rows / ISSUES:0 (6 forfeit rows — Tanzania CAVB-M-2021; zero golden sets). Families CLOSED: EuroVolley (4), World_Championship (4), Olympics (4), Asian_Championship (3), NORCECA_Championship (4), South_American_Championship (4), African_Nations_Championship W (2); pending: African_Nations_Championship_M 2023. Existence grid: `CALENDAR-MATRIX-VB-2026-08-23-AUD1.md` (update same-commit as any existence/built change).
+**Store state:** 27 editions / 1124 rows / ISSUES:0 (7 forfeit rows; zero golden sets; team ledger 91 nations). Families CLOSED: EuroVolley (4), World_Championship (4), Olympics (4), Asian_Championship (3), NORCECA_Championship (4), South_American_Championship (4), African_Nations_Championship (4). Tier-1+2 window COMPLETE except VNL. Existence grid: `CALENDAR-MATRIX-VB-2026-08-23-AUD1.md` (update same-commit as any existence/built change).
 **Tennis program:** closed at `5967c0d` (202 editions / 14,892 rows / ISSUES:0); diff doc `BRANCH-VS-MAIN-TENNIS-DIFF` filed; tennis WO-1/WO-2/WO-3 await separate authorization.
 
 *Update this table in the SAME COMMIT as any WO state change. — Auditor 1 · arena/01a015bb-the-creation-2*

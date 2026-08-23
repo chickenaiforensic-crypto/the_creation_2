@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 26,
+  "total_editions": 27,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -338,6 +338,19 @@
       "match_count": 46,
       "checksum_sha256": "17d73ad917b381184153a5c8ec96921933cd961d41f40ae9c1641a93fe9a21e9",
       "file_path": "editions/African_Nations_Championship_W/2023.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "African_Nations_Championship_M",
+      "tier": "CONT-CH",
+      "gender": "M",
+      "year": "2023",
+      "official_match_count": 49,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4) - THE WORK-ORDER-CLOSING EDITION. Capture: Wikipedia edition-page wikitext (action=raw); 49 printed results == built count (21 pool + 7 round-of-15 + 21 finals/classification); per-row sources = official FIVB Live Center pages, unique ids 18123-18171. 24th African Nations Championship, Cairo Stadium Indoor Halls 2+3, 3-13 Sep 2023, 15 TEAMS - the largest continental field of the WO; Round-of-15 knockout with a single bye (Libya per bracket) and full 1-15 classification. FIDELITY: recomputed pool points == printed spw/spl for all 4 pools / 15 team-entries. Spine exact incl. QF pairings and the bye topology. ONE FORFEIT ROW byte-cited: Morocco forfeited the 7th-place match (Chad 3-0, efn in-page) - second forfeit event of the WO, hygiene law applied. Champions EGYPT - 9th title AT HOME (MVP Hossam Abdalla) d. Algeria 3-1, avenging their 0-3 pool loss; LIBYA BRONZE after the tournament's epic: Algeria d. Libya 3-2 in a semifinal carrying a 33-35 THIRD SET (68 points - tying the CMR-NGR 35-33 store record for a regulation set); Kenya's 9th-place 3-2 over Ghana carried 32-30+16-14. Egypt+Algeria+Libya took the CAVB berths to WCh-2025 - ALL THREE already in store (Libya's WCh debut edition included), closing the WO's final qualification thread. New canon first-writes: Ghana, Chad, Gambia (ledger 91 nations).",
+      "match_count": 49,
+      "checksum_sha256": "9e2d423d9fa1f045f8a47c92fcf9bd2cfce4ceb931152cfc0b9e1ce928de1226",
+      "file_path": "editions/African_Nations_Championship_M/2023.json",
       "gap_count": 0
     }
   ],

@@ -1,0 +1,74 @@
+African_Nations_Championship_M 2023 — 2023 Men's African Nations Volleyball Championship - 24th edition
+tier CONT-CH | gender M | teams 15 | matches 49 | status closed_verified_gapless
+hosts: Egypt (Cairo, Cairo Stadium Indoor Halls Complex)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4) - THE WORK-ORDER-CLOSING EDITION. Capture: Wikipedia edition-page wikitext (action=raw); 49 printed results == built count (21 pool + 7 rou
+
+== Pool A ==
+2023-09-03  RR Egypt d. Burundi 3-0 (25-11 25-8 25-10) @ Cairo [home: winner]
+2023-09-05  RR Algeria d. Burundi 3-0 (25-10 25-9 25-18) @ Cairo
+2023-09-06  RR Algeria d. Egypt 3-0 (25-21 25-22 25-19) @ Cairo [home: loser]
+
+== Pool B ==
+2023-09-04  RR Tunisia d. Mali 3-0 (25-8 25-14 25-7) @ Cairo
+2023-09-04  RR Chad d. Tanzania 3-0 (25-19 33-31 25-23) @ Cairo
+2023-09-05  RR Tanzania d. Mali 3-1 (25-18 25-22 17-25 26-24) @ Cairo
+2023-09-05  RR Tunisia d. Chad 3-0 (25-10 25-10 25-19) @ Cairo
+2023-09-06  RR Chad d. Mali 3-0 (26-24 25-17 25-19) @ Cairo
+2023-09-06  RR Tunisia d. Tanzania 3-0 (25-10 25-13 25-17) @ Cairo
+
+== Pool C ==
+2023-09-04  RR Libya d. Ghana 3-1 (25-23 18-25 25-15 25-20) @ Cairo
+2023-09-04  RR Cameroon d. Kenya 3-1 (25-22 25-20 24-26 25-17) @ Cairo
+2023-09-05  RR Cameroon d. Ghana 3-0 (25-19 25-17 25-19) @ Cairo
+2023-09-05  RR Libya d. Kenya 3-0 (25-23 25-22 25-12) @ Cairo
+2023-09-06  RR Kenya d. Ghana 3-2 (23-25 25-21 16-25 25-17 15-11) @ Cairo
+2023-09-06  RR Libya d. Cameroon 3-1 (27-25 25-22 20-25 25-23) @ Cairo
+
+== Pool D ==
+2023-09-04  RR Morocco d. Rwanda 3-0 (25-17 25-18 26-24) @ Cairo
+2023-09-05  RR Rwanda d. Gambia 3-1 (25-11 25-11 20-25 26-24) @ Cairo
+2023-09-05  RR Morocco d. Senegal 3-0 (25-17 25-21 25-12) @ Cairo
+2023-09-06  RR Morocco d. Gambia 3-0 (25-20 25-23 25-15) @ Cairo
+2023-09-06  RR Rwanda d. Senegal 3-0 (25-21 25-16 25-17) @ Cairo
+2023-09-07  RR Gambia d. Senegal 3-2 (22-25 25-14 25-19 25-27 15-13) @ Cairo
+
+== Round of 15 ==
+2023-09-08  PO Rwanda d. Tanzania 3-1 (25-22 27-29 25-21 25-12) @ Cairo
+2023-09-08  PO Cameroon d. Burundi 3-0 (25-14 25-14 25-13) @ Cairo
+2023-09-08  PO Tunisia d. Senegal 3-0 (25-10 25-13 25-18) @ Cairo
+2023-09-08  PO Chad d. Gambia 3-1 (24-26 25-12 25-22 25-16) @ Cairo
+2023-09-08  PO Morocco d. Mali 3-0 (25-14 25-10 25-15) @ Cairo
+2023-09-08  PO Algeria d. Ghana 3-0 (25-22 25-21 25-20) @ Cairo
+2023-09-08  PO Egypt d. Kenya 3-0 (25-17 25-19 27-25) @ Cairo [home: winner]
+
+== Classification 9-15 ==
+2023-09-09  PO Senegal d. Burundi 3-0 (25-19 27-25 25-23) @ Cairo
+2023-09-09  PO Ghana d. Tanzania 3-1 (19-25 25-20 25-16 25-12) @ Cairo
+2023-09-09  PO Kenya d. Mali 3-0 (26-24 25-15 25-23) @ Cairo
+
+== Classification 13-15 ==
+2023-09-11  PO Burundi d. Mali 3-0 (30-28 25-19 25-19) @ Cairo
+2023-09-12 13P Tanzania d. Burundi 3-1 (25-20 22-25 25-20 25-16) @ Cairo
+
+== Classification 9-12 ==
+2023-09-11  PO Ghana d. Gambia 3-2 (25-16 19-25 21-25 25-16 15-10) @ Cairo
+2023-09-11  PO Kenya d. Senegal 3-0 (25-14 25-18 25-23) @ Cairo
+2023-09-12  9P Kenya d. Ghana 3-2 (25-19 25-21 18-25 30-32 16-14) @ Cairo
+2023-09-12 11P Senegal d. Gambia 3-0 (25-20 25-21 25-23) @ Cairo
+
+== Classification 5-8 ==
+2023-09-11  PO Rwanda d. Chad 3-0 (25-21 25-18 25-20) @ Cairo
+2023-09-11  PO Tunisia d. Morocco 3-0 (25-19 25-15 25-20) @ Cairo
+2023-09-12  5P Tunisia d. Rwanda 3-0 (25-17 25-18 25-21) @ Cairo
+2023-09-12  7P Chad d. Morocco 3-0 (25-0 25-0 25-0) @ Cairo [FORFEIT]
+
+== Final round ==
+2023-09-09  QF Algeria d. Rwanda 3-0 (25-18 27-25 25-16) @ Cairo
+2023-09-09  QF Cameroon d. Tunisia 3-1 (22-25 25-20 27-25 25-17) @ Cairo
+2023-09-09  QF Egypt d. Morocco 3-0 (25-19 25-23 25-18) @ Cairo [home: winner]
+2023-09-09  QF Libya d. Chad 3-0 (25-20 26-24 25-17) @ Cairo
+2023-09-11  SF Algeria d. Libya 3-2 (18-25 25-15 33-35 25-22 15-11) @ Cairo
+2023-09-11  SF Egypt d. Cameroon 3-1 (25-13 25-23 20-25 29-27) @ Cairo [home: winner]
+2023-09-13  3P Libya d. Cameroon 3-1 (22-25 25-22 25-23 25-15) @ Cairo
+2023-09-13   F Egypt d. Algeria 3-1 (25-22 25-18 20-25 25-22) @ Cairo [home: winner]
+
