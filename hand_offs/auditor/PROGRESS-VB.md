@@ -6,8 +6,8 @@ Program law: `hand_offs/auditor/PLAN-VB-2026-08-23-AUD1.md` · Landscape census:
 
 | WO | Scope | Status | Editions built | Commits | REPLY |
 |----|-------|--------|----------------|---------|-------|
-| WO-VB-0 | Foundations (rules/schema/harness/pipeline) | **AWAITING AUTHORIZATION** | — | — | — |
-| WO-VB-1 | EuroVolley M+W 2021, 2023 | QUEUED (behind WO-VB-0 sign-off) | 0/4 | — | — |
+| WO-VB-0 | Foundations (rules/schema/harness/pipeline) | **DONE** (schema v1.1 w/ Director additions: home A/B/N mandatory, venue_city mandatory; harness self-test 21/21) | infra | this commit | — |
+| WO-VB-1 | EuroVolley M+W 2021, 2023 | **IN-FLIGHT** (census next) | 0/4 | — | — |
 | WO-VB-2 | World Championship M+W 2022, 2025 | QUEUED | 0/4 | — | — |
 | WO-VB-3 | Olympics 2021(Tokyo-2020), 2024 M+W | QUEUED | 0/4 | — | — |
 | WO-VB-4 | AVC/NORCECA/CSV/CAVB championships 2021–2025 | QUEUED (census per event) | 0/~16 | — | — |
@@ -16,7 +16,7 @@ Program law: `hand_offs/auditor/PLAN-VB-2026-08-23-AUD1.md` · Landscape census:
 | WO-VB-7 | Club: Club World Ch 2021–2025 (+CL depth = Director call) | QUEUED | 0/~10 | — | — |
 | WO-VB-8 | 2026 post-event queue (10 continentals + Club WCh as they finish; EuroVolley-W final 2026-09-06) | ROLLING | 0/~11 | — | — |
 
-**Store state:** `data/volleyball/` does not exist yet — created by WO-VB-0.
+**Store state:** `data/volleyball/` live — DATA-RULES-VB.md (schema v1.1), build.py, generate_summaries.py, MANIFEST 0 editions, store 0 rows, harness baseline ISSUES:0.
 **Tennis program:** closed at `5967c0d` (202 editions / 14,892 rows / ISSUES:0); diff doc `BRANCH-VS-MAIN-TENNIS-DIFF` filed; tennis WO-1/WO-2/WO-3 await separate authorization.
 
 *Update this table in the SAME COMMIT as any WO state change. — Auditor 1 · arena/01a015bb-the-creation-2*

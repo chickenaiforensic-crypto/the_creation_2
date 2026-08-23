@@ -1,0 +1,6 @@
+{
+  "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
+  "total_editions": 0,
+  "editions": [],
+  "gap_report_file": "gap_report.json"
+}
