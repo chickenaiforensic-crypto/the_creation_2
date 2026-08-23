@@ -1,0 +1,123 @@
+VNL_W 2022 — 2022 FIVB Women's Volleyball Nations League - 4th edition (first travel-weeks format)
+tier VNL | gender W | teams 16 | matches 104 | status closed_verified_gapless
+hosts: Preliminary: USA, Turkiye, Brazil, Philippines, Canada, Bulgaria; Finals: Turkiye (Ankara Arena)
+source policy: BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 10 chunks); 104 == built (96 prelim in six 8-team travel pools + Final 8); per-row s
+
+== Pool 1 ==
+2022-05-31  RR Brazil d. Germany 3-1 (29-27 23-25 27-25 25-21) @ Bossier City
+2022-05-31  RR USA d. Dominican Republic 3-0 (25-21 25-17 25-18) @ Bossier City [home: winner]
+2022-06-01  RR Poland d. Canada 3-1 (20-25 25-22 25-23 25-20) @ Bossier City
+2022-06-01  RR Japan d. South Korea 3-0 (25-17 25-16 25-11) @ Bossier City
+2022-06-02  RR Brazil d. Poland 3-0 (25-23 25-21 25-22) @ Bossier City
+2022-06-02  RR Japan d. Germany 3-2 (25-27 23-25 25-20 25-22 15-12) @ Bossier City
+2022-06-02  RR Canada d. Dominican Republic 3-0 (25-18 25-15 25-18) @ Bossier City
+2022-06-03  RR Germany d. South Korea 3-0 (25-22 25-15 25-16) @ Bossier City
+2022-06-03  RR Brazil d. Dominican Republic 3-1 (25-9 16-25 25-18 25-17) @ Bossier City
+2022-06-03  RR USA d. Canada 3-0 (25-14 25-22 25-19) @ Bossier City [home: winner]
+2022-06-04  RR Poland d. South Korea 3-0 (25-9 25-23 25-11) @ Bossier City
+2022-06-04  RR Japan d. Dominican Republic 3-1 (25-17 20-25 25-21 25-10) @ Bossier City
+2022-06-04  RR USA d. Brazil 3-0 (25-21 25-20 25-18) @ Bossier City [home: winner]
+2022-06-05  RR Poland d. Germany 3-2 (27-25 25-22 14-25 23-25 15-7) @ Bossier City
+2022-06-05  RR Japan d. USA 3-0 (25-22 25-20 25-20) @ Bossier City [home: loser]
+2022-06-05  RR Canada d. South Korea 3-0 (25-21 25-13 25-16) @ Bossier City
+
+== Pool 2 ==
+2022-05-31  RR Thailand d. Bulgaria 3-0 (25-20 25-22 25-20) @ Ankara
+2022-05-31  RR Turkiye d. Italy 3-0 (25-20 25-19 25-19) @ Ankara [home: winner]
+2022-06-01  RR Serbia d. Belgium 3-1 (14-25 25-16 25-17 25-22) @ Ankara
+2022-06-01  RR China d. Netherlands 3-1 (16-25 25-22 25-23 25-23) @ Ankara
+2022-06-02  RR Thailand d. Serbia 3-2 (25-23 25-27 25-20 20-25 15-12) @ Ankara
+2022-06-02  RR Bulgaria d. Netherlands 3-2 (25-15 12-25 19-25 25-15 15-7) @ Ankara
+2022-06-02  RR Italy d. Belgium 3-1 (21-25 25-19 25-23 25-20) @ Ankara
+2022-06-03  RR Serbia d. Bulgaria 3-0 (26-24 25-15 26-24) @ Ankara
+2022-06-03  RR Italy d. Netherlands 3-0 (25-19 25-15 25-15) @ Ankara
+2022-06-03  RR China d. Turkiye 3-1 (25-16 20-25 25-16 25-22) @ Ankara [home: loser]
+2022-06-04  RR Belgium d. Thailand 3-2 (25-22 18-25 23-25 25-21 15-13) @ Ankara
+2022-06-04  RR China d. Italy 3-1 (25-13 20-25 25-22 25-18) @ Ankara
+2022-06-04  RR Turkiye d. Bulgaria 3-0 (25-19 25-21 25-16) @ Ankara [home: winner]
+2022-06-05  RR Serbia d. Netherlands 3-2 (27-25 25-16 17-25 22-25 15-13) @ Ankara
+2022-06-05  RR Thailand d. China 3-2 (25-23 13-25 14-25 25-23 15-11) @ Ankara
+2022-06-05  RR Turkiye d. Belgium 3-1 (15-25 25-21 25-21 25-15) @ Ankara [home: winner]
+
+== Pool 3 ==
+2022-06-14  RR Germany d. Netherlands 3-1 (25-20 25-19 12-25 25-22) @ Brasilia
+2022-06-14  RR Italy d. Serbia 3-1 (21-25 25-14 25-15 25-20) @ Brasilia
+2022-06-15  RR Dominican Republic d. South Korea 3-0 (25-21 25-17 25-13) @ Brasilia
+2022-06-15  RR Brazil d. Turkiye 3-1 (19-25 25-23 25-23 25-23) @ Brasilia [home: winner]
+2022-06-16  RR Serbia d. South Korea 3-0 (40-38 25-22 25-22) @ Brasilia
+2022-06-16  RR Italy d. Dominican Republic 3-2 (25-23 20-25 25-19 16-25 15-12) @ Brasilia
+2022-06-16  RR Brazil d. Netherlands 3-0 (25-16 25-15 25-23) @ Brasilia [home: winner]
+2022-06-17  RR Italy d. Germany 3-0 (25-19 25-22 27-25) @ Brasilia
+2022-06-17  RR Serbia d. Turkiye 3-2 (25-19 15-25 20-25 25-22 15-13) @ Brasilia
+2022-06-17  RR Dominican Republic d. Netherlands 3-2 (23-25 25-20 25-21 15-25 15-7) @ Brasilia
+2022-06-18  RR Italy d. Brazil 3-1 (25-17 25-15 14-25 25-14) @ Brasilia [home: loser]
+2022-06-18  RR Turkiye d. Germany 3-0 (25-22 25-21 25-22) @ Brasilia
+2022-06-18  RR Netherlands d. South Korea 3-0 (25-11 25-21 25-18) @ Brasilia
+2022-06-19  RR Brazil d. Serbia 3-0 (25-21 25-9 25-21) @ Brasilia [home: winner]
+2022-06-19  RR Dominican Republic d. Germany 3-1 (25-23 25-23 11-25 27-25) @ Brasilia
+2022-06-19  RR Turkiye d. South Korea 3-1 (20-25 25-13 25-19 25-15) @ Brasilia
+
+== Pool 4 ==
+2022-06-14  RR Thailand d. Canada 3-0 (25-19 25-22 26-24) @ Quezon City
+2022-06-14  RR Japan d. Poland 3-0 (25-21 25-21 25-21) @ Quezon City
+2022-06-15  RR USA d. Bulgaria 3-0 (25-20 25-22 25-20) @ Quezon City
+2022-06-15  RR China d. Belgium 3-0 (25-19 25-22 25-14) @ Quezon City
+2022-06-16  RR Poland d. Thailand 3-2 (22-25 27-29 25-16 25-16 15-13) @ Quezon City
+2022-06-16  RR Canada d. Belgium 3-1 (25-22 25-21 22-25 25-22) @ Quezon City
+2022-06-16  RR Japan d. Bulgaria 3-0 (25-20 25-16 25-23) @ Quezon City
+2022-06-17  RR USA d. Poland 3-0 (25-12 25-21 25-16) @ Quezon City
+2022-06-17  RR China d. Canada 3-1 (25-16 18-25 25-12 25-18) @ Quezon City
+2022-06-17  RR Japan d. Thailand 3-0 (25-22 25-16 25-14) @ Quezon City
+2022-06-18  RR Bulgaria d. Canada 3-0 (26-24 25-22 25-21) @ Quezon City
+2022-06-18  RR Belgium d. Poland 3-2 (25-20 15-25 25-22 22-25 15-13) @ Quezon City
+2022-06-18  RR USA d. China 3-0 (25-21 25-23 25-21) @ Quezon City
+2022-06-19  RR Belgium d. Bulgaria 3-2 (25-22 25-23 20-25 20-25 17-15) @ Quezon City
+2022-06-19  RR USA d. Thailand 3-1 (17-25 25-13 25-23 25-18) @ Quezon City
+2022-06-19  RR Japan d. China 3-1 (19-25 25-16 25-23 25-12) @ Quezon City
+
+== Pool 5 ==
+2022-06-28  RR Serbia d. Germany 3-1 (17-25 25-16 25-21 25-18) @ Calgary
+2022-06-28  RR Canada d. Turkiye 3-1 (25-22 21-25 25-22 25-23) @ Calgary [home: winner]
+2022-06-29  RR Netherlands d. Japan 3-2 (23-25 25-20 24-26 25-21 15-10) @ Calgary
+2022-06-29  RR USA d. Belgium 3-0 (25-16 25-21 25-19) @ Calgary
+2022-06-30  RR Turkiye d. Netherlands 3-0 (25-23 25-11 25-21) @ Calgary
+2022-06-30  RR Germany d. Belgium 3-1 (20-25 25-18 25-22 25-20) @ Calgary
+2022-06-30  RR USA d. Serbia 3-0 (25-17 33-31 25-16) @ Calgary
+2022-07-01  RR Netherlands d. Belgium 3-1 (21-25 26-24 25-20 25-21) @ Calgary
+2022-07-01  RR Turkiye d. Japan 3-1 (25-20 25-15 18-25 25-22) @ Calgary
+2022-07-01  RR Serbia d. Canada 3-1 (25-20 25-14 20-25 25-22) @ Calgary [home: loser]
+2022-07-02  RR USA d. Turkiye 3-2 (25-22 18-25 27-25 23-25 18-16) @ Calgary
+2022-07-02  RR Serbia d. Japan 3-1 (22-25 25-20 25-19 25-22) @ Calgary
+2022-07-02  RR Germany d. Canada 3-1 (25-19 19-25 27-25 25-23) @ Calgary [home: loser]
+2022-07-03  RR Belgium d. Japan 3-2 (25-16 18-25 25-19 11-25 15-10) @ Calgary
+2022-07-03  RR USA d. Germany 3-1 (25-17 25-13 13-25 25-22) @ Calgary
+2022-07-03  RR Netherlands d. Canada 3-1 (22-25 27-25 26-24 25-23) @ Calgary [home: loser]
+
+== Pool 6 ==
+2022-06-28  RR Brazil d. China 3-2 (25-20 25-23 18-25 21-25 15-11) @ Sofia
+2022-06-28  RR Bulgaria d. Dominican Republic 3-0 (25-15 25-13 25-21) @ Sofia [home: winner]
+2022-06-29  RR Thailand d. South Korea 3-0 (25-11 25-22 25-17) @ Sofia
+2022-06-29  RR Italy d. Poland 3-1 (25-27 25-20 28-26 25-18) @ Sofia
+2022-06-30  RR Dominican Republic d. Thailand 3-1 (22-25 25-23 25-23 25-21) @ Sofia
+2022-06-30  RR China d. Poland 3-0 (25-8 25-23 25-20) @ Sofia
+2022-06-30  RR Brazil d. South Korea 3-0 (25-17 25-19 25-13) @ Sofia
+2022-07-01  RR China d. Dominican Republic 3-0 (25-19 25-16 25-15) @ Sofia
+2022-07-01  RR Italy d. South Korea 3-1 (25-17 23-25 25-15 25-19) @ Sofia
+2022-07-01  RR Brazil d. Bulgaria 3-0 (25-21 25-20 25-18) @ Sofia [home: loser]
+2022-07-02  RR Dominican Republic d. Poland 3-2 (20-25 38-36 25-20 13-25 15-9) @ Sofia
+2022-07-02  RR Brazil d. Thailand 3-1 (25-18 26-24 23-25 25-23) @ Sofia
+2022-07-02  RR Italy d. Bulgaria 3-0 (25-12 25-19 25-21) @ Sofia [home: loser]
+2022-07-03  RR China d. South Korea 3-1 (25-13 19-25 25-19 26-24) @ Sofia
+2022-07-03  RR Italy d. Thailand 3-0 (25-20 25-14 25-14) @ Sofia
+2022-07-03  RR Bulgaria d. Poland 3-1 (22-25 25-13 25-17 25-22) @ Sofia [home: winner]
+
+== Final round ==
+2022-07-13  QF Serbia d. USA 3-2 (29-27 25-23 20-25 20-25 15-13) @ Ankara
+2022-07-13  QF Brazil d. Japan 3-1 (29-27 28-26 20-25 25-14) @ Ankara
+2022-07-14  QF Turkiye d. Thailand 3-1 (23-25 25-15 25-18 25-21) @ Ankara [home: winner]
+2022-07-14  QF Italy d. China 3-1 (25-22 25-19 24-26 25-22) @ Ankara
+2022-07-16  SF Brazil d. Serbia 3-1 (14-25 25-18 26-24 25-19) @ Ankara
+2022-07-16  SF Italy d. Turkiye 3-0 (25-18 28-26 25-22) @ Ankara [home: loser]
+2022-07-17  3P Serbia d. Turkiye 3-0 (27-25 25-17 26-24) @ Ankara [home: loser]
+2022-07-17   F Italy d. Brazil 3-0 (25-23 25-22 25-22) @ Ankara
+
