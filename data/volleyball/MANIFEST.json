@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 4,
+  "total_editions": 5,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -52,6 +52,19 @@
       "match_count": 76,
       "checksum_sha256": "d3c851e3091694441668c9fa7a18d2bf10ab15371cef4b39d93a9dfee85713a0",
       "file_path": "editions/EuroVolley_M/2023.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "World_Championship_M",
+      "tier": "WORLD-CH",
+      "gender": "M",
+      "year": "2022",
+      "official_match_count": 52,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-2 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); every match row cites BOTH the LIVE volleyballworld.com schedule page (per-row source URLs, ids 13455-13506) and the official FIVB P2 result PDF (fivb.org vis2009 - preserved in provenance); infobox official total 52 == built count (24 teams, 6 pools of 4 = 36 + R16 8 + QF 4 + SF 2 + 3P 1 + F 1). HOST HISTORY preserved: originally awarded to RUSSIA (10 cities), stripped Feb-2022 over the invasion of Ukraine; moved to Poland+Slovenia; VFR disqualified, UKRAINE entered the draw as replacement - and reached the QF. Venues: Pools A+C Katowice/Spodek, B/D/E/F Ljubljana/Stozice; knockouts Ljubljana+Gliwice; SF/3P/F Katowice. FIDELITY: per-team pool points recomputed from set tokens == standings spw/spl for ALL 24 teams (incl. combined-ranking table double-check). Champions ITALY - 4th title, first since 1998 (MVP+best setter Simone Giannelli, coach De Giorgi) d. defending champions Poland 3-1 in Katowice; Brazil bronze (Leal best scorer 125). Monster sets preserved: Italy d. Canada 39-37 (set 3 - largest in the store), Iran d. Argentina 21-19-in-the-5th after a 34-32 4th, France d. Slovenia 34-32-in-the-4th + 15-7 5th pool epic, Brazil d. Cuba from 31-33 set-1 down. Aug 26 - Sep 11 2022, Katowice/Gliwice/Ljubljana.",
+      "match_count": 52,
+      "checksum_sha256": "b4d6b41ef81b0a11cb2a7ae9fc4c0e0e2edf68968c3a1d018b12c1776ba38ce7",
+      "file_path": "editions/World_Championship_M/2022.json",
       "gap_count": 0
     }
   ],

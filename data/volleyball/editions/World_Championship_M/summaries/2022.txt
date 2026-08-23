@@ -1,0 +1,71 @@
+World_Championship_M 2022 — 2022 FIVB Men's Volleyball World Championship - 20th edition
+tier WORLD-CH | gender M | teams 24 | matches 52 | status closed_verified_gapless
+hosts: Poland, Slovenia (Katowice, Gliwice, Ljubljana)
+source policy: BUILT from cited bytes under WO-VB-2 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); every match row cites BOTH the LIVE volleyballworld.com schedule page (per-row source URLs, ids 1
+
+== Pool A ==
+2022-08-27  RR Tunisia d. Puerto Rico 3-0 (25-19 25-17 25-20) @ Katowice
+2022-08-27  RR Serbia d. Ukraine 3-0 (28-26 25-21 25-20) @ Katowice
+2022-08-29  RR Serbia d. Puerto Rico 3-0 (26-24 25-21 25-16) @ Katowice
+2022-08-29  RR Ukraine d. Tunisia 3-0 (25-21 25-19 25-15) @ Katowice
+2022-08-31  RR Serbia d. Tunisia 3-0 (29-27 25-15 25-17) @ Katowice
+2022-08-31  RR Ukraine d. Puerto Rico 3-1 (24-26 25-19 25-16 25-19) @ Katowice
+
+== Pool B ==
+2022-08-26  RR Brazil d. Cuba 3-2 (31-33 21-25 25-16 25-17 18-16) @ Ljubljana
+2022-08-26  RR Japan d. Qatar 3-0 (25-20 25-18 25-15) @ Ljubljana
+2022-08-28  RR Cuba d. Qatar 3-1 (25-21 25-21 22-25 25-19) @ Ljubljana
+2022-08-28  RR Brazil d. Japan 3-0 (25-21 25-18 25-16) @ Ljubljana
+2022-08-30  RR Brazil d. Qatar 3-0 (25-13 25-23 26-24) @ Ljubljana
+2022-08-30  RR Japan d. Cuba 3-1 (25-18 21-25 25-15 25-19) @ Ljubljana
+
+== Pool C ==
+2022-08-26  RR USA d. Mexico 3-0 (25-18 25-20 25-12) @ Katowice
+2022-08-26  RR Poland d. Bulgaria 3-0 (25-12 25-20 25-20) @ Katowice [home: winner]
+2022-08-28  RR USA d. Bulgaria 3-0 (25-20 25-23 26-24) @ Katowice
+2022-08-28  RR Poland d. Mexico 3-0 (25-17 25-14 25-19) @ Katowice [home: winner]
+2022-08-30  RR Mexico d. Bulgaria 3-2 (20-25 25-20 25-23 23-25 18-16) @ Katowice
+2022-08-30  RR Poland d. USA 3-1 (23-25 25-21 25-19 25-21) @ Katowice [home: winner]
+
+== Pool D ==
+2022-08-26  RR France d. Germany 3-0 (25-22 28-26 26-24) @ Ljubljana
+2022-08-26  RR Slovenia d. Cameroon 3-0 (25-19 25-23 25-21) @ Ljubljana [home: winner]
+2022-08-28  RR Germany d. Cameroon 3-0 (30-28 25-14 25-19) @ Ljubljana
+2022-08-28  RR France d. Slovenia 3-2 (25-21 22-25 23-25 34-32 15-7) @ Ljubljana [home: loser]
+2022-08-30  RR France d. Cameroon 3-0 (25-19 25-19 25-22) @ Ljubljana
+2022-08-30  RR Slovenia d. Germany 3-0 (25-16 25-22 25-17) @ Ljubljana [home: winner]
+
+== Pool E ==
+2022-08-27  RR Turkiye d. China 3-0 (25-15 25-19 25-14) @ Ljubljana
+2022-08-27  RR Italy d. Canada 3-0 (25-13 25-18 39-37) @ Ljubljana
+2022-08-29  RR Canada d. China 3-0 (25-23 25-21 25-23) @ Ljubljana
+2022-08-29  RR Italy d. Turkiye 3-0 (25-18 25-20 25-22) @ Ljubljana
+2022-08-31  RR Turkiye d. Canada 3-0 (25-23 25-23 25-17) @ Ljubljana
+2022-08-31  RR Italy d. China 3-0 (25-14 25-10 25-14) @ Ljubljana
+
+== Pool F ==
+2022-08-27  RR Netherlands d. Egypt 3-0 (25-17 25-22 25-16) @ Ljubljana
+2022-08-27  RR Iran d. Argentina 3-2 (22-25 30-28 25-18 32-34 21-19) @ Ljubljana
+2022-08-29  RR Netherlands d. Argentina 3-2 (28-30 20-25 25-21 27-25 15-9) @ Ljubljana
+2022-08-29  RR Iran d. Egypt 3-1 (25-14 25-19 22-25 26-24) @ Ljubljana
+2022-08-31  RR Argentina d. Egypt 3-2 (27-25 26-28 24-26 25-17 15-6) @ Ljubljana
+2022-08-31  RR Netherlands d. Iran 3-1 (25-22 21-25 25-20 25-18) @ Ljubljana
+
+== Final round ==
+2022-09-03 R16 Slovenia d. Germany 3-1 (25-18 25-19 21-25 25-22) @ Ljubljana [home: winner]
+2022-09-03 R16 Italy d. Cuba 3-1 (25-21 21-25 26-24 25-18) @ Ljubljana
+2022-09-04 R16 USA d. Turkiye 3-2 (25-21 25-17 22-25 19-25 15-12) @ Gliwice
+2022-09-04 R16 Poland d. Tunisia 3-0 (25-20 25-15 25-20) @ Gliwice [home: winner]
+2022-09-05 R16 Ukraine d. Netherlands 3-0 (25-16 25-19 25-18) @ Ljubljana
+2022-09-05 R16 France d. Japan 3-2 (25-17 21-25 26-24 22-25 18-16) @ Ljubljana
+2022-09-06 R16 Argentina d. Serbia 3-0 (25-23 25-21 25-23) @ Gliwice
+2022-09-06 R16 Brazil d. Iran 3-0 (25-17 25-22 25-23) @ Gliwice
+2022-09-07  QF Italy d. France 3-2 (24-26 25-21 23-25 25-22 15-12) @ Ljubljana
+2022-09-07  QF Slovenia d. Ukraine 3-1 (18-25 26-24 25-19 25-23) @ Ljubljana [home: winner]
+2022-09-08  QF Brazil d. Argentina 3-1 (25-16 23-25 25-22 25-21) @ Gliwice
+2022-09-08  QF Poland d. USA 3-2 (25-20 27-25 21-25 22-25 15-12) @ Gliwice [home: winner]
+2022-09-10  SF Poland d. Brazil 3-2 (23-25 25-18 25-20 21-25 15-12) @ Katowice [home: winner]
+2022-09-10  SF Italy d. Slovenia 3-0 (25-21 25-22 25-21) @ Katowice
+2022-09-11  3P Brazil d. Slovenia 3-1 (25-18 25-18 22-25 25-18) @ Katowice
+2022-09-11   F Italy d. Poland 3-1 (22-25 25-21 25-18 25-20) @ Katowice [home: loser]
+
