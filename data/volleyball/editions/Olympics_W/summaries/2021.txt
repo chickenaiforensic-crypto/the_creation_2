@@ -1,0 +1,49 @@
+Olympics_W 2021 — Volleyball at the 2020 Summer Olympics (Tokyo) - Women's tournament, 15th edition (played 2021)
+tier OG | gender W | teams 12 | matches 38 | status closed_verified_gapless
+hosts: Japan (Tokyo, Ariake Arena)
+source policy: BUILT from cited bytes under WO-VB-3 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = official FIVB vis2009 Results PDFs (getdocument.asmx ids 256318281-256321067, a
+
+== Pool A ==
+2021-07-25  RR Serbia d. Dominican Republic 3-0 (25-18 25-12 25-20) @ Tokyo
+2021-07-25  RR Japan d. Kenya 3-0 (25-15 25-11 25-23) @ Tokyo [home: winner]
+2021-07-25  RR Brazil d. South Korea 3-0 (25-10 25-22 25-19) @ Tokyo
+2021-07-27  RR Serbia d. Japan 3-0 (25-23 25-16 26-24) @ Tokyo [home: loser]
+2021-07-27  RR Brazil d. Dominican Republic 3-2 (22-25 25-17 25-13 23-25 15-12) @ Tokyo
+2021-07-27  RR South Korea d. Kenya 3-0 (25-14 25-22 26-24) @ Tokyo
+2021-07-29  RR South Korea d. Dominican Republic 3-2 (25-20 17-25 25-18 15-25 15-12) @ Tokyo
+2021-07-29  RR Serbia d. Kenya 3-0 (25-21 25-11 25-20) @ Tokyo
+2021-07-29  RR Brazil d. Japan 3-0 (25-16 25-18 26-24) @ Tokyo [home: loser]
+2021-07-31  RR Dominican Republic d. Kenya 3-0 (25-19 25-18 25-10) @ Tokyo
+2021-07-31  RR Brazil d. Serbia 3-1 (25-20 25-16 23-25 25-19) @ Tokyo
+2021-07-31  RR South Korea d. Japan 3-2 (25-19 19-25 25-22 15-25 16-14) @ Tokyo [home: loser]
+2021-08-02  RR Serbia d. South Korea 3-0 (25-18 25-17 25-15) @ Tokyo
+2021-08-02  RR Dominican Republic d. Japan 3-1 (25-10 25-23 19-25 25-19) @ Tokyo [home: loser]
+2021-08-02  RR Brazil d. Kenya 3-0 (25-10 25-16 25-8) @ Tokyo
+
+== Pool B ==
+2021-07-25  RR Italy d. ROC 3-0 (25-23 25-19 25-14) @ Tokyo
+2021-07-25  RR USA d. Argentina 3-0 (25-20 25-19 25-20) @ Tokyo
+2021-07-25  RR Turkiye d. China 3-0 (25-21 25-14 25-14) @ Tokyo
+2021-07-27  RR ROC d. Argentina 3-0 (25-19 25-15 25-13) @ Tokyo
+2021-07-27  RR USA d. China 3-0 (29-27 25-22 25-21) @ Tokyo
+2021-07-27  RR Italy d. Turkiye 3-1 (25-22 23-25 25-20 25-15) @ Tokyo
+2021-07-29  RR Italy d. Argentina 3-0 (25-21 25-16 25-15) @ Tokyo
+2021-07-29  RR ROC d. China 3-2 (25-17 23-25 20-25 27-25 15-12) @ Tokyo
+2021-07-29  RR USA d. Turkiye 3-2 (25-19 25-20 17-25 20-25 15-12) @ Tokyo
+2021-07-31  RR ROC d. USA 3-0 (25-20 25-12 25-19) @ Tokyo
+2021-07-31  RR Turkiye d. Argentina 3-0 (25-23 25-20 25-18) @ Tokyo
+2021-07-31  RR China d. Italy 3-0 (25-21 25-20 26-24) @ Tokyo
+2021-08-02  RR USA d. Italy 3-2 (21-25 25-16 25-27 25-16 15-12) @ Tokyo
+2021-08-02  RR Turkiye d. ROC 3-2 (21-25 25-23 25-23 15-25 15-10) @ Tokyo
+2021-08-02  RR China d. Argentina 3-0 (25-15 25-22 25-19) @ Tokyo
+
+== Knockout ==
+2021-08-04  QF South Korea d. Turkiye 3-2 (17-25 25-17 28-26 18-25 15-13) @ Tokyo
+2021-08-04  QF USA d. Dominican Republic 3-0 (25-11 25-20 25-19) @ Tokyo
+2021-08-04  QF Serbia d. Italy 3-0 (25-21 25-14 25-21) @ Tokyo
+2021-08-04  QF Brazil d. ROC 3-1 (23-25 25-21 25-19 25-22) @ Tokyo
+2021-08-06  SF USA d. Serbia 3-0 (25-19 25-15 25-23) @ Tokyo
+2021-08-06  SF Brazil d. South Korea 3-0 (25-16 25-16 25-16) @ Tokyo
+2021-08-08  3P Serbia d. South Korea 3-0 (25-18 25-15 25-15) @ Tokyo
+2021-08-08   F USA d. Brazil 3-0 (25-21 25-20 25-14) @ Tokyo
+
