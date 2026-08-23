@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 12,
+  "total_editions": 13,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -156,6 +156,19 @@
       "match_count": 26,
       "checksum_sha256": "c3a42ed568275b6c7f1524a98fe0968276cc9649b2c6251b7b7ee97fc67cfcc8",
       "file_path": "editions/Olympics_W/2024.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "Asian_Championship_M",
+      "tier": "CONT-CH",
+      "gender": "M",
+      "year": "2021",
+      "official_match_count": 56,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = official AVC P2 PDFs on asianvolleyball.net (56 distinct); infobox official matches=56 == built count (24 prelim + 16 classification-pool + 16 final-round). 21st Asian Championship, 16 teams, Chiba (Chiba Port Arena) + Funabashi (Funabashi Arena), Japan, 12-19 Sep 2021. COVID-era edition: Sri Lanka won the Central-Asia qualifier then WITHDREW after full-squad positive tests - Uzbekistan replaced them (AVC refs cited in-page; the one-off SRI-UZB qualifier match in Colombo is QUALIFICATION, outside this edition's 56 and out of WO-VB-4 scope). FORMAT: 4 pools of 4 -> classification pools E-H CARRYING OVER the prelim result between co-qualified teams -> placement brackets for 1-4/5-8/9-12/13-16. SCHEMA MIGRATION THIS COMMIT: rounds 13P/15P added to DATA-RULES enum + harness (first 16-team full-classification edition in store); placement semifinals typed PO. FIDELITY: per-team points recomputed == standings spw/spl for ALL 8 POOLS x 4 TEAMS = 32 team-entries, INCLUDING the carry-over arithmetic on E-H (recompute = new matches + carried prelim match - byte-exact all 16). Spine exact: SF == E/F top-2, F == SF winners, 3P == SF losers, 5P winner Qatar. Champions IRAN (4th title; MVP Saber Kazemi, best setter Karimi, libero Hazratpour; coach Ataei) d. host Japan 3-0 in a DEUCE-FEST final (27-25 25-22 31-29 Iran-side); China bronze over Chinese Taipei (best-ever 4th for TPE); Iran+Japan qualified for WCh-2022 (both already in store - the qualification thread closes). Monster sets: QAT-KOR 32-30, JPN-IRI final 31-29, THA-HKG 29-27, KUW-UZB 29-27. New canon first-writes: Chinese Taipei, Australia, Pakistan, India, Hong Kong, Bahrain, Saudi Arabia, Kuwait, Uzbekistan (team ledger 64).",
+      "match_count": 56,
+      "checksum_sha256": "ada0a8c049a88dd82b61fd4e397193b6bd8742dd5f391adc73d9ff57f8223cfb",
+      "file_path": "editions/Asian_Championship_M/2021.json",
       "gap_count": 0
     }
   ],

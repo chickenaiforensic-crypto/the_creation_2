@@ -1,0 +1,85 @@
+Asian_Championship_M 2021 — 2021 Asian Men's Volleyball Championship - 21st edition
+tier CONT-CH | gender M | teams 16 | matches 56 | status closed_verified_gapless
+hosts: Japan (Chiba, Funabashi)
+source policy: BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = official AVC P2 PDFs on asianvolleyball.net (56 distinct); infobo
+
+== Pool A ==
+2021-09-12  RR Bahrain d. India 3-0 (27-25 25-21 25-21) @ Chiba
+2021-09-12  RR Japan d. Qatar 3-0 (25-20 25-23 25-21) @ Chiba [home: winner]
+2021-09-13  RR Qatar d. India 3-0 (25-22 25-14 25-20) @ Chiba
+2021-09-13  RR Japan d. Bahrain 3-1 (23-25 25-17 25-23 25-16) @ Chiba [home: winner]
+2021-09-14  RR Qatar d. Bahrain 3-0 (25-19 25-20 26-24) @ Chiba
+2021-09-14  RR Japan d. India 3-0 (25-15 25-15 25-18) @ Chiba [home: winner]
+
+== Pool B ==
+2021-09-12  RR Pakistan d. Thailand 3-2 (22-25 25-23 21-25 25-23 15-12) @ Chiba
+2021-09-12  RR Iran d. Hong Kong 3-0 (25-12 25-18 25-19) @ Funabashi
+2021-09-13  RR Pakistan d. Hong Kong 3-1 (25-16 24-26 25-11 25-12) @ Chiba
+2021-09-13  RR Iran d. Thailand 3-0 (25-17 25-12 25-18) @ Chiba
+2021-09-14  RR Iran d. Pakistan 3-0 (25-20 25-19 25-15) @ Chiba
+2021-09-14  RR Thailand d. Hong Kong 3-1 (25-22 17-25 29-27 25-18) @ Chiba
+
+== Pool C ==
+2021-09-12  RR China d. Kuwait 3-0 (25-12 25-16 25-18) @ Funabashi
+2021-09-12  RR Australia d. Uzbekistan 3-0 (25-16 25-19 25-19) @ Funabashi
+2021-09-13  RR China d. Uzbekistan 3-0 (25-14 25-18 25-16) @ Funabashi
+2021-09-13  RR Australia d. Kuwait 3-0 (25-21 25-14 25-9) @ Funabashi
+2021-09-14  RR Kuwait d. Uzbekistan 3-1 (29-27 16-25 25-21 25-21) @ Funabashi
+2021-09-14  RR Australia d. China 3-2 (25-27 20-25 25-21 28-26 15-12) @ Funabashi
+
+== Pool D ==
+2021-09-12  RR Chinese Taipei d. Kazakhstan 3-0 (25-20 25-22 25-19) @ Funabashi
+2021-09-12  RR South Korea d. Saudi Arabia 3-0 (25-18 25-17 25-20) @ Chiba
+2021-09-13  RR Chinese Taipei d. Saudi Arabia 3-0 (25-15 25-16 25-17) @ Funabashi
+2021-09-13  RR South Korea d. Kazakhstan 3-0 (25-21 25-17 25-16) @ Funabashi
+2021-09-14  RR Saudi Arabia d. Kazakhstan 3-0 (25-23 25-21 25-23) @ Funabashi
+2021-09-14  RR Chinese Taipei d. South Korea 3-1 (23-25 25-21 25-20 25-21) @ Funabashi
+
+== Pool E ==
+2021-09-16  RR Qatar d. Australia 3-0 (25-20 25-20 25-21) @ Chiba
+2021-09-16  RR China d. Japan 3-1 (25-19 27-29 25-21 25-19) @ Chiba [home: loser]
+2021-09-17  RR China d. Qatar 3-2 (28-26 21-25 26-28 25-19 15-10) @ Chiba
+2021-09-17  RR Japan d. Australia 3-0 (25-23 25-17 25-23) @ Chiba [home: winner]
+
+== Pool F ==
+2021-09-16  RR Chinese Taipei d. Pakistan 3-1 (25-20 22-25 25-23 25-22) @ Chiba
+2021-09-16  RR Iran d. South Korea 3-0 (25-19 25-18 25-20) @ Chiba
+2021-09-17  RR Pakistan d. South Korea 3-0 (25-23 25-22 25-14) @ Chiba
+2021-09-17  RR Iran d. Chinese Taipei 3-0 (25-10 25-23 25-11) @ Chiba
+
+== Pool G ==
+2021-09-16  RR India d. Kuwait 3-0 (25-20 25-20 25-20) @ Funabashi
+2021-09-16  RR Bahrain d. Uzbekistan 3-0 (25-19 27-25 25-19) @ Funabashi
+2021-09-17  RR India d. Uzbekistan 3-0 (25-19 25-13 25-22) @ Funabashi
+2021-09-17  RR Bahrain d. Kuwait 3-0 (25-21 25-19 25-19) @ Funabashi
+
+== Pool H ==
+2021-09-16  RR Kazakhstan d. Thailand 3-1 (18-25 25-23 25-19 25-22) @ Funabashi
+2021-09-16  RR Saudi Arabia d. Hong Kong 3-0 (25-12 25-18 25-19) @ Funabashi
+2021-09-17  RR Kazakhstan d. Hong Kong 3-0 (25-16 25-21 25-16) @ Funabashi
+2021-09-17  RR Saudi Arabia d. Thailand 3-1 (25-20 20-25 25-19 25-22) @ Funabashi
+
+== Classification 13-16 ==
+2021-09-18  PO Uzbekistan d. Thailand 3-2 (28-26 23-25 25-19 22-25 20-18) @ Funabashi
+2021-09-18  PO Hong Kong d. Kuwait 3-2 (25-18 22-25 25-21 20-25 16-14) @ Funabashi
+2021-09-19 15P Thailand d. Kuwait 3-1 (25-16 21-25 25-23 25-20) @ Funabashi
+2021-09-19 13P Uzbekistan d. Hong Kong 3-0 (25-20 25-23 25-21) @ Funabashi
+
+== Classification 9-12 ==
+2021-09-18  PO Bahrain d. Kazakhstan 3-1 (16-25 25-23 28-26 25-22) @ Funabashi
+2021-09-18  PO India d. Saudi Arabia 3-0 (25-22 25-22 25-23) @ Funabashi
+2021-09-19  9P India d. Bahrain 3-2 (25-16 25-23 20-25 23-25 16-14) @ Funabashi
+2021-09-19 11P Kazakhstan d. Saudi Arabia 3-0 (25-16 25-20 25-23) @ Funabashi
+
+== Classification 5-8 ==
+2021-09-18  PO Qatar d. South Korea 3-0 (25-16 32-30 25-22) @ Chiba
+2021-09-18  PO Australia d. Pakistan 3-0 (25-16 26-24 25-23) @ Chiba
+2021-09-19  5P Qatar d. Australia 3-0 (25-21 25-11 25-23) @ Chiba
+2021-09-19  7P Pakistan d. South Korea 3-0 (25-23 25-15 28-26) @ Chiba
+
+== Final round ==
+2021-09-18  SF Iran d. China 3-1 (25-22 17-25 25-22 25-17) @ Chiba
+2021-09-18  SF Japan d. Chinese Taipei 3-1 (25-16 22-25 25-21 25-20) @ Chiba [home: winner]
+2021-09-19  3P China d. Chinese Taipei 3-0 (25-17 25-16 25-17) @ Chiba
+2021-09-19   F Iran d. Japan 3-0 (27-25 25-22 31-29) @ Chiba [home: loser]
+
