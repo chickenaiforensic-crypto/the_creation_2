@@ -1,0 +1,123 @@
+VNL_W 2023 — 2023 FIVB Women's Volleyball Nations League - 5th edition
+tier VNL | gender W | teams 16 | matches 104 | status closed_verified_gapless
+hosts: Preliminary: Turkiye, Japan, Hong Kong (China), Brazil, South Korea, Thailand; Finals: USA (College Park Center, Arlington)
+source policy: BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 9 chunks); 104 == built (96 prelim in six 8-team travel pools + Final 8); per-row so
+
+== Pool 1 ==
+2023-05-30  RR Italy d. Thailand 3-2 (24-26 25-17 27-29 30-28 15-11) @ Antalya
+2023-05-30  RR Poland d. Canada 3-2 (20-25 25-23 20-25 25-23 15-13) @ Antalya
+2023-05-31  RR USA d. Serbia 3-2 (25-20 19-25 21-25 25-21 15-12) @ Antalya
+2023-05-31  RR Turkiye d. South Korea 3-0 (25-14 25-17 26-24) @ Antalya [home: winner]
+2023-06-01  RR Thailand d. Canada 3-0 (25-17 26-24 25-21) @ Antalya
+2023-06-01  RR Poland d. Italy 3-1 (21-25 25-20 25-14 25-18) @ Antalya
+2023-06-01  RR Turkiye d. Serbia 3-1 (24-26 25-17 25-15 25-21) @ Antalya [home: winner]
+2023-06-02  RR Poland d. Thailand 3-0 (25-20 25-16 25-15) @ Antalya
+2023-06-02  RR Canada d. South Korea 3-0 (25-17 25-16 25-18) @ Antalya
+2023-06-02  RR USA d. Italy 3-2 (25-16 14-25 22-25 25-20 15-9) @ Antalya
+2023-06-03  RR Poland d. Serbia 3-0 (25-18 25-22 30-28) @ Antalya
+2023-06-03  RR USA d. South Korea 3-0 (25-16 27-25 25-11) @ Antalya
+2023-06-03  RR Turkiye d. Italy 3-0 (25-19 26-24 25-19) @ Antalya [home: winner]
+2023-06-04  RR Thailand d. South Korea 3-0 (25-17 28-26 25-21) @ Antalya
+2023-06-04  RR Canada d. Serbia 3-2 (18-25 28-26 25-23 18-25 15-12) @ Antalya
+2023-06-04  RR USA d. Turkiye 3-2 (25-22 25-22 22-25 11-25 15-9) @ Antalya [home: loser]
+
+== Pool 2 ==
+2023-05-30  RR Germany d. Netherlands 3-1 (25-21 25-22 20-25 25-22) @ Nagoya
+2023-05-30  RR Japan d. Dominican Republic 3-1 (25-23 25-18 22-25 25-15) @ Nagoya [home: winner]
+2023-05-31  RR Bulgaria d. Croatia 3-0 (25-12 25-17 25-19) @ Nagoya
+2023-05-31  RR China d. Brazil 3-2 (25-23 22-25 25-20 20-25 15-12) @ Nagoya
+2023-06-01  RR Germany d. Croatia 3-0 (25-18 25-23 25-23) @ Nagoya
+2023-06-01  RR Dominican Republic d. Bulgaria 3-2 (22-25 25-16 16-25 25-14 15-11) @ Nagoya
+2023-06-01  RR Brazil d. Netherlands 3-0 (25-23 25-23 25-21) @ Nagoya
+2023-06-02  RR China d. Germany 3-0 (25-19 25-20 25-22) @ Nagoya
+2023-06-02  RR Dominican Republic d. Netherlands 3-2 (25-18 22-25 25-18 21-25 15-11) @ Nagoya
+2023-06-02  RR Japan d. Croatia 3-0 (25-17 25-19 25-20) @ Nagoya [home: winner]
+2023-06-03  RR Brazil d. Dominican Republic 3-1 (27-25 20-25 25-21 27-25) @ Nagoya
+2023-06-03  RR China d. Netherlands 3-1 (27-25 23-25 25-22 25-20) @ Nagoya
+2023-06-03  RR Japan d. Bulgaria 3-0 (25-20 25-17 25-19) @ Nagoya [home: winner]
+2023-06-04  RR Brazil d. Croatia 3-0 (26-24 25-18 25-8) @ Nagoya
+2023-06-04  RR Germany d. Bulgaria 3-2 (18-25 25-20 23-25 26-24 15-10) @ Nagoya
+2023-06-04  RR China d. Japan 3-0 (25-18 27-25 27-25) @ Nagoya [home: loser]
+
+== Pool 3 ==
+2023-06-13  RR Poland d. Dominican Republic 3-1 (25-23 30-28 23-25 25-17) @ Hong Kong
+2023-06-13  RR China d. Canada 3-0 (25-14 25-18 29-27) @ Hong Kong
+2023-06-14  RR Italy d. Bulgaria 3-0 (25-17 25-19 25-23) @ Hong Kong
+2023-06-14  RR Turkiye d. Netherlands 3-0 (31-29 25-21 25-15) @ Hong Kong
+2023-06-15  RR Canada d. Bulgaria 3-0 (25-15 25-13 25-15) @ Hong Kong
+2023-06-15  RR Poland d. Turkiye 3-0 (25-22 25-20 30-28) @ Hong Kong
+2023-06-15  RR Italy d. Dominican Republic 3-2 (25-16 16-25 21-25 25-22 15-10) @ Hong Kong
+2023-06-16  RR Turkiye d. Canada 3-0 (25-15 25-22 25-20) @ Hong Kong
+2023-06-16  RR Netherlands d. Poland 3-0 (25-22 25-21 28-26) @ Hong Kong
+2023-06-16  RR China d. Bulgaria 3-1 (20-25 25-7 25-10 25-15) @ Hong Kong
+2023-06-17  RR Dominican Republic d. Canada 3-2 (22-25 25-13 25-17 23-25 15-10) @ Hong Kong
+2023-06-17  RR Italy d. Netherlands 3-2 (22-25 25-22 25-20 18-25 19-17) @ Hong Kong
+2023-06-17  RR Poland d. China 3-0 (25-20 25-23 25-22) @ Hong Kong
+2023-06-18  RR Netherlands d. Bulgaria 3-0 (26-24 25-17 25-17) @ Hong Kong
+2023-06-18  RR Turkiye d. Dominican Republic 3-1 (25-23 25-19 23-25 25-20) @ Hong Kong
+2023-06-18  RR Italy d. China 3-2 (23-25 25-23 18-25 25-22 15-12) @ Hong Kong
+
+== Pool 4 ==
+2023-06-13  RR USA d. Croatia 3-1 (17-25 25-22 25-18 25-15) @ Brasilia
+2023-06-13  RR Serbia d. Japan 3-2 (16-25 25-20 16-25 25-20 15-10) @ Brasilia
+2023-06-14  RR Germany d. Thailand 3-1 (25-20 25-13 19-25 25-23) @ Brasilia
+2023-06-14  RR Brazil d. South Korea 3-0 (31-29 25-16 25-16) @ Brasilia [home: winner]
+2023-06-15  RR USA d. Thailand 3-0 (25-21 25-18 25-16) @ Brasilia
+2023-06-15  RR Japan d. South Korea 3-0 (25-18 25-13 25-19) @ Brasilia
+2023-06-15  RR Brazil d. Serbia 3-2 (23-25 25-22 21-25 25-12 15-11) @ Brasilia [home: winner]
+2023-06-16  RR Germany d. Japan 3-2 (25-23 14-25 25-22 20-25 15-8) @ Brasilia
+2023-06-16  RR Croatia d. South Korea 3-0 (25-23 25-21 25-14) @ Brasilia
+2023-06-16  RR Serbia d. Thailand 3-2 (24-26 22-25 25-17 25-12 16-14) @ Brasilia
+2023-06-17  RR Brazil d. Germany 3-1 (25-22 25-18 22-25 25-17) @ Brasilia [home: winner]
+2023-06-17  RR Japan d. USA 3-2 (23-25 25-23 25-19 23-25 15-6) @ Brasilia
+2023-06-17  RR Serbia d. Croatia 3-1 (25-16 25-11 23-25 25-17) @ Brasilia
+2023-06-18  RR USA d. Brazil 3-0 (25-22 25-19 25-22) @ Brasilia [home: loser]
+2023-06-18  RR Croatia d. Thailand 3-0 (25-17 25-21 25-20) @ Brasilia
+2023-06-18  RR Germany d. South Korea 3-1 (25-19 25-17 25-27 25-12) @ Brasilia
+
+== Pool 5 ==
+2023-06-27  RR Germany d. Dominican Republic 3-1 (25-19 25-18 18-25 25-21) @ Suwon
+2023-06-27  RR Bulgaria d. South Korea 3-1 (25-22 25-18 24-26 25-15) @ Suwon [home: loser]
+2023-06-28  RR USA d. Poland 3-2 (17-25 25-15 27-25 28-30 16-14) @ Suwon
+2023-06-28  RR Serbia d. China 3-1 (25-13 17-25 25-23 25-20) @ Suwon
+2023-06-29  RR Poland d. Germany 3-2 (15-25 25-19 25-19 19-25 17-15) @ Suwon
+2023-06-29  RR USA d. Bulgaria 3-0 (25-15 25-17 25-17) @ Suwon
+2023-06-29  RR Dominican Republic d. South Korea 3-0 (25-18 25-18 25-16) @ Suwon [home: loser]
+2023-06-30  RR Poland d. Bulgaria 3-1 (26-28 25-19 25-16 25-15) @ Suwon
+2023-06-30  RR Serbia d. Germany 3-1 (25-17 23-25 25-16 30-28) @ Suwon
+2023-06-30  RR Dominican Republic d. China 3-2 (20-25 25-20 22-25 25-20 15-13) @ Suwon
+2023-07-01  RR Dominican Republic d. Serbia 3-2 (22-25 25-15 23-25 25-19 15-10) @ Suwon
+2023-07-01  RR China d. South Korea 3-1 (25-13 25-21 21-25 25-15) @ Suwon [home: loser]
+2023-07-01  RR USA d. Germany 3-1 (25-22 18-25 25-22 25-13) @ Suwon
+2023-07-02  RR Serbia d. Bulgaria 3-2 (20-25 25-16 25-14 17-25 15-4) @ Suwon
+2023-07-02  RR Poland d. South Korea 3-0 (25-23 25-18 25-16) @ Suwon [home: loser]
+2023-07-02  RR China d. USA 3-2 (18-25 25-19 19-25 25-20 15-8) @ Suwon
+
+== Pool 6 ==
+2023-06-27  RR Canada d. Croatia 3-0 (25-21 25-21 28-26) @ Bangkok
+2023-06-27  RR Netherlands d. Thailand 3-0 (28-26 25-18 25-20) @ Bangkok [home: loser]
+2023-06-28  RR Japan d. Turkiye 3-2 (25-23 25-23 21-25 16-25 15-9) @ Bangkok
+2023-06-28  RR Brazil d. Italy 3-2 (26-28 25-20 19-25 25-21 15-10) @ Bangkok
+2023-06-29  RR Netherlands d. Croatia 3-0 (25-20 25-11 25-15) @ Bangkok
+2023-06-29  RR Canada d. Brazil 3-2 (28-30 25-22 25-23 21-25 17-15) @ Bangkok
+2023-06-29  RR Turkiye d. Thailand 3-0 (25-15 25-15 25-20) @ Bangkok [home: loser]
+2023-06-30  RR Italy d. Canada 3-2 (22-25 25-23 25-14 24-26 15-10) @ Bangkok
+2023-06-30  RR Netherlands d. Japan 3-1 (25-22 25-17 21-25 25-20) @ Bangkok
+2023-06-30  RR Turkiye d. Brazil 3-0 (25-22 25-16 25-22) @ Bangkok
+2023-07-01  RR Italy d. Croatia 3-0 (25-14 25-17 25-17) @ Bangkok
+2023-07-01  RR Canada d. Netherlands 3-2 (25-27 25-16 18-25 25-23 15-9) @ Bangkok
+2023-07-01  RR Japan d. Thailand 3-0 (25-18 25-22 25-20) @ Bangkok [home: loser]
+2023-07-02  RR Turkiye d. Croatia 3-0 (25-14 25-23 25-18) @ Bangkok
+2023-07-02  RR Italy d. Japan 3-1 (25-23 25-23 17-25 25-22) @ Bangkok
+2023-07-02  RR Brazil d. Thailand 3-0 (25-20 25-16 25-23) @ Bangkok [home: loser]
+
+== Final round ==
+2023-07-12  QF Poland d. Germany 3-1 (25-12 21-25 25-21 26-24) @ Arlington
+2023-07-12  QF USA d. Japan 3-1 (25-23 25-21 18-25 25-18) @ Arlington [home: winner]
+2023-07-13  QF China d. Brazil 3-1 (25-21 25-20 20-25 25-23) @ Arlington
+2023-07-13  QF Turkiye d. Italy 3-0 (25-20 25-15 25-18) @ Arlington
+2023-07-15  SF China d. Poland 3-0 (25-18 25-23 25-23) @ Arlington
+2023-07-15  SF Turkiye d. USA 3-1 (25-21 25-14 24-26 27-25) @ Arlington [home: loser]
+2023-07-16  3P Poland d. USA 3-2 (25-15 16-25 25-19 18-25 17-15) @ Arlington [home: loser]
+2023-07-16   F Turkiye d. China 3-1 (25-22 22-25 25-19 25-16) @ Arlington
+

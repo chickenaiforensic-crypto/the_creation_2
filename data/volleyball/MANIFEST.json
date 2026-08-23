@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 31,
+  "total_editions": 32,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -403,6 +403,19 @@
       "match_count": 104,
       "checksum_sha256": "1e76991e2a657cdef4c6faf4754eb891317f7245ed4801fcdafdf0ad8aa64b3e",
       "file_path": "editions/VNL_M/2022.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "VNL_W",
+      "tier": "VNL",
+      "gender": "W",
+      "year": "2023",
+      "official_match_count": 104,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 9 chunks); 104 == built (96 prelim in six 8-team travel pools + Final 8); per-row sources = official volleyballworld schedule pages ids 16024-16127 (contiguous, asserted), FIVB vis2009 P2 PDFs alongside every row (zero forfeits this edition). Travel-weeks format: week/pool-to-city map byte-read and applied per-row (Antalya + Nagoya, Hong Kong + Brasilia, Suwon + Bangkok; finals College Park Center, Arlington Texas); pool-host home flags. HONG KONG ADJUDICATION: Pool 3 host printed 'Hong Kong, China' - hosting federation is a distinct FIVB member from the Volleyball Association of China (whose team CHN played in that pool), so Pool 3 is all-neutral; disclosed in every Pool 3 row. PROMOTION/RELEGATION LATTICE: CROATIA DEBUT (won 2022 Challenger Cup, replaced Belgium - closing the loop the W-2022 edition opened); Croatia 15th and relegated this edition (KOR 16th but core-team protected - core/challenger asymmetry byte-read from qualification section). FIDELITY DOUBLE LOCK EXACT: recomputed spw/spl == printed combined standings for ALL 16 TEAMS AND full W/L-category profile matches all 16; per-pool structure asserts (6 pools x 16 matches x 8 teams x 4 apps); spine exact incl. QF pairings 1v8 POL-GER / 2v7 USA-JPN / 3v6 TUR-ITA / 4v5 BRA-CHN per printed formula (USA seeded 2 as finals hosts note byte-read). Champions TURKIYE - FIRST VNL TITLE (MVP + best opposite Melissa Vargas, best MB Zehra Gunes, best libero Gizem Orge, coach Daniele Santarelli) d. China 3-1 in Arlington - China's best-ever VNL result; POLAND FIRST VNL MEDAL, bronze 17-15 in the 5th over finals hosts USA. Notable: ITA-NED 19-17 fifth set (ties store #2 longest-fifth band), NED-TUR 31-29, BRA-KOR 31-29, DOM-POL 30-28, POL-SRB 30-28, USA-POL 30-28-in-the-4th, GER-SRB 30-28-in-the-4th. 30 May - 16 Jul 2023.",
+      "match_count": 104,
+      "checksum_sha256": "6eb7d580c7b6241565926b1a545036a17539b40e14009ae15f15aea0a8ed8e67",
+      "file_path": "editions/VNL_W/2023.json",
       "gap_count": 0
     }
   ],
