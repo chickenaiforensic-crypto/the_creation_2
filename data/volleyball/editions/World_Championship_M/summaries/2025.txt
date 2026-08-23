@@ -1,0 +1,87 @@
+World_Championship_M 2025 — 2025 FIVB Men's Volleyball World Championship - 21st edition (first 32-team, biennial era)
+tier WORLD-CH | gender M | teams 32 | matches 64 | status closed_verified_gapless
+hosts: Philippines (Pasay, Quezon City)
+source policy: BUILT from cited bytes under WO-VB-2 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = LIVE volleyballworld.com schedule pages (ids 21062-21125) + FIVB P2 PDFs in pro
+
+== Pool A ==
+2025-09-12  RR Tunisia d. Philippines 3-0 (25-13 25-17 25-23) @ Pasay [home: loser]
+2025-09-14  RR Egypt d. Iran 3-1 (25-17 16-25 25-23 25-20) @ Pasay
+2025-09-16  RR Iran d. Tunisia 3-1 (23-25 25-20 25-23 25-16) @ Pasay
+2025-09-16  RR Philippines d. Egypt 3-1 (29-27 23-25 25-21 25-21) @ Pasay [home: winner]
+2025-09-18  RR Tunisia d. Egypt 3-0 (25-19 25-18 25-22) @ Pasay
+2025-09-18  RR Iran d. Philippines 3-2 (21-25 25-21 17-25 25-23 22-20) @ Pasay [home: loser]
+
+== Pool B ==
+2025-09-13  RR Netherlands d. Qatar 3-1 (25-18 25-23 26-28 25-23) @ Quezon City
+2025-09-13  RR Poland d. Romania 3-0 (34-32 25-15 25-19) @ Quezon City
+2025-09-15  RR Netherlands d. Romania 3-0 (25-23 26-24 26-24) @ Quezon City
+2025-09-15  RR Poland d. Qatar 3-0 (25-21 25-14 25-19) @ Quezon City
+2025-09-17  RR Qatar d. Romania 3-1 (20-25 25-23 25-20 25-22) @ Quezon City
+2025-09-17  RR Poland d. Netherlands 3-1 (22-25 25-23 25-19 25-22) @ Quezon City
+
+== Pool C ==
+2025-09-14  RR Argentina d. Finland 3-2 (19-25 18-25 25-22 25-22 15-11) @ Quezon City
+2025-09-14  RR France d. South Korea 3-0 (25-12 25-18 25-16) @ Quezon City
+2025-09-16  RR Argentina d. South Korea 3-1 (25-22 23-25 25-21 25-18) @ Quezon City
+2025-09-16  RR Finland d. France 3-2 (25-19 17-25 29-27 21-25 15-9) @ Quezon City
+2025-09-18  RR Finland d. South Korea 3-1 (25-18 25-23 17-25 25-21) @ Quezon City
+2025-09-18  RR Argentina d. France 3-2 (28-26 25-23 21-25 20-25 15-12) @ Quezon City
+
+== Pool D ==
+2025-09-13  RR USA d. Colombia 3-0 (25-20 25-21 25-14) @ Pasay
+2025-09-13  RR Portugal d. Cuba 3-1 (20-25 25-22 25-19 25-19) @ Pasay
+2025-09-15  RR Cuba d. Colombia 3-0 (25-22 25-21 25-20) @ Pasay
+2025-09-15  RR USA d. Portugal 3-0 (25-19 25-22 25-17) @ Pasay
+2025-09-17  RR Portugal d. Colombia 3-2 (23-25 21-25 25-20 25-21 15-11) @ Pasay
+2025-09-17  RR USA d. Cuba 3-1 (25-17 25-22 23-25 27-25) @ Pasay
+
+== Pool E ==
+2025-09-13  RR Bulgaria d. Germany 3-0 (40-38 25-22 25-20) @ Pasay
+2025-09-13  RR Slovenia d. Chile 3-0 (25-19 25-20 25-16) @ Pasay
+2025-09-15  RR Germany d. Chile 3-0 (25-17 25-23 25-21) @ Pasay
+2025-09-15  RR Bulgaria d. Slovenia 3-2 (25-19 25-14 18-25 23-25 15-13) @ Pasay
+2025-09-17  RR Bulgaria d. Chile 3-0 (25-17 25-12 25-12) @ Pasay
+2025-09-17  RR Slovenia d. Germany 3-1 (25-21 17-25 31-29 25-22) @ Pasay
+
+== Pool F ==
+2025-09-14  RR Belgium d. Ukraine 3-0 (25-16 25-17 25-22) @ Quezon City
+2025-09-14  RR Italy d. Algeria 3-0 (25-13 25-22 25-17) @ Quezon City
+2025-09-16  RR Ukraine d. Algeria 3-0 (25-17 25-12 25-11) @ Quezon City
+2025-09-16  RR Belgium d. Italy 3-2 (25-23 25-20 22-25 21-25 15-13) @ Quezon City
+2025-09-18  RR Belgium d. Algeria 3-0 (25-22 25-20 25-12) @ Quezon City
+2025-09-18  RR Italy d. Ukraine 3-0 (25-21 25-22 25-18) @ Quezon City
+
+== Pool G ==
+2025-09-13  RR Canada d. Libya 3-1 (22-25 25-20 25-12 29-27) @ Quezon City
+2025-09-13  RR Turkiye d. Japan 3-0 (25-19 25-23 25-19) @ Quezon City
+2025-09-15  RR Turkiye d. Libya 3-1 (25-18 23-25 25-14 25-16) @ Quezon City
+2025-09-15  RR Canada d. Japan 3-0 (25-20 25-23 25-22) @ Quezon City
+2025-09-17  RR Turkiye d. Canada 3-0 (25-21 25-16 27-25) @ Quezon City
+2025-09-17  RR Japan d. Libya 3-0 (25-20 25-17 25-12) @ Quezon City
+
+== Pool H ==
+2025-09-14  RR Czechia d. Serbia 3-0 (25-22 25-23 25-20) @ Pasay
+2025-09-14  RR Brazil d. China 3-1 (19-25 25-23 25-22 25-21) @ Pasay
+2025-09-16  RR Brazil d. Czechia 3-0 (25-11 25-22 25-18) @ Pasay
+2025-09-16  RR Serbia d. China 3-0 (25-18 25-19 29-27) @ Pasay
+2025-09-18  RR Serbia d. Brazil 3-0 (25-22 25-20 25-22) @ Pasay
+2025-09-18  RR Czechia d. China 3-0 (26-24 25-19 25-18) @ Pasay
+
+== Final round ==
+2025-09-20 R16 Turkiye d. Netherlands 3-1 (27-29 25-23 25-16 25-19) @ Pasay
+2025-09-20 R16 Poland d. Canada 3-1 (25-18 23-25 25-20 25-14) @ Pasay
+2025-09-21 R16 Italy d. Argentina 3-0 (25-23 25-20 25-22) @ Pasay
+2025-09-21 R16 Belgium d. Finland 3-0 (25-21 25-17 25-21) @ Pasay
+2025-09-22 R16 Bulgaria d. Portugal 3-0 (25-19 25-23 25-13) @ Pasay
+2025-09-22 R16 USA d. Slovenia 3-1 (19-25 25-22 25-17 25-20) @ Pasay
+2025-09-23 R16 Czechia d. Tunisia 3-0 (25-19 25-18 25-23) @ Pasay
+2025-09-23 R16 Iran d. Serbia 3-2 (23-25 25-19 24-26 25-22 15-9) @ Pasay
+2025-09-24  QF Italy d. Belgium 3-0 (25-13 25-18 25-18) @ Pasay
+2025-09-24  QF Poland d. Turkiye 3-0 (25-15 25-22 25-19) @ Pasay
+2025-09-25  QF Czechia d. Iran 3-1 (22-25 27-25 25-20 25-21) @ Pasay
+2025-09-25  QF Bulgaria d. USA 3-2 (21-25 19-25 25-17 25-22 15-13) @ Pasay
+2025-09-27  SF Bulgaria d. Czechia 3-1 (25-20 23-25 25-21 25-22) @ Pasay
+2025-09-27  SF Italy d. Poland 3-0 (25-21 25-22 25-23) @ Pasay
+2025-09-28  3P Poland d. Czechia 3-1 (25-18 23-25 25-22 25-21) @ Pasay
+2025-09-28   F Italy d. Bulgaria 3-1 (25-21 25-17 17-25 25-10) @ Pasay
+

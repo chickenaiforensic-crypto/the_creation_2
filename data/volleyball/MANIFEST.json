@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 6,
+  "total_editions": 7,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -78,6 +78,19 @@
       "match_count": 100,
       "checksum_sha256": "de8ffb27eb656b6e69660174f1b578a98764c22c388b04b32ee9fabf1fc62822",
       "file_path": "editions/World_Championship_W/2022.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "World_Championship_M",
+      "tier": "WORLD-CH",
+      "gender": "M",
+      "year": "2025",
+      "official_match_count": 64,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-2 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = LIVE volleyballworld.com schedule pages (ids 21062-21125) + FIVB P2 PDFs in provenance; infobox official total 64 == built count. THE FIRST 32-TEAM, BIENNIAL-ERA WORLD CHAMPIONSHIP (8 pools of 4 -> R16 KO; format reform byte-documented from FIVB board minutes citations in-page) and the first hosted in Southeast Asia (Pasay/SM Mall of Asia Arena + Quezon City/Araneta Coliseum; finals all Pasay). FIDELITY: per-team pool points recomputed from set tokens == standings spw/spl for ALL 32 TEAMS across 8 pools. Spine exact. Champions ITALY - 5th title, BACK-TO-BACK (MVP Michieletto, best setter Giannelli, coach De Giorgi) d. first-time finalists Bulgaria 3-1 (Nikolov best scorer 173); Poland bronze; Czechia 4th - their best since independence. UPSET EDITION preserved: defending Olympic champs FRANCE OUT IN POOLS (18th; lost 2-3 to Finland AND 2-3 to Argentina), BRAZIL 17th (first pool exit in decades), Japan 23rd, Iran d. Serbia 15-9-in-the-5th R16; host Philippines' 20-22 extended-fifth heartbreaker vs Iran; NEW STORE-RECORD SET: Bulgaria d. Germany 40-38 in set 1 (78 points). Sep 12-28 2025, Metro Manila.",
+      "match_count": 64,
+      "checksum_sha256": "09e37310a27fc80d2aa87c6e109b12fbc1dde38ece3ad3c91306490f809c40b9",
+      "file_path": "editions/World_Championship_M/2025.json",
       "gap_count": 0
     }
   ],
