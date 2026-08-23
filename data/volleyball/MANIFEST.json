@@ -1,6 +1,20 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 0,
-  "editions": [],
+  "total_editions": 1,
+  "editions": [
+    {
+      "competition": "EuroVolley_W",
+      "tier": "CONT-CH",
+      "gender": "W",
+      "year": "2021",
+      "official_match_count": 76,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-1 (PLAN-VB program, Director-authorized full scope 2021-2026). Primary capture: Wikipedia edition-page wikitext (action=raw) whose every match row cites its official CEV MatchStatistics report (per-row source URLs, IDs 46291-46351 pools / 46413-46428 finals; www-old.cev.eu archive links preserved). CEV.eu current site probed first per locked hierarchy: eurovolley 2021 pages 404 (SPA/retired microsite) - fallback disclosed. 24 teams, 4 pools of 6 (Belgrade/Plovdiv/Zadar/Cluj-Napoca) -> R16/QF split Belgrade+Plovdiv -> SF/F Belgrade; 76/76 matches; FIDELITY: per-team pool points-for/against recomputed from set tokens == wikitext standings spw/spl for ALL 24 teams (independent arithmetic cross-lock); spine R16->F exact; champions Italy d. Serbia 3-1 (24-26 25-22 25-19 25-11 from winner side), bronze Turkiye; MVP Egonu; notable: Serbia d. Turkiye SF losing a 34-32 first set; 9 five-setters incl. Sweden d. Bulgaria 19-17-in-the-5th R16 upset of the co-host. Grokipedia venue claim (NED-GER R16 at Cluj) rejected on wikitext bracket bytes = Plovdiv (strike 3). Aug 18 - Sep 4 2021.",
+      "match_count": 76,
+      "checksum_sha256": "2ffc361570e56820ec476efa8b9e657d1db052e9440ba263e50598d97075d34c",
+      "file_path": "editions/EuroVolley_W/2021.json",
+      "gap_count": 0
+    }
+  ],
   "gap_report_file": "gap_report.json"
 }

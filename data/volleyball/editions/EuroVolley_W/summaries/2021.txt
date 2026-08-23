@@ -1,0 +1,91 @@
+EuroVolley_W 2021 — 2021 Women's European Volleyball Championship (CEV EuroVolley) - 32nd edition
+tier CONT-CH | gender W | teams 24 | matches 76 | status closed_verified_gapless
+hosts: Serbia, Bulgaria, Croatia, Romania (Belgrade, Plovdiv, Zadar, Cluj-Napoca)
+source policy: BUILT from cited bytes under WO-VB-1 (PLAN-VB program, Director-authorized full scope 2021-2026). Primary capture: Wikipedia edition-page wikitext (action=raw) whose every match row cites its official
+
+== Pool A ==
+2021-08-19  RR Serbia d. Bosnia and Herzegovina 3-0 (25-11 25-18 25-14) @ Belgrade [home: winner]
+2021-08-20  RR Belgium d. Azerbaijan 3-0 (25-13 26-24 25-13) @ Belgrade
+2021-08-20  RR Russia d. France 3-1 (25-19 14-25 25-20 25-18) @ Belgrade
+2021-08-21  RR Bosnia and Herzegovina d. Azerbaijan 3-0 (25-14 25-23 25-17) @ Belgrade
+2021-08-21  RR Serbia d. France 3-0 (25-14 25-13 25-16) @ Belgrade [home: winner]
+2021-08-22  RR Russia d. Azerbaijan 3-0 (25-16 25-17 25-13) @ Belgrade
+2021-08-22  RR Serbia d. Belgium 3-0 (25-21 25-21 25-21) @ Belgrade [home: winner]
+2021-08-23  RR Belgium d. Russia 3-2 (29-31 21-25 25-13 25-22 15-11) @ Belgrade
+2021-08-23  RR France d. Bosnia and Herzegovina 3-0 (25-19 25-14 26-24) @ Belgrade
+2021-08-24  RR Belgium d. Bosnia and Herzegovina 3-0 (25-23 25-19 25-15) @ Belgrade
+2021-08-24  RR Serbia d. Azerbaijan 3-0 (25-17 25-20 25-19) @ Belgrade [home: winner]
+2021-08-25  RR France d. Azerbaijan 3-1 (25-19 26-28 25-11 25-18) @ Belgrade
+2021-08-25  RR Serbia d. Russia 3-2 (25-22 25-19 16-25 24-26 15-10) @ Belgrade [home: winner]
+2021-08-26  RR Russia d. Bosnia and Herzegovina 3-0 (25-12 25-20 25-19) @ Belgrade
+2021-08-26  RR France d. Belgium 3-1 (27-25 13-25 25-19 25-20) @ Belgrade
+
+== Pool B ==
+2021-08-18  RR Bulgaria d. Greece 3-0 (25-20 25-15 25-19) @ Plovdiv [home: winner]
+2021-08-19  RR Czechia d. Spain 3-1 (22-25 25-20 25-22 25-20) @ Plovdiv
+2021-08-19  RR Poland d. Germany 3-1 (25-22 23-25 25-21 25-22) @ Plovdiv
+2021-08-20  RR Germany d. Czechia 3-1 (25-23 20-25 25-23 25-21) @ Plovdiv
+2021-08-20  RR Poland d. Greece 3-0 (25-16 25-20 25-19) @ Plovdiv
+2021-08-21  RR Poland d. Czechia 3-1 (20-25 25-15 25-21 25-18) @ Plovdiv
+2021-08-21  RR Bulgaria d. Spain 3-0 (25-12 25-19 25-21) @ Plovdiv [home: winner]
+2021-08-22  RR Spain d. Greece 3-2 (25-22 24-26 25-16 22-25 15-13) @ Plovdiv
+2021-08-22  RR Germany d. Bulgaria 3-2 (25-23 16-25 25-21 18-25 15-10) @ Plovdiv [home: loser]
+2021-08-23  RR Czechia d. Greece 3-0 (26-24 28-26 25-15) @ Plovdiv
+2021-08-23  RR Poland d. Spain 3-0 (25-15 25-15 25-8) @ Plovdiv
+2021-08-24  RR Germany d. Greece 3-0 (25-20 25-17 25-22) @ Plovdiv
+2021-08-24  RR Bulgaria d. Czechia 3-0 (26-24 25-12 25-19) @ Plovdiv [home: winner]
+2021-08-25  RR Germany d. Spain 3-0 (25-13 25-17 25-21) @ Plovdiv
+2021-08-25  RR Bulgaria d. Poland 3-1 (18-25 25-21 25-21 25-23) @ Plovdiv [home: winner]
+
+== Pool C ==
+2021-08-19  RR Croatia d. Switzerland 3-0 (25-20 25-19 25-21) @ Zadar [home: winner]
+2021-08-20  RR Italy d. Belarus 3-0 (25-20 25-18 25-16) @ Zadar
+2021-08-20  RR Hungary d. Slovakia 3-1 (25-20 25-23 20-25 25-18) @ Zadar
+2021-08-21  RR Croatia d. Belarus 3-0 (25-19 25-23 25-15) @ Zadar [home: winner]
+2021-08-21  RR Switzerland d. Hungary 3-2 (22-25 25-23 29-27 23-25 15-11) @ Zadar
+2021-08-22  RR Croatia d. Slovakia 3-0 (25-21 25-14 25-13) @ Zadar [home: winner]
+2021-08-22  RR Italy d. Hungary 3-0 (25-16 25-15 25-19) @ Zadar
+2021-08-23  RR Italy d. Slovakia 3-1 (25-19 25-18 25-27 25-17) @ Zadar
+2021-08-23  RR Belarus d. Switzerland 3-0 (25-23 25-15 25-15) @ Zadar
+2021-08-24  RR Croatia d. Hungary 3-1 (25-19 21-25 25-17 25-21) @ Zadar [home: winner]
+2021-08-24  RR Slovakia d. Switzerland 3-1 (21-25 25-14 25-19 25-22) @ Zadar
+2021-08-25  RR Belarus d. Hungary 3-2 (20-25 14-25 25-16 25-23 15-12) @ Zadar
+2021-08-25  RR Italy d. Croatia 3-0 (25-15 25-23 25-14) @ Zadar [home: loser]
+2021-08-26  RR Belarus d. Slovakia 3-2 (18-25 23-25 25-23 30-28 15-12) @ Zadar
+2021-08-26  RR Italy d. Switzerland 3-0 (25-17 25-18 27-25) @ Zadar
+
+== Pool D ==
+2021-08-18  RR Turkiye d. Romania 3-1 (23-25 25-10 25-20 25-17) @ Cluj-Napoca [home: loser]
+2021-08-19  RR Sweden d. Finland 3-2 (24-26 17-25 25-19 27-25 15-13) @ Cluj-Napoca
+2021-08-19  RR Netherlands d. Ukraine 3-0 (25-17 25-12 25-22) @ Cluj-Napoca
+2021-08-20  RR Netherlands d. Finland 3-0 (25-10 25-10 25-18) @ Cluj-Napoca
+2021-08-20  RR Turkiye d. Ukraine 3-0 (25-14 25-19 26-24) @ Cluj-Napoca
+2021-08-21  RR Ukraine d. Finland 3-1 (25-19 25-23 26-28 25-22) @ Cluj-Napoca
+2021-08-21  RR Sweden d. Romania 3-0 (25-21 25-17 25-16) @ Cluj-Napoca [home: loser]
+2021-08-22  RR Turkiye d. Sweden 3-0 (31-29 25-21 25-11) @ Cluj-Napoca
+2021-08-22  RR Netherlands d. Romania 3-1 (25-12 25-27 25-17 25-14) @ Cluj-Napoca [home: loser]
+2021-08-23  RR Ukraine d. Sweden 3-0 (25-23 25-17 25-20) @ Cluj-Napoca
+2021-08-23  RR Turkiye d. Finland 3-0 (25-19 25-12 25-15) @ Cluj-Napoca
+2021-08-24  RR Turkiye d. Netherlands 3-0 (25-21 25-21 25-20) @ Cluj-Napoca
+2021-08-24  RR Finland d. Romania 3-1 (18-25 25-22 25-22 25-22) @ Cluj-Napoca [home: loser]
+2021-08-25  RR Netherlands d. Sweden 3-0 (25-21 25-20 25-13) @ Cluj-Napoca
+2021-08-25  RR Ukraine d. Romania 3-0 (25-15 25-17 25-11) @ Cluj-Napoca [home: loser]
+
+== Final round ==
+2021-08-28 R16 Netherlands d. Germany 3-1 (25-22 23-25 25-19 25-23) @ Plovdiv
+2021-08-28 R16 Sweden d. Bulgaria 3-2 (12-25 25-21 25-22 14-25 19-17) @ Plovdiv [home: loser]
+2021-08-29 R16 Turkiye d. Czechia 3-1 (25-13 22-25 25-14 25-13) @ Plovdiv
+2021-08-29 R16 France d. Croatia 3-2 (16-25 25-21 22-25 25-22 15-12) @ Belgrade
+2021-08-29 R16 Poland d. Ukraine 3-1 (21-25 25-21 25-22 25-17) @ Plovdiv
+2021-08-29 R16 Serbia d. Hungary 3-0 (25-20 25-19 25-17) @ Belgrade [home: winner]
+2021-08-30 R16 Italy d. Belgium 3-1 (25-14 23-25 25-17 25-12) @ Belgrade
+2021-08-30 R16 Russia d. Belarus 3-1 (27-25 25-20 19-25 25-23) @ Belgrade
+2021-08-31  QF Netherlands d. Sweden 3-0 (27-25 25-16 25-19) @ Plovdiv
+2021-08-31  QF Turkiye d. Poland 3-0 (25-18 25-14 25-23) @ Plovdiv
+2021-09-01  QF Italy d. Russia 3-0 (25-20 25-8 25-15) @ Belgrade
+2021-09-01  QF Serbia d. France 3-1 (22-25 25-18 25-7 25-20) @ Belgrade [home: winner]
+2021-09-03  SF Serbia d. Turkiye 3-1 (32-34 28-26 25-23 25-13) @ Belgrade [home: winner]
+2021-09-03  SF Italy d. Netherlands 3-1 (25-19 25-17 16-25 25-18) @ Belgrade
+2021-09-04  3P Turkiye d. Netherlands 3-0 (25-20 25-19 25-23) @ Belgrade
+2021-09-04   F Italy d. Serbia 3-1 (24-26 25-22 25-19 25-11) @ Belgrade [home: loser]
+
