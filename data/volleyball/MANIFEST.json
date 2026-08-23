@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 5,
+  "total_editions": 6,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -65,6 +65,19 @@
       "match_count": 52,
       "checksum_sha256": "b4d6b41ef81b0a11cb2a7ae9fc4c0e0e2edf68968c3a1d018b12c1776ba38ce7",
       "file_path": "editions/World_Championship_M/2022.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "World_Championship_W",
+      "tier": "WORLD-CH",
+      "gender": "W",
+      "year": "2022",
+      "official_match_count": 100,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-2 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); every match row cites the LIVE volleyballworld.com schedule page (per-row source URLs, ids 13873-13972) + official FIVB P2 PDF (in provenance); infobox official total 100 == built count - the largest edition of the volleyball store. TWO-PHASE FORMAT byte-locked: 4 pools of 6 (60) -> pools E/F of 8 with only cross-pool fixtures played (16+16) and FULL first-round results carried into standings -> QF/SF/3P/F (8). Per-row venue codes decoded (GDA Arnhem/ERA Gdansk/ATA Lodz/AHA Rotterdam/OMA Apeldoorn/GLA Gliwice) incl. the Arnhem three-courts-in-a-stadium opening phase (all 24 teams there to Sep 26, footnote byte-read). TRIPLE FIDELITY LOCK: (1) first-round standings == recomputed pool points for all 24 teams; (2) cumulative second-round standings == full-first-round + phase-2 recomputation for all 16 E/F teams (hand-verified on Serbia 714-570 before assertion); (3) spine QF==top-4s, F==SF winners. Russia removed Mar-2022 (FIVB ineligibility, invasion of Ukraine), Croatia invited. Champions SERBIA - 2nd consecutive title (MVP Boskovic, best setter Drca, libero Pusic) d. Brazil 3-0 in Apeldoorn; Italy bronze 3-0 over USA (Egonu best scorer 275); QF epics Serbia d. co-host Poland 16-14-in-the-5th at Gliwice and Brazil d. Japan 15-13 from 0-2 down. Sep 23 - Oct 15 2022, Netherlands+Poland (first dual-hosted women's WCh).",
+      "match_count": 100,
+      "checksum_sha256": "de8ffb27eb656b6e69660174f1b578a98764c22c388b04b32ee9fabf1fc62822",
+      "file_path": "editions/World_Championship_W/2022.json",
       "gap_count": 0
     }
   ],

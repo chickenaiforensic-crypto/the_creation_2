@@ -1,0 +1,119 @@
+World_Championship_W 2022 — 2022 FIVB Women's Volleyball World Championship - 19th edition
+tier WORLD-CH | gender W | teams 24 | matches 100 | status closed_verified_gapless
+hosts: Netherlands, Poland (Arnhem, Rotterdam, Apeldoorn, Gdansk, Lodz, Gliwice)
+source policy: BUILT from cited bytes under WO-VB-2 (PLAN-VB). Capture: Wikipedia edition-page wikitext (action=raw); every match row cites the LIVE volleyballworld.com schedule page (per-row source URLs, ids 13873-
+
+== Pool A ==
+2022-09-23  RR Netherlands d. Kenya 3-0 (25-11 25-17 25-11) @ Arnhem [home: winner]
+2022-09-24  RR Belgium d. Puerto Rico 3-0 (25-15 27-25 25-15) @ Arnhem
+2022-09-24  RR Italy d. Cameroon 3-0 (25-10 25-12 25-16) @ Arnhem
+2022-09-25  RR Belgium d. Kenya 3-0 (25-15 25-14 25-11) @ Arnhem
+2022-09-25  RR Netherlands d. Cameroon 3-0 (25-11 25-20 25-13) @ Arnhem [home: winner]
+2022-09-26  RR Italy d. Puerto Rico 3-0 (28-26 25-21 26-24) @ Arnhem
+2022-09-27  RR Italy d. Belgium 3-1 (21-25 30-28 29-27 25-9) @ Arnhem
+2022-09-27  RR Kenya d. Cameroon 3-0 (25-20 27-25 25-19) @ Arnhem
+2022-09-28  RR Netherlands d. Puerto Rico 3-1 (23-25 25-20 25-16 25-15) @ Arnhem [home: winner]
+2022-09-29  RR Italy d. Kenya 3-0 (25-15 25-23 25-17) @ Arnhem
+2022-09-29  RR Puerto Rico d. Cameroon 3-0 (25-23 25-16 25-11) @ Arnhem
+2022-09-30  RR Belgium d. Netherlands 3-1 (25-16 25-23 24-26 27-25) @ Arnhem [home: loser]
+2022-10-01  RR Puerto Rico d. Kenya 3-1 (25-15 19-25 25-18 25-20) @ Arnhem
+2022-10-02  RR Belgium d. Cameroon 3-0 (25-8 25-19 25-14) @ Arnhem
+2022-10-02  RR Italy d. Netherlands 3-1 (25-13 22-25 25-16 25-21) @ Arnhem [home: loser]
+
+== Pool B ==
+2022-09-23  RR Poland d. Croatia 3-1 (25-19 21-25 25-23 25-15) @ Arnhem
+2022-09-24  RR Thailand d. Turkiye 3-2 (17-25 31-29 22-25 25-19 15-13) @ Arnhem
+2022-09-24  RR Dominican Republic d. South Korea 3-0 (25-19 25-12 25-15) @ Arnhem
+2022-09-27  RR Turkiye d. South Korea 3-0 (25-14 25-13 25-13) @ Gdansk
+2022-09-27  RR Dominican Republic d. Croatia 3-0 (25-20 25-15 25-21) @ Gdansk
+2022-09-27  RR Poland d. Thailand 3-0 (25-17 25-17 25-17) @ Gdansk [home: winner]
+2022-09-28  RR Thailand d. Croatia 3-0 (25-18 25-13 25-21) @ Gdansk
+2022-09-28  RR Turkiye d. Dominican Republic 3-2 (21-25 25-21 25-18 16-25 15-13) @ Gdansk
+2022-09-28  RR Poland d. South Korea 3-0 (25-17 25-18 25-16) @ Gdansk [home: winner]
+2022-09-29  RR Thailand d. South Korea 3-0 (25-13 25-15 25-14) @ Gdansk
+2022-09-29  RR Turkiye d. Croatia 3-0 (25-14 25-12 25-12) @ Gdansk
+2022-09-29  RR Dominican Republic d. Poland 3-1 (18-25 25-22 25-21 25-21) @ Gdansk [home: loser]
+2022-10-01  RR Thailand d. Dominican Republic 3-2 (31-29 16-25 21-25 25-22 15-11) @ Gdansk
+2022-10-01  RR South Korea d. Croatia 3-1 (25-21 27-29 27-25 25-23) @ Gdansk
+2022-10-01  RR Turkiye d. Poland 3-2 (22-25 25-23 25-22 18-25 15-11) @ Gdansk [home: loser]
+
+== Pool C ==
+2022-09-24  RR USA d. Kazakhstan 3-0 (25-16 25-13 25-22) @ Arnhem
+2022-09-25  RR Germany d. Bulgaria 3-1 (25-22 21-25 25-23 25-21) @ Arnhem
+2022-09-25  RR Serbia d. Canada 3-0 (25-23 25-16 25-20) @ Arnhem
+2022-09-26  RR Germany d. Kazakhstan 3-0 (25-15 25-18 25-21) @ Arnhem
+2022-09-26  RR Serbia d. Bulgaria 3-2 (25-21 22-25 25-27 25-21 15-9) @ Arnhem
+2022-09-26  RR USA d. Canada 3-0 (25-19 26-24 25-15) @ Arnhem
+2022-09-29  RR Canada d. Kazakhstan 3-0 (25-14 25-16 25-11) @ Lodz
+2022-09-29  RR Serbia d. Germany 3-0 (25-23 25-22 25-23) @ Lodz
+2022-09-29  RR USA d. Bulgaria 3-1 (25-14 23-25 25-11 25-15) @ Lodz
+2022-09-30  RR Serbia d. Kazakhstan 3-0 (25-13 25-17 25-10) @ Lodz
+2022-09-30  RR Canada d. Bulgaria 3-1 (25-21 25-27 25-20 25-15) @ Lodz
+2022-09-30  RR USA d. Germany 3-0 (25-17 25-13 26-24) @ Lodz
+2022-10-01  RR Bulgaria d. Kazakhstan 3-0 (25-18 25-22 25-18) @ Lodz
+2022-10-01  RR Canada d. Germany 3-2 (12-25 24-26 25-23 25-18 15-9) @ Lodz
+2022-10-01  RR Serbia d. USA 3-0 (25-20 25-23 25-13) @ Lodz
+
+== Pool D ==
+2022-09-24  RR Brazil d. Czechia 3-1 (25-20 25-16 22-25 25-18) @ Arnhem
+2022-09-25  RR China d. Argentina 3-0 (25-23 25-22 25-20) @ Arnhem
+2022-09-25  RR Japan d. Colombia 3-0 (25-20 25-22 25-17) @ Arnhem
+2022-09-26  RR Japan d. Czechia 3-0 (25-15 25-20 25-12) @ Arnhem
+2022-09-26  RR Brazil d. Argentina 3-0 (25-19 25-13 25-21) @ Arnhem
+2022-09-27  RR China d. Colombia 3-0 (25-16 25-21 25-16) @ Arnhem
+2022-09-28  RR China d. Japan 3-0 (28-26 25-17 29-27) @ Arnhem
+2022-09-28  RR Brazil d. Colombia 3-0 (25-14 25-12 25-20) @ Arnhem
+2022-09-28  RR Argentina d. Czechia 3-1 (25-20 20-25 25-22 25-22) @ Arnhem
+2022-09-30  RR China d. Czechia 3-0 (25-19 25-22 27-25) @ Arnhem
+2022-09-30  RR Japan d. Brazil 3-1 (25-22 25-19 17-25 25-20) @ Arnhem
+2022-09-30  RR Argentina d. Colombia 3-2 (19-25 25-17 27-29 25-20 15-8) @ Arnhem
+2022-10-01  RR Brazil d. China 3-1 (23-25 25-17 25-22 25-22) @ Arnhem
+2022-10-01  RR Czechia d. Colombia 3-1 (25-22 25-13 19-25 25-18) @ Arnhem
+2022-10-02  RR Japan d. Argentina 3-0 (25-17 25-19 25-17) @ Arnhem
+
+== Pool E ==
+2022-10-04  RR Japan d. Belgium 3-1 (21-25 25-20 25-16 25-22) @ Rotterdam
+2022-10-04  RR Brazil d. Italy 3-2 (25-20 22-25 22-25 25-21 17-15) @ Rotterdam
+2022-10-04  RR Netherlands d. Argentina 3-1 (22-25 25-18 25-12 25-13) @ Rotterdam [home: winner]
+2022-10-05  RR Italy d. Japan 3-1 (20-25 25-20 25-14 25-15) @ Rotterdam
+2022-10-05  RR China d. Puerto Rico 3-0 (25-15 25-19 25-21) @ Rotterdam
+2022-10-05  RR Belgium d. Argentina 3-0 (25-16 25-23 25-23) @ Rotterdam
+2022-10-06  RR Brazil d. Puerto Rico 3-0 (25-11 25-13 25-15) @ Rotterdam
+2022-10-06  RR China d. Netherlands 3-2 (22-25 25-21 25-15 18-25 15-12) @ Rotterdam [home: loser]
+2022-10-07  RR Japan d. Puerto Rico 3-0 (25-16 25-19 25-21) @ Rotterdam
+2022-10-07  RR Italy d. Argentina 3-0 (25-19 25-18 25-17) @ Rotterdam
+2022-10-07  RR Brazil d. Netherlands 3-0 (25-19 25-19 25-20) @ Rotterdam [home: loser]
+2022-10-08  RR Italy d. China 3-0 (26-24 25-16 25-20) @ Rotterdam
+2022-10-08  RR Brazil d. Belgium 3-1 (26-28 25-17 25-11 25-16) @ Rotterdam
+2022-10-09  RR China d. Belgium 3-0 (25-18 25-18 27-25) @ Rotterdam
+2022-10-09  RR Japan d. Netherlands 3-0 (25-23 25-23 25-21) @ Rotterdam [home: loser]
+2022-10-09  RR Puerto Rico d. Argentina 3-1 (20-25 25-15 25-20 25-23) @ Rotterdam
+
+== Pool F ==
+2022-10-04  RR Canada d. Thailand 3-1 (25-19 25-21 23-25 25-22) @ Lodz
+2022-10-04  RR USA d. Dominican Republic 3-1 (21-25 25-19 25-20 25-14) @ Lodz
+2022-10-04  RR Turkiye d. Germany 3-0 (25-21 25-18 25-21) @ Lodz
+2022-10-04  RR Serbia d. Poland 3-0 (26-24 25-22 25-18) @ Lodz [home: loser]
+2022-10-05  RR Germany d. Thailand 3-1 (25-19 25-22 18-25 25-23) @ Lodz
+2022-10-05  RR Turkiye d. Canada 3-0 (25-22 26-24 28-26) @ Lodz
+2022-10-05  RR Serbia d. Dominican Republic 3-0 (26-24 25-20 25-17) @ Lodz
+2022-10-05  RR Poland d. USA 3-0 (25-23 25-20 25-18) @ Lodz [home: winner]
+2022-10-07  RR Serbia d. Thailand 3-0 (25-23 25-17 25-15) @ Lodz
+2022-10-07  RR USA d. Turkiye 3-1 (25-22 21-25 25-20 25-22) @ Lodz
+2022-10-07  RR Dominican Republic d. Germany 3-1 (19-25 25-18 25-22 25-18) @ Lodz
+2022-10-07  RR Poland d. Canada 3-2 (25-18 19-25 16-25 25-23 15-5) @ Lodz [home: winner]
+2022-10-08  RR USA d. Thailand 3-2 (23-25 21-25 25-19 27-25 15-13) @ Lodz
+2022-10-08  RR Serbia d. Turkiye 3-0 (25-20 25-21 25-23) @ Lodz
+2022-10-08  RR Canada d. Dominican Republic 3-2 (18-25 25-23 25-17 25-27 15-7) @ Lodz
+2022-10-08  RR Poland d. Germany 3-2 (26-24 20-25 25-18 26-28 15-10) @ Lodz [home: winner]
+
+== Final round ==
+2022-10-11  QF Italy d. China 3-1 (25-16 25-22 13-25 25-17) @ Apeldoorn
+2022-10-11  QF USA d. Turkiye 3-0 (25-22 25-15 25-20) @ Gliwice
+2022-10-11  QF Brazil d. Japan 3-2 (18-25 18-25 25-22 27-25 15-13) @ Apeldoorn
+2022-10-11  QF Serbia d. Poland 3-2 (21-25 25-21 25-19 24-26 16-14) @ Gliwice [home: loser]
+2022-10-12  SF Serbia d. USA 3-1 (25-21 25-20 17-25 25-23) @ Gliwice
+2022-10-13  SF Brazil d. Italy 3-1 (25-23 22-25 26-24 25-19) @ Apeldoorn
+2022-10-15  3P Italy d. USA 3-0 (25-20 25-15 27-25) @ Apeldoorn
+2022-10-15   F Serbia d. Brazil 3-0 (26-24 25-22 25-17) @ Apeldoorn
+
