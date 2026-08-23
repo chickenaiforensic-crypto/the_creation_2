@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 1,
+  "total_editions": 2,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -13,6 +13,19 @@
       "match_count": 76,
       "checksum_sha256": "2ffc361570e56820ec476efa8b9e657d1db052e9440ba263e50598d97075d34c",
       "file_path": "editions/EuroVolley_W/2021.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "EuroVolley_M",
+      "tier": "CONT-CH",
+      "gender": "M",
+      "year": "2021",
+      "official_match_count": 76,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-1 (PLAN-VB). Primary capture: Wikipedia edition-page wikitext (action=raw), every match row citing its official CEV MatchStatistics report (unique per-row source URLs, IDs 46352-46412 pools / 46429-46444 finals; wayback-recoverable). 24 teams, 4 pools of 6: A Krakow (Tauron Arena, host Poland), B Ostrava (host Czechia), C Tampere (host Finland), D Tallinn (host Estonia); R16/QF split Gdansk (Ergo Arena) + Ostrava; SF/3P/F Katowice (Spodek); 76/76 matches, official match total 76 confirmed by infobox. FIDELITY: per-team pool points recomputed from set tokens == wikitext standings spw/spl for ALL 24 teams (incl. UKR exactly 446-446). Spine R16->F exact. Champions Italy (7th title, MVP Giannelli) d. Slovenia 3-2 (11-15 fifth from SLO side); bronze Poland d. Serbia 3-0. EXTREME-SET SHOWCASE byte-preserved: Slovenia d. Poland SF with a 37-35 fourth set (32-30 second also lost by POL); Czechia d. France R16 34-32 third; Croatia d. Latvia 31-29 fourth + Slovakia d. Croatia lost 29-31 fourth; Serbia d. Greece 15-5 fifth after losing a 30-28 fourth. Sep 1-19 2021.",
+      "match_count": 76,
+      "checksum_sha256": "5cdd428a3d9eea05511401ec99f9483762e91ab8c389b7afce583ae9085ddf81",
+      "file_path": "editions/EuroVolley_M/2021.json",
       "gap_count": 0
     }
   ],
