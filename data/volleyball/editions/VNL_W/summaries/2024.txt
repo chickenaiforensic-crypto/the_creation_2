@@ -1,0 +1,123 @@
+VNL_W 2024 — 2024 FIVB Women's Volleyball Nations League - 6th edition
+tier VNL | gender W | teams 16 | matches 104 | status closed_verified_gapless
+hosts: Preliminary: Turkiye, Brazil, Macau (China), USA, Hong Kong (China), Japan; Finals: Thailand (Indoor Stadium Huamark, Bangkok)
+source policy: BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 10 chunks); 104 == built; per-row sources = official volleyballworld schedule pages 
+
+== Pool 1 ==
+2024-05-14  RR Netherlands d. Bulgaria 3-0 (25-14 25-20 25-22) @ Antalya
+2024-05-14  RR Poland d. Italy 3-0 (28-26 25-23 25-21) @ Antalya
+2024-05-15  RR Germany d. France 3-0 (25-22 25-14 25-22) @ Antalya
+2024-05-15  RR Japan d. Turkiye 3-2 (25-23 25-21 23-25 20-25 15-11) @ Antalya [home: loser]
+2024-05-16  RR Italy d. Germany 3-1 (25-16 25-16 21-25 25-22) @ Antalya
+2024-05-16  RR Japan d. Bulgaria 3-0 (25-13 25-15 25-15) @ Antalya
+2024-05-16  RR Turkiye d. Netherlands 3-1 (25-14 23-25 25-23 25-18) @ Antalya [home: winner]
+2024-05-17  RR Japan d. Germany 3-0 (25-21 25-15 25-22) @ Antalya
+2024-05-17  RR Poland d. France 3-0 (25-20 25-16 25-17) @ Antalya
+2024-05-17  RR Italy d. Bulgaria 3-0 (25-11 25-22 25-19) @ Antalya
+2024-05-18  RR Poland d. Netherlands 3-0 (25-20 26-24 25-18) @ Antalya
+2024-05-18  RR France d. Bulgaria 3-1 (19-25 25-21 25-11 29-27) @ Antalya
+2024-05-18  RR Italy d. Turkiye 3-1 (25-27 25-21 25-21 25-19) @ Antalya [home: loser]
+2024-05-19  RR Netherlands d. Germany 3-1 (25-21 21-25 25-23 25-20) @ Antalya
+2024-05-19  RR Poland d. Japan 3-0 (26-24 25-20 25-23) @ Antalya
+2024-05-19  RR Turkiye d. France 3-0 (25-19 25-16 25-19) @ Antalya [home: winner]
+
+== Pool 2 ==
+2024-05-14  RR China d. South Korea 3-0 (25-15 25-16 25-14) @ Rio de Janeiro
+2024-05-14  RR Brazil d. Canada 3-1 (26-24 23-25 26-24 25-12) @ Rio de Janeiro [home: winner]
+2024-05-15  RR USA d. Thailand 3-1 (25-22 19-25 25-12 25-18) @ Rio de Janeiro
+2024-05-15  RR Dominican Republic d. Serbia 3-1 (25-18 25-17 21-25 25-20) @ Rio de Janeiro
+2024-05-16  RR Brazil d. South Korea 3-0 (25-15 25-19 25-17) @ Rio de Janeiro [home: winner]
+2024-05-16  RR China d. USA 3-1 (23-25 25-23 25-22 25-19) @ Rio de Janeiro
+2024-05-16  RR Canada d. Dominican Republic 3-0 (25-20 25-21 25-22) @ Rio de Janeiro
+2024-05-17  RR Serbia d. Thailand 3-0 (25-13 29-27 25-19) @ Rio de Janeiro
+2024-05-17  RR Canada d. China 3-1 (25-22 20-25 25-23 25-22) @ Rio de Janeiro
+2024-05-17  RR Brazil d. USA 3-1 (25-22 25-16 18-25 25-19) @ Rio de Janeiro [home: winner]
+2024-05-18  RR China d. Serbia 3-1 (21-25 25-15 25-18 25-18) @ Rio de Janeiro
+2024-05-18  RR Dominican Republic d. South Korea 3-0 (25-13 25-19 25-20) @ Rio de Janeiro
+2024-05-18  RR Canada d. Thailand 3-1 (25-21 25-13 20-25 25-17) @ Rio de Janeiro
+2024-05-19  RR Brazil d. Serbia 3-0 (25-15 25-19 25-19) @ Rio de Janeiro [home: winner]
+2024-05-19  RR USA d. Dominican Republic 3-0 (25-23 25-20 25-18) @ Rio de Janeiro
+2024-05-19  RR South Korea d. Thailand 3-1 (25-19 23-25 25-16 25-18) @ Rio de Janeiro
+
+== Pool 3 ==
+2024-05-28  RR Thailand d. Dominican Republic 3-1 (25-22 20-25 25-17 26-24) @ Macau
+2024-05-28  RR Brazil d. Japan 3-2 (24-26 26-24 19-25 25-20 15-11) @ Macau
+2024-05-29  RR Italy d. France 3-0 (25-15 25-14 25-14) @ Macau
+2024-05-29  RR China d. Netherlands 3-1 (21-25 25-23 25-23 25-21) @ Macau
+2024-05-30  RR Italy d. Dominican Republic 3-0 (25-12 25-19 25-21) @ Macau
+2024-05-30  RR Japan d. France 3-0 (25-14 25-18 25-15) @ Macau
+2024-05-30  RR Brazil d. Netherlands 3-1 (25-17 20-25 25-20 25-18) @ Macau
+2024-05-31  RR Thailand d. France 3-2 (25-23 25-21 23-25 20-25 15-7) @ Macau
+2024-05-31  RR Netherlands d. Dominican Republic 3-1 (25-17 23-25 25-21 25-17) @ Macau
+2024-05-31  RR Japan d. China 3-1 (25-22 19-25 25-18 25-17) @ Macau
+2024-06-01  RR Brazil d. Italy 3-2 (26-24 25-27 18-25 25-19 15-10) @ Macau
+2024-06-01  RR Japan d. Dominican Republic 3-1 (25-20 23-25 26-24 25-23) @ Macau
+2024-06-01  RR China d. Thailand 3-0 (25-23 25-17 25-18) @ Macau
+2024-06-02  RR Netherlands d. France 3-0 (25-17 25-10 25-21) @ Macau
+2024-06-02  RR Brazil d. Thailand 3-0 (25-22 25-14 25-17) @ Macau
+2024-06-02  RR Italy d. China 3-0 (25-23 25-19 25-16) @ Macau
+
+== Pool 4 ==
+2024-05-28  RR Poland d. Serbia 3-1 (25-16 23-25 25-18 25-22) @ Arlington
+2024-05-28  RR USA d. Canada 3-1 (25-22 25-17 23-25 25-20) @ Arlington [home: winner]
+2024-05-29  RR Bulgaria d. South Korea 3-2 (25-23 20-25 24-26 25-21 15-13) @ Arlington
+2024-05-29  RR Turkiye d. Germany 3-1 (20-25 25-20 25-9 26-24) @ Arlington
+2024-05-30  RR Poland d. South Korea 3-0 (25-20 25-20 25-10) @ Arlington
+2024-05-30  RR Canada d. Germany 3-0 (25-20 25-15 25-22) @ Arlington
+2024-05-30  RR Turkiye d. Serbia 3-1 (25-18 33-31 21-25 25-21) @ Arlington
+2024-05-31  RR Poland d. Germany 3-0 (25-23 25-20 25-21) @ Arlington
+2024-05-31  RR Serbia d. Canada 3-1 (25-22 21-25 26-24 25-20) @ Arlington
+2024-05-31  RR USA d. Bulgaria 3-0 (25-17 25-22 25-22) @ Arlington [home: winner]
+2024-06-01  RR Turkiye d. South Korea 3-0 (25-20 25-15 25-20) @ Arlington
+2024-06-01  RR Poland d. USA 3-1 (29-27 25-22 20-25 25-23) @ Arlington [home: loser]
+2024-06-01  RR Serbia d. Bulgaria 3-1 (18-25 25-21 25-17 25-16) @ Arlington
+2024-06-02  RR Canada d. South Korea 3-0 (25-15 25-12 25-18) @ Arlington
+2024-06-02  RR Turkiye d. USA 3-2 (21-25 25-20 25-21 12-25 15-12) @ Arlington [home: loser]
+2024-06-02  RR Germany d. Bulgaria 3-1 (25-19 21-25 25-21 25-11) @ Arlington
+
+== Pool 5 ==
+2024-06-11  RR Dominican Republic d. Germany 3-1 (26-24 21-25 25-21 25-21) @ Hong Kong
+2024-06-11  RR China d. Bulgaria 3-0 (25-15 25-12 25-17) @ Hong Kong
+2024-06-12  RR Turkiye d. Thailand 3-0 (25-17 25-17 25-17) @ Hong Kong
+2024-06-12  RR Brazil d. Poland 3-1 (22-25 25-17 25-17 25-16) @ Hong Kong
+2024-06-13  RR Thailand d. Bulgaria 3-2 (25-23 22-25 25-18 22-25 15-10) @ Hong Kong
+2024-06-13  RR Brazil d. Germany 3-1 (25-20 25-22 21-25 26-24) @ Hong Kong
+2024-06-13  RR Turkiye d. Dominican Republic 3-1 (17-25 25-15 25-17 25-18) @ Hong Kong
+2024-06-14  RR Brazil d. Bulgaria 3-0 (25-11 25-11 25-23) @ Hong Kong
+2024-06-14  RR Poland d. Dominican Republic 3-0 (33-31 25-20 25-16) @ Hong Kong
+2024-06-14  RR China d. Germany 3-0 (25-19 25-17 25-18) @ Hong Kong
+2024-06-15  RR Bulgaria d. Dominican Republic 3-2 (24-26 25-23 25-22 24-26 15-13) @ Hong Kong
+2024-06-15  RR Poland d. Thailand 3-0 (25-15 25-23 25-17) @ Hong Kong
+2024-06-15  RR China d. Turkiye 3-2 (21-25 17-25 25-21 25-23 15-13) @ Hong Kong
+2024-06-16  RR Germany d. Thailand 3-0 (25-17 25-21 25-20) @ Hong Kong
+2024-06-16  RR Brazil d. Turkiye 3-0 (25-14 25-14 25-19) @ Hong Kong
+2024-06-16  RR China d. Poland 3-0 (25-23 25-15 25-19) @ Hong Kong
+
+== Pool 6 ==
+2024-06-11  RR USA d. France 3-0 (25-15 26-24 25-20) @ Fukuoka
+2024-06-11  RR Italy d. Canada 3-0 (25-16 25-15 25-14) @ Fukuoka
+2024-06-12  RR Netherlands d. Serbia 3-1 (25-20 25-21 18-25 25-12) @ Fukuoka
+2024-06-12  RR Japan d. South Korea 3-0 (25-16 25-16 25-23) @ Fukuoka [home: winner]
+2024-06-13  RR USA d. Netherlands 3-0 (25-21 25-20 25-22) @ Fukuoka
+2024-06-13  RR South Korea d. France 3-2 (25-23 21-25 17-25 25-22 15-13) @ Fukuoka
+2024-06-13  RR Canada d. Japan 3-2 (23-25 22-25 25-20 25-21 16-14) @ Fukuoka [home: loser]
+2024-06-14  RR France d. Serbia 3-1 (25-22 22-25 25-23 25-21) @ Fukuoka
+2024-06-14  RR Netherlands d. Canada 3-0 (26-24 25-16 25-23) @ Fukuoka
+2024-06-14  RR Italy d. South Korea 3-0 (25-16 25-11 25-13) @ Fukuoka
+2024-06-15  RR Canada d. France 3-0 (25-14 25-18 31-29) @ Fukuoka
+2024-06-15  RR Italy d. USA 3-1 (25-17 19-25 25-15 25-21) @ Fukuoka
+2024-06-15  RR Japan d. Serbia 3-0 (25-22 25-18 25-15) @ Fukuoka [home: winner]
+2024-06-16  RR Netherlands d. South Korea 3-0 (25-21 25-11 25-17) @ Fukuoka
+2024-06-16  RR Italy d. Serbia 3-1 (25-20 20-25 25-23 25-22) @ Fukuoka
+2024-06-16  RR USA d. Japan 3-0 (25-15 25-18 26-24) @ Fukuoka [home: loser]
+
+== Final round ==
+2024-06-20  QF Japan d. China 3-0 (25-21 25-21 25-22) @ Bangkok
+2024-06-20  QF Brazil d. Thailand 3-0 (25-21 25-20 25-23) @ Bangkok [home: loser]
+2024-06-21  QF Italy d. USA 3-0 (25-21 25-21 25-23) @ Bangkok
+2024-06-21  QF Poland d. Turkiye 3-2 (20-25 25-22 25-20 19-25 15-11) @ Bangkok
+2024-06-22  SF Italy d. Poland 3-0 (25-18 25-17 25-12) @ Bangkok
+2024-06-22  SF Japan d. Brazil 3-2 (26-24 20-25 25-21 22-25 15-12) @ Bangkok
+2024-06-23  3P Poland d. Brazil 3-2 (25-21 26-28 25-21 19-25 15-9) @ Bangkok
+2024-06-23   F Italy d. Japan 3-1 (25-17 25-17 21-25 25-20) @ Bangkok
+

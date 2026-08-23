@@ -1,0 +1,123 @@
+VNL_M 2023 — 2023 FIVB Men's Volleyball Nations League - 5th edition
+tier VNL | gender M | teams 16 | matches 104 | status closed_verified_gapless
+hosts: Preliminary: Canada, Japan, Netherlands, France, USA, Philippines; Finals: Poland (Ergo Arena, Gdansk)
+source policy: BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 10 chunks); 104 == built; per-row sources = official volleyballworld schedule pages 
+
+== Pool 1 ==
+2023-06-06  RR Argentina d. Italy 3-0 (25-22 25-23 25-18) @ Ottawa
+2023-06-06  RR Canada d. Cuba 3-2 (25-21 26-28 25-21 22-25 15-13) @ Ottawa [home: winner]
+2023-06-07  RR USA d. Netherlands 3-0 (25-19 25-23 25-21) @ Ottawa
+2023-06-07  RR Brazil d. Germany 3-1 (26-24 25-16 19-25 25-15) @ Ottawa
+2023-06-08  RR Netherlands d. Cuba 3-0 (28-26 25-23 25-18) @ Ottawa
+2023-06-08  RR USA d. Italy 3-0 (25-15 25-18 25-19) @ Ottawa
+2023-06-08  RR Brazil d. Argentina 3-2 (19-25 25-19 23-25 25-23 15-13) @ Ottawa
+2023-06-09  RR Netherlands d. Germany 3-0 (25-20 33-31 25-21) @ Ottawa
+2023-06-09  RR Italy d. Cuba 3-1 (25-20 25-19 20-25 25-18) @ Ottawa
+2023-06-09  RR Argentina d. Canada 3-1 (25-21 21-25 25-21 25-16) @ Ottawa [home: loser]
+2023-06-10  RR Italy d. Germany 3-1 (25-23 25-18 25-27 25-19) @ Ottawa
+2023-06-10  RR Cuba d. Brazil 3-2 (25-16 22-25 27-29 25-22 20-18) @ Ottawa
+2023-06-10  RR USA d. Canada 3-0 (25-22 25-20 25-20) @ Ottawa [home: loser]
+2023-06-11  RR Argentina d. Netherlands 3-2 (34-36 25-20 25-17 20-25 15-10) @ Ottawa
+2023-06-11  RR Brazil d. USA 3-1 (25-19 21-25 25-15 25-21) @ Ottawa
+2023-06-11  RR Germany d. Canada 3-1 (20-25 25-17 25-21 25-21) @ Ottawa [home: loser]
+
+== Pool 2 ==
+2023-06-06  RR China d. Bulgaria 3-2 (25-20 21-25 25-21 20-25 15-9) @ Nagoya
+2023-06-06  RR Japan d. Iran 3-0 (25-16 25-22 25-19) @ Nagoya [home: winner]
+2023-06-07  RR Slovenia d. Serbia 3-1 (31-29 19-25 25-20 25-21) @ Nagoya
+2023-06-07  RR Poland d. France 3-1 (25-23 18-25 35-33 25-15) @ Nagoya
+2023-06-08  RR Bulgaria d. Slovenia 3-0 (26-24 25-23 25-17) @ Nagoya
+2023-06-08  RR Serbia d. China 3-0 (34-32 25-16 25-20) @ Nagoya
+2023-06-08  RR Poland d. Iran 3-2 (23-25 23-25 25-21 25-15 15-13) @ Nagoya
+2023-06-09  RR France d. China 3-1 (25-20 23-25 25-16 25-17) @ Nagoya
+2023-06-09  RR Poland d. Bulgaria 3-2 (25-27 25-19 22-25 25-22 15-11) @ Nagoya
+2023-06-09  RR Japan d. Serbia 3-1 (22-25 25-21 25-23 25-20) @ Nagoya [home: winner]
+2023-06-10  RR Slovenia d. France 3-1 (25-23 25-18 21-25 25-22) @ Nagoya
+2023-06-10  RR Iran d. China 3-1 (23-25 25-15 25-20 25-14) @ Nagoya
+2023-06-10  RR Japan d. Bulgaria 3-0 (25-22 25-21 26-24) @ Nagoya [home: winner]
+2023-06-11  RR Slovenia d. Iran 3-0 (25-19 25-23 25-23) @ Nagoya
+2023-06-11  RR Serbia d. Poland 3-0 (25-21 25-19 25-14) @ Nagoya
+2023-06-11  RR Japan d. France 3-1 (25-27 25-22 25-21 25-20) @ Nagoya [home: winner]
+
+== Pool 3 ==
+2023-06-20  RR Iran d. Germany 3-0 (25-23 26-24 25-16) @ Rotterdam
+2023-06-20  RR USA d. Serbia 3-1 (22-25 25-19 25-19 25-21) @ Rotterdam
+2023-06-20  RR Netherlands d. China 3-0 (25-19 25-22 25-21) @ Rotterdam [home: winner]
+2023-06-21  RR Italy d. Iran 3-0 (25-19 25-16 26-24) @ Rotterdam
+2023-06-21  RR USA d. China 3-0 (28-26 25-22 25-18) @ Rotterdam
+2023-06-21  RR Poland d. Germany 3-2 (25-21 22-25 25-14 17-25 15-10) @ Rotterdam
+2023-06-22  RR Italy d. China 3-0 (25-13 25-19 26-24) @ Rotterdam
+2023-06-22  RR Serbia d. Germany 3-1 (25-21 20-25 25-23 25-23) @ Rotterdam
+2023-06-22  RR Poland d. Netherlands 3-2 (22-25 25-18 18-25 25-22 15-11) @ Rotterdam [home: loser]
+2023-06-23  RR USA d. Iran 3-0 (25-22 25-18 25-23) @ Rotterdam
+2023-06-23  RR Italy d. Serbia 3-0 (25-11 25-21 25-20) @ Rotterdam
+2023-06-24  RR USA d. Poland 3-0 (25-22 25-18 25-19) @ Rotterdam
+2023-06-24  RR Netherlands d. Iran 3-2 (16-25 25-16 21-25 25-17 15-10) @ Rotterdam [home: winner]
+2023-06-24  RR China d. Germany 3-1 (23-25 25-18 25-19 25-21) @ Rotterdam
+2023-06-25  RR Poland d. Italy 3-1 (25-19 28-26 18-25 25-20) @ Rotterdam
+2023-06-25  RR Serbia d. Netherlands 3-2 (22-25 25-21 21-25 35-33 15-9) @ Rotterdam [home: loser]
+
+== Pool 4 ==
+2023-06-20  RR Japan d. Canada 3-1 (25-22 25-17 24-26 25-14) @ Orleans
+2023-06-20  RR Slovenia d. Argentina 3-1 (21-25 25-21 25-21 25-21) @ Orleans
+2023-06-20  RR Brazil d. Bulgaria 3-0 (25-22 25-17 25-15) @ Orleans
+2023-06-21  RR Japan d. Cuba 3-0 (25-21 25-16 25-21) @ Orleans
+2023-06-21  RR Slovenia d. Canada 3-0 (25-23 25-22 25-14) @ Orleans
+2023-06-21  RR Argentina d. France 3-1 (22-25 26-24 25-21 25-20) @ Orleans [home: loser]
+2023-06-22  RR Japan d. Brazil 3-2 (25-23 25-21 18-25 22-25 18-16) @ Orleans
+2023-06-22  RR Canada d. Bulgaria 3-1 (22-25 25-23 25-22 25-20) @ Orleans
+2023-06-22  RR Slovenia d. Cuba 3-1 (22-25 25-15 25-16 25-19) @ Orleans
+2023-06-23  RR Argentina d. Bulgaria 3-0 (25-18 25-21 25-22) @ Orleans
+2023-06-23  RR France d. Cuba 3-0 (25-18 25-20 25-20) @ Orleans [home: winner]
+2023-06-24  RR Japan d. Argentina 3-2 (25-18 25-22 31-33 22-25 15-12) @ Orleans
+2023-06-24  RR Brazil d. Slovenia 3-1 (23-25 25-21 26-24 25-21) @ Orleans
+2023-06-24  RR France d. Canada 3-0 (25-17 25-21 25-21) @ Orleans [home: winner]
+2023-06-25  RR Cuba d. Bulgaria 3-2 (23-25 25-19 25-20 16-25 18-16) @ Orleans
+2023-06-25  RR Brazil d. France 3-1 (25-20 26-24 19-25 25-23) @ Orleans [home: loser]
+
+== Pool 5 ==
+2023-07-04  RR Argentina d. Serbia 3-1 (19-25 25-16 25-19 25-18) @ Anaheim
+2023-07-04  RR France d. Iran 3-0 (25-18 25-22 25-19) @ Anaheim
+2023-07-05  RR Germany d. Bulgaria 3-0 (25-22 25-18 25-22) @ Anaheim
+2023-07-05  RR USA d. Cuba 3-0 (27-25 25-17 25-15) @ Anaheim [home: winner]
+2023-07-06  RR Argentina d. Germany 3-0 (25-23 25-18 25-17) @ Anaheim
+2023-07-06  RR Serbia d. Cuba 3-2 (19-25 25-23 25-21 22-25 15-11) @ Anaheim
+2023-07-06  RR Bulgaria d. Iran 3-2 (21-25 25-21 22-25 25-22 15-11) @ Anaheim
+2023-07-07  RR France d. Serbia 3-1 (20-25 25-23 25-20 28-26) @ Anaheim
+2023-07-07  RR Germany d. Cuba 3-0 (25-23 25-23 25-22) @ Anaheim
+2023-07-07  RR Argentina d. USA 3-2 (25-18 23-25 23-25 43-41 15-12) @ Anaheim [home: loser]
+2023-07-08  RR Serbia d. Bulgaria 3-0 (25-19 25-22 25-22) @ Anaheim
+2023-07-08  RR Argentina d. Iran 3-2 (25-19 28-30 27-29 25-20 15-11) @ Anaheim
+2023-07-08  RR USA d. France 3-0 (25-23 27-25 27-25) @ Anaheim [home: winner]
+2023-07-09  RR Cuba d. Iran 3-2 (25-22 26-28 25-23 28-30 15-10) @ Anaheim
+2023-07-09  RR France d. Germany 3-1 (21-25 25-20 25-22 25-21) @ Anaheim
+2023-07-09  RR USA d. Bulgaria 3-0 (29-27 25-19 25-21) @ Anaheim [home: winner]
+
+== Pool 6 ==
+2023-07-04  RR Italy d. Brazil 3-1 (23-25 25-20 25-15 25-21) @ Pasay
+2023-07-04  RR Japan d. China 3-2 (24-26 25-23 21-25 25-23 15-12) @ Pasay
+2023-07-05  RR Netherlands d. Canada 3-1 (25-22 25-22 17-25 25-18) @ Pasay
+2023-07-05  RR Poland d. Slovenia 3-2 (29-31 21-25 25-20 25-20 15-13) @ Pasay
+2023-07-06  RR Brazil d. Netherlands 3-0 (25-21 25-15 25-20) @ Pasay
+2023-07-06  RR Italy d. Canada 3-2 (25-14 23-25 25-20 23-25 15-9) @ Pasay
+2023-07-06  RR Slovenia d. China 3-1 (25-21 25-20 24-26 25-23) @ Pasay
+2023-07-07  RR Poland d. Brazil 3-1 (25-23 22-25 25-21 25-21) @ Pasay
+2023-07-07  RR Italy d. Slovenia 3-0 (25-13 25-22 25-17) @ Pasay
+2023-07-07  RR Japan d. Netherlands 3-1 (25-19 26-24 23-25 25-17) @ Pasay
+2023-07-08  RR Brazil d. China 3-0 (25-19 25-17 25-17) @ Pasay
+2023-07-08  RR Poland d. Canada 3-0 (25-21 25-23 27-25) @ Pasay
+2023-07-08  RR Italy d. Japan 3-1 (29-27 28-26 23-25 25-20) @ Pasay
+2023-07-09  RR Canada d. China 3-1 (23-25 25-21 25-17 25-18) @ Pasay
+2023-07-09  RR Slovenia d. Netherlands 3-0 (25-20 32-30 25-22) @ Pasay
+2023-07-09  RR Poland d. Japan 3-0 (25-17 25-19 25-18) @ Pasay
+
+== Final round ==
+2023-07-19  QF USA d. France 3-2 (25-21 25-18 17-25 24-26 15-9) @ Gdansk
+2023-07-19  QF Italy d. Argentina 3-0 (25-17 25-13 25-14) @ Gdansk
+2023-07-20  QF Japan d. Slovenia 3-0 (26-24 25-18 25-22) @ Gdansk
+2023-07-20  QF Poland d. Brazil 3-0 (26-24 25-21 25-20) @ Gdansk [home: winner]
+2023-07-22  SF Poland d. Japan 3-1 (19-25 28-26 25-17 25-21) @ Gdansk [home: winner]
+2023-07-22  SF USA d. Italy 3-0 (25-19 25-18 25-19) @ Gdansk
+2023-07-23  3P Japan d. Italy 3-2 (25-18 25-23 17-25 17-25 15-9) @ Gdansk
+2023-07-23   F Poland d. USA 3-1 (25-23 24-26 25-18 25-18) @ Gdansk [home: winner]
+
