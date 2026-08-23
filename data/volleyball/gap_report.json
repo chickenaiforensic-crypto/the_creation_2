@@ -1,8 +1,8 @@
 {
   "description": "Volleyball program integrity report - counters + per-work-order notes per PLAN-VB.",
   "method": "Per-edition census (official match counts) -> build 100% from cited bytes -> full-harness verification; coverage-build convention (no gap IDs; per-WO closure notes).",
-  "editions_checked": 13,
-  "editions_clean": 13,
+  "editions_checked": 14,
+  "editions_clean": 14,
   "editions_with_gaps": 0,
   "total_gap_instances": 0,
   "gaps": [],

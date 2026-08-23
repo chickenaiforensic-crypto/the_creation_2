@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 13,
+  "total_editions": 14,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -169,6 +169,19 @@
       "match_count": 56,
       "checksum_sha256": "ada0a8c049a88dd82b61fd4e397193b6bd8742dd5f391adc73d9ff57f8223cfb",
       "file_path": "editions/Asian_Championship_M/2021.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "Asian_Championship_M",
+      "tier": "CONT-CH",
+      "gender": "M",
+      "year": "2023",
+      "official_match_count": 41,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-4 (PLAN-VB + CENSUS-VB-4). Capture: Wikipedia edition-page wikitext (action=raw); per-row sources = FIVB vis2009 P2 PDFs (standings source live.app.fivb.com tournament 1409; one row routed to the official AVC Daily Bulletin 05 after the page's vis id duplicated the KOR-PAK id - wiki link error DISCLOSED; one QF link prints fivb.org without www, normalised to www since both resolve to the same document host - noted); infobox official matches=41 == built count (16 prelim + 5 classification-13-17 + 6 round-of-12 + 6 classification-7-12 + 1 eleventh + 2 QF + 2 SF + 1 fifth + 3P + F). 22nd Asian Championship, Urmia, Iran (Ghadir Arena + Shahidan Ahandoust Hall), 19-26 Aug 2023. SEVENTEEN teams after MONGOLIA'S PRE-TOURNAMENT WITHDRAWAL reduced Pool D to a single match (byte-cited volleyball.ir ref) - official count already reflects it, zero forfeit rows needed. Format: 6 pools -> Final-twelve KO (pool winners IRI/JPN byes to SF per bracket skipmatch) + 13-17 classification with an AFG bye (byte-read). FIDELITY: per-team pool points recomputed == standings spw/spl for ALL 6 POOLS (17 team-entries incl. the 2-team Pool D). Spine exact: SF == {R12-bye winners IRI,JPN} + QF winners {CHN,QAT}; F == SF winners; 3P == SF losers. Champions JAPAN - 10th title, first since 2017 (MVP Yuki Ishikawa, best OH Ran Takahashi, coach Philippe Blain) d. hosts + two-time defending champions IRAN 3-0 in the final before an 7,500-strong Urmia crowd (attendance bytes in-page); QATAR FIRST-EVER MEDAL - bronze 3-0 over China; host home flags on all IRI rows. Monster sets: KOR-PAK 32-30 + 26-28 same match, CHN-IND 31-29, IND-INA 29-31. QUALIFICATION THREAD CLOSED IN-STORE: Japan+Iran+Qatar took the AVC berths to WCh-2025 which the store already holds. New canon first-writes: Iraq, Indonesia, Afghanistan, Bangladesh (team ledger 68).",
+      "match_count": 41,
+      "checksum_sha256": "83c51d232753529a1dc3ded1c4046746b7a71415fbbf3935bc8e05d322d6a0bb",
+      "file_path": "editions/Asian_Championship_M/2023.json",
       "gap_count": 0
     }
   ],
