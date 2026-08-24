@@ -20,8 +20,8 @@ rejected class).
 | Olympics W | **BUILT** (38) | · | · | **BUILT** (26) | · | · |
 | World Championship M | · | **BUILT** (52) | · | · | **BUILT** (64) | · (next: World Cup 2027, renamed) |
 | World Championship W | · | **BUILT** (100) | · | · | **BUILT** (64) | · |
-| VNL M | **BUILT** (124; Brazil 1st title) | **BUILT** (104; France 1st title) | **BUILT** (104; Poland 1st, at home) | **BUILT** (104; France 2nd) | **BUILT** (116; Poland 2nd — Italy 1st medal) | QUEUED-WO5 (116; Poland 3rd) |
-| VNL W | **BUILT** (124; USA 3rd straight) | **BUILT** (104; Italy 1st) | **BUILT** (104; Turkiye 1st) | **BUILT** (104; Italy 2nd) | **BUILT** (116; Italy 3rd, 12-0 prelim) | QUEUED-WO5 (116; Turkiye 2nd) |
+| VNL M | **BUILT** (124; Brazil 1st title) | **BUILT** (104; France 1st title) | **BUILT** (104; Poland 1st, at home) | **BUILT** (104; France 2nd) | **BUILT** (116; Poland 2nd — Italy 1st medal) | **BUILT** (116; Poland 3rd — Slovenia 1st podium) |
+| VNL W | **BUILT** (124; USA 3rd straight) | **BUILT** (104; Italy 1st) | **BUILT** (104; Turkiye 1st) | **BUILT** (104; Italy 2nd) | **BUILT** (116; Italy 3rd, 12-0 prelim) | **BUILT** (116; Turkiye 2nd, Macau) |
 
 **The only annual Tier-1 series is VNL** (12 season-editions, ~1,500+ matches — the program's largest block).
 

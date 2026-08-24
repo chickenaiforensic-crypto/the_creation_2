@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 37,
+  "total_editions": 39,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -481,6 +481,32 @@
       "match_count": 116,
       "checksum_sha256": "198560154823674e69e74ed28c9f43384fb83adb5aec9d0fe793b5201550612f",
       "file_path": "editions/VNL_M/2025.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "VNL_W",
+      "tier": "VNL",
+      "gender": "W",
+      "year": "2026",
+      "official_match_count": 116,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 10 chunks); 116 == built (108 prelim in nine 6-team pools + Final 8); per-row sources = official volleyballworld schedule ids 26550-26665 (contiguous, asserted - continues the M-2026 block 26434-26549: the whole 2026 season is ONE id sequence, men first), FIVB vis2009 P2 PDFs alongside every row; zero forfeits. SOURCE-CLASS NOTES DISCLOSED: 2026 rows use the Vb-res-12 template (adds per-match attendance - not a schema field, not captured) and the year-less VNL-game template for ids. Pool/city map: Quebec City(CAN)/Brasilia(BRA)/Nanjing(CHN) + Ankara(TUR)/Pasig(all-N, Philippines not in field)/Bangkok(THA) + Belgrade(SRB)/Hong Kong(all-N, distinct federation)/Osaka(JPN); finals Macau with CHN home flags per byte adjudication (infobox host=China, city Macau; CHN held the QH berth) - disclosed against the Hong Kong/Macau POOL precedent where the printed host is the separate SAR federation. EXPANSION LATTICE: UKRAINE WOMEN VNL DEBUT (replaced relegated South Korea via ranking); BULGARIA 18th EX excluded from 2027. FOURTH HOST-SEEDING EDGE-CASE: hosts China 9th replaced 8th-ranked Poland as 8th seed (result8 printed blank) AND became the first host-seeded side in the store to WIN a Finals match - 3-2 over USA in the QF before losing the SF to Turkiye and the bronze to Italy. FIDELITY DOUBLE LOCK EXACT: recomputed spw/spl == printed combined standings ALL 18 (incl. CZE dead-even 914/914) AND full W/L-category profiles all 18; spine exact incl. QF 1v8 USA-CHN / 2v7 ITA-NED / 3v6 BRA-JPN / 4v5 TUR-CAN. Champions TURKIYE - SECOND VNL TITLE (MVP Melissa Vargas, 33 points in the gold-medal match byte-cited; coach Daniele Santarelli) d. Brazil 3-1 in Macau - BRAZIL FIFTH RUNNERS-UP FINISH; Italy bronze 3-1 over hosts China. Notable: THA d. BRA 3-0 25-15/25-16/25-17 (Thailand sweep Brazil), CAN d. USA 3-0, CZE d. CHN 3-0 opener, GER d. BRA 16-14 fifth, FRA-CZE 20-18 fifth (38 pts, #2 fifth band), JPN-SRB 32-30 fourth, CAN-JPN 30-28 fourth with 12-15 fifth, UKR-GER 30-28, BUL d. UKR 17-15 fifth, ITA d. CAN 15-5 fifth. 3 Jun - 26 Jul 2026.",
+      "match_count": 116,
+      "checksum_sha256": "4950db810c4ab7df718062fd0e9dba6201484da3636a5feec286d14700d176a6",
+      "file_path": "editions/VNL_W/2026.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "VNL_M",
+      "tier": "VNL",
+      "gender": "M",
+      "year": "2026",
+      "official_match_count": 116,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 9 chunks); 116 == built (108 prelim in nine 6-team pools + Final 8); per-row sources = official volleyballworld schedule ids 26434-26549 (contiguous, asserted; W-2026 continues at 26550 - one 2026 sequence, men first), FIVB vis2009 P2 PDFs alongside every row; zero forfeits. SOURCE-CLASS NOTES DISCLOSED as in W-2026 (Vb-res-12 with attendance; year-less VNL-game ids). FIDELITY CATCH #8 (P2-PROVEN): the wiki match row for ARG 3-2 GER (24 Jun, Gliwice) printed set 3 as 25-21 but the official FIVB P2 PDF (vis 256881349, spectators 4,739 matching the page) prints 25-15 - totals ARG 98 GER 99 reconciling the printed standings (GER 1133, ARG-against 1133) that the wiki row contradicted by +6; row corrected to the P2 scoreline, OFFICIAL DOCUMENT GOVERNS over the wiki row token (inverse direction of catch #2 where the row governed over a standings-implied value). Pool/city map: Ottawa(CAN)/Brasilia(BRA)/Linyi(CHN) + Orleans(FRA)/Gliwice(POL)/Ljubljana(SLO) + Belgrade(SRB)/Hoffman Estates(USA)/Osaka(JPN); finals Ningbo(CHN). EXPANSION LATTICE: BELGIUM MEN VNL DEBUT (replaced relegated Netherlands via ranking). DOUBLE HOST EDGE-CASE: hosts China 18th took the 8th seed via QH (8th-ranked Bulgaria bumped, result8 blank) and the EX relegation flag fell on 17th CANADA - the only edition in the store where the last-placed team survived and the 17th did not. FIDELITY DOUBLE LOCK EXACT: recomputed spw/spl == printed combined standings ALL 18 AND full W/L-category profiles all 18 (JAPAN UNBEATEN 12-0 prelim with SIX five-set wins); spine exact incl. QF 1v8 JPN-CHN / 2v7 POL-UKR / 3v6 SLO-TUR / 4v5 ITA-USA. Champions POLAND - THIRD VNL TITLE, SECOND CONSECUTIVE (MVP Tomasz Fornal, coach Nikola Grbic) d. USA 3-2 in Ningbo (USA led 2-1); SLOVENIA FIRST-EVER PODIUM bronze 3-1 over Japan. NEW STORE RECORD SET: POL d. ARG 50-48 OPENING SET (98 POINTS - crushes the 44-42/86 record from M-2024); also SLO QF vs TUR 35-33 AND 39-37 back-to-back sets (a 3-0 sweep of 175 rally points), GER d. FRA 40-38 opener (78-pt band), USA d. CAN 35-33, FRA-JPN 33-35 fourth, ITA d. GER 33-31 fourth, SLO d. POL 19-17 fifth, ARG d. CAN 19-17 fifth, IRI-USA 31-29, IRI d. CUB 30-28, FRA-JPN 30-28 opener. 10 Jun - 2 Aug 2026.",
+      "match_count": 116,
+      "checksum_sha256": "63dda3ecf56a3744c642a65b24f1e036774030ab66a983f26095ed9c82ed724c",
+      "file_path": "editions/VNL_M/2026.json",
       "gap_count": 0
     }
   ],

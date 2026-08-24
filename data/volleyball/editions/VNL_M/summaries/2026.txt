@@ -1,0 +1,141 @@
+VNL_M 2026 — 2026 FIVB Men's Volleyball Nations League - 8th edition
+tier VNL | gender M | teams 18 | matches 116 | status closed_verified_gapless
+hosts: Preliminary: Canada, Brazil, China, France, Poland, Slovenia, Serbia, USA, Japan; Finals: China (Beilun Gymnasium, Ningbo)
+source policy: BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 9 chunks); 116 == built (108 prelim in nine 6-team pools + Final 8); per-row sources
+
+== Pool 1 ==
+2026-06-10  RR USA d. Turkiye 3-1 (25-20 20-25 25-20 25-23) @ Ottawa
+2026-06-10  RR France d. Italy 3-2 (19-25 29-27 23-25 25-23 16-14) @ Ottawa
+2026-06-10  RR Germany d. Canada 3-2 (24-26 25-19 20-25 25-21 15-13) @ Ottawa [home: loser]
+2026-06-11  RR Italy d. Germany 3-1 (25-20 20-25 25-21 33-31) @ Ottawa
+2026-06-11  RR Canada d. France 3-1 (25-20 25-18 21-25 27-25) @ Ottawa [home: winner]
+2026-06-12  RR USA d. Germany 3-0 (25-22 25-15 25-20) @ Ottawa
+2026-06-12  RR Turkiye d. France 3-0 (25-23 27-25 25-21) @ Ottawa
+2026-06-13  RR USA d. Canada 3-2 (20-25 33-35 26-24 25-21 15-11) @ Ottawa [home: loser]
+2026-06-13  RR Italy d. Turkiye 3-0 (29-27 25-14 25-20) @ Ottawa
+2026-06-14  RR Germany d. France 3-1 (40-38 19-25 25-20 25-22) @ Ottawa
+2026-06-14  RR Turkiye d. Canada 3-2 (25-21 17-25 25-23 14-25 15-8) @ Ottawa [home: loser]
+2026-06-14  RR Italy d. USA 3-2 (25-18 15-25 25-19 18-25 15-10) @ Ottawa
+
+== Pool 2 ==
+2026-06-10  RR Belgium d. Bulgaria 3-1 (20-25 26-24 26-24 25-23) @ Brasilia
+2026-06-10  RR Serbia d. Argentina 3-1 (25-23 25-20 25-27 26-24) @ Brasilia
+2026-06-10  RR Brazil d. Iran 3-1 (25-21 23-25 25-15 25-23) @ Brasilia [home: winner]
+2026-06-11  RR Bulgaria d. Iran 3-0 (25-23 25-19 25-21) @ Brasilia
+2026-06-11  RR Brazil d. Belgium 3-1 (25-19 23-25 25-15 25-20) @ Brasilia [home: winner]
+2026-06-12  RR Serbia d. Belgium 3-1 (25-18 24-26 25-21 25-22) @ Brasilia
+2026-06-12  RR Iran d. Argentina 3-0 (25-23 25-19 25-23) @ Brasilia
+2026-06-13  RR Brazil d. Serbia 3-0 (25-22 25-18 25-22) @ Brasilia [home: winner]
+2026-06-13  RR Bulgaria d. Argentina 3-1 (23-25 25-23 25-15 25-23) @ Brasilia
+2026-06-14  RR Belgium d. Iran 3-2 (25-23 25-22 23-25 17-25 15-12) @ Brasilia
+2026-06-14  RR Serbia d. Bulgaria 3-0 (30-28 25-22 25-23) @ Brasilia
+2026-06-14  RR Brazil d. Argentina 3-2 (18-25 24-26 25-19 25-23 15-9) @ Brasilia [home: winner]
+
+== Pool 3 ==
+2026-06-10  RR Poland d. Cuba 3-0 (25-16 25-20 25-21) @ Linyi
+2026-06-10  RR Slovenia d. China 3-2 (25-17 20-25 20-25 25-23 15-10) @ Linyi [home: loser]
+2026-06-10  RR Japan d. Ukraine 3-0 (25-22 25-21 25-22) @ Linyi
+2026-06-11  RR Ukraine d. China 3-1 (25-17 21-25 25-20 25-22) @ Linyi [home: loser]
+2026-06-11  RR Slovenia d. Poland 3-2 (27-25 23-25 26-24 21-25 19-17) @ Linyi
+2026-06-12  RR Ukraine d. Cuba 3-0 (25-21 25-20 25-16) @ Linyi
+2026-06-12  RR Japan d. Poland 3-2 (25-21 21-25 25-21 22-25 17-15) @ Linyi
+2026-06-13  RR Japan d. China 3-1 (25-23 25-22 20-25 25-21) @ Linyi [home: loser]
+2026-06-13  RR Slovenia d. Cuba 3-2 (25-15 26-28 19-25 25-14 15-11) @ Linyi
+2026-06-14  RR Poland d. Ukraine 3-2 (19-25 18-25 25-22 25-21 15-11) @ Linyi
+2026-06-14  RR China d. Cuba 3-0 (25-21 25-19 25-23) @ Linyi [home: winner]
+2026-06-14  RR Japan d. Slovenia 3-1 (25-27 25-16 25-22 25-22) @ Linyi
+
+== Pool 4 ==
+2026-06-24  RR Japan d. Serbia 3-1 (25-17 25-15 22-25 25-16) @ Orleans
+2026-06-24  RR USA d. Cuba 3-0 (25-21 25-21 25-19) @ Orleans
+2026-06-24  RR France d. Iran 3-2 (25-21 23-25 25-21 24-26 17-15) @ Orleans [home: winner]
+2026-06-25  RR USA d. Iran 3-0 (25-23 25-20 31-29) @ Orleans
+2026-06-25  RR France d. Cuba 3-2 (25-22 21-25 25-27 25-20 15-13) @ Orleans [home: winner]
+2026-06-26  RR Japan d. Iran 3-2 (25-19 25-19 20-25 23-25 15-12) @ Orleans
+2026-06-26  RR Serbia d. Cuba 3-1 (25-19 13-25 25-23 25-22) @ Orleans
+2026-06-27  RR Japan d. USA 3-2 (18-25 25-21 20-25 25-22 15-13) @ Orleans
+2026-06-27  RR France d. Serbia 3-0 (25-23 25-16 25-22) @ Orleans [home: winner]
+2026-06-28  RR Iran d. Cuba 3-1 (25-22 25-21 20-25 30-28) @ Orleans
+2026-06-28  RR Japan d. France 3-2 (28-30 19-25 25-17 35-33 15-12) @ Orleans [home: loser]
+2026-06-28  RR USA d. Serbia 3-1 (25-12 25-23 24-26 25-17) @ Orleans
+
+== Pool 5 ==
+2026-06-24  RR Turkiye d. China 3-0 (25-16 25-19 25-21) @ Gliwice
+2026-06-24  RR Argentina d. Germany 3-2 (25-21 15-25 25-15 18-25 15-13) @ Gliwice
+2026-06-24  RR Poland d. Belgium 3-2 (21-25 23-25 25-19 28-26 15-13) @ Gliwice [home: winner]
+2026-06-25  RR Belgium d. China 3-1 (26-28 25-21 25-21 25-20) @ Gliwice
+2026-06-25  RR Poland d. Turkiye 3-2 (26-28 25-19 25-21 19-25 15-11) @ Gliwice [home: winner]
+2026-06-26  RR Argentina d. China 3-0 (25-22 25-19 25-22) @ Gliwice
+2026-06-26  RR Germany d. Belgium 3-1 (25-22 19-25 25-23 25-19) @ Gliwice
+2026-06-27  RR Poland d. Germany 3-1 (23-25 25-16 25-17 25-15) @ Gliwice [home: winner]
+2026-06-27  RR Turkiye d. Argentina 3-2 (19-25 21-25 25-21 25-18 18-16) @ Gliwice
+2026-06-28  RR Germany d. China 3-1 (25-20 25-20 22-25 25-19) @ Gliwice
+2026-06-28  RR Turkiye d. Belgium 3-0 (26-24 26-24 25-17) @ Gliwice
+2026-06-28  RR Poland d. Argentina 3-1 (48-50 26-24 25-19 25-20) @ Gliwice [home: winner]
+
+== Pool 6 ==
+2026-06-24  RR Bulgaria d. Italy 3-2 (18-25 25-20 25-23 19-25 15-9) @ Ljubljana
+2026-06-24  RR Ukraine d. Brazil 3-1 (29-27 22-25 25-22 25-21) @ Ljubljana
+2026-06-24  RR Slovenia d. Canada 3-1 (25-23 23-25 25-20 25-23) @ Ljubljana [home: winner]
+2026-06-25  RR Ukraine d. Italy 3-0 (25-23 25-19 25-16) @ Ljubljana
+2026-06-25  RR Slovenia d. Bulgaria 3-2 (19-25 25-21 17-25 26-24 15-6) @ Ljubljana [home: winner]
+2026-06-26  RR Ukraine d. Canada 3-1 (25-19 25-23 18-25 25-23) @ Ljubljana
+2026-06-26  RR Italy d. Brazil 3-1 (25-19 25-23 22-25 25-23) @ Ljubljana
+2026-06-27  RR Bulgaria d. Canada 3-2 (25-27 25-22 21-25 25-18 15-11) @ Ljubljana
+2026-06-27  RR Slovenia d. Brazil 3-0 (27-25 25-17 25-20) @ Ljubljana [home: winner]
+2026-06-28  RR Bulgaria d. Ukraine 3-1 (25-20 18-25 25-23 25-17) @ Ljubljana
+2026-06-28  RR Brazil d. Canada 3-2 (25-17 23-25 28-26 22-25 17-15) @ Ljubljana
+2026-06-28  RR Italy d. Slovenia 3-1 (23-25 25-19 25-18 25-20) @ Ljubljana [home: loser]
+
+== Pool 7 ==
+2026-07-15  RR Slovenia d. Germany 3-1 (25-17 25-17 23-25 28-26) @ Belgrade
+2026-07-15  RR Ukraine d. Iran 3-1 (25-22 25-21 29-31 25-19) @ Belgrade
+2026-07-15  RR Turkiye d. Serbia 3-0 (25-23 25-19 25-18) @ Belgrade [home: loser]
+2026-07-16  RR Iran d. Germany 3-2 (25-22 26-28 18-25 25-20 15-12) @ Belgrade
+2026-07-16  RR Serbia d. Ukraine 3-1 (22-25 25-17 25-21 25-23) @ Belgrade [home: winner]
+2026-07-17  RR Turkiye d. Ukraine 3-2 (25-27 20-25 25-23 25-16 15-11) @ Belgrade
+2026-07-17  RR Slovenia d. Iran 3-0 (27-25 25-19 26-24) @ Belgrade
+2026-07-18  RR Slovenia d. Turkiye 3-1 (25-22 20-25 25-21 25-23) @ Belgrade
+2026-07-18  RR Germany d. Serbia 3-2 (21-25 26-28 25-16 25-18 15-13) @ Belgrade [home: loser]
+2026-07-19  RR Turkiye d. Iran 3-1 (17-25 25-22 25-16 25-19) @ Belgrade
+2026-07-19  RR Ukraine d. Germany 3-1 (25-23 20-25 25-22 26-24) @ Belgrade
+2026-07-19  RR Slovenia d. Serbia 3-0 (25-19 25-21 25-22) @ Belgrade [home: loser]
+
+== Pool 8 ==
+2026-07-15  RR Poland d. Bulgaria 3-0 (25-19 25-17 25-17) @ Hoffman Estates
+2026-07-15  RR Brazil d. France 3-0 (25-23 25-23 25-19) @ Hoffman Estates
+2026-07-15  RR USA d. China 3-0 (25-19 25-13 25-20) @ Hoffman Estates [home: winner]
+2026-07-16  RR France d. China 3-0 (25-21 25-19 25-20) @ Hoffman Estates
+2026-07-16  RR USA d. Brazil 3-0 (25-23 25-19 25-18) @ Hoffman Estates [home: winner]
+2026-07-17  RR Bulgaria d. China 3-1 (22-25 25-14 25-20 25-20) @ Hoffman Estates
+2026-07-17  RR Poland d. Brazil 3-0 (25-22 28-26 25-19) @ Hoffman Estates
+2026-07-18  RR Poland d. France 3-1 (17-25 25-22 25-21 25-18) @ Hoffman Estates
+2026-07-18  RR Bulgaria d. USA 3-1 (27-25 22-25 26-24 25-18) @ Hoffman Estates [home: loser]
+2026-07-19  RR Brazil d. China 3-0 (25-16 25-20 25-21) @ Hoffman Estates
+2026-07-19  RR France d. Bulgaria 3-0 (25-21 25-22 25-21) @ Hoffman Estates
+2026-07-19  RR Poland d. USA 3-0 (25-20 25-21 25-19) @ Hoffman Estates [home: loser]
+
+== Pool 9 ==
+2026-07-15  RR Argentina d. Canada 3-2 (24-26 22-25 25-23 25-13 19-17) @ Osaka
+2026-07-15  RR Cuba d. Belgium 3-0 (25-23 25-19 25-20) @ Osaka
+2026-07-15  RR Japan d. Italy 3-2 (24-26 25-19 25-20 23-25 15-12) @ Osaka [home: winner]
+2026-07-16  RR Italy d. Belgium 3-0 (25-20 25-22 25-22) @ Osaka
+2026-07-16  RR Japan d. Canada 3-2 (18-25 24-26 29-27 25-19 15-11) @ Osaka [home: winner]
+2026-07-17  RR Cuba d. Argentina 3-2 (17-25 25-19 22-25 25-21 15-12) @ Osaka
+2026-07-17  RR Japan d. Belgium 3-0 (25-20 25-22 25-16) @ Osaka [home: winner]
+2026-07-18  RR Cuba d. Canada 3-0 (25-22 25-21 29-27) @ Osaka
+2026-07-18  RR Italy d. Argentina 3-0 (25-22 25-22 25-22) @ Osaka
+2026-07-19  RR Belgium d. Canada 3-0 (25-22 25-22 25-19) @ Osaka
+2026-07-19  RR Italy d. Cuba 3-1 (17-25 25-19 25-21 25-17) @ Osaka
+2026-07-19  RR Japan d. Argentina 3-0 (25-22 25-22 25-16) @ Osaka [home: winner]
+
+== Final round ==
+2026-07-29  QF Slovenia d. Turkiye 3-0 (25-21 35-33 39-37) @ Ningbo
+2026-07-29  QF Japan d. China 3-1 (23-25 25-23 25-16 25-23) @ Ningbo [home: loser]
+2026-07-30  QF USA d. Italy 3-0 (25-22 25-21 25-21) @ Ningbo
+2026-07-30  QF Poland d. Ukraine 3-1 (25-22 22-25 25-20 25-17) @ Ningbo
+2026-08-01  SF Poland d. Slovenia 3-0 (25-16 25-19 25-17) @ Ningbo
+2026-08-01  SF USA d. Japan 3-2 (25-19 23-25 20-25 25-19 15-13) @ Ningbo
+2026-08-02  3P Slovenia d. Japan 3-1 (25-21 26-28 25-22 25-22) @ Ningbo
+2026-08-02   F Poland d. USA 3-2 (25-21 23-25 25-27 25-23 15-10) @ Ningbo
+

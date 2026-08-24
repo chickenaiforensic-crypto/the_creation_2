@@ -1,0 +1,141 @@
+VNL_W 2026 — 2026 FIVB Women's Volleyball Nations League - 8th edition
+tier VNL | gender W | teams 18 | matches 116 | status closed_verified_gapless
+hosts: Preliminary: Canada, Brazil, China, Turkiye, Philippines, Thailand, Serbia, Hong Kong (China), Japan; Finals: China (Macau East Asian Games Dome, Macau)
+source policy: BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 10 chunks); 116 == built (108 prelim in nine 6-team pools + Final 8); per-row source
+
+== Pool 1 ==
+2026-06-03  RR USA d. Ukraine 3-0 (25-16 25-17 25-23) @ Quebec City
+2026-06-03  RR Japan d. France 3-1 (23-25 25-12 25-22 25-13) @ Quebec City
+2026-06-03  RR Germany d. Canada 3-1 (28-26 22-25 25-18 25-18) @ Quebec City [home: loser]
+2026-06-04  RR Ukraine d. Germany 3-2 (25-21 30-28 14-25 19-25 15-13) @ Quebec City
+2026-06-04  RR Canada d. USA 3-0 (25-22 25-22 30-28) @ Quebec City [home: winner]
+2026-06-05  RR Japan d. Ukraine 3-1 (25-20 16-25 25-16 25-20) @ Quebec City
+2026-06-05  RR USA d. France 3-2 (25-21 23-25 27-25 23-25 15-11) @ Quebec City
+2026-06-06  RR Canada d. France 3-1 (21-25 25-20 25-19 28-26) @ Quebec City [home: winner]
+2026-06-06  RR Japan d. Germany 3-0 (25-20 25-15 26-24) @ Quebec City
+2026-06-07  RR France d. Ukraine 3-2 (18-25 15-25 25-20 25-19 15-10) @ Quebec City
+2026-06-07  RR USA d. Germany 3-0 (25-22 25-15 25-12) @ Quebec City
+2026-06-07  RR Japan d. Canada 3-2 (29-27 25-20 23-25 28-30 15-12) @ Quebec City [home: loser]
+
+== Pool 2 ==
+2026-06-03  RR Turkiye d. Dominican Republic 3-2 (17-25 25-20 25-16 23-25 15-11) @ Brasilia
+2026-06-03  RR Italy d. Bulgaria 3-0 (25-22 25-16 27-25) @ Brasilia
+2026-06-03  RR Brazil d. Netherlands 3-1 (25-17 25-15 25-27 25-23) @ Brasilia [home: winner]
+2026-06-04  RR Netherlands d. Turkiye 3-0 (25-23 25-17 25-18) @ Brasilia
+2026-06-04  RR Brazil d. Dominican Republic 3-1 (23-25 25-18 25-11 25-15) @ Brasilia [home: winner]
+2026-06-05  RR Bulgaria d. Dominican Republic 3-0 (25-19 25-19 25-13) @ Brasilia
+2026-06-05  RR Italy d. Netherlands 3-0 (25-22 25-18 25-22) @ Brasilia
+2026-06-06  RR Brazil d. Bulgaria 3-0 (25-23 25-17 25-13) @ Brasilia [home: winner]
+2026-06-06  RR Italy d. Turkiye 3-1 (25-16 26-28 25-19 25-15) @ Brasilia
+2026-06-07  RR Netherlands d. Dominican Republic 3-0 (25-20 25-19 25-17) @ Brasilia
+2026-06-07  RR Brazil d. Italy 3-2 (25-15 25-22 22-25 24-26 15-12) @ Brasilia [home: winner]
+2026-06-07  RR Turkiye d. Bulgaria 3-1 (25-12 25-9 22-25 25-18) @ Brasilia
+
+== Pool 3 ==
+2026-06-03  RR Poland d. Belgium 3-2 (25-20 22-25 25-23 18-25 15-13) @ Nanjing
+2026-06-03  RR Serbia d. Thailand 3-0 (26-24 25-22 25-19) @ Nanjing
+2026-06-03  RR Czechia d. China 3-0 (25-20 25-20 26-24) @ Nanjing [home: loser]
+2026-06-04  RR Poland d. Czechia 3-0 (25-22 25-22 25-20) @ Nanjing
+2026-06-04  RR China d. Thailand 3-2 (25-14 24-26 25-19 23-25 15-7) @ Nanjing [home: winner]
+2026-06-05  RR Czechia d. Belgium 3-0 (25-20 25-22 25-15) @ Nanjing
+2026-06-05  RR Poland d. Serbia 3-2 (17-25 25-19 25-18 22-25 17-15) @ Nanjing
+2026-06-06  RR Belgium d. Thailand 3-2 (20-25 22-25 25-23 25-22 16-14) @ Nanjing
+2026-06-06  RR China d. Serbia 3-0 (25-21 25-21 25-21) @ Nanjing [home: winner]
+2026-06-07  RR Czechia d. Thailand 3-0 (25-14 25-19 25-11) @ Nanjing
+2026-06-07  RR Belgium d. Serbia 3-2 (25-20 25-22 21-25 20-25 15-12) @ Nanjing
+2026-06-07  RR China d. Poland 3-1 (16-25 25-18 25-23 26-24) @ Nanjing [home: winner]
+
+== Pool 4 ==
+2026-06-17  RR China d. Germany 3-2 (25-27 25-23 18-25 25-20 15-6) @ Ankara
+2026-06-17  RR Brazil d. France 3-0 (25-22 25-19 25-15) @ Ankara
+2026-06-17  RR Turkiye d. Belgium 3-0 (25-14 25-13 25-23) @ Ankara [home: winner]
+2026-06-18  RR Brazil d. Belgium 3-2 (25-20 22-25 23-25 25-22 15-13) @ Ankara
+2026-06-18  RR Turkiye d. France 3-0 (25-17 25-23 25-20) @ Ankara [home: winner]
+2026-06-19  RR China d. France 3-0 (25-18 25-17 25-19) @ Ankara
+2026-06-19  RR Germany d. Belgium 3-0 (25-20 25-19 25-21) @ Ankara
+2026-06-20  RR Brazil d. China 3-1 (26-24 25-18 19-25 25-15) @ Ankara
+2026-06-20  RR Turkiye d. Germany 3-2 (18-25 24-26 25-19 25-22 15-13) @ Ankara [home: winner]
+2026-06-21  RR Belgium d. France 3-2 (25-17 20-25 21-25 25-18 15-8) @ Ankara
+2026-06-21  RR Germany d. Brazil 3-2 (26-24 28-26 15-25 19-25 16-14) @ Ankara
+2026-06-21  RR Turkiye d. China 3-2 (25-21 26-28 23-25 25-16 15-12) @ Ankara [home: winner]
+
+== Pool 5 ==
+2026-06-17  RR USA d. Dominican Republic 3-0 (25-20 25-19 25-12) @ Pasig
+2026-06-17  RR Italy d. Czechia 3-0 (25-18 25-21 25-22) @ Pasig
+2026-06-17  RR Japan d. Serbia 3-2 (20-25 26-24 18-25 32-30 15-7) @ Pasig
+2026-06-18  RR USA d. Czechia 3-0 (25-17 25-12 25-16) @ Pasig
+2026-06-18  RR Italy d. Serbia 3-2 (25-14 25-15 18-25 21-25 15-12) @ Pasig
+2026-06-19  RR Serbia d. Dominican Republic 3-0 (25-19 25-23 25-18) @ Pasig
+2026-06-19  RR Japan d. Czechia 3-0 (25-15 25-23 27-25) @ Pasig
+2026-06-20  RR USA d. Italy 3-0 (27-25 25-20 25-16) @ Pasig
+2026-06-20  RR Dominican Republic d. Japan 3-1 (17-25 25-20 28-26 25-23) @ Pasig
+2026-06-21  RR USA d. Serbia 3-1 (25-22 18-25 25-16 25-20) @ Pasig
+2026-06-21  RR Czechia d. Dominican Republic 3-2 (17-25 24-26 25-18 31-29 15-10) @ Pasig
+2026-06-21  RR Italy d. Japan 3-0 (25-21 25-23 25-18) @ Pasig
+
+== Pool 6 ==
+2026-06-17  RR Canada d. Netherlands 3-1 (20-25 25-19 25-17 25-20) @ Bangkok
+2026-06-17  RR Poland d. Bulgaria 3-0 (25-12 25-22 25-23) @ Bangkok
+2026-06-17  RR Ukraine d. Thailand 3-2 (25-23 19-25 28-26 22-25 15-10) @ Bangkok [home: loser]
+2026-06-18  RR Poland d. Ukraine 3-1 (25-21 25-13 22-25 25-23) @ Bangkok
+2026-06-18  RR Thailand d. Bulgaria 3-0 (25-22 25-20 25-17) @ Bangkok [home: winner]
+2026-06-19  RR Netherlands d. Ukraine 3-0 (25-22 25-17 25-20) @ Bangkok
+2026-06-19  RR Canada d. Bulgaria 3-1 (25-17 23-25 25-23 28-26) @ Bangkok
+2026-06-20  RR Poland d. Netherlands 3-1 (25-17 25-17 14-25 25-23) @ Bangkok
+2026-06-20  RR Thailand d. Canada 3-1 (25-21 22-25 25-18 25-20) @ Bangkok [home: winner]
+2026-06-21  RR Bulgaria d. Ukraine 3-2 (25-22 19-25 21-25 25-15 17-15) @ Bangkok
+2026-06-21  RR Canada d. Poland 3-2 (25-23 21-25 25-16 11-25 15-13) @ Bangkok
+2026-06-21  RR Netherlands d. Thailand 3-0 (25-23 25-22 25-15) @ Bangkok [home: loser]
+
+== Pool 7 ==
+2026-07-08  RR Netherlands d. France 3-0 (25-22 25-18 25-23) @ Belgrade
+2026-07-08  RR Germany d. Czechia 3-1 (22-25 25-15 25-22 25-17) @ Belgrade
+2026-07-08  RR Serbia d. Bulgaria 3-0 (25-16 25-19 27-25) @ Belgrade [home: winner]
+2026-07-09  RR Netherlands d. Czechia 3-0 (25-21 25-21 25-18) @ Belgrade
+2026-07-09  RR France d. Serbia 3-2 (20-25 22-25 25-22 25-23 15-13) @ Belgrade [home: loser]
+2026-07-10  RR Czechia d. Bulgaria 3-1 (16-25 25-12 25-19 25-14) @ Belgrade
+2026-07-10  RR Netherlands d. Germany 3-0 (25-23 25-23 25-23) @ Belgrade
+2026-07-11  RR France d. Bulgaria 3-1 (23-25 25-20 30-28 25-22) @ Belgrade
+2026-07-11  RR Serbia d. Germany 3-0 (25-20 25-22 25-23) @ Belgrade [home: winner]
+2026-07-12  RR Czechia d. France 3-2 (25-12 21-25 22-25 25-17 20-18) @ Belgrade
+2026-07-12  RR Germany d. Bulgaria 3-0 (25-20 25-20 25-15) @ Belgrade
+2026-07-12  RR Serbia d. Netherlands 3-0 (25-23 25-19 25-15) @ Belgrade [home: winner]
+
+== Pool 8 ==
+2026-07-08  RR Belgium d. Dominican Republic 3-2 (25-19 25-20 14-25 24-26 15-12) @ Hong Kong
+2026-07-08  RR Italy d. Ukraine 3-1 (25-15 23-25 25-10 25-21) @ Hong Kong
+2026-07-08  RR Canada d. China 3-2 (19-25 25-17 25-22 23-25 15-11) @ Hong Kong
+2026-07-09  RR Canada d. Belgium 3-1 (10-25 25-21 25-17 27-25) @ Hong Kong
+2026-07-09  RR China d. Ukraine 3-0 (25-18 25-22 25-20) @ Hong Kong
+2026-07-10  RR Dominican Republic d. Ukraine 3-2 (25-17 25-16 22-25 19-25 15-13) @ Hong Kong
+2026-07-10  RR Italy d. Belgium 3-0 (25-20 25-16 25-19) @ Hong Kong
+2026-07-11  RR Italy d. Canada 3-2 (22-25 27-29 25-23 25-23 15-5) @ Hong Kong
+2026-07-11  RR Dominican Republic d. China 3-1 (25-22 21-25 25-23 26-24) @ Hong Kong
+2026-07-12  RR Ukraine d. Belgium 3-0 (25-23 25-20 25-13) @ Hong Kong
+2026-07-12  RR Canada d. Dominican Republic 3-1 (25-20 17-25 25-22 25-18) @ Hong Kong
+2026-07-12  RR Italy d. China 3-2 (25-19 21-25 22-25 25-12 15-12) @ Hong Kong
+
+== Pool 9 ==
+2026-07-08  RR Turkiye d. Poland 3-1 (27-25 20-25 25-19 25-19) @ Osaka
+2026-07-08  RR USA d. Thailand 3-0 (25-21 25-18 25-20) @ Osaka
+2026-07-08  RR Brazil d. Japan 3-1 (25-20 19-25 25-19 25-23) @ Osaka [home: loser]
+2026-07-09  RR Poland d. USA 3-2 (20-25 25-20 25-23 18-25 15-12) @ Osaka
+2026-07-09  RR Japan d. Thailand 3-1 (25-15 25-21 22-25 25-22) @ Osaka [home: winner]
+2026-07-10  RR USA d. Turkiye 3-2 (22-25 25-23 27-29 25-21 15-8) @ Osaka
+2026-07-10  RR Brazil d. Poland 3-1 (25-20 23-25 25-23 28-26) @ Osaka
+2026-07-11  RR Thailand d. Brazil 3-0 (25-15 25-16 25-17) @ Osaka
+2026-07-11  RR Turkiye d. Japan 3-1 (25-22 22-25 25-22 25-22) @ Osaka [home: loser]
+2026-07-12  RR USA d. Brazil 3-0 (26-24 25-22 25-16) @ Osaka
+2026-07-12  RR Turkiye d. Thailand 3-1 (25-27 25-21 25-19 25-22) @ Osaka
+2026-07-12  RR Japan d. Poland 3-2 (20-25 14-25 25-19 25-21 15-13) @ Osaka [home: winner]
+
+== Final round ==
+2026-07-22  QF Italy d. Netherlands 3-0 (25-21 25-16 25-16) @ Macau
+2026-07-22  QF Brazil d. Japan 3-1 (24-26 25-22 25-16 25-20) @ Macau
+2026-07-23  QF Turkiye d. Canada 3-1 (22-25 25-21 25-21 25-17) @ Macau
+2026-07-23  QF China d. USA 3-2 (15-25 25-23 25-20 17-25 15-13) @ Macau [home: winner]
+2026-07-25  SF Brazil d. Italy 3-2 (21-25 25-21 26-24 21-25 15-12) @ Macau
+2026-07-25  SF Turkiye d. China 3-0 (25-21 25-15 25-20) @ Macau [home: loser]
+2026-07-26  3P Italy d. China 3-1 (25-16 23-25 25-22 25-13) @ Macau [home: loser]
+2026-07-26   F Turkiye d. Brazil 3-1 (23-25 25-23 26-24 25-21) @ Macau
+
