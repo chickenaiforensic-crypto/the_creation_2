@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 39,
+  "total_editions": 40,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -507,6 +507,19 @@
       "match_count": 116,
       "checksum_sha256": "63dda3ecf56a3744c642a65b24f1e036774030ab66a983f26095ed9c82ed724c",
       "file_path": "editions/VNL_M/2026.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "OQT_W",
+      "tier": "QUAL",
+      "gender": "W",
+      "year": "2023",
+      "official_match_count": 84,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-6 Phase A (CENSUS-VB-6). Capture: Wikipedia edition-page wikitext (action=raw, 8 chunks); 84 == built == infobox count (three single-city full round-robins of 8, 28 each); per-row sources = official volleyballworld OQT schedule pages ids 16642-16725 (contiguous, asserted), FIVB vis2009 P2 PDFs alongside every row; zero forfeits. PARIS-2024 QUALIFICATION SPINE: top 2 per pool qualified directly - Pool A DOM + SRB, Pool B TUR + BRA, Pool C USA + POL, each with byte-cited qualification date; all six appear in the Olympics_W 2024 edition already locked in this store (cross-family lattice closed). Russia ineligible byte-cited. Tokyo pool carries the World Cup 2023 branding byte-cited. FIDELITY DOUBLE LOCK EXACT: recomputed spw/spl == printed pool standings for ALL 24 TEAMS across the three pools AND full W/L-category profile all 24; per-pool structure asserts (28 matches, 8 teams x 7 apps, 28 distinct pairs = true single RR). Stories preserved: TURKIYE 7-0 through Tokyo incl. 3-0 over Brazil and 3-1 over hosts Japan (first Olympic ticket, byte-cited); hosts CHINA 4th in Ningbo - out after CAN 17-15-in-the-5th and DOM 3-1; DOM beat SRB head-to-head 3-1 to top Pool A; POLAND d. USA 3-1 for the Pool C head-to-head but both through; THA d. POL 15-12-in-the-5th with a 25-7 set against; NED-CAN 32-30 opener; DOM-UKR 31-29; SRB-CZE 32-30-in-the-3rd. 16-24 Sep 2023, Ningbo/Tokyo/Lodz.",
+      "match_count": 84,
+      "checksum_sha256": "88ba3f898e13423c9e5d5d8eff205aea9a96227a6d3b5fd34fc81fc37186be9b",
+      "file_path": "editions/OQT_W/2023.json",
       "gap_count": 0
     }
   ],

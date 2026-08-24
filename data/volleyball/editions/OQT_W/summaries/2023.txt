@@ -1,0 +1,95 @@
+OQT_W 2023 — 2023 FIVB Volleyball Women's Olympic Qualification Tournaments (Road to Paris)
+tier QUAL | gender W | teams 24 | matches 84 | status closed_verified_gapless
+hosts: Pool A: Ningbo (China); Pool B: Tokyo (Japan); Pool C: Lodz (Poland)
+source policy: BUILT from cited bytes under WO-VB-6 Phase A (CENSUS-VB-6). Capture: Wikipedia edition-page wikitext (action=raw, 8 chunks); 84 == built == infobox count (three single-city full round-robins of 8, 28 
+
+== Pool A ==
+2023-09-16  RR Serbia d. Mexico 3-0 (25-16 25-19 25-23) @ Ningbo
+2023-09-16  RR Czechia d. Dominican Republic 3-2 (25-21 21-25 25-21 24-26 15-12) @ Ningbo
+2023-09-16  RR Canada d. Netherlands 3-2 (32-30 19-25 15-25 25-17 15-13) @ Ningbo
+2023-09-16  RR China d. Ukraine 3-0 (25-21 25-18 25-21) @ Ningbo [home: winner]
+2023-09-17  RR Netherlands d. Czechia 3-0 (25-13 25-18 25-21) @ Ningbo
+2023-09-17  RR Dominican Republic d. Canada 3-2 (25-17 22-25 23-25 25-18 15-12) @ Ningbo
+2023-09-17  RR Serbia d. Ukraine 3-0 (25-18 25-18 25-16) @ Ningbo
+2023-09-17  RR China d. Mexico 3-0 (25-14 25-18 25-7) @ Ningbo [home: winner]
+2023-09-19  RR Serbia d. Canada 3-0 (25-19 25-17 25-21) @ Ningbo
+2023-09-19  RR Dominican Republic d. Ukraine 3-0 (25-17 25-21 31-29) @ Ningbo
+2023-09-19  RR Netherlands d. Mexico 3-0 (25-18 25-18 25-17) @ Ningbo
+2023-09-19  RR China d. Czechia 3-0 (25-12 25-16 25-23) @ Ningbo [home: winner]
+2023-09-20  RR Netherlands d. Ukraine 3-0 (25-23 25-21 25-16) @ Ningbo
+2023-09-20  RR Dominican Republic d. Mexico 3-0 (25-17 27-25 25-16) @ Ningbo
+2023-09-20  RR Serbia d. Czechia 3-1 (25-20 25-22 30-32 25-20) @ Ningbo
+2023-09-20  RR Canada d. China 3-2 (28-26 15-25 25-23 22-25 17-15) @ Ningbo [home: loser]
+2023-09-22  RR Dominican Republic d. Serbia 3-1 (25-23 18-25 25-23 25-17) @ Ningbo
+2023-09-22  RR Canada d. Ukraine 3-1 (25-22 23-25 25-12 25-11) @ Ningbo
+2023-09-22  RR Czechia d. Mexico 3-1 (25-17 25-19 18-25 29-27) @ Ningbo
+2023-09-22  RR Netherlands d. China 3-2 (18-25 24-26 25-19 26-24 15-13) @ Ningbo [home: loser]
+2023-09-23  RR Ukraine d. Czechia 3-1 (12-25 25-23 25-18 25-15) @ Ningbo
+2023-09-23  RR Canada d. Mexico 3-0 (25-22 25-22 25-17) @ Ningbo
+2023-09-23  RR Serbia d. Netherlands 3-0 (25-19 25-16 25-20) @ Ningbo
+2023-09-23  RR Dominican Republic d. China 3-1 (25-23 21-25 25-14 25-14) @ Ningbo [home: loser]
+2023-09-24  RR Ukraine d. Mexico 3-1 (25-12 25-22 22-25 25-19) @ Ningbo
+2023-09-24  RR Canada d. Czechia 3-0 (25-20 25-19 25-21) @ Ningbo
+2023-09-24  RR Dominican Republic d. Netherlands 3-2 (25-20 20-25 25-19 23-25 15-12) @ Ningbo
+2023-09-24  RR China d. Serbia 3-1 (23-25 25-22 25-14 25-22) @ Ningbo [home: winner]
+
+== Pool B ==
+2023-09-16  RR Belgium d. Bulgaria 3-0 (25-19 26-24 25-21) @ Tokyo
+2023-09-16  RR Turkiye d. Puerto Rico 3-0 (25-19 25-16 25-14) @ Tokyo
+2023-09-16  RR Brazil d. Argentina 3-0 (25-17 25-20 25-22) @ Tokyo
+2023-09-16  RR Japan d. Peru 3-0 (25-9 25-19 25-15) @ Tokyo [home: winner]
+2023-09-17  RR Puerto Rico d. Belgium 3-1 (20-25 25-23 25-19 25-19) @ Tokyo
+2023-09-17  RR Turkiye d. Bulgaria 3-0 (25-20 25-19 25-15) @ Tokyo
+2023-09-17  RR Brazil d. Peru 3-0 (25-14 25-13 25-15) @ Tokyo
+2023-09-17  RR Japan d. Argentina 3-0 (25-18 25-18 25-23) @ Tokyo [home: winner]
+2023-09-19  RR Argentina d. Belgium 3-0 (25-21 25-20 25-18) @ Tokyo
+2023-09-19  RR Turkiye d. Peru 3-1 (25-18 25-27 25-17 29-27) @ Tokyo
+2023-09-19  RR Brazil d. Bulgaria 3-2 (25-13 22-25 27-29 25-21 15-8) @ Tokyo
+2023-09-19  RR Japan d. Puerto Rico 3-0 (25-23 25-21 25-13) @ Tokyo [home: winner]
+2023-09-20  RR Belgium d. Peru 3-0 (25-12 25-13 25-21) @ Tokyo
+2023-09-20  RR Turkiye d. Argentina 3-1 (25-16 22-25 25-15 25-15) @ Tokyo
+2023-09-20  RR Brazil d. Puerto Rico 3-0 (25-21 25-15 25-9) @ Tokyo
+2023-09-20  RR Japan d. Bulgaria 3-0 (25-20 25-13 25-11) @ Tokyo [home: winner]
+2023-09-22  RR Puerto Rico d. Argentina 3-2 (28-30 19-25 25-19 25-23 15-8) @ Tokyo
+2023-09-22  RR Bulgaria d. Peru 3-0 (25-13 25-18 25-16) @ Tokyo
+2023-09-22  RR Turkiye d. Brazil 3-0 (25-21 29-27 25-19) @ Tokyo
+2023-09-22  RR Japan d. Belgium 3-0 (28-26 25-18 25-14) @ Tokyo [home: winner]
+2023-09-23  RR Puerto Rico d. Peru 3-0 (26-24 25-22 25-21) @ Tokyo
+2023-09-23  RR Argentina d. Bulgaria 3-2 (25-14 14-25 25-20 19-25 18-16) @ Tokyo
+2023-09-23  RR Brazil d. Belgium 3-0 (25-18 25-14 25-20) @ Tokyo
+2023-09-23  RR Turkiye d. Japan 3-1 (22-25 25-22 26-24 25-12) @ Tokyo [home: loser]
+2023-09-24  RR Puerto Rico d. Bulgaria 3-1 (25-14 20-25 25-18 25-12) @ Tokyo
+2023-09-24  RR Argentina d. Peru 3-2 (20-25 25-12 10-25 25-18 15-10) @ Tokyo
+2023-09-24  RR Turkiye d. Belgium 3-0 (25-14 25-20 25-21) @ Tokyo
+2023-09-24  RR Brazil d. Japan 3-2 (25-21 22-25 27-25 15-25 15-10) @ Tokyo [home: loser]
+
+== Pool C ==
+2023-09-16  RR USA d. Colombia 3-0 (25-12 25-12 25-13) @ Lodz
+2023-09-16  RR Germany d. Thailand 3-0 (25-22 25-22 25-20) @ Lodz
+2023-09-16  RR Poland d. Slovenia 3-0 (25-18 25-15 25-22) @ Lodz [home: winner]
+2023-09-16  RR Italy d. South Korea 3-0 (25-11 25-20 25-17) @ Lodz
+2023-09-17  RR Germany d. Colombia 3-1 (23-25 28-26 25-19 25-14) @ Lodz
+2023-09-17  RR USA d. Thailand 3-0 (25-13 25-16 25-18) @ Lodz
+2023-09-17  RR Poland d. South Korea 3-1 (25-22 24-26 25-21 25-9) @ Lodz [home: winner]
+2023-09-17  RR Italy d. Slovenia 3-0 (25-15 25-15 25-17) @ Lodz
+2023-09-19  RR Germany d. South Korea 3-2 (25-13 25-21 23-25 22-25 15-7) @ Lodz
+2023-09-19  RR Italy d. Thailand 3-1 (25-19 21-25 25-22 25-18) @ Lodz
+2023-09-19  RR Poland d. Colombia 3-0 (25-21 25-21 25-13) @ Lodz [home: winner]
+2023-09-19  RR USA d. Slovenia 3-1 (25-13 25-13 20-25 25-13) @ Lodz
+2023-09-20  RR Italy d. Colombia 3-0 (25-15 25-20 25-20) @ Lodz
+2023-09-20  RR USA d. South Korea 3-1 (20-25 25-17 25-19 25-17) @ Lodz
+2023-09-20  RR Thailand d. Poland 3-2 (25-18 7-25 25-22 23-25 15-12) @ Lodz [home: loser]
+2023-09-20  RR Germany d. Slovenia 3-2 (17-25 25-21 19-25 25-16 15-12) @ Lodz
+2023-09-22  RR Colombia d. South Korea 3-2 (25-12 14-25 20-25 25-20 15-9) @ Lodz
+2023-09-22  RR Thailand d. Slovenia 3-0 (25-21 25-23 25-18) @ Lodz
+2023-09-22  RR Poland d. Germany 3-2 (20-25 27-25 25-21 22-25 15-12) @ Lodz [home: winner]
+2023-09-22  RR USA d. Italy 3-1 (25-19 23-25 25-21 25-18) @ Lodz
+2023-09-23  RR Slovenia d. Colombia 3-2 (25-17 19-25 24-26 25-18 15-11) @ Lodz
+2023-09-23  RR Thailand d. South Korea 3-0 (25-14 25-16 25-16) @ Lodz
+2023-09-23  RR Poland d. USA 3-1 (27-25 16-25 25-23 25-16) @ Lodz [home: winner]
+2023-09-23  RR Italy d. Germany 3-0 (25-20 25-22 25-15) @ Lodz
+2023-09-24  RR Slovenia d. South Korea 3-0 (25-13 25-20 25-23) @ Lodz
+2023-09-24  RR Thailand d. Colombia 3-1 (25-19 20-25 25-23 28-26) @ Lodz
+2023-09-24  RR USA d. Germany 3-1 (24-26 25-21 25-9 25-16) @ Lodz
+2023-09-24  RR Poland d. Italy 3-1 (15-25 26-24 25-23 25-21) @ Lodz [home: winner]
+
