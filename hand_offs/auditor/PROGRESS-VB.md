@@ -12,7 +12,7 @@ Program law: `hand_offs/auditor/PLAN-VB-2026-08-23-AUD1.md` · Landscape census:
 | WO-VB-3 | Olympics M+W 2021(Tokyo-2020), 2024 | **DONE** (FIDELITY 48/48; ROC adjudication; Olympics_README + REPLY-VB-3 + CALENDAR-MATRIX) | 4/4 (128 rows) | 2a152fa, 8cea5d2, 1fbaeac, this | REPLY-VB-3 |
 | WO-VB-4 | AVC/NORCECA/CSV/CAVB championships 2021–2025 | **DONE** (15/15; 5 FIDELITY catches proven; 7 forfeit rows; Continental_README + REPLY-VB-4) | 15/15 (412 rows) | 03c280e…this | REPLY-VB-4 |
 | WO-VB-5 | VNL M+W 2021–2026 | **CLOSED 12/12** (1,336 rows == census grid; REPLY-VB-5 + VNL_README filed; catches #6/#7/#8) | 12/12 (1336 rows) | census c41ea05, 4fd0585, 2086276, 2472b58, fcd3d8f, d9ce397, 4e9d5ec, 65b43ea, closure this | — |
-| WO-VB-6 | Qualifiers: OQT-2023, EuroVolley quals, European League, Challenger Cup | QUEUED (census per event) | 0/~20 | — | — |
+| WO-VB-6 | Qualifiers: OQT-2023, Challenger Cups 2022-24, EuroVolley quals, European League | **IN-FLIGHT — CENSUS-VB-6 FILED** (Phase A byte-locked: 8 events / 216 rows; Challenger Cup discontinuation ADJUDICATED byte-proven; Phase B scoped, census-per-event) | 0/8 Phase A built | census this commit | — |
 | WO-VB-7 | Club: Club World Ch 2021–2025 (+CL depth = Director call) | QUEUED | 0/~10 | — | — |
 | WO-VB-8 | 2026 post-event queue (10 continentals + Club WCh as they finish; EuroVolley-W final 2026-09-06) | ROLLING | 0/~11 | — | — |
 
