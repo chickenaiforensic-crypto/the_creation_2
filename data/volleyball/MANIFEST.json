@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 40,
+  "total_editions": 43,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -520,6 +520,45 @@
       "match_count": 84,
       "checksum_sha256": "88ba3f898e13423c9e5d5d8eff205aea9a96227a6d3b5fd34fc81fc37186be9b",
       "file_path": "editions/OQT_W/2023.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "OQT_M",
+      "tier": "QUAL",
+      "gender": "M",
+      "year": "2023",
+      "official_match_count": 84,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-6 Phase A (CENSUS-VB-6). Capture: Wikipedia edition-page wikitext (action=raw, 8 chunks); 84 == built == infobox count; per-row sources = official volleyballworld OQT schedule ids 16726-16809 (contiguous, asserted - continues the W-OQT block 16642-16725: one OQT id sequence, women first), FIVB vis2009 P2 PDFs alongside; zero forfeits. SOURCE DEFECT DISCLOSED: USA-TUN printed href duplicated 16758 - corrected to unique in-block 16768 (P2 vis 256629452 unique), same defect class as the AVC-M-2023 duplicated vis id. PARIS-2024 SPINE BYTE-PROVEN: GER + BRA (Rio - Germany 7-0 over the hosts' pool incl. 3-1 over Brazil), USA + JPN (Tokyo - USA 7-0, took the head-to-head 3-2 12-15-in-the-5th), POL + CAN (Xi'an - Poland 7-0 incl. 16-14-in-the-5th over hosts China; CANADA seized the final ticket on the last day after BULGARIA stopped BELGIUM 15-13-in-the-5th, byte-cited); POST-AUDIT cross-family check: all six qualifiers present in the Olympics_M 2024 edition already locked in store. ITALY - reigning world champions - MISSED Paris qualification via OQT (4th in Pool A; they later entered via ranking, as the store's Olympics_M 2024 field shows them present). FIDELITY DOUBLE LOCK EXACT: recomputed spw/spl == printed pool standings ALL 24 TEAMS AND full W/L-category profiles all 24; per-pool true-RR asserts. Stories: BRA d. UKR 38-36 OPENER (74 pts, joins the 40-38 band region), hosts China 0-7 bar one win in Xi'an (7th), MEX 0-7, three 7-0 pool winners (GER/USA/POL), KOR absent (men). 30 Sep - 8 Oct 2023, Rio/Tokyo/Xi'an.",
+      "match_count": 84,
+      "checksum_sha256": "629d9153b3d6f4d4ed07f0223022e69183e07586675e530ea5927d13b809c0f7",
+      "file_path": "editions/OQT_M/2023.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "Challenger_Cup_M",
+      "tier": "QUAL",
+      "gender": "M",
+      "year": "2022",
+      "official_match_count": 8,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-6 Phase A (CENSUS-VB-6). Capture: Wikipedia edition-page wikitext (action=raw, 2 chunks); 8 == built == infobox count (8-team KO: QF/SF/3P/F, host vs lowest-ranked QF per printed formula); per-row sources = official volleyballworld challenger-cup-2022 schedule pages, P2 PDFs alongside except forfeit rows. Bracket spine exact (F == SF winners, 3P == SF losers, SF fields == QF winners). VNL-QUALIFIER SPINE: champions Cuba earned the 2023 VNL place (replacing relegated Australia - the loop the M-2022/M-2023 VNL editions in this store close); hosts South Korea bronze after a 22-20 fifth set over Czechia. Debutants byte-cited: KOR, AUS, QAT, TUN. Host-v-lowest-ranked QF formula byte-read (KOR-AUS).",
+      "match_count": 8,
+      "checksum_sha256": "1e401d10d6bef5a6625c08fe31e103d5c5ff8bfb2ce4131f2bde774852bb89b8",
+      "file_path": "editions/Challenger_Cup_M/2022.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "Challenger_Cup_W",
+      "tier": "QUAL",
+      "gender": "W",
+      "year": "2022",
+      "official_match_count": 8,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-6 Phase A (CENSUS-VB-6). Capture: Wikipedia edition-page wikitext (action=raw, 2 chunks); 8 == built == infobox count (8-team KO: QF/SF/3P/F, host vs lowest-ranked QF per printed formula); per-row sources = official volleyballworld challenger-cup-2022 schedule pages, P2 PDFs alongside except forfeit rows. Bracket spine exact (F == SF winners, 3P == SF losers, SF fields == QF winners). VNL-QUALIFIER SPINE: champions Croatia (hosts) earned the 2023 VNL place replacing Belgium - and beat Belgium themselves in the final (the loop the W-2022/W-2023 VNL editions in this store close). FORFEIT ROW: Cameroon withdrew - COULD NOT ACQUIRE ENTRY VISAS TO CROATIA (NoteA, wire-cited) - PUR 3-0 awarded 25-0 25-0 25-0, federation-recorded; NEW FORFEIT CLASS in store (visa denial) joining removed-financial, walkover and COVID classes. France present via 2022 Golden League title (European-League feed byte-read).",
+      "match_count": 8,
+      "checksum_sha256": "fbff8ef62516e6046a02194d61c766cc8207decfe4f9434fd683eb6d68a391d7",
+      "file_path": "editions/Challenger_Cup_W/2022.json",
       "gap_count": 0
     }
   ],

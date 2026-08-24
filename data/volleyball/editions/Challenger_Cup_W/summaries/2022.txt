@@ -1,0 +1,15 @@
+Challenger_Cup_W 2022 — 2022 FIVB Women's Volleyball Challenger Cup - 3rd edition (Zadar)
+tier QUAL | gender W | teams 8 | matches 8 | status closed_verified_gapless
+hosts: Zadar (Croatia)
+source policy: BUILT from cited bytes under WO-VB-6 Phase A (CENSUS-VB-6). Capture: Wikipedia edition-page wikitext (action=raw, 2 chunks); 8 == built == infobox count (8-team KO: QF/SF/3P/F, host vs lowest-ranked Q
+
+== Knockout ==
+2022-07-28  QF Belgium d. Czechia 3-0 (25-18 25-23 25-15) @ Zadar
+2022-07-28  QF Croatia d. Kazakhstan 3-0 (25-20 25-15 25-20) @ Zadar [home: winner]
+2022-07-29  QF Colombia d. France 3-2 (25-17 25-16 22-25 11-25 16-14) @ Zadar
+2022-07-29  QF Puerto Rico d. Cameroon 3-0 (25-0 25-0 25-0) @ Zadar [FORFEIT]
+2022-07-30  SF Belgium d. Colombia 3-1 (21-25 25-20 25-21 25-16) @ Zadar
+2022-07-30  SF Croatia d. Puerto Rico 3-1 (26-24 25-17 23-25 25-17) @ Zadar [home: winner]
+2022-07-31  3P Puerto Rico d. Colombia 3-1 (27-25 23-25 25-23 25-18) @ Zadar
+2022-07-31   F Croatia d. Belgium 3-1 (25-20 21-25 25-22 25-21) @ Zadar [home: winner]
+

@@ -1,0 +1,15 @@
+Challenger_Cup_M 2022 — 2022 FIVB Men's Volleyball Challenger Cup - 3rd edition (Seoul)
+tier QUAL | gender M | teams 8 | matches 8 | status closed_verified_gapless
+hosts: Seoul (South Korea)
+source policy: BUILT from cited bytes under WO-VB-6 Phase A (CENSUS-VB-6). Capture: Wikipedia edition-page wikitext (action=raw, 2 chunks); 8 == built == infobox count (8-team KO: QF/SF/3P/F, host vs lowest-ranked Q
+
+== Knockout ==
+2022-07-28  QF Cuba d. Chile 3-0 (25-20 25-19 25-19) @ Seoul
+2022-07-28  QF South Korea d. Australia 3-2 (23-25 25-23 25-18 22-25 15-13) @ Seoul [home: winner]
+2022-07-29  QF Turkiye d. Qatar 3-1 (25-23 25-16 22-25 25-15) @ Seoul
+2022-07-29  QF Czechia d. Tunisia 3-1 (25-16 17-25 28-26 25-16) @ Seoul
+2022-07-30  SF Cuba d. Czechia 3-0 (25-22 25-18 25-18) @ Seoul
+2022-07-30  SF Turkiye d. South Korea 3-0 (26-24 25-21 25-22) @ Seoul [home: loser]
+2022-07-31  3P South Korea d. Czechia 3-2 (25-19 25-16 24-26 23-25 22-20) @ Seoul [home: winner]
+2022-07-31   F Cuba d. Turkiye 3-1 (25-17 23-25 25-20 25-20) @ Seoul
+

@@ -1,0 +1,95 @@
+OQT_M 2023 — 2023 FIVB Volleyball Men's Olympic Qualification Tournaments (Road to Paris)
+tier QUAL | gender M | teams 24 | matches 84 | status closed_verified_gapless
+hosts: Pool A: Rio de Janeiro (Brazil); Pool B: Tokyo (Japan); Pool C: Xi'an (China)
+source policy: BUILT from cited bytes under WO-VB-6 Phase A (CENSUS-VB-6). Capture: Wikipedia edition-page wikitext (action=raw, 8 chunks); 84 == built == infobox count; per-row sources = official volleyballworld OQ
+
+== Pool A ==
+2023-09-30  RR Brazil d. Qatar 3-0 (25-16 25-19 26-24) @ Rio de Janeiro [home: winner]
+2023-09-30  RR Italy d. Czechia 3-1 (24-26 25-18 25-22 25-19) @ Rio de Janeiro
+2023-09-30  RR Germany d. Iran 3-1 (25-22 22-25 25-16 25-21) @ Rio de Janeiro
+2023-09-30  RR Cuba d. Ukraine 3-0 (25-16 25-19 25-18) @ Rio de Janeiro
+2023-10-01  RR Brazil d. Czechia 3-2 (22-25 25-16 25-20 21-25 16-14) @ Rio de Janeiro [home: winner]
+2023-10-01  RR Germany d. Cuba 3-1 (21-25 25-14 25-22 25-15) @ Rio de Janeiro
+2023-10-01  RR Italy d. Qatar 3-0 (25-19 25-20 25-19) @ Rio de Janeiro
+2023-10-01  RR Ukraine d. Iran 3-0 (25-19 25-22 25-17) @ Rio de Janeiro
+2023-10-03  RR Iran d. Qatar 3-1 (25-23 23-25 25-17 25-23) @ Rio de Janeiro
+2023-10-03  RR Cuba d. Czechia 3-0 (26-24 25-21 25-21) @ Rio de Janeiro
+2023-10-03  RR Italy d. Ukraine 3-0 (25-23 25-16 25-16) @ Rio de Janeiro
+2023-10-03  RR Germany d. Brazil 3-1 (21-25 25-19 25-19 28-26) @ Rio de Janeiro [home: loser]
+2023-10-04  RR Czechia d. Iran 3-1 (25-17 25-22 21-25 25-20) @ Rio de Janeiro
+2023-10-04  RR Germany d. Italy 3-1 (26-24 18-25 25-20 25-23) @ Rio de Janeiro
+2023-10-04  RR Cuba d. Qatar 3-0 (25-21 25-21 25-16) @ Rio de Janeiro
+2023-10-04  RR Brazil d. Ukraine 3-2 (36-38 25-20 21-25 25-18 15-11) @ Rio de Janeiro [home: winner]
+2023-10-06  RR Brazil d. Cuba 3-1 (23-25 25-18 25-20 25-20) @ Rio de Janeiro [home: winner]
+2023-10-06  RR Italy d. Iran 3-0 (25-22 25-22 25-23) @ Rio de Janeiro
+2023-10-06  RR Ukraine d. Qatar 3-1 (25-22 27-29 26-24 25-21) @ Rio de Janeiro
+2023-10-06  RR Germany d. Czechia 3-0 (25-23 25-18 25-17) @ Rio de Janeiro
+2023-10-07  RR Brazil d. Iran 3-0 (25-19 25-20 25-23) @ Rio de Janeiro [home: winner]
+2023-10-07  RR Cuba d. Italy 3-1 (25-22 21-25 27-25 29-27) @ Rio de Janeiro
+2023-10-07  RR Ukraine d. Czechia 3-1 (25-19 25-15 23-25 25-20) @ Rio de Janeiro
+2023-10-07  RR Germany d. Qatar 3-0 (25-15 25-20 25-16) @ Rio de Janeiro
+2023-10-08  RR Brazil d. Italy 3-2 (25-23 23-25 15-25 25-17 15-11) @ Rio de Janeiro [home: winner]
+2023-10-08  RR Cuba d. Iran 3-2 (25-20 23-25 23-25 25-13 15-9) @ Rio de Janeiro
+2023-10-08  RR Germany d. Ukraine 3-0 (25-17 25-12 25-14) @ Rio de Janeiro
+2023-10-08  RR Czechia d. Qatar 3-1 (25-27 28-26 25-23 25-21) @ Rio de Janeiro
+
+== Pool B ==
+2023-09-30  RR Slovenia d. Tunisia 3-0 (25-20 25-18 25-21) @ Tokyo
+2023-09-30  RR Turkiye d. Serbia 3-1 (25-22 20-25 25-14 25-20) @ Tokyo
+2023-09-30  RR USA d. Egypt 3-0 (25-20 25-16 25-19) @ Tokyo
+2023-09-30  RR Japan d. Finland 3-2 (25-17 25-15 25-27 19-25 15-12) @ Tokyo [home: winner]
+2023-10-01  RR Slovenia d. Turkiye 3-0 (28-26 30-28 25-22) @ Tokyo
+2023-10-01  RR Serbia d. Tunisia 3-0 (25-21 25-16 25-21) @ Tokyo
+2023-10-01  RR USA d. Finland 3-0 (25-17 25-15 25-17) @ Tokyo
+2023-10-01  RR Egypt d. Japan 3-2 (14-25 10-25 25-23 25-23 15-13) @ Tokyo [home: loser]
+2023-10-03  RR Slovenia d. Finland 3-1 (25-19 18-25 25-20 25-18) @ Tokyo
+2023-10-03  RR Serbia d. Egypt 3-1 (18-25 25-19 25-14 25-16) @ Tokyo
+2023-10-03  RR USA d. Turkiye 3-1 (25-17 26-28 32-30 25-20) @ Tokyo
+2023-10-03  RR Japan d. Tunisia 3-0 (25-14 25-16 25-15) @ Tokyo [home: winner]
+2023-10-04  RR Slovenia d. Egypt 3-1 (23-25 25-22 25-17 25-14) @ Tokyo
+2023-10-04  RR Serbia d. Finland 3-0 (25-21 25-22 25-22) @ Tokyo
+2023-10-04  RR USA d. Tunisia 3-0 (25-11 25-12 25-14) @ Tokyo
+2023-10-04  RR Japan d. Turkiye 3-0 (25-15 25-20 25-19) @ Tokyo [home: winner]
+2023-10-06  RR Turkiye d. Finland 3-2 (25-22 25-23 23-25 23-25 15-8) @ Tokyo
+2023-10-06  RR Egypt d. Tunisia 3-2 (15-25 13-25 25-21 29-27 15-9) @ Tokyo
+2023-10-06  RR USA d. Slovenia 3-1 (25-18 21-25 25-20 25-18) @ Tokyo
+2023-10-06  RR Japan d. Serbia 3-0 (25-17 25-14 25-22) @ Tokyo [home: winner]
+2023-10-07  RR Turkiye d. Egypt 3-1 (25-21 25-18 20-25 25-23) @ Tokyo
+2023-10-07  RR Finland d. Tunisia 3-0 (25-19 25-23 25-15) @ Tokyo
+2023-10-07  RR USA d. Serbia 3-0 (25-18 25-18 25-17) @ Tokyo
+2023-10-07  RR Japan d. Slovenia 3-0 (25-21 25-22 25-18) @ Tokyo [home: winner]
+2023-10-08  RR Finland d. Egypt 3-2 (25-12 20-25 20-25 25-22 15-13) @ Tokyo
+2023-10-08  RR Turkiye d. Tunisia 3-0 (25-13 25-22 29-27) @ Tokyo
+2023-10-08  RR Slovenia d. Serbia 3-0 (25-22 25-23 25-21) @ Tokyo
+2023-10-08  RR USA d. Japan 3-2 (25-19 22-25 19-25 25-23 15-12) @ Tokyo [home: loser]
+
+== Pool C ==
+2023-09-30  RR Argentina d. Mexico 3-0 (25-20 25-17 25-19) @ Xi'an
+2023-09-30  RR Canada d. Netherlands 3-2 (25-21 23-25 24-26 25-18 15-12) @ Xi'an
+2023-09-30  RR Poland d. Belgium 3-2 (23-25 25-20 25-16 21-25 17-15) @ Xi'an
+2023-09-30  RR Bulgaria d. China 3-0 (25-18 25-19 25-14) @ Xi'an [home: loser]
+2023-10-01  RR Canada d. Argentina 3-1 (27-25 25-22 23-25 25-15) @ Xi'an
+2023-10-01  RR Netherlands d. Mexico 3-0 (25-19 25-19 25-16) @ Xi'an
+2023-10-01  RR Poland d. Bulgaria 3-0 (26-24 25-20 25-21) @ Xi'an
+2023-10-01  RR Belgium d. China 3-1 (25-18 22-25 25-19 25-17) @ Xi'an [home: loser]
+2023-10-03  RR Argentina d. Bulgaria 3-0 (27-25 25-21 31-29) @ Xi'an
+2023-10-03  RR Belgium d. Netherlands 3-0 (25-22 25-19 25-15) @ Xi'an
+2023-10-03  RR Poland d. Canada 3-2 (21-25 25-20 25-20 20-25 17-15) @ Xi'an
+2023-10-03  RR China d. Mexico 3-0 (25-21 25-9 25-19) @ Xi'an [home: winner]
+2023-10-04  RR Bulgaria d. Netherlands 3-0 (25-23 25-21 30-28) @ Xi'an
+2023-10-04  RR Argentina d. Belgium 3-2 (25-22 25-23 18-25 21-25 15-13) @ Xi'an
+2023-10-04  RR Poland d. Mexico 3-0 (25-21 25-19 25-14) @ Xi'an
+2023-10-04  RR Canada d. China 3-0 (25-19 25-22 26-24) @ Xi'an [home: loser]
+2023-10-06  RR Canada d. Bulgaria 3-0 (25-21 25-17 25-18) @ Xi'an
+2023-10-06  RR Belgium d. Mexico 3-0 (25-18 25-21 25-17) @ Xi'an
+2023-10-06  RR Poland d. Argentina 3-1 (25-23 23-25 28-26 25-20) @ Xi'an
+2023-10-06  RR Netherlands d. China 3-2 (22-25 25-16 25-16 21-25 15-11) @ Xi'an [home: loser]
+2023-10-07  RR Belgium d. Canada 3-1 (25-14 22-25 30-28 25-16) @ Xi'an
+2023-10-07  RR Bulgaria d. Mexico 3-0 (25-23 25-19 25-22) @ Xi'an
+2023-10-07  RR Poland d. Netherlands 3-1 (21-25 25-17 25-22 29-27) @ Xi'an
+2023-10-07  RR Argentina d. China 3-2 (22-25 25-22 25-19 20-25 15-12) @ Xi'an [home: loser]
+2023-10-08  RR Bulgaria d. Belgium 3-2 (25-21 23-25 21-25 25-22 15-13) @ Xi'an
+2023-10-08  RR Argentina d. Netherlands 3-0 (25-17 27-25 25-22) @ Xi'an
+2023-10-08  RR Canada d. Mexico 3-0 (25-20 25-21 25-15) @ Xi'an
+2023-10-08  RR Poland d. China 3-2 (25-20 23-25 22-25 25-9 16-14) @ Xi'an [home: loser]
+
