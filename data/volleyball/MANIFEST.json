@@ -1,6 +1,6 @@
 {
   "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
-  "total_editions": 35,
+  "total_editions": 37,
   "editions": [
     {
       "competition": "EuroVolley_W",
@@ -455,6 +455,32 @@
       "match_count": 104,
       "checksum_sha256": "038288e9bae757bfdd92146de5c5addf72b4d5861ee17722be7a706a91da7638",
       "file_path": "editions/VNL_M/2024.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "VNL_W",
+      "tier": "VNL",
+      "gender": "W",
+      "year": "2025",
+      "official_match_count": 116,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 9 chunks; two 502 retries disclosed, no data impact); 116 == built (108 prelim in nine 6-team pools + Final 8); per-row sources = official volleyballworld schedule ids 21553-21668 (contiguous, asserted - continues the M-2025 block 21437-21552: the whole 2025 season is ONE id sequence, men first), FIVB vis2009 P2 PDFs alongside every row; zero forfeits. SOURCE-CLASS NOTE DISCLOSED: 2025 pages carry per-row ids via the VNL-game template rather than explicit hrefs - ids byte-read from wikitext, year-agnostic schedule URL recorded. FIRST 18-TEAM WOMEN'S VNL: reform byte-read (9 pools of 6, 12 matches/pool, each team 4 apps/week by algorithm, 12 total; 36 matches per week across 3 parallel cities); structure asserts extended for the new shape (9 pools x 12 x 6 teams x 4 apps; 18 teams x 12 apps overall). Pool/city map: Ottawa(CAN)/Rio(BRA)/Beijing(CHN) + Istanbul(TUR)/Hong Kong(all-N)/Belgrade(SRB) + Apeldoorn(NED)/Arlington(USA)/Chiba(JPN); finals Lodz(POL). EXPANSION LATTICE: Czechia debut (2024 Challenger Cup winners) + Belgium return (ranking slot); NEW DIRECT-RELEGATION MECHANIC byte-proven - South Korea 18th printed EX Excluded from the 2026 Nations League (loses place to highest-ranked non-participant). FIDELITY DOUBLE LOCK EXACT: recomputed spw/spl == printed combined standings ALL 18 TEAMS AND full W/L-category profile all 18 (Italy unbeaten 12-0); spine exact incl. QF 1v8 ITA-USA / 2v7 BRA-GER / 3v6 JPN-TUR / 4v5 POL-CHN per printed formula. Champions ITALY - THIRD VNL TITLE, second straight (MVP + best libero Monica De Gennaro, best setter Orro, best opposite Egonu, coach Velasco) d. Brazil 3-1 in Lodz; POLAND THIRD CONSECUTIVE BRONZE at home over Japan. Notable: CZE d. USA 27-25 IN THE FIFTH (52 points - NEW STORE LONGEST-FIFTH-SET RECORD, tops KOR-CAN 21-19), BUL-DOM 32-30/31-29 in one match, CZE-THA 32-30, ITA-CHN 32-30, CHN-TUR 31-29, CAN d. BUL 15-4 fifth (store-low fifth-set score), JPN-ITA 19-17 fifth (ties #2 longest-fifth band), DOM-SRB 18-16 fifth. 4 Jun - 27 Jul 2025.",
+      "match_count": 116,
+      "checksum_sha256": "aca2f2e48fd0edb5c7e9119aa823bfbad13c23073749e4401613e46d522d267e",
+      "file_path": "editions/VNL_W/2025.json",
+      "gap_count": 0
+    },
+    {
+      "competition": "VNL_M",
+      "tier": "VNL",
+      "gender": "M",
+      "year": "2025",
+      "official_match_count": 116,
+      "status": "closed_verified_gapless",
+      "source": "BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 10 chunks); 116 == built (108 prelim in nine 6-team pools + Final 8); per-row sources = official volleyballworld schedule ids 21437-21552 (contiguous, asserted; W-2025 continues at 21553 - one 2025 sequence, men first; note id 21509 is the 20 Jul USA-JPN row, printed out of pool order but inside the block), FIVB vis2009 P2 PDFs alongside every row; zero forfeits. SOURCE-CLASS NOTE DISCLOSED: per-row ids via VNL-game template as in W-2025. FIRST 18-TEAM MEN'S VNL: same reform shape asserted (9 pools x 12 x 6 teams x 4 apps; 18 x 12 overall). Pool/city map: Quebec City(CAN)/Rio(BRA)/Xi'an(CHN) + Burgas(BUL)/Hoffman Estates(USA)/Belgrade(SRB) + Gdansk(POL)/Ljubljana(SLO)/Chiba(JPN); finals Ningbo(CHN). EXPANSION LATTICE: China comeback (2024 Challenger Cup) + UKRAINE VNL DEBUT (ranking slot; nation already present in the store ledger via EuroVolley - no ledger change, disclosed); NETHERLANDS 18th EXCLUDED from 2026 (direct relegation). HOST-SEEDING EDGE-CASE BYTE-PROVEN: hosts China 17th replaced 8th-ranked Iran as 8th seed (result17=QH, IRI absent from finals) - second such case in the store after W-2024. FIDELITY DOUBLE LOCK EXACT: recomputed spw/spl == printed combined standings ALL 18 TEAMS AND full W/L-category profile all 18; spine exact incl. QF 1v8 BRA-CHN / 2v7 ITA-CUB / 3v6 FRA-SLO / 4v5 JPN-POL. Champions POLAND - SECOND VNL TITLE (MVP + best MB Jakub Kochanowski, coach Grbic) d. Italy 3-0 in Ningbo - ITALY'S FIRST VNL MEDAL; Brazil bronze over Slovenia (SLO best-ever 4th repeat). Notable: ITA d. ARG 37-35 third set (72 pts), POL d. JPN 39-37 fourth (76 - joins the 40-38 band tier), CHN d. CUB 19-17 fifth (ties #2 longest-fifth band), SLO d. SRB 17-15 fifth, ARG d. TUR 17-15 fifth, FRA-POL 32-30 opener, CAN-POL 32-30 opener, BRA-ITA 33-31 third, BRA QF 31-29 opener vs CHN. 11 Jun - 3 Aug 2025.",
+      "match_count": 116,
+      "checksum_sha256": "198560154823674e69e74ed28c9f43384fb83adb5aec9d0fe793b5201550612f",
+      "file_path": "editions/VNL_M/2025.json",
       "gap_count": 0
     }
   ],

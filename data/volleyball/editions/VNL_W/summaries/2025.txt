@@ -1,0 +1,141 @@
+VNL_W 2025 — 2025 FIVB Women's Volleyball Nations League - 7th edition (first 18-team format)
+tier VNL | gender W | teams 18 | matches 116 | status closed_verified_gapless
+hosts: Preliminary: Canada, Brazil, China, Turkiye, Hong Kong (China), Serbia, Netherlands, USA, Japan; Finals: Poland (Atlas Arena, Lodz)
+source policy: BUILT from cited bytes under WO-VB-5 (PLAN-VB + CENSUS-VB-5). Capture: Wikipedia edition-page wikitext (action=raw, 9 chunks; two 502 retries disclosed, no data impact); 116 == built (108 prelim in ni
+
+== Pool 1 ==
+2025-06-04  RR Japan d. Netherlands 3-0 (25-17 25-15 25-16) @ Ottawa
+2025-06-04  RR Dominican Republic d. Serbia 3-2 (26-28 19-25 25-15 25-20 18-16) @ Ottawa
+2025-06-04  RR Canada d. Bulgaria 3-2 (25-18 25-12 23-25 19-25 15-4) @ Ottawa [home: winner]
+2025-06-05  RR Bulgaria d. Dominican Republic 3-1 (25-21 30-32 25-19 31-29) @ Ottawa
+2025-06-05  RR Netherlands d. Canada 3-1 (25-18 22-25 25-15 25-23) @ Ottawa [home: loser]
+2025-06-06  RR Dominican Republic d. Netherlands 3-2 (22-25 25-19 28-26 22-25 15-13) @ Ottawa
+2025-06-06  RR Japan d. Serbia 3-0 (25-19 25-21 25-13) @ Ottawa
+2025-06-07  RR Japan d. Canada 3-0 (26-24 25-20 25-19) @ Ottawa [home: loser]
+2025-06-07  RR Bulgaria d. Serbia 3-2 (12-25 25-19 25-16 10-25 17-15) @ Ottawa
+2025-06-08  RR Japan d. Dominican Republic 3-0 (25-19 25-21 25-9) @ Ottawa
+2025-06-08  RR Netherlands d. Bulgaria 3-0 (25-21 25-16 25-23) @ Ottawa
+2025-06-08  RR Canada d. Serbia 3-2 (20-25 18-25 25-20 25-18 15-12) @ Ottawa [home: winner]
+
+== Pool 2 ==
+2025-06-04  RR Italy d. USA 3-0 (25-13 25-13 30-28) @ Rio de Janeiro
+2025-06-04  RR Brazil d. Czechia 3-0 (25-21 25-20 25-17) @ Rio de Janeiro [home: winner]
+2025-06-04  RR Germany d. South Korea 3-0 (25-17 25-15 25-21) @ Rio de Janeiro
+2025-06-05  RR Italy d. Germany 3-2 (22-25 25-10 20-25 25-13 15-9) @ Rio de Janeiro
+2025-06-05  RR Brazil d. USA 3-0 (25-18 25-17 25-19) @ Rio de Janeiro [home: winner]
+2025-06-06  RR Italy d. South Korea 3-0 (25-13 25-13 25-17) @ Rio de Janeiro
+2025-06-06  RR Czechia d. USA 3-2 (23-25 20-25 25-17 25-20 27-25) @ Rio de Janeiro
+2025-06-07  RR Brazil d. Germany 3-2 (25-23 21-25 23-25 25-20 15-8) @ Rio de Janeiro [home: winner]
+2025-06-07  RR Czechia d. South Korea 3-2 (17-25 25-17 21-25 25-9 15-9) @ Rio de Janeiro
+2025-06-08  RR Italy d. Brazil 3-0 (25-22 25-18 29-27) @ Rio de Janeiro [home: loser]
+2025-06-08  RR Germany d. Czechia 3-1 (25-22 25-18 22-25 25-23) @ Rio de Janeiro
+2025-06-08  RR USA d. South Korea 3-0 (25-13 28-26 25-17) @ Rio de Janeiro
+
+== Pool 3 ==
+2025-06-04  RR Turkiye d. France 3-1 (25-17 23-25 25-13 25-14) @ Beijing
+2025-06-04  RR Poland d. Thailand 3-0 (25-22 26-24 25-22) @ Beijing
+2025-06-04  RR China d. Belgium 3-0 (25-18 27-25 25-13) @ Beijing [home: winner]
+2025-06-05  RR Belgium d. Thailand 3-1 (25-22 25-23 24-26 25-22) @ Beijing
+2025-06-05  RR Poland d. China 3-1 (25-22 20-25 25-19 25-21) @ Beijing [home: loser]
+2025-06-06  RR France d. Belgium 3-1 (25-22 13-25 25-13 25-19) @ Beijing
+2025-06-06  RR Turkiye d. Thailand 3-0 (25-23 25-14 25-22) @ Beijing
+2025-06-07  RR Turkiye d. Poland 3-2 (25-21 18-25 25-23 22-25 15-7) @ Beijing
+2025-06-07  RR China d. France 3-0 (25-17 25-18 25-11) @ Beijing [home: winner]
+2025-06-08  RR Poland d. Belgium 3-0 (25-11 25-15 27-25) @ Beijing
+2025-06-08  RR Thailand d. France 3-1 (25-14 19-25 25-23 25-13) @ Beijing
+2025-06-08  RR Turkiye d. China 3-2 (19-25 25-20 29-31 28-26 15-12) @ Beijing [home: loser]
+
+== Pool 4 ==
+2025-06-18  RR South Korea d. Canada 3-2 (27-25 25-18 15-25 20-25 15-13) @ Istanbul
+2025-06-18  RR Brazil d. Belgium 3-1 (25-22 24-26 25-16 25-15) @ Istanbul
+2025-06-18  RR Turkiye d. Dominican Republic 3-0 (27-25 25-19 28-26) @ Istanbul [home: winner]
+2025-06-19  RR Dominican Republic d. Belgium 3-0 (25-14 25-18 27-25) @ Istanbul
+2025-06-19  RR Turkiye d. Canada 3-0 (25-16 25-18 26-24) @ Istanbul [home: winner]
+2025-06-20  RR Belgium d. South Korea 3-1 (25-16 20-25 31-29 25-12) @ Istanbul
+2025-06-20  RR Brazil d. Canada 3-0 (25-20 25-23 25-23) @ Istanbul
+2025-06-21  RR Brazil d. Dominican Republic 3-0 (25-23 25-18 25-20) @ Istanbul
+2025-06-21  RR Turkiye d. South Korea 3-0 (25-11 25-13 25-17) @ Istanbul [home: winner]
+2025-06-22  RR Belgium d. Canada 3-2 (22-25 25-13 21-25 25-22 18-16) @ Istanbul
+2025-06-22  RR Dominican Republic d. South Korea 3-2 (19-25 25-17 19-25 25-20 16-14) @ Istanbul
+2025-06-22  RR Brazil d. Turkiye 3-1 (25-18 23-25 25-23 25-15) @ Istanbul [home: loser]
+
+== Pool 5 ==
+2025-06-18  RR Italy d. Bulgaria 3-1 (25-17 23-25 25-15 25-15) @ Hong Kong
+2025-06-18  RR Japan d. Thailand 3-2 (18-25 23-25 25-20 25-15 15-11) @ Hong Kong
+2025-06-18  RR China d. Czechia 3-1 (29-27 23-25 25-15 25-22) @ Hong Kong
+2025-06-19  RR Italy d. Thailand 3-0 (25-19 25-20 25-18) @ Hong Kong
+2025-06-19  RR China d. Bulgaria 3-2 (25-21 22-25 25-15 24-26 16-14) @ Hong Kong
+2025-06-20  RR Czechia d. Bulgaria 3-0 (25-19 25-22 25-11) @ Hong Kong
+2025-06-20  RR Italy d. Japan 3-2 (25-23 16-25 25-15 20-25 19-17) @ Hong Kong
+2025-06-21  RR Czechia d. Thailand 3-0 (25-18 25-16 32-30) @ Hong Kong
+2025-06-21  RR China d. Japan 3-1 (25-15 25-12 18-25 25-22) @ Hong Kong
+2025-06-22  RR Bulgaria d. Thailand 3-2 (26-24 25-13 21-25 22-25 15-9) @ Hong Kong
+2025-06-22  RR Japan d. Czechia 3-0 (25-22 25-17 25-20) @ Hong Kong
+2025-06-22  RR Italy d. China 3-0 (25-21 32-30 25-11) @ Hong Kong
+
+== Pool 6 ==
+2025-06-18  RR Germany d. France 3-2 (25-23 17-25 25-27 30-28 15-11) @ Belgrade
+2025-06-18  RR Poland d. Netherlands 3-2 (17-25 25-23 17-25 25-12 15-10) @ Belgrade
+2025-06-18  RR USA d. Serbia 3-2 (25-22 25-20 22-25 22-25 15-11) @ Belgrade [home: loser]
+2025-06-19  RR Poland d. USA 3-1 (20-25 25-20 25-17 25-18) @ Belgrade
+2025-06-19  RR Germany d. Serbia 3-1 (25-20 23-25 25-17 25-23) @ Belgrade [home: loser]
+2025-06-20  RR France d. Netherlands 3-0 (25-21 25-19 25-20) @ Belgrade
+2025-06-20  RR Poland d. Germany 3-0 (25-16 25-16 25-20) @ Belgrade
+2025-06-21  RR USA d. Netherlands 3-0 (25-18 25-22 25-19) @ Belgrade
+2025-06-21  RR France d. Serbia 3-2 (21-25 25-16 16-25 25-15 15-13) @ Belgrade [home: loser]
+2025-06-22  RR Netherlands d. Germany 3-2 (25-23 19-25 25-21 23-25 15-10) @ Belgrade
+2025-06-22  RR USA d. France 3-2 (25-22 26-24 20-25 21-25 15-13) @ Belgrade
+2025-06-22  RR Poland d. Serbia 3-1 (22-25 25-22 25-22 25-23) @ Belgrade [home: loser]
+
+== Pool 7 ==
+2025-07-09  RR Serbia d. Czechia 3-1 (22-25 25-22 28-26 25-18) @ Apeldoorn
+2025-07-09  RR Italy d. Belgium 3-0 (25-19 25-15 25-18) @ Apeldoorn
+2025-07-09  RR Turkiye d. Netherlands 3-0 (25-19 25-16 25-21) @ Apeldoorn [home: loser]
+2025-07-10  RR Italy d. Serbia 3-0 (25-17 26-24 25-20) @ Apeldoorn
+2025-07-10  RR Netherlands d. Belgium 3-1 (26-24 25-22 22-25 25-22) @ Apeldoorn [home: winner]
+2025-07-11  RR Serbia d. Belgium 3-0 (26-24 25-19 25-16) @ Apeldoorn
+2025-07-11  RR Czechia d. Turkiye 3-1 (25-22 25-21 4-25 25-20) @ Apeldoorn
+2025-07-12  RR Netherlands d. Czechia 3-2 (25-23 23-25 14-25 25-19 15-10) @ Apeldoorn [home: winner]
+2025-07-12  RR Italy d. Turkiye 3-2 (25-19 21-25 21-25 25-20 15-11) @ Apeldoorn
+2025-07-13  RR Belgium d. Czechia 3-1 (19-25 25-23 25-17 25-21) @ Apeldoorn
+2025-07-13  RR Italy d. Netherlands 3-0 (25-23 28-26 25-18) @ Apeldoorn [home: loser]
+2025-07-13  RR Serbia d. Turkiye 3-0 (25-18 25-20 25-18) @ Apeldoorn
+
+== Pool 8 ==
+2025-07-09  RR Germany d. Canada 3-2 (24-26 25-20 23-25 25-23 15-13) @ Arlington
+2025-07-09  RR China d. Dominican Republic 3-2 (25-22 17-25 22-25 25-22 15-13) @ Arlington
+2025-07-09  RR USA d. Thailand 3-1 (28-26 21-25 27-25 25-15) @ Arlington [home: winner]
+2025-07-10  RR Germany d. Thailand 3-0 (26-24 25-19 25-11) @ Arlington
+2025-07-10  RR USA d. Dominican Republic 3-1 (23-25 25-19 25-16 25-20) @ Arlington [home: winner]
+2025-07-11  RR Dominican Republic d. Thailand 3-0 (25-21 25-18 25-23) @ Arlington
+2025-07-11  RR China d. Canada 3-1 (25-22 25-15 22-25 25-23) @ Arlington
+2025-07-12  RR China d. Germany 3-2 (22-25 24-26 25-21 25-17 18-16) @ Arlington
+2025-07-12  RR USA d. Canada 3-2 (26-24 23-25 20-25 25-21 19-17) @ Arlington [home: winner]
+2025-07-13  RR Germany d. Dominican Republic 3-1 (25-20 25-13 21-25 25-21) @ Arlington
+2025-07-13  RR Canada d. Thailand 3-2 (17-25 25-23 30-28 23-25 15-13) @ Arlington
+2025-07-13  RR China d. USA 3-2 (18-25 19-25 25-21 25-16 18-16) @ Arlington [home: loser]
+
+== Pool 9 ==
+2025-07-09  RR Brazil d. Bulgaria 3-1 (25-21 27-29 25-10 25-19) @ Chiba
+2025-07-09  RR Poland d. South Korea 3-1 (18-25 25-19 25-14 28-26) @ Chiba
+2025-07-09  RR Japan d. France 3-0 (25-23 25-16 25-19) @ Chiba [home: winner]
+2025-07-10  RR Brazil d. France 3-2 (23-25 25-21 17-25 25-21 15-11) @ Chiba
+2025-07-10  RR Japan d. South Korea 3-0 (25-21 27-25 25-22) @ Chiba [home: winner]
+2025-07-11  RR France d. Bulgaria 3-1 (25-22 21-25 25-17 25-22) @ Chiba
+2025-07-11  RR Brazil d. Poland 3-1 (25-22 25-21 21-25 25-22) @ Chiba
+2025-07-12  RR Bulgaria d. South Korea 3-2 (25-22 25-20 21-25 23-25 15-13) @ Chiba
+2025-07-12  RR Japan d. Poland 3-1 (25-21 23-25 25-23 25-22) @ Chiba [home: winner]
+2025-07-13  RR France d. South Korea 3-0 (25-17 25-19 25-21) @ Chiba
+2025-07-13  RR Poland d. Bulgaria 3-0 (25-13 25-19 25-17) @ Chiba
+2025-07-13  RR Brazil d. Japan 3-0 (25-17 25-18 25-20) @ Chiba [home: loser]
+
+== Final round ==
+2025-07-23  QF Italy d. USA 3-0 (25-22 25-21 28-26) @ Lodz
+2025-07-23  QF Poland d. China 3-2 (17-25 25-20 19-25 25-19 15-12) @ Lodz [home: winner]
+2025-07-24  QF Japan d. Turkiye 3-2 (25-21 16-25 25-20 22-25 15-9) @ Lodz
+2025-07-24  QF Brazil d. Germany 3-0 (25-19 26-24 25-14) @ Lodz
+2025-07-26  SF Italy d. Poland 3-0 (25-18 25-16 25-14) @ Lodz [home: loser]
+2025-07-26  SF Brazil d. Japan 3-2 (23-25 25-21 25-18 19-25 15-8) @ Lodz
+2025-07-27  3P Poland d. Japan 3-1 (25-15 24-26 25-16 25-23) @ Lodz [home: winner]
+2025-07-27   F Italy d. Brazil 3-1 (22-25 25-18 25-22 25-22) @ Lodz
+
