@@ -1,0 +1,15 @@
+Challenger Cup W 2024 — 2024 FIVB Women's Volleyball Challenger Cup — Manila, Philippines
+tier QUAL | gender W | teams 8 | matches 8 | status closed_verified_gapless
+hosts: Manila (Philippines)
+source policy: built from cited bytes WO-VB-6 Phase A 2026-08-23
+
+== Knockout ==
+2024-07-04  QF Puerto Rico d. Kenya 3-0 (25-20 25-19 27-25) @ Manila
+2024-07-04  QF Belgium d. Sweden 3-0 (25-16 25-23 25-22) @ Manila
+2024-07-05  QF Czechia d. Argentina 3-0 (25-15 25-22 25-16) @ Manila
+2024-07-05  QF Vietnam d. Philippines 3-0 (25-14 25-22 25-21) @ Manila [home: loser]
+2024-07-06  SF Puerto Rico d. Belgium 3-0 (25-19 25-15 25-16) @ Manila
+2024-07-06  SF Czechia d. Vietnam 3-0 (25-19 25-14 25-19) @ Manila
+2024-07-07  3P Vietnam d. Belgium 3-1 (25-23 23-25 25-20 25-17) @ Manila
+2024-07-07   F Czechia d. Puerto Rico 3-1 (25-23 25-20 18-25 25-18) @ Manila
+

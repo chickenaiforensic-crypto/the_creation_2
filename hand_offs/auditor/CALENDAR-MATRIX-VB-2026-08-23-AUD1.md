@@ -47,7 +47,7 @@ Build queue: 15 editions (AVC 3, NORCECA 4, CSV 4, CAVB 4; AVC-W-2021 cancelled)
 ## Qualifiers & other national-team (Tier 3, WO-VB-6)
 | Family | Window notes |
 |---|---|
-| Paris-2024 OQTs | Sep/Oct **2023 only** (three 8-team M + three 8-team W tournaments) — one-shot events, not annual. **BOTH OQTs BUILT** (168; W: DOM/SRB+TUR/BRA+USA/POL, M: GER/BRA+USA/JPN+POL/CAN to Paris); Challenger Cups 2022 BUILT, 2023-24 next |
+| Paris-2024 OQTs | Sep/Oct **2023 only** (three 8-team M + three 8-team W tournaments) — one-shot events, not annual. **BOTH OQTs BUILT** (168; W: DOM/SRB+TUR/BRA+USA/POL, M: GER/BRA+USA/JPN+POL/CAN to Paris); **Challenger Cups 2022–24 ALL BUILT / Phase A CLOSED** (8 editions / 248 rows; discontinuation adjudicated 2024 = fifth and last; ranking-entry wrinkles 2024 UKR-M / BEL-W documented; no new forfeits) |
 | EuroVolley qualifiers | Per-cycle windows (2021-cycle, 2023-cycle, 2026-cycle: 21 teams/7 groups W) |
 | CEV European (Golden) League | Annual; doubles as EuroVolley qualifier — census at WO-VB-6 |
 | FIVB Challenger Cup | Annual 2018–2024/25; **discontinued-pending-confirmation** under the 2025–28 calendar reform — adjudication at WO-VB-6 |

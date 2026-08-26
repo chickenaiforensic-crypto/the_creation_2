@@ -1,0 +1,15 @@
+Challenger Cup M 2024 — 2024 FIVB Men's Volleyball Challenger Cup — Linyi, China
+tier QUAL | gender M | teams 8 | matches 8 | status closed_verified_gapless
+hosts: Linyi (China)
+source policy: built from cited bytes WO-VB-6 Phase A 2026-08-23
+
+== Knockout ==
+2024-07-04  QF China d. Mexico 3-0 (25-23 25-17 25-23) @ Linyi [home: winner]
+2024-07-04  QF Belgium d. Croatia 3-2 (25-20 25-18 22-25 15-25 15-13) @ Linyi
+2024-07-05  QF Ukraine d. Chile 3-1 (20-25 25-23 25-19 25-19) @ Linyi
+2024-07-05  QF Egypt d. Qatar 3-2 (25-16 23-25 27-25 20-25 15-13) @ Linyi
+2024-07-06  SF China d. Egypt 3-0 (25-15 27-25 25-19) @ Linyi [home: winner]
+2024-07-06  SF Belgium d. Ukraine 3-2 (21-25 20-25 25-15 25-21 15-11) @ Linyi
+2024-07-07  3P Egypt d. Ukraine 3-2 (21-25 25-20 20-25 25-17 15-13) @ Linyi
+2024-07-07   F China d. Belgium 3-1 (25-20 25-20 22-25 25-22) @ Linyi [home: winner]
+

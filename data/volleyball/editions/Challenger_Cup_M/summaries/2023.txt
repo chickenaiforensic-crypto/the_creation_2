@@ -1,0 +1,15 @@
+Challenger Cup M 2023 — 2023 FIVB Men's Volleyball Challenger Cup — Doha, Qatar
+tier QUAL | gender M | teams 8 | matches 8 | status closed_verified_gapless
+hosts: Doha (Qatar)
+source policy: built from cited bytes WO-VB-6 Phase A 2026-08-23
+
+== Knockout ==
+2023-07-28  QF Chile d. Tunisia 3-0 (25-19 25-23 25-23) @ Doha
+2023-07-28  QF Ukraine d. China 3-1 (25-19 25-22 23-25 25-19) @ Doha
+2023-07-28  QF Qatar d. Thailand 3-0 (26-24 25-23 26-24) @ Doha [home: winner]
+2023-07-28  QF Turkiye d. Dominican Republic 3-1 (25-20 25-17 24-26 25-19) @ Doha
+2023-07-29  SF Turkiye d. Ukraine 3-2 (18-25 25-23 25-17 19-25 15-13) @ Doha
+2023-07-29  SF Qatar d. Chile 3-0 (25-21 25-22 27-25) @ Doha [home: winner]
+2023-07-30  3P Ukraine d. Chile 3-0 (25-21 25-19 25-18) @ Doha
+2023-07-30   F Turkiye d. Qatar 3-2 (25-13 21-25 25-18 22-25 15-9) @ Doha [home: loser]
+

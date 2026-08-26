@@ -1,0 +1,15 @@
+Challenger Cup W 2023 — 2023 FIVB Women's Volleyball Challenger Cup — Laval, France
+tier QUAL | gender W | teams 8 | matches 8 | status closed_verified_gapless
+hosts: Laval (France)
+source policy: built from cited bytes WO-VB-6 Phase A 2026-08-23
+
+== Knockout ==
+2023-07-27  QF France d. Vietnam 3-0 (25-20 25-16 25-17) @ Laval [home: winner]
+2023-07-27  QF Ukraine d. Croatia 3-1 (25-15 25-15 18-25 25-19) @ Laval
+2023-07-28  QF Sweden d. Mexico 3-2 (20-25 19-25 25-20 25-22 15-5) @ Laval
+2023-07-28  QF Colombia d. Kenya 3-1 (25-22 21-25 25-23 25-19) @ Laval
+2023-07-29  SF France d. Ukraine 3-0 (25-10 25-20 25-22) @ Laval [home: winner]
+2023-07-29  SF Sweden d. Colombia 3-1 (25-17 25-17 22-25 25-17) @ Laval
+2023-07-30  3P Colombia d. Ukraine 3-1 (25-23 12-25 26-24 25-22) @ Laval
+2023-07-30   F France d. Sweden 3-1 (25-21 25-16 22-25 25-15) @ Laval [home: winner]
+
