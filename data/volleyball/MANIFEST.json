@@ -1,6 +1,6 @@
 {
  "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
- "total_editions": 50,
+ "total_editions": 51,
  "editions": [
   {
    "competition": "EuroVolley_W",
@@ -650,6 +650,19 @@
    "year": "2023",
    "official_match_count": 16,
    "match_count": 16,
+   "gap_count": 0
+  },
+  {
+   "file_path": "editions/European_League_W/2023.json",
+   "checksum_sha256": "a7980890c915e54237455aef9325ad2c84c3d7a786cb8e93ed1ab57474c0b542",
+   "status": "closed_verified_gapless",
+   "source": "BUILT WO-VB-6 Phase B Batch 4/3 (AUD1 2026-08-27) from Wikipedia 2023 W EU GL chunks 0-2 + CEV 66291-66296/68630",
+   "competition": "European Golden League W",
+   "tier": "QUAL",
+   "gender": "W",
+   "year": "2023",
+   "official_match_count": 7,
+   "match_count": 7,
    "gap_count": 0
   }
  ],

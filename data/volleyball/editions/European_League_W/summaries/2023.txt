@@ -1,0 +1,16 @@
+European Golden League W 2023 — 2023 Women's European Volleyball Golden League — UKR champion (2nd title); final Bucharest
+tier QUAL | gender W | teams 9 | matches 7 | status closed_verified_gapless
+hosts: Bucharest (final)
+source policy: BUILT WO-VB-6 Phase B Batch 4/3 (AUD1 2026-08-27) from Wikipedia 2023 W EU GL chunks 0-2 + CEV 66291-66296/68630
+
+== Pool A ==
+2023-05-27  RR Belgium d. Bosnia and Herzegovina 3-0 (25-17 25-18 25-17) @ Le Cannet
+2023-05-31  RR Sweden d. Bosnia and Herzegovina 3-1 (25-22 26-24 22-25 25-22) @ Le Cannet
+2023-06-03  RR Belgium d. Sweden 3-1 (25-22 25-14 20-25 25-17) @ Le Cannet
+2023-06-10  RR Bosnia and Herzegovina d. Sweden 2-3 (25-21 25-17 13-25 16-25 8-15) @ Le Cannet
+2023-06-14  RR Bosnia and Herzegovina d. Belgium 0-3 (23-25 14-25 18-25) @ Le Cannet
+2023-06-17  RR Sweden d. Belgium 3-1 (25-23 26-28 25-23 25-15) @ Le Cannet
+
+== Final Round ==
+2023-07-06   F Ukraine d. Sweden 3-0 (25-15 25-20 25-19) @ Bucharest
+
