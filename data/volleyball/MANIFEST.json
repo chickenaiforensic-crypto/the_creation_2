@@ -1,6 +1,6 @@
 {
  "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
- "total_editions": 54,
+ "total_editions": 55,
  "editions": [
   {
    "competition": "EuroVolley_W",
@@ -700,8 +700,21 @@
    "tier": "QUAL",
    "gender": "M",
    "year": "2022",
-   "official_match_count": 4,
-   "match_count": 4,
+   "official_match_count": 6,
+   "match_count": 6,
+   "gap_count": 0
+  },
+  {
+   "file_path": "editions/European_League_M/2022_silver.json",
+   "checksum_sha256": "70f644443f9a3e26c39e6424ac251a5ac23cb31374c6cb184d4fc25da730e515",
+   "status": "closed_verified_gapless",
+   "source": "BUILT WO-VB-6 Phase B Silver Batch (AUD1 2026-08-27)",
+   "competition": "European Silver League M",
+   "tier": "QUAL",
+   "gender": "M",
+   "year": "2022",
+   "official_match_count": 6,
+   "match_count": 6,
    "gap_count": 0
   }
  ],
