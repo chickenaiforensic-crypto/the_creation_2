@@ -1,0 +1,11 @@
+European Golden League W 2022 — 2022 Women's European Volleyball Golden League — Bucharest (neutral final)
+tier QUAL | gender W | teams 9 | matches 2 | status closed_verified_gapless
+hosts: Bucharest (final)
+source policy: BUILT WO-VB-6 Phase B Batch 2/3 (AUD1 2026-08-27) from Wikipedia 2022 W EU GL + CEV stats 60752/60754/60756/60757/60760/60762/61758/61759/61760
+
+== Pool A ==
+2022-05-25  RR France d. Spain 3-0 (25-13 25-17 25-18) @ Le Cannet [home: winner]
+
+== Final Round ==
+2022-06-19   F France d. Czech Republic 3-0 (25-22 27-25 25-14) @ Bucharest
+

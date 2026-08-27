@@ -1,7 +1,7 @@
 {
  "schema_version": "vb-1.1",
  "description": "Compiled volleyball master store — built from data/volleyball/editions/ via build.py. Do not edit directly; edit source files in editions/ and rerun build.py.",
- "count": 2707,
+ "count": 2709,
  "matches": [
   {
    "date": "2021-08-19",
@@ -92039,6 +92039,74 @@
     "note": "WO-VB-6 Phase B build: 2022 European Men's Golden League from Wikipedia wikitext + CEV match-stat URLs; discontinuation/adj not applicable; ranking-entry not applicable.",
     "merge": "WO-VB-6-EU-GL-M-2022-2026-08-23",
     "raw_source": "Wikipedia 2022 Men's European Volleyball League (action=raw 3 chunks) + CEV MatchStatistics.aspx IDs (60727/60729/60731/60734/60735/60737/60739/60742/60743/60745/60747/60749/60788/60789/60791/60792/60793/60794/60795/60796/60797/60798/61290/61291/61292/61293/61294/61295/62796/62795/62803/62804)."
+   }
+  },
+  {
+   "date": "2022-05-25",
+   "competition": "European Golden League W",
+   "tier": "QUAL",
+   "gender": "W",
+   "phase": "Pool A",
+   "round": "RR",
+   "teamA": "France",
+   "teamB": "Spain",
+   "bestOf": 3,
+   "home": "A",
+   "leg": "",
+   "winner": "A",
+   "edition_year": "2022",
+   "setsA": 3,
+   "setsB": 0,
+   "pointsA": 75,
+   "pointsB": 48,
+   "set_scores": "25-13 25-17 25-18",
+   "duration_min": "",
+   "forfeit": false,
+   "golden_set": false,
+   "venue_city": "Le Cannet",
+   "source": "https://www-old.cev.eu/Competition-Area/MatchStatistics.aspx?ID=60752",
+   "status": "completed",
+   "provenance": {
+    "capture_agent": "Auditor 1 - arena/01a015bb-the-creation-2",
+    "capture_date": "2026-08-23",
+    "ssot_write": true,
+    "note": "Batch 2/3",
+    "merge": "WO-VB-6-EU-GL-W-2022-2026-08-27",
+    "raw_source": "CEV 60752"
+   }
+  },
+  {
+   "date": "2022-06-19",
+   "competition": "European Golden League W",
+   "tier": "QUAL",
+   "gender": "W",
+   "phase": "Final Round",
+   "round": "F",
+   "teamA": "France",
+   "teamB": "Czech Republic",
+   "bestOf": 3,
+   "home": "N",
+   "leg": "",
+   "winner": "A",
+   "edition_year": "2022",
+   "setsA": 3,
+   "setsB": 0,
+   "pointsA": 77,
+   "pointsB": 61,
+   "set_scores": "25-22 27-25 25-14",
+   "duration_min": "",
+   "forfeit": false,
+   "golden_set": false,
+   "venue_city": "Bucharest",
+   "source": "https://www-old.cev.eu/Competition-Area/MatchStatistics.aspx?ID=61760",
+   "status": "completed",
+   "provenance": {
+    "capture_agent": "Auditor 1 - arena/01a015bb-the-creation-2",
+    "capture_date": "2026-08-23",
+    "ssot_write": true,
+    "note": "Batch 2/3. Final F FRA 3-0 CZE (61760).",
+    "merge": "WO-VB-6-EU-GL-W-2022-2026-08-27",
+    "raw_source": "CEV 61760"
    }
   }
  ]

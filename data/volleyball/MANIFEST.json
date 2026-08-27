@@ -1,6 +1,6 @@
 {
  "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
- "total_editions": 48,
+ "total_editions": 49,
  "editions": [
   {
    "competition": "EuroVolley_W",
@@ -624,6 +624,19 @@
    "year": "2022",
    "official_match_count": 31,
    "match_count": 31,
+   "gap_count": 0
+  },
+  {
+   "file_path": "editions/European_League_W/2022.json",
+   "checksum_sha256": "34dbd9d38340d5901b11794373b6fdd17c0cb497712a377ca1dfc57ef4fbdf39",
+   "status": "closed_verified_gapless",
+   "source": "BUILT WO-VB-6 Phase B Batch 2/3 (AUD1 2026-08-27) from Wikipedia 2022 W EU GL + CEV stats 60752/60754/60756/60757/60760/60762/61758/61759/61760",
+   "competition": "European Golden League W",
+   "tier": "QUAL",
+   "gender": "W",
+   "year": "2022",
+   "official_match_count": 2,
+   "match_count": 2,
    "gap_count": 0
   }
  ],
