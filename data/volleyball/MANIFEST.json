@@ -1,6 +1,6 @@
 {
  "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
- "total_editions": 51,
+ "total_editions": 53,
  "editions": [
   {
    "competition": "EuroVolley_W",
@@ -663,6 +663,32 @@
    "year": "2023",
    "official_match_count": 7,
    "match_count": 7,
+   "gap_count": 0
+  },
+  {
+   "file_path": "editions/European_League_M/2024.json",
+   "checksum_sha256": "b97486799f66896a237b66919fe3e41218e8717a3a640ac6dfd4fba68c181351",
+   "status": "closed_verified_gapless",
+   "source": "BUILT WO-VB-6 Phase B Batch 5 (AUD1 2026-08-27) from 2024 EU GL source pages / CEV stats; champion CHN / CZE; discontinuation N/A; ranking-entry UKR-M / BEL-W embedded; capture_date 2026-08-23.",
+   "competition": "European Golden League M",
+   "tier": "QUAL",
+   "gender": "M",
+   "year": "2024",
+   "official_match_count": 5,
+   "match_count": 5,
+   "gap_count": 0
+  },
+  {
+   "file_path": "editions/European_League_W/2024.json",
+   "checksum_sha256": "34deae2bbaa33544f643627a7cb8d6bcdd458de2d59b3a926515073bf9245107",
+   "status": "closed_verified_gapless",
+   "source": "BUILT WO-VB-6 Phase B Batch 5 (AUD1 2026-08-27) from 2024 EU GL source pages / CEV stats; champion CHN / CZE; discontinuation N/A; ranking-entry UKR-M / BEL-W embedded; capture_date 2026-08-23.",
+   "competition": "European Golden League W",
+   "tier": "QUAL",
+   "gender": "W",
+   "year": "2024",
+   "official_match_count": 3,
+   "match_count": 3,
    "gap_count": 0
   }
  ],
