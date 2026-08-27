@@ -328,7 +328,7 @@
       "gap_count": 0
     },
     {
-      "tournament": "Cincinnati Masters",
+      "tournament": "Cincinnati",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2021",
@@ -336,12 +336,12 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2021 Western & Southern Open - Men's singles infobox: Draw 56, Seeds 16, top-8 seeds bye",
       "match_count": 55,
-      "checksum_sha256": "4eabf3c1f5f1a43cd20edd429f39d5c639362868b83cdbad1631c0d9cd55abac",
+      "checksum_sha256": "e71d7d60bfbf0941e80c67679c038381b1eea7d014dba058d12da51a7cdbad9b",
       "file_path": "editions/Cincinnati_Masters/2021.json",
       "gap_count": 0
     },
     {
-      "tournament": "Cincinnati Masters",
+      "tournament": "Cincinnati",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2022",
@@ -349,12 +349,12 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2022 Western & Southern Open - Men's singles infobox: Draw 56, Seeds 16, top-8 seeds bye",
       "match_count": 55,
-      "checksum_sha256": "1cd7d4eb7940a15e190087ac03297a485b4932b9f0bd2acd3039ac32bbc3c918",
+      "checksum_sha256": "313a94a5a0c574f706a01c24e5c73e32adf87ac5df0ebf8c6c4ed7f816c5387d",
       "file_path": "editions/Cincinnati_Masters/2022.json",
       "gap_count": 0
     },
     {
-      "tournament": "Cincinnati Masters",
+      "tournament": "Cincinnati",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2023",
@@ -362,12 +362,12 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2023 Western & Southern Open - Men's singles infobox: Draw 56, Seeds 16, top-8 seeds bye",
       "match_count": 55,
-      "checksum_sha256": "016a8f31d6f3b04fb40b471f53893c5080e3870c8d01105fc3be6564beedaedd",
+      "checksum_sha256": "2474fe8b7efecb314264c746313d64b419ceb87b05b8338acfd2b8542a51843e",
       "file_path": "editions/Cincinnati_Masters/2023.json",
       "gap_count": 0
     },
     {
-      "tournament": "Cincinnati Masters",
+      "tournament": "Cincinnati",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2024",
@@ -375,12 +375,12 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2024 Cincinnati Open - Men's singles infobox: Draw 56, Seeds 16, top-8 seeds bye",
       "match_count": 55,
-      "checksum_sha256": "2a1e39a11c86c646bae0c487a7394d4c6664b5b8194e10244a3cf376a3da6117",
+      "checksum_sha256": "665deade99e00731ab6ea983b61d68f130b90778af86a1d3064f060077355e44",
       "file_path": "editions/Cincinnati_Masters/2024.json",
       "gap_count": 0
     },
     {
-      "tournament": "Cincinnati Masters",
+      "tournament": "Cincinnati",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2025",
@@ -388,7 +388,7 @@
       "status": "closed_verified_gapless",
       "source": "Wikipedia 2025 Cincinnati Open - Men's singles infobox: Draw 96, Seeds 32, all seeds bye into 2nd round",
       "match_count": 95,
-      "checksum_sha256": "e0b7ac0d7fe5e081bfcf5ce567b7b6695df8c5c9209796495d681be08a9a2638",
+      "checksum_sha256": "3fcebeec98f0d464bf16333785be88106aa5f19ae32f6fb770f39af45e62ec9b",
       "file_path": "editions/Cincinnati_Masters/2025.json",
       "gap_count": 0
     },
@@ -1550,7 +1550,7 @@
       "gap_count": 0
     },
     {
-      "tournament": "Indian Wells Masters",
+      "tournament": "Indian Wells",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2021",
@@ -1558,12 +1558,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "c35f37559e7f37b4f44d080a2a0c285d177673dbaa2a99ee180c1f7b110d9e88",
+      "checksum_sha256": "72044d3a164afc0d0f3c61cdcc39a41945d8f844c14b813dac2a248f7cb095d1",
       "file_path": "editions/Indian_Wells_Masters/2021.json",
       "gap_count": 2
     },
     {
-      "tournament": "Indian Wells Masters",
+      "tournament": "Indian Wells",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2022",
@@ -1571,12 +1571,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "fdfa5ea2f5bab4bf79d5a8703895f9b8f6ca88ec4c3784daa77f8ad6e694c5ea",
+      "checksum_sha256": "b5f94ed6fcdb28e14d38cf4e2b2088e46d7f95471a581180e39501fdbc2c4b17",
       "file_path": "editions/Indian_Wells_Masters/2022.json",
       "gap_count": 2
     },
     {
-      "tournament": "Indian Wells Masters",
+      "tournament": "Indian Wells",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2023",
@@ -1584,12 +1584,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "001b9c2bfa0363fc35ba82150b1b8fd564fdc80ee2972c1db29a46da4d2da216",
+      "checksum_sha256": "90c76f3e6998a30b4df4dbef7a027841fa2cf178810fba3c0b81bdefdb5f9ae0",
       "file_path": "editions/Indian_Wells_Masters/2023.json",
       "gap_count": 4
     },
     {
-      "tournament": "Indian Wells Masters",
+      "tournament": "Indian Wells",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2024",
@@ -1597,12 +1597,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "8762bd3ebb7ab319ba09e78298423b1080a9fd4478db1699a039311d6aaa8afa",
+      "checksum_sha256": "b60d3332a600012e46681c8a9ceafe0cefa2d59d12ebac06fb44da2f4df5e638",
       "file_path": "editions/Indian_Wells_Masters/2024.json",
       "gap_count": 2
     },
     {
-      "tournament": "Indian Wells Masters",
+      "tournament": "Indian Wells",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2025",
@@ -1610,12 +1610,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "aa0f027a1f68049da80133bb1096bcaa96ce85e3ba6a5f1e32bf037c34d8e475",
+      "checksum_sha256": "573765e3b11ee8610dccb2ff945a516816d7c967bd8939682c4814a438f076b7",
       "file_path": "editions/Indian_Wells_Masters/2025.json",
       "gap_count": 4
     },
     {
-      "tournament": "Indian Wells Masters",
+      "tournament": "Indian Wells",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2026",
@@ -1623,7 +1623,7 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "f5414908143989816fc3142fcfc4d0ae31cc38c3474634bc966a1f72e580fe43",
+      "checksum_sha256": "d9875281738a5efc24e114fbf07c85ea0169f157f22eee931ef7eb45bb745ebd",
       "file_path": "editions/Indian_Wells_Masters/2026.json",
       "gap_count": 3
     },
@@ -1706,7 +1706,7 @@
       "gap_count": 4
     },
     {
-      "tournament": "Miami Masters",
+      "tournament": "Miami",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2021",
@@ -1714,12 +1714,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "e914e9809d5fcd21298f26838ea7ab6e3219e301d29c57336f7d5016476ae490",
+      "checksum_sha256": "f85711c75877601099431d803958149fd240e101222fc33ae81b596dc80819e9",
       "file_path": "editions/Miami_Masters/2021.json",
       "gap_count": 3
     },
     {
-      "tournament": "Miami Masters",
+      "tournament": "Miami",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2022",
@@ -1727,12 +1727,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "909e7c93c9677c176f4c6d416a055e5216b15f4e2737595a9b2049adff8f59d1",
+      "checksum_sha256": "2ad1ad693d919f5faa3774fcc4a0e5e8e5bd60d7d73753fc04e4c190675810d4",
       "file_path": "editions/Miami_Masters/2022.json",
       "gap_count": 2
     },
     {
-      "tournament": "Miami Masters",
+      "tournament": "Miami",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2023",
@@ -1740,12 +1740,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "c3e28b6e03e2b5fe1d48b3462b2f875f91342cde1e068467ac72fb40412c8040",
+      "checksum_sha256": "92b077bce6a6f74d0f123b5ca7db21d7729f28eb5e664fce3b7ba4608c0e29e0",
       "file_path": "editions/Miami_Masters/2023.json",
       "gap_count": 6
     },
     {
-      "tournament": "Miami Masters",
+      "tournament": "Miami",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2024",
@@ -1753,12 +1753,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "bbbbb05f9d3fef02bc69b193b409be52977c1308fc0e4b4e8ddc31cf3abe051e",
+      "checksum_sha256": "77afc91432bcb808f0d89b16502eda14ef4c980af259f5dc5cd004d050098759",
       "file_path": "editions/Miami_Masters/2024.json",
       "gap_count": 1
     },
     {
-      "tournament": "Miami Masters",
+      "tournament": "Miami",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2025",
@@ -1766,12 +1766,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "b33784f5ace9c684c3e062a7255c12090858a59ad0300be35ef0635800dac71a",
+      "checksum_sha256": "50e7293eb6816b410030f1757efda69b95d787a85d44a21f773431c45e3ca37c",
       "file_path": "editions/Miami_Masters/2025.json",
       "gap_count": 3
     },
     {
-      "tournament": "Miami Masters",
+      "tournament": "Miami",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2026",
@@ -1779,7 +1779,7 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "6eb74d5a4bc5573a9fb7a3184c8b7bd03b836e4dbb88451d5a319ba45fd1fe3e",
+      "checksum_sha256": "e2ee0fa9f67cea6d6bcf681604e59a4710f9a2b5dc63243e3a53983bc9f13365",
       "file_path": "editions/Miami_Masters/2026.json",
       "gap_count": 1
     },
@@ -1940,7 +1940,7 @@
       "gap_count": 2
     },
     {
-      "tournament": "Madrid Masters",
+      "tournament": "Madrid",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2021",
@@ -1948,12 +1948,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
       "match_count": 55,
-      "checksum_sha256": "00de0bf39aaeecab1f15cfd4a7387f6e8de14b25e78d8c8070b8877592aa95c0",
+      "checksum_sha256": "c6dccd800038f868c9489668bd313792a2ec1b5aa6d6a65d24b6f16ca3adb901",
       "file_path": "editions/Madrid_Masters/2021.json",
       "gap_count": 2
     },
     {
-      "tournament": "Madrid Masters",
+      "tournament": "Madrid",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2022",
@@ -1961,12 +1961,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
       "match_count": 55,
-      "checksum_sha256": "602544515837b7cd59574a1eca1a25572dddd21e59dde5077147a535e51d4707",
+      "checksum_sha256": "b266d08a4c4e66f5985955e18c6a9c729377b57f49cbfbf6f44c237b43e2c0b2",
       "file_path": "editions/Madrid_Masters/2022.json",
       "gap_count": 2
     },
     {
-      "tournament": "Madrid Masters",
+      "tournament": "Madrid",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2023",
@@ -1974,12 +1974,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "c232aa920cd1466ec19d2abd5060d0cf237b0fcd728d91aa6a758b29cfd4ac17",
+      "checksum_sha256": "9ec8e1eaaad9fb291504e439e81b9d5ea9b1d5757bbaf946ae17562914d5b1ce",
       "file_path": "editions/Madrid_Masters/2023.json",
       "gap_count": 1
     },
     {
-      "tournament": "Madrid Masters",
+      "tournament": "Madrid",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2024",
@@ -1987,12 +1987,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "8c1b0e6c4ae62c1eee1e7aee97856610a79395f53ee4b33dc988356c3aab439d",
+      "checksum_sha256": "61cc1cf61a3ff5e19301e2ab819d6d3873650c65a075f241f109c742078265cd",
       "file_path": "editions/Madrid_Masters/2024.json",
       "gap_count": 3
     },
     {
-      "tournament": "Madrid Masters",
+      "tournament": "Madrid",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2025",
@@ -2000,12 +2000,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "52499dbe08f73d338c246346b0e4f025e7397c32be8653df87949dacc75b1c64",
+      "checksum_sha256": "f4c71670f35c59edb8394f9ee2f1bb306a95d849d0c2541af80f3865018d7e63",
       "file_path": "editions/Madrid_Masters/2025.json",
       "gap_count": 9
     },
     {
-      "tournament": "Madrid Masters",
+      "tournament": "Madrid",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2026",
@@ -2013,7 +2013,7 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "80a4d7ffb5f633ff9a475b0f62c1d1d037f87b93399d6ccb3db35a5a2631f826",
+      "checksum_sha256": "4708fa0a903ca3b8aa3750efe3deee10ab3d51a8b2a1825b5d26afdbc2b965a5",
       "file_path": "editions/Madrid_Masters/2026.json",
       "gap_count": 4
     },
@@ -2096,7 +2096,7 @@
       "gap_count": 2
     },
     {
-      "tournament": "Rome Masters",
+      "tournament": "Rome",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2021",
@@ -2104,12 +2104,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
       "match_count": 55,
-      "checksum_sha256": "8c5561b9fa12a0e0dc6482065b1bd23e0020b2833691163e3b935bb3e48f8591",
+      "checksum_sha256": "9aa4ad87e2f157ca18c2e2d72aa29f8f2a6eb81021b7017aa219cd845790197d",
       "file_path": "editions/Rome_Masters/2021.json",
       "gap_count": 2
     },
     {
-      "tournament": "Rome Masters",
+      "tournament": "Rome",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2022",
@@ -2117,12 +2117,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
       "match_count": 55,
-      "checksum_sha256": "9504e254d97671e42fc0da91961b02b1cc4329a6faf515e52d351d34e2eec462",
+      "checksum_sha256": "c1b611e253e4968675e16af377428d04c5e6b3c44731990e89e613962406d434",
       "file_path": "editions/Rome_Masters/2022.json",
       "gap_count": 0
     },
     {
-      "tournament": "Rome Masters",
+      "tournament": "Rome",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2023",
@@ -2130,12 +2130,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "1bfdd3aee8501c812186a45c009b32a410b7466efc6c36b08b0f3d95fd38e2a8",
+      "checksum_sha256": "8c00323f9b06d0bc492e5034b7caa9de57aa9ce0b5ac59579ade462d7eb91f97",
       "file_path": "editions/Rome_Masters/2023.json",
       "gap_count": 3
     },
     {
-      "tournament": "Rome Masters",
+      "tournament": "Rome",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2024",
@@ -2143,12 +2143,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "faca32884d96eb457eaf262dc8b918ac2ba6935517cc73f0adcdbd0a9548011a",
+      "checksum_sha256": "9405350534ea8121d6986a27bcd958f56d501a3e5d7d4e1bc58b5f74e5d0d10a",
       "file_path": "editions/Rome_Masters/2024.json",
       "gap_count": 2
     },
     {
-      "tournament": "Rome Masters",
+      "tournament": "Rome",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2025",
@@ -2156,12 +2156,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "5c76edaa4dd17d00f5e620354ade3d01a2c8ebeaaf4c0880ff28bbb0f9c8e365",
+      "checksum_sha256": "7ce3ae0f7a3fa75fed6cd77aa093e10ef3a08ef8ade9652208fcf105cef8323a",
       "file_path": "editions/Rome_Masters/2025.json",
       "gap_count": 4
     },
     {
-      "tournament": "Rome Masters",
+      "tournament": "Rome",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2026",
@@ -2169,7 +2169,7 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "eca2bdd15c6106b3162e933906fc751e6cdad3f33247667de98f59ae0626d9e7",
+      "checksum_sha256": "5fcd19daca9cd8f8f0d57e1e11b78022bc622a7b7a26ee1b57a23651ed1edc52",
       "file_path": "editions/Rome_Masters/2026.json",
       "gap_count": 2
     },
@@ -2252,7 +2252,7 @@
       "gap_count": 1
     },
     {
-      "tournament": "Canada Masters",
+      "tournament": "Montreal",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2021",
@@ -2260,12 +2260,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 47/47, template exact, 16 byes, spine complete = draw 64 (COVID-era 16-bye field, exp 47 - documented exception)",
       "match_count": 47,
-      "checksum_sha256": "7c4c8c87797de8af4b9139247855084ed7595e8d40efbec040b3e031f0d43f51",
+      "checksum_sha256": "2b5006d0507d57fd2a4cba80376fa817d7043e6952b2d71438c13d2cf0662107",
       "file_path": "editions/Canada_Masters/2021.json",
       "gap_count": 1
     },
     {
-      "tournament": "Canada Masters",
+      "tournament": "Toronto",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2022",
@@ -2273,12 +2273,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
       "match_count": 55,
-      "checksum_sha256": "0f3ac950dca6aa480be966b0ed06a067091143ae0c1c5de4787417d7cb3dd4ab",
+      "checksum_sha256": "aefb558cb7d779238416600720a27ab14a558384493f272d536b1ecd2a8baa2f",
       "file_path": "editions/Canada_Masters/2022.json",
       "gap_count": 1
     },
     {
-      "tournament": "Canada Masters",
+      "tournament": "Montreal",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2023",
@@ -2286,12 +2286,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
       "match_count": 55,
-      "checksum_sha256": "a0c25ff91aaac59202c1e74ce6422e1e5014f3a15ff7689a079911d5aa28bd76",
+      "checksum_sha256": "3d5d2b8888a089662ec5dcdb70be0175161e3e07ba0bda70d84d7fdca558d9ed",
       "file_path": "editions/Canada_Masters/2023.json",
       "gap_count": 1
     },
     {
-      "tournament": "Canada Masters",
+      "tournament": "Toronto",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2024",
@@ -2299,12 +2299,12 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 55/55, template exact, 8 byes, spine complete = draw 56",
       "match_count": 55,
-      "checksum_sha256": "c68bf43b13ccb0e3258fb6a06b9930db584862cc6a9f80ad54b3c785dd83e18b",
+      "checksum_sha256": "af351f5a64974bbd5b44eca1d05c511162811a163279c7adfc5313283302257a",
       "file_path": "editions/Canada_Masters/2024.json",
       "gap_count": 3
     },
     {
-      "tournament": "Canada Masters",
+      "tournament": "Montreal",
       "tour": "ATP",
       "tier": "M1000",
       "year": "2025",
@@ -2312,7 +2312,7 @@
       "status": "closed_verified_gapless",
       "source": "Structural proof post-fix: 95/95, template exact, 32 byes, spine complete = draw 96",
       "match_count": 95,
-      "checksum_sha256": "a363740908363c784821d49b8cf45013e7001e7a7ddaa4c5d9ae3055f3c3d42d",
+      "checksum_sha256": "2daae10175174a91740300eadd0dddb0001d6632c7195ab1b7dde68acdfb6988",
       "file_path": "editions/Canada_Masters/2025.json",
       "gap_count": 5
     },
@@ -2622,7 +2622,7 @@
       "year": "2023",
       "draw_size": 56,
       "status": "closed_verified_gapless",
-      "source": "BUILT 100% from TennisExplorer bytes under T-038 (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Slug guadalajara-2-wta/2023 locked by champion anchor (Sakkari d. Dolehide 7-5 6-3 = census Wikipedia read). Draw 56 byte-read from TE bracket (64 slots, 8 byes: 7 seeds 1/2/3/4/6/7/8 + LL Elvina Kalieva INHERITING withdrawn seed 5 Bencic's bye - LL-INTO-BYE #13, Bencic withdrawal wtatennis.com 2023-09-19; second LL Vickery in withdrawn seed 9 Haddad Maia's PLAYED slot - hand injury from a shattered hotel shower door, sportskeeda 2023-09-19 + Wikipedia LL list); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; 1 retirement 100% header re-read: Vickery d. Collins 7-6(7) ret after set 1 (LOWER BACK, wtatennis.com official 2023-09-19) - the LL-advances-by-ret subplot. 5 STORE-NEW names header-proven via TE match-detail (Western order per locked rule): Stacey Fung, Grace Min, Ana Sofia Sanchez, Demi Schuurs (doubles star in singles main draw as Q), Lya Fernández (Mexican WC). A Grokipedia seeds table contradicting TE bytes + Wikipedia (claimed 6=Haddad Maia) was rejected on bytes - Beijing-2023 precedent. Champion Sakkari d. Dolehide 7-5 6-3 - her first WTA 1000 title, ending an 0-8 final drought at tour level since 2019; UNSEEDED Dolehide's qualifier-to-final run (d. Stearns in an ALL-TIEBREAK 6-7(1) 7-6(5) 7-6(2) 1R, then Alexandrova(8)/Trevisan/Kenin) preserved; Trevisan upset of Jabeur(1) R16 6-7(4) 7-5 6-3 preserved. WTA Guadalajara Open Akron, outdoor hard, Sep 17-24 2023; final year at 1000 level (500 from 2024).",
+      "source": "BUILT 100% from TennisExplorer bytes under T-038 (no claude_1 slice exists - coverage extension per PLAN-T036, Phase-0 authorized). Slug guadalajara-2-wta/2023 locked by champion anchor (Sakkari d. Dolehide 7-5 6-3 = census Wikipedia read). Draw 56 byte-read from TE bracket (64 slots, 8 byes: 7 seeds 1/2/3/4/6/7/8 + LL Elvina Kalieva INHERITING withdrawn seed 5 Bencic's bye - LL-INTO-BYE #13, Bencic withdrawal wtatennis.com 2023-09-19; second LL Vickery in withdrawn seed 9 Haddad Maia's PLAYED slot - hand injury from a shattered hotel shower door, sportskeeda 2023-09-19 + Wikipedia LL list); 55/55 rows, template 24/16/8/4/2/1 exact, exhaustive spine R64->F; every row cites its TE match-detail URL; 1 retirement 100% header re-read: Vickery d. Collins 7-6(7) ret after set 1 (LOWER BACK, wtatennis.com official 2023-09-19) - the LL-advances-by-ret subplot. 5 STORE-NEW names header-proven via TE match-detail (Western order per locked rule): Stacey Fung, Grace Min, Ana Sofia Sanchez, Demi Schuurs (doubles star in singles main draw as Q), Lya Fern\u00e1ndez (Mexican WC). A Grokipedia seeds table contradicting TE bytes + Wikipedia (claimed 6=Haddad Maia) was rejected on bytes - Beijing-2023 precedent. Champion Sakkari d. Dolehide 7-5 6-3 - her first WTA 1000 title, ending an 0-8 final drought at tour level since 2019; UNSEEDED Dolehide's qualifier-to-final run (d. Stearns in an ALL-TIEBREAK 6-7(1) 7-6(5) 7-6(2) 1R, then Alexandrova(8)/Trevisan/Kenin) preserved; Trevisan upset of Jabeur(1) R16 6-7(4) 7-5 6-3 preserved. WTA Guadalajara Open Akron, outdoor hard, Sep 17-24 2023; final year at 1000 level (500 from 2024).",
       "match_count": 55,
       "checksum_sha256": "069370bd361336c5599d7d3b1ac5e858374fd4b7914349ba358ce81265849a09",
       "file_path": "editions/Guadalajara/2023.json",
