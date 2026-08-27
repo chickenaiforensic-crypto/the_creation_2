@@ -1,6 +1,6 @@
 {
  "description": "Volleyball editions manifest - every edition in the compiled store, checksum-gated. See DATA-RULES-VB.md.",
- "total_editions": 55,
+ "total_editions": 57,
  "editions": [
   {
    "competition": "EuroVolley_W",
@@ -715,6 +715,32 @@
    "year": "2022",
    "official_match_count": 6,
    "match_count": 6,
+   "gap_count": 0
+  },
+  {
+   "file_path": "editions/European_League_M/2025.json",
+   "checksum_sha256": "8aee79877af2483fe81033381c695eaf78afd69e234dff6a3d73b87c6ec86fa5",
+   "status": "closed_verified_gapless",
+   "source": "BUILT WO-VB-6 Phase B 2025 (AUD1 2026-08-27) from Wikipedia 2025 M EU GL + CEV evglm-ff1/ff2/ff3/ff4",
+   "competition": "European Golden League M",
+   "tier": "QUAL",
+   "gender": "M",
+   "year": "2025",
+   "official_match_count": 4,
+   "match_count": 4,
+   "gap_count": 0
+  },
+  {
+   "file_path": "editions/European_League_M/2026.json",
+   "checksum_sha256": "b9e0e6737f6a035352164daea11ae1ca967ffeab8ee2f2d8afe429061ada1696",
+   "status": "closed_verified_gapless",
+   "source": "BUILT WO-VB-6 Phase B Batch 2025-2026 (AUD1 2026-08-27) from Wikipedia 2026 M EU GL + CEV evglm sources; champion FIN; 27 teams",
+   "competition": "European Golden League M",
+   "tier": "QUAL",
+   "gender": "M",
+   "year": "2026",
+   "official_match_count": 4,
+   "match_count": 4,
    "gap_count": 0
   }
  ],
