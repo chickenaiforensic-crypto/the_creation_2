@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 202,
+  "total_editions": 203,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2626,6 +2626,19 @@
       "match_count": 55,
       "checksum_sha256": "069370bd361336c5599d7d3b1ac5e858374fd4b7914349ba358ce81265849a09",
       "file_path": "editions/Guadalajara/2023.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Ningbo",
+      "tour": "WTA",
+      "tier": "WTA500",
+      "year": "2024",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "WTA official scores archive (wtatennis.com/tournaments/2092/ningbo/2024/scores/), tennismajors.com round reports, wtatennis.com news recaps, sportskeeda.com previews, puntodebreak.com day-by-day results. Byte cross-verified match-by-match, not bulk-copied from a single source. Ningbo elevated to WTA500 in 2024, replacing the cancelled Zhengzhou Open slot (WTA announcement). 4 byes into R16: Krejcikova (own top-4 seed bye, seed 4); Kasatkina and Haddad Maia (seeds 5/6, bumped up to fill Paolini/Navarro's vacated bye slots after their withdrawal); Cristian (lucky loser, inherited Zheng's vacated bye slot). Top 3 seeds (Paolini, Zheng, Navarro) withdrew without playing. Per-match dates assigned at round-day granularity (confirmed via press: R32=Mon Oct 14, R16=Wed Oct 16, QF=Fri Oct 18, SF=Sat Oct 19, F=Sun Oct 20) rather than individually verified per match, since exact intra-day match times were not sourced for every match.",
+      "match_count": 27,
+      "checksum_sha256": "c42037d404485994541f9749883be45b1e0b648b224969a8b2ab85f33a350658",
+      "file_path": "editions/Ningbo/2024.json",
       "gap_count": 0
     }
   ],
