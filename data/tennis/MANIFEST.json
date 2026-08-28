@@ -2637,7 +2637,7 @@
       "status": "closed_verified_gapless",
       "source": "WTA official scores archive (wtatennis.com/tournaments/2092/ningbo/2024/scores/), tennismajors.com round reports, wtatennis.com news recaps, sportskeeda.com previews, puntodebreak.com day-by-day results. Byte cross-verified match-by-match, not bulk-copied from a single source. Ningbo elevated to WTA500 in 2024, replacing the cancelled Zhengzhou Open slot (WTA announcement). 4 byes into R16: Krejcikova (own top-4 seed bye, seed 4); Kasatkina and Haddad Maia (seeds 5/6, bumped up to fill Paolini/Navarro's vacated bye slots after their withdrawal); Cristian (lucky loser, inherited Zheng's vacated bye slot). Top 3 seeds (Paolini, Zheng, Navarro) withdrew without playing. Per-match dates assigned at round-day granularity (confirmed via press: R32=Mon Oct 14, R16=Wed Oct 16, QF=Fri Oct 18, SF=Sat Oct 19, F=Sun Oct 20) rather than individually verified per match, since exact intra-day match times were not sourced for every match.",
       "match_count": 27,
-      "checksum_sha256": "c42037d404485994541f9749883be45b1e0b648b224969a8b2ab85f33a350658",
+      "checksum_sha256": "b22be2ce9697b3d31dfd857afddb2203151820d08b0f833255afc815413b7829",
       "file_path": "editions/Ningbo/2024.json",
       "gap_count": 0
     },
@@ -2650,7 +2650,7 @@
       "status": "closed_verified_gapless",
       "source": "WTA official scores archive (wtatennis.com/tournaments/2092/ningbo/2025/scores/), wtatennis.com news recaps ('Zhu defeats ailing Raducanu in Ningbo; Yastremska powers past Mboko'), tennis-wta.com day-by-day results, Wikipedia 2025 Ningbo Open entrant-status list, ESPN digit-decoded scoreboard cross-verification. Bracket spine verified programmatically: every round's participants trace cleanly to the prior round's winners. 4 byes into R16 (top-4 seeds, all played, no withdrawals this edition): Andreeva, Alexandrova, Rybakina, Paolini. Reigning champion Daria Kasatkina withdrew before the tournament (personal reasons, per Wikipedia) and does not appear anywhere in this draw. Two corrections made during sourcing: (1) a pasted source's Yastremska-Mboko tiebreak claim of 7-6(1) was checked against WTA's own news recap and corrected to the confirmed 7-6(3); (2) Antonia Ruzic's apparent double-loss (once to Tomljanovic, once to Kudermetova) was resolved via Wikipedia's entrant-status list confirming Ruzic entered as a lucky loser from qualifying \u2014 her loss to Tomljanovic was a qualifying-round match, excluded from this main-draw-only dataset; only the Kudermetova result (6-3 6-2, main draw R32) is included here.",
       "match_count": 27,
-      "checksum_sha256": "9d074e1ce2c676d2f0bd8a59947709e6d59488ea36bd930bb69cc22c86777cb8",
+      "checksum_sha256": "c516df1253127d9256de244f3da4acc410a49dcd52dda3a58d27f502050e8c02",
       "file_path": "editions/Ningbo/2025.json",
       "gap_count": 0
     }
