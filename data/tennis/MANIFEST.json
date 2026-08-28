@@ -1,6 +1,6 @@
 {
   "description": "Central manifest for closed, verified, in-scope tennis editions migrated to this branch. Single source of truth for status/source/audit fields.",
-  "total_editions": 203,
+  "total_editions": 204,
   "editions": [
     {
       "tournament": "Rotterdam",
@@ -2639,6 +2639,19 @@
       "match_count": 27,
       "checksum_sha256": "c42037d404485994541f9749883be45b1e0b648b224969a8b2ab85f33a350658",
       "file_path": "editions/Ningbo/2024.json",
+      "gap_count": 0
+    },
+    {
+      "tournament": "Ningbo",
+      "tour": "WTA",
+      "tier": "WTA500",
+      "year": "2025",
+      "draw_size": 28,
+      "status": "closed_verified_gapless",
+      "source": "WTA official scores archive (wtatennis.com/tournaments/2092/ningbo/2025/scores/), wtatennis.com news recaps ('Zhu defeats ailing Raducanu in Ningbo; Yastremska powers past Mboko'), tennis-wta.com day-by-day results, Wikipedia 2025 Ningbo Open entrant-status list, ESPN digit-decoded scoreboard cross-verification. Bracket spine verified programmatically: every round's participants trace cleanly to the prior round's winners. 4 byes into R16 (top-4 seeds, all played, no withdrawals this edition): Andreeva, Alexandrova, Rybakina, Paolini. Reigning champion Daria Kasatkina withdrew before the tournament (personal reasons, per Wikipedia) and does not appear anywhere in this draw. Two corrections made during sourcing: (1) a pasted source's Yastremska-Mboko tiebreak claim of 7-6(1) was checked against WTA's own news recap and corrected to the confirmed 7-6(3); (2) Antonia Ruzic's apparent double-loss (once to Tomljanovic, once to Kudermetova) was resolved via Wikipedia's entrant-status list confirming Ruzic entered as a lucky loser from qualifying \u2014 her loss to Tomljanovic was a qualifying-round match, excluded from this main-draw-only dataset; only the Kudermetova result (6-3 6-2, main draw R32) is included here.",
+      "match_count": 27,
+      "checksum_sha256": "9d074e1ce2c676d2f0bd8a59947709e6d59488ea36bd930bb69cc22c86777cb8",
+      "file_path": "editions/Ningbo/2025.json",
       "gap_count": 0
     }
   ],
